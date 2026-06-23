@@ -2,64 +2,1316 @@
   "schema": "curriculum/v2",
   "source": "PFL2 — Programme de français langue seconde, Niveaux A et B (École de la fonction publique du Canada, 2005). See sources/manifest.json.",
   "levelSplit": "A = OF1–OF20, B = OF21–OF40 (standard PFL2 structure; not explicitly marked in the per-OF source documents).",
-  "levels": ["A", "B"],
-  "skills": ["reading", "writing", "listening", "speaking", "grammar", "vocabulary"],
+  "levels": [
+    "A",
+    "B"
+  ],
+  "skills": [
+    "reading",
+    "writing",
+    "listening",
+    "speaking",
+    "grammar",
+    "vocabulary"
+  ],
   "themes": [
-    "personal_info", "workplace", "meetings", "telephone", "government_terminology",
-    "travel", "daily_life", "scheduling", "descriptions", "instructions",
-    "problem_solving", "public_service"
+    "personal_info",
+    "workplace",
+    "meetings",
+    "telephone",
+    "government_terminology",
+    "travel",
+    "daily_life",
+    "scheduling",
+    "descriptions",
+    "instructions",
+    "problem_solving",
+    "public_service"
   ],
   "grammarConcepts": [
-    "present", "passe_compose", "imparfait", "futur_proche", "futur_simple",
-    "conditionnel", "subjonctif", "pronouns", "prepositions", "adjectives",
-    "negation", "question_formation", "agreement", "comparatives", "si_clauses",
-    "reported_speech", "articles", "possessives", "location"
+    "present",
+    "passe_compose",
+    "imparfait",
+    "futur_proche",
+    "futur_simple",
+    "conditionnel",
+    "subjonctif",
+    "pronouns",
+    "prepositions",
+    "adjectives",
+    "negation",
+    "question_formation",
+    "agreement",
+    "comparatives",
+    "si_clauses",
+    "reported_speech",
+    "articles",
+    "possessives",
+    "location",
+    "numbers",
+    "imperative",
+    "adverbs_manner",
+    "quantity",
+    "impersonal"
   ],
   "vocabDomains": [
-    "workplace", "government", "meetings", "administration", "travel",
-    "personal_info", "scheduling"
+    "workplace",
+    "government",
+    "meetings",
+    "administration",
+    "travel",
+    "personal_info",
+    "scheduling"
   ],
   "objectives": [
-    { "id": "OF1", "of": 1, "level": "A", "order": 1, "titleFr": "S’identifier et identifier des personnes", "titleEn": "To identify yourself and other people", "primarySkill": "speaking", "secondarySkills": ["listening", "vocabulary"], "themes": ["personal_info"], "grammarConcepts": ["present", "pronouns", "question_formation"], "vocabDomains": ["personal_info"], "source": { "catalogue": "SC102-2/1-2005F", "text": "sources/text/OF01.txt" }, "prereqs": [] },
-    { "id": "OF2", "of": 2, "level": "A", "order": 2, "titleFr": "Identifier des objets ou des documents", "titleEn": "To identify objects or documents", "primarySkill": "speaking", "secondarySkills": ["vocabulary", "writing"], "themes": ["workplace", "administration" ], "grammarConcepts": ["articles"], "vocabDomains": ["workplace", "administration"], "source": { "catalogue": "SC102-2/2-2005F", "text": "sources/text/OF02.txt" }, "prereqs": ["OF1"] },
-    { "id": "OF3", "of": 3, "level": "A", "order": 3, "titleFr": "Exprimer des relations d’appartenance", "titleEn": "To express relationships of belonging", "primarySkill": "speaking", "secondarySkills": ["listening"], "themes": ["workplace", "public_service"], "grammarConcepts": ["present", "prepositions"], "vocabDomains": ["government", "workplace"], "source": { "catalogue": "SC102-2/3-2005F", "text": "sources/text/OF03.txt" }, "prereqs": ["OF1"] },
-    { "id": "OF4", "of": 4, "level": "A", "order": 4, "titleFr": "Exprimer des relations de possession", "titleEn": "To express ownership", "primarySkill": "writing", "secondarySkills": ["speaking", "vocabulary"], "themes": ["personal_info", "descriptions"], "grammarConcepts": ["present", "possessives", "adjectives"], "vocabDomains": ["personal_info", "workplace"], "source": { "catalogue": "SC102-2/4-2005F", "text": "sources/text/OF04.txt" }, "prereqs": ["OF2"] },
-    { "id": "OF5", "of": 5, "level": "A", "order": 5, "titleFr": "Indiquer où est une personne, un objet, un lieu", "titleEn": "To indicate where a person, an object or a place is", "primarySkill": "speaking", "secondarySkills": ["reading"], "themes": ["daily_life", "travel"], "grammarConcepts": ["location", "negation", "pronouns"], "vocabDomains": ["workplace", "travel"], "source": { "catalogue": "SC102-2/5-2005F", "text": "sources/text/OF05.txt" }, "prereqs": ["OF3"] },
-    { "id": "OF6", "of": 6, "level": "A", "order": 6, "titleFr": "Indiquer des données chiffrées", "titleEn": "To use numbers", "primarySkill": "reading", "secondarySkills": ["listening", "speaking"], "themes": ["scheduling", "daily_life"], "grammarConcepts": ["present", "question_formation"], "vocabDomains": ["administration", "scheduling"], "source": { "catalogue": "SC102-2/6-2005F", "text": "sources/text/OF06.txt" }, "prereqs": ["OF2"] },
-    { "id": "OF7", "of": 7, "level": "A", "order": 7, "titleFr": "Orienter quelqu’un dans l’espace", "titleEn": "To give directions", "primarySkill": "speaking", "secondarySkills": ["listening", "reading"], "themes": ["travel", "daily_life"], "grammarConcepts": ["prepositions", "present"], "vocabDomains": ["travel"], "source": { "catalogue": "SC102-2/7-2005F", "text": "sources/text/OF07.txt" }, "prereqs": ["OF5"] },
-    { "id": "OF8", "of": 8, "level": "A", "order": 8, "titleFr": "Situer un événement dans le temps", "titleEn": "To give times and dates", "primarySkill": "listening", "secondarySkills": ["speaking", "reading"], "themes": ["scheduling"], "grammarConcepts": ["prepositions", "present", "question_formation"], "vocabDomains": ["scheduling"], "source": { "catalogue": "SC102-2/8-2005F", "text": "sources/text/OF08.txt" }, "prereqs": ["OF6"] },
-    { "id": "OF9", "of": 9, "level": "A", "order": 9, "titleFr": "Situer un événement dans le temps : passé, présent, futur", "titleEn": "To situate an event in time: past, present, future", "primarySkill": "writing", "secondarySkills": ["speaking", "listening"], "themes": ["daily_life", "workplace"], "grammarConcepts": ["passe_compose", "imparfait", "futur_proche", "futur_simple"], "vocabDomains": ["workplace", "scheduling"], "source": { "catalogue": "SC102-2/9-2005F", "text": "sources/text/OF09.txt" }, "prereqs": ["OF8"] },
-    { "id": "OF10", "of": 10, "level": "A", "order": 10, "titleFr": "Assigner des tâches", "titleEn": "To assign work", "primarySkill": "speaking", "secondarySkills": ["listening"], "themes": ["workplace", "instructions"], "grammarConcepts": ["present", "pronouns"], "vocabDomains": ["workplace"], "source": { "catalogue": "SC102-2/10-2005F", "text": "sources/text/OF10.txt" }, "prereqs": ["OF3"] },
-    { "id": "OF11", "of": 11, "level": "A", "order": 11, "titleFr": "Préciser comment accomplir une tâche", "titleEn": "To explain how to perform a task", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["instructions", "workplace"], "grammarConcepts": ["present", "prepositions"], "vocabDomains": ["workplace"], "source": { "catalogue": "SC102-2/11-2005F", "text": "sources/text/OF11.txt" }, "prereqs": ["OF10"] },
-    { "id": "OF12", "of": 12, "level": "A", "order": 12, "titleFr": "Indiquer la répartition et une quantité non numérique", "titleEn": "To indicate distribution and general quantity", "primarySkill": "reading", "secondarySkills": ["listening"], "themes": ["daily_life", "administration"], "grammarConcepts": ["present", "pronouns"], "vocabDomains": ["administration"], "source": { "catalogue": "SC102-2/12-2005F", "text": "sources/text/OF12.txt" }, "prereqs": ["OF6"] },
-    { "id": "OF13", "of": 13, "level": "A", "order": 13, "titleFr": "Fournir de l’information sur un événement ou une habitude passés", "titleEn": "To give information about past events and habits", "primarySkill": "writing", "secondarySkills": ["speaking", "listening"], "themes": ["workplace", "daily_life"], "grammarConcepts": ["passe_compose", "imparfait", "agreement"], "vocabDomains": ["workplace"], "source": { "catalogue": "SC102-2/13-2005F", "text": "sources/text/OF13.txt" }, "prereqs": ["OF9"] },
-    { "id": "OF14", "of": 14, "level": "A", "order": 14, "titleFr": "S’informer ou informer d’un événement", "titleEn": "To give or ask information about events and happenings", "primarySkill": "speaking", "secondarySkills": ["listening", "writing"], "themes": ["workplace", "scheduling"], "grammarConcepts": ["present", "question_formation"], "vocabDomains": ["workplace", "scheduling"], "source": { "catalogue": "SC102-2/14-2005F", "text": "sources/text/OF14.txt" }, "prereqs": ["OF9"] },
-    { "id": "OF15", "of": 15, "level": "A", "order": 15, "titleFr": "S’informer ou informer d’une requête ou de l’obtention de quelque chose", "titleEn": "To give or to ask for information about requests or obtaining something", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["workplace", "public_service"], "grammarConcepts": ["conditionnel", "reported_speech"], "vocabDomains": ["workplace", "administration"], "source": { "catalogue": "SC102-2/15-2005F", "text": "sources/text/OF15.txt" }, "prereqs": ["OF14"] },
-    { "id": "OF16", "of": 16, "level": "A", "order": 16, "titleFr": "Faire une offre et réagir à une offre", "titleEn": "To make and to respond to offers", "primarySkill": "speaking", "secondarySkills": ["listening"], "themes": ["workplace", "meetings"], "grammarConcepts": ["present", "passe_compose"], "vocabDomains": ["workplace"], "source": { "catalogue": "SC102-2/16-2005F", "text": "sources/text/OF16.txt" }, "prereqs": ["OF14"] },
-    { "id": "OF17", "of": 17, "level": "A", "order": 17, "titleFr": "S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses", "titleEn": "To give or to ask for information about the presence or availability of people or things", "primarySkill": "listening", "secondarySkills": ["speaking"], "themes": ["workplace", "scheduling"], "grammarConcepts": ["present", "pronouns"], "vocabDomains": ["workplace", "scheduling"], "source": { "catalogue": "SC102-2/17-2005F", "text": "sources/text/OF17.txt" }, "prereqs": ["OF5"] },
-    { "id": "OF18", "of": 18, "level": "A", "order": 18, "titleFr": "Exprimer une volonté, un souhait, des goûts, des préférences", "titleEn": "To express will (intention), hopes and wishes, taste (liking) and preference", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["daily_life", "workplace"], "grammarConcepts": ["subjonctif", "present"], "vocabDomains": ["personal_info", "workplace"], "source": { "catalogue": "SC102-2/18-2005F", "text": "sources/text/OF18.txt" }, "prereqs": ["OF15"] },
-    { "id": "OF19", "of": 19, "level": "A", "order": 19, "titleFr": "Évaluer des choses", "titleEn": "To describe things and to express opinions", "primarySkill": "writing", "secondarySkills": ["speaking"], "themes": ["descriptions", "meetings"], "grammarConcepts": ["comparatives", "adjectives"], "vocabDomains": ["workplace", "meetings"], "source": { "catalogue": "SC102-2/19-2005F", "text": "sources/text/OF19.txt" }, "prereqs": ["OF4"] },
-    { "id": "OF20", "of": 20, "level": "A", "order": 20, "titleFr": "Évaluer des personnes", "titleEn": "To express opinions about people", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["descriptions", "meetings"], "grammarConcepts": ["adjectives", "agreement"], "vocabDomains": ["personal_info", "meetings"], "source": { "catalogue": "SC102-2/20-2005F", "text": "sources/text/OF20.txt" }, "prereqs": ["OF19"] },
-
-    { "id": "OF21", "of": 21, "level": "B", "order": 21, "titleFr": "(Se) renseigner sur l’application de normes et de règlements", "titleEn": "To find out how to apply standards and regulations", "primarySkill": "reading", "secondarySkills": ["speaking", "vocabulary"], "themes": ["government_terminology", "public_service"], "grammarConcepts": ["subjonctif", "present"], "vocabDomains": ["government", "administration"], "source": { "catalogue": "SC102-2/21-2005F", "text": "sources/text/OF21.txt" }, "prereqs": ["OF18"] },
-    { "id": "OF22", "of": 22, "level": "B", "order": 22, "titleFr": "Préciser les modalités d’exécution (temps) d’un travail", "titleEn": "To give details about the time factors involved in a job", "primarySkill": "writing", "secondarySkills": ["speaking"], "themes": ["workplace", "scheduling"], "grammarConcepts": ["prepositions", "present"], "vocabDomains": ["workplace", "scheduling"], "source": { "catalogue": "SC102-2/22-2005F", "text": "sources/text/OF22.txt" }, "prereqs": ["OF11"] },
-    { "id": "OF23", "of": 23, "level": "B", "order": 23, "titleFr": "Préciser les conditions de réalisation d’un projet", "titleEn": "To give details about how a project is carried out", "primarySkill": "writing", "secondarySkills": ["reading"], "themes": ["workplace", "public_service"], "grammarConcepts": ["present", "prepositions"], "vocabDomains": ["workplace", "administration"], "source": { "catalogue": "SC102-2/23-2005F", "text": "sources/text/OF23.txt" }, "prereqs": ["OF22"] },
-    { "id": "OF24", "of": 24, "level": "B", "order": 24, "titleFr": "Situer des événements par rapport à d’autres", "titleEn": "To situate events in relation to each other", "primarySkill": "writing", "secondarySkills": ["reading", "speaking"], "themes": ["workplace", "daily_life"], "grammarConcepts": ["passe_compose", "imparfait", "futur_simple", "reported_speech"], "vocabDomains": ["workplace"], "source": { "catalogue": "SC102-2/24-2005F", "text": "sources/text/OF24.txt" }, "prereqs": ["OF13"] },
-    { "id": "OF25", "of": 25, "level": "B", "order": 25, "titleFr": "Indiquer les étapes d’un processus", "titleEn": "To indicate the steps in a process", "primarySkill": "writing", "secondarySkills": ["reading", "speaking"], "themes": ["instructions", "public_service"], "grammarConcepts": ["present", "prepositions"], "vocabDomains": ["administration", "workplace"], "source": { "catalogue": "SC102-2/25-2005F", "text": "sources/text/OF25.txt" }, "prereqs": ["OF11"] },
-    { "id": "OF26", "of": 26, "level": "B", "order": 26, "titleFr": "Décrire des déplacements", "titleEn": "To describe movement", "primarySkill": "listening", "secondarySkills": ["speaking", "reading"], "themes": ["travel", "workplace"], "grammarConcepts": ["pronouns", "passe_compose"], "vocabDomains": ["travel", "workplace"], "source": { "catalogue": "SC102-2/26-2005F", "text": "sources/text/OF26.txt" }, "prereqs": ["OF7"] },
-    { "id": "OF27", "of": 27, "level": "B", "order": 27, "titleFr": "Décrire une tâche (opérations physiques)", "titleEn": "To describe tasks (physical operations)", "primarySkill": "writing", "secondarySkills": ["reading", "speaking"], "themes": ["instructions", "workplace"], "grammarConcepts": ["pronouns", "present"], "vocabDomains": ["workplace"], "source": { "catalogue": "SC102-2/27-2005F", "text": "sources/text/OF27.txt" }, "prereqs": ["OF25"] },
-    { "id": "OF28", "of": 28, "level": "B", "order": 28, "titleFr": "Préciser l’importance d’une directive", "titleEn": "To explain the importance of an instruction", "primarySkill": "reading", "secondarySkills": ["writing", "speaking"], "themes": ["instructions", "public_service"], "grammarConcepts": ["subjonctif"], "vocabDomains": ["administration", "government"], "source": { "catalogue": "SC102-2/28-2005F", "text": "sources/text/OF28.txt" }, "prereqs": ["OF21"] },
-    { "id": "OF29", "of": 29, "level": "B", "order": 29, "titleFr": "Apprécier les capacités ou les compétences de quelqu’un", "titleEn": "To assess the abilities or competencies of someone", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["workplace", "meetings"], "grammarConcepts": ["negation", "comparatives"], "vocabDomains": ["workplace", "meetings"], "source": { "catalogue": "SC102-2/29-2005F", "text": "sources/text/OF29.txt" }, "prereqs": ["OF20"] },
-    { "id": "OF30", "of": 30, "level": "B", "order": 30, "titleFr": "Permettre ou interdire quelque chose", "titleEn": "To permit or forbid something", "primarySkill": "speaking", "secondarySkills": ["writing", "reading"], "themes": ["public_service", "workplace"], "grammarConcepts": ["subjonctif", "pronouns"], "vocabDomains": ["government", "workplace"], "source": { "catalogue": "SC102-2/30-2005F", "text": "sources/text/OF30.txt" }, "prereqs": ["OF28"] },
-    { "id": "OF31", "of": 31, "level": "B", "order": 31, "titleFr": "Exprimer la volonté, le souhait", "titleEn": "To express will or desire", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["meetings", "workplace"], "grammarConcepts": ["conditionnel", "subjonctif", "reported_speech"], "vocabDomains": ["meetings", "workplace"], "source": { "catalogue": "SC102-2/31-2005F", "text": "sources/text/OF31.txt" }, "prereqs": ["OF18"] },
-    { "id": "OF32", "of": 32, "level": "B", "order": 32, "titleFr": "Formuler des conditions", "titleEn": "To formulate conditions", "primarySkill": "writing", "secondarySkills": ["speaking"], "themes": ["problem_solving", "workplace"], "grammarConcepts": ["subjonctif", "si_clauses"], "vocabDomains": ["workplace"], "source": { "catalogue": "SC102-2/32-2005F", "text": "sources/text/OF32.txt" }, "prereqs": ["OF31"] },
-    { "id": "OF33", "of": 33, "level": "B", "order": 33, "titleFr": "Exprimer un choix", "titleEn": "To express choice", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["meetings", "problem_solving"], "grammarConcepts": ["pronouns", "comparatives"], "vocabDomains": ["meetings"], "source": { "catalogue": "SC102-2/33-2005F", "text": "sources/text/OF33.txt" }, "prereqs": ["OF29"] },
-    { "id": "OF34", "of": 34, "level": "B", "order": 34, "titleFr": "Proposer des solutions à un problème", "titleEn": "To put forward solutions to a problem", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["problem_solving", "meetings"], "grammarConcepts": ["si_clauses", "conditionnel", "imparfait"], "vocabDomains": ["problem_solving", "meetings"], "source": { "catalogue": "SC102-2/34-2005F", "text": "sources/text/OF34.txt" }, "prereqs": ["OF32"] },
-    { "id": "OF35", "of": 35, "level": "B", "order": 35, "titleFr": "Faire des prévisions", "titleEn": "To make forecasts", "primarySkill": "writing", "secondarySkills": ["speaking"], "themes": ["public_service", "workplace"], "grammarConcepts": ["futur_simple", "conditionnel"], "vocabDomains": ["government", "workplace"], "source": { "catalogue": "SC102-2/35-2005F", "text": "sources/text/OF35.txt" }, "prereqs": ["OF24"] },
-    { "id": "OF36", "of": 36, "level": "B", "order": 36, "titleFr": "Demander ou donner de l’information sur un projet", "titleEn": "To ask or give information about projects", "primarySkill": "speaking", "secondarySkills": ["writing", "listening"], "themes": ["workplace", "meetings"], "grammarConcepts": ["present", "futur_simple"], "vocabDomains": ["workplace", "meetings"], "source": { "catalogue": "SC102-2/36-2005F", "text": "sources/text/OF36.txt" }, "prereqs": ["OF23"] },
-    { "id": "OF37", "of": 37, "level": "B", "order": 37, "titleFr": "Décrire la démarche suivie dans la réalisation d’un projet", "titleEn": "To describe the procedure followed in a project", "primarySkill": "writing", "secondarySkills": ["reading"], "themes": ["workplace", "public_service"], "grammarConcepts": ["passe_compose", "prepositions"], "vocabDomains": ["administration", "workplace"], "source": { "catalogue": "SC102-2/37-2005F", "text": "sources/text/OF37.txt" }, "prereqs": ["OF25"] },
-    { "id": "OF38", "of": 38, "level": "B", "order": 38, "titleFr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation", "titleEn": "To explain the reasons for and results of a decision, an action, an event or a situation", "primarySkill": "writing", "secondarySkills": ["reading", "speaking"], "themes": ["problem_solving", "public_service"], "grammarConcepts": ["subjonctif", "present"], "vocabDomains": ["public_service", "government"], "source": { "catalogue": "SC102-2/38-2005F", "text": "sources/text/OF38.txt" }, "prereqs": ["OF34"] },
-    { "id": "OF39", "of": 39, "level": "B", "order": 39, "titleFr": "Évaluer un changement proposé", "titleEn": "To evaluate a proposed change", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["meetings", "public_service"], "grammarConcepts": ["subjonctif", "comparatives"], "vocabDomains": ["meetings", "government"], "source": { "catalogue": "SC102-2/39-2005F", "text": "sources/text/OF39.txt" }, "prereqs": ["OF38"] },
-    { "id": "OF40", "of": 40, "level": "B", "order": 40, "titleFr": "Persuader quelqu’un de quelque chose", "titleEn": "To convince someone of something", "primarySkill": "speaking", "secondarySkills": ["writing"], "themes": ["meetings", "problem_solving"], "grammarConcepts": ["conditionnel", "subjonctif"], "vocabDomains": ["meetings", "workplace"], "source": { "catalogue": "SC102-2/40-2005F", "text": "sources/text/OF40.txt" }, "prereqs": ["OF39"] }
+    {
+      "id": "OF1",
+      "of": 1,
+      "level": "A",
+      "order": 1,
+      "titleFr": "S’identifier et identifier des personnes",
+      "titleEn": "To identify yourself and other people",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "listening",
+        "vocabulary"
+      ],
+      "themes": [
+        "personal_info"
+      ],
+      "grammarConcepts": [
+        "present",
+        "pronouns",
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "source": {
+        "catalogue": "SC102-2/1-2005F",
+        "text": "sources/text/OF01.txt"
+      },
+      "prereqs": []
+    },
+    {
+      "id": "OF2",
+      "of": 2,
+      "level": "A",
+      "order": 2,
+      "titleFr": "Identifier des objets ou des documents",
+      "titleEn": "To identify objects or documents",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "vocabulary",
+        "writing"
+      ],
+      "themes": [
+        "workplace",
+        "administration"
+      ],
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "source": {
+        "catalogue": "SC102-2/2-2005F",
+        "text": "sources/text/OF02.txt"
+      },
+      "prereqs": [
+        "OF1"
+      ]
+    },
+    {
+      "id": "OF3",
+      "of": 3,
+      "level": "A",
+      "order": 3,
+      "titleFr": "Exprimer des relations d’appartenance",
+      "titleEn": "To express relationships of belonging",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "listening"
+      ],
+      "themes": [
+        "workplace",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "present",
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/3-2005F",
+        "text": "sources/text/OF03.txt"
+      },
+      "prereqs": [
+        "OF1"
+      ]
+    },
+    {
+      "id": "OF4",
+      "of": 4,
+      "level": "A",
+      "order": 4,
+      "titleFr": "Exprimer des relations de possession",
+      "titleEn": "To express ownership",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "speaking",
+        "vocabulary"
+      ],
+      "themes": [
+        "personal_info",
+        "descriptions"
+      ],
+      "grammarConcepts": [
+        "present",
+        "possessives",
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/4-2005F",
+        "text": "sources/text/OF04.txt"
+      },
+      "prereqs": [
+        "OF2"
+      ]
+    },
+    {
+      "id": "OF5",
+      "of": 5,
+      "level": "A",
+      "order": 5,
+      "titleFr": "Indiquer où est une personne, un objet, un lieu",
+      "titleEn": "To indicate where a person, an object or a place is",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "reading"
+      ],
+      "themes": [
+        "daily_life",
+        "travel"
+      ],
+      "grammarConcepts": [
+        "location",
+        "negation",
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "source": {
+        "catalogue": "SC102-2/5-2005F",
+        "text": "sources/text/OF05.txt"
+      },
+      "prereqs": [
+        "OF3"
+      ]
+    },
+    {
+      "id": "OF6",
+      "of": 6,
+      "level": "A",
+      "order": 6,
+      "titleFr": "Indiquer des données chiffrées",
+      "titleEn": "To use numbers",
+      "primarySkill": "reading",
+      "secondarySkills": [
+        "listening",
+        "speaking"
+      ],
+      "themes": [
+        "scheduling",
+        "daily_life"
+      ],
+      "grammarConcepts": [
+        "numbers"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "source": {
+        "catalogue": "SC102-2/6-2005F",
+        "text": "sources/text/OF06.txt"
+      },
+      "prereqs": [
+        "OF2"
+      ]
+    },
+    {
+      "id": "OF7",
+      "of": 7,
+      "level": "A",
+      "order": 7,
+      "titleFr": "Orienter quelqu’un dans l’espace",
+      "titleEn": "To give directions",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "listening",
+        "reading"
+      ],
+      "themes": [
+        "travel",
+        "daily_life"
+      ],
+      "grammarConcepts": [
+        "prepositions",
+        "present",
+        "imperative"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "source": {
+        "catalogue": "SC102-2/7-2005F",
+        "text": "sources/text/OF07.txt"
+      },
+      "prereqs": [
+        "OF5"
+      ]
+    },
+    {
+      "id": "OF8",
+      "of": 8,
+      "level": "A",
+      "order": 8,
+      "titleFr": "Situer un événement dans le temps",
+      "titleEn": "To give times and dates",
+      "primarySkill": "listening",
+      "secondarySkills": [
+        "speaking",
+        "reading"
+      ],
+      "themes": [
+        "scheduling"
+      ],
+      "grammarConcepts": [
+        "prepositions",
+        "present",
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "scheduling"
+      ],
+      "source": {
+        "catalogue": "SC102-2/8-2005F",
+        "text": "sources/text/OF08.txt"
+      },
+      "prereqs": [
+        "OF6"
+      ]
+    },
+    {
+      "id": "OF9",
+      "of": 9,
+      "level": "A",
+      "order": 9,
+      "titleFr": "Situer un événement dans le temps : passé, présent, futur",
+      "titleEn": "To situate an event in time: past, present, future",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "speaking",
+        "listening"
+      ],
+      "themes": [
+        "daily_life",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "passe_compose",
+        "imparfait",
+        "futur_proche",
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "source": {
+        "catalogue": "SC102-2/9-2005F",
+        "text": "sources/text/OF09.txt"
+      },
+      "prereqs": [
+        "OF8"
+      ]
+    },
+    {
+      "id": "OF10",
+      "of": 10,
+      "level": "A",
+      "order": 10,
+      "titleFr": "Assigner des tâches",
+      "titleEn": "To assign work",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "listening"
+      ],
+      "themes": [
+        "workplace",
+        "instructions"
+      ],
+      "grammarConcepts": [
+        "present",
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/10-2005F",
+        "text": "sources/text/OF10.txt"
+      },
+      "prereqs": [
+        "OF3"
+      ]
+    },
+    {
+      "id": "OF11",
+      "of": 11,
+      "level": "A",
+      "order": 11,
+      "titleFr": "Préciser comment accomplir une tâche",
+      "titleEn": "To explain how to perform a task",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "instructions",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/11-2005F",
+        "text": "sources/text/OF11.txt"
+      },
+      "prereqs": [
+        "OF10"
+      ]
+    },
+    {
+      "id": "OF12",
+      "of": 12,
+      "level": "A",
+      "order": 12,
+      "titleFr": "Indiquer la répartition et une quantité non numérique",
+      "titleEn": "To indicate distribution and general quantity",
+      "primarySkill": "reading",
+      "secondarySkills": [
+        "listening"
+      ],
+      "themes": [
+        "daily_life",
+        "administration"
+      ],
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "source": {
+        "catalogue": "SC102-2/12-2005F",
+        "text": "sources/text/OF12.txt"
+      },
+      "prereqs": [
+        "OF6"
+      ]
+    },
+    {
+      "id": "OF13",
+      "of": 13,
+      "level": "A",
+      "order": 13,
+      "titleFr": "Fournir de l’information sur un événement ou une habitude passés",
+      "titleEn": "To give information about past events and habits",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "speaking",
+        "listening"
+      ],
+      "themes": [
+        "workplace",
+        "daily_life"
+      ],
+      "grammarConcepts": [
+        "passe_compose",
+        "imparfait",
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/13-2005F",
+        "text": "sources/text/OF13.txt"
+      },
+      "prereqs": [
+        "OF9"
+      ]
+    },
+    {
+      "id": "OF14",
+      "of": 14,
+      "level": "A",
+      "order": 14,
+      "titleFr": "S’informer ou informer d’un événement",
+      "titleEn": "To give or ask information about events and happenings",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "listening",
+        "writing"
+      ],
+      "themes": [
+        "workplace",
+        "scheduling"
+      ],
+      "grammarConcepts": [
+        "impersonal",
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "source": {
+        "catalogue": "SC102-2/14-2005F",
+        "text": "sources/text/OF14.txt"
+      },
+      "prereqs": [
+        "OF9"
+      ]
+    },
+    {
+      "id": "OF15",
+      "of": 15,
+      "level": "A",
+      "order": 15,
+      "titleFr": "S’informer ou informer d’une requête ou de l’obtention de quelque chose",
+      "titleEn": "To give or to ask for information about requests or obtaining something",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "workplace",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "conditionnel",
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "source": {
+        "catalogue": "SC102-2/15-2005F",
+        "text": "sources/text/OF15.txt"
+      },
+      "prereqs": [
+        "OF14"
+      ]
+    },
+    {
+      "id": "OF16",
+      "of": 16,
+      "level": "A",
+      "order": 16,
+      "titleFr": "Faire une offre et réagir à une offre",
+      "titleEn": "To make and to respond to offers",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "listening"
+      ],
+      "themes": [
+        "workplace",
+        "meetings"
+      ],
+      "grammarConcepts": [
+        "present",
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/16-2005F",
+        "text": "sources/text/OF16.txt"
+      },
+      "prereqs": [
+        "OF14"
+      ]
+    },
+    {
+      "id": "OF17",
+      "of": 17,
+      "level": "A",
+      "order": 17,
+      "titleFr": "S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses",
+      "titleEn": "To give or to ask for information about the presence or availability of people or things",
+      "primarySkill": "listening",
+      "secondarySkills": [
+        "speaking"
+      ],
+      "themes": [
+        "workplace",
+        "scheduling"
+      ],
+      "grammarConcepts": [
+        "present",
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "source": {
+        "catalogue": "SC102-2/17-2005F",
+        "text": "sources/text/OF17.txt"
+      },
+      "prereqs": [
+        "OF5"
+      ]
+    },
+    {
+      "id": "OF18",
+      "of": 18,
+      "level": "A",
+      "order": 18,
+      "titleFr": "Exprimer une volonté, un souhait, des goûts, des préférences",
+      "titleEn": "To express will (intention), hopes and wishes, taste (liking) and preference",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "daily_life",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "subjonctif",
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/18-2005F",
+        "text": "sources/text/OF18.txt"
+      },
+      "prereqs": [
+        "OF15"
+      ]
+    },
+    {
+      "id": "OF19",
+      "of": 19,
+      "level": "A",
+      "order": 19,
+      "titleFr": "Évaluer des choses",
+      "titleEn": "To describe things and to express opinions",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "speaking"
+      ],
+      "themes": [
+        "descriptions",
+        "meetings"
+      ],
+      "grammarConcepts": [
+        "comparatives",
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "source": {
+        "catalogue": "SC102-2/19-2005F",
+        "text": "sources/text/OF19.txt"
+      },
+      "prereqs": [
+        "OF4"
+      ]
+    },
+    {
+      "id": "OF20",
+      "of": 20,
+      "level": "A",
+      "order": 20,
+      "titleFr": "Évaluer des personnes",
+      "titleEn": "To express opinions about people",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "descriptions",
+        "meetings"
+      ],
+      "grammarConcepts": [
+        "adjectives",
+        "agreement"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "meetings"
+      ],
+      "source": {
+        "catalogue": "SC102-2/20-2005F",
+        "text": "sources/text/OF20.txt"
+      },
+      "prereqs": [
+        "OF19"
+      ]
+    },
+    {
+      "id": "OF21",
+      "of": 21,
+      "level": "B",
+      "order": 21,
+      "titleFr": "(Se) renseigner sur l’application de normes et de règlements",
+      "titleEn": "To find out how to apply standards and regulations",
+      "primarySkill": "reading",
+      "secondarySkills": [
+        "speaking",
+        "vocabulary"
+      ],
+      "themes": [
+        "government_terminology",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "subjonctif",
+        "present"
+      ],
+      "vocabDomains": [
+        "government",
+        "administration"
+      ],
+      "source": {
+        "catalogue": "SC102-2/21-2005F",
+        "text": "sources/text/OF21.txt"
+      },
+      "prereqs": [
+        "OF18"
+      ]
+    },
+    {
+      "id": "OF22",
+      "of": 22,
+      "level": "B",
+      "order": 22,
+      "titleFr": "Préciser les modalités d’exécution (temps) d’un travail",
+      "titleEn": "To give details about the time factors involved in a job",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "speaking"
+      ],
+      "themes": [
+        "workplace",
+        "scheduling"
+      ],
+      "grammarConcepts": [
+        "prepositions",
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "source": {
+        "catalogue": "SC102-2/22-2005F",
+        "text": "sources/text/OF22.txt"
+      },
+      "prereqs": [
+        "OF11"
+      ]
+    },
+    {
+      "id": "OF23",
+      "of": 23,
+      "level": "B",
+      "order": 23,
+      "titleFr": "Préciser les conditions de réalisation d’un projet",
+      "titleEn": "To give details about how a project is carried out",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "reading"
+      ],
+      "themes": [
+        "workplace",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "present",
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "source": {
+        "catalogue": "SC102-2/23-2005F",
+        "text": "sources/text/OF23.txt"
+      },
+      "prereqs": [
+        "OF22"
+      ]
+    },
+    {
+      "id": "OF24",
+      "of": 24,
+      "level": "B",
+      "order": 24,
+      "titleFr": "Situer des événements par rapport à d’autres",
+      "titleEn": "To situate events in relation to each other",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "reading",
+        "speaking"
+      ],
+      "themes": [
+        "workplace",
+        "daily_life"
+      ],
+      "grammarConcepts": [
+        "passe_compose",
+        "imparfait",
+        "futur_simple",
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/24-2005F",
+        "text": "sources/text/OF24.txt"
+      },
+      "prereqs": [
+        "OF13"
+      ]
+    },
+    {
+      "id": "OF25",
+      "of": 25,
+      "level": "B",
+      "order": 25,
+      "titleFr": "Indiquer les étapes d’un processus",
+      "titleEn": "To indicate the steps in a process",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "reading",
+        "speaking"
+      ],
+      "themes": [
+        "instructions",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "present",
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/25-2005F",
+        "text": "sources/text/OF25.txt"
+      },
+      "prereqs": [
+        "OF11"
+      ]
+    },
+    {
+      "id": "OF26",
+      "of": 26,
+      "level": "B",
+      "order": 26,
+      "titleFr": "Décrire des déplacements",
+      "titleEn": "To describe movement",
+      "primarySkill": "listening",
+      "secondarySkills": [
+        "speaking",
+        "reading"
+      ],
+      "themes": [
+        "travel",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "pronouns",
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "travel",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/26-2005F",
+        "text": "sources/text/OF26.txt"
+      },
+      "prereqs": [
+        "OF7"
+      ]
+    },
+    {
+      "id": "OF27",
+      "of": 27,
+      "level": "B",
+      "order": 27,
+      "titleFr": "Décrire une tâche (opérations physiques)",
+      "titleEn": "To describe tasks (physical operations)",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "reading",
+        "speaking"
+      ],
+      "themes": [
+        "instructions",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "pronouns",
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/27-2005F",
+        "text": "sources/text/OF27.txt"
+      },
+      "prereqs": [
+        "OF25"
+      ]
+    },
+    {
+      "id": "OF28",
+      "of": 28,
+      "level": "B",
+      "order": 28,
+      "titleFr": "Préciser l’importance d’une directive",
+      "titleEn": "To explain the importance of an instruction",
+      "primarySkill": "reading",
+      "secondarySkills": [
+        "writing",
+        "speaking"
+      ],
+      "themes": [
+        "instructions",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "source": {
+        "catalogue": "SC102-2/28-2005F",
+        "text": "sources/text/OF28.txt"
+      },
+      "prereqs": [
+        "OF21"
+      ]
+    },
+    {
+      "id": "OF29",
+      "of": 29,
+      "level": "B",
+      "order": 29,
+      "titleFr": "Apprécier les capacités ou les compétences de quelqu’un",
+      "titleEn": "To assess the abilities or competencies of someone",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "workplace",
+        "meetings"
+      ],
+      "grammarConcepts": [
+        "negation",
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "source": {
+        "catalogue": "SC102-2/29-2005F",
+        "text": "sources/text/OF29.txt"
+      },
+      "prereqs": [
+        "OF20"
+      ]
+    },
+    {
+      "id": "OF30",
+      "of": 30,
+      "level": "B",
+      "order": 30,
+      "titleFr": "Permettre ou interdire quelque chose",
+      "titleEn": "To permit or forbid something",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing",
+        "reading"
+      ],
+      "themes": [
+        "public_service",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "subjonctif",
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/30-2005F",
+        "text": "sources/text/OF30.txt"
+      },
+      "prereqs": [
+        "OF28"
+      ]
+    },
+    {
+      "id": "OF31",
+      "of": 31,
+      "level": "B",
+      "order": 31,
+      "titleFr": "Exprimer la volonté, le souhait",
+      "titleEn": "To express will or desire",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "meetings",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "conditionnel",
+        "subjonctif",
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/31-2005F",
+        "text": "sources/text/OF31.txt"
+      },
+      "prereqs": [
+        "OF18"
+      ]
+    },
+    {
+      "id": "OF32",
+      "of": 32,
+      "level": "B",
+      "order": 32,
+      "titleFr": "Formuler des conditions",
+      "titleEn": "To formulate conditions",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "speaking"
+      ],
+      "themes": [
+        "problem_solving",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "subjonctif",
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/32-2005F",
+        "text": "sources/text/OF32.txt"
+      },
+      "prereqs": [
+        "OF31"
+      ]
+    },
+    {
+      "id": "OF33",
+      "of": 33,
+      "level": "B",
+      "order": 33,
+      "titleFr": "Exprimer un choix",
+      "titleEn": "To express choice",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "meetings",
+        "problem_solving"
+      ],
+      "grammarConcepts": [
+        "pronouns",
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "source": {
+        "catalogue": "SC102-2/33-2005F",
+        "text": "sources/text/OF33.txt"
+      },
+      "prereqs": [
+        "OF29"
+      ]
+    },
+    {
+      "id": "OF34",
+      "of": 34,
+      "level": "B",
+      "order": 34,
+      "titleFr": "Proposer des solutions à un problème",
+      "titleEn": "To put forward solutions to a problem",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "problem_solving",
+        "meetings"
+      ],
+      "grammarConcepts": [
+        "si_clauses",
+        "conditionnel",
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "problem_solving",
+        "meetings"
+      ],
+      "source": {
+        "catalogue": "SC102-2/34-2005F",
+        "text": "sources/text/OF34.txt"
+      },
+      "prereqs": [
+        "OF32"
+      ]
+    },
+    {
+      "id": "OF35",
+      "of": 35,
+      "level": "B",
+      "order": 35,
+      "titleFr": "Faire des prévisions",
+      "titleEn": "To make forecasts",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "speaking"
+      ],
+      "themes": [
+        "public_service",
+        "workplace"
+      ],
+      "grammarConcepts": [
+        "futur_simple",
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/35-2005F",
+        "text": "sources/text/OF35.txt"
+      },
+      "prereqs": [
+        "OF24"
+      ]
+    },
+    {
+      "id": "OF36",
+      "of": 36,
+      "level": "B",
+      "order": 36,
+      "titleFr": "Demander ou donner de l’information sur un projet",
+      "titleEn": "To ask or give information about projects",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing",
+        "listening"
+      ],
+      "themes": [
+        "workplace",
+        "meetings"
+      ],
+      "grammarConcepts": [
+        "present",
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "source": {
+        "catalogue": "SC102-2/36-2005F",
+        "text": "sources/text/OF36.txt"
+      },
+      "prereqs": [
+        "OF23"
+      ]
+    },
+    {
+      "id": "OF37",
+      "of": 37,
+      "level": "B",
+      "order": 37,
+      "titleFr": "Décrire la démarche suivie dans la réalisation d’un projet",
+      "titleEn": "To describe the procedure followed in a project",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "reading"
+      ],
+      "themes": [
+        "workplace",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "passe_compose",
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/37-2005F",
+        "text": "sources/text/OF37.txt"
+      },
+      "prereqs": [
+        "OF25"
+      ]
+    },
+    {
+      "id": "OF38",
+      "of": 38,
+      "level": "B",
+      "order": 38,
+      "titleFr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation",
+      "titleEn": "To explain the reasons for and results of a decision, an action, an event or a situation",
+      "primarySkill": "writing",
+      "secondarySkills": [
+        "reading",
+        "speaking"
+      ],
+      "themes": [
+        "problem_solving",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "subjonctif",
+        "present"
+      ],
+      "vocabDomains": [
+        "public_service",
+        "government"
+      ],
+      "source": {
+        "catalogue": "SC102-2/38-2005F",
+        "text": "sources/text/OF38.txt"
+      },
+      "prereqs": [
+        "OF34"
+      ]
+    },
+    {
+      "id": "OF39",
+      "of": 39,
+      "level": "B",
+      "order": 39,
+      "titleFr": "Évaluer un changement proposé",
+      "titleEn": "To evaluate a proposed change",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "meetings",
+        "public_service"
+      ],
+      "grammarConcepts": [
+        "subjonctif",
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "source": {
+        "catalogue": "SC102-2/39-2005F",
+        "text": "sources/text/OF39.txt"
+      },
+      "prereqs": [
+        "OF38"
+      ]
+    },
+    {
+      "id": "OF40",
+      "of": 40,
+      "level": "B",
+      "order": 40,
+      "titleFr": "Persuader quelqu’un de quelque chose",
+      "titleEn": "To convince someone of something",
+      "primarySkill": "speaking",
+      "secondarySkills": [
+        "writing"
+      ],
+      "themes": [
+        "meetings",
+        "problem_solving"
+      ],
+      "grammarConcepts": [
+        "conditionnel",
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "source": {
+        "catalogue": "SC102-2/40-2005F",
+        "text": "sources/text/OF40.txt"
+      },
+      "prereqs": [
+        "OF39"
+      ]
+    }
   ]
 }

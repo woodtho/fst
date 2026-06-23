@@ -13,12 +13,12 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF7 — To give directions. This objective develops the language needed to give directions in a Government of Canada workplace. Grammar focus: Prepositions, The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Orienter quelqu’un dans l’espace. Objectif communicatif appuyé par : Les prépositions, Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF7 — To give directions. This objective develops the language needed to give directions in a Government of Canada workplace. Grammar focus: Prepositions, The present tense, The imperative (commands and directions). Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "Orienter quelqu’un dans l’espace. Objectif communicatif appuyé par : Les prépositions, Le présent de l’indicatif, L’impératif (ordres et directions). Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Prepositions, The present tense.",
+        "summary": "Grammar focus for this objective: Prepositions, The present tense, The imperative (commands and directions).",
         "charts": [],
         "points": [
           "Les prépositions (Prepositions) — Relient les mots et indiquent le lieu, le temps et la relation : à, de, en, dans, sur, chez. à+le=au; de+le=du.",
@@ -28,7 +28,11 @@
           "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
           "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
           "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
-          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont."
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
+          "L’impératif (ordres et directions) (The imperative (commands and directions)) — Donner des consignes et des directions. L’impératif a trois formes (tu, nous, vous), sans pronom sujet. Les verbes en -er perdent le -s à la forme « tu » (Tourne !).",
+          "· Formes : tu, nous, vous (sans pronom sujet).",
+          "· -er : la forme « tu » perd le -s (tu tournes → Tourne !).",
+          "· Irréguliers : aller → va/allons/allez ; être → sois/soyez ; avoir → aie/ayez."
         ]
       },
       "pronunciation": {
@@ -44,11 +48,11 @@
       "exerciseSets": [
         {
           "title": "Vocabulaire (lexique source)",
-          "count": 82
+          "count": 77
         },
         {
           "title": "Grammaire",
-          "count": 16
+          "count": 21
         },
         {
           "title": "Conjugaison",
@@ -72,8 +76,8 @@
         {
           "title": "Tâche de consolidation — Orienter quelqu’un dans l’espace",
           "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « orienter quelqu’un dans l’espace ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les prépositions, Le présent de l’indicatif.",
-          "promptEn": "In a workplace context, practise the function \"To give directions\". Produce a short exchange (3–4 sentences) using: Prepositions, The present tense.",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « orienter quelqu’un dans l’espace ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les prépositions, Le présent de l’indicatif, L’impératif (ordres et directions).",
+          "promptEn": "In a workplace context, practise the function \"To give directions\". Produce a short exchange (3–4 sentences) using: Prepositions, The present tense, The imperative (commands and directions).",
           "rubric": [
             "addresses the communicative function",
             "uses the target grammar correctly",
@@ -106,7 +110,8 @@
       "threshold": 0.8,
       "concepts": [
         "prepositions",
-        "present"
+        "present",
+        "imperative"
       ]
     }
   }

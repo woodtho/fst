@@ -13,18 +13,19 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF14 — To give or ask information about events and happenings. This objective develops the language needed to give or ask information about events and happenings in a Government of Canada workplace. Grammar focus: The present tense, Question formation. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "S’informer ou informer d’un événement. Objectif communicatif appuyé par : Le présent de l’indicatif, L’interrogation. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF14 — To give or ask information about events and happenings. This objective develops the language needed to give or ask information about events and happenings in a Government of Canada workplace. Grammar focus: Impersonal verbs, Question formation. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "S’informer ou informer d’un événement. Objectif communicatif appuyé par : Les verbes impersonnels, L’interrogation. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The present tense, Question formation.",
+        "summary": "Grammar focus for this objective: Impersonal verbs, Question formation.",
         "charts": [],
         "points": [
-          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
-          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
-          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
-          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
+          "Les verbes impersonnels (Impersonal verbs) — Verbes employés seulement avec « il » (sujet impersonnel) : il faut (il est nécessaire), il y a, il fait + météo, il est + adjectif + de + infinitif, il reste / il manque.",
+          "· il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+          "· il y a + nom (présence) ; il fait + météo (il fait beau).",
+          "· il est + adjectif + DE + infinitif : il est important DE vérifier.",
+          "· il reste / il manque + nom : il reste deux jours.",
           "L’interrogation (Question formation) — Questions fermées : intonation, est-ce que, inversion. Questions ouvertes : qui, que/quoi, où, quand, comment, pourquoi, combien, quel (accordé).",
           "· Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
           "· Information words: qui, que, où, quand, comment, pourquoi, combien.",
@@ -44,15 +45,11 @@
       "exerciseSets": [
         {
           "title": "Vocabulaire (lexique source)",
-          "count": 82
+          "count": 97
         },
         {
           "title": "Grammaire",
-          "count": 16
-        },
-        {
-          "title": "Conjugaison",
-          "count": 12
+          "count": 13
         }
       ],
       "totalQuestions": 110
@@ -72,8 +69,8 @@
         {
           "title": "Tâche de consolidation — S’informer ou informer d’un événement",
           "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « s’informer ou informer d’un événement ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le présent de l’indicatif, L’interrogation.",
-          "promptEn": "In a workplace context, practise the function \"To give or ask information about events and happenings\". Produce a short exchange (3–4 sentences) using: The present tense, Question formation.",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « s’informer ou informer d’un événement ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les verbes impersonnels, L’interrogation.",
+          "promptEn": "In a workplace context, practise the function \"To give or ask information about events and happenings\". Produce a short exchange (3–4 sentences) using: Impersonal verbs, Question formation.",
           "rubric": [
             "addresses the communicative function",
             "uses the target grammar correctly",
@@ -105,7 +102,7 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
-        "present",
+        "impersonal",
         "question_formation"
       ]
     }
