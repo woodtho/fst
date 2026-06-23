@@ -84,5 +84,93 @@
         "adjectives"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 9,
+    "totalElements": 72,
+    "convertible": {
+      "covered": 9,
+      "total": 36
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        25,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        43,
+        44,
+        45,
+        51,
+        53
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "4.5 Fonctions (function)",
+        "4.6 Fonctions (function)",
+        "4.7 Fonctions (function)",
+        "4.8 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        2,
+        9,
+        12,
+        13,
+        14,
+        16,
+        19,
+        22,
+        26,
+        30,
+        31,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    }
   }
 }

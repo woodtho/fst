@@ -1,0 +1,259 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/23-2005F",
+  "sourceText": "sources/text/OF23.txt",
+  "objectiveId": "OF23",
+  "ofNumber": 23,
+  "titleFr": "Préciser les conditions de réalisation d’un projet",
+  "titleEn": "To give details about how a project is carried out",
+  "grammarConcepts": [
+    "present",
+    "prepositions"
+  ],
+  "sections": [
+    {
+      "id": "23.1",
+      "heading": "Lexique",
+      "topicsFr": "Vocabulaire relié au thème « projet »",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 72,
+      "linkedItems": [
+        "itm_of23_voc_fe_1",
+        "itm_of23_voc_fe_2",
+        "itm_of23_voc_fe_3",
+        "itm_of23_voc_fe_4",
+        "itm_of23_voc_fe_5",
+        "itm_of23_voc_fe_6",
+        "itm_of23_voc_fe_7",
+        "itm_of23_voc_fe_8"
+      ]
+    },
+    {
+      "id": "23.2",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre des précisions et des demandes de précisions sur un projet à réaliser (quantité, temps, espace [lieu])",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "23.3",
+      "heading": "Fonctions",
+      "topicsFr": "Demander et donner des précisions sur un projet réalisé (quantité, temps, espace [lieu])",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF23 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 72,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 2,
+    "derivedItems": 0,
+    "convertible": true,
+    "covered": false,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-3 (SC102-2-45-3)",
+    "consolidationBooklet": "consolidation-2 (SC102-2-47-2)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 23,
+    "coveredElements": 2,
+    "convertible": {
+      "covered": 2,
+      "total": 12
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "vocabulary": [],
+      "examples": [
+        "model sentences"
+      ],
+      "selfTest": [
+        "selfeval-3 (SC102-2-45-3)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "23.2 Fonctions (function)",
+        "23.3 Fonctions (function)"
+      ],
+      "activities": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        13,
+        15,
+        16,
+        17
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

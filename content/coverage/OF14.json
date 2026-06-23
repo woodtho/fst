@@ -1,0 +1,293 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/14-2005F",
+  "sourceText": "sources/text/OF14.txt",
+  "objectiveId": "OF14",
+  "ofNumber": 14,
+  "titleFr": "S’informer ou informer d’un événement",
+  "titleEn": "To give or ask information about events and happenings",
+  "grammarConcepts": [
+    "impersonal",
+    "question_formation"
+  ],
+  "sections": [
+    {
+      "id": "14.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs d’occurrence",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 15,
+      "linkedItems": [
+        "itm_of14_voc_fe_1",
+        "itm_of14_voc_fe_2",
+        "itm_of14_voc_fe_3",
+        "itm_of14_voc_fe_4",
+        "itm_of14_voc_fe_5",
+        "itm_of14_voc_fe_6",
+        "itm_of14_voc_fe_7",
+        "itm_of14_voc_ef_8"
+      ]
+    },
+    {
+      "id": "14.2",
+      "heading": "Grammaire",
+      "topicsFr": "Verbes impersonnels",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 17,
+      "linkedItems": [
+        "itm_of14_src_a4_9",
+        "itm_of14_src_a6_1",
+        "itm_of14_src_a6_2",
+        "itm_of14_src_a6_4",
+        "itm_of14_src_a6_5",
+        "itm_of14_src_a6_6",
+        "itm_of14_src_a6_7",
+        "itm_of14_src_a6_8"
+      ]
+    },
+    {
+      "id": "14.3",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre quelqu’un qui s’informe ou qui informe d’un événement",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "14.4",
+      "heading": "Fonctions",
+      "topicsFr": "S’informer et informer d’un événement",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "14.5",
+      "heading": "Phonétique",
+      "topicsFr": "Sons, rythmes et intonations du français",
+      "kind": "phonetics",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF14 (SC102-2/1-2-2005F)",
+    "entries": 18,
+    "questions": 15,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 7,
+    "derivedItems": 33,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-2 (SC102-2-45-2)",
+    "consolidationBooklet": "consolidation-2 (SC102-2-47-2)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of14_src_a4_9"
+      ]
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of14_src_a6_1",
+        "itm_of14_src_a6_2",
+        "itm_of14_src_a6_4",
+        "itm_of14_src_a6_5",
+        "itm_of14_src_a6_6",
+        "itm_of14_src_a6_7",
+        "itm_of14_src_a6_8",
+        "itm_of14_src_a6_9",
+        "itm_of14_src_a6_10"
+      ]
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of14_src_a8_1",
+        "itm_of14_src_a8_2",
+        "itm_of14_src_a8_5",
+        "itm_of14_src_a8_6",
+        "itm_of14_src_a8_7",
+        "itm_of14_src_a8_8"
+      ]
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of14_src_a10_1"
+      ]
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 24,
+    "coveredElements": 8,
+    "convertible": {
+      "covered": 8,
+      "total": 10
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        2
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-2 (SC102-2-45-2)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "14.3 Fonctions (function)",
+        "14.4 Fonctions (function)",
+        "14.5 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

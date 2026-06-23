@@ -83,5 +83,52 @@
         "prepositions"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 7,
+    "totalElements": 29,
+    "convertible": {
+      "covered": 7,
+      "total": 19
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "3.3 Fonctions (function)",
+        "3.4 Fonctions (function)",
+        "3.5 Compréhension de l’oral (oral)"
+      ],
+      "activities": [
+        2,
+        6,
+        9,
+        15,
+        16,
+        20,
+        21
+      ]
+    }
   }
 }

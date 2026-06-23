@@ -82,5 +82,53 @@
         "subjonctif"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 10,
+    "totalElements": 33,
+    "convertible": {
+      "covered": 10,
+      "total": 19
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        4,
+        6,
+        8,
+        9,
+        13,
+        17,
+        18,
+        19
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-3 (SC102-2-45-3)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "28.5 Fonctions (function)",
+        "28.6 Fonctions (function)"
+      ],
+      "activities": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        14,
+        16,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
   }
 }

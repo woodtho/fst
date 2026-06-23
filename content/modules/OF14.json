@@ -83,5 +83,46 @@
         "question_formation"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 8,
+    "totalElements": 24,
+    "convertible": {
+      "covered": 8,
+      "total": 10
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        2
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-2 (SC102-2-45-2)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "14.3 Fonctions (function)",
+        "14.4 Fonctions (function)",
+        "14.5 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
   }
 }

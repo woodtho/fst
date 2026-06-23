@@ -1,0 +1,747 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/4-2005F",
+  "sourceText": "sources/text/OF04.txt",
+  "objectiveId": "OF4",
+  "ofNumber": 4,
+  "titleFr": "Exprimer des relations de possession",
+  "titleEn": "To express ownership",
+  "grammarConcepts": [
+    "present",
+    "possessives",
+    "adjectives"
+  ],
+  "sections": [
+    {
+      "id": "4.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de possession",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 59,
+      "linkedItems": [
+        "itm_of4_voc_fe_1",
+        "itm_of4_voc_fe_2",
+        "itm_of4_voc_fe_3",
+        "itm_of4_voc_fe_4",
+        "itm_of4_voc_fe_5",
+        "itm_of4_voc_fe_6",
+        "itm_of4_voc_fe_7",
+        "itm_of4_voc_fe_8"
+      ]
+    },
+    {
+      "id": "4.2",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de qualités physiques : XX couleur XX forme XX dimension XX matière XX état",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 59,
+      "linkedItems": [
+        "itm_of4_voc_fe_1",
+        "itm_of4_voc_fe_2",
+        "itm_of4_voc_fe_3",
+        "itm_of4_voc_fe_4",
+        "itm_of4_voc_fe_5",
+        "itm_of4_voc_fe_6",
+        "itm_of4_voc_fe_7",
+        "itm_of4_voc_fe_8"
+      ]
+    },
+    {
+      "id": "4.3",
+      "heading": "Grammaire",
+      "topicsFr": "Verbe avoir au présent XX Pronoms personnels XX Adjectifs possessifs XX Pronoms possessifs",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 19,
+      "linkedItems": [
+        "itm_of4_src_a21_1",
+        "itm_of4_src_a21_2",
+        "itm_of4_src_a21_3",
+        "itm_of4_src_a21_4",
+        "itm_of4_src_a21_5",
+        "itm_of4_src_a21_7",
+        "itm_of4_src_a21_8",
+        "itm_of4_src_a21_9"
+      ]
+    },
+    {
+      "id": "4.4",
+      "heading": "Grammaire",
+      "topicsFr": "Accord des adjectifs XX Place des adjectifs",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 19,
+      "linkedItems": [
+        "itm_of4_src_a21_1",
+        "itm_of4_src_a21_2",
+        "itm_of4_src_a21_3",
+        "itm_of4_src_a21_4",
+        "itm_of4_src_a21_5",
+        "itm_of4_src_a21_7",
+        "itm_of4_src_a21_8",
+        "itm_of4_src_a21_9"
+      ]
+    },
+    {
+      "id": "4.5",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre des questions et des informations relatives à la possession",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "4.6",
+      "heading": "Fonctions",
+      "topicsFr": "S’informer de l’identité du possesseur d’un objet/document",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "4.7",
+      "heading": "Fonctions",
+      "topicsFr": "Identifier le possesseur d’un objet ou d’un document et décrire brièvement un objet ou un document pour en identifier le possesseur",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "4.8",
+      "heading": "Phonétique",
+      "topicsFr": "Les phénomènes : la syllabation, l’enchaînement, la liaison, l’intonation, l’accentuation, le rythme, la chute du « e » et l’assimilation",
+      "kind": "phonetics",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF4 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 59,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 7,
+    "derivedItems": 37,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-1 (SC102-2-45-1)",
+    "consolidationBooklet": "consolidation-1 (SC102-2-47-1)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of4_src_a21_1",
+        "itm_of4_src_a21_2",
+        "itm_of4_src_a21_3",
+        "itm_of4_src_a21_4",
+        "itm_of4_src_a21_5",
+        "itm_of4_src_a21_7",
+        "itm_of4_src_a21_8",
+        "itm_of4_src_a21_9"
+      ]
+    },
+    {
+      "activity": 22,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 23,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 24,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 25,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 26,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 27,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of4_src_a27_6"
+      ]
+    },
+    {
+      "activity": 28,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 29,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 30,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 31,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 32,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 33,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 34,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 35,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 36,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 37,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 38,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 39,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 40,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 41,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a41_1",
+        "itm_of4_src_a41_3",
+        "itm_of4_src_a41_5",
+        "itm_of4_src_a41_6",
+        "itm_of4_src_a41_7",
+        "itm_of4_src_a41_8",
+        "itm_of4_src_a41_9",
+        "itm_of4_src_a41_10",
+        "itm_of4_src_a41_11",
+        "itm_of4_src_a41_12"
+      ]
+    },
+    {
+      "activity": 42,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 43,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 44,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 45,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 46,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 47,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 48,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 49,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 50,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 51,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 52,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 53,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 54,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 55,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 56,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 57,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 58,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 59,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 60,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 61,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 72,
+    "coveredElements": 9,
+    "convertible": {
+      "covered": 9,
+      "total": 36
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        15,
+        17,
+        18,
+        20,
+        23,
+        24,
+        25,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        43,
+        44,
+        45,
+        51,
+        53
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "4.5 Fonctions (function)",
+        "4.6 Fonctions (function)",
+        "4.7 Fonctions (function)",
+        "4.8 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        2,
+        9,
+        12,
+        13,
+        14,
+        16,
+        19,
+        22,
+        26,
+        30,
+        31,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

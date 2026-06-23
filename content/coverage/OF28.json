@@ -1,0 +1,412 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/28-2005F",
+  "sourceText": "sources/text/OF28.txt",
+  "objectiveId": "OF28",
+  "ofNumber": 28,
+  "titleFr": "Préciser l’importance d’une directive",
+  "titleEn": "To explain the importance of an instruction",
+  "grammarConcepts": [
+    "subjonctif"
+  ],
+  "sections": [
+    {
+      "id": "28.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs d’obligation, de nécessité et de désirabilité",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 52,
+      "linkedItems": [
+        "itm_of28_voc_fe_1",
+        "itm_of28_voc_fe_2",
+        "itm_of28_voc_fe_3",
+        "itm_of28_voc_fe_4",
+        "itm_of28_voc_fe_5",
+        "itm_of28_voc_fe_6",
+        "itm_of28_voc_fe_7",
+        "itm_of28_voc_fe_8"
+      ]
+    },
+    {
+      "id": "28.2",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs d’importance",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 52,
+      "linkedItems": [
+        "itm_of28_voc_fe_1",
+        "itm_of28_voc_fe_2",
+        "itm_of28_voc_fe_3",
+        "itm_of28_voc_fe_4",
+        "itm_of28_voc_fe_5",
+        "itm_of28_voc_fe_6",
+        "itm_of28_voc_fe_7",
+        "itm_of28_voc_fe_8"
+      ]
+    },
+    {
+      "id": "28.3",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs d’utilité et d’inutilité",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 52,
+      "linkedItems": [
+        "itm_of28_voc_fe_1",
+        "itm_of28_voc_fe_2",
+        "itm_of28_voc_fe_3",
+        "itm_of28_voc_fe_4",
+        "itm_of28_voc_fe_5",
+        "itm_of28_voc_fe_6",
+        "itm_of28_voc_fe_7",
+        "itm_of28_voc_fe_8"
+      ]
+    },
+    {
+      "id": "28.4",
+      "heading": "Grammaire",
+      "topicsFr": "Subjonctif ou infinitif après des expressions d’obligation, de nécessité et de désirabilité, d’importance, d’utilité et d’inutilité",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 39,
+      "linkedItems": [
+        "itm_of28_src_a3_1",
+        "itm_of28_src_a3_2",
+        "itm_of28_src_a3_3",
+        "itm_of28_src_a3_4",
+        "itm_of28_src_a3_5",
+        "itm_of28_src_a3_6",
+        "itm_of28_src_a3_7",
+        "itm_of28_src_a3_8"
+      ]
+    },
+    {
+      "id": "28.5",
+      "heading": "Fonctions",
+      "topicsFr": "Understanding information and requests for information about the importance of an instruction",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "28.6",
+      "heading": "Fonctions",
+      "topicsFr": "Asking for and giving information about the importance of an instruction",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF28 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 52,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 6,
+    "derivedItems": 56,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-3 (SC102-2-45-3)",
+    "consolidationBooklet": "consolidation-3 (SC102-2-47-3)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of28_src_a3_1",
+        "itm_of28_src_a3_2",
+        "itm_of28_src_a3_3",
+        "itm_of28_src_a3_4",
+        "itm_of28_src_a3_5",
+        "itm_of28_src_a3_6",
+        "itm_of28_src_a3_7",
+        "itm_of28_src_a3_8",
+        "itm_of28_src_a3_9",
+        "itm_of28_src_a3_10",
+        "itm_of28_src_a3_11",
+        "itm_of28_src_a3_12"
+      ]
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of28_src_a11_2",
+        "itm_of28_src_a11_3",
+        "itm_of28_src_a11_4",
+        "itm_of28_src_a11_5",
+        "itm_of28_src_a11_7",
+        "itm_of28_src_a11_8",
+        "itm_of28_src_a11_9",
+        "itm_of28_src_a11_10"
+      ]
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of28_src_a12_1",
+        "itm_of28_src_a12_2",
+        "itm_of28_src_a12_3",
+        "itm_of28_src_a12_4",
+        "itm_of28_src_a12_5",
+        "itm_of28_src_a12_6",
+        "itm_of28_src_a12_7",
+        "itm_of28_src_a12_8",
+        "itm_of28_src_a12_10"
+      ]
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of28_src_a15_1",
+        "itm_of28_src_a15_2",
+        "itm_of28_src_a15_3",
+        "itm_of28_src_a15_4",
+        "itm_of28_src_a15_5",
+        "itm_of28_src_a15_6",
+        "itm_of28_src_a15_7",
+        "itm_of28_src_a15_8",
+        "itm_of28_src_a15_9",
+        "itm_of28_src_a15_10"
+      ]
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 22,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 23,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 24,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 33,
+    "coveredElements": 10,
+    "convertible": {
+      "covered": 10,
+      "total": 19
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        4,
+        6,
+        8,
+        9,
+        13,
+        17,
+        18,
+        19
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-3 (SC102-2-45-3)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "28.5 Fonctions (function)",
+        "28.6 Fonctions (function)"
+      ],
+      "activities": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        14,
+        16,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/8-2005F",
+  "sourceText": "sources/text/OF08.txt",
+  "objectiveId": "OF8",
+  "ofNumber": 8,
+  "titleFr": "Situer un événement dans le temps",
+  "titleEn": "To give times and dates",
+  "grammarConcepts": [
+    "prepositions",
+    "present",
+    "question_formation"
+  ],
+  "sections": [
+    {
+      "id": "8.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de temps (moment précis et moment approximatif)",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 79,
+      "linkedItems": [
+        "itm_of8_voc_fe_1",
+        "itm_of8_voc_fe_2",
+        "itm_of8_voc_fe_3",
+        "itm_of8_voc_fe_4",
+        "itm_of8_voc_fe_5",
+        "itm_of8_voc_fe_6",
+        "itm_of8_voc_fe_7",
+        "itm_of8_voc_fe_8"
+      ]
+    },
+    {
+      "id": "8.2",
+      "heading": "Grammaire",
+      "topicsFr": "Mots interrogatifs quand, à quel(le), en quel(le) · Interrogation avec savoir et dire · Verbes en -ir à l’indicatif présent",
+      "kind": "grammar",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "8.3",
+      "heading": "Langue écrite",
+      "topicsFr": "Informations relatives à la date et à l’heure",
+      "kind": "writing",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "8.4",
+      "heading": "Langue écrite",
+      "topicsFr": "Informations relatives au temps",
+      "kind": "writing",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "8.5",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre des questions et des informations relatives au temps",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "8.6",
+      "heading": "Fonctions",
+      "topicsFr": "Demander et fournir des informations relatives au temps",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "8.7",
+      "heading": "Fonctions",
+      "topicsFr": "Faire des arrangements, confirmer et annuler des arrangements (réservations, rendez-vous)",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "8.8",
+      "heading": "Phonétique",
+      "topicsFr": "Sons, rythmes et intonations du français",
+      "kind": "phonetics",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF8 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 79,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 4,
+    "derivedItems": 0,
+    "convertible": true,
+    "covered": false,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-1 (SC102-2-45-1)",
+    "consolidationBooklet": "consolidation-1 (SC102-2-47-1)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 22,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 23,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 24,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 25,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 26,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 27,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 28,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 29,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 30,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 31,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 32,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 33,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 34,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 35,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 46,
+    "coveredElements": 2,
+    "convertible": {
+      "covered": 2,
+      "total": 13
+    },
+    "actionableGaps": {
+      "sections": [
+        "8.2 Grammaire (grammar)"
+      ],
+      "activities": [
+        6,
+        7,
+        8,
+        13,
+        16,
+        17,
+        19,
+        22
+      ],
+      "vocabulary": [],
+      "examples": [
+        "model sentences"
+      ],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "8.3 Langue écrite (writing)",
+        "8.4 Langue écrite (writing)",
+        "8.5 Fonctions (function)",
+        "8.6 Fonctions (function)",
+        "8.7 Fonctions (function)",
+        "8.8 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        18,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

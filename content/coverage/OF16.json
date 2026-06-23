@@ -1,0 +1,326 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/16-2005F",
+  "sourceText": "sources/text/OF16.txt",
+  "objectiveId": "OF16",
+  "ofNumber": 16,
+  "titleFr": "Faire une offre et réagir à une offre",
+  "titleEn": "To make and to respond to offers",
+  "grammarConcepts": [
+    "present",
+    "passe_compose"
+  ],
+  "sections": [
+    {
+      "id": "16.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs d’offre · Indicateurs d’acceptation et de refus",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 19,
+      "linkedItems": [
+        "itm_of16_voc_fe_1",
+        "itm_of16_voc_fe_2",
+        "itm_of16_voc_fe_3",
+        "itm_of16_voc_fe_4",
+        "itm_of16_voc_fe_5",
+        "itm_of16_voc_fe_6",
+        "itm_of16_voc_fe_7",
+        "itm_of16_voc_fe_8"
+      ]
+    },
+    {
+      "id": "16.2",
+      "heading": "Grammaire",
+      "topicsFr": "Verbe offrir au présent et au passé composé",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of16_src_a2_2"
+      ]
+    },
+    {
+      "id": "16.3",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre une offre, une acceptation ou un refus",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "16.4",
+      "heading": "Fonctions",
+      "topicsFr": "Offrir, accepter ou refuser quelque chose; informer et s’informer d’une offre, d’une acceptation ou d’un refus",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "16.5",
+      "heading": "Stratégies de communication",
+      "topicsFr": "Softening a refusal",
+      "kind": "strategy",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "16.6",
+      "heading": "Fonctions",
+      "topicsFr": "Understanding information and questions about an offer, acceptance or a refusal",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "16.7",
+      "heading": "Phonétique",
+      "topicsFr": "Sounds, rhythm and intonation in French",
+      "kind": "phonetics",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF16 (SC102-2/1-2-2005F)",
+    "entries": 11,
+    "questions": 19,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 2,
+    "derivedItems": 2,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-2 (SC102-2-45-2)",
+    "consolidationBooklet": "consolidation-2 (SC102-2-47-2)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of16_src_a2_2"
+      ]
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 30,
+    "coveredElements": 5,
+    "convertible": {
+      "covered": 5,
+      "total": 13
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        15,
+        17
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-2 (SC102-2-45-2)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "16.3 Fonctions (function)",
+        "16.4 Fonctions (function)",
+        "16.5 Stratégies de communication (strategy)",
+        "16.6 Fonctions (function)",
+        "16.7 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        3,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

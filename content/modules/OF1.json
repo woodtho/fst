@@ -84,5 +84,77 @@
         "question_formation"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 12,
+    "totalElements": 59,
+    "convertible": {
+      "covered": 12,
+      "total": 26
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        5,
+        9,
+        10,
+        12,
+        19,
+        26,
+        28,
+        29,
+        30,
+        31,
+        38,
+        40,
+        41
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "1.2 Stratégies de communication (strategy)",
+        "1.5 Stratégies de communication (strategy)",
+        "1.6 Fonctions (function)",
+        "1.7 Fonctions (function)",
+        "1.8 Fonctions (function)",
+        "1.9 Langue écrite (writing)",
+        "1.10 Stratégies de communication (strategy)"
+      ],
+      "activities": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        11,
+        13,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        27,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    }
   }
 }

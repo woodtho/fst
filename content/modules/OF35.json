@@ -74,5 +74,57 @@
         "conditionnel"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 0,
+    "totalElements": 24,
+    "convertible": {
+      "covered": 0,
+      "total": 9
+    },
+    "actionableGaps": {
+      "sections": [
+        "35.3 Notions (vocabulary)"
+      ],
+      "activities": [
+        2,
+        5,
+        6,
+        10,
+        11
+      ],
+      "vocabulary": [
+        "Lexique"
+      ],
+      "examples": [
+        "model sentences"
+      ],
+      "selfTest": [
+        "selfeval-4 (SC102-2-45-4)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "35.2 Fonctions (function)",
+        "35.1 FONCTIONS (function)"
+      ],
+      "activities": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
   }
 }

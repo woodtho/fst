@@ -1,0 +1,316 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/34-2005F",
+  "sourceText": "sources/text/OF34.txt",
+  "objectiveId": "OF34",
+  "ofNumber": 34,
+  "titleFr": "Proposer des solutions à un problème",
+  "titleEn": "To put forward solutions to a problem",
+  "grammarConcepts": [
+    "si_clauses",
+    "conditionnel",
+    "imparfait"
+  ],
+  "sections": [
+    {
+      "id": "34.1",
+      "heading": "Grammaire",
+      "topicsFr": "La conjonction si · La concordance des temps dans les phrases conditionnelles",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 20,
+      "linkedItems": [
+        "itm_of34_src_a4_2",
+        "itm_of34_src_a4_3",
+        "itm_of34_src_a4_4",
+        "itm_of34_src_a4_7",
+        "itm_of34_src_a4_8",
+        "itm_of34_src_a4_9",
+        "itm_of34_src_a4_10",
+        "itm_of34_src_a4_11"
+      ]
+    },
+    {
+      "id": "34.2",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre et formuler des suppositions, des hypothèses",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "34.3",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre et poser des conditions",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF34 (SC102-2/1-2-2005F)",
+    "entries": 6,
+    "questions": 0,
+    "convertible": true,
+    "covered": false
+  },
+  "examples": {
+    "sourceMarkers": 3,
+    "derivedItems": 40,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-4 (SC102-2-45-4)",
+    "consolidationBooklet": "consolidation-4 (SC102-2-47-4)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 13,
+      "linkedItems": [
+        "itm_of34_src_a4_2",
+        "itm_of34_src_a4_3",
+        "itm_of34_src_a4_4",
+        "itm_of34_src_a4_7",
+        "itm_of34_src_a4_8",
+        "itm_of34_src_a4_9",
+        "itm_of34_src_a4_10",
+        "itm_of34_src_a4_11",
+        "itm_of34_src_a4_12",
+        "itm_of34_src_a4_13",
+        "itm_of34_src_a4_14",
+        "itm_of34_src_a4_15",
+        "itm_of34_src_a4_16"
+      ]
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 7,
+      "linkedItems": [
+        "itm_of34_src_a10_2",
+        "itm_of34_src_a10_3",
+        "itm_of34_src_a10_7",
+        "itm_of34_src_a10_9",
+        "itm_of34_src_a10_10",
+        "itm_of34_src_a10_13",
+        "itm_of34_src_a10_18"
+      ]
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 27,
+    "coveredElements": 4,
+    "convertible": {
+      "covered": 4,
+      "total": 10
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        3,
+        5,
+        11,
+        15
+      ],
+      "vocabulary": [
+        "Lexique"
+      ],
+      "examples": [],
+      "selfTest": [
+        "selfeval-4 (SC102-2-45-4)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "34.2 Fonctions (function)",
+        "34.3 Fonctions (function)"
+      ],
+      "activities": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

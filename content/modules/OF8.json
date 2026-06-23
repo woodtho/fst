@@ -80,5 +80,76 @@
         "question_formation"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 2,
+    "totalElements": 46,
+    "convertible": {
+      "covered": 2,
+      "total": 13
+    },
+    "actionableGaps": {
+      "sections": [
+        "8.2 Grammaire (grammar)"
+      ],
+      "activities": [
+        6,
+        7,
+        8,
+        13,
+        16,
+        17,
+        19,
+        22
+      ],
+      "vocabulary": [],
+      "examples": [
+        "model sentences"
+      ],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "8.3 Langue écrite (writing)",
+        "8.4 Langue écrite (writing)",
+        "8.5 Fonctions (function)",
+        "8.6 Fonctions (function)",
+        "8.7 Fonctions (function)",
+        "8.8 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        18,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    }
   }
 }

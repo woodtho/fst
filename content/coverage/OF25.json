@@ -1,0 +1,251 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/25-2005F",
+  "sourceText": "sources/text/OF25.txt",
+  "objectiveId": "OF25",
+  "ofNumber": 25,
+  "titleFr": "Indiquer les étapes d’un processus",
+  "titleEn": "To indicate the steps in a process",
+  "grammarConcepts": [
+    "connectors",
+    "present"
+  ],
+  "sections": [
+    {
+      "id": "25.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de temps (stades de déroulement)",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 48,
+      "linkedItems": [
+        "itm_of25_voc_fe_1",
+        "itm_of25_voc_fe_2",
+        "itm_of25_voc_fe_3",
+        "itm_of25_voc_fe_4",
+        "itm_of25_voc_fe_5",
+        "itm_of25_voc_fe_6",
+        "itm_of25_voc_fe_7",
+        "itm_of25_voc_fe_8"
+      ]
+    },
+    {
+      "id": "25.2",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre de l’information et des demandes d’information sur les étapes d’un projet ou d’une activité",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "25.3",
+      "heading": "Fonctions",
+      "topicsFr": "Demander et fournir de l’information sur les étapes d’un projet et d’une activité",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "25.4",
+      "heading": "Compréhension de l’oral",
+      "topicsFr": "Comprendre globalement et en détail un document enregistré",
+      "kind": "oral",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF25 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 48,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 3,
+    "derivedItems": 0,
+    "convertible": true,
+    "covered": false,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-3 (SC102-2-45-3)",
+    "consolidationBooklet": "consolidation-3 (SC102-2-47-3)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 22,
+    "coveredElements": 2,
+    "convertible": {
+      "covered": 2,
+      "total": 11
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "vocabulary": [],
+      "examples": [
+        "model sentences"
+      ],
+      "selfTest": [
+        "selfeval-3 (SC102-2-45-3)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "25.2 Fonctions (function)",
+        "25.3 Fonctions (function)",
+        "25.4 Compréhension de l’oral (oral)"
+      ],
+      "activities": [
+        2,
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

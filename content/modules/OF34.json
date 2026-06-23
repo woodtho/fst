@@ -80,5 +80,54 @@
         "imparfait"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 4,
+    "totalElements": 27,
+    "convertible": {
+      "covered": 4,
+      "total": 10
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        3,
+        5,
+        11,
+        15
+      ],
+      "vocabulary": [
+        "Lexique"
+      ],
+      "examples": [],
+      "selfTest": [
+        "selfeval-4 (SC102-2-45-4)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "34.2 Fonctions (function)",
+        "34.3 Fonctions (function)"
+      ],
+      "activities": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    }
   }
 }

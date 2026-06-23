@@ -84,5 +84,77 @@
         "pronouns"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 9,
+    "totalElements": 56,
+    "convertible": {
+      "covered": 9,
+      "total": 24
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        19,
+        25,
+        27,
+        30,
+        32,
+        39,
+        41,
+        44
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "5.3 Fonctions (function)",
+        "5.4 Fonctions (function)",
+        "5.6 Stratégies de communication (strategy)",
+        "5.7 Fonctions (function)",
+        "5.8 Fonctions (function)",
+        "5.9 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        2,
+        3,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        23,
+        24,
+        26,
+        28,
+        29,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        42
+      ]
+    }
   }
 }

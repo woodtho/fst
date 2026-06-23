@@ -82,5 +82,59 @@
         "quantity"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 5,
+    "totalElements": 34,
+    "convertible": {
+      "covered": 5,
+      "total": 18
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        21,
+        23
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "12.2 Fonctions (function)",
+        "12.3 Fonctions (function)",
+        "12.4 Fonctions (function)",
+        "12.5 Phonétique (phonetics)",
+        "12.6 Langue écrite (writing)"
+      ],
+      "activities": [
+        3,
+        8,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        24,
+        25
+      ]
+    }
   }
 }

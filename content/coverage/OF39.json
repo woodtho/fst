@@ -1,0 +1,714 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/39-2005F",
+  "sourceText": "sources/text/OF39.txt",
+  "objectiveId": "OF39",
+  "ofNumber": 39,
+  "titleFr": "Évaluer un changement proposé",
+  "titleEn": "To evaluate a proposed change",
+  "grammarConcepts": [
+    "subjonctif",
+    "comparatives"
+  ],
+  "sections": [
+    {
+      "id": "39.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de connaissance et d’ignorance",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 63,
+      "linkedItems": [
+        "itm_of39_voc_fe_1",
+        "itm_of39_voc_fe_2",
+        "itm_of39_voc_fe_3",
+        "itm_of39_voc_fe_4",
+        "itm_of39_voc_fe_5",
+        "itm_of39_voc_fe_6",
+        "itm_of39_voc_fe_7",
+        "itm_of39_voc_fe_8"
+      ]
+    },
+    {
+      "id": "39.2",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de certitude et de doute",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 63,
+      "linkedItems": [
+        "itm_of39_voc_fe_1",
+        "itm_of39_voc_fe_2",
+        "itm_of39_voc_fe_3",
+        "itm_of39_voc_fe_4",
+        "itm_of39_voc_fe_5",
+        "itm_of39_voc_fe_6",
+        "itm_of39_voc_fe_7",
+        "itm_of39_voc_fe_8"
+      ]
+    },
+    {
+      "id": "39.3",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de persistance et d’abandon, de stabilité et de changement",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 63,
+      "linkedItems": [
+        "itm_of39_voc_fe_1",
+        "itm_of39_voc_fe_2",
+        "itm_of39_voc_fe_3",
+        "itm_of39_voc_fe_4",
+        "itm_of39_voc_fe_5",
+        "itm_of39_voc_fe_6",
+        "itm_of39_voc_fe_7",
+        "itm_of39_voc_fe_8"
+      ]
+    },
+    {
+      "id": "39.4",
+      "heading": "Grammaire",
+      "topicsFr": "Subjonctif ou indicatif après les verbes ou expressions d’opinion",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 33,
+      "linkedItems": [
+        "itm_of39_src_a16_1",
+        "itm_of39_src_a16_3",
+        "itm_of39_src_a16_7",
+        "itm_of39_src_a16_8",
+        "itm_of39_src_a16_10",
+        "itm_of39_src_a17_1",
+        "itm_of39_src_a17_2",
+        "itm_of39_src_a17_3"
+      ]
+    },
+    {
+      "id": "39.5",
+      "heading": "Stratégies de communication",
+      "topicsFr": "Expressions marquant un sentiment, une attitude",
+      "kind": "strategy",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "39.6",
+      "heading": "Grammaire",
+      "topicsFr": "Formation du subjonctif passé et de l’infinitif passé · Subjonctif ou infinitif après des expressions de sentiments, d’attitudes",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 33,
+      "linkedItems": [
+        "itm_of39_src_a16_1",
+        "itm_of39_src_a16_3",
+        "itm_of39_src_a16_7",
+        "itm_of39_src_a16_8",
+        "itm_of39_src_a16_10",
+        "itm_of39_src_a17_1",
+        "itm_of39_src_a17_2",
+        "itm_of39_src_a17_3"
+      ]
+    },
+    {
+      "id": "39.7",
+      "heading": "Fonctions",
+      "topicsFr": "Annoncer un changement et réagir à l’annonce d’un changement",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "39.8",
+      "heading": "Fonctions",
+      "topicsFr": "Communiquer une décision",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF39 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 63,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 8,
+    "derivedItems": 66,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-4 (SC102-2-45-4)",
+    "consolidationBooklet": "consolidation-4 (SC102-2-47-4)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_src_a16_1",
+        "itm_of39_src_a16_3",
+        "itm_of39_src_a16_7",
+        "itm_of39_src_a16_8",
+        "itm_of39_src_a16_10"
+      ]
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of39_src_a17_1",
+        "itm_of39_src_a17_2",
+        "itm_of39_src_a17_3",
+        "itm_of39_src_a17_5",
+        "itm_of39_src_a17_6",
+        "itm_of39_src_a17_7"
+      ]
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 22,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 23,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 24,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 25,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 26,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 27,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of39_src_a27_1",
+        "itm_of39_src_a27_2",
+        "itm_of39_src_a27_3",
+        "itm_of39_src_a27_4",
+        "itm_of39_src_a27_5",
+        "itm_of39_src_a27_7",
+        "itm_of39_src_a27_8",
+        "itm_of39_src_a27_10",
+        "itm_of39_src_a27_11",
+        "itm_of39_src_a27_12"
+      ]
+    },
+    {
+      "activity": 28,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of39_src_a28_1",
+        "itm_of39_src_a28_2"
+      ]
+    },
+    {
+      "activity": 29,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of39_src_a29_1",
+        "itm_of39_src_a29_2",
+        "itm_of39_src_a29_3",
+        "itm_of39_src_a29_4",
+        "itm_of39_src_a29_5",
+        "itm_of39_src_a29_6",
+        "itm_of39_src_a29_7",
+        "itm_of39_src_a29_8",
+        "itm_of39_src_a29_9",
+        "itm_of39_src_a29_10"
+      ]
+    },
+    {
+      "activity": 30,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 31,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 32,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 33,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 34,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 35,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 36,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 37,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 38,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 39,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 40,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 41,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 42,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 43,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 44,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 45,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 46,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 47,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 48,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 49,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 50,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 51,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 52,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 53,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 54,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 55,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 66,
+    "coveredElements": 12,
+    "convertible": {
+      "covered": 12,
+      "total": 34
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        18,
+        23,
+        25,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        42
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-4 (SC102-2-45-4)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "39.5 Stratégies de communication (strategy)",
+        "39.7 Fonctions (function)",
+        "39.8 Fonctions (function)"
+      ],
+      "activities": [
+        1,
+        2,
+        4,
+        7,
+        15,
+        19,
+        20,
+        21,
+        22,
+        24,
+        26,
+        31,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

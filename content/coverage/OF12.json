@@ -1,0 +1,369 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/12-2005F",
+  "sourceText": "sources/text/OF12.txt",
+  "objectiveId": "OF12",
+  "ofNumber": 12,
+  "titleFr": "Indiquer la répartition et une quantité non numérique",
+  "titleEn": "To indicate distribution and general quantity",
+  "grammarConcepts": [
+    "quantity"
+  ],
+  "sections": [
+    {
+      "id": "12.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs non numériques de la quantité · Indicateurs de répartition",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 63,
+      "linkedItems": [
+        "itm_of12_voc_fe_1",
+        "itm_of12_voc_fe_2",
+        "itm_of12_voc_fe_3",
+        "itm_of12_voc_fe_4",
+        "itm_of12_voc_fe_5",
+        "itm_of12_voc_fe_6",
+        "itm_of12_voc_fe_7",
+        "itm_of12_voc_fe_8"
+      ]
+    },
+    {
+      "id": "12.2",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre une demande d’information et des informations relatives à la quantité et à la répartition (personnes, objets, documents)",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "12.3",
+      "heading": "Fonctions",
+      "topicsFr": "Demander et fournir des informations d’ordre quantitatif",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "12.4",
+      "heading": "Fonctions",
+      "topicsFr": "Demander et fournir des informations relatives à la répartition (personnes, objets, documents)",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "12.5",
+      "heading": "Phonétique",
+      "topicsFr": "Sons, rythmes et intonations du français",
+      "kind": "phonetics",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "12.6",
+      "heading": "Langue écrite",
+      "topicsFr": "Comprendre un courriel contenant des informations d’ordre quantitatif (répartition et quantification non numérique)",
+      "kind": "writing",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF12 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 63,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 7,
+    "derivedItems": 11,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-1 (SC102-2-45-1)",
+    "consolidationBooklet": "consolidation-1 (SC102-2-47-1)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of12_src_a4_2",
+        "itm_of12_src_a4_5",
+        "itm_of12_src_a4_6",
+        "itm_of12_src_a4_9"
+      ]
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 7,
+      "linkedItems": [
+        "itm_of12_src_a7_2",
+        "itm_of12_src_a7_3",
+        "itm_of12_src_a7_4",
+        "itm_of12_src_a7_5",
+        "itm_of12_src_a7_6",
+        "itm_of12_src_a7_7",
+        "itm_of12_src_a7_8"
+      ]
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 22,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 23,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 24,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 25,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 34,
+    "coveredElements": 5,
+    "convertible": {
+      "covered": 5,
+      "total": 18
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        21,
+        23
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "12.2 Fonctions (function)",
+        "12.3 Fonctions (function)",
+        "12.4 Fonctions (function)",
+        "12.5 Phonétique (phonetics)",
+        "12.6 Langue écrite (writing)"
+      ],
+      "activities": [
+        3,
+        8,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        24,
+        25
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

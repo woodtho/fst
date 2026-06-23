@@ -1,0 +1,214 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/17-2005F",
+  "sourceText": "sources/text/OF17.txt",
+  "objectiveId": "OF17",
+  "ofNumber": 17,
+  "titleFr": "S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses",
+  "titleEn": "To give or to ask for information about the presence or availability of people or things",
+  "grammarConcepts": [
+    "present",
+    "pronouns"
+  ],
+  "sections": [
+    {
+      "id": "17.1",
+      "heading": "Notions",
+      "topicsFr": "",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 37,
+      "linkedItems": [
+        "itm_of17_voc_fe_1",
+        "itm_of17_voc_fe_2",
+        "itm_of17_voc_fe_3",
+        "itm_of17_voc_fe_4",
+        "itm_of17_voc_fe_5",
+        "itm_of17_voc_fe_6",
+        "itm_of17_voc_fe_7",
+        "itm_of17_voc_fe_8"
+      ]
+    },
+    {
+      "id": "17.2",
+      "heading": "Fonctions",
+      "topicsFr": "",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "17.3",
+      "heading": "Fonctions",
+      "topicsFr": "",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "17.4",
+      "heading": "Phonétique",
+      "topicsFr": "",
+      "kind": "phonetics",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF17 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 37,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 1,
+    "derivedItems": 2,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-2 (SC102-2-45-2)",
+    "consolidationBooklet": "consolidation-2 (SC102-2-47-2)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of17_src_a5_1"
+      ]
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 18,
+    "coveredElements": 4,
+    "convertible": {
+      "covered": 4,
+      "total": 10
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        3,
+        4,
+        7,
+        9,
+        10
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-2 (SC102-2-45-2)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "17.2 Fonctions (function)",
+        "17.3 Fonctions (function)",
+        "17.4 Phonétique (phonetics)"
+      ],
+      "activities": [
+        1,
+        2,
+        6,
+        8,
+        11
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

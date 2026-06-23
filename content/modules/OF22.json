@@ -83,5 +83,94 @@
         "prepositions"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 12,
+    "totalElements": 76,
+    "convertible": {
+      "covered": 12,
+      "total": 46
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        21,
+        22,
+        25,
+        26,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        38,
+        40,
+        42,
+        43,
+        44,
+        47,
+        48,
+        49,
+        50,
+        51,
+        59,
+        62
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-2 (SC102-2-45-2)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "22.7 Fonctions (function)",
+        "22.8 Fonctions (function)",
+        "22.9 Langue écrite (writing)"
+      ],
+      "activities": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        20,
+        24,
+        27,
+        32,
+        37,
+        41,
+        45,
+        46,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        60,
+        61,
+        63,
+        64
+      ]
+    }
   }
 }

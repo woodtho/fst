@@ -1,0 +1,333 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/3-2005F",
+  "sourceText": "sources/text/OF03.txt",
+  "objectiveId": "OF3",
+  "ofNumber": 3,
+  "titleFr": "Exprimer des relations d’appartenance",
+  "titleEn": "To express relationships of belonging",
+  "grammarConcepts": [
+    "present",
+    "prepositions"
+  ],
+  "sections": [
+    {
+      "id": "3.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs d’appartenance",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 46,
+      "linkedItems": [
+        "itm_of3_voc_fe_1",
+        "itm_of3_voc_fe_2",
+        "itm_of3_voc_fe_3",
+        "itm_of3_voc_fe_4",
+        "itm_of3_voc_fe_5",
+        "itm_of3_voc_fe_6",
+        "itm_of3_voc_fe_7",
+        "itm_of3_voc_fe_8"
+      ]
+    },
+    {
+      "id": "3.2",
+      "heading": "Grammaire",
+      "topicsFr": "Articles définis contractés Verbes faire et venir au présent",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of3_src_a1_7",
+        "itm_of3_src_a7_4",
+        "itm_of3_src_a7_9",
+        "itm_of3_src_a7_10",
+        "itm_of3_src_a10_1",
+        "itm_of3_src_a10_3",
+        "itm_of3_src_a10_5",
+        "itm_of3_src_a10_6"
+      ]
+    },
+    {
+      "id": "3.3",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre des questions et de l’information sur l’appartenance à une unité administrative, à une association professionnelle ou sociale",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "3.4",
+      "heading": "Fonctions",
+      "topicsFr": "Demander à quelqu’un son appartenance et indiquer son appartenance à une unité administrative, à une association professionnelle ou sociale",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "3.5",
+      "heading": "Compréhension de l’oral",
+      "topicsFr": "Transcrire en anglais des éléments de messages donnés en français (organismes, associations, unités administratives)",
+      "kind": "oral",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF3 (SC102-2/1-2-2005F)",
+    "entries": 39,
+    "questions": 46,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 2,
+    "derivedItems": 23,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-1 (SC102-2-45-1)",
+    "consolidationBooklet": "consolidation-1 (SC102-2-47-1)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of3_src_a1_7"
+      ]
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 3,
+      "linkedItems": [
+        "itm_of3_src_a7_4",
+        "itm_of3_src_a7_9",
+        "itm_of3_src_a7_10"
+      ]
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of3_src_a10_1",
+        "itm_of3_src_a10_3",
+        "itm_of3_src_a10_5",
+        "itm_of3_src_a10_6",
+        "itm_of3_src_a10_7",
+        "itm_of3_src_a10_8",
+        "itm_of3_src_a10_9",
+        "itm_of3_src_a10_10"
+      ]
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 29,
+    "coveredElements": 7,
+    "convertible": {
+      "covered": 7,
+      "total": 19
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        3,
+        4,
+        5,
+        8,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-1 (SC102-2-45-1)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "3.3 Fonctions (function)",
+        "3.4 Fonctions (function)",
+        "3.5 Compréhension de l’oral (oral)"
+      ],
+      "activities": [
+        2,
+        6,
+        9,
+        15,
+        16,
+        20,
+        21
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

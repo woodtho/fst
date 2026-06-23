@@ -79,5 +79,51 @@
         "present"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 2,
+    "totalElements": 22,
+    "convertible": {
+      "covered": 2,
+      "total": 11
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "vocabulary": [],
+      "examples": [
+        "model sentences"
+      ],
+      "selfTest": [
+        "selfeval-3 (SC102-2-45-3)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "25.2 Fonctions (function)",
+        "25.3 Fonctions (function)",
+        "25.4 Compréhension de l’oral (oral)"
+      ],
+      "activities": [
+        2,
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
   }
 }

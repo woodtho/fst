@@ -1,0 +1,549 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/32-2005F",
+  "sourceText": "sources/text/OF32.txt",
+  "objectiveId": "OF32",
+  "ofNumber": 32,
+  "titleFr": "Formuler des conditions",
+  "titleEn": "To formulate conditions",
+  "grammarConcepts": [
+    "subjonctif",
+    "si_clauses"
+  ],
+  "sections": [
+    {
+      "id": "32.1",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de possibilité et d’impossibilité",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 28,
+      "linkedItems": [
+        "itm_of32_voc_fe_1",
+        "itm_of32_voc_fe_2",
+        "itm_of32_voc_fe_3",
+        "itm_of32_voc_fe_4",
+        "itm_of32_voc_fe_5",
+        "itm_of32_voc_fe_6",
+        "itm_of32_voc_fe_7",
+        "itm_of32_voc_fe_8"
+      ]
+    },
+    {
+      "id": "32.2",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs de condition",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 28,
+      "linkedItems": [
+        "itm_of32_voc_fe_1",
+        "itm_of32_voc_fe_2",
+        "itm_of32_voc_fe_3",
+        "itm_of32_voc_fe_4",
+        "itm_of32_voc_fe_5",
+        "itm_of32_voc_fe_6",
+        "itm_of32_voc_fe_7",
+        "itm_of32_voc_fe_8"
+      ]
+    },
+    {
+      "id": "32.3",
+      "heading": "Lexique",
+      "topicsFr": "Suffixes -able et –ible · Préfixes in-, im- et ir-",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 28,
+      "linkedItems": [
+        "itm_of32_voc_fe_1",
+        "itm_of32_voc_fe_2",
+        "itm_of32_voc_fe_3",
+        "itm_of32_voc_fe_4",
+        "itm_of32_voc_fe_5",
+        "itm_of32_voc_fe_6",
+        "itm_of32_voc_fe_7",
+        "itm_of32_voc_fe_8"
+      ]
+    },
+    {
+      "id": "32.4",
+      "heading": "Grammaire",
+      "topicsFr": "Subjonctif ou infinitif avec de après des expressions de possibilité ou d’impossibilité",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of32_src_a17_7",
+        "itm_of32_src_a25_3"
+      ]
+    },
+    {
+      "id": "32.5",
+      "heading": "Grammaire",
+      "topicsFr": "",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of32_src_a17_7",
+        "itm_of32_src_a25_3"
+      ]
+    },
+    {
+      "id": "32.6",
+      "heading": "Grammaire",
+      "topicsFr": "",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of32_src_a17_7",
+        "itm_of32_src_a25_3"
+      ]
+    },
+    {
+      "id": "32.7",
+      "heading": "Fonctions",
+      "topicsFr": "",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "32.8",
+      "heading": "Compréhension de l’oral",
+      "topicsFr": "",
+      "kind": "oral",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "32.9",
+      "heading": "Fonctions",
+      "topicsFr": "",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "32.10",
+      "heading": "Langue écrite",
+      "topicsFr": "",
+      "kind": "writing",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF32 (SC102-2/1-2-2005F)",
+    "entries": 31,
+    "questions": 28,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 4,
+    "derivedItems": 4,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-3 (SC102-2-45-3)",
+    "consolidationBooklet": "consolidation-3 (SC102-2-47-3)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of32_src_a17_7"
+      ]
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 22,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 23,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 24,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 25,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of32_src_a25_3"
+      ]
+    },
+    {
+      "activity": 26,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 27,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 28,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 29,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 30,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 31,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 32,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 33,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 34,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 35,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 36,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 37,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 38,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 39,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 52,
+    "coveredElements": 10,
+    "convertible": {
+      "covered": 10,
+      "total": 27
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        11,
+        15,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        26,
+        27,
+        29
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-3 (SC102-2-45-3)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "32.7 Fonctions (function)",
+        "32.8 Compréhension de l’oral (oral)",
+        "32.9 Fonctions (function)",
+        "32.10 Langue écrite (writing)"
+      ],
+      "activities": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        12,
+        13,
+        14,
+        16,
+        23,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

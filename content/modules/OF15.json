@@ -79,5 +79,71 @@
         "reported_speech"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 2,
+    "totalElements": 41,
+    "convertible": {
+      "covered": 2,
+      "total": 17
+    },
+    "actionableGaps": {
+      "sections": [
+        "15.2 Grammaire (grammar)"
+      ],
+      "activities": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        20
+      ],
+      "vocabulary": [],
+      "examples": [
+        "model sentences"
+      ],
+      "selfTest": [
+        "selfeval-2 (SC102-2-45-2)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "15.3 Fonctions (function)",
+        "15.4 Fonctions (function)",
+        "15.5 Fonctions (function)",
+        "15.6 Fonctions (function)",
+        "15.7 Phonétique (phonetics)",
+        "15.8 Compréhension de l’oral (oral)",
+        "15.9 Stratégies de communication (strategy)"
+      ],
+      "activities": [
+        1,
+        2,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    }
   }
 }

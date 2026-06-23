@@ -83,5 +83,63 @@
         "present"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 11,
+    "totalElements": 44,
+    "convertible": {
+      "covered": 11,
+      "total": 27
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        14,
+        15,
+        18,
+        19,
+        21,
+        22,
+        26,
+        27,
+        28
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-4 (SC102-2-45-4)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "36.6 Fonctions (function)",
+        "36.7 Stratégies de communication (strategy)"
+      ],
+      "activities": [
+        1,
+        8,
+        11,
+        16,
+        17,
+        20,
+        23,
+        24,
+        25,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    }
   }
 }

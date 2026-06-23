@@ -58,13 +58,34 @@ document, **taught vocabulary** (its section of the PFL2 Lexique) and **taught g
 **Traceability:** every item carries a `trace` block — `sourceDocument`, `trainingObjective`,
 `level`, `page` (where available), `topic`, `vocabularySet`, `grammarConcepts`.
 
-**Current coverage:** ~2,270 source-traceable items; **38/40 objectives have questions**;
-OF34/OF35 have none (their source activities are oral/open-ended and their Lexique sections
-are too small to form questions). Regenerate with `npm run extract:source && npm run
-build:modules`, then `npm run validate`.
+**Current coverage:** ~2,740 source-traceable items; **39/40 objectives have questions**
+(only OF35 has none — its source is oral/open-ended with a tiny Lexique).
 
 > The standalone **conjugation tool** (`/tools/conjugation`) is a generic practice utility
 > kept by request; it is separate from the per-OF banks, which remain strictly source-bound.
+
+## Source-coverage map &amp; validation (`content/coverage/`)
+
+For every OF, [`scripts/build-coverage-map.ts`](scripts/build-coverage-map.ts) parses the
+source document's **own structure** and links each source element to the learning items that
+cover it. Each [`content/coverage/OFn.json`](content/coverage/) map records the 10 required
+fields: source document, OF number/title, section headings, concepts, vocabulary, grammar,
+examples/model sentences, activities, self-test/consolidation booklets, and the learning
+items linked to each element.
+
+**Validation step.** The map classifies every element as *covered*, an *actionable gap*
+(convertible source material — an answer-keyed activity, grammar/vocab section, the lexicon —
+not yet turned into items), or *non-convertible* (oral/strategy/phonetic sections and
+exploration/listening activities that have **no published answer key** and so cannot become
+auto-gradable questions without inventing content, which the policy forbids). A module is
+**not marked complete** while any convertible element is uncovered — `strictComplete` /
+`convertibleComplete` flags live in both the coverage map and `content/modules/OFn.json`, and
+the module hub surfaces the coverage bar, the actionable gaps, and the non-convertible list.
+
+Run the whole content pipeline with **`npm run content`** (extract → build modules → coverage
+→ validate). The coverage step prints the validation flag (currently ~597 answer-keyed source
+activities still uncovered) and writes [`docs/coverage-report.md`](docs/coverage-report.md).
+Coverage is grown by extracting more source activities — never by generating unrelated content.
 
 ## What's in this repository
 

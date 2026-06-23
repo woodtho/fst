@@ -1,0 +1,680 @@
+{
+  "schema": "coverage-map/v2",
+  "sourceDocument": "SC102-2/30-2005F",
+  "sourceText": "sources/text/OF30.txt",
+  "objectiveId": "OF30",
+  "ofNumber": 30,
+  "titleFr": "Permettre ou interdire quelque chose",
+  "titleEn": "To permit or forbid something",
+  "grammarConcepts": [
+    "subjonctif",
+    "pronouns"
+  ],
+  "sections": [
+    {
+      "id": "30.1",
+      "heading": "Notions",
+      "topicsFr": "",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 61,
+      "linkedItems": [
+        "itm_of30_voc_fe_1",
+        "itm_of30_voc_fe_2",
+        "itm_of30_voc_fe_3",
+        "itm_of30_voc_fe_4",
+        "itm_of30_voc_fe_5",
+        "itm_of30_voc_fe_6",
+        "itm_of30_voc_fe_7",
+        "itm_of30_voc_fe_8"
+      ]
+    },
+    {
+      "id": "30.2",
+      "heading": "Grammaire",
+      "topicsFr": "",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 23,
+      "linkedItems": [
+        "itm_of30_src_a8_1",
+        "itm_of30_src_a8_2",
+        "itm_of30_src_a8_3",
+        "itm_of30_src_a8_4",
+        "itm_of30_src_a8_7",
+        "itm_of30_src_a9_1",
+        "itm_of30_src_a9_5",
+        "itm_of30_src_a9_6"
+      ]
+    },
+    {
+      "id": "30.3",
+      "heading": "Grammaire",
+      "topicsFr": "",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 23,
+      "linkedItems": [
+        "itm_of30_src_a8_1",
+        "itm_of30_src_a8_2",
+        "itm_of30_src_a8_3",
+        "itm_of30_src_a8_4",
+        "itm_of30_src_a8_7",
+        "itm_of30_src_a9_1",
+        "itm_of30_src_a9_5",
+        "itm_of30_src_a9_6"
+      ]
+    },
+    {
+      "id": "30.4",
+      "heading": "Notions",
+      "topicsFr": "",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 61,
+      "linkedItems": [
+        "itm_of30_voc_fe_1",
+        "itm_of30_voc_fe_2",
+        "itm_of30_voc_fe_3",
+        "itm_of30_voc_fe_4",
+        "itm_of30_voc_fe_5",
+        "itm_of30_voc_fe_6",
+        "itm_of30_voc_fe_7",
+        "itm_of30_voc_fe_8"
+      ]
+    },
+    {
+      "id": "30.5",
+      "heading": "Grammaire",
+      "topicsFr": "",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 23,
+      "linkedItems": [
+        "itm_of30_src_a8_1",
+        "itm_of30_src_a8_2",
+        "itm_of30_src_a8_3",
+        "itm_of30_src_a8_4",
+        "itm_of30_src_a8_7",
+        "itm_of30_src_a9_1",
+        "itm_of30_src_a9_5",
+        "itm_of30_src_a9_6"
+      ]
+    },
+    {
+      "id": "30.6",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre de l’information et une demande d’information sur ce qui est permis ou interdit",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "30.7",
+      "heading": "Fonctions",
+      "topicsFr": "Demander et donner de l’information sur ce qui est permis ou interdit",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "30.8",
+      "heading": "Fonctions",
+      "topicsFr": "Comprendre une demande de permission ou d’approbation et la réponse à cette demande",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "30.9",
+      "heading": "Fonctions",
+      "topicsFr": "Demander une permission ou une approbation et répondre à une telle demande",
+      "kind": "function",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "30.10",
+      "heading": "Langue écrite",
+      "topicsFr": "Compréhension d’une permission, d’une interdiction ou d’une approbation dans un document écrit",
+      "kind": "writing",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "id": "30.11",
+      "heading": "Compréhension de l’oral",
+      "topicsFr": "Comprendre globalement et en détail un document enregistré",
+      "kind": "oral",
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "vocabulary": {
+    "source": "Lexique OF30 (SC102-2/1-2-2005F)",
+    "entries": 41,
+    "questions": 61,
+    "convertible": true,
+    "covered": true
+  },
+  "examples": {
+    "sourceMarkers": 7,
+    "derivedItems": 39,
+    "convertible": true,
+    "covered": true,
+    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+  },
+  "selfTest": {
+    "selfEvalBooklet": "selfeval-3 (SC102-2-45-3)",
+    "consolidationBooklet": "consolidation-3 (SC102-2-47-3)",
+    "convertible": true,
+    "extracted": false,
+    "covered": false,
+    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+  },
+  "activities": [
+    {
+      "activity": 1,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 2,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 3,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 4,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 5,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 6,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 7,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 8,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of30_src_a8_1",
+        "itm_of30_src_a8_2",
+        "itm_of30_src_a8_3",
+        "itm_of30_src_a8_4",
+        "itm_of30_src_a8_7"
+      ]
+    },
+    {
+      "activity": 9,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of30_src_a9_1",
+        "itm_of30_src_a9_5",
+        "itm_of30_src_a9_6",
+        "itm_of30_src_a9_8",
+        "itm_of30_src_a9_10"
+      ]
+    },
+    {
+      "activity": 10,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of30_src_a10_2",
+        "itm_of30_src_a10_3",
+        "itm_of30_src_a10_5",
+        "itm_of30_src_a10_6"
+      ]
+    },
+    {
+      "activity": 11,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 12,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 13,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 14,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 15,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of30_src_a15_1"
+      ]
+    },
+    {
+      "activity": 16,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 17,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 18,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 19,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 20,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 21,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 22,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 23,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 24,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 25,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 26,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 27,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 28,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 29,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 30,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of30_src_a30_5"
+      ]
+    },
+    {
+      "activity": 31,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 32,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 33,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 34,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 35,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 36,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 37,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 38,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 39,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 40,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 41,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 42,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 43,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 44,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 45,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 46,
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 7,
+      "linkedItems": [
+        "itm_of30_src_a46_1",
+        "itm_of30_src_a46_2",
+        "itm_of30_src_a46_3",
+        "itm_of30_src_a46_4",
+        "itm_of30_src_a46_5",
+        "itm_of30_src_a46_6",
+        "itm_of30_src_a46_7"
+      ]
+    },
+    {
+      "activity": 47,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 48,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    },
+    {
+      "activity": 49,
+      "hasAnswerKey": false,
+      "convertible": false,
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
+    }
+  ],
+  "validation": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "totalElements": 63,
+    "coveredElements": 13,
+    "convertible": {
+      "covered": 13,
+      "total": 38
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        2,
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        20,
+        23,
+        25,
+        26,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        44,
+        45
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-3 (SC102-2-45-3)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "30.6 Fonctions (function)",
+        "30.7 Fonctions (function)",
+        "30.8 Fonctions (function)",
+        "30.9 Fonctions (function)",
+        "30.10 Langue écrite (writing)",
+        "30.11 Compréhension de l’oral (oral)"
+      ],
+      "activities": [
+        1,
+        3,
+        7,
+        14,
+        19,
+        21,
+        22,
+        24,
+        27,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        43,
+        47,
+        48,
+        49
+      ]
+    },
+    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  }
+}

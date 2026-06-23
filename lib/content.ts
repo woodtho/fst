@@ -58,6 +58,11 @@ export function getModule(id: string): any | null {
   return existsSync(p) ? read(p) : null;
 }
 
+export function getCoverage(id: string): any | null {
+  const p = join(CONTENT, "coverage", `${id}.json`);
+  return existsSync(p) ? read(p) : null;
+}
+
 export function getItems(objectiveId: string): Item[] {
   const p = join(CONTENT, "question-bank", "items", `${objectiveId}.json`);
   if (!existsSync(p)) return [];

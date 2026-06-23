@@ -83,5 +83,80 @@
         "pronouns"
       ]
     }
+  },
+  "coverage": {
+    "strictComplete": false,
+    "convertibleComplete": false,
+    "coveredElements": 13,
+    "totalElements": 63,
+    "convertible": {
+      "covered": 13,
+      "total": 38
+    },
+    "actionableGaps": {
+      "sections": [],
+      "activities": [
+        2,
+        4,
+        5,
+        6,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        20,
+        23,
+        25,
+        26,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        44,
+        45
+      ],
+      "vocabulary": [],
+      "examples": [],
+      "selfTest": [
+        "selfeval-3 (SC102-2-45-3)"
+      ]
+    },
+    "nonConvertible": {
+      "sections": [
+        "30.6 Fonctions (function)",
+        "30.7 Fonctions (function)",
+        "30.8 Fonctions (function)",
+        "30.9 Fonctions (function)",
+        "30.10 Langue écrite (writing)",
+        "30.11 Compréhension de l’oral (oral)"
+      ],
+      "activities": [
+        1,
+        3,
+        7,
+        14,
+        19,
+        21,
+        22,
+        24,
+        27,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        43,
+        47,
+        48,
+        49
+      ]
+    }
   }
 }
