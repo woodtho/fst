@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF30 — To permit or forbid something. This objective develops the language needed to permit or forbid something in a Government of Canada workplace. Grammar focus: The present subjunctive, Pronouns. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Permettre ou interdire quelque chose. Objectif communicatif appuyé par : Le subjonctif présent, Les pronoms. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF30 — To permit or forbid something. This objective develops the language needed to permit or forbid something in a Government of Canada workplace. Grammar focus: The present subjunctive, Pronouns. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "Permettre ou interdire quelque chose. Objectif communicatif appuyé par : Le subjonctif présent, Les pronoms. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -43,30 +43,19 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Le subjonctif présent",
-          "itemRefs": [
-            "itm_of30_subjonctif_1",
-            "itm_of30_subjonctif_2",
-            "itm_of30_subjonctif_3",
-            "itm_of30_subjonctif_4",
-            "itm_of30_subjonctif_5",
-            "itm_of30_subjonctif_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 82
         },
         {
-          "title": "Les pronoms",
-          "itemRefs": [
-            "itm_of30_pronouns_7",
-            "itm_of30_pronouns_8",
-            "itm_of30_pronouns_9",
-            "itm_of30_pronouns_10",
-            "itm_of30_pronouns_11",
-            "itm_of30_pronouns_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 16
+        },
+        {
+          "title": "Conjugaison",
+          "count": 12
         }
-      ]
+      ],
+      "totalQuestions": 110
     },
     "consolidation": {
       "sourceBooklet": {
@@ -78,6 +67,7 @@
         ],
         "catalogue": "SC102-2/47-3-2006F"
       },
+      "note": "Consolidation review for OF 23–32 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/23-32.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Permettre ou interdire quelque chose",
@@ -102,11 +92,11 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 0,
-        "medium": 5,
-        "advanced": 3
+        "easy": 8,
+        "medium": 6,
+        "advanced": 4
       },
       "drawFrom": [
         "OF30"

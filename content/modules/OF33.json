@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF33 — To express choice. This objective develops the language needed to express choice in a Government of Canada workplace. Grammar focus: Pronouns, Comparatives and superlatives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Exprimer un choix. Objectif communicatif appuyé par : Les pronoms, Le comparatif et le superlatif. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF33 — To express choice. This objective develops the language needed to express choice in a Government of Canada workplace. Grammar focus: Pronouns, Comparatives and superlatives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "Exprimer un choix. Objectif communicatif appuyé par : Les pronoms, Le comparatif et le superlatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -43,30 +43,15 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Les pronoms",
-          "itemRefs": [
-            "itm_of33_pronouns_1",
-            "itm_of33_pronouns_2",
-            "itm_of33_pronouns_3",
-            "itm_of33_pronouns_4",
-            "itm_of33_pronouns_5",
-            "itm_of33_pronouns_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 94
         },
         {
-          "title": "Le comparatif et le superlatif",
-          "itemRefs": [
-            "itm_of33_comparatives_7",
-            "itm_of33_comparatives_8",
-            "itm_of33_comparatives_9",
-            "itm_of33_comparatives_10",
-            "itm_of33_comparatives_11",
-            "itm_of33_comparatives_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 16
         }
-      ]
+      ],
+      "totalQuestions": 110
     },
     "consolidation": {
       "sourceBooklet": {
@@ -78,6 +63,7 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
+      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/33-40.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Exprimer un choix",
@@ -102,11 +88,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 1,
-        "medium": 5,
-        "advanced": 3
+        "easy": 8,
+        "medium": 6,
+        "advanced": 4
       },
       "drawFrom": [
         "OF33"

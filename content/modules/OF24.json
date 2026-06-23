@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF24 — To situate events in relation to each other. This objective develops the language needed to situate events in relation to each other in a Government of Canada workplace. Grammar focus: The compound past, The imperfect, The simple future, Reported (indirect) speech. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Situer des événements par rapport à d’autres. Objectif communicatif appuyé par : Le passé composé, L’imparfait, Le futur simple, Le discours indirect. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF24 — To situate events in relation to each other. This objective develops the language needed to situate events in relation to each other in a Government of Canada workplace. Grammar focus: The compound past, The imperfect, The simple future, Reported (indirect) speech. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (140 questions) and consolidate.",
+        "fr": "Situer des événements par rapport à d’autres. Objectif communicatif appuyé par : Le passé composé, L’imparfait, Le futur simple, Le discours indirect. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (140 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -51,54 +51,19 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Le passé composé",
-          "itemRefs": [
-            "itm_of24_passe_compose_1",
-            "itm_of24_passe_compose_2",
-            "itm_of24_passe_compose_3",
-            "itm_of24_passe_compose_4",
-            "itm_of24_passe_compose_5",
-            "itm_of24_passe_compose_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 72
         },
         {
-          "title": "L’imparfait",
-          "itemRefs": [
-            "itm_of24_imparfait_7",
-            "itm_of24_imparfait_8",
-            "itm_of24_imparfait_9",
-            "itm_of24_imparfait_10",
-            "itm_of24_imparfait_11",
-            "itm_of24_imparfait_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 32
         },
         {
-          "title": "Le futur simple",
-          "itemRefs": [
-            "itm_of24_futur_simple_13",
-            "itm_of24_futur_simple_14",
-            "itm_of24_futur_simple_15",
-            "itm_of24_futur_simple_16",
-            "itm_of24_futur_simple_17",
-            "itm_of24_futur_simple_18"
-          ],
-          "type": "mixed"
-        },
-        {
-          "title": "Le discours indirect",
-          "itemRefs": [
-            "itm_of24_reported_speech_19",
-            "itm_of24_reported_speech_20",
-            "itm_of24_reported_speech_21",
-            "itm_of24_reported_speech_22",
-            "itm_of24_reported_speech_23",
-            "itm_of24_reported_speech_24"
-          ],
-          "type": "mixed"
+          "title": "Conjugaison",
+          "count": 36
         }
-      ]
+      ],
+      "totalQuestions": 140
     },
     "consolidation": {
       "sourceBooklet": {
@@ -110,6 +75,7 @@
         ],
         "catalogue": "SC102-2/47-3-2006F"
       },
+      "note": "Consolidation review for OF 23–32 draws randomly from every objective in this range (including this OF's 140 questions). See /consolidation/23-32.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Situer des événements par rapport à d’autres",
@@ -134,11 +100,11 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 490,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 6,
-        "medium": 5,
-        "advanced": 3
+        "easy": 8,
+        "medium": 6,
+        "advanced": 4
       },
       "drawFrom": [
         "OF24"

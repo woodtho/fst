@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF34 — To put forward solutions to a problem. This objective develops the language needed to put forward solutions to a problem in a Government of Canada workplace. Grammar focus: Si (conditional) clauses, The present conditional, The imperfect. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Proposer des solutions à un problème. Objectif communicatif appuyé par : Les phrases avec « si », Le conditionnel présent, L’imparfait. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF34 — To put forward solutions to a problem. This objective develops the language needed to put forward solutions to a problem in a Government of Canada workplace. Grammar focus: Si (conditional) clauses, The present conditional, The imperfect. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (120 questions) and consolidate.",
+        "fr": "Proposer des solutions à un problème. Objectif communicatif appuyé par : Les phrases avec « si », Le conditionnel présent, L’imparfait. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (120 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -47,42 +47,19 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Les phrases avec « si »",
-          "itemRefs": [
-            "itm_of34_si_clauses_1",
-            "itm_of34_si_clauses_2",
-            "itm_of34_si_clauses_3",
-            "itm_of34_si_clauses_4",
-            "itm_of34_si_clauses_5",
-            "itm_of34_si_clauses_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 72
         },
         {
-          "title": "Le conditionnel présent",
-          "itemRefs": [
-            "itm_of34_conditionnel_7",
-            "itm_of34_conditionnel_8",
-            "itm_of34_conditionnel_9",
-            "itm_of34_conditionnel_10",
-            "itm_of34_conditionnel_11",
-            "itm_of34_conditionnel_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 24
         },
         {
-          "title": "L’imparfait",
-          "itemRefs": [
-            "itm_of34_imparfait_13",
-            "itm_of34_imparfait_14",
-            "itm_of34_imparfait_15",
-            "itm_of34_imparfait_16",
-            "itm_of34_imparfait_17",
-            "itm_of34_imparfait_18"
-          ],
-          "type": "mixed"
+          "title": "Conjugaison",
+          "count": 24
         }
-      ]
+      ],
+      "totalQuestions": 120
     },
     "consolidation": {
       "sourceBooklet": {
@@ -94,6 +71,7 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
+      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 120 questions). See /consolidation/33-40.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Proposer des solutions à un problème",
@@ -118,11 +96,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 490,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 5,
-        "medium": 5,
-        "advanced": 3
+        "easy": 8,
+        "medium": 6,
+        "advanced": 4
       },
       "drawFrom": [
         "OF34"

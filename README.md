@@ -37,27 +37,30 @@ the covering consolidation/self-evaluation booklet per objective.
 ## Module content status (all 40, uniform format)
 
 Every objective is generated the **same way** by `npm run build:modules`, so all 40 modules
-have an identical structure (Learn → Practice → Consolidation → Self-test → Mastery check)
-and an item bank — **546 questions** in total, each with the full explanation contract.
+have an identical structure (Learn → Practice → Consolidation → Self-test → Mastery check).
+Each OF has **at least 100 questions** (avg ~113, **4,500+ total**), every one with the full
+explanation contract. Questions are drawn from authentic sources:
 
-How it works:
-- Each OF's authentic grammar concepts (extracted from its source PDF into
-  [`content/curriculum.json`](content/curriculum.json)) are mapped onto a hand-authored
-  **concept library** covering all 16 grammar concepts:
-  [`content/_concepts/library.json`](content/_concepts/library.json) +
-  [`content/_concepts/library-extra.json`](content/_concepts/library-extra.json) (extra
-  examples and question types — `sentence_build`, `matching`).
-- The generator draws **6 items per concept**, rotated by OF number, so two objectives that
-  share a concept get **different examples** of the same material.
-- Each module gets concept-accurate grammar notes, the OF's **full source vocabulary**
-  (auto-rendered on the Learn page from [`content/lexicon/by-of/`](content/lexicon/by-of/)),
-  and links to its consolidation/self-evaluation booklets.
-- Per OF: 6–24 questions (avg ~14), spanning mcq, fill-in-blank, error-correction,
-  sentence-building and matching, across easy/medium/advanced.
+1. **Vocabulary (the bulk)** — the OF's PFL2 source lexicon
+   ([`content/lexicon/by-of/`](content/lexicon/by-of/)) → French↔English multiple-choice
+   items and matching sets. Vocabulary is cumulative, so an OF draws on its own terms plus
+   earlier OFs' (guaranteeing a big pool even for OFs with few new terms).
+2. **Grammar** — the hand-authored concept library
+   ([`library.json`](content/_concepts/library.json) +
+   [`library-extra.json`](content/_concepts/library-extra.json)) for the OF's grammar
+   concepts (mcq, fill-blank, error-correction, sentence-building, matching).
+3. **Conjugation** — correct, explained fill-in items produced by the conjugation engine
+   ([`lib/conjugation.ts`](lib/conjugation.ts)) over many verb × person combinations, for
+   each tense concept the OF teaches.
 
-Regenerate anytime with `npm run build:modules` (deterministic), then `npm run validate`
-(enforces the explanation contract on all 546 items). To add more variety everywhere, add
-items to the concept library and re-run — it multiplies across all 40 OFs at once.
+The generator is deterministic (seeded RNG). **Questions are shown randomly**: Practice
+draws 20 at random from the bank each visit; Self-test draws per blueprint and presents in
+random order; Consolidation shuffles across the whole OF range. Because Consolidation and
+Self-test draw from the same per-OF banks, an OF's consolidation- and self-test-relevant
+questions are exactly its 100+ bank.
+
+Regenerate with `npm run build:modules` (deterministic), then `npm run validate` (enforces
+the explanation contract on all 4,500+ items).
 
 ## What's in this repository
 

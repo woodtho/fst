@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF9 — To situate an event in time: past, present, future. This objective develops the language needed to situate an event in time: past, present, future in a Government of Canada workplace. Grammar focus: The compound past, The imperfect, The near future, The simple future. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Situer un événement dans le temps : passé, présent, futur. Objectif communicatif appuyé par : Le passé composé, L’imparfait, Le futur proche, Le futur simple. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF9 — To situate an event in time: past, present, future. This objective develops the language needed to situate an event in time: past, present, future in a Government of Canada workplace. Grammar focus: The compound past, The imperfect, The near future, The simple future. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (140 questions) and consolidate.",
+        "fr": "Situer un événement dans le temps : passé, présent, futur. Objectif communicatif appuyé par : Le passé composé, L’imparfait, Le futur proche, Le futur simple. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (140 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -51,54 +51,19 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Le passé composé",
-          "itemRefs": [
-            "itm_of9_passe_compose_1",
-            "itm_of9_passe_compose_2",
-            "itm_of9_passe_compose_3",
-            "itm_of9_passe_compose_4",
-            "itm_of9_passe_compose_5",
-            "itm_of9_passe_compose_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 72
         },
         {
-          "title": "L’imparfait",
-          "itemRefs": [
-            "itm_of9_imparfait_7",
-            "itm_of9_imparfait_8",
-            "itm_of9_imparfait_9",
-            "itm_of9_imparfait_10",
-            "itm_of9_imparfait_11",
-            "itm_of9_imparfait_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 32
         },
         {
-          "title": "Le futur proche",
-          "itemRefs": [
-            "itm_of9_futur_proche_13",
-            "itm_of9_futur_proche_14",
-            "itm_of9_futur_proche_15",
-            "itm_of9_futur_proche_16",
-            "itm_of9_futur_proche_17",
-            "itm_of9_futur_proche_18"
-          ],
-          "type": "mixed"
-        },
-        {
-          "title": "Le futur simple",
-          "itemRefs": [
-            "itm_of9_futur_simple_19",
-            "itm_of9_futur_simple_20",
-            "itm_of9_futur_simple_21",
-            "itm_of9_futur_simple_22",
-            "itm_of9_futur_simple_23",
-            "itm_of9_futur_simple_24"
-          ],
-          "type": "mixed"
+          "title": "Conjugaison",
+          "count": 36
         }
-      ]
+      ],
+      "totalQuestions": 140
     },
     "consolidation": {
       "sourceBooklet": {
@@ -110,6 +75,7 @@
         ],
         "catalogue": "SC102-2/47-1-2006F"
       },
+      "note": "Consolidation review for OF 1–12 draws randomly from every objective in this range (including this OF's 140 questions). See /consolidation/1-12.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Situer un événement dans le temps : passé, présent, futur",
@@ -134,11 +100,11 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 490,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 6,
-        "medium": 5,
-        "advanced": 2
+        "easy": 8,
+        "medium": 6,
+        "advanced": 4
       },
       "drawFrom": [
         "OF9"

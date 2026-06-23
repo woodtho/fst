@@ -20,14 +20,14 @@ export default function SelfTestPage({ params }: { params: { id: string } }) {
   const bp = mod?.stages?.selfTest?.blueprint ?? { easy: 6, medium: 4, advanced: 2 };
   const timed: number = mod?.stages?.selfTest?.timedSeconds ?? Math.max(180, items.length * 35);
 
-  // Draw per blueprint, then order easy → advanced (progressive difficulty).
+  // Draw per blueprint from the OF's full bank, then present in random order.
   const byBand = (b: string) => shuffle(items.filter((it) => it.difficulty === b));
   const chosen: Item[] = [
     ...byBand("easy").slice(0, bp.easy ?? 0),
     ...byBand("medium").slice(0, bp.medium ?? 0),
     ...byBand("advanced").slice(0, bp.advanced ?? 0),
   ];
-  const session = (chosen.length ? chosen : items).map(sanitize);
+  const session = shuffle(chosen.length ? chosen : items.slice(0, 18)).map(sanitize);
 
   return (
     <>

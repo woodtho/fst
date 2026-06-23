@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF18 — To express will (intention), hopes and wishes, taste (liking) and preference. This objective develops the language needed to express will (intention), hopes and wishes, taste (liking) and preference in a Government of Canada workplace. Grammar focus: The present subjunctive, The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Exprimer une volonté, un souhait, des goûts, des préférences. Objectif communicatif appuyé par : Le subjonctif présent, Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF18 — To express will (intention), hopes and wishes, taste (liking) and preference. This objective develops the language needed to express will (intention), hopes and wishes, taste (liking) and preference in a Government of Canada workplace. Grammar focus: The present subjunctive, The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (112 questions) and consolidate.",
+        "fr": "Exprimer une volonté, un souhait, des goûts, des préférences. Objectif communicatif appuyé par : Le subjonctif présent, Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (112 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -43,30 +43,19 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Le subjonctif présent",
-          "itemRefs": [
-            "itm_of18_subjonctif_1",
-            "itm_of18_subjonctif_2",
-            "itm_of18_subjonctif_3",
-            "itm_of18_subjonctif_4",
-            "itm_of18_subjonctif_5",
-            "itm_of18_subjonctif_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 72
         },
         {
-          "title": "Le présent de l’indicatif",
-          "itemRefs": [
-            "itm_of18_present_7",
-            "itm_of18_present_8",
-            "itm_of18_present_9",
-            "itm_of18_present_10",
-            "itm_of18_present_11",
-            "itm_of18_present_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 16
+        },
+        {
+          "title": "Conjugaison",
+          "count": 24
         }
-      ]
+      ],
+      "totalQuestions": 112
     },
     "consolidation": {
       "sourceBooklet": {
@@ -78,6 +67,7 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
+      "note": "Consolidation review for OF 13–22 draws randomly from every objective in this range (including this OF's 112 questions). See /consolidation/13-22.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Exprimer une volonté, un souhait, des goûts, des préférences",
@@ -102,11 +92,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 3,
-        "medium": 4,
-        "advanced": 3
+        "easy": 8,
+        "medium": 6,
+        "advanced": 4
       },
       "drawFrom": [
         "OF18"

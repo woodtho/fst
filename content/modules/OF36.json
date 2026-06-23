@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF36 — To ask or give information about projects. This objective develops the language needed to ask or give information about projects in a Government of Canada workplace. Grammar focus: The present tense, The simple future. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Demander ou donner de l’information sur un projet. Objectif communicatif appuyé par : Le présent de l’indicatif, Le futur simple. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF36 — To ask or give information about projects. This objective develops the language needed to ask or give information about projects in a Government of Canada workplace. Grammar focus: The present tense, The simple future. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (112 questions) and consolidate.",
+        "fr": "Demander ou donner de l’information sur un projet. Objectif communicatif appuyé par : Le présent de l’indicatif, Le futur simple. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (112 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -43,30 +43,19 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Le présent de l’indicatif",
-          "itemRefs": [
-            "itm_of36_present_1",
-            "itm_of36_present_2",
-            "itm_of36_present_3",
-            "itm_of36_present_4",
-            "itm_of36_present_5",
-            "itm_of36_present_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 72
         },
         {
-          "title": "Le futur simple",
-          "itemRefs": [
-            "itm_of36_futur_simple_7",
-            "itm_of36_futur_simple_8",
-            "itm_of36_futur_simple_9",
-            "itm_of36_futur_simple_10",
-            "itm_of36_futur_simple_11",
-            "itm_of36_futur_simple_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 16
+        },
+        {
+          "title": "Conjugaison",
+          "count": 24
         }
-      ]
+      ],
+      "totalQuestions": 112
     },
     "consolidation": {
       "sourceBooklet": {
@@ -78,6 +67,7 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
+      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 112 questions). See /consolidation/33-40.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Demander ou donner de l’information sur un projet",
@@ -102,11 +92,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 5,
-        "medium": 5,
-        "advanced": 0
+        "easy": 8,
+        "medium": 6,
+        "advanced": 4
       },
       "drawFrom": [
         "OF36"

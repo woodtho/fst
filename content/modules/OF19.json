@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF19 — To describe things and to express opinions. This objective develops the language needed to describe things and to express opinions in a Government of Canada workplace. Grammar focus: Comparatives and superlatives, Adjectives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Évaluer des choses. Objectif communicatif appuyé par : Le comparatif et le superlatif, Les adjectifs. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF19 — To describe things and to express opinions. This objective develops the language needed to describe things and to express opinions in a Government of Canada workplace. Grammar focus: Comparatives and superlatives, Adjectives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "Évaluer des choses. Objectif communicatif appuyé par : Le comparatif et le superlatif, Les adjectifs. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -43,30 +43,15 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Le comparatif et le superlatif",
-          "itemRefs": [
-            "itm_of19_comparatives_1",
-            "itm_of19_comparatives_2",
-            "itm_of19_comparatives_3",
-            "itm_of19_comparatives_4",
-            "itm_of19_comparatives_5",
-            "itm_of19_comparatives_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 94
         },
         {
-          "title": "Les adjectifs",
-          "itemRefs": [
-            "itm_of19_adjectives_7",
-            "itm_of19_adjectives_8",
-            "itm_of19_adjectives_9",
-            "itm_of19_adjectives_10",
-            "itm_of19_adjectives_11",
-            "itm_of19_adjectives_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 16
         }
-      ]
+      ],
+      "totalQuestions": 110
     },
     "consolidation": {
       "sourceBooklet": {
@@ -78,6 +63,7 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
+      "note": "Consolidation review for OF 13–22 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/13-22.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Évaluer des choses",
@@ -102,11 +88,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 2,
-        "medium": 5,
-        "advanced": 3
+        "easy": 8,
+        "medium": 6,
+        "advanced": 4
       },
       "drawFrom": [
         "OF19"

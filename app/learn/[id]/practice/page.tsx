@@ -11,9 +11,9 @@ export default function PracticePage({ params }: { params: { id: string } }) {
   const items = getItems(params.id);
   if (!objective || items.length === 0) notFound();
 
-  // Sample up to 16, ramped easy → advanced. Re-shuffles each visit, so a large bank
-  // surfaces different examples each time.
-  const sanitized = buildSession(items, 16, "ramp");
+  // Draw 20 questions at random from the OF's full bank (100+ items). Re-shuffles every
+  // visit, so each practice session shows a different random set, in random order.
+  const sanitized = buildSession(items, 20, "shuffle");
 
   return (
     <>

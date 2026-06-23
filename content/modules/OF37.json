@@ -13,8 +13,8 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF37 — To describe the procedure followed in a project. This objective develops the language needed to describe the procedure followed in a project in a Government of Canada workplace. Grammar focus: The compound past, Prepositions. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
-        "fr": "Décrire la démarche suivie dans la réalisation d’un projet. Objectif communicatif appuyé par : Le passé composé, Les prépositions. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+        "en": "OF37 — To describe the procedure followed in a project. This objective develops the language needed to describe the procedure followed in a project in a Government of Canada workplace. Grammar focus: The compound past, Prepositions. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "Décrire la démarche suivie dans la réalisation d’un projet. Objectif communicatif appuyé par : Le passé composé, Les prépositions. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
@@ -43,30 +43,19 @@
     "practice": {
       "exerciseSets": [
         {
-          "title": "Le passé composé",
-          "itemRefs": [
-            "itm_of37_passe_compose_1",
-            "itm_of37_passe_compose_2",
-            "itm_of37_passe_compose_3",
-            "itm_of37_passe_compose_4",
-            "itm_of37_passe_compose_5",
-            "itm_of37_passe_compose_6"
-          ],
-          "type": "mixed"
+          "title": "Vocabulaire (lexique source)",
+          "count": 82
         },
         {
-          "title": "Les prépositions",
-          "itemRefs": [
-            "itm_of37_prepositions_7",
-            "itm_of37_prepositions_8",
-            "itm_of37_prepositions_9",
-            "itm_of37_prepositions_10",
-            "itm_of37_prepositions_11",
-            "itm_of37_prepositions_12"
-          ],
-          "type": "mixed"
+          "title": "Grammaire",
+          "count": 16
+        },
+        {
+          "title": "Conjugaison",
+          "count": 12
         }
-      ]
+      ],
+      "totalQuestions": 110
     },
     "consolidation": {
       "sourceBooklet": {
@@ -78,6 +67,7 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
+      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/33-40.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Décrire la démarche suivie dans la réalisation d’un projet",
@@ -102,11 +92,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 630,
       "blueprint": {
-        "easy": 4,
-        "medium": 5,
-        "advanced": 0
+        "easy": 8,
+        "medium": 6,
+        "advanced": 1
       },
       "drawFrom": [
         "OF37"
