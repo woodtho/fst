@@ -4,6 +4,142 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of11_src_a5_m0",
+      "objectiveId": "OF11",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "Réparer un appareil.",
+          "Donner des renseignements exacts.",
+          "Préparer un bon discours.",
+          "Terminer un travail à temps."
+        ],
+        "right": [
+          "avec des outils",
+          "en consultant des sources fiables",
+          "à l’aide de notes",
+          "grâce à l’aide d’une collègue"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "avec des outils en consultant des sources fiables à l’aide de notes grâce à l’aide d’une collègue"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Réparer un appareil. » → « avec des outils »; « Donner des renseignements exacts. » → « en consultant des sources fiables »; « Préparer un bon discours. » → « à l’aide de notes »; « Terminer un travail à temps. » → « grâce à l’aide d’une collègue ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 5).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "Réparer un appareil.",
+          "Donner des renseignements exacts."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 5,
+        "concept": "matching"
+      }
+    },
+    {
+      "id": "itm_of11_src_a12_7",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "8. Série 1",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "in detail"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "in detail",
+          "tag": "correct"
+        },
+        {
+          "value": "exactly",
+          "tag": "d0"
+        },
+        {
+          "value": "softly",
+          "tag": "d1"
+        },
+        {
+          "value": "at length",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « in detail ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« exactly » ne complète pas correctement cet énoncé.",
+          "d1": "« softly » ne complète pas correctement cet énoncé.",
+          "d2": "« at length » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 12).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 12,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
       "id": "itm_of11_src_a13_1",
       "objectiveId": "OF11",
       "skill": "grammar",

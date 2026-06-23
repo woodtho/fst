@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF10 — To assign work. Source document SC102-2/10-2005F. Grammar taught: present, pronouns. Vocabulary: the OF10 section of the PFL2 Lexique. 83 questions, all traceable to the PFL2 source (4 verbatim source activities + 79 from the OF10 Lexique).",
+        "en": "OF10 — To assign work. Source document SC102-2/10-2005F. Grammar taught: present, pronouns. Vocabulary: the OF10 section of the PFL2 Lexique. 84 questions, all traceable to the PFL2 source (5 verbatim source activities + 79 from the OF10 Lexique).",
         "fr": "Assigner des tâches. Document source SC102-2/10-2005F. Grammaire enseignée : present, pronouns. Vocabulaire : section OF10 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,18 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "83 questions, all traceable to the PFL2 source (4 verbatim source activities + 79 from the OF10 Lexique).",
+      "coverage": "84 questions, all traceable to the PFL2 source (5 verbatim source activities + 79 from the OF10 Lexique).",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 4
+          "count": 5
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 79
         }
       ],
-      "totalQuestions": 83
+      "totalQuestions": 84
     },
     "consolidation": {
       "sourceBooklet": {

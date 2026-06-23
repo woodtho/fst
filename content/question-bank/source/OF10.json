@@ -72,6 +72,68 @@
       }
     },
     {
+      "id": "itm_of10_src_a63_m0",
+      "objectiveId": "OF10",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "Alain, prépare la réunion",
+          "Lucie vérifiera toutes les adresses",
+          "Tu vas prendre des notes",
+          "Établissez les priorités du projet"
+        ],
+        "right": [
+          "tout de suite",
+          "d’ici demain",
+          "à la réunion de demain",
+          "après la rencontre"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "tout de suite d’ici demain à la réunion de demain après la rencontre"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Alain, prépare la réunion » → « tout de suite »; « Lucie vérifiera toutes les adresses » → « d’ici demain »; « Tu vas prendre des notes » → « à la réunion de demain »; « Établissez les priorités du projet » → « après la rencontre ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 63).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "Alain, prépare la réunion",
+          "Lucie vérifiera toutes les adresses"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 63,
+        "concept": "matching"
+      }
+    },
+    {
       "id": "itm_of10_src_a70_1",
       "objectiveId": "OF10",
       "skill": "grammar",

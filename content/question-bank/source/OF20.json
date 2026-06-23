@@ -1,0 +1,265 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF20",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of20_src_a14_m0",
+      "objectiveId": "OF20",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "personal_info",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "une chemise",
+          "une cravate",
+          "un veston",
+          "un habit / un complet",
+          "des lunettes"
+        ],
+        "right": [
+          "a shirt",
+          "a tie",
+          "a jacket",
+          "a suit",
+          "glasses"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "a shirt a tie a jacket a suit glasses"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« une chemise » → « a shirt »; « une cravate » → « a tie »; « un veston » → « a jacket »; « un habit / un complet » → « a suit »; « des lunettes » → « glasses ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/20-2005F, activité 14).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "une chemise",
+          "une cravate"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/20-2005F",
+        "activity": 14,
+        "concept": "matching"
+      }
+    },
+    {
+      "id": "itm_of20_src_a14_m1",
+      "objectiveId": "OF20",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "personal_info",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "des souliers",
+          "une robe",
+          "une ceinture",
+          "une jupe",
+          "un chandail"
+        ],
+        "right": [
+          "shoes",
+          "a dress",
+          "a belt",
+          "a skirt",
+          "a sweater"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "shoes a dress a belt a skirt a sweater"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« des souliers » → « shoes »; « une robe » → « a dress »; « une ceinture » → « a belt »; « une jupe » → « a skirt »; « un chandail » → « a sweater ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/20-2005F, activité 14).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "des souliers",
+          "une robe"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/20-2005F",
+        "activity": 14,
+        "concept": "matching"
+      }
+    },
+    {
+      "id": "itm_of20_src_a14_m2",
+      "objectiveId": "OF20",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "personal_info",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "un pantalon",
+          "un parapluie",
+          "un manteau",
+          "un chapeau",
+          "un foulard"
+        ],
+        "right": [
+          "pants",
+          "an umbrella",
+          "a coat",
+          "a hat",
+          "a scarf"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "pants an umbrella a coat a hat a scarf"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« un pantalon » → « pants »; « un parapluie » → « an umbrella »; « un manteau » → « a coat »; « un chapeau » → « a hat »; « un foulard » → « a scarf ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/20-2005F, activité 14).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "un pantalon",
+          "un parapluie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/20-2005F",
+        "activity": 14,
+        "concept": "matching"
+      }
+    },
+    {
+      "id": "itm_of20_src_a14_m3",
+      "objectiveId": "OF20",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "personal_info",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "des bas",
+          "un imperméable",
+          "une tuque",
+          "des bottes"
+        ],
+        "right": [
+          "socks/stockings",
+          "a raincoat",
+          "a tuque",
+          "boots"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "socks/stockings a raincoat a tuque boots"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« des bas » → « socks/stockings »; « un imperméable » → « a raincoat »; « une tuque » → « a tuque »; « des bottes » → « boots ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/20-2005F, activité 14).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "des bas",
+          "un imperméable"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/20-2005F",
+        "activity": 14,
+        "concept": "matching"
+      }
+    }
+  ]
+}

@@ -73,6 +73,18 @@ function parseOptions(text: string): { stem: string; opts: Record<string, string
   while ((o = ore.exec(text.slice(aIdx)))) opts[o[1].toLowerCase()] = o[2].trim();
   return { stem, opts };
 }
+// Matching activities: a numbered left column + a single sequential lettered list (a. b. c. …).
+function findListStart(text: string): number {
+  const are = /(?<=\s|^)a\.\s*\S/g; let m: RegExpExecArray | null;
+  while ((m = are.exec(text))) { const tail = text.slice(m.index); if (/(?<=\s)b\.\s*\S/.test(tail) && /(?<=\s)c\.\s*\S/.test(tail)) return m.index; }
+  return -1;
+}
+function parseLettered(text: string): Record<string, string> {
+  const map: Record<string, string> = {};
+  const lre = /(?<=\s|^)([a-z])\.\s*(.+?)(?=\s+[a-z]\.\s|$)/g; let r: RegExpExecArray | null;
+  while ((r = lre.exec(text))) map[r[1].toLowerCase()] = r[2].trim().replace(/^[a-z]\.\s*/, "");
+  return map;
+}
 // the instruction is the "ff …" line just before the activity's numbered block
 function activityInstruction(lines: string[], act: number): string {
   const re = new RegExp(`ACTIVIT[ÉE]\\s+${act}\\b`);
@@ -167,11 +179,51 @@ for (let of = 1; of <= 40; of++) {
     const ruleFr = (lib.rules && lib.rules[0]) || lib.summaryFr || "Point de grammaire du programme PFL2.";
     const tip = lib.items?.[0]?.tip ?? { memory_aid: "Relisez la règle de l'objectif.", pattern: "Appliquez le point de grammaire de l'OF.", similar: [] };
     const sourceNote = `Exercice authentique du programme PFL2 (${obj?.source?.catalogue ?? id}, activité ${act}).`;
-    const newItemId = (num: number) => `itm_${id.toLowerCase()}_src_a${act}_${num}`;
+    const newItemId = (num: number | string) => `itm_${id.toLowerCase()}_src_a${act}_${num}`;
 
     const keyVals = Object.values(keys);
-    const letterKey = keyVals.length >= 2 && keyVals.every((v) => /^[a-e]$/i.test(v.trim()));
+    const letterKey = keyVals.length >= 2 && keyVals.every((v) => /^[a-z]$/i.test(v.trim()));
     const embedded = /\sa\.\s*\S/.test(block) && /\sb\.\s*\S/.test(block);
+
+    // ---- MATCHING (numbered left column + single lettered list, answer key = letters) ----
+    const listStart = findListStart(block);
+    if (letterKey && listStart > 0) {
+      const leftItems = splitNumbered(block.slice(0, listStart));
+      const rightMap = parseLettered(block.slice(listStart));
+      const leftN = Object.keys(leftItems).length, rightN = Object.keys(rightMap).length;
+      if (leftN >= 4 && rightN >= 5 && rightN >= leftN * 0.6) {
+        const pairs: [string, string][] = [];
+        for (const nStr of Object.keys(leftItems)) {
+          const n = +nStr; const L = (keys[n] || "").toLowerCase(); const rv = rightMap[L];
+          // strip stray answer markers bleeding into the left label (e.g. "the manager c. l'agent", "… b")
+          const lv = leftItems[n].split(/\s+[a-z]\.\s/)[0].replace(/\s+[a-z]$/i, "").replace(/_{2,}/g, "").replace(/\s+/g, " ").trim();
+          // short terms only — long sentence-matching wraps unreliably in the extracted text
+          if (!rv || !lv || lv.length > 40 || rv.length > 40 || ENGLISH.test(rv) || /[a-zàâçéèêëîïôûù]\s+[A-ZÀ-Ý]/.test(lv)) continue;
+          if (!/[A-Za-zÀ-ÿ]{2,}/.test(lv) || !/[A-Za-zÀ-ÿ]{2,}/.test(rv)) continue; // must contain real words, not just "2." / numbers
+          pairs.push([lv, rv]);
+        }
+        let made = 0;
+        for (let c = 0; c < pairs.length; c += 5) {
+          const chunk = pairs.slice(c, c + 5);
+          if (chunk.length < 3) break;
+          const left = chunk.map((p) => p[0]), right = chunk.map((p) => p[1]);
+          if (new Set(right).size !== right.length) continue; // ambiguous (duplicate options)
+          items.push({
+            id: newItemId(`m${made}`), objectiveId: id, skill: "vocabulary", grammarConcepts: [],
+            vocabDomains: obj?.vocabDomains ?? [], theme: obj?.themes?.[0] ?? "workplace",
+            difficulty: "medium", type: "matching", status: "live", estTimeSec: 55, irtB: 0,
+            prompt: { fr: "Associez chaque élément à sa correspondance.", instructions_en: "Match each item to its correct pair. (verbatim PFL2 source exercise)", left, right },
+            answer: { type: "sequence", accepted: [right.join(" ")], normalizer: "fr_accent_insensitive_trim_lower" },
+            distractors: [],
+            explanation: { correct_why: chunk.map((p) => `« ${p[0]} » → « ${p[1]} »`).join("; ") + ".", distractor_why: {}, grammar_rule: "Exercice d'association du programme PFL2.", vocab_notes: sourceNote, common_mistakes: ["confondre des correspondances proches"] },
+            tip: { memory_aid: "Reliez chaque paire enseignée dans cet objectif.", pattern: "élément ↔ correspondance.", similar: chunk.slice(0, 2).map((p) => p[0]) },
+            source: { verbatim: true, catalogue: obj?.source?.catalogue, activity: act, concept: "matching" },
+          });
+          made++;
+        }
+        if (made) continue;
+      }
+    }
 
     if (letterKey && embedded) {
       // ---- CHOOSE a/b/c multiple-choice ----

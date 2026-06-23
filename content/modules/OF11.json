@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF11 — To explain how to perform a task. Source document SC102-2/11-2005F. Grammar taught: adverbs_manner. Vocabulary: the OF11 section of the PFL2 Lexique. 74 questions, all traceable to the PFL2 source (11 verbatim source activities + 63 from the OF11 Lexique).",
+        "en": "OF11 — To explain how to perform a task. Source document SC102-2/11-2005F. Grammar taught: adverbs_manner. Vocabulary: the OF11 section of the PFL2 Lexique. 76 questions, all traceable to the PFL2 source (13 verbatim source activities + 63 from the OF11 Lexique).",
         "fr": "Préciser comment accomplir une tâche. Document source SC102-2/11-2005F. Grammaire enseignée : adverbs_manner. Vocabulaire : section OF11 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,18 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "74 questions, all traceable to the PFL2 source (11 verbatim source activities + 63 from the OF11 Lexique).",
+      "coverage": "76 questions, all traceable to the PFL2 source (13 verbatim source activities + 63 from the OF11 Lexique).",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 11
+          "count": 13
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 74
+      "totalQuestions": 76
     },
     "consolidation": {
       "sourceBooklet": {

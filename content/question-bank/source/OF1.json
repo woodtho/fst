@@ -4,6 +4,194 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of1_src_a8_m0",
+      "objectiveId": "OF1",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "the officer",
+          "the assistant",
+          "the librarian",
+          "the head",
+          "the commisionnaire"
+        ],
+        "right": [
+          "l’agent",
+          "l’adjoint",
+          "la bibliothécaire",
+          "le chef",
+          "la commissionnaire"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "l’agent l’adjoint la bibliothécaire le chef la commissionnaire"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« the officer » → « l’agent »; « the assistant » → « l’adjoint »; « the librarian » → « la bibliothécaire »; « the head » → « le chef »; « the commisionnaire » → « la commissionnaire ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 8).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "the officer",
+          "the assistant"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 8,
+        "concept": "matching"
+      }
+    },
+    {
+      "id": "itm_of1_src_a8_m1",
+      "objectiveId": "OF1",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "the auditor",
+          "the deputy minister",
+          "the secretary",
+          "the advisor",
+          "the clerk"
+        ],
+        "right": [
+          "la vérificatrice",
+          "la sous-ministre",
+          "la secrétaire",
+          "la conseillère",
+          "le commis"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "la vérificatrice la sous-ministre la secrétaire la conseillère le commis"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« the auditor » → « la vérificatrice »; « the deputy minister » → « la sous-ministre »; « the secretary » → « la secrétaire »; « the advisor » → « la conseillère »; « the clerk » → « le commis ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 8).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "the auditor",
+          "the deputy minister"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 8,
+        "concept": "matching"
+      }
+    },
+    {
+      "id": "itm_of1_src_a8_m2",
+      "objectiveId": "OF1",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "the accountant",
+          "the receptionist",
+          "the manager"
+        ],
+        "right": [
+          "la comptable",
+          "la réceptionniste",
+          "la gestionnaire"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "la comptable la réceptionniste la gestionnaire"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« the accountant » → « la comptable »; « the receptionist » → « la réceptionniste »; « the manager » → « la gestionnaire ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 8).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "the accountant",
+          "the receptionist"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 8,
+        "concept": "matching"
+      }
+    },
+    {
       "id": "itm_of1_src_a14_2",
       "objectiveId": "OF1",
       "skill": "writing",

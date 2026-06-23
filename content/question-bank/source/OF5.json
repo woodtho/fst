@@ -4,6 +4,136 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of5_src_a4_m0",
+      "objectiveId": "OF5",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "elevator",
+          "entrance",
+          "library",
+          "waiting room",
+          "bookstore"
+        ],
+        "right": [
+          "un ascenseur",
+          "une entrée",
+          "une bibliothèque",
+          "une salle d’attente",
+          "une librairie"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "un ascenseur une entrée une bibliothèque une salle d’attente une librairie"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« elevator » → « un ascenseur »; « entrance » → « une entrée »; « library » → « une bibliothèque »; « waiting room » → « une salle d’attente »; « bookstore » → « une librairie ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 4).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "elevator",
+          "entrance"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 4,
+        "concept": "matching"
+      }
+    },
+    {
+      "id": "itm_of5_src_a4_m1",
+      "objectiveId": "OF5",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque élément à sa correspondance.",
+        "instructions_en": "Match each item to its correct pair. (verbatim PFL2 source exercise)",
+        "left": [
+          "room",
+          "canteen",
+          "exit",
+          "store",
+          "reception desk"
+        ],
+        "right": [
+          "une pièce",
+          "une cantine",
+          "une sortie",
+          "un magasin",
+          "la réception"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "une pièce une cantine une sortie un magasin la réception"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« room » → « une pièce »; « canteen » → « une cantine »; « exit » → « une sortie »; « store » → « un magasin »; « reception desk » → « la réception ».",
+        "distractor_why": {},
+        "grammar_rule": "Exercice d'association du programme PFL2.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 4).",
+        "common_mistakes": [
+          "confondre des correspondances proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Reliez chaque paire enseignée dans cet objectif.",
+        "pattern": "élément ↔ correspondance.",
+        "similar": [
+          "room",
+          "canteen"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 4,
+        "concept": "matching"
+      }
+    },
+    {
       "id": "itm_of5_src_a43_1",
       "objectiveId": "OF5",
       "skill": "grammar",
