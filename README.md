@@ -134,6 +134,35 @@ npm run build      # production build — see caveat below
 > cd C:\tmp\fsltrainer ; npm run build
 > ```
 
+## Deploying (Vercel)
+
+This is a server-rendered Next.js app (API routes for grading, dynamic routes, request-time
+randomization), so it needs a host that runs Node — **Vercel** is the natural fit and deploys
+straight from this GitHub repo.
+
+**One-time setup** (in the browser, ~2 min):
+1. Go to **vercel.com** → log in with GitHub → **Add New… → Project**.
+2. **Import** the `woodtho/fst` repository.
+3. Framework preset auto-detects **Next.js** — leave the defaults (build `next build`, output handled automatically). No env vars required.
+4. Click **Deploy**.
+
+After that, **every `git push` to `main` auto-deploys** (and PRs get preview URLs). The live
+URL will be something like `https://fst.vercel.app`.
+
+Notes:
+- [`next.config.mjs`](next.config.mjs) uses `outputFileTracingIncludes` so the `content/**`
+  JSON and `sources/manifest.json` (read at runtime via `fs`) are bundled into the serverless
+  functions — without this the app would 500 in production.
+- [`.vercelignore`](.vercelignore) keeps the 99 MB of source PDFs/text out of the deploy
+  (they're build/authoring-time only; the app never reads them at runtime).
+- The local `next build` fails only because this folder name contains a space — Vercel builds
+  in a space-free path, so it's unaffected.
+
+> **Why not GitHub Pages?** Pages serves static files only; it can't run the grading API
+> (`/api/check`, `/api/conjugate`) or the dynamic server rendering. Hosting on Pages would
+> require a static export that moves grading into the browser (shipping the answer keys in the
+> client bundle). Vercel keeps the app working exactly as built.
+
 ## Recommended stack
 
 - **App:** Next.js (App Router) + TypeScript, React Server Components for content,
