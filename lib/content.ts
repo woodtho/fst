@@ -139,7 +139,7 @@ export function getItemsByDomain(domain: string): Item[] {
 
 export function getItemsByTheme(themes: string[]): Item[] {
   const set = new Set(themes);
-  return allItems().filter((it) => set.has(it.theme));
+  return allItems().filter((it) => it.theme != null && set.has(it.theme));
 }
 
 /** Items drawn from every objective whose OF number is within [from, to] (consolidation). */

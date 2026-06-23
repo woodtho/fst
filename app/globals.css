@@ -139,6 +139,23 @@ h3 { font-size: 1rem; margin: 18px 0 8px; }
 .build-area { min-height: 48px; border: 1.5px dashed var(--line); border-radius: 10px; padding: 8px; margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 .build-area .token { border-style: solid; background: #eef3fb; border-color: var(--brand); }
 
+/* Lexicon tool */
+.lex-controls { display: flex; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+.lex-controls .text-input { flex: 1 1 260px; }
+.lex-controls .match-select { flex: 0 1 320px; }
+.lex-table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.lex-table th, .lex-table td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.lex-table th { color: var(--muted); font-weight: 600; font-size: .78rem; text-transform: uppercase; letter-spacing: .03em; position: sticky; top: 0; background: var(--panel); }
+.lex-table tr:hover td { background: #f7f9fc; }
+
+/* Timer + exam review */
+.timer { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--muted); }
+.timer.low { color: var(--incorrect); }
+.review-item { border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; margin-bottom: 8px; }
+.review-item.ok { border-left: 3px solid var(--correct); }
+.review-item.bad { border-left: 3px solid var(--incorrect); }
+.review-item summary { cursor: pointer; }
+
 /* Matching */
 .match-grid { display: grid; gap: 10px; margin: 6px 0 14px; }
 .match-row { display: grid; grid-template-columns: 1fr auto minmax(180px, 1fr); align-items: center; gap: 10px; }

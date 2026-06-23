@@ -90,24 +90,21 @@ export default function LearnPage({ params }: { params: { id: string } }) {
       ))}
 
       {/* PFL2 source lexicon for this OF */}
-      {lexicon && lexicon.frenchSource && (
+      {lexicon && lexicon.entries?.length > 0 && (
         <div className="panel">
           <h2 style={{ marginTop: 0 }}>Lexicon — PFL2 source vocabulary</h2>
           <p className="muted" style={{ marginTop: 0 }}>
-            Full vocabulary list for this objective, from the official PFL2 Lexique
-            (<code>{lexicon.source.catalogue}</code>). French and English are parallel source
-            lists.
+            {lexicon.count} entries for this objective, from the official PFL2 Lexique
+            (<code>{lexicon.source.catalogue}</code>). <Link href="/tools/lexicon">Search the full lexicon →</Link>
           </p>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-            <div>
-              <h3 style={{ marginTop: 0 }}>Français</h3>
-              <p className="fr" lang="fr" style={{ fontSize: ".9rem" }}>{lexicon.frenchSource}</p>
-            </div>
-            <div>
-              <h3 style={{ marginTop: 0 }}>English</h3>
-              <p className="en" lang="en" style={{ fontSize: ".9rem" }}>{lexicon.englishSource}</p>
-            </div>
-          </div>
+          <table className="lex-table">
+            <thead><tr><th>Français</th><th>English</th></tr></thead>
+            <tbody>
+              {lexicon.entries.map((e: any, i: number) => (
+                <tr key={i}><td className="fr" lang="fr">{e.fr}</td><td lang="en">{e.en}</td></tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       )}
 

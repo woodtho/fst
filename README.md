@@ -73,6 +73,23 @@ build the application, plus enough authored content to stand up a working vertic
 | [content/lexicon/](content/lexicon/) | Government/workplace lexicon with glosses, gender, register. |
 | [content/grammar/](content/grammar/) | Grammar charts (conjugation, agreement, etc.) as structured data. |
 
+## Practice tools
+
+Beyond the per-objective modules, the app has cross-cutting tools (top nav):
+
+| Tool | Route | What it does |
+|------|-------|--------------|
+| **Grammar** | `/tools/grammar` | The 16 grammar concepts, each with rules and a cross-OF practice set (pulls questions from every objective that uses the concept). |
+| **Conjugation** | `/tools/conjugation` | Live conjugation drills across 6 tenses (présent, passé composé, imparfait, futur simple, conditionnel, subjonctif) for 25+ regular and irregular verbs. A real engine ([`lib/conjugation.ts`](lib/conjugation.ts)) generates prompts and grades server-side via `/api/conjugate`. Filter by tense or verb group. |
+| **Lexicon** | `/tools/lexicon` | Searchable browser over **1,423** PFL2 vocabulary entries (French ↔ English), filterable by objective. Re-parsed from the source with `pdftotext -layout` so every entry is a clean aligned row (`npm run lexicon:parse`). |
+| **Government & workplace** | `/tools/workplace` | Targeted practice on workplace vs. public-service language, drawing items by vocab domain and theme. |
+| **Consolidation** | `/consolidation` | Mixed review across the four PFL2 booklet ranges (OF 1–12, 13–22, 23–32, 33–40); each session pulls from every objective in the range, in study or exam mode. |
+| **Self-test** | `/learn/<OF>/self-test` | Per-objective timed, exam-mode quiz (blueprint-driven, feedback + full review at the end). Linked from every module hub. |
+
+All of these reuse one `ExerciseRunner` (now supporting study mode, **exam mode**, timers,
+and matching). Selecting questions is just filtering real items, so grading and explanations
+work everywhere automatically.
+
 ## Run the app (vertical slice)
 
 A working Next.js slice is implemented over the authored content — **no database required**

@@ -1,0 +1,8 @@
+# Keep the deployment lean. These are SOURCE materials used at build/authoring time only —
+# the app never reads them at runtime (it reads content/** and sources/manifest.json).
+sources/pdf/
+sources/text/
+
+# Local artifacts
+.next/
+out/
