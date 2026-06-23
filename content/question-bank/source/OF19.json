@@ -1,0 +1,1348 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF19",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of19_src_a30_2",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quel est le mois le plus court?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions en vous basant au besoin sur le calendrier fourni; faites des phras)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le mois de février est le mois le plus court."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le mois de février est le mois le plus court. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 30).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 30,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a30_3",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quel mois est habituellement le plus chaud?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions en vous basant au besoin sur le calendrier fourni; faites des phras)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le mois de juillet est habituellement le mois le plus chaud."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le mois de juillet est habituellement le mois le plus chaud. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 30).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 30,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a30_6",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quelle fête religieuse est la plus commercialisée?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions en vous basant au besoin sur le calendrier fourni; faites des phras)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Noël est la fête religieuse la plus commercialisée."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Noël est la fête religieuse la plus commercialisée. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 30).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 30,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a30_8",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le mois d’avril est-il aussi long que le mois de juin?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions en vous basant au besoin sur le calendrier fourni; faites des phras)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, il est aussi long que le mois de juin."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, il est aussi long que le mois de juin. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 30).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 30,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a30_9",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le mois de juillet est-il moins long que le mois de septembre?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions en vous basant au besoin sur le calendrier fourni; faites des phras)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, il est plus long que le mois de septembre."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, il est plus long que le mois de septembre. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 30).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 30,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a30_11",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quel mois est habituellement le plus froid?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions en vous basant au besoin sur le calendrier fourni; faites des phras)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le mois de janvier est habituellement le mois le plus froid."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le mois de janvier est habituellement le mois le plus froid. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 30).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 30,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a30_13",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le mois de décembre est-il aussi long que le mois de janvier?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions en vous basant au besoin sur le calendrier fourni; faites des phras)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, il est aussi long que le mois de janvier."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, il est aussi long que le mois de janvier. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 30).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 30,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_1",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La pollution est un problème grave.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Robert, penses-tu que la pollution est un problème grave?",
+          "–– Je crois que la situation s’est améliorée depuis quelques années."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Robert, penses-tu que la pollution est un problème grave? » (ou « –– Je crois que la situation s’est améliorée depuis quelques années. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_2",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce document est complet.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– As-tu l’impression que ce document était complet?",
+          "–– Non, je pense qu’il manquait une partie très importante."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– As-tu l’impression que ce document était complet? » (ou « –– Non, je pense qu’il manquait une partie très importante. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_3",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les pourriels sont trop nombreux.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Crois-tu que les pourriels sont trop nombreux?",
+          "–– Oui, mais j’ai l’impression qu’on règlera le problème bientôt."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Crois-tu que les pourriels sont trop nombreux? » (ou « –– Oui, mais j’ai l’impression qu’on règlera le problème bientôt. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_4",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ses frais de voyage sont trop élevés.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Tu ne trouves pas que ses frais de voyage sont trop élevés?",
+          "–– Oui, je crois qu’il a un peu exagéré."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Tu ne trouves pas que ses frais de voyage sont trop élevés? » (ou « –– Oui, je crois qu’il a un peu exagéré. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_5",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L’évaluation du projet est juste.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Est-ce que l’évaluation du projet te paraît juste?",
+          "–– Pas vraiment.",
+          "Il me semble que nous avons atteint tous nos objectifs."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Est-ce que l’évaluation du projet te paraît juste? » (ou « –– Pas vraiment. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_6",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’est une dotation impérative.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Tu ne penses pas que c’est une dotation impérative?",
+          "–– J’ai l’impression que c’est une dotation non-impérative."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Tu ne penses pas que c’est une dotation impérative? » (ou « –– J’ai l’impression que c’est une dotation non-impérative. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_7",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce défi est stimulant.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Est-ce que ce défi te semble stimulant?",
+          "–– Je trouve que ce sera une expérience enrichissante."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Est-ce que ce défi te semble stimulant? » (ou « –– Je trouve que ce sera une expérience enrichissante. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_8",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce compromis est satisfaisant.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– A-t-il l’impression que ce compromis est satisfaisant?",
+          "–– Je crois qu’il est très content de l’entente."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– A-t-il l’impression que ce compromis est satisfaisant? » (ou « –– Je crois qu’il est très content de l’entente. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_9",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les réunions hebdomadaires sont trop longues.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Dirais-tu que les réunions hebdomadaires sont trop longues?",
+          "–– Je trouve qu’elles pourraient être beaucoup plus courtes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Dirais-tu que les réunions hebdomadaires sont trop longues? » (ou « –– Je trouve qu’elles pourraient être beaucoup plus courtes. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_10",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce rapport est volumineux.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Trouves-tu que ce rapport serait trop volumineux?",
+          "–– Non, il me semble parfait comme ça."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Trouves-tu que ce rapport serait trop volumineux? » (ou « –– Non, il me semble parfait comme ça. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_11",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce curriculum vitae est impressionnant.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Es-tu d’avis que ce curriculum vitae est impressionnant?",
+          "–– Il me paraît tout à fait remarquable."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Es-tu d’avis que ce curriculum vitae est impressionnant? » (ou « –– Il me paraît tout à fait remarquable. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_12",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Cette demande de congé est légitime.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Ne trouves-tu pas que cette demande de congé est légitime?",
+          "–– Oui, elle me paraît tout à fait justifiée."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Ne trouves-tu pas que cette demande de congé est légitime? » (ou « –– Oui, elle me paraît tout à fait justifiée. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_13",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Cette demande de passeport est incomplète.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Tu ne crois pas que cette demande de passeport est incomplète?",
+          "–– Non, je pense que tout y est."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Tu ne crois pas que cette demande de passeport est incomplète? » (ou « –– Non, je pense que tout y est. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_14",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce certificat médical est valide.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Est-ce que tu penses que ce certificat médical est valide?",
+          "–– Non, je ne crois pas qu’il est encore bon."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Est-ce que tu penses que ce certificat médical est valide? » (ou « –– Non, je ne crois pas qu’il est encore bon. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a55_15",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Son discours était interminable.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — posez une question contenant un verbe d’opinion à un membre de votre groupe.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– As-tu l’impression que son discours était interminable?",
+          "–– Je l’ai trouvé beaucoup trop long en effet."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– As-tu l’impression que son discours était interminable? » (ou « –– Je l’ai trouvé beaucoup trop long en effet. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 55).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 55,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of19_src_a61_8",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Selon moi, ces deux rapports se ressemblent.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si l’énoncé écrit correspond à l’énoncé enregistré.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "D’après moi, ces deux rapports sont semblables."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « D’après moi, ces deux rapports sont semblables. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 61).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 61,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a61_9",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ces mesures me semblent très satisfaisantes.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si l’énoncé écrit correspond à l’énoncé enregistré.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À mon avis, ces mesures ne sont pas très efficaces."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « À mon avis, ces mesures ne sont pas très efficaces. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 61).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 61,
+        "concept": "comparatives"
+      }
+    },
+    {
+      "id": "itm_of19_src_a61_15",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Pour ma part, la situation est alarmante.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si l’énoncé écrit correspond à l’énoncé enregistré.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Selon moi, la situation est alarmante."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Selon moi, la situation est alarmante. ». plus … que (more), moins … que (less), aussi … que (as).",
+        "distractor_why": {},
+        "grammar_rule": "plus … que (more), moins … que (less), aussi … que (as).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/19-2005F, activité 61).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/19-2005F",
+        "activity": 61,
+        "concept": "comparatives"
+      }
+    }
+  ]
+}

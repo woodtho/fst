@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF1 — To identify yourself and other people. Source document SC102-2/1-2005F. Grammar taught: present, pronouns, question_formation. Vocabulary: the OF1 section of the PFL2 Lexique. 104 questions, all traceable to the PFL2 source (41 verbatim source activities + 63 from the OF1 Lexique).",
+        "en": "OF1 — To identify yourself and other people. Source document SC102-2/1-2005F. Grammar taught: present, pronouns, question_formation. Vocabulary: the OF1 section of the PFL2 Lexique. 111 questions, all traceable to the PFL2 source (48 verbatim source activities + 63 from the OF1 Lexique).",
         "fr": "S’identifier et identifier des personnes. Document source SC102-2/1-2005F. Grammaire enseignée : present, pronouns, question_formation. Vocabulaire : section OF1 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,18 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "104 questions, all traceable to the PFL2 source (41 verbatim source activities + 63 from the OF1 Lexique).",
+      "coverage": "111 questions, all traceable to the PFL2 source (48 verbatim source activities + 63 from the OF1 Lexique).",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 41
+          "count": 48
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 104
+      "totalQuestions": 111
     },
     "consolidation": {
       "sourceBooklet": {
@@ -70,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 0
+        "advanced": 4
       },
       "drawFrom": [
         "OF1"

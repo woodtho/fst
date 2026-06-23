@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF29 — To assess the abilities or competencies of someone. Source document SC102-2/29-2005F. Grammar taught: negation, comparatives. Vocabulary: the OF29 section of the PFL2 Lexique. 46 questions, all traceable to the PFL2 source (0 verbatim source activities + 46 from the OF29 Lexique).",
+        "en": "OF29 — To assess the abilities or competencies of someone. Source document SC102-2/29-2005F. Grammar taught: negation, comparatives. Vocabulary: the OF29 section of the PFL2 Lexique. 100 questions, all traceable to the PFL2 source (54 verbatim source activities + 46 from the OF29 Lexique).",
         "fr": "Apprécier les capacités ou les compétences de quelqu’un. Document source SC102-2/29-2005F. Grammaire enseignée : negation, comparatives. Vocabulaire : section OF29 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "46 questions, all traceable to the PFL2 source (0 verbatim source activities + 46 from the OF29 Lexique).",
+      "coverage": "100 questions, all traceable to the PFL2 source (54 verbatim source activities + 46 from the OF29 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 54
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 46
         }
       ],
-      "totalQuestions": 46
+      "totalQuestions": 100
     },
     "consolidation": {
       "sourceBooklet": {
@@ -66,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 4,
-        "advanced": 0
+        "advanced": 4
       },
       "drawFrom": [
         "OF29"

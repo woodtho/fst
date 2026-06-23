@@ -4,6 +4,526 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of24_src_a26_1",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vincent compile les données informatiques.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Vincent compile les données informatiques en écoutant de la musique."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Vincent compile les données informatiques en écoutant de la musique. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_2",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle a aperçu ses collègues.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a aperçu ses collègues en entrant dans la salle de conférences."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle a aperçu ses collègues en entrant dans la salle de conférences. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_3",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Richard range la commande de matériel.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Richard range la commande de matériel en la vérifiant."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Richard range la commande de matériel en la vérifiant. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_5",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La directrice m’a dit bonjour.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La directrice m'a dit bonjour en souriant."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La directrice m'a dit bonjour en souriant. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_6",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il nettoiera le tapis.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il nettoiera le tapis en chantant."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il nettoiera le tapis en chantant. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_7",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il a pris son porte-documents.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il a pris son porte-documents en sortant."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il a pris son porte-documents en sortant. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_8",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle faisait du ski.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle est tombée en faisant du ski."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle est tombée en faisant du ski. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_9",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tu trouves le dossier.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tu trouves le dossier en classant le compte rendu."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Tu trouves le dossier en classant le compte rendu. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_10",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vous écoutez le conférencier.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Vous écoutez le conférencier en prenant des notes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Vous écoutez le conférencier en prenant des notes. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a26_11",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’ai rencontré le technicien.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "J'ai rencontré le technicien en prenant l'ascenseur."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « J'ai rencontré le technicien en prenant l'ascenseur. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 26,
+        "concept": "compound_tenses"
+      }
+    },
+    {
       "id": "itm_of24_src_a29_2",
       "objectiveId": "OF24",
       "skill": "writing",
@@ -728,6 +1248,578 @@
         "verbatim": true,
         "catalogue": "SC102-2/24-2005F",
         "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_1",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle a téléphoné à tout le monde avant que la réunion commence.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a téléphoné à tout le monde avant le début de la réunion."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle a téléphoné à tout le monde avant le début de la réunion. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_2",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Remplis le formulaire avant de partir.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Remplis le formulaire avant ton départ."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Remplis le formulaire avant ton départ. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_4",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle a fait des photocopies avant de lire les épreuves.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a fait des photocopies avant la lecture des épreuves."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle a fait des photocopies avant la lecture des épreuves. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_5",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Terminez cette activité avant que le ministre arrive.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Terminez cette activité avant l'arrivée du ministre."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Terminez cette activité avant l'arrivée du ministre. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_6",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Après qu’il sera parti, nous changerons les règlements.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Après son départ, nous changerons les règlements."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Après son départ, nous changerons les règlements. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_9",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il travaillait à temps partiel pendant que sa femme étudiait à l’université.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il travaillait à temps partiel pendant les études de sa femme."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il travaillait à temps partiel pendant les études de sa femme. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_11",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il relisait les documents après qu’on les avait corrigés.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il relisait les documents après la correction."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il relisait les documents après la correction. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_12",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Voulez-vous finir cette tâche avant que les délégués nous rendent visite?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Voulez-vous finir cette tâche avant la visite des délégués?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Voulez-vous finir cette tâche avant la visite des délégués? ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_13",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le commis doit vérifier la commande avant qu’on l’envoie.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le commis doit vérifier la commande avant son envoi."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le commis doit vérifier la commande avant son envoi. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_14",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Nous avons distribué les dépliants avant qu’il parte.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous avons distribué les dépliants avant son départ."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Nous avons distribué les dépliants avant son départ. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a32_15",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les employés ont essayé de négocier avant de faire la grève.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez la partie soulignée par une expression nominale.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Les employés ont essayé de négocier avant la grève."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Les employés ont essayé de négocier avant la grève. ». Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 32).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 32,
         "concept": "compound_tenses"
       }
     }

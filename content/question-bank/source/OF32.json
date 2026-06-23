@@ -1,0 +1,111 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF32",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of32_src_a17_7",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vous pourrez consulter ces documents si on vous donne une autorisation spéciale.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez en utilisant pourvu que ou à condition que.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "à condition qu’ / pourvu qu’on vous donne une autorisation spéciale."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « à condition qu’ / pourvu qu’on vous donne une autorisation spéciale. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/32-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/32-2005F",
+        "activity": 17,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of32_src_a25_3",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vous pourrez rencontrer le ministre à condition d’être brefs.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase en utilisant l’expression suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Vous pourrez rencontrer le ministre pourvu que vous soyez brefs."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Vous pourrez rencontrer le ministre pourvu que vous soyez brefs. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/32-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/32-2005F",
+        "activity": 25,
+        "concept": "subjonctif"
+      }
+    }
+  ]
+}

@@ -134,6 +134,908 @@
       }
     },
     {
+      "id": "itm_of5_src_a9_2",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il y a une imprimerie ___ Rimouski.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "à"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « à ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a9_3",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il y a une affiche ___ le mur.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "sur"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « sur ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a9_4",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il y a une cafétéria ___ sous-sol.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "au"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « au ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a9_5",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "L’entrepôt se trouve ___ la sortie.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "près de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « près de ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a9_6",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il y a une chaise ___ le bureau.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "derrière"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « derrière ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a9_7",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Le bureau de l’adjoint est ___ du couloir.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "au bout"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « au bout ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a9_8",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il y a des arbres ___ l’édifice.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "en face de",
+          "sur"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « en face de ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a9_9",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Le bureau du commissionnaire est ___ de l’entrée.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "à côté"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « à côté ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a9_10",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il y a un parc ___ chez moi.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "en face de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « en face de ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {},
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 9).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 9,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a22_1",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’il y a un ordinateur sur ton bureau?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, il n’y a pas d’ordinateur sur mon bureau."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, il n’y a pas d’ordinateur sur mon bureau. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 22).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 22,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of5_src_a22_4",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’est un couloir?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ce n’est pas un couloir."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ce n’est pas un couloir. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 22).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 22,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of5_src_a22_6",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’il y a un garage à côté de la maison?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, il n’y a pas de garage à côté de la maison."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, il n’y a pas de garage à côté de la maison. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 22).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 22,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of5_src_a22_7",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L’ascenseur, c’est à droite?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, l’ascenseur, ce n’est pas à droite."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, l’ascenseur, ce n’est pas à droite. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 22).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 22,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of5_src_a22_9",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’il trouve des agrafes dans son tiroir?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, il ne trouve pas d’agrafes dans son tiroir."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, il ne trouve pas d’agrafes dans son tiroir. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 22).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 22,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of5_src_a22_10",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce sont des salles de classe?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ce ne sont pas des salles de classe."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ce ne sont pas des salles de classe. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 22).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 22,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of5_src_a22_11",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le matin, est-ce qu’elle est à la cafétéria?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, le matin, elle n’est pas à la cafétéria."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, le matin, elle n’est pas à la cafétéria. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 22).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 22,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of5_src_a22_12",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Au bout du corridor, est-ce qu’il y a une sortie?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, au bout du corridor, il n’y a pas de sortie."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, au bout du corridor, il n’y a pas de sortie. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 22).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 22,
+        "concept": "negation"
+      }
+    },
+    {
       "id": "itm_of5_src_a43_1",
       "objectiveId": "OF5",
       "skill": "grammar",

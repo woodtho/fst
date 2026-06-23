@@ -4,6 +4,862 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of30_src_a8_1",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La patronne permet aux employés d’utiliser cette salle.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La patronne permet que les employés utilisent cette salle."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La patronne permet que les employés utilisent cette salle. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 8,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a8_2",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On interdit aux employés de régler le thermostat eux-mêmes.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On interdit que les employés règlent le thermostat eux-mêmes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On interdit que les employés règlent le thermostat eux-mêmes. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 8,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a8_3",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On permet aux employés de se servir du réfrigérateur.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On permet que les employés se servent du réfrigérateur."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On permet que les employés se servent du réfrigérateur. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 8,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a8_4",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L’animatrice interdit aux participants de déplacer le mobilier.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "L’animatrice interdit que les participants déplacent le mobilier."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « L’animatrice interdit que les participants déplacent le mobilier. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 8,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a8_7",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le service de sécurité interdit que les visiteurs stationnent ici.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le service de sécurité interdit aux visiteurs de stationner ici."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le service de sécurité interdit aux visiteurs de stationner ici. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 8,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a9_1",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On ne permet pas d’assister au congrès.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases à l’infinitif et au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne me permet pas d’assister au congrès.",
+          "On ne permet pas que j’assiste au congrès."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne me permet pas d’assister au congrès. » (ou « On ne permet pas que j’assiste au congrès. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 9,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a9_5",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On va permettre de présenter ce grief au deuxième palier.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases à l’infinitif et au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On va lui permettre de présenter ce grief au deuxième palier.",
+          "On va permettre qu’il présente ce grief au deuxième palier."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On va lui permettre de présenter ce grief au deuxième palier. » (ou « On va permettre qu’il présente ce grief au deuxième palier. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 9,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a9_6",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La politique sur les conflits d’intérêts interdit de faire ça.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases à l’infinitif et au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La politique sur les conflits d’intérêts t’interdit de faire ça.",
+          "La politique sur les conflits d’intérêts interdit que tu fasses ça."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La politique sur les conflits d’intérêts t’interdit de faire ça. » (ou « La politique sur les conflits d’intérêts interdit que tu fasses ça. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 9,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a9_8",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On interdit d’utiliser des bouilloires dans les bureaux.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases à l’infinitif et au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On interdit aux employés d’utiliser des bouilloires dans les bureaux."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On interdit aux employés d’utiliser des bouilloires dans les bureaux. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 9,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a9_10",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tu crois qu’on permettra d’utiliser mon portable?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases à l’infinitif et au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tu crois qu’on me permettra d’utiliser mon portable?",
+          "Tu crois qu’on permettra que j’utilise mon portable?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Tu crois qu’on me permettra d’utiliser mon portable? » (ou « Tu crois qu’on permettra que j’utilise mon portable? »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 9,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a10_2",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les stagiaires peuvent suivre ce cours.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On permet aux stagiaires de suivre ce cours.",
+          "On permet que les stagiaires suivent ce cours."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On permet aux stagiaires de suivre ce cours. » (ou « On permet que les stagiaires suivent ce cours. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 10,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a10_3",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Nous n’avons plus le droit d’accumuler nos congés annuels.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne nous permet plus d’accumuler nos congés annuels.",
+          "On ne permet plus que nous accumulions nos congés annuels."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne nous permet plus d’accumuler nos congés annuels. » (ou « On ne permet plus que nous accumulions nos congés annuels. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 10,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a10_5",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elsa n’a pas le droit de sortir ces documents confidentiels.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On défend à Elsa de sortir ces documents confidentiels.",
+          "On défend qu’Elsa sorte ces documents confidentiels."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On défend à Elsa de sortir ces documents confidentiels. » (ou « On défend qu’Elsa sorte ces documents confidentiels. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 10,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a10_6",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ces employés peuvent déterminer eux-mêmes leurs objectifs.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On permet à ces employés de déterminer eux-mêmes leurs objectifs.",
+          "On permet que ces employés déterminent eux-mêmes leurs objectifs."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On permet à ces employés de déterminer eux-mêmes leurs objectifs. » (ou « On permet que ces employés déterminent eux-mêmes leurs objectifs. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 10,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a15_1",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’on vous a refusé la permission?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce qu’on vous l’a refusée?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Est-ce qu’on vous l’a refusée? ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 15).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a30_5",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est défendu de stationner ici.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est défendu de stationner ici, à moins d’avoir un permis."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est défendu de stationner ici, à moins d’avoir un permis. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 30).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 30,
+        "concept": "subjonctif"
+      }
+    },
+    {
       "id": "itm_of30_src_a46_1",
       "objectiveId": "OF30",
       "skill": "grammar",

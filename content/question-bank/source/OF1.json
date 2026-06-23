@@ -4,6 +4,59 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of1_src_a4_1",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "– Votre nom, s’il vous plaît? – Je ___ Marthe Beaulieu.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "nom m’appelle",
+          "suis"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « nom m’appelle ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 4).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 4,
+        "concept": "present"
+      }
+    },
+    {
       "id": "itm_of1_src_a8_m0",
       "objectiveId": "OF1",
       "skill": "vocabulary",
@@ -2187,6 +2240,324 @@
         "catalogue": "SC102-2/1-2005F",
         "activity": 23,
         "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of1_src_a25_1",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vous êtes fonctionnaire?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Interrogez votre collègue en changeant la forme de la question.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce que vous êtes fonctionnaire?",
+          "Êtes-vous fonctionnaire?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Est-ce que vous êtes fonctionnaire? » (ou « Êtes-vous fonctionnaire? »). Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 25,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of1_src_a25_2",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vous êtes professeur?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Interrogez votre collègue en changeant la forme de la question.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce que vous êtes professeur?",
+          "Êtes-vous professeur?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Est-ce que vous êtes professeur? » (ou « Êtes-vous professeur? »). Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 25,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of1_src_a25_4",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Votre nom, c’est « Leblanc »?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Interrogez votre collègue en changeant la forme de la question.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Votre nom, est-ce que c’est « Leblanc »?",
+          "Votre nom, est-ce « Leblanc »?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Votre nom, est-ce que c’est « Leblanc »? » (ou « Votre nom, est-ce « Leblanc »? »). Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 25,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of1_src_a25_6",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Votre fille est fonctionnaire?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Interrogez votre collègue en changeant la forme de la question.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce que votre fille est fonctionnaire?",
+          "Votre fille est-elle fonctionnaire?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Est-ce que votre fille est fonctionnaire? » (ou « Votre fille est-elle fonctionnaire? »). Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 25,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of1_src_a25_8",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est directeur du personnel?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Interrogez votre collègue en changeant la forme de la question.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce qu’il est directeur du personnel?",
+          "Est-il directeur du personnel?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Est-ce qu’il est directeur du personnel? » (ou « Est-il directeur du personnel? »). Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 25,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of1_src_a25_9",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Votre fils travaille à la fonction publique?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Interrogez votre collègue en changeant la forme de la question.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce que votre fils travaille à la fonction publique?",
+          "Votre fils travaille-t-il à la fonction publique?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Est-ce que votre fils travaille à la fonction publique? » (ou « Votre fils travaille-t-il à la fonction publique? »). Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 25,
+        "concept": "question_formation"
       }
     }
   ]

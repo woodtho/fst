@@ -260,6 +260,112 @@
         "activity": 14,
         "concept": "matching"
       }
+    },
+    {
+      "id": "itm_of20_src_a37_2",
+      "objectiveId": "OF20",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Qu’est-ce qu’elle n’a jamais hésité à faire?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement à chacune des questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle n’a jamais hésité à aider et à conseiller ses collègues."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle n’a jamais hésité à aider et à conseiller ses collègues. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/20-2005F, activité 37).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/20-2005F",
+        "activity": 37,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of20_src_a37_10",
+      "objectiveId": "OF20",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quelle impression les gens ont-ils?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement à chacune des questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils ont l’impression qu’elle reviendra les voir."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils ont l’impression qu’elle reviendra les voir. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/20-2005F, activité 37).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/20-2005F",
+        "activity": 37,
+        "concept": "adjectives"
+      }
     }
   ]
 }

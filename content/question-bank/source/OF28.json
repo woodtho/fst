@@ -772,6 +772,907 @@
       }
     },
     {
+      "id": "itm_of28_src_a11_2",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’est important que tu comprennes le sens exact de ce mandat.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "C’est important de comprendre le sens exact de ce mandat."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « C’est important de comprendre le sens exact de ce mandat. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 11).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 11,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a11_3",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce n’est pas nécessaire qu’on remette ce document au directeur.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce n’est pas nécessaire de remettre ce document au directeur."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce n’est pas nécessaire de remettre ce document au directeur. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 11).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 11,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a11_4",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce qui importe, c’est que vous sachiez reconnaître vos limites.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce qui importe, c’est de savoir reconnaître ses limites."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce qui importe, c’est de savoir reconnaître ses limites. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 11).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 11,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a11_5",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ça servirait à quoi qu’elle sache toute la vérité?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça servirait à quoi de savoir toute la vérité?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça servirait à quoi de savoir toute la vérité? ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 11).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 11,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a11_7",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ça ne valait pas la peine qu’ils modifient ce règlement-là.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça ne valait pas la peine de modifier ce règlement-là."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça ne valait pas la peine de modifier ce règlement-là. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 11).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 11,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a11_8",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce serait bon qu’on examine de plus près toute la question.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce serait bon d’examiner de plus près toute la question."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce serait bon d’examiner de plus près toute la question. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 11).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 11,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a11_9",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce qui compte, c’est que nous pensions à de nouvelles stratégies.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce qui compte, c’est de penser à de nouvelles stratégies."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce qui compte, c’est de penser à de nouvelles stratégies. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 11).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 11,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a11_10",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce que ce serait mieux qu’on se réfère aux normes?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce que ce serait mieux de se référer aux normes?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Est-ce que ce serait mieux de se référer aux normes? ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 11).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 11,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_1",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’est essentiel de finir ce travail aujourd’hui.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "C’est essentiel que je finisse ce travail aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « C’est essentiel que je finisse ce travail aujourd’hui. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_2",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "À l’ACDI, il faut porter une carte d’identité.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À l’ACDI, il faut que les employés portent une carte d’identité."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « À l’ACDI, il faut que les employés portent une carte d’identité. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_3",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il n’est pas nécessaire de remplir ce formulaire.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il n’est pas nécessaire que vous remplissiez ce formulaire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il n’est pas nécessaire que vous remplissiez ce formulaire. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_4",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il faut avoir des directives claires et précises.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il faut qu’on ait des directives claires et précises."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il faut qu’on ait des directives claires et précises. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_5",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce serait sage de se fixer des objectifs.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce serait sage que tu te fixes des objectifs."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce serait sage que tu te fixes des objectifs. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_6",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il était indispensable de convoquer tout le personnel.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il était indispensable que la direction convoque tout le personnel."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il était indispensable que la direction convoque tout le personnel. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_7",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’était essentiel d’expliquer les nouveaux mandats.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "C’était essentiel que le comité explique les nouveaux mandats."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « C’était essentiel que le comité explique les nouveaux mandats. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_8",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il ne faut pas déroger à ce règlement.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il ne faut pas que les visiteurs dérogent à ce règlement."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il ne faut pas que les visiteurs dérogent à ce règlement. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a12_10",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce ne serait pas utile de lui demander des précisions.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez les verbes au subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce ne serait pas utile que vous lui demandiez des précisions."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce ne serait pas utile que vous lui demandiez des précisions. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 12,
+        "concept": "subjonctif"
+      }
+    },
+    {
       "id": "itm_of28_src_a15_1",
       "objectiveId": "OF28",
       "skill": "grammar",

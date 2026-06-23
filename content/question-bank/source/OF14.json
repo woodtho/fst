@@ -1,0 +1,909 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF14",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of14_src_a4_9",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "––___ une rencontre entre monsieur Champagne et monsieur Turcotte demain à 9 h",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il y aura l’annulation"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Il y aura l’annulation ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 4).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 4,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_1",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Un accident s’est produit au coin de la rue.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il s’est produit un accident au coin de la rue."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il s’est produit un accident au coin de la rue. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_2",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "De nombreux changements sont survenus au bureau.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est survenu de nombreux changements au bureau."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est survenu de nombreux changements au bureau. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_4",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Une nouvelle employée est arrivée.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est arrivé une nouvelle employée."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est arrivé une nouvelle employée. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_5",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Plusieurs réunions se tiennent simultanément.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se tient plusieurs réunions simultanément."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se tient plusieurs réunions simultanément. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_6",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Un spectacle se déroule présentement.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se déroule un spectacle présentement."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se déroule un spectacle présentement. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_7",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Des choses étonnantes se passent dans ce pays.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se passe des choses étonnantes dans ce pays."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se passe des choses étonnantes dans ce pays. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_8",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Un congrès se tient près d’ici.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se tient un congrès près d’ici."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se tient un congrès près d’ici. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_9",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Des incidents se produisent chaque samedi.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se produit des incidents chaque samedi."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se produit des incidents chaque samedi. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_10",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Des coïncidences curieuses arrivent parfois.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il arrive parfois des coïncidences curieuses."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il arrive parfois des coïncidences curieuses. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_1",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Qu’est-ce qui est arrivé hier soir?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Qu’est-ce qui s’est passé hier soir?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Qu’est-ce qui s’est passé hier soir? ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_2",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Des entrevues de sélection se déroulent demain matin.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Des entrevues de sélection ont lieu demain matin."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Des entrevues de sélection ont lieu demain matin. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_5",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On prévoit plusieurs visites de la directrice générale.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il y a eu plusieurs visites de la directrice générale."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il y a eu plusieurs visites de la directrice générale. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_6",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est arrivé de nombreux accidents sur cette route-là.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "De nombreux accidents sont arrivés sur cette route-là."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « De nombreux accidents sont arrivés sur cette route-là. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_7",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L’annulation du spectacle est officielle.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La présentation du spectacle est officielle."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La présentation du spectacle est officielle. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_8",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La partie de baseball a été annulée à 8 h.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La partie de baseball a eu lieu à 8 h."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La partie de baseball a eu lieu à 8 h. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      }
+    },
+    {
+      "id": "itm_of14_src_a10_1",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La réunion s’est déroulée ce matin.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si l’énoncé correspond au mini-dialogue entendu.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "––Est-ce que la réunion a eu lieu ce matin?",
+          "non ––Non, elle a été annulée."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « ––Est-ce que la réunion a eu lieu ce matin? » (ou « non ––Non, elle a été annulée. »). il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 10,
+        "concept": "impersonal"
+      }
+    }
+  ]
+}

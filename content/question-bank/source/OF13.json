@@ -1,0 +1,163 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF13",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of13_src_a27_1",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Hier, Jacques (aller) au cinéma pour la représentation de 19 h.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Hier, Jacques est allé au cinéma pour la représentation de 19 h."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Hier, Jacques est allé au cinéma pour la représentation de 19 h. ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/13-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/13-2005F",
+        "activity": 27,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of13_src_a27_6",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Récemment, on (aller) au marché.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Récemment, on est allés au marché."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Récemment, on est allés au marché. ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/13-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/13-2005F",
+        "activity": 27,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of13_src_a27_7",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "À cette époque-là, ça (coûter) un dollar pour voir un film.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À cette époque-là, ça coûtait un dollar pour voir un film."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « À cette époque-là, ça coûtait un dollar pour voir un film. ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/13-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/13-2005F",
+        "activity": 27,
+        "concept": "passe_compose"
+      }
+    }
+  ]
+}

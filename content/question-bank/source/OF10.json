@@ -72,6 +72,839 @@
       }
     },
     {
+      "id": "itm_of10_src_a20_9",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elles évaluent la politique?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez les mots soulignés par le pronom objet le, la, les ou l’.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, elles l’évaluent."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, elles l’évaluent. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 20).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 20,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of10_src_a20_10",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il fait les photocopies?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez les mots soulignés par le pronom objet le, la, les ou l’.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, il les fait."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, il les fait. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 20).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 20,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of10_src_a24_4",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’adresse les enveloppes?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ne les adresse pas / ne les adressez pas."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ne les adresse pas / ne les adressez pas. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 24).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 24,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a24_10",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je fais les photocopies?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ne les fais pas / ne les faites pas."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ne les fais pas / ne les faites pas. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 24).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 24,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a27_1",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce que je dois annoncer les nouvelles politiques aux employés?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement aux questions selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, tu dois leur annoncer les nouvelles politiques."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, tu dois leur annoncer les nouvelles politiques. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 27,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a27_5",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’il faut soumettre tous les questionnaires aux membres du comité?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement aux questions selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, il faut leur soumettre tous les questionnaires."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, il faut leur soumettre tous les questionnaires. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 27,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a27_6",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’on doit indiquer aux visiteurs où ils doivent aller?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement aux questions selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, on doit leur indiquer où ils doivent aller.",
+          "Oui, vous devez leur indiquer où ils doivent aller."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, on doit leur indiquer où ils doivent aller. » (ou « Oui, vous devez leur indiquer où ils doivent aller. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 27,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a27_8",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’il doit téléphoner aux délégués pour annuler la rencontre?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement aux questions selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, il doit leur téléphoner pour annuler la rencontre."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, il doit leur téléphoner pour annuler la rencontre. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 27,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a33_2",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tu me conseilles des fois?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez par une phrase affirmative ou négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, je te conseille des fois."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, je te conseille des fois. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 33).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 33,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of10_src_a33_3",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je dois vous enseigner ce matin?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez par une phrase affirmative ou négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, vous ne devez pas nous enseigner ce matin."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, vous ne devez pas nous enseigner ce matin. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 33).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 33,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of10_src_a33_4",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On te téléphone ce soir?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez par une phrase affirmative ou négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, vous me téléphonez ce soir."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, vous me téléphonez ce soir. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 33).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 33,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of10_src_a33_5",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vous nous avertissez?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez par une phrase affirmative ou négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, je vous avertis/on vous avertit/nous vous avertissons."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, je vous avertis/on vous avertit/nous vous avertissons. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 33).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 33,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of10_src_a33_7",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tu me demandes de signer cette demande?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez par une phrase affirmative ou négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, je ne te demande pas de signer cette demande."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, je ne te demande pas de signer cette demande. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 33).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 33,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of10_src_a33_8",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce que tu peux m’autoriser à réviser ces textes?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez par une phrase affirmative ou négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, je peux t’autoriser à réviser ces textes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, je peux t’autoriser à réviser ces textes. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 33).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 33,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of10_src_a33_10",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’il doit te rédiger une note de breffage?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez par une phrase affirmative ou négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, il ne doit pas me rédiger de note de breffage."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, il ne doit pas me rédiger de note de breffage. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 33).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 33,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of10_src_a34_8",
+      "objectiveId": "OF10",
+      "skill": "writing",
+      "grammarConcepts": [
+        "imperative"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce que je te traduis ce qu’elle dit?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez en utilisant un impératif à la forme affirmative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui, traduis-moi ce qu’elle dit."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Oui, traduis-moi ce qu’elle dit. ». Formes : tu, nous, vous (sans pronom sujet).",
+        "distractor_why": {},
+        "grammar_rule": "Formes : tu, nous, vous (sans pronom sujet).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 34).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Impératif = verbe sans pronom.",
+        "pattern": "Tournez / Prenez / Continuez.",
+        "similar": [
+          "Continuez tout droit.",
+          "Prenez l’ascenseur."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 34,
+        "concept": "imperative"
+      }
+    },
+    {
       "id": "itm_of10_src_a63_m0",
       "objectiveId": "OF10",
       "skill": "vocabulary",

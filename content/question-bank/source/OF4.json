@@ -4,6 +4,430 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of4_src_a21_1",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’ai un livre.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le livre est à moi."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le livre est à moi. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 21).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 21,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of4_src_a21_2",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tu as un crayon.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le crayon est à toi."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le crayon est à toi. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 21).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 21,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of4_src_a21_3",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il a un camion.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le camion est à lui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le camion est à lui. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 21).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 21,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of4_src_a21_4",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vous avez de l’argent.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "L’argent est à vous."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « L’argent est à vous. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 21).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 21,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of4_src_a21_5",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle a une voiture.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La voiture est à elle."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La voiture est à elle. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 21).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 21,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of4_src_a21_7",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On a un bureau.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le bureau est à nous."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le bureau est à nous. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 21).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 21,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of4_src_a21_8",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elles ont un chalet.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le chalet est à elles."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le chalet est à elles. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 21).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 21,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of4_src_a21_9",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’ai un dictionnaire.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le dictionnaire est à moi."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le dictionnaire est à moi. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 21).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 21,
+        "concept": "present"
+      }
+    },
+    {
       "id": "itm_of4_src_a27_6",
       "objectiveId": "OF4",
       "skill": "grammar",
@@ -65,6 +489,536 @@
         "catalogue": "SC102-2/4-2005F",
         "activity": 27,
         "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_1",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La chaise est à moi.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La chaise rouge est à moi."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La chaise rouge est à moi. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_3",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "À qui est la table?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À qui est la table ronde?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « À qui est la table ronde? ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_5",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’ai un chapeau.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "J’ai un chapeau neuf."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « J’ai un chapeau neuf. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_6",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je mange une pomme.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je mange une pomme verte."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je mange une pomme verte. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_7",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je consulte mon dictionnaire.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je consulte mon gros dictionnaire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je consulte mon gros dictionnaire. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_8",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Estelle a un livre.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Estelle a un livre épais."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Estelle a un livre épais. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_9",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je possède une voiture.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je possède une grosse voiture blanche."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je possède une grosse voiture blanche. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_10",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Luc a une chatte.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Luc a une petite chatte grise."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Luc a une petite chatte grise. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_11",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "À midi, je mange du poulet.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À midi, je mange du bon poulet chaud."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « À midi, je mange du bon poulet chaud. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
+      }
+    },
+    {
+      "id": "itm_of4_src_a41_12",
+      "objectiveId": "OF4",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle porte un foulard.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Placez les adjectifs à l’endroit approprié.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle porte un joli foulard jaune."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle porte un joli foulard jaune. ». Feminine usually adds -e; plural adds -s.",
+        "distractor_why": {},
+        "grammar_rule": "Feminine usually adds -e; plural adds -s.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 41).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 41,
+        "concept": "adjectives"
       }
     }
   ]

@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF37 — To describe the procedure followed in a project. Source document SC102-2/37-2005F. Grammar taught: passe_compose, prepositions. Vocabulary: the OF37 section of the PFL2 Lexique. 35 questions, all traceable to the PFL2 source (0 verbatim source activities + 35 from the OF37 Lexique).",
+        "en": "OF37 — To describe the procedure followed in a project. Source document SC102-2/37-2005F. Grammar taught: passe_compose, prepositions. Vocabulary: the OF37 section of the PFL2 Lexique. 41 questions, all traceable to the PFL2 source (6 verbatim source activities + 35 from the OF37 Lexique).",
         "fr": "Décrire la démarche suivie dans la réalisation d’un projet. Document source SC102-2/37-2005F. Grammaire enseignée : passe_compose, prepositions. Vocabulaire : section OF37 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "35 questions, all traceable to the PFL2 source (0 verbatim source activities + 35 from the OF37 Lexique).",
+      "coverage": "41 questions, all traceable to the PFL2 source (6 verbatim source activities + 35 from the OF37 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 6
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 35
         }
       ],
-      "totalQuestions": 35
+      "totalQuestions": 41
     },
     "consolidation": {
       "sourceBooklet": {
@@ -65,8 +69,8 @@
       "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 3,
-        "advanced": 0
+        "medium": 4,
+        "advanced": 4
       },
       "drawFrom": [
         "OF37"

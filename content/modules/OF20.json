@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF20 — To express opinions about people. Source document SC102-2/20-2005F. Grammar taught: adjectives, agreement. Vocabulary: the OF20 section of the PFL2 Lexique. 65 questions, all traceable to the PFL2 source (4 verbatim source activities + 61 from the OF20 Lexique).",
+        "en": "OF20 — To express opinions about people. Source document SC102-2/20-2005F. Grammar taught: adjectives, agreement. Vocabulary: the OF20 section of the PFL2 Lexique. 67 questions, all traceable to the PFL2 source (6 verbatim source activities + 61 from the OF20 Lexique).",
         "fr": "Évaluer des personnes. Document source SC102-2/20-2005F. Grammaire enseignée : adjectives, agreement. Vocabulaire : section OF20 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,18 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "65 questions, all traceable to the PFL2 source (4 verbatim source activities + 61 from the OF20 Lexique).",
+      "coverage": "67 questions, all traceable to the PFL2 source (6 verbatim source activities + 61 from the OF20 Lexique).",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 4
+          "count": 6
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 61
         }
       ],
-      "totalQuestions": 65
+      "totalQuestions": 67
     },
     "consolidation": {
       "sourceBooklet": {
@@ -70,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 0
+        "advanced": 2
       },
       "drawFrom": [
         "OF20"

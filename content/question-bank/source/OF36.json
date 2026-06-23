@@ -1,0 +1,1809 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF36",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of36_src_a9_1",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La chef de section explique les nouveaux défis.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Les nouveaux défis sont expliqués par la chef de section."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Les nouveaux défis sont expliqués par la chef de section. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_2",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La trésorière signe les chèques.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Les chèques sont signés par la trésorière."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Les chèques sont signés par la trésorière. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_3",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le client a annulé le rendez-vous.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le rendez-vous a été annulé par le client."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le rendez-vous a été annulé par le client. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_4",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le gestionnaire a autorisé ces congés.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ces congés ont été autorisés par le gestionnaire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ces congés ont été autorisés par le gestionnaire. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_5",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L’agent de dotation avait évalué les critères de sélection.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Les critères de sélection avaient été évalués par l’agent de dotation."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Les critères de sélection avaient été évalués par l’agent de dotation. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_6",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le chef de projet avait pris cette décision.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Cette décision avait été prise par le chef de projet."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Cette décision avait été prise par le chef de projet. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_7",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La directrice apportera des changements au programme.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Des changements seront apportés au programme par la directrice."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Des changements seront apportés au programme par la directrice. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_8",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le syndicat suggérera cette stratégie.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Cette stratégie sera suggérée par le syndicat."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Cette stratégie sera suggérée par le syndicat. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_9",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Isabelle fournissait ces renseignements.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ces renseignements étaient fournis par Isabelle."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ces renseignements étaient fournis par Isabelle. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_10",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le représentant syndical convoquait le personnel.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le personnel était convoqué par le représentant syndical."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le personnel était convoqué par le représentant syndical. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_11",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le ministère annoncerait des restrictions budgétaires.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Des restrictions budgétaires seraient annoncées par le ministère."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Des restrictions budgétaires seraient annoncées par le ministère. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a9_12",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L’adjointe présiderait le débat.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez selon le modèle et notez les modifications qui se produisent.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le débat serait présidé par l’adjointe."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le débat serait présidé par l’adjointe. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 9).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 9,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_1",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le secrétariat fera tous les arrangements.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tous les arrangements seront faits par le secrétariat."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Tous les arrangements seront faits par le secrétariat. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_3",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Dans ce cas, l’avocate divulguerait le sujet du litige.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Dans ce cas, le sujet du litige serait divulgué par l’avocate."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Dans ce cas, le sujet du litige serait divulgué par l’avocate. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_4",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce groupe d’étude propose des solutions efficaces.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Des solutions efficaces sont proposées par ce groupe d’étude."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Des solutions efficaces sont proposées par ce groupe d’étude. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_5",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les participants ont posé des questions intéressantes.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Des questions intéressantes ont été posées par les participants."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Des questions intéressantes ont été posées par les participants. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_6",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La directrice elle-même a réglé ce cas urgent.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce cas urgent a été réglé par la directrice elle-même."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce cas urgent a été réglé par la directrice elle-même. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_8",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ses collègues l’ont informé du sujet de la rencontre.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il a été informé du sujet de la rencontre par ses collègues."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il a été informé du sujet de la rencontre par ses collègues. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_9",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le ministère nous a fourni des renseignements pertinents.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Des renseignements pertinents nous ont été fournis par le ministère."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Des renseignements pertinents nous ont été fournis par le ministère. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_10",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les membres du syndicat ratifient l’entente.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "L’entente est ratifiée par les membres du syndicat."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « L’entente est ratifiée par les membres du syndicat. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_11",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les deux grandes entreprises ont signé un accord.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Un accord a été signé par les deux grandes entreprises."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Un accord a été signé par les deux grandes entreprises. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a10_12",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le conseil vient de nommer le médiateur.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le médiateur vient d’être nommé par le conseil."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le médiateur vient d’être nommé par le conseil. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 10,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a12_2",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Cette précision a été demandée par un des membres.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Un des membres a demandé cette précision."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Un des membres a demandé cette précision. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 12,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a12_3",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le nombre de participants a été approuvé par la direction.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La direction a approuvé le nombre de participants."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La direction a approuvé le nombre de participants. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 12,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a12_4",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La médiatrice a été nommée par le gouvernement la semaine dernière.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le gouvernement a nommé la médiatrice la semaine dernière."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le gouvernement a nommé la médiatrice la semaine dernière. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 12,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a12_5",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce point est ajouté à l’ordre du jour par un des participants.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Un des participants ajoute ce point à l’ordre du jour."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Un des participants ajoute ce point à l’ordre du jour. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 12,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a12_6",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le plan de travail devrait être adopté par tous les membres du comité.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tous les membres du comité devraient adopter le plan de travail."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Tous les membres du comité devraient adopter le plan de travail. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 12,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a12_8",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est urgent que le rapport final soit distribué par la poste.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est urgent qu’on distribue le rapport final par la poste."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est urgent qu’on distribue le rapport final par la poste. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 12,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a13_1",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le but de la rencontre n’a pas été précisé.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez à la forme active.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On n’a pas précisé le but de la rencontre."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On n’a pas précisé le but de la rencontre. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 13).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 13,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a13_2",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le projet a été remis en question.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez à la forme active.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On a remis en question le projet."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On a remis en question le projet. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 13).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 13,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a13_3",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L’ordre du jour de la discussion a été préparé.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez à la forme active.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On a préparé l’ordre du jour de la discussion."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On a préparé l’ordre du jour de la discussion. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 13).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 13,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a13_5",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les tâches étaient réparties également entre les agents.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez à la forme active.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On répartissait les tâches également entre les agents."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On répartissait les tâches également entre les agents. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 13).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 13,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a13_6",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il a été élu à l’unanimité.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez à la forme active.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On l’a élu à l’unanimité."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On l’a élu à l’unanimité. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 13).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 13,
+        "concept": "causative_passive"
+      }
+    },
+    {
+      "id": "itm_of36_src_a13_8",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "causative_passive"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Un nouvel organisme de développement international va être créé.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez à la forme active.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On va créer un nouvel organisme de développement international."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On va créer un nouvel organisme de développement international. ». Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "distractor_why": {},
+        "grammar_rule": "Causatif : faire + infinitif = faire accomplir l'action par quelqu'un (Je fais traduire le document).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/36-2005F, activité 13).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire + infinitif = have it done.",
+        "pattern": "sujet + faire + infinitif + objet.",
+        "similar": [
+          "faire traduire un texte",
+          "faire signer le formulaire"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/36-2005F",
+        "activity": 13,
+        "concept": "causative_passive"
+      }
+    }
+  ]
+}

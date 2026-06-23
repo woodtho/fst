@@ -1,0 +1,2870 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF29",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of29_src_a8_1",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’est parfois souhaitable?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ce n’est jamais souhaitable."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ce n’est jamais souhaitable. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_2",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il faut toujours avertir?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, il ne faut jamais avertir."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, il ne faut jamais avertir. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_3",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’est souvent nécessaire de tout lire?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ce n’est jamais nécessaire de tout lire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ce n’est jamais nécessaire de tout lire. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_4",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tu le fais parfois par obligation?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, je ne le fais jamais par obligation."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, je ne le fais jamais par obligation. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_5",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce sera toujours utile?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ce ne sera jamais utile."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ce ne sera jamais utile. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_6",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il faudra le faire quelquefois?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, il ne faudra jamais le faire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, il ne faudra jamais le faire. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_7",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ça deviendra une nécessité absolue?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ça ne deviendra jamais une nécessité absolue."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ça ne deviendra jamais une nécessité absolue. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_8",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "As-tu souvent à faire un rapport?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, je n’ai jamais à faire de rapport."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, je n’ai jamais à faire de rapport. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_9",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On a déjà exigé ça?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, on n’a jamais exigé ça."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, on n’a jamais exigé ça. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a8_10",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ça s’est déjà fait?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, ça ne s’est jamais fait."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, ça ne s’est jamais fait. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 8,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a10_7",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Même après deux ans, je à la programmation.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases à l’aide des indices suivants.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Même après deux ans, je ne comprends presque rien à la programmation."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Même après deux ans, je ne comprends presque rien à la programmation. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 10,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a10_10",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Es-tu parvenu à lui dire la vérité?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases à l’aide des indices suivants.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Es-tu déjà / quelquefois / souvent parvenu à lui dire la vérité?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Es-tu déjà / quelquefois / souvent parvenu à lui dire la vérité? ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 10,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a12_2",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ça sert à .",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça ne sert à rien / personne."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça ne sert à rien / personne. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 12,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a12_3",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On a besoin de .",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On n’a besoin de rien / personne."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On n’a besoin de rien / personne. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 12,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a12_4",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je ai pu trouver .",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je n’ai pu trouver personne."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je n’ai pu trouver personne. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 12,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a12_7",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il ya qui a la compétence voulue.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il n’y a personne qui a la compétence voulue."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il n’y a personne qui a la compétence voulue. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 12,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a12_8",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il faut lire.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il ne faut rien lire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il ne faut rien lire. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 12,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a12_9",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elles peuvent faire.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles ne peuvent rien faire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elles ne peuvent rien faire. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 12,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a12_11",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il faudra de plus.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il ne faudra rien / personne de plus."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il ne faudra rien / personne de plus. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 12).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 12,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a14_1",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’est requis quelque part?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce n’est requis nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce n’est requis nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 14).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 14,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a14_2",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ça se fait quelque part?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça ne se fait nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça ne se fait nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 14).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 14,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a14_3",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Où est-ce que le règlement est appliqué?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le règlement n’est appliqué nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le règlement n’est appliqué nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 14).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 14,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a14_4",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ça a été essayé quelque part?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça n’a été essayé nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça n’a été essayé nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 14).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 14,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a14_5",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On l’a fait quelque part?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne l’a fait nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne l’a fait nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 14).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 14,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a14_6",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Où est-ce qu’on peut le vérifier?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne peut le vérifier nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne peut le vérifier nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 14).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 14,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a14_8",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tu l’as écrit quelque part?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je ne l’ai écrit nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je ne l’ai écrit nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 14).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 14,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a17_1",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’on a le temps et les ressources financières pour le faire?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On n’a ni le temps ni les ressources financières pour le faire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On n’a ni le temps ni les ressources financières pour le faire. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 17,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a17_3",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce document est-il utile?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce document n’est ni utile ni pertinent."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce document n’est ni utile ni pertinent. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 17,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a17_6",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’aurai à étudier et à résumer des rapports?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tu n’auras / Vous n’aurez ni à étudier ni à résumer de rapports."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Tu n’auras / Vous n’aurez ni à étudier ni à résumer de rapports. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 17,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a17_7",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il faudra embaucher et former du personnel?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il ne faudra ni embaucher ni former de personnel."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il ne faudra ni embaucher ni former de personnel. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 17,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a17_8",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Veux-tu aller au cinéma et manger au restaurant après?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je ne veux ni aller au cinéma ni manger au restaurant après."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je ne veux ni aller au cinéma ni manger au restaurant après. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 17,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a17_9",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Vous êtes capables de planifier et de coordonner?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous ne sommes / On n’est capables ni de planifier ni de coordonner."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Nous ne sommes / On n’est capables ni de planifier ni de coordonner. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 17,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a17_11",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "C’est obligatoire ou seulement souhaitable?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce n’est ni obligatoire ni souhaitable."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce n’est ni obligatoire ni souhaitable. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 17,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a17_12",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce important?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez négativement.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce n’est ni important ni urgent."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce n’est ni important ni urgent. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 17,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a25_4",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’on pourrait encore appliquer une telle mesure?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, on ne pourrait plus jamais appliquer une telle mesure."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, on ne pourrait plus jamais appliquer une telle mesure. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 25,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a25_5",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Cette directive peut-elle encore s’appliquer aux agents et aux programmeurs?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, elle ne peut plus s’appliquer ni aux agents ni aux programmeurs."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, elle ne peut plus s’appliquer ni aux agents ni aux programmeurs. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 25,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a25_6",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Est-ce qu’il consulte toujours quelqu’un avant de prendre une décision?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez oralement aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Non, il ne consulte jamais personne avant de prendre une décision."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Non, il ne consulte jamais personne avant de prendre une décision. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 25).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 25,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a26_1",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On peut encore trouver des gens compétents quelque part.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez la phrase à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne peut plus trouver de gens compétents nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne peut plus trouver de gens compétents nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 26,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a26_2",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On peut encore inscrire quelqu’un à ce cours.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez la phrase à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne peut plus inscrire personne à ce cours."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne peut plus inscrire personne à ce cours. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 26,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a26_3",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On fait encore souvent appel à leur compétence.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez la phrase à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne fait plus jamais appel à leur compétence."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne fait plus jamais appel à leur compétence. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 26,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a26_4",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quelqu’un pourrait encore utiliser les sorties de secours.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez la phrase à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Plus personne ne pourrait utiliser les sorties de secours.",
+          "Personne ne pourrait plus utiliser les sorties de secours."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Plus personne ne pourrait utiliser les sorties de secours. » (ou « Personne ne pourrait plus utiliser les sorties de secours. »). ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 26,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a26_6",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elles réussissent encore souvent à respecter leurs échéances.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez la phrase à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles ne réussissent plus jamais à respecter leurs échéances."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elles ne réussissent plus jamais à respecter leurs échéances. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 26,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a26_7",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il sera encore capable d’assumer des responsabilités.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez la phrase à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il ne sera plus jamais capable d’assumer des responsabilités."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il ne sera plus jamais capable d’assumer des responsabilités. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 26,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a26_9",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quelqu’un réussit toujours à réparer le climatiseur.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez la phrase à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Personne ne réussit jamais à réparer le climatiseur."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Personne ne réussit jamais à réparer le climatiseur. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 26,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a26_10",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle pourra encore travailler après son accident.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Mettez la phrase à la forme négative.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle ne pourra plus jamais travailler après son accident."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle ne pourra plus jamais travailler après son accident. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 26).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 26,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_1",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Nous finissons à temps.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous ne finissons jamais rien à temps."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Nous ne finissons jamais rien à temps. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_2",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quand c’est bruyant, je parviens à me concentrer.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Quand c’est bruyant, je ne parviens plus jamais à me concentrer."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Quand c’est bruyant, je ne parviens plus jamais à me concentrer. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_4",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle peut comprendre et parler l’allemand.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle ne peut plus ni comprendre ni parler l’allemand."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle ne peut plus ni comprendre ni parler l’allemand. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_5",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On réussira à faire ça dans le temps prévu.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Personne ne réussira jamais à faire ça dans le temps prévu."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Personne ne réussira jamais à faire ça dans le temps prévu. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_6",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tu comprends quelque chose aux devoirs des enfants?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tu ne comprends plus rien aux devoirs des enfants?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Tu ne comprends plus rien aux devoirs des enfants? ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_7",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce vaccin est obligatoire.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce vaccin n’est plus obligatoire nulle part."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce vaccin n’est plus obligatoire nulle part. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_8",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On pourra retrouver les données.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne pourra plus jamais retrouver les données."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne pourra plus jamais retrouver les données. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_9",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On a essayé.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On n’a jamais rien essayé."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On n’a jamais rien essayé. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    },
+    {
+      "id": "itm_of29_src_a29_10",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On sait se servir de ça.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases en utilisant la négation suggérée.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Plus personne ne sait se servir de ça."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Plus personne ne sait se servir de ça. ». ne + verb + pas (jamais/plus/rien).",
+        "distractor_why": {},
+        "grammar_rule": "ne + verb + pas (jamais/plus/rien).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/29-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pas + de (drop un/des).",
+        "pattern": "Negation turns indefinite → de.",
+        "similar": [
+          "Je n’ai pas de temps.",
+          "Il n’y a pas de réunion."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/29-2005F",
+        "activity": 29,
+        "concept": "negation"
+      }
+    }
+  ]
+}

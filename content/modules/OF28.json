@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF28 — To explain the importance of an instruction. Source document SC102-2/28-2005F. Grammar taught: subjonctif. Vocabulary: the OF28 section of the PFL2 Lexique. 74 questions, all traceable to the PFL2 source (22 verbatim source activities + 52 from the OF28 Lexique).",
+        "en": "OF28 — To explain the importance of an instruction. Source document SC102-2/28-2005F. Grammar taught: subjonctif. Vocabulary: the OF28 section of the PFL2 Lexique. 91 questions, all traceable to the PFL2 source (39 verbatim source activities + 52 from the OF28 Lexique).",
         "fr": "Préciser l’importance d’une directive. Document source SC102-2/28-2005F. Grammaire enseignée : subjonctif. Vocabulaire : section OF28 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,18 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "74 questions, all traceable to the PFL2 source (22 verbatim source activities + 52 from the OF28 Lexique).",
+      "coverage": "91 questions, all traceable to the PFL2 source (39 verbatim source activities + 52 from the OF28 Lexique).",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 22
+          "count": 39
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 52
         }
       ],
-      "totalQuestions": 74
+      "totalQuestions": 91
     },
     "consolidation": {
       "sourceBooklet": {
@@ -70,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 0
+        "advanced": 4
       },
       "drawFrom": [
         "OF28"

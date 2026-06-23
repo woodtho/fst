@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF38 — To explain the reasons for and results of a decision, an action, an event or a situation. Source document SC102-2/38-2005F. Grammar taught: subjonctif, connectors. Vocabulary: the OF38 section of the PFL2 Lexique. 61 questions, all traceable to the PFL2 source (0 verbatim source activities + 61 from the OF38 Lexique).",
+        "en": "OF38 — To explain the reasons for and results of a decision, an action, an event or a situation. Source document SC102-2/38-2005F. Grammar taught: subjonctif, connectors. Vocabulary: the OF38 section of the PFL2 Lexique. 75 questions, all traceable to the PFL2 source (14 verbatim source activities + 61 from the OF38 Lexique).",
         "fr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation. Document source SC102-2/38-2005F. Grammaire enseignée : subjonctif, connectors. Vocabulaire : section OF38 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "61 questions, all traceable to the PFL2 source (0 verbatim source activities + 61 from the OF38 Lexique).",
+      "coverage": "75 questions, all traceable to the PFL2 source (14 verbatim source activities + 61 from the OF38 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 14
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 61
         }
       ],
-      "totalQuestions": 61
+      "totalQuestions": 75
     },
     "consolidation": {
       "sourceBooklet": {
@@ -66,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 5,
-        "advanced": 0
+        "advanced": 4
       },
       "drawFrom": [
         "OF38"

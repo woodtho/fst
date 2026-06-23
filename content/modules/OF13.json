@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF13 — To give information about past events and habits. Source document SC102-2/13-2005F. Grammar taught: passe_compose, imparfait, agreement. Vocabulary: the OF13 section of the PFL2 Lexique. 57 questions, all traceable to the PFL2 source (0 verbatim source activities + 57 from the OF13 Lexique).",
+        "en": "OF13 — To give information about past events and habits. Source document SC102-2/13-2005F. Grammar taught: passe_compose, imparfait, agreement. Vocabulary: the OF13 section of the PFL2 Lexique. 60 questions, all traceable to the PFL2 source (3 verbatim source activities + 57 from the OF13 Lexique).",
         "fr": "Fournir de l’information sur un événement ou une habitude passés. Document source SC102-2/13-2005F. Grammaire enseignée : passe_compose, imparfait, agreement. Vocabulaire : section OF13 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "57 questions, all traceable to the PFL2 source (0 verbatim source activities + 57 from the OF13 Lexique).",
+      "coverage": "60 questions, all traceable to the PFL2 source (3 verbatim source activities + 57 from the OF13 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 3
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 57
         }
       ],
-      "totalQuestions": 57
+      "totalQuestions": 60
     },
     "consolidation": {
       "sourceBooklet": {
@@ -66,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 5,
-        "advanced": 0
+        "advanced": 3
       },
       "drawFrom": [
         "OF13"

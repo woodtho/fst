@@ -1,0 +1,62 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF17",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of17_src_a5_1",
+      "objectiveId": "OF17",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tout le monde est là.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si l’énoncé est vrai ou faux.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "–– Est-ce que tout le monde est là?",
+          "faux –– Il manque trois personnes.",
+          "Julie est en vacances, Paul est absent et Charles est en retard."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « –– Est-ce que tout le monde est là? » (ou « faux –– Il manque trois personnes. »). -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/17-2005F, activité 5).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/17-2005F",
+        "activity": 5,
+        "concept": "present"
+      }
+    }
+  ]
+}

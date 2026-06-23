@@ -1,0 +1,1761 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF39",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of39_src_a16_1",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je suis certaine que les employés s’adapteront facilement au changement.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase à partir de l’indice.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je doute que les employés s’adaptent facilement au changement."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je doute que les employés s’adaptent facilement au changement. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 16).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 16,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a16_3",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est certain qu’ils aboliront le poste.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase à partir de l’indice.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est douteux qu’ils abolissent le poste."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est douteux qu’ils abolissent le poste. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 16).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 16,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a16_7",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle est persuadée qu’on peut faire des appels interurbains.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase à partir de l’indice.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle doute qu’on puisse faire des appels interurbains."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle doute qu’on puisse faire des appels interurbains. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 16).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 16,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a16_8",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je doute que le document doive être rectifié.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase à partir de l’indice.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je crois que le document doit être rectifié."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je crois que le document doit être rectifié. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 16).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 16,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a16_10",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je pense qu’il faut absolument modifier les consignes.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase à partir de l’indice.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je doute qu’il faille absolument modifier les consignes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je doute qu’il faille absolument modifier les consignes. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 16).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 16,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a17_1",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est question de modifier les horaires.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase en employant, selon le cas, l’indicatif ou le subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je ne crois pas qu’il soit question de modifier les horaires.",
+          "Je crois qu’il est question de modifier les horaires."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je ne crois pas qu’il soit question de modifier les horaires. » (ou « Je crois qu’il est question de modifier les horaires. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 17,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a17_2",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est nécessaire de faire réparer la photocopieuse.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase en employant, selon le cas, l’indicatif ou le subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je trouve qu’il est nécessaire de faire réparer la photocopieuse."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je trouve qu’il est nécessaire de faire réparer la photocopieuse. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 17,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a17_3",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle connaît le contenu de ce rapport.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase en employant, selon le cas, l’indicatif ou le subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je ne suis pas sûre qu’elle connaisse le contenu de ce rapport.",
+          "Je suis sûre qu’elle connaît le contenu de ce rapport."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je ne suis pas sûre qu’elle connaisse le contenu de ce rapport. » (ou « Je suis sûre qu’elle connaît le contenu de ce rapport. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 17,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a17_5",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il faut remplacer les équipes plus souvent.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase en employant, selon le cas, l’indicatif ou le subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils ne sont pas sûrs qu’il faille remplacer les équipes plus souvent.",
+          "Ils sont sûrs qu’il faut remplacer les équipes plus souvent."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils ne sont pas sûrs qu’il faille remplacer les équipes plus souvent. » (ou « Ils sont sûrs qu’il faut remplacer les équipes plus souvent. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 17,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a17_6",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Cet édifice est difficile à rénover.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase en employant, selon le cas, l’indicatif ou le subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On ne pense pas que cet édifice soit difficile à rénover.",
+          "On pense que cet édifice est difficile à rénover."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On ne pense pas que cet édifice soit difficile à rénover. » (ou « On pense que cet édifice est difficile à rénover. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 17,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a17_7",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On veut réduire les avantages sociaux.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — formulez la phrase en employant, selon le cas, l’indicatif ou le subjonctif.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je n’ai pas l’impression qu’on veuille réduire les avantages sociaux.",
+          "J’ai l’impression qu’on veut réduire les avantages sociaux."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je n’ai pas l’impression qu’on veuille réduire les avantages sociaux. » (ou « J’ai l’impression qu’on veut réduire les avantages sociaux. »). Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 17,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_1",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle prend cette responsabilité.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle est fière de prendre cette responsabilité."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle est fière de prendre cette responsabilité. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_2",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il accepte cette proposition.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis content qu’il accepte cette proposition."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je suis content qu’il accepte cette proposition. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_3",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ce journaliste aura un entretien privé avec le ministre.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ce journaliste est fier d’avoir un entretien privé avec le ministre."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ce journaliste est fier d’avoir un entretien privé avec le ministre. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_4",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Les pourparlers dureront trois semaines.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça ne me surprendrait pas que les pourparlers durent trois semaines."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça ne me surprendrait pas que les pourparlers durent trois semaines. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_5",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle parle de tout et de rien.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça m’énerve qu’elle parle de tout et de rien."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça m’énerve qu’elle parle de tout et de rien. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_7",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je n’ai pas d’autres renseignements.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je regrette de ne pas avoir d’autres renseignements."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je regrette de ne pas avoir d’autres renseignements. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_8",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je n’assisterai pas à ce colloque.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis très déçue de ne pas assister à ce colloque."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je suis très déçue de ne pas assister à ce colloque. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_10",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ils ne peuvent pas s’entendre sur ce point.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "C’est vraiment dommage qu’ils ne puissent pas s’entendre sur ce point."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « C’est vraiment dommage qu’ils ne puissent pas s’entendre sur ce point. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_11",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je vous rencontre enfin.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça me fait plaisir de vous rencontrer enfin."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça me fait plaisir de vous rencontrer enfin. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a27_12",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il n’y a aucune entente possible.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou le subjonctif présent, selon le cas, après l’expression de)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils sont déçus qu’il n’y ait aucune entente possible."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils sont déçus qu’il n’y ait aucune entente possible. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 27).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 27,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a28_1",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est content d’obtenir ce poste.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est content d’avoir obtenu ce poste."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est content d’avoir obtenu ce poste. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 28,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a28_2",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle est surprise de les convaincre si facilement.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle est surprise de les avoir convaincus si facilement."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle est surprise de les avoir convaincus si facilement. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {},
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 28,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_1",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Marie a pris cette initiative.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Marie est très fière d’avoir pris cette initiative."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Marie est très fière d’avoir pris cette initiative. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_2",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Nous vous envoyons cette information.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ça nous fait plaisir de vous envoyer cette information."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ça nous fait plaisir de vous envoyer cette information. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_3",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il a tenu des propos déplacés.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est vraiment désolé d’avoir tenu des propos déplacés."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est vraiment désolé d’avoir tenu des propos déplacés. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_4",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle s’est engagée dans une discussion sans fin.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle regrette beaucoup de s’être engagée dans une discussion sans fin."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle regrette beaucoup de s’être engagée dans une discussion sans fin. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_5",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je me suis laissé embarquer.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis furieux de m’être laissé embarquer."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je suis furieux de m’être laissé embarquer. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_6",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Elle s’est engagée à faire quelque chose.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle est bien contente de s’être engagée à faire quelque chose."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle est bien contente de s’être engagée à faire quelque chose. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_7",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’ai suivi son conseil.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je regrette d’avoir suivi son conseil."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je regrette d’avoir suivi son conseil. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_8",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je vous accorde cet entretien.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis heureux de vous accorder cet entretien."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je suis heureux de vous accorder cet entretien. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_9",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Ils sont parvenus à un accord.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils sont contents d’être parvenus à un accord."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils sont contents d’être parvenus à un accord. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of39_src_a29_10",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’accueille cette délégation.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Utilisez l’infinitif présent ou passé après l’expression de sentiment ou d’attitude.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis fière d’accueillir cette délégation."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je suis fière d’accueillir cette délégation. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/39-2005F, activité 29).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/39-2005F",
+        "activity": 29,
+        "concept": "present"
+      }
+    }
+  ]
+}

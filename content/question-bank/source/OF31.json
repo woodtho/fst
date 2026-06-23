@@ -1,0 +1,1067 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF31",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of31_src_a10_3",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Nous aimerions avoir une pause.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a dit qu’ils aimeraient avoir une pause."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle a dit qu’ils aimeraient avoir une pause. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_4",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Elle a souhaité un changement.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il affirme qu’elle a souhaité un changement."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il affirme qu’elle a souhaité un changement. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_5",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Écrivez en lettres majuscules.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il a demandé d’écrire en lettres majuscules."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il a demandé d’écrire en lettres majuscules. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_6",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« J’aimerais avoir un autre bureau.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a dit qu’elle aimerait avoir un autre bureau."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle a dit qu’elle aimerait avoir un autre bureau. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_7",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Le client désire cette brochure.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il dit que le client désire cette brochure."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il dit que le client désire cette brochure. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_8",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Nous serons prêts à 3 h.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle dit que nous serons prêts à 3 h."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle dit que nous serons prêts à 3 h. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_9",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Nous exigeons une carte d’identité.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il a déclaré qu’ils exigeaient une carte d’identité."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il a déclaré qu’ils exigeaient une carte d’identité. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_11",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« J’exige un remboursement.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le client a dit qu’il exigeait un remboursement."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le client a dit qu’il exigeait un remboursement. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_12",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Venez à la salle de conférences.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle demande de venir à la salle de conférences."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle demande de venir à la salle de conférences. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_13",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Je veux réduire les dépenses.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La ministre a annoncé qu’elle voulait réduire les dépenses."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La ministre a annoncé qu’elle voulait réduire les dépenses. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_14",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Ayez tous les documents nécessaires.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il a dit d’avoir tous les documents nécessaires."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il a dit d’avoir tous les documents nécessaires. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a10_15",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "« Le ministre souhaite des élections.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a affirmé que le ministre souhaitait des élections."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle a affirmé que le ministre souhaitait des élections. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 10,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a16_3",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L –– Quel souhait est-ce que tu vas faire en soufflant tes bougies?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les dialogues.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il demande quel souhait je vais faire en soufflant mes bougies."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il demande quel souhait je vais faire en soufflant mes bougies. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 16).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 16,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a16_5",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L –– Qu’est-ce qui répondrait le mieux aux désirs des employés?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les dialogues.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se demande ce qui répondrait le mieux aux désirs des employés."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se demande ce qui répondrait le mieux aux désirs des employés. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 16).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 16,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a16_6",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L –– Pourquoi est-ce qu’elle veut être mutée?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les dialogues.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il veut savoir pourquoi elle veut être mutée."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il veut savoir pourquoi elle veut être mutée. ». Stem = future stem; endings = imperfect endings.",
+        "distractor_why": {},
+        "grammar_rule": "Stem = future stem; endings = imperfect endings.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 16).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 16,
+        "concept": "conditionnel"
+      }
+    },
+    {
+      "id": "itm_of31_src_a17_1",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "A –– Qu’est-ce que les journalistes veulent savoir?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions de l’interlocuteur B en utilisant l’interrogation indirecte.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle demande ce que les journalistes veulent savoir."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle demande ce que les journalistes veulent savoir. ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 17,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of31_src_a17_3",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "A –– Quel diplôme est-ce qu’on exige pour ce poste?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions de l’interlocuteur B en utilisant l’interrogation indirecte.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a demandé quel diplôme on exigeait pour ce poste."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle a demandé quel diplôme on exigeait pour ce poste. ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 17,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of31_src_a17_5",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "A –– Qu’est-ce qui serait souhaitable dans ce cas?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions de l’interlocuteur B en utilisant l’interrogation indirecte.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle se demande ce qui serait souhaitable dans ce cas."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle se demande ce qui serait souhaitable dans ce cas. ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 17,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of31_src_a17_6",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "A –– Pourquoi est-ce qu’ils veulent qu’on paie comptant?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions de l’interlocuteur B en utilisant l’interrogation indirecte.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a demandé pourquoi ils voulaient qu’on paie comptant."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elle a demandé pourquoi ils voulaient qu’on paie comptant. ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 17,
+        "concept": "question_formation"
+      }
+    },
+    {
+      "id": "itm_of31_src_a17_8",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "A –– À quelle heure est-ce qu’elle aime prendre son café?",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Répondez aux questions de l’interlocuteur B en utilisant l’interrogation indirecte.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il voulait savoir à quelle heure elle aimait prendre son café."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il voulait savoir à quelle heure elle aimait prendre son café. ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "distractor_why": {},
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/31-2005F, activité 17).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/31-2005F",
+        "activity": 17,
+        "concept": "question_formation"
+      }
+    }
+  ]
+}

@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF31 — To express will or desire. Source document SC102-2/31-2005F. Grammar taught: conditionnel, subjonctif, reported_speech. Vocabulary: the OF31 section of the PFL2 Lexique. 33 questions, all traceable to the PFL2 source (0 verbatim source activities + 33 from the OF31 Lexique).",
+        "en": "OF31 — To express will or desire. Source document SC102-2/31-2005F. Grammar taught: conditionnel, subjonctif, reported_speech. Vocabulary: the OF31 section of the PFL2 Lexique. 53 questions, all traceable to the PFL2 source (20 verbatim source activities + 33 from the OF31 Lexique).",
         "fr": "Exprimer la volonté, le souhait. Document source SC102-2/31-2005F. Grammaire enseignée : conditionnel, subjonctif, reported_speech. Vocabulaire : section OF31 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "33 questions, all traceable to the PFL2 source (0 verbatim source activities + 33 from the OF31 Lexique).",
+      "coverage": "53 questions, all traceable to the PFL2 source (20 verbatim source activities + 33 from the OF31 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 20
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 33
         }
       ],
-      "totalQuestions": 33
+      "totalQuestions": 53
     },
     "consolidation": {
       "sourceBooklet": {
@@ -66,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 3,
-        "advanced": 0
+        "advanced": 4
       },
       "drawFrom": [
         "OF31"

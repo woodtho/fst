@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF22 — To give details about the time factors involved in a job. Source document SC102-2/22-2005F. Grammar taught: quantity, prepositions. Vocabulary: the OF22 section of the PFL2 Lexique. 73 questions, all traceable to the PFL2 source (1 verbatim source activities + 72 from the OF22 Lexique).",
+        "en": "OF22 — To give details about the time factors involved in a job. Source document SC102-2/22-2005F. Grammar taught: quantity, prepositions. Vocabulary: the OF22 section of the PFL2 Lexique. 97 questions, all traceable to the PFL2 source (25 verbatim source activities + 72 from the OF22 Lexique).",
         "fr": "Préciser les modalités d’exécution (temps) d’un travail. Document source SC102-2/22-2005F. Grammaire enseignée : quantity, prepositions. Vocabulaire : section OF22 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,18 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "73 questions, all traceable to the PFL2 source (1 verbatim source activities + 72 from the OF22 Lexique).",
+      "coverage": "97 questions, all traceable to the PFL2 source (25 verbatim source activities + 72 from the OF22 Lexique).",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 1
+          "count": 25
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 72
         }
       ],
-      "totalQuestions": 73
+      "totalQuestions": 97
     },
     "consolidation": {
       "sourceBooklet": {
@@ -70,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 0
+        "advanced": 4
       },
       "drawFrom": [
         "OF22"

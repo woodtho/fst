@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF14 — To give or ask information about events and happenings. Source document SC102-2/14-2005F. Grammar taught: impersonal, question_formation. Vocabulary: the OF14 section of the PFL2 Lexique. 15 questions, all traceable to the PFL2 source (0 verbatim source activities + 15 from the OF14 Lexique).",
+        "en": "OF14 — To give or ask information about events and happenings. Source document SC102-2/14-2005F. Grammar taught: impersonal, question_formation. Vocabulary: the OF14 section of the PFL2 Lexique. 32 questions, all traceable to the PFL2 source (17 verbatim source activities + 15 from the OF14 Lexique).",
         "fr": "S’informer ou informer d’un événement. Document source SC102-2/14-2005F. Grammaire enseignée : impersonal, question_formation. Vocabulaire : section OF14 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "15 questions, all traceable to the PFL2 source (0 verbatim source activities + 15 from the OF14 Lexique).",
+      "coverage": "32 questions, all traceable to the PFL2 source (17 verbatim source activities + 15 from the OF14 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 17
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 15
         }
       ],
-      "totalQuestions": 15
+      "totalQuestions": 32
     },
     "consolidation": {
       "sourceBooklet": {
@@ -62,11 +66,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 525,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 1,
-        "advanced": 0
+        "medium": 2,
+        "advanced": 4
       },
       "drawFrom": [
         "OF14"

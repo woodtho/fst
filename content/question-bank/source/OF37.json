@@ -1,0 +1,336 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF37",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of37_src_a17_1",
+      "objectiveId": "OF37",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Après avoir consulté plusieurs revues spécialisées, j’avais assez de documentation pour formuler mes conclusions.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "examiné"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "examiné",
+          "tag": "correct"
+        },
+        {
+          "value": "conçu",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « examiné ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {
+          "d0": "« conçu » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/37-2005F, activité 17).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/37-2005F",
+        "activity": 17,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of37_src_a18_1",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "J’ai réfléchi à la question pendant de longues minutes.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez oralement l’expression soulignée par une autre équivalente.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "J’ai étudié la question pendant de longues minutes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « J’ai étudié la question pendant de longues minutes. ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/37-2005F, activité 18).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/37-2005F",
+        "activity": 18,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of37_src_a18_2",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Le rapport d’enquête a été présenté à tous les directeurs concernés.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez oralement l’expression soulignée par une autre équivalente.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Le rapport d’enquête a été dévoilé à tous les directeurs concernés."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Le rapport d’enquête a été dévoilé à tous les directeurs concernés. ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/37-2005F, activité 18).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/37-2005F",
+        "activity": 18,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of37_src_a18_5",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On a obtenu des résultats plus que satisfaisants.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez oralement l’expression soulignée par une autre équivalente.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On est parvenu à des résultats plus que satisfaisants."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On est parvenu à des résultats plus que satisfaisants. ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/37-2005F, activité 18).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/37-2005F",
+        "activity": 18,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of37_src_a18_7",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On a procédé à plusieurs analyses avant d’isoler la substance active.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez oralement l’expression soulignée par une autre équivalente.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On a effectué plusieurs analyses avant d’isoler la substance active."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « On a effectué plusieurs analyses avant d’isoler la substance active. ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/37-2005F, activité 18).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/37-2005F",
+        "activity": 18,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of37_src_a18_8",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "À ce moment-là, je me suis dit que la solution était imminente.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Remplacez oralement l’expression soulignée par une autre équivalente.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À ce moment-là, j’ai pensé que la solution était imminente."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « À ce moment-là, j’ai pensé que la solution était imminente. ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/37-2005F, activité 18).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/37-2005F",
+        "activity": 18,
+        "concept": "passe_compose"
+      }
+    }
+  ]
+}

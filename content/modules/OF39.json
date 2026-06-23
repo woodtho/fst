@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF39 — To evaluate a proposed change. Source document SC102-2/39-2005F. Grammar taught: subjonctif, comparatives. Vocabulary: the OF39 section of the PFL2 Lexique. 63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF39 Lexique).",
+        "en": "OF39 — To evaluate a proposed change. Source document SC102-2/39-2005F. Grammar taught: subjonctif, comparatives. Vocabulary: the OF39 section of the PFL2 Lexique. 96 questions, all traceable to the PFL2 source (33 verbatim source activities + 63 from the OF39 Lexique).",
         "fr": "Évaluer un changement proposé. Document source SC102-2/39-2005F. Grammaire enseignée : subjonctif, comparatives. Vocabulaire : section OF39 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF39 Lexique).",
+      "coverage": "96 questions, all traceable to the PFL2 source (33 verbatim source activities + 63 from the OF39 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 33
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 63
+      "totalQuestions": 96
     },
     "consolidation": {
       "sourceBooklet": {
@@ -66,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 5,
-        "advanced": 0
+        "advanced": 4
       },
       "drawFrom": [
         "OF39"

@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF32 — To formulate conditions. Source document SC102-2/32-2005F. Grammar taught: subjonctif, si_clauses. Vocabulary: the OF32 section of the PFL2 Lexique. 28 questions, all traceable to the PFL2 source (0 verbatim source activities + 28 from the OF32 Lexique).",
+        "en": "OF32 — To formulate conditions. Source document SC102-2/32-2005F. Grammar taught: subjonctif, si_clauses. Vocabulary: the OF32 section of the PFL2 Lexique. 30 questions, all traceable to the PFL2 source (2 verbatim source activities + 28 from the OF32 Lexique).",
         "fr": "Formuler des conditions. Document source SC102-2/32-2005F. Grammaire enseignée : subjonctif, si_clauses. Vocabulaire : section OF32 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "28 questions, all traceable to the PFL2 source (0 verbatim source activities + 28 from the OF32 Lexique).",
+      "coverage": "30 questions, all traceable to the PFL2 source (2 verbatim source activities + 28 from the OF32 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 2
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 28
         }
       ],
-      "totalQuestions": 28
+      "totalQuestions": 30
     },
     "consolidation": {
       "sourceBooklet": {
@@ -66,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 2,
-        "advanced": 0
+        "advanced": 2
       },
       "drawFrom": [
         "OF32"

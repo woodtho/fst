@@ -4,6 +4,801 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of22_src_a23_1",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Rafaël a lu la brochure.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases en écrivant l’indicateur de composante.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Rafaël a lu une partie de la brochure."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Rafaël a lu une partie de la brochure. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 23).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 23,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a23_3",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Quelquefois, Raymonde corrigeait textes.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases en écrivant l’indicateur de composante.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Quelquefois, Raymonde corrigeait partiellement les textes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Quelquefois, Raymonde corrigeait partiellement les textes. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 23).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 23,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a23_5",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "D’habitude, le directeur lit les lettres du rapport.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases en écrivant l’indicateur de composante.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "D’habitude, le directeur lit quelques tranches du rapport."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « D’habitude, le directeur lit quelques tranches du rapport. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 23).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 23,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a23_9",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Je n’ai pas évalué document.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Complétez les phrases en écrivant l’indicateur de composante.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je n’ai pas évalué certaines sections du document."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Je n’ai pas évalué certaines sections du document. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 23).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 23,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_1",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tous les gestionnaires se rencontrent une fois par mois en réunion.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils se rencontrent tous une fois par mois en réunion."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils se rencontrent tous une fois par mois en réunion. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_2",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Toutes les agentes de dotation se préparent au stage.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles se préparent toutes au stage."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elles se préparent toutes au stage. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_3",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tous les scientifiques se réunissent au congrès annuel.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils se réunissent tous au congrès annuel."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils se réunissent tous au congrès annuel. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_5",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Toutes les révisions sont terminées.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles sont toutes terminées."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elles sont toutes terminées. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_6",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tous les gestionnaires se tiennent au courant des politiques.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils se tiennent tous au courant des politiques."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils se tiennent tous au courant des politiques. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_7",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tous les climatiseurs sont réparés.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils sont tous réparés."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils sont tous réparés. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_8",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Toutes les chefs de projet étaient présentes à la réunion.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles étaient toutes présentes à la réunion."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elles étaient toutes présentes à la réunion. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_9",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Toutes les employées de la section participeront au projet.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles participeront toutes au projet."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elles participeront toutes au projet. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_11",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Toutes les directions générales ont été informées de la dernière directive.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles ont toutes été informées de la dernière directive."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elles ont toutes été informées de la dernière directive. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_12",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Toutes les plantes sont arrosées chaque semaine par le service d’entretien.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles sont toutes arrosées chaque semaine par le service d’entretien."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Elles sont toutes arrosées chaque semaine par le service d’entretien. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a28_14",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Tous les inspecteurs de sécurité se rencontrent une fois par semaine.",
+        "instructions_en": "Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez les phrases selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils se rencontrent tous une fois par semaine."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Ils se rencontrent tous une fois par semaine. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 28).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 28,
+        "concept": "quantity"
+      }
+    },
+    {
       "id": "itm_of22_src_a29_2",
       "objectiveId": "OF22",
       "skill": "writing",
@@ -55,6 +850,483 @@
         "catalogue": "SC102-2/22-2005F",
         "activity": 29,
         "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_2",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Vous___ (se souvenir) longtemps de cette activité.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "vous souviendrez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au futur : « se souvenir » donne « vous souviendrez » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_3",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Jeanne-Mance ___ (s’occuper) de la traduction du courriel.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "s’occupera"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « s’occupera ». Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_4",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Vous ___ (se renseigner) auprès du ministère client.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "vous renseignerez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au futur : « se renseigner » donne « vous renseignerez » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_5",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Tu ___ (se servir) de la toute dernière publication.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "te serviras"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au futur : « se servir » donne « te serviras » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_6",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Nous ___ (s’installer) à la pièce 231.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "nous installerons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « nous installerons ». Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_7",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Ils ___ (se rencontrer) chaque semaine.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "se rencontreront"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au futur : « se rencontrer » donne « se rencontreront » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_8",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Tu ___ (s’informer) auprès de la responsable des finances.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "t’informeras"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « t’informeras ». Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_9",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Je ___ (s’inscrire) au stage de gestion de projet.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "m’inscrirai"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « m’inscrirai ». Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
+      }
+    },
+    {
+      "id": "itm_of22_src_a39_10",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Vous ___ (se rendre) sur place pour faire votre enquête. B. En équipes de deux, transformez oralement les phrases suivantes à la forme interrogative.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "vous rendrez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au futur : « se rendre » donne « vous rendrez » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 39).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 39,
+        "concept": "futur_simple"
       }
     }
   ]

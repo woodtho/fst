@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF24 — To situate events in relation to each other. Source document SC102-2/24-2005F. Grammar taught: compound_tenses, passe_compose, reported_speech. Vocabulary: the OF24 section of the PFL2 Lexique. 75 questions, all traceable to the PFL2 source (14 verbatim source activities + 61 from the OF24 Lexique).",
+        "en": "OF24 — To situate events in relation to each other. Source document SC102-2/24-2005F. Grammar taught: compound_tenses, passe_compose, reported_speech. Vocabulary: the OF24 section of the PFL2 Lexique. 96 questions, all traceable to the PFL2 source (35 verbatim source activities + 61 from the OF24 Lexique).",
         "fr": "Situer des événements par rapport à d’autres. Document source SC102-2/24-2005F. Grammaire enseignée : compound_tenses, passe_compose, reported_speech. Vocabulaire : section OF24 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,18 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "75 questions, all traceable to the PFL2 source (14 verbatim source activities + 61 from the OF24 Lexique).",
+      "coverage": "96 questions, all traceable to the PFL2 source (35 verbatim source activities + 61 from the OF24 Lexique).",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 14
+          "count": 35
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 61
         }
       ],
-      "totalQuestions": 75
+      "totalQuestions": 96
     },
     "consolidation": {
       "sourceBooklet": {
@@ -70,7 +70,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 0
+        "advanced": 4
       },
       "drawFrom": [
         "OF24"

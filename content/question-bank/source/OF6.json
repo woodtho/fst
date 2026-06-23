@@ -8,7 +8,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -33,27 +33,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « De combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « De combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -61,7 +61,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -86,27 +86,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Avec combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Avec combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -114,7 +114,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -139,27 +139,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -167,7 +167,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -192,27 +192,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien d’ ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -220,7 +220,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -245,27 +245,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « De combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « De combien d’ ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -273,7 +273,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -298,27 +298,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Avec combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Avec combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -326,7 +326,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -351,27 +351,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -379,7 +379,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -404,27 +404,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Avec combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Avec combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -432,7 +432,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -457,27 +457,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien d’ ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -485,7 +485,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -510,27 +510,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -538,7 +538,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -563,27 +563,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -591,7 +591,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -616,27 +616,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Pour combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Pour combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -644,7 +644,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -669,27 +669,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -697,7 +697,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -722,27 +722,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien d’ ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -750,7 +750,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -775,27 +775,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « À combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « À combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -803,7 +803,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -828,27 +828,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « À combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « À combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -856,7 +856,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -881,27 +881,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -909,7 +909,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -934,27 +934,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « De combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « De combien d’ ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -962,7 +962,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -987,27 +987,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -1015,7 +1015,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -1040,27 +1040,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -1068,7 +1068,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -1093,27 +1093,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Pour combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Pour combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -1121,7 +1121,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -1146,27 +1146,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « À combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « À combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     },
     {
@@ -1174,7 +1174,7 @@
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
-        "quantity"
+        "question_formation"
       ],
       "vocabDomains": [
         "administration",
@@ -1199,27 +1199,27 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Pour combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "correct_why": "La réponse attendue est « Pour combien de ». Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "distractor_why": {},
-        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "grammar_rule": "Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
         "common_mistakes": [
           "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Quantité + DE (jamais du/des).",
-        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
         "similar": [
-          "beaucoup de dossiers",
-          "un peu de temps"
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/6-2005F",
         "activity": 26,
-        "concept": "quantity"
+        "concept": "question_formation"
       }
     }
   ]
