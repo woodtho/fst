@@ -13,22 +13,23 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF25 — To indicate the steps in a process. This objective develops the language needed to indicate the steps in a process in a Government of Canada workplace. Grammar focus: The present tense, Prepositions. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Indiquer les étapes d’un processus. Objectif communicatif appuyé par : Le présent de l’indicatif, Les prépositions. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF25 — To indicate the steps in a process. This objective develops the language needed to indicate the steps in a process in a Government of Canada workplace. Grammar focus: Logical connectors (sequence, cause, consequence, purpose), The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "Indiquer les étapes d’un processus. Objectif communicatif appuyé par : Les connecteurs logiques (séquence, cause, conséquence, but), Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The present tense, Prepositions.",
+        "summary": "Grammar focus for this objective: Logical connectors (sequence, cause, consequence, purpose), The present tense.",
         "charts": [],
         "points": [
+          "Les connecteurs logiques (séquence, cause, conséquence, but) (Logical connectors (sequence, cause, consequence, purpose)) — Relier les idées : SÉQUENCE (d'abord, ensuite, puis, enfin), CAUSE (parce que, car, à cause de, grâce à), CONSÉQUENCE (donc, alors, par conséquent, c'est pourquoi), BUT (pour + infinitif, pour que + subjonctif, afin de).",
+          "· Séquence : d'abord → ensuite/puis → enfin/finalement.",
+          "· Cause : parce que / car (+ proposition) ; à cause de / grâce à (+ nom).",
+          "· Conséquence : donc, alors, par conséquent, c'est pourquoi.",
+          "· But : pour / afin de + infinitif (même sujet) ; pour que / afin que + subjonctif (sujet différent).",
           "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
           "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
           "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
-          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
-          "Les prépositions (Prepositions) — Relient les mots et indiquent le lieu, le temps et la relation : à, de, en, dans, sur, chez. à+le=au; de+le=du.",
-          "· Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
-          "· Place: à (city), en/au (country), dans (inside), sur (on), chez (at someone's).",
-          "· Time: à (time), en (month/year), dans (in X time), depuis (since)."
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont."
         ]
       },
       "pronunciation": {
@@ -44,11 +45,11 @@
       "exerciseSets": [
         {
           "title": "Vocabulaire (lexique source)",
-          "count": 82
+          "count": 85
         },
         {
           "title": "Grammaire",
-          "count": 16
+          "count": 13
         },
         {
           "title": "Conjugaison",
@@ -72,8 +73,8 @@
         {
           "title": "Tâche de consolidation — Indiquer les étapes d’un processus",
           "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « indiquer les étapes d’un processus ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le présent de l’indicatif, Les prépositions.",
-          "promptEn": "In a workplace context, practise the function \"To indicate the steps in a process\". Produce a short exchange (3–4 sentences) using: The present tense, Prepositions.",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « indiquer les étapes d’un processus ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les connecteurs logiques (séquence, cause, conséquence, but), Le présent de l’indicatif.",
+          "promptEn": "In a workplace context, practise the function \"To indicate the steps in a process\". Produce a short exchange (3–4 sentences) using: Logical connectors (sequence, cause, consequence, purpose), The present tense.",
           "rubric": [
             "addresses the communicative function",
             "uses the target grammar correctly",
@@ -96,7 +97,7 @@
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 1
+        "advanced": 0
       },
       "drawFrom": [
         "OF25"
@@ -105,8 +106,8 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
-        "present",
-        "prepositions"
+        "connectors",
+        "present"
       ]
     }
   }

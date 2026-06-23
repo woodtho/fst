@@ -13,22 +13,23 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF38 — To explain the reasons for and results of a decision, an action, an event or a situation. This objective develops the language needed to explain the reasons for and results of a decision, an action, an event or a situation in a Government of Canada workplace. Grammar focus: The present subjunctive, The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (112 questions) and consolidate.",
-        "fr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation. Objectif communicatif appuyé par : Le subjonctif présent, Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (112 questions)."
+        "en": "OF38 — To explain the reasons for and results of a decision, an action, an event or a situation. This objective develops the language needed to explain the reasons for and results of a decision, an action, an event or a situation in a Government of Canada workplace. Grammar focus: The present subjunctive, Logical connectors (sequence, cause, consequence, purpose). Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation. Objectif communicatif appuyé par : Le subjonctif présent, Les connecteurs logiques (séquence, cause, conséquence, but). Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The present subjunctive, The present tense.",
+        "summary": "Grammar focus for this objective: The present subjunctive, Logical connectors (sequence, cause, consequence, purpose).",
         "charts": [],
         "points": [
           "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
           "· Trigger: il faut que, vouloir que, être content que, douter que…",
           "· Stem from ils-present (ils finissent → finiss-).",
           "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille.",
-          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
-          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
-          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
-          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont."
+          "Les connecteurs logiques (séquence, cause, conséquence, but) (Logical connectors (sequence, cause, consequence, purpose)) — Relier les idées : SÉQUENCE (d'abord, ensuite, puis, enfin), CAUSE (parce que, car, à cause de, grâce à), CONSÉQUENCE (donc, alors, par conséquent, c'est pourquoi), BUT (pour + infinitif, pour que + subjonctif, afin de).",
+          "· Séquence : d'abord → ensuite/puis → enfin/finalement.",
+          "· Cause : parce que / car (+ proposition) ; à cause de / grâce à (+ nom).",
+          "· Conséquence : donc, alors, par conséquent, c'est pourquoi.",
+          "· But : pour / afin de + infinitif (même sujet) ; pour que / afin que + subjonctif (sujet différent)."
         ]
       },
       "pronunciation": {
@@ -44,18 +45,18 @@
       "exerciseSets": [
         {
           "title": "Vocabulaire (lexique source)",
-          "count": 72
+          "count": 85
         },
         {
           "title": "Grammaire",
-          "count": 16
+          "count": 13
         },
         {
           "title": "Conjugaison",
-          "count": 24
+          "count": 12
         }
       ],
-      "totalQuestions": 112
+      "totalQuestions": 110
     },
     "consolidation": {
       "sourceBooklet": {
@@ -67,13 +68,13 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
-      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 112 questions). See /consolidation/33-40.",
+      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/33-40.",
       "tasks": [
         {
           "title": "Tâche de consolidation — Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation",
           "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent, Le présent de l’indicatif.",
-          "promptEn": "In a workplace context, practise the function \"To explain the reasons for and results of a decision, an action, an event or a situation\". Produce a short exchange (3–4 sentences) using: The present subjunctive, The present tense.",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent, Les connecteurs logiques (séquence, cause, conséquence, but).",
+          "promptEn": "In a workplace context, practise the function \"To explain the reasons for and results of a decision, an action, an event or a situation\". Produce a short exchange (3–4 sentences) using: The present subjunctive, Logical connectors (sequence, cause, consequence, purpose).",
           "rubric": [
             "addresses the communicative function",
             "uses the target grammar correctly",
@@ -106,7 +107,7 @@
       "threshold": 0.8,
       "concepts": [
         "subjonctif",
-        "present"
+        "connectors"
       ]
     }
   }

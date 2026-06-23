@@ -52,7 +52,11 @@
     "imperative",
     "adverbs_manner",
     "quantity",
-    "impersonal"
+    "impersonal",
+    "pronominal_verbs",
+    "causative_passive",
+    "compound_tenses",
+    "connectors"
   ],
   "vocabDomains": [
     "workplace",
@@ -733,8 +737,8 @@
         "scheduling"
       ],
       "grammarConcepts": [
-        "prepositions",
-        "present"
+        "quantity",
+        "prepositions"
       ],
       "vocabDomains": [
         "workplace",
@@ -796,9 +800,8 @@
         "daily_life"
       ],
       "grammarConcepts": [
+        "compound_tenses",
         "passe_compose",
-        "imparfait",
-        "futur_simple",
         "reported_speech"
       ],
       "vocabDomains": [
@@ -829,8 +832,8 @@
         "public_service"
       ],
       "grammarConcepts": [
-        "present",
-        "prepositions"
+        "connectors",
+        "present"
       ],
       "vocabDomains": [
         "administration",
@@ -893,7 +896,7 @@
         "workplace"
       ],
       "grammarConcepts": [
-        "pronouns",
+        "pronominal_verbs",
         "present"
       ],
       "vocabDomains": [
@@ -1173,8 +1176,8 @@
         "meetings"
       ],
       "grammarConcepts": [
-        "present",
-        "futur_simple"
+        "causative_passive",
+        "present"
       ],
       "vocabDomains": [
         "workplace",
@@ -1237,7 +1240,7 @@
       ],
       "grammarConcepts": [
         "subjonctif",
-        "present"
+        "connectors"
       ],
       "vocabDomains": [
         "public_service",
