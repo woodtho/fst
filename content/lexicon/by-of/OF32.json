@@ -1,0 +1,138 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF32",
+  "of": 32,
+  "titleFr": "Formuler des conditions",
+  "titleEn": "To formulate conditions",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 31,
+  "entries": [
+    {
+      "fr": "à condition de",
+      "en": "provided that"
+    },
+    {
+      "fr": "à condition de",
+      "en": "on condition that"
+    },
+    {
+      "fr": "à condition que",
+      "en": "provided that"
+    },
+    {
+      "fr": "à condition que",
+      "en": "on condition that"
+    },
+    {
+      "fr": "avoir – y avoir moyen de",
+      "en": "to be a way of"
+    },
+    {
+      "fr": "avoir – y avoir moyen que",
+      "en": "to be a way that"
+    },
+    {
+      "fr": "ça se peut (que)",
+      "en": "to be possible (that)"
+    },
+    {
+      "fr": "condition (n. f.)",
+      "en": "condition"
+    },
+    {
+      "fr": "condition – à condition de",
+      "en": "provided that"
+    },
+    {
+      "fr": "condition – à condition de",
+      "en": "on condition that"
+    },
+    {
+      "fr": "condition – à condition que",
+      "en": "provided that"
+    },
+    {
+      "fr": "condition – à condition que",
+      "en": "on condition that"
+    },
+    {
+      "fr": "critère (n. m.)",
+      "en": "criterion"
+    },
+    {
+      "fr": "dépendre de",
+      "en": "to depend on"
+    },
+    {
+      "fr": "empêchement (n. m.)",
+      "en": "obstacle"
+    },
+    {
+      "fr": "il se peut que",
+      "en": "to be possible (that)"
+    },
+    {
+      "fr": "impossibilité (n. f.)",
+      "en": "impossibility"
+    },
+    {
+      "fr": "impossible (adj. m./f.)",
+      "en": "impossible"
+    },
+    {
+      "fr": "moyen – y avoir moyen de",
+      "en": "to be a way of"
+    },
+    {
+      "fr": "moyen – y avoir moyen que",
+      "en": "to be a way that"
+    },
+    {
+      "fr": "possibilité (n. f.)",
+      "en": "possibility"
+    },
+    {
+      "fr": "possible (adj. m./f.)",
+      "en": "possible"
+    },
+    {
+      "fr": "pouvoir – ça se peut (que)",
+      "en": "to be possible (that)"
+    },
+    {
+      "fr": "pouvoir – il se peut que",
+      "en": "to be possible (that)"
+    },
+    {
+      "fr": "sans que",
+      "en": "without"
+    },
+    {
+      "fr": "se pouvoir – ça se peut (que)",
+      "en": "to be possible (that)"
+    },
+    {
+      "fr": "se pouvoir – il se peut que",
+      "en": "to be possible (that)"
+    },
+    {
+      "fr": "si",
+      "en": "if"
+    },
+    {
+      "fr": "suffixe (n. m.)",
+      "en": "suffix"
+    },
+    {
+      "fr": "y avoir moyen de",
+      "en": "to be a way of"
+    },
+    {
+      "fr": "y avoir moyen que",
+      "en": "to be a way that"
+    }
+  ]
+}

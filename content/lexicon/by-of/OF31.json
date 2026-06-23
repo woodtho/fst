@@ -1,0 +1,102 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF31",
+  "of": 31,
+  "titleFr": "Exprimer la volonté, le souhait",
+  "titleEn": "To express will or desire",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 22,
+  "entries": [
+    {
+      "fr": "affirmer",
+      "en": "to assert"
+    },
+    {
+      "fr": "annoncer",
+      "en": "to announce"
+    },
+    {
+      "fr": "atténué",
+      "en": "toned down"
+    },
+    {
+      "fr": "atténuée",
+      "en": "toned down"
+    },
+    {
+      "fr": "atténuer",
+      "en": "to tone down"
+    },
+    {
+      "fr": "conditionnel passé",
+      "en": "past conditional"
+    },
+    {
+      "fr": "déclarer",
+      "en": "to declare"
+    },
+    {
+      "fr": "demander – se demander",
+      "en": "to wonder"
+    },
+    {
+      "fr": "direct – style direct",
+      "en": "direct speech"
+    },
+    {
+      "fr": "directe – interrogation directe",
+      "en": "direct question"
+    },
+    {
+      "fr": "indirect – interrogation indirecte",
+      "en": "indirect question"
+    },
+    {
+      "fr": "indirect – style indirect",
+      "en": "indirect speech"
+    },
+    {
+      "fr": "insister",
+      "en": "to insist"
+    },
+    {
+      "fr": "interrogation directe",
+      "en": "direct question"
+    },
+    {
+      "fr": "interrogation indirecte",
+      "en": "indirect question"
+    },
+    {
+      "fr": "lire",
+      "en": "to read"
+    },
+    {
+      "fr": "passé – conditionnel passé",
+      "en": "past conditional"
+    },
+    {
+      "fr": "préférer",
+      "en": "to prefer"
+    },
+    {
+      "fr": "se demander",
+      "en": "to wonder"
+    },
+    {
+      "fr": "style direct",
+      "en": "direct speech"
+    },
+    {
+      "fr": "style indirect",
+      "en": "indirect speech"
+    },
+    {
+      "fr": "volonté (n. f.)",
+      "en": "will"
+    }
+  ]
+}

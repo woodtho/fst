@@ -1,0 +1,149 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF4",
+  "titleFr": "Exprimer des relations de possession",
+  "titleEn": "To express ownership",
+  "level": "A",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/4-2005F",
+    "text": "sources/text/OF04.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF4 — To express ownership. This objective develops the language needed to express ownership in a Government of Canada workplace. Grammar focus: The present tense, Adjectives, Agreement, Pronouns. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Exprimer des relations de possession. Objectif communicatif appuyé par : Le présent de l’indicatif, Les adjectifs, Les accords, Les pronoms. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present tense, Adjectives, Agreement, Pronouns.",
+        "charts": [],
+        "points": [
+          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
+          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
+          "Les adjectifs (Adjectives) — S’accordent en genre et en nombre avec le nom. La plupart suivent le nom; quelques courts (BAGS) le précèdent.",
+          "· Feminine usually adds -e; plural adds -s.",
+          "· Most adjectives follow the noun (un rapport important).",
+          "· BANGS (beauty, age, number, goodness, size) precede: un grand bureau, une nouvelle employée.",
+          "Les accords (Agreement) — Les adjectifs et les participes passés (avec être) s’accordent en genre et en nombre; quel s’accorde avec son nom.",
+          "· Adjective ↔ noun (gender + number).",
+          "· Past participle with être ↔ subject.",
+          "· Past participle with avoir ↔ a preceding direct object only.",
+          "Les pronoms (Pronouns) — Remplacent les noms : objets directs (le/la/les), indirects (lui/leur), y, en, relatifs (qui/que). Ils se placent avant le verbe conjugué.",
+          "· Direct objects: le, la, les, l’.",
+          "· Indirect (à + person): lui, leur. y = à + thing/place; en = de + thing.",
+          "· Relative: qui (subject), que (object)."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le présent de l’indicatif",
+          "itemRefs": [
+            "itm_of4_present_1",
+            "itm_of4_present_2",
+            "itm_of4_present_3",
+            "itm_of4_present_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les adjectifs",
+          "itemRefs": [
+            "itm_of4_adjectives_5",
+            "itm_of4_adjectives_6",
+            "itm_of4_adjectives_7",
+            "itm_of4_adjectives_8"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les accords",
+          "itemRefs": [
+            "itm_of4_agreement_9",
+            "itm_of4_agreement_10",
+            "itm_of4_agreement_11",
+            "itm_of4_agreement_12"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les pronoms",
+          "itemRefs": [
+            "itm_of4_pronouns_13",
+            "itm_of4_pronouns_14",
+            "itm_of4_pronouns_15",
+            "itm_of4_pronouns_16"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 1,
+        "ofRange": [
+          1,
+          12
+        ],
+        "catalogue": "SC102-2/47-1-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Exprimer des relations de possession",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « exprimer des relations de possession ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le présent de l’indicatif, Les adjectifs, Les accords, Les pronoms.",
+          "promptEn": "In a workplace context, practise the function \"To express ownership\". Produce a short exchange (3–4 sentences) using: The present tense, Adjectives, Agreement, Pronouns.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 1,
+        "ofRange": [
+          1,
+          12
+        ],
+        "catalogue": "SC102-2/45-1-2006F"
+      },
+      "timedSeconds": 560,
+      "blueprint": {
+        "easy": 4,
+        "medium": 10,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF4"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "present",
+        "adjectives",
+        "agreement",
+        "pronouns"
+      ]
+    }
+  }
+}

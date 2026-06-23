@@ -1,0 +1,460 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF35",
+  "source": {
+    "catalogue": "SC102-2/35-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of35_futur_simple_1",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Corrigez : « Nous prendrons une décision quand nous avons toutes les données. »",
+        "instructions_en": "Fix the tense after 'quand'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous prendrons une décision quand nous aurons toutes les données",
+          "Nous prendrons une décision quand nous aurons toutes les données."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Future time after quand → future: « quand nous aurons toutes les données ».",
+        "distractor_why": {
+          "present_kept": "« avons » (present) is wrong here; the data is in the future, so use « aurons »."
+        },
+        "grammar_rule": "Both clauses are future when quand refers to a future moment.",
+        "vocab_notes": "les données = the data.",
+        "common_mistakes": [
+          "leaving the present after quand"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Two futures around 'quand'.",
+        "pattern": "[future] … quand [future].",
+        "similar": [
+          "Je commencerai quand tu seras prêt.",
+          "On partira dès qu’il arrivera."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_futur_simple_2",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Futur simple : « La semaine prochaine, nous ___ (terminer) le projet. »",
+        "instructions_en": "Simple future, nous form."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "terminerons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Infinitive terminer + -ons (nous) = « terminerons ».",
+        "distractor_why": {
+          "present": "« terminons » is present.",
+          "conditional": "« terminerions » is the conditional."
+        },
+        "grammar_rule": "Futur simple = infinitif + -ai/-as/-a/-ons/-ez/-ont.",
+        "vocab_notes": "la semaine prochaine = next week.",
+        "common_mistakes": [
+          "confusing future -ons with conditional -ions"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_futur_simple_3",
+      "objectiveId": "OF35",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Complétez : « Demain, je ___ (être) au bureau à 8 h. »",
+        "instructions_en": "Simple future of être (irregular stem)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "serai"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "serai",
+          "tag": "correct"
+        },
+        {
+          "value": "suis",
+          "tag": "present"
+        },
+        {
+          "value": "étais",
+          "tag": "imperfect"
+        },
+        {
+          "value": "serais",
+          "tag": "conditional"
+        }
+      ],
+      "explanation": {
+        "correct_why": "être has the irregular future stem ser-: je → « serai ».",
+        "distractor_why": {
+          "present": "« suis » is present.",
+          "imperfect": "« étais » is imperfect.",
+          "conditional": "« serais » is conditional."
+        },
+        "grammar_rule": "être future: serai, seras, sera, serons, serez, seront.",
+        "vocab_notes": "au bureau = at the office.",
+        "common_mistakes": [
+          "confusing future serai with conditional serais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "être → ser- (serai).",
+        "pattern": "Memorize irregular future stems (ser-, aur-, ir-, fer-).",
+        "similar": [
+          "J’aurai le rapport demain.",
+          "Nous ferons le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_futur_simple_4",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Futur simple : « Quand le budget ___ (être) approuvé, nous embaucherons. »",
+        "instructions_en": "After 'quand' referring to the future, use the future."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "sera"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « quand » referring to a future event, French uses the future: « quand le budget sera approuvé ».",
+        "distractor_why": {
+          "present_after_quand": "Unlike English ('when it is'), French uses the future after quand for future time."
+        },
+        "grammar_rule": "After quand/lorsque/dès que about the future, use the futur simple (not the present).",
+        "vocab_notes": "approuvé = approved; embaucher = to hire.",
+        "common_mistakes": [
+          "using the present after quand (English interference)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "quand + future → future (not present).",
+        "pattern": "Future time clause ⇒ future tense.",
+        "similar": [
+          "Dès que j’aurai les chiffres, je t’écrirai.",
+          "Quand il arrivera, nous commencerons."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_conditionnel_5",
+      "objectiveId": "OF35",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Quelle formule est la plus polie pour demander un service ?",
+        "instructions_en": "Pick the most polite request."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Pourriez-vous vérifier ce chiffre, s’il vous plaît?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Pourriez-vous vérifier ce chiffre, s’il vous plaît?",
+          "tag": "correct"
+        },
+        {
+          "value": "Vérifie ce chiffre.",
+          "tag": "imperative_blunt"
+        },
+        {
+          "value": "Tu vérifies ce chiffre.",
+          "tag": "statement"
+        }
+      ],
+      "explanation": {
+        "correct_why": "The conditional « Pourriez-vous… s’il vous plaît? » is the polite, professional request form.",
+        "distractor_why": {
+          "imperative_blunt": "« Vérifie » is a blunt command (and tu).",
+          "statement": "« Tu vérifies » is a statement, not a polite request."
+        },
+        "grammar_rule": "Use the conditional + s’il vous plaît for polite workplace requests.",
+        "vocab_notes": "vérifier = to check.",
+        "common_mistakes": [
+          "using bare imperatives in professional requests"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Conditional + svp = polite.",
+        "pattern": "Pourriez-vous / Voudriez-vous + infinitive.",
+        "similar": [
+          "Pourriez-vous me rappeler?",
+          "Voudriez-vous patienter?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_conditionnel_6",
+      "objectiveId": "OF35",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Forme polie : « ___ -vous m’envoyer le dossier? »",
+        "instructions_en": "Choose the polite conditional form of pouvoir."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Pourriez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Pourriez",
+          "tag": "correct"
+        },
+        {
+          "value": "Pouvez",
+          "tag": "present_less_polite"
+        },
+        {
+          "value": "Pourrez",
+          "tag": "future"
+        },
+        {
+          "value": "Pouviez",
+          "tag": "imperfect"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Pourriez-vous… » (conditional of pouvoir) is the polite request form.",
+        "distractor_why": {
+          "present_less_polite": "« Pouvez-vous » is correct but less polite/softened.",
+          "future": "« Pourrez » is future.",
+          "imperfect": "« Pouviez » is imperfect."
+        },
+        "grammar_rule": "Conditional of pouvoir: pourrais, pourrais, pourrait, pourrions, pourriez, pourraient.",
+        "vocab_notes": "Pourriez-vous… = Could you… (polite).",
+        "common_mistakes": [
+          "confusing pourriez (cond.) with pourrez (future)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_conditionnel_7",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Conditionnel : « Je ___ (vouloir) un rendez-vous avec le gestionnaire. »",
+        "instructions_en": "Polite conditional of vouloir, je form."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "voudrais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Je voudrais » (conditional of vouloir) softens the request — more polite than « je veux ».",
+        "distractor_why": {
+          "present_veux": "« veux » is direct/less polite.",
+          "future": "« voudrai » is future."
+        },
+        "grammar_rule": "vouloir conditional: voudrais, voudrais, voudrait…",
+        "vocab_notes": "un rendez-vous = an appointment.",
+        "common_mistakes": [
+          "using 'je veux' in polite requests"
+        ]
+      },
+      "tip": {
+        "memory_aid": "je voudrais = I would like.",
+        "pattern": "Conditional softens requests.",
+        "similar": [
+          "J’aimerais vous rencontrer.",
+          "Je souhaiterais un délai."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_conditionnel_8",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Conditionnel : « À votre place, je ___ (parler) au gestionnaire. »",
+        "instructions_en": "Conditional of parler, je form (advice)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "parlerais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Future stem parler- + imperfect ending -ais = « parlerais » (would speak — giving advice).",
+        "distractor_why": {
+          "future": "« parlerai » is future (-ai), not conditional (-ais).",
+          "imperfect": "« parlais » lacks the future stem -er-."
+        },
+        "grammar_rule": "Conditional = future stem + imperfect endings.",
+        "vocab_notes": "À votre place = if I were you.",
+        "common_mistakes": [
+          "dropping the -r- of the future stem",
+          "future -ai vs conditional -ais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Conditional = future stem + -ais.",
+        "pattern": "advice/hypothesis → conditional.",
+        "similar": [
+          "Je proposerais une autre date.",
+          "Nous recommanderions cette option."
+        ]
+      }
+    }
+  ]
+}

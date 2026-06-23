@@ -1,0 +1,149 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF24",
+  "titleFr": "Situer des événements par rapport à d’autres",
+  "titleEn": "To situate events in relation to each other",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/24-2005F",
+    "text": "sources/text/OF24.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF24 — To situate events in relation to each other. This objective develops the language needed to situate events in relation to each other in a Government of Canada workplace. Grammar focus: The compound past, The imperfect, The simple future, Reported (indirect) speech. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Situer des événements par rapport à d’autres. Objectif communicatif appuyé par : Le passé composé, L’imparfait, Le futur simple, Le discours indirect. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The compound past, The imperfect, The simple future, Reported (indirect) speech.",
+        "charts": [],
+        "points": [
+          "Le passé composé (The compound past) — Action passée terminée : auxiliaire (avoir/être) au présent + participe passé. Avec être, accord du participe avec le sujet.",
+          "· Most verbs use avoir; no agreement with the subject.",
+          "· Movement/state-change verbs and pronominal verbs use être; participle agrees with subject.",
+          "· Regular participles: -er→-é, -ir→-i, -re→-u.",
+          "L’imparfait (The imperfect) — Description, habitude ou action en cours dans le passé. Radical = nous au présent sans -ons; terminaisons -ais, -ais, -ait, -ions, -iez, -aient.",
+          "· Stem from nous-present: nous travaillons → travaill-.",
+          "· Endings: -ais, -ais, -ait, -ions, -iez, -aient.",
+          "· être is irregular: ét- (j’étais).",
+          "Le futur simple (The simple future) — Faits et intentions futurs. Terminaisons -ai, -as, -a, -ons, -ez, -ont sur l’infinitif. Radicaux irréguliers : être→ser-, avoir→aur-, aller→ir-, faire→fer-.",
+          "· Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+          "· -re verbs drop the final -e: prendre → prendr-.",
+          "· Irregular stems: ser-, aur-, ir-, fer-, viendr-, pourr-, devr-.",
+          "Le discours indirect (Reported (indirect) speech) — Rapporter des propos avec dire que / demander si / demander ce que. Au passé, concordance des temps (présent→imparfait, futur→conditionnel).",
+          "· Statement: dire que + clause.",
+          "· Yes/no question: demander si.",
+          "· Past reporting: present→imparfait, futur→conditionnel, passé composé→plus-que-parfait."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le passé composé",
+          "itemRefs": [
+            "itm_of24_passe_compose_1",
+            "itm_of24_passe_compose_2",
+            "itm_of24_passe_compose_3",
+            "itm_of24_passe_compose_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "L’imparfait",
+          "itemRefs": [
+            "itm_of24_imparfait_5",
+            "itm_of24_imparfait_6",
+            "itm_of24_imparfait_7",
+            "itm_of24_imparfait_8"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le futur simple",
+          "itemRefs": [
+            "itm_of24_futur_simple_9",
+            "itm_of24_futur_simple_10",
+            "itm_of24_futur_simple_11",
+            "itm_of24_futur_simple_12"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le discours indirect",
+          "itemRefs": [
+            "itm_of24_reported_speech_13",
+            "itm_of24_reported_speech_14",
+            "itm_of24_reported_speech_15",
+            "itm_of24_reported_speech_16"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/47-3-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Situer des événements par rapport à d’autres",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « situer des événements par rapport à d’autres ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le passé composé, L’imparfait, Le futur simple, Le discours indirect.",
+          "promptEn": "In a workplace context, practise the function \"To situate events in relation to each other\". Produce a short exchange (3–4 sentences) using: The compound past, The imperfect, The simple future, Reported (indirect) speech.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/45-3-2006F"
+      },
+      "timedSeconds": 560,
+      "blueprint": {
+        "easy": 4,
+        "medium": 8,
+        "advanced": 4
+      },
+      "drawFrom": [
+        "OF24"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "passe_compose",
+        "imparfait",
+        "futur_simple",
+        "reported_speech"
+      ]
+    }
+  }
+}

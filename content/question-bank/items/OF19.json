@@ -1,0 +1,501 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF19",
+  "source": {
+    "catalogue": "SC102-2/19-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of19_comparatives_1",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Superlatif : « C’est le projet ___ ___ important du ministère. » (the most)",
+        "instructions_en": "Write 'le plus' for the superlative."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le plus"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Superlative of superiority: « le plus important » → « le projet le plus important ».",
+        "distractor_why": {
+          "plus_only": "The article (le) is required in the superlative.",
+          "tres": "« très » is 'very', not a superlative."
+        },
+        "grammar_rule": "Superlative: le/la/les plus/moins + adjective (article repeated after the noun for post-nominal adjectives).",
+        "vocab_notes": "important follows the noun, so the article repeats: le projet le plus important.",
+        "common_mistakes": [
+          "dropping the article in the superlative"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Superlative needs THE: le plus / la plus.",
+        "pattern": "le/la/les + plus/moins + adjective.",
+        "similar": [
+          "la plus efficace",
+          "les plus rapides"
+        ]
+      }
+    },
+    {
+      "id": "itm_of19_comparatives_2",
+      "objectiveId": "OF19",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Comparatif : « Cette option est ___ efficace ___ l’autre. » (more … than)",
+        "instructions_en": "Choose the comparative."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "plus / que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "plus / que",
+          "tag": "correct"
+        },
+        {
+          "value": "plus / de",
+          "tag": "wrong_de"
+        },
+        {
+          "value": "très / que",
+          "tag": "tres"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Comparison of superiority: « plus … que » → « plus efficace que l’autre ».",
+        "distractor_why": {
+          "wrong_de": "Use « que » (not de) in comparisons.",
+          "tres": "« très » means 'very', not 'more … than'."
+        },
+        "grammar_rule": "plus/moins/aussi + adjective + que.",
+        "vocab_notes": "efficace = effective/efficient.",
+        "common_mistakes": [
+          "using de instead of que",
+          "confusing très and plus"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      }
+    },
+    {
+      "id": "itm_of19_comparatives_3",
+      "objectiveId": "OF19",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Superlatif : « C’est ___ solution. » (the best — adjective)",
+        "instructions_en": "Choose the superlative of bon."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "la meilleure"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "la meilleure",
+          "tag": "correct"
+        },
+        {
+          "value": "la plus bonne",
+          "tag": "plus_bonne"
+        },
+        {
+          "value": "la mieux",
+          "tag": "mieux_adj"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« bon » is irregular: superlative « le/la meilleur(e) ». « solution » is feminine → « la meilleure solution ».",
+        "distractor_why": {
+          "plus_bonne": "« plus bonne » is incorrect; use « meilleure ».",
+          "mieux_adj": "« mieux » is an adverb (modifies a verb), not an adjective for a noun."
+        },
+        "grammar_rule": "bon → meilleur (adjective); bien → mieux (adverb).",
+        "vocab_notes": "la solution (f.) → la meilleure.",
+        "common_mistakes": [
+          "saying 'plus bon'",
+          "confusing meilleur (adj.) and mieux (adv.)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "good→meilleur; well→mieux.",
+        "pattern": "Never 'plus bon'.",
+        "similar": [
+          "le meilleur choix",
+          "Elle travaille mieux."
+        ]
+      }
+    },
+    {
+      "id": "itm_of19_comparatives_4",
+      "objectiveId": "OF19",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Égalité : « Ce rapport est ___ détaillé ___ l’autre. » (as … as)",
+        "instructions_en": "Express equality."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "aussi / que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "aussi / que",
+          "tag": "correct"
+        },
+        {
+          "value": "plus / que",
+          "tag": "superiority"
+        },
+        {
+          "value": "aussi / de",
+          "tag": "wrong_de"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Equality: « aussi … que » → « aussi détaillé que l’autre ».",
+        "distractor_why": {
+          "superiority": "« plus … que » means 'more … than'.",
+          "wrong_de": "Comparisons use que, not de."
+        },
+        "grammar_rule": "aussi + adjective + que = as … as.",
+        "vocab_notes": "détaillé = detailed.",
+        "common_mistakes": [
+          "using de instead of que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aussi … que = as … as.",
+        "pattern": "equality = aussi … que.",
+        "similar": [
+          "aussi clair que",
+          "aussi long que"
+        ]
+      }
+    },
+    {
+      "id": "itm_of19_adjectives_5",
+      "objectiveId": "OF19",
+      "skill": "writing",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Accord pluriel : « des rapports ___ (détaillé) »",
+        "instructions_en": "Make the adjective agree (m. pl.)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "détaillés"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« rapports » is masculine plural → « détaillés » (add -s).",
+        "distractor_why": {
+          "singular": "« détaillé » is singular.",
+          "feminine": "« détaillées » is feminine plural."
+        },
+        "grammar_rule": "Plural adds -s (masculine) or -es (feminine plural).",
+        "vocab_notes": "un rapport détaillé = a detailed report.",
+        "common_mistakes": [
+          "forgetting the plural -s on the adjective"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Plural noun → plural adjective.",
+        "pattern": "Agree in number too, not just gender.",
+        "similar": [
+          "des documents officiels",
+          "des notes complètes"
+        ]
+      }
+    },
+    {
+      "id": "itm_of19_adjectives_6",
+      "objectiveId": "OF19",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.4,
+      "prompt": {
+        "fr": "Accord : « une décision ___ (important) »",
+        "instructions_en": "Make the adjective agree."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "importante"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "importante",
+          "tag": "correct"
+        },
+        {
+          "value": "important",
+          "tag": "masculine"
+        },
+        {
+          "value": "importants",
+          "tag": "masc_plural"
+        },
+        {
+          "value": "importantes",
+          "tag": "fem_plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« décision » is feminine singular → « importante » (add -e).",
+        "distractor_why": {
+          "masculine": "« important » is masculine.",
+          "masc_plural": "« importants » is masculine plural.",
+          "fem_plural": "« importantes » is plural; décision is singular."
+        },
+        "grammar_rule": "Adjectives agree in gender and number; feminine often adds -e.",
+        "vocab_notes": "une décision (f.) → importante.",
+        "common_mistakes": [
+          "leaving the masculine form with a feminine noun"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Feminine noun → add -e.",
+        "pattern": "Match the adjective to its noun.",
+        "similar": [
+          "une tâche urgente",
+          "une note longue"
+        ]
+      }
+    },
+    {
+      "id": "itm_of19_adjectives_7",
+      "objectiveId": "OF19",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Place : choisissez la phrase correcte.",
+        "instructions_en": "Which adjective placement is correct?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "C’est un nouveau projet important."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "C’est un nouveau projet important.",
+          "tag": "correct"
+        },
+        {
+          "value": "C’est un important nouveau projet.",
+          "tag": "important_before"
+        },
+        {
+          "value": "C’est un projet nouveau important.",
+          "tag": "nouveau_after"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« nouveau » (a BANGS adjective) precedes the noun; « important » follows it → « un nouveau projet important ».",
+        "distractor_why": {
+          "important_before": "« important » normally follows the noun.",
+          "nouveau_after": "« nouveau » normally precedes the noun."
+        },
+        "grammar_rule": "BANGS adjectives precede; most others follow the noun.",
+        "vocab_notes": "un projet = a project.",
+        "common_mistakes": [
+          "placing every adjective after the noun"
+        ]
+      },
+      "tip": {
+        "memory_aid": "BANGS go before; the rest go after.",
+        "pattern": "[BANGS] + noun + [other adj].",
+        "similar": [
+          "une grande salle moderne",
+          "un bon rapport détaillé"
+        ]
+      }
+    },
+    {
+      "id": "itm_of19_adjectives_8",
+      "objectiveId": "OF19",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adjectives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "descriptions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Féminin : « Elle est ___ (nouveau) dans l’équipe. »",
+        "instructions_en": "Feminine form of nouveau."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "nouvelle"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "nouvelle",
+          "tag": "correct"
+        },
+        {
+          "value": "nouveau",
+          "tag": "masculine"
+        },
+        {
+          "value": "nouvel",
+          "tag": "before_vowel"
+        },
+        {
+          "value": "nouveaux",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "The feminine of « nouveau » is « nouvelle » → « Elle est nouvelle ».",
+        "distractor_why": {
+          "masculine": "« nouveau » is masculine.",
+          "before_vowel": "« nouvel » is the masculine form before a vowel (un nouvel employé).",
+          "plural": "« nouveaux » is masculine plural."
+        },
+        "grammar_rule": "Irregular: beau/belle, nouveau/nouvelle, vieux/vieille; nouvel/bel/vieil before a vowel.",
+        "vocab_notes": "l’équipe (f.) = the team.",
+        "common_mistakes": [
+          "using nouvel for the feminine"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nouveau → nouvelle (f.).",
+        "pattern": "Learn the irregular feminine forms.",
+        "similar": [
+          "une belle présentation",
+          "une vieille version"
+        ]
+      }
+    }
+  ]
+}

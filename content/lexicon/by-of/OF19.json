@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF19",
+  "of": 19,
+  "titleFr": "Évaluer des choses",
+  "titleEn": "To describe things and to express opinions",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à mon avis",
+      "en": "in my opinion"
+    },
+    {
+      "fr": "acceptable (adj. m./f.)",
+      "en": "acceptable"
+    },
+    {
+      "fr": "accord – d'accord",
+      "en": "OK"
+    },
+    {
+      "fr": "adéquat (adj. m.)",
+      "en": "adequate"
+    },
+    {
+      "fr": "adéquate (adj. f.)",
+      "en": "adequate"
+    },
+    {
+      "fr": "affaire – faire l'affaire",
+      "en": "to suit"
+    },
+    {
+      "fr": "air – avoir l'air de",
+      "en": "to look like"
+    },
+    {
+      "fr": "aller (à)",
+      "en": "to pass"
+    },
+    {
+      "fr": "amélioré",
+      "en": "improved"
+    },
+    {
+      "fr": "améliorée",
+      "en": "improved"
+    },
+    {
+      "fr": "amélorer",
+      "en": "to improve"
+    },
+    {
+      "fr": "approprié (adj. m.)",
+      "en": "appropriate"
+    },
+    {
+      "fr": "appropriée (adj. f.)",
+      "en": "appropriate"
+    },
+    {
+      "fr": "après – d’après",
+      "en": "according to"
+    },
+    {
+      "fr": "aussi … que",
+      "en": "as . . . as"
+    },
+    {
+      "fr": "autant",
+      "en": "much, much as"
+    },
+    {
+      "fr": "autre",
+      "en": "other"
+    },
+    {
+      "fr": "averse (n. f.)",
+      "en": "shower"
+    },
+    {
+      "fr": "avis – à mon avis",
+      "en": "in my opinion"
+    },
+    {
+      "fr": "avoir l’air (de)",
+      "en": "to look like"
+    },
+    {
+      "fr": "avoir l’impression de",
+      "en": "to have the impression of"
+    },
+    {
+      "fr": "avoir l’impression que",
+      "en": "to have the impression that"
+    },
+    {
+      "fr": "beau – faire beau",
+      "en": "to be nice (out)"
+    },
+    {
+      "fr": "brouillard (n. m.)",
+      "en": "fog"
+    },
+    {
+      "fr": "bruine (n. f.)",
+      "en": "drizzle"
+    },
+    {
+      "fr": "brume (n. f.)",
+      "en": "mist"
+    },
+    {
+      "fr": "brumeux (adj. m.)",
+      "en": "misty"
+    },
+    {
+      "fr": "canicule (n. f.)",
+      "en": "dog days"
+    },
+    {
+      "fr": "clair (adj. m.)",
+      "en": "clear"
+    },
+    {
+      "fr": "claire (adj. f.)",
+      "en": "clear"
+    },
+    {
+      "fr": "comme",
+      "en": "like"
+    },
+    {
+      "fr": "comparable (adj. m./f.)",
+      "en": "comparable"
+    },
+    {
+      "fr": "comparaison (n. f.)",
+      "en": "comparison"
+    },
+    {
+      "fr": "comparaison – en comparaison de",
+      "en": "in comparison with"
+    },
+    {
+      "fr": "comparatif (n. m.)",
+      "en": "comparative"
+    },
+    {
+      "fr": "comparer (à)",
+      "en": "to compare"
+    },
+    {
+      "fr": "conforme (adj. m./f.)",
+      "en": "in accordance with"
+    },
+    {
+      "fr": "conforme – être conforme à",
+      "en": "to be conform to"
+    },
+    {
+      "fr": "conformer – se conformer à",
+      "en": "to comply with"
+    },
+    {
+      "fr": "convenir à",
+      "en": "to suit"
+    },
+    {
+      "fr": "correct (adj. m.)",
+      "en": "accurate"
+    }
+  ]
+}

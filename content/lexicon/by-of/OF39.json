@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF39",
+  "of": 39,
+  "titleFr": "Évaluer un changement proposé",
+  "titleEn": "To evaluate a proposed change",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "attitude (n. f.)",
+      "en": "attitude"
+    },
+    {
+      "fr": "averti – être averti (de)",
+      "en": "to be warned of"
+    },
+    {
+      "fr": "averti – être averti (de)",
+      "en": "to be informed of"
+    },
+    {
+      "fr": "averti – être averti que",
+      "en": "to be warned that"
+    },
+    {
+      "fr": "averti – être averti que",
+      "en": "to be informed that"
+    },
+    {
+      "fr": "avertie – être avertie (de)",
+      "en": "to be warned of"
+    },
+    {
+      "fr": "avertie – être avertie (de)",
+      "en": "to be informed of"
+    },
+    {
+      "fr": "avertie – être avertie que",
+      "en": "to be warned that"
+    },
+    {
+      "fr": "avertie – être avertie que",
+      "en": "to be informed that"
+    },
+    {
+      "fr": "avoir peur",
+      "en": "to be afraid"
+    },
+    {
+      "fr": "certain (adj. m.)",
+      "en": "certain"
+    },
+    {
+      "fr": "certain – être certain de",
+      "en": "to be certain"
+    },
+    {
+      "fr": "certain – être certain que",
+      "en": "to be certain that"
+    },
+    {
+      "fr": "certaine (adj. f.)",
+      "en": "certain"
+    },
+    {
+      "fr": "certaine – être certaine de",
+      "en": "to be certain"
+    },
+    {
+      "fr": "certaine – être certaine que",
+      "en": "to be certain that"
+    },
+    {
+      "fr": "certitude (n. f.)",
+      "en": "certainty"
+    },
+    {
+      "fr": "chercher à",
+      "en": "to try"
+    },
+    {
+      "fr": "connaissance (n. f.)",
+      "en": "knowledge"
+    },
+    {
+      "fr": "contentement (n. m.)",
+      "en": "contentment"
+    },
+    {
+      "fr": "convaincu – être convaincu de",
+      "en": "to be convinced of"
+    },
+    {
+      "fr": "convaincu – être convaincu",
+      "en": "to be convinced"
+    },
+    {
+      "fr": "convaincue – être convaincue de",
+      "en": "to be convinced of"
+    },
+    {
+      "fr": "convaincue – être convaincue",
+      "en": "to be convinced"
+    },
+    {
+      "fr": "courant – être au courant de",
+      "en": "to be aware of"
+    },
+    {
+      "fr": "courant – se tenir au courant (de)",
+      "en": "to keep oneself aware of"
+    },
+    {
+      "fr": "déception (n. f.)",
+      "en": "disappointment"
+    },
+    {
+      "fr": "dire – entendre dire",
+      "en": "to hear of /about"
+    },
+    {
+      "fr": "dire – se laisser dire",
+      "en": "to hear"
+    },
+    {
+      "fr": "doute (n. m.)",
+      "en": "doubt"
+    },
+    {
+      "fr": "douter",
+      "en": "to doubt"
+    },
+    {
+      "fr": "embarras (n. m.)",
+      "en": "awkward position"
+    },
+    {
+      "fr": "entendre dire que",
+      "en": "to hear that"
+    },
+    {
+      "fr": "entendre parler de",
+      "en": "to hear of /about"
+    },
+    {
+      "fr": "envisager (de)",
+      "en": "to think about"
+    },
+    {
+      "fr": "espoir (n. m.)",
+      "en": "hope"
+    },
+    {
+      "fr": "étonnement (n. m.)",
+      "en": "amazement"
+    },
+    {
+      "fr": "être au courant (de)",
+      "en": "to be aware"
+    },
+    {
+      "fr": "être au courant (de)",
+      "en": "to be well-informed"
+    },
+    {
+      "fr": "être au courant (de)",
+      "en": "to know (about)"
+    },
+    {
+      "fr": "être averti (de)",
+      "en": "to be warned of"
+    }
+  ]
+}

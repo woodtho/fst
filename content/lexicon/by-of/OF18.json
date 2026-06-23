@@ -1,0 +1,158 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF18",
+  "of": 18,
+  "titleFr": "Exprimer une volonté, un souhait, des goûts, des préférences",
+  "titleEn": "To express will (intention), hopes and wishes, taste (liking) and preference",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 36,
+  "entries": [
+    {
+      "fr": "aimer (conditionnel)",
+      "en": "would like"
+    },
+    {
+      "fr": "aimer (bien)",
+      "en": "to like"
+    },
+    {
+      "fr": "aimer mieux",
+      "en": "to prefer"
+    },
+    {
+      "fr": "aimer moins",
+      "en": "not to be keen on"
+    },
+    {
+      "fr": "attendre – s'attendre à (ce que)",
+      "en": "to expect (that)"
+    },
+    {
+      "fr": "avoir l’intention de",
+      "en": "to have the intention of"
+    },
+    {
+      "fr": "avoir l’intention de",
+      "en": "to plan to"
+    },
+    {
+      "fr": "avoir l’intention de",
+      "en": "to intend to"
+    },
+    {
+      "fr": "bien – aimer bien",
+      "en": "to like"
+    },
+    {
+      "fr": "compter (+ infinitif)",
+      "en": "to intend"
+    },
+    {
+      "fr": "compter (+ infinitif)",
+      "en": "to expect"
+    },
+    {
+      "fr": "désirer",
+      "en": "to wish"
+    },
+    {
+      "fr": "désirer",
+      "en": "would like"
+    },
+    {
+      "fr": "exiger",
+      "en": "to demand"
+    },
+    {
+      "fr": "exiger",
+      "en": "to insist"
+    },
+    {
+      "fr": "intention – avoir l'intention de",
+      "en": "to plan to"
+    },
+    {
+      "fr": "intention – avoir l'intention de",
+      "en": "to have the intention of"
+    },
+    {
+      "fr": "intention – avoir l'intention de",
+      "en": "to intend to"
+    },
+    {
+      "fr": "mieux – aimer mieux",
+      "en": "to prefer"
+    },
+    {
+      "fr": "moins – aimer moins",
+      "en": "not to be keen on"
+    },
+    {
+      "fr": "penser à (+ infinitif)",
+      "en": "to intend"
+    },
+    {
+      "fr": "pourvu que",
+      "en": "let’s hope"
+    },
+    {
+      "fr": "pourvu que",
+      "en": "so long as"
+    },
+    {
+      "fr": "pourvu que",
+      "en": "provided that"
+    },
+    {
+      "fr": "présent – subjonctif présent",
+      "en": "present subjunctive"
+    },
+    {
+      "fr": "que – pourvu que",
+      "en": "let’s hope"
+    },
+    {
+      "fr": "que – pourvu que",
+      "en": "so long as"
+    },
+    {
+      "fr": "que – pourvu que",
+      "en": "provided that"
+    },
+    {
+      "fr": "s’attendre à (ce que)",
+      "en": "to expect (that)"
+    },
+    {
+      "fr": "souhait (n. m.)",
+      "en": "wish"
+    },
+    {
+      "fr": "souhaiter",
+      "en": "to hope"
+    },
+    {
+      "fr": "souhaiter",
+      "en": "to wish to"
+    },
+    {
+      "fr": "subjonctif présent",
+      "en": "present subjunctive"
+    },
+    {
+      "fr": "tenir à",
+      "en": "to want very much"
+    },
+    {
+      "fr": "tenir à",
+      "en": "to insist on"
+    },
+    {
+      "fr": "tenir à",
+      "en": "to be determined to"
+    }
+  ]
+}

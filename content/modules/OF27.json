@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF27",
+  "titleFr": "Décrire une tâche (opérations physiques)",
+  "titleEn": "To describe tasks (physical operations)",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/27-2005F",
+    "text": "sources/text/OF27.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF27 — To describe tasks (physical operations). This objective develops the language needed to describe tasks (physical operations) in a Government of Canada workplace. Grammar focus: Pronouns, The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Décrire une tâche (opérations physiques). Objectif communicatif appuyé par : Les pronoms, Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: Pronouns, The present tense.",
+        "charts": [],
+        "points": [
+          "Les pronoms (Pronouns) — Remplacent les noms : objets directs (le/la/les), indirects (lui/leur), y, en, relatifs (qui/que). Ils se placent avant le verbe conjugué.",
+          "· Direct objects: le, la, les, l’.",
+          "· Indirect (à + person): lui, leur. y = à + thing/place; en = de + thing.",
+          "· Relative: qui (subject), que (object).",
+          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
+          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Les pronoms",
+          "itemRefs": [
+            "itm_of27_pronouns_1",
+            "itm_of27_pronouns_2",
+            "itm_of27_pronouns_3",
+            "itm_of27_pronouns_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le présent de l’indicatif",
+          "itemRefs": [
+            "itm_of27_present_5",
+            "itm_of27_present_6",
+            "itm_of27_present_7",
+            "itm_of27_present_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/47-3-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Décrire une tâche (opérations physiques)",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « décrire une tâche (opérations physiques) ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les pronoms, Le présent de l’indicatif.",
+          "promptEn": "In a workplace context, practise the function \"To describe tasks (physical operations)\". Produce a short exchange (3–4 sentences) using: Pronouns, The present tense.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/45-3-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 5,
+        "advanced": 1
+      },
+      "drawFrom": [
+        "OF27"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "pronouns",
+        "present"
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF1",
+  "of": 1,
+  "titleFr": "S’identifier et identifier des personnes",
+  "titleEn": "To identify yourself and other people",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à l’appareil (tél.)",
+      "en": "speaking"
+    },
+    {
+      "fr": "accent (n. m.)",
+      "en": "accent"
+    },
+    {
+      "fr": "accent aigu",
+      "en": "acute accent"
+    },
+    {
+      "fr": "accent circonflexe",
+      "en": "circumflex accent"
+    },
+    {
+      "fr": "accent grave",
+      "en": "grave accent"
+    },
+    {
+      "fr": "aigu (adj. m.)",
+      "en": "acute"
+    },
+    {
+      "fr": "aigu – accent aigu",
+      "en": "acute accent"
+    },
+    {
+      "fr": "anglais (n. m.)",
+      "en": "English"
+    },
+    {
+      "fr": "apostrophe (n. f.)",
+      "en": "apostrophe"
+    },
+    {
+      "fr": "appareil – à l'appareil (tél.)",
+      "en": "speaking"
+    },
+    {
+      "fr": "appeler",
+      "en": "to call"
+    },
+    {
+      "fr": "appeler – s'appeler",
+      "en": "to be called"
+    },
+    {
+      "fr": "appellation (n. f.)",
+      "en": "name"
+    },
+    {
+      "fr": "bien",
+      "en": "really"
+    },
+    {
+      "fr": "c’est",
+      "en": "it is"
+    },
+    {
+      "fr": "ce",
+      "en": "this"
+    },
+    {
+      "fr": "cédille (n. f.)",
+      "en": "cedilla"
+    },
+    {
+      "fr": "circonflexe – accent circonflexe",
+      "en": "circumflex accent"
+    },
+    {
+      "fr": "demander",
+      "en": "to ask"
+    },
+    {
+      "fr": "dire – vouloir dire",
+      "en": "to mean"
+    },
+    {
+      "fr": "elle",
+      "en": "her"
+    },
+    {
+      "fr": "elles",
+      "en": "they"
+    },
+    {
+      "fr": "épeler",
+      "en": "to spell"
+    },
+    {
+      "fr": "équivalent (n. m.)",
+      "en": "equivalent"
+    },
+    {
+      "fr": "être",
+      "en": "to be"
+    },
+    {
+      "fr": "expliquer (à)",
+      "en": "to explain"
+    },
+    {
+      "fr": "fonction (n. f.)",
+      "en": "duty"
+    },
+    {
+      "fr": "fonctionnaire (n. m./f.)",
+      "en": "public servant"
+    },
+    {
+      "fr": "forme (n. f.)",
+      "en": "shape"
+    },
+    {
+      "fr": "forme interrogative",
+      "en": "interrogative sentence"
+    },
+    {
+      "fr": "fort (adj. m.)",
+      "en": "loud"
+    },
+    {
+      "fr": "fort (adj. m.)",
+      "en": "strong"
+    },
+    {
+      "fr": "fort – parler plus fort",
+      "en": "to speak up"
+    },
+    {
+      "fr": "forte (adj. f.)",
+      "en": "strong"
+    },
+    {
+      "fr": "forte (adj. f.)",
+      "en": "loud"
+    },
+    {
+      "fr": "français (adj. m.)",
+      "en": "French"
+    },
+    {
+      "fr": "français (n. m.)",
+      "en": "French"
+    },
+    {
+      "fr": "française (adj. f.)",
+      "en": "French"
+    },
+    {
+      "fr": "grave (adj. m./f.)",
+      "en": "grave"
+    },
+    {
+      "fr": "grave – accent grave",
+      "en": "grave accent"
+    },
+    {
+      "fr": "honneur (n. m.)",
+      "en": "honour"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF9",
+  "of": 9,
+  "titleFr": "Situer un événement dans le temps : passé, présent, futur",
+  "titleEn": "To situate an event in time: past, present, future",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à ce moment-là",
+      "en": "at that time"
+    },
+    {
+      "fr": "à l’avenir",
+      "en": "from now on"
+    },
+    {
+      "fr": "à l’heure actuelle",
+      "en": "at the present time"
+    },
+    {
+      "fr": "actuellement",
+      "en": "currently"
+    },
+    {
+      "fr": "après-demain",
+      "en": "the day after tomorrow"
+    },
+    {
+      "fr": "aujourd’hui",
+      "en": "today"
+    },
+    {
+      "fr": "autrefois",
+      "en": "in the past"
+    },
+    {
+      "fr": "avant-hier",
+      "en": "the day before yesterday"
+    },
+    {
+      "fr": "avenir – à l'avenir",
+      "en": "from now on"
+    },
+    {
+      "fr": "avenir – dans l'avenir",
+      "en": "in the future"
+    },
+    {
+      "fr": "bientôt",
+      "en": "soon"
+    },
+    {
+      "fr": "composé – passé composé",
+      "en": "simple past"
+    },
+    {
+      "fr": "dans l’avenir",
+      "en": "in the future"
+    },
+    {
+      "fr": "demain",
+      "en": "tomorrow"
+    },
+    {
+      "fr": "demain – après-demain",
+      "en": "the day after tomorrow"
+    },
+    {
+      "fr": "dernier (adj. m.)",
+      "en": "last"
+    },
+    {
+      "fr": "dernière (adj. f.)",
+      "en": "last"
+    },
+    {
+      "fr": "être en train de",
+      "en": "ing form"
+    },
+    {
+      "fr": "formation (n. f.)",
+      "en": "formation"
+    },
+    {
+      "fr": "futur (n. m.)",
+      "en": "future"
+    },
+    {
+      "fr": "futur proche",
+      "en": "immediate future"
+    },
+    {
+      "fr": "futur simple",
+      "en": "future"
+    },
+    {
+      "fr": "heure – à l'heure actuelle",
+      "en": "at the present time"
+    },
+    {
+      "fr": "hier",
+      "en": "yesterday"
+    },
+    {
+      "fr": "hier – avant-hier",
+      "en": "the day before yesterday"
+    },
+    {
+      "fr": "hier soir",
+      "en": "last night"
+    },
+    {
+      "fr": "il y a",
+      "en": "ago"
+    },
+    {
+      "fr": "imparfait (n. m.)",
+      "en": "imperfect"
+    },
+    {
+      "fr": "indicateur (n. m.)",
+      "en": "indicator"
+    },
+    {
+      "fr": "maintenant",
+      "en": "now"
+    },
+    {
+      "fr": "moment – à ce moment-là",
+      "en": "at that time"
+    },
+    {
+      "fr": "moment – en ce moment",
+      "en": "at the moment"
+    },
+    {
+      "fr": "passé (n. m.)",
+      "en": "past"
+    },
+    {
+      "fr": "passé composé",
+      "en": "simple past"
+    },
+    {
+      "fr": "présentement",
+      "en": "at present"
+    },
+    {
+      "fr": "présentement",
+      "en": "presently"
+    },
+    {
+      "fr": "prochain (adj. m.)",
+      "en": "next"
+    },
+    {
+      "fr": "prochaine (adj. f.)",
+      "en": "next"
+    },
+    {
+      "fr": "référence (n. f.)",
+      "en": "reference"
+    },
+    {
+      "fr": "semaine (n. f.)",
+      "en": "week"
+    },
+    {
+      "fr": "temps (n. m.)",
+      "en": "tense"
+    }
+  ]
+}

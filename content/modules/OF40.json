@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF40",
+  "titleFr": "Persuader quelqu’un de quelque chose",
+  "titleEn": "To convince someone of something",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/40-2005F",
+    "text": "sources/text/OF40.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF40 — To convince someone of something. This objective develops the language needed to convince someone of something in a Government of Canada workplace. Grammar focus: The present conditional, The present subjunctive. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Persuader quelqu’un de quelque chose. Objectif communicatif appuyé par : Le conditionnel présent, Le subjonctif présent. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present conditional, The present subjunctive.",
+        "charts": [],
+        "points": [
+          "Le conditionnel présent (The present conditional) — Politesse, hypothèses et « would ». Radical du futur + terminaisons de l’imparfait.",
+          "· Stem = future stem; endings = imperfect endings.",
+          "· Politeness: je voudrais, pourriez-vous, j’aimerais.",
+          "· Used in the result clause of si + imparfait.",
+          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
+          "· Trigger: il faut que, vouloir que, être content que, douter que…",
+          "· Stem from ils-present (ils finissent → finiss-).",
+          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le conditionnel présent",
+          "itemRefs": [
+            "itm_of40_conditionnel_1",
+            "itm_of40_conditionnel_2",
+            "itm_of40_conditionnel_3",
+            "itm_of40_conditionnel_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le subjonctif présent",
+          "itemRefs": [
+            "itm_of40_subjonctif_5",
+            "itm_of40_subjonctif_6",
+            "itm_of40_subjonctif_7",
+            "itm_of40_subjonctif_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/47-4-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Persuader quelqu’un de quelque chose",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « persuader quelqu’un de quelque chose ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le conditionnel présent, Le subjonctif présent.",
+          "promptEn": "In a workplace context, practise the function \"To convince someone of something\". Produce a short exchange (3–4 sentences) using: The present conditional, The present subjunctive.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/45-4-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 4,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF40"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "conditionnel",
+        "subjonctif"
+      ]
+    }
+  }
+}

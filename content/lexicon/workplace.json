@@ -1,0 +1,28 @@
+{
+  "schema": "lexicon/v1",
+  "domainId": "workplace",
+  "nameFr": "Le milieu de travail",
+  "nameEn": "Workplace",
+  "entries": [
+    { "fr": "le bureau", "en": "the office / desk", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "Mon bureau est au troisième étage." },
+    { "fr": "le courriel", "en": "the email", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "J'ai répondu à votre courriel ce matin." },
+    { "fr": "la réunion", "en": "the meeting", "pos": "n.f.", "gender": "f", "register": "neutral", "example": "La réunion commence à 9 h." },
+    { "fr": "l'ordre du jour", "en": "the agenda", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "J'ai préparé l'ordre du jour." },
+    { "fr": "le compte rendu", "en": "the minutes / write-up", "pos": "n.m.", "gender": "m", "register": "formal", "example": "Le compte rendu sera envoyé demain." },
+    { "fr": "le dossier", "en": "the file / case", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "Ce dossier est urgent." },
+    { "fr": "la tâche", "en": "the task", "pos": "n.f.", "gender": "f", "register": "neutral", "example": "J'ai terminé toutes mes tâches." },
+    { "fr": "le projet", "en": "the project", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "Le projet avance bien." },
+    { "fr": "le collègue / la collègue", "en": "the colleague", "pos": "n.", "register": "neutral", "example": "Mes collègues sont serviables." },
+    { "fr": "l'équipe", "en": "the team", "pos": "n.f.", "gender": "f", "register": "neutral", "example": "Notre équipe compte huit personnes." },
+    { "fr": "la formation", "en": "the training", "pos": "n.f.", "gender": "f", "register": "neutral", "example": "Je suis une formation en français." },
+    { "fr": "l'horaire", "en": "the schedule", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "Mon horaire est flexible." },
+    { "fr": "préparer", "en": "to prepare", "pos": "v.", "register": "neutral", "example": "Je prépare la présentation." },
+    { "fr": "envoyer", "en": "to send", "pos": "v.", "register": "neutral", "example": "Je vous envoie le fichier." },
+    { "fr": "terminer", "en": "to finish", "pos": "v.", "register": "neutral", "example": "J'ai terminé le rapport." },
+    { "fr": "vérifier", "en": "to check / verify", "pos": "v.", "register": "neutral", "example": "Pouvez-vous vérifier les chiffres ?" },
+    { "fr": "transmettre", "en": "to forward / pass on", "pos": "v.", "register": "formal", "example": "Je transmets votre demande au gestionnaire." },
+    { "fr": "convoquer", "en": "to convene / call (a meeting)", "pos": "v.", "register": "formal", "example": "On convoque une réunion pour vendredi." },
+    { "fr": "disponible", "en": "available", "pos": "adj.", "register": "neutral", "example": "Êtes-vous disponible à 14 h ?" },
+    { "fr": "en attente", "en": "pending / on hold", "pos": "expr.", "register": "neutral", "example": "Le dossier est en attente." }
+  ]
+}

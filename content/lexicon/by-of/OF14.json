@@ -1,0 +1,86 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF14",
+  "of": 14,
+  "titleFr": "S’informer ou informer d’un événement",
+  "titleEn": "To give or ask information about events and happenings",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 18,
+  "entries": [
+    {
+      "fr": "annulation (n. f.)",
+      "en": "cancellation"
+    },
+    {
+      "fr": "arriver",
+      "en": "to happen"
+    },
+    {
+      "fr": "avoir lieu",
+      "en": "to take place"
+    },
+    {
+      "fr": "dérouler – se dérouler",
+      "en": "to take place"
+    },
+    {
+      "fr": "dérouler – se dérouler",
+      "en": "to go off"
+    },
+    {
+      "fr": "événement (n. m.)",
+      "en": "event"
+    },
+    {
+      "fr": "fait (n. m.)",
+      "en": "fact"
+    },
+    {
+      "fr": "incident (n. m.)",
+      "en": "incident"
+    },
+    {
+      "fr": "lieu – avoir lieu",
+      "en": "to take place"
+    },
+    {
+      "fr": "passer – se passer",
+      "en": "to happen"
+    },
+    {
+      "fr": "produire – se produire",
+      "en": "to happen"
+    },
+    {
+      "fr": "se dérouler",
+      "en": "to take place"
+    },
+    {
+      "fr": "se dérouler",
+      "en": "to go off"
+    },
+    {
+      "fr": "se passer",
+      "en": "to happen"
+    },
+    {
+      "fr": "se produire",
+      "en": "to happen"
+    },
+    {
+      "fr": "se tenir",
+      "en": "to be held"
+    },
+    {
+      "fr": "survenir",
+      "en": "to happen"
+    },
+    {
+      "fr": "tenir – se tenir",
+      "en": "to be held"
+    }
+  ]
+}

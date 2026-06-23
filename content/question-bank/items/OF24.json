@@ -1,0 +1,888 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF24",
+  "source": {
+    "catalogue": "SC102-2/24-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of24_passe_compose_1",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Mettez au passé composé : « Hier, j’___ (terminer) le dossier. »",
+        "instructions_en": "Passé composé with avoir."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "ai terminé"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^ai termin[ée]$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "avoir (ai) + participe passé (terminé) = « ai terminé ». No agreement under avoir without a preceding object.",
+        "distractor_why": {
+          "infinitive": "« ai terminer » uses the infinitive; need the participle terminé.",
+          "agreement": "« ai terminée » adds agreement, but no preceding direct object here."
+        },
+        "grammar_rule": "Passé composé = auxiliaire au présent + participe passé.",
+        "vocab_notes": "terminer → terminé.",
+        "common_mistakes": [
+          "infinitive for participle",
+          "needless agreement under avoir"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_passe_compose_2",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.5,
+      "prompt": {
+        "fr": "Choisissez l’auxiliaire : « Elle ___ partie à midi. »",
+        "instructions_en": "Pick the correct auxiliary."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "est"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "est",
+          "tag": "correct"
+        },
+        {
+          "value": "a",
+          "tag": "avoir_for_etre"
+        },
+        {
+          "value": "es",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "ont",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« partir » is an être-verb → « est », and the participle agrees: « est partie » (feminine).",
+        "distractor_why": {
+          "avoir_for_etre": "« a » is avoir; partir takes être.",
+          "wrong_person": "« es » is the tu form.",
+          "plural": "« ont » is plural."
+        },
+        "grammar_rule": "Movement verbs (partir, arriver, venir…) take être; participle agrees with the subject.",
+        "vocab_notes": "partir → parti(e).",
+        "common_mistakes": [
+          "using avoir with être-verbs",
+          "forgetting subject agreement"
+        ]
+      },
+      "tip": {
+        "memory_aid": "DR & MRS VANDERTRAMP = être verbs.",
+        "pattern": "être + participle → agree with subject.",
+        "similar": [
+          "Il est arrivé.",
+          "Elles sont venues."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_passe_compose_3",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Corrigez : « Nous avons allés à la réunion. »",
+        "instructions_en": "Fix the auxiliary and agreement."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous sommes allés à la réunion",
+          "Nous sommes allés à la réunion."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« aller » is an être-verb → « sommes », and the participle agrees with nous (plural): « allés ».",
+        "distractor_why": {
+          "kept_avoir": "« avons allés » uses avoir; aller takes être.",
+          "no_agreement": "Under être, the participle must agree (allés)."
+        },
+        "grammar_rule": "aller → être; participle agrees with the subject.",
+        "vocab_notes": "aller à la réunion = to go to the meeting.",
+        "common_mistakes": [
+          "using avoir with aller/venir",
+          "missing plural agreement"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aller, venir, arriver, partir → être.",
+        "pattern": "subject + être + participle(agrees).",
+        "similar": [
+          "Nous sommes arrivés tôt.",
+          "Ils sont venus à midi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_passe_compose_4",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Mettez au passé composé : « La gestionnaire ___ (recevoir) les commentaires. »",
+        "instructions_en": "Passé composé (irregular participle)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "a reçu"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^a re[çc]u$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "recevoir is irregular: participle « reçu »; with avoir → « a reçu ».",
+        "distractor_why": {
+          "regularized": "« a recevu » regularizes an irregular participle; it is « reçu ».",
+          "agreement": "No preceding direct object, so no agreement."
+        },
+        "grammar_rule": "Some participles are irregular: recevoir→reçu, écrire→écrit, faire→fait, prendre→pris.",
+        "vocab_notes": "recevoir → reçu; les commentaires = feedback.",
+        "common_mistakes": [
+          "regularizing irregular participles"
+        ]
+      },
+      "tip": {
+        "memory_aid": "reçu carries a cedilla (ç).",
+        "pattern": "Memorize high-frequency irregular participles.",
+        "similar": [
+          "Il a écrit le rapport.",
+          "J’ai pris des notes."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_imparfait_5",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Mettez à l’imparfait : « Avant, je ___ (travailler) à Montréal. »",
+        "instructions_en": "Imperfect, je form."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Stem travaill- + -ais (je) = « travaillais ».",
+        "distractor_why": {
+          "present": "« travaille » is the present.",
+          "passe_compose": "« ai travaillé » is the passé composé."
+        },
+        "grammar_rule": "Imparfait je → radical + -ais.",
+        "vocab_notes": "Avant = before/previously (signals habit → imparfait).",
+        "common_mistakes": [
+          "using present or passé composé for a past habit"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Habit/background in the past → imparfait.",
+        "pattern": "nous-stem + -ais/-ait…",
+        "similar": [
+          "Avant, il habitait à Québec.",
+          "Nous travaillions ensemble."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_imparfait_6",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Choisissez le temps : « Quand le téléphone a sonné, je ___ un courriel. »",
+        "instructions_en": "Background action interrupted → which form?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "écrivais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "écrivais",
+          "tag": "correct"
+        },
+        {
+          "value": "ai écrit",
+          "tag": "pc_for_background"
+        },
+        {
+          "value": "écris",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "The ongoing background action uses the imparfait: « j’écrivais » (was writing) when the phone rang (passé composé).",
+        "distractor_why": {
+          "pc_for_background": "« ai écrit » would mean a completed action, not the ongoing background.",
+          "present": "« écris » is present, not past."
+        },
+        "grammar_rule": "Imparfait = ongoing/background; passé composé = the interrupting completed event.",
+        "vocab_notes": "sonner = to ring.",
+        "common_mistakes": [
+          "using passé composé for the background action"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Was -ing → imparfait.",
+        "pattern": "Background (imparfait) + event (passé composé).",
+        "similar": [
+          "Je lisais quand il est arrivé.",
+          "Elle parlait quand on a frappé."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_imparfait_7",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Mettez à l’imparfait : « Nous ___ (être) en réunion à 10 h. »",
+        "instructions_en": "Imperfect of être."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "étions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "être has the irregular imparfait stem ét-: nous → « étions ».",
+        "distractor_why": {
+          "present": "« sommes » is present.",
+          "wrong_stem": "être does not use the regular nous-stem; it uses ét-."
+        },
+        "grammar_rule": "être imparfait: j’étais, tu étais, il était, nous étions, vous étiez, ils étaient.",
+        "vocab_notes": "en réunion = in a meeting.",
+        "common_mistakes": [
+          "regularizing être's imperfect stem"
+        ]
+      },
+      "tip": {
+        "memory_aid": "être → ét- (j’étais).",
+        "pattern": "Only the stem is irregular; endings are normal.",
+        "similar": [
+          "J’étais au bureau.",
+          "Ils étaient absents."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_imparfait_8",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.4,
+      "prompt": {
+        "fr": "Complétez : « Tous les lundis, elle ___ (préparer) l’ordre du jour. »",
+        "instructions_en": "Repeated past habit → which form/ending?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "préparait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "préparait",
+          "tag": "correct"
+        },
+        {
+          "value": "a préparé",
+          "tag": "pc_for_habit"
+        },
+        {
+          "value": "prépare",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Tous les lundis » signals a repeated past habit → imparfait: « préparait ».",
+        "distractor_why": {
+          "pc_for_habit": "Passé composé marks a single completed event, not a habit.",
+          "present": "Present doesn't place it in the past."
+        },
+        "grammar_rule": "Repeated/habitual past actions use the imparfait.",
+        "vocab_notes": "tous les lundis = every Monday.",
+        "common_mistakes": [
+          "using passé composé for habits"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Used to / every… → imparfait.",
+        "pattern": "Habit markers (tous les…, souvent) → imparfait.",
+        "similar": [
+          "Chaque jour, il classait les dossiers.",
+          "Souvent, nous arrivions tôt."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_futur_simple_9",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Futur simple : « La semaine prochaine, nous ___ (terminer) le projet. »",
+        "instructions_en": "Simple future, nous form."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "terminerons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Infinitive terminer + -ons (nous) = « terminerons ».",
+        "distractor_why": {
+          "present": "« terminons » is present.",
+          "conditional": "« terminerions » is the conditional."
+        },
+        "grammar_rule": "Futur simple = infinitif + -ai/-as/-a/-ons/-ez/-ont.",
+        "vocab_notes": "la semaine prochaine = next week.",
+        "common_mistakes": [
+          "confusing future -ons with conditional -ions"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_futur_simple_10",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Complétez : « Demain, je ___ (être) au bureau à 8 h. »",
+        "instructions_en": "Simple future of être (irregular stem)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "serai"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "serai",
+          "tag": "correct"
+        },
+        {
+          "value": "suis",
+          "tag": "present"
+        },
+        {
+          "value": "étais",
+          "tag": "imperfect"
+        },
+        {
+          "value": "serais",
+          "tag": "conditional"
+        }
+      ],
+      "explanation": {
+        "correct_why": "être has the irregular future stem ser-: je → « serai ».",
+        "distractor_why": {
+          "present": "« suis » is present.",
+          "imperfect": "« étais » is imperfect.",
+          "conditional": "« serais » is conditional."
+        },
+        "grammar_rule": "être future: serai, seras, sera, serons, serez, seront.",
+        "vocab_notes": "au bureau = at the office.",
+        "common_mistakes": [
+          "confusing future serai with conditional serais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "être → ser- (serai).",
+        "pattern": "Memorize irregular future stems (ser-, aur-, ir-, fer-).",
+        "similar": [
+          "J’aurai le rapport demain.",
+          "Nous ferons le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_futur_simple_11",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Futur simple : « Quand le budget ___ (être) approuvé, nous embaucherons. »",
+        "instructions_en": "After 'quand' referring to the future, use the future."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "sera"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « quand » referring to a future event, French uses the future: « quand le budget sera approuvé ».",
+        "distractor_why": {
+          "present_after_quand": "Unlike English ('when it is'), French uses the future after quand for future time."
+        },
+        "grammar_rule": "After quand/lorsque/dès que about the future, use the futur simple (not the present).",
+        "vocab_notes": "approuvé = approved; embaucher = to hire.",
+        "common_mistakes": [
+          "using the present after quand (English interference)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "quand + future → future (not present).",
+        "pattern": "Future time clause ⇒ future tense.",
+        "similar": [
+          "Dès que j’aurai les chiffres, je t’écrirai.",
+          "Quand il arrivera, nous commencerons."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_futur_simple_12",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Corrigez : « Nous prendrons une décision quand nous avons toutes les données. »",
+        "instructions_en": "Fix the tense after 'quand'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous prendrons une décision quand nous aurons toutes les données",
+          "Nous prendrons une décision quand nous aurons toutes les données."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Future time after quand → future: « quand nous aurons toutes les données ».",
+        "distractor_why": {
+          "present_kept": "« avons » (present) is wrong here; the data is in the future, so use « aurons »."
+        },
+        "grammar_rule": "Both clauses are future when quand refers to a future moment.",
+        "vocab_notes": "les données = the data.",
+        "common_mistakes": [
+          "leaving the present after quand"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Two futures around 'quand'.",
+        "pattern": "[future] … quand [future].",
+        "similar": [
+          "Je commencerai quand tu seras prêt.",
+          "On partira dès qu’il arrivera."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_reported_speech_13",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Discours indirect : « Il dit : “Je suis occupé.” » → « Il dit qu’il ___ occupé. »",
+        "instructions_en": "Reporting with a present introducing verb."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "est"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "est",
+          "tag": "correct"
+        },
+        {
+          "value": "était",
+          "tag": "shift_not_needed"
+        },
+        {
+          "value": "soit",
+          "tag": "subjunctive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "The introducing verb « dit » is present, so no tense shift: « Il dit qu’il est occupé ».",
+        "distractor_why": {
+          "shift_not_needed": "« était » (imparfait) is only needed when the introducing verb is in the past.",
+          "subjunctive": "« dire que » takes the indicative, not the subjunctive."
+        },
+        "grammar_rule": "Present introducing verb → no tense change in reported speech.",
+        "vocab_notes": "occupé = busy.",
+        "common_mistakes": [
+          "shifting tenses when the introducing verb is present"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Present 'dit que' → keep the tense.",
+        "pattern": "dire que + indicative.",
+        "similar": [
+          "Elle dit qu’elle arrive.",
+          "Il dit qu’il a le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_reported_speech_14",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Au passé : « Il a dit : “Je suis occupé.” » → « Il a dit qu’il ___ occupé. »",
+        "instructions_en": "Past introducing verb → shift the tense."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "était"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "When the introducing verb is past (« a dit »), the present shifts to the imparfait: « il était occupé ».",
+        "distractor_why": {
+          "present_kept": "« est » doesn't reflect the required past shift after « a dit »."
+        },
+        "grammar_rule": "Concordance des temps: present → imparfait after a past reporting verb.",
+        "vocab_notes": "occupé = busy.",
+        "common_mistakes": [
+          "keeping the present after a past reporting verb"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Past report → present becomes imparfait.",
+        "pattern": "a dit que + imparfait.",
+        "similar": [
+          "Elle a dit qu’elle arrivait.",
+          "Il a dit qu’il avait le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_reported_speech_15",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Question indirecte : « Il demande : “Est-ce que tu viens?” » → « Il demande ___ tu viens. »",
+        "instructions_en": "Report a yes/no question."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "si"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "si",
+          "tag": "correct"
+        },
+        {
+          "value": "que",
+          "tag": "que_for_statement"
+        },
+        {
+          "value": "est-ce que",
+          "tag": "kept_estceque"
+        }
+      ],
+      "explanation": {
+        "correct_why": "A reported yes/no question uses « si »: « Il demande si tu viens ».",
+        "distractor_why": {
+          "que_for_statement": "« que » introduces a reported statement, not a yes/no question.",
+          "kept_estceque": "« est-ce que » disappears in indirect speech; it becomes « si »."
+        },
+        "grammar_rule": "Reported yes/no question: demander si.",
+        "vocab_notes": "venir = to come.",
+        "common_mistakes": [
+          "keeping est-ce que in indirect questions"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Yes/no question reported → si.",
+        "pattern": "demander si + clause.",
+        "similar": [
+          "Il demande si c’est prêt.",
+          "Elle demande si tu es libre."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_reported_speech_16",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Corrigez : « Elle a dit qu’elle va envoyer le rapport demain. » (concordance)",
+        "instructions_en": "Apply the tense shift after a past reporting verb."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a dit qu’elle allait envoyer le rapport le lendemain",
+          "Elle a dit qu’elle enverrait le rapport le lendemain",
+          "Elle a dit qu’elle allait envoyer le rapport le lendemain."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « a dit » (past), the near future « va envoyer » shifts to « allait envoyer » (or future→conditional « enverrait »), and « demain » → « le lendemain ».",
+        "distractor_why": {
+          "no_shift": "« va envoyer » keeps the present-time frame; after a past report it must shift."
+        },
+        "grammar_rule": "Past reporting: futur proche → imparfait of aller + inf.; futur → conditionnel; demain → le lendemain.",
+        "vocab_notes": "le lendemain = the next day.",
+        "common_mistakes": [
+          "not shifting tense or time words in past reported speech"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Past report shifts both tense and time words.",
+        "pattern": "a dit que + shifted tense + le lendemain.",
+        "similar": [
+          "Il a dit qu’il viendrait le lendemain.",
+          "Elle a dit qu’elle était occupée ce jour-là."
+        ]
+      }
+    }
+  ]
+}

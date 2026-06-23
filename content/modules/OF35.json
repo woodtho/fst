@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF35",
+  "titleFr": "Faire des prévisions",
+  "titleEn": "To make forecasts",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/35-2005F",
+    "text": "sources/text/OF35.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF35 — To make forecasts. This objective develops the language needed to make forecasts in a Government of Canada workplace. Grammar focus: The simple future, The present conditional. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Faire des prévisions. Objectif communicatif appuyé par : Le futur simple, Le conditionnel présent. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The simple future, The present conditional.",
+        "charts": [],
+        "points": [
+          "Le futur simple (The simple future) — Faits et intentions futurs. Terminaisons -ai, -as, -a, -ons, -ez, -ont sur l’infinitif. Radicaux irréguliers : être→ser-, avoir→aur-, aller→ir-, faire→fer-.",
+          "· Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
+          "· -re verbs drop the final -e: prendre → prendr-.",
+          "· Irregular stems: ser-, aur-, ir-, fer-, viendr-, pourr-, devr-.",
+          "Le conditionnel présent (The present conditional) — Politesse, hypothèses et « would ». Radical du futur + terminaisons de l’imparfait.",
+          "· Stem = future stem; endings = imperfect endings.",
+          "· Politeness: je voudrais, pourriez-vous, j’aimerais.",
+          "· Used in the result clause of si + imparfait."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le futur simple",
+          "itemRefs": [
+            "itm_of35_futur_simple_1",
+            "itm_of35_futur_simple_2",
+            "itm_of35_futur_simple_3",
+            "itm_of35_futur_simple_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le conditionnel présent",
+          "itemRefs": [
+            "itm_of35_conditionnel_5",
+            "itm_of35_conditionnel_6",
+            "itm_of35_conditionnel_7",
+            "itm_of35_conditionnel_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/47-4-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Faire des prévisions",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « faire des prévisions ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le futur simple, Le conditionnel présent.",
+          "promptEn": "In a workplace context, practise the function \"To make forecasts\". Produce a short exchange (3–4 sentences) using: The simple future, The present conditional.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/45-4-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 4,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF35"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "futur_simple",
+        "conditionnel"
+      ]
+    }
+  }
+}

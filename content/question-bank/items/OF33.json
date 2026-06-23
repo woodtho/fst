@@ -1,0 +1,496 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF33",
+  "source": {
+    "catalogue": "SC102-2/33-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of33_pronouns_1",
+      "objectiveId": "OF33",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Remplacez : « Je parle au directeur. » → « Je ___ parle. »",
+        "instructions_en": "Replace 'au directeur' with the right pronoun."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "lui"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "lui",
+          "tag": "correct"
+        },
+        {
+          "value": "le",
+          "tag": "direct"
+        },
+        {
+          "value": "y",
+          "tag": "y_for_person"
+        },
+        {
+          "value": "leur",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« parler à quelqu’un » takes an indirect object; à + one person → « lui » → « Je lui parle ».",
+        "distractor_why": {
+          "direct": "« le » is a direct object pronoun; parler uses à (indirect).",
+          "y_for_person": "« y » replaces à + thing/place, not a person.",
+          "plural": "« leur » is for several people."
+        },
+        "grammar_rule": "Indirect object (à + person): lui (singular), leur (plural).",
+        "vocab_notes": "parler à = to speak to.",
+        "common_mistakes": [
+          "using y for a person",
+          "using le instead of lui"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + person → lui/leur.",
+        "pattern": "Verb + à + person ⇒ indirect pronoun.",
+        "similar": [
+          "Je leur écris.",
+          "Tu lui téléphones."
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_pronouns_2",
+      "objectiveId": "OF33",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Relatif : « C’est le dossier ___ je cherche. »",
+        "instructions_en": "Choose qui or que."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "que",
+          "tag": "correct"
+        },
+        {
+          "value": "qui",
+          "tag": "subject"
+        },
+        {
+          "value": "dont",
+          "tag": "de_relative"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« je cherche [le dossier] » — the dossier is the direct object of cherche, so the relative pronoun is « que ».",
+        "distractor_why": {
+          "subject": "« qui » is used when the relative is the subject (le dossier qui est sur le bureau).",
+          "de_relative": "« dont » replaces de + noun (le dossier dont j’ai besoin)."
+        },
+        "grammar_rule": "qui = subject of the relative clause; que = direct object.",
+        "vocab_notes": "chercher = to look for (no preposition).",
+        "common_mistakes": [
+          "confusing qui (subject) and que (object)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "que + subject+verb; qui + verb directly.",
+        "pattern": "If a subject follows, use que; if a verb follows, use qui.",
+        "similar": [
+          "le rapport que j’ai écrit",
+          "le collègue qui travaille ici"
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_pronouns_3",
+      "objectiveId": "OF33",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Remplacez « des dossiers » : « J’ai trois dossiers. → J’___ ai trois. »",
+        "instructions_en": "Use the pronoun en."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "en"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« en » replaces de/des + noun and is kept with quantities: « J’en ai trois » (I have three of them).",
+        "distractor_why": {
+          "les": "« les » would drop the number; with a quantity you keep « en » + number.",
+          "y": "« y » replaces à + thing/place, not a quantity."
+        },
+        "grammar_rule": "en replaces de + noun and stays with expressions of quantity.",
+        "vocab_notes": "un dossier = a file/case.",
+        "common_mistakes": [
+          "dropping en with quantities",
+          "using les with a number"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantity → keep « en » + number.",
+        "pattern": "J’en ai trois / beaucoup / assez.",
+        "similar": [
+          "Des réunions? J’en ai deux.",
+          "Du café? J’en veux."
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_pronouns_4",
+      "objectiveId": "OF33",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Remplacez : « J’envoie le rapport au gestionnaire. » → « Je ___ envoie au gestionnaire. »",
+        "instructions_en": "Replace 'le rapport' with the right pronoun."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "l’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "l’",
+          "tag": "correct"
+        },
+        {
+          "value": "lui",
+          "tag": "indirect"
+        },
+        {
+          "value": "y",
+          "tag": "y_wrong"
+        },
+        {
+          "value": "en",
+          "tag": "en_wrong"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« le rapport » is a direct object → le; before a vowel it elides to « l’ » → « Je l’envoie ».",
+        "distractor_why": {
+          "indirect": "« lui » replaces an indirect object (au gestionnaire), not le rapport.",
+          "y_wrong": "« y » replaces à + thing/place.",
+          "en_wrong": "« en » replaces de + noun."
+        },
+        "grammar_rule": "Direct object pronouns: le, la, les, l’ (before a vowel).",
+        "vocab_notes": "le rapport (m.) → le/l’.",
+        "common_mistakes": [
+          "using lui for a thing",
+          "no elision before a vowel"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_comparatives_5",
+      "objectiveId": "OF33",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Superlatif : « C’est ___ solution. » (the best — adjective)",
+        "instructions_en": "Choose the superlative of bon."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "la meilleure"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "la meilleure",
+          "tag": "correct"
+        },
+        {
+          "value": "la plus bonne",
+          "tag": "plus_bonne"
+        },
+        {
+          "value": "la mieux",
+          "tag": "mieux_adj"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« bon » is irregular: superlative « le/la meilleur(e) ». « solution » is feminine → « la meilleure solution ».",
+        "distractor_why": {
+          "plus_bonne": "« plus bonne » is incorrect; use « meilleure ».",
+          "mieux_adj": "« mieux » is an adverb (modifies a verb), not an adjective for a noun."
+        },
+        "grammar_rule": "bon → meilleur (adjective); bien → mieux (adverb).",
+        "vocab_notes": "la solution (f.) → la meilleure.",
+        "common_mistakes": [
+          "saying 'plus bon'",
+          "confusing meilleur (adj.) and mieux (adv.)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "good→meilleur; well→mieux.",
+        "pattern": "Never 'plus bon'.",
+        "similar": [
+          "le meilleur choix",
+          "Elle travaille mieux."
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_comparatives_6",
+      "objectiveId": "OF33",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Égalité : « Ce rapport est ___ détaillé ___ l’autre. » (as … as)",
+        "instructions_en": "Express equality."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "aussi / que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "aussi / que",
+          "tag": "correct"
+        },
+        {
+          "value": "plus / que",
+          "tag": "superiority"
+        },
+        {
+          "value": "aussi / de",
+          "tag": "wrong_de"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Equality: « aussi … que » → « aussi détaillé que l’autre ».",
+        "distractor_why": {
+          "superiority": "« plus … que » means 'more … than'.",
+          "wrong_de": "Comparisons use que, not de."
+        },
+        "grammar_rule": "aussi + adjective + que = as … as.",
+        "vocab_notes": "détaillé = detailed.",
+        "common_mistakes": [
+          "using de instead of que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aussi … que = as … as.",
+        "pattern": "equality = aussi … que.",
+        "similar": [
+          "aussi clair que",
+          "aussi long que"
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_comparatives_7",
+      "objectiveId": "OF33",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Superlatif : « C’est le projet ___ ___ important du ministère. » (the most)",
+        "instructions_en": "Write 'le plus' for the superlative."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le plus"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Superlative of superiority: « le plus important » → « le projet le plus important ».",
+        "distractor_why": {
+          "plus_only": "The article (le) is required in the superlative.",
+          "tres": "« très » is 'very', not a superlative."
+        },
+        "grammar_rule": "Superlative: le/la/les plus/moins + adjective (article repeated after the noun for post-nominal adjectives).",
+        "vocab_notes": "important follows the noun, so the article repeats: le projet le plus important.",
+        "common_mistakes": [
+          "dropping the article in the superlative"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Superlative needs THE: le plus / la plus.",
+        "pattern": "le/la/les + plus/moins + adjective.",
+        "similar": [
+          "la plus efficace",
+          "les plus rapides"
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_comparatives_8",
+      "objectiveId": "OF33",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Comparatif : « Cette option est ___ efficace ___ l’autre. » (more … than)",
+        "instructions_en": "Choose the comparative."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "plus / que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "plus / que",
+          "tag": "correct"
+        },
+        {
+          "value": "plus / de",
+          "tag": "wrong_de"
+        },
+        {
+          "value": "très / que",
+          "tag": "tres"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Comparison of superiority: « plus … que » → « plus efficace que l’autre ».",
+        "distractor_why": {
+          "wrong_de": "Use « que » (not de) in comparisons.",
+          "tres": "« très » means 'very', not 'more … than'."
+        },
+        "grammar_rule": "plus/moins/aussi + adjective + que.",
+        "vocab_notes": "efficace = effective/efficient.",
+        "common_mistakes": [
+          "using de instead of que",
+          "confusing très and plus"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      }
+    }
+  ]
+}

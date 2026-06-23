@@ -1,0 +1,43 @@
+{
+  "schema": "template/v1",
+  "id": "tmpl_pc_regular_er",
+  "objectiveId": "A11",
+  "type": "fill_blank",
+  "difficulty": "easy",
+  "skill": "grammar",
+  "grammarConcepts": ["passe_compose"],
+  "vocabDomains": ["workplace"],
+  "theme": "workplace",
+  "maxInstances": 60,
+  "stem": "{time}, {subjectDisplay} ___ ({infinitive}) {complement}.",
+  "instructions_en": "Write the verb in the passé composé.",
+  "answerExpr": "{aux} {participle}",
+  "answer": { "type": "text", "normalizer": "fr_accent_insensitive_trim_lower" },
+  "slots": {
+    "time": ["Hier", "La semaine dernière", "Ce matin", "Lundi dernier", "Avant-hier"],
+    "subject": ["je", "il", "elle", "nous", "le gestionnaire"],
+    "infinitive": ["envoyer", "préparer", "terminer", "vérifier", "commencer"],
+    "complement": ["le rapport", "le courriel", "l'ordre du jour", "le dossier", "la révision"]
+  },
+  "derivations": {
+    "subjectDisplay": "elide(subject)",
+    "aux": "avoir.present(subject)",
+    "participle": "infinitive.pastParticiple()"
+  },
+  "constraints": [
+    "NOT (subject == 'nous' AND complement == 'l'ordre du jour' AND infinitive == 'commencer')",
+    "infinitive == 'commencer' IMPLIES complement != 'le courriel'"
+  ],
+  "explanationTemplate": {
+    "correct_why": "Passé composé de « {infinitive} » avec {subjectDisplay} : avoir au présent ({aux}) + participe passé ({participle}). Avec avoir, pas d'accord avec le sujet (aucun objet direct ne précède le verbe).",
+    "grammar_rule": "Passé composé = auxiliaire (avoir) au présent + participe passé. Les verbes en -er ont un participe en -é.",
+    "vocab_notes": "{infinitive} → {participle}.",
+    "common_mistakes": ["infinitif -er employé comme participe", "accord inutile sous avoir"]
+  },
+  "tipTemplate": {
+    "memory_aid": "Participe en -é (un seul son /e/), pas l'infinitif -er.",
+    "pattern": "avoir + participe passé → pas d'accord (sauf objet direct antéposé).",
+    "similar": ["J'ai préparé le dossier.", "Nous avons vérifié les chiffres."]
+  },
+  "notes": "Generator expands slots, applies constraints + linguistic linter (elision je→j', agreement), dedups by hash(template, slotValues), emits items with status=needsReview."
+}

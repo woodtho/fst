@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF10",
+  "of": 10,
+  "titleFr": "Assigner des tâches",
+  "titleEn": "To assign work",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "a commercial (@) (n. m.)",
+      "en": "the at-sign (@)"
+    },
+    {
+      "fr": "accueil - page d'accueil",
+      "en": "home page"
+    },
+    {
+      "fr": "accueillir",
+      "en": "to welcome"
+    },
+    {
+      "fr": "annuler",
+      "en": "to cancel"
+    },
+    {
+      "fr": "appuyer",
+      "en": "to press"
+    },
+    {
+      "fr": "après (ça)",
+      "en": "after (that)"
+    },
+    {
+      "fr": "arobas (@) (n. m.)",
+      "en": "the at-sign (@)"
+    },
+    {
+      "fr": "aussitôt que possible",
+      "en": "as soon as possible"
+    },
+    {
+      "fr": "avant",
+      "en": "before"
+    },
+    {
+      "fr": "base de données (n. f.)",
+      "en": "data base"
+    },
+    {
+      "fr": "bogue (n. m.)",
+      "en": "bug"
+    },
+    {
+      "fr": "classer",
+      "en": "to file"
+    },
+    {
+      "fr": "clavier (n. m.)",
+      "en": "keyboard"
+    },
+    {
+      "fr": "cliquer",
+      "en": "to click"
+    },
+    {
+      "fr": "cliquer - double-cliquer",
+      "en": "to double-click"
+    },
+    {
+      "fr": "coller",
+      "en": "to paste"
+    },
+    {
+      "fr": "commander",
+      "en": "to order"
+    },
+    {
+      "fr": "commercial - a commercial (@)",
+      "en": "the at-sign (@)"
+    },
+    {
+      "fr": "compatible (adj. m./f.)",
+      "en": "compatible"
+    },
+    {
+      "fr": "compiler",
+      "en": "to compile"
+    },
+    {
+      "fr": "complément d’objet direct (c.o.d.)",
+      "en": "direct object"
+    },
+    {
+      "fr": "complément d’objet indirect (c.o.i.)",
+      "en": "indirect object"
+    },
+    {
+      "fr": "compléter",
+      "en": "to complete"
+    },
+    {
+      "fr": "conjuguer",
+      "en": "to conjugate"
+    },
+    {
+      "fr": "connaître",
+      "en": "to be acquainted with"
+    },
+    {
+      "fr": "connaître",
+      "en": "to know"
+    },
+    {
+      "fr": "convivial (adj. m.)",
+      "en": "user-friendly"
+    },
+    {
+      "fr": "conviviale (adj. f.)",
+      "en": "user-friendly"
+    },
+    {
+      "fr": "convoquer",
+      "en": "to call"
+    },
+    {
+      "fr": "copier",
+      "en": "to copy"
+    },
+    {
+      "fr": "corriger",
+      "en": "to correct"
+    },
+    {
+      "fr": "coupe-feu (n. m.)",
+      "en": "firewall"
+    },
+    {
+      "fr": "couper",
+      "en": "to cut"
+    },
+    {
+      "fr": "déboguer",
+      "en": "to debug"
+    },
+    {
+      "fr": "dépannage - service de dépannage",
+      "en": "help desk"
+    },
+    {
+      "fr": "devoir",
+      "en": "must"
+    },
+    {
+      "fr": "devoir",
+      "en": "to have to"
+    },
+    {
+      "fr": "disque dur (n. m.)",
+      "en": "hard disk"
+    },
+    {
+      "fr": "distribuer",
+      "en": "to distribute"
+    },
+    {
+      "fr": "donnée (n. f.)",
+      "en": "data"
+    },
+    {
+      "fr": "données - base de données",
+      "en": "data base"
+    }
+  ]
+}

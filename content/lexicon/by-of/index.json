@@ -1,0 +1,247 @@
+{
+  "schema": "lexicon-by-of-index/v2",
+  "count": 40,
+  "totalEntries": 1423,
+  "objectives": [
+    {
+      "objectiveId": "OF1",
+      "of": 1,
+      "titleFr": "S’identifier et identifier des personnes",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF2",
+      "of": 2,
+      "titleFr": "Identifier des objets ou des documents",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF3",
+      "of": 3,
+      "titleFr": "Exprimer des relations d’appartenance",
+      "count": 39
+    },
+    {
+      "objectiveId": "OF4",
+      "of": 4,
+      "titleFr": "Exprimer des relations de possession",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF5",
+      "of": 5,
+      "titleFr": "Indiquer où est une personne, un objet, un lieu",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF6",
+      "of": 6,
+      "titleFr": "Indiquer des données chiffrées",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF7",
+      "of": 7,
+      "titleFr": "Orienter quelqu’un dans l’espace",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF8",
+      "of": 8,
+      "titleFr": "Situer un événement dans le temps",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF9",
+      "of": 9,
+      "titleFr": "Situer un événement dans le temps : passé, présent, futur",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF10",
+      "of": 10,
+      "titleFr": "Assigner des tâches",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF11",
+      "of": 11,
+      "titleFr": "Préciser comment accomplir une tâche",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF12",
+      "of": 12,
+      "titleFr": "Indiquer la répartition et une quantité non numérique",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF13",
+      "of": 13,
+      "titleFr": "Fournir de l’information sur un événement ou une habitude passés",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF14",
+      "of": 14,
+      "titleFr": "S’informer ou informer d’un événement",
+      "count": 18
+    },
+    {
+      "objectiveId": "OF15",
+      "of": 15,
+      "titleFr": "S’informer ou informer d’une requête ou de l’obtention de quelque chose",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF16",
+      "of": 16,
+      "titleFr": "Faire une offre et réagir à une offre",
+      "count": 11
+    },
+    {
+      "objectiveId": "OF17",
+      "of": 17,
+      "titleFr": "S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF18",
+      "of": 18,
+      "titleFr": "Exprimer une volonté, un souhait, des goûts, des préférences",
+      "count": 36
+    },
+    {
+      "objectiveId": "OF19",
+      "of": 19,
+      "titleFr": "Évaluer des choses",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF20",
+      "of": 20,
+      "titleFr": "Évaluer des personnes",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF21",
+      "of": 21,
+      "titleFr": "(Se) renseigner sur l’application de normes et de règlements",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF22",
+      "of": 22,
+      "titleFr": "Préciser les modalités d’exécution (temps) d’un travail",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF23",
+      "of": 23,
+      "titleFr": "Préciser les conditions de réalisation d’un projet",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF24",
+      "of": 24,
+      "titleFr": "Situer des événements par rapport à d’autres",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF25",
+      "of": 25,
+      "titleFr": "Indiquer les étapes d’un processus",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF26",
+      "of": 26,
+      "titleFr": "Décrire des déplacements",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF27",
+      "of": 27,
+      "titleFr": "Décrire une tâche (opérations physiques)",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF28",
+      "of": 28,
+      "titleFr": "Préciser l’importance d’une directive",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF29",
+      "of": 29,
+      "titleFr": "Apprécier les capacités ou les compétences de quelqu’un",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF30",
+      "of": 30,
+      "titleFr": "Permettre ou interdire quelque chose",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF31",
+      "of": 31,
+      "titleFr": "Exprimer la volonté, le souhait",
+      "count": 22
+    },
+    {
+      "objectiveId": "OF32",
+      "of": 32,
+      "titleFr": "Formuler des conditions",
+      "count": 31
+    },
+    {
+      "objectiveId": "OF33",
+      "of": 33,
+      "titleFr": "Exprimer un choix",
+      "count": 27
+    },
+    {
+      "objectiveId": "OF34",
+      "of": 34,
+      "titleFr": "Proposer des solutions à un problème",
+      "count": 6
+    },
+    {
+      "objectiveId": "OF35",
+      "of": 35,
+      "titleFr": "Faire des prévisions",
+      "count": 3
+    },
+    {
+      "objectiveId": "OF36",
+      "of": 36,
+      "titleFr": "Demander ou donner de l’information sur un projet",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF37",
+      "of": 37,
+      "titleFr": "Décrire la démarche suivie dans la réalisation d’un projet",
+      "count": 20
+    },
+    {
+      "objectiveId": "OF38",
+      "of": 38,
+      "titleFr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF39",
+      "of": 39,
+      "titleFr": "Évaluer un changement proposé",
+      "count": 41
+    },
+    {
+      "objectiveId": "OF40",
+      "of": 40,
+      "titleFr": "Persuader quelqu’un de quelque chose",
+      "count": 21
+    }
+  ]
+}

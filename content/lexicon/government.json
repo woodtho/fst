@@ -1,0 +1,28 @@
+{
+  "schema": "lexicon/v1",
+  "domainId": "government",
+  "nameFr": "Terminologie de la fonction publique",
+  "nameEn": "Public-service / government terminology",
+  "entries": [
+    { "fr": "la fonction publique", "en": "the public service", "pos": "n.f.", "gender": "f", "register": "neutral", "example": "Elle travaille dans la fonction publique fédérale." },
+    { "fr": "un fonctionnaire / une fonctionnaire", "en": "a public servant", "pos": "n.", "register": "neutral", "example": "Les fonctionnaires reçoivent une formation linguistique." },
+    { "fr": "le ministère", "en": "the department / ministry", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "Le ministère a publié une nouvelle directive." },
+    { "fr": "la direction", "en": "the branch / directorate", "pos": "n.f.", "gender": "f", "register": "neutral", "example": "Je relève de la Direction des opérations." },
+    { "fr": "le gestionnaire / la gestionnaire", "en": "the manager", "pos": "n.", "register": "neutral", "example": "Mon gestionnaire approuve les congés." },
+    { "fr": "le sous-ministre", "en": "the deputy minister", "pos": "n.m.", "gender": "m", "register": "formal", "example": "Le sous-ministre a signé la note de breffage." },
+    { "fr": "la directive", "en": "the directive / policy instruction", "pos": "n.f.", "gender": "f", "register": "formal", "example": "Cette directive entre en vigueur lundi." },
+    { "fr": "la politique", "en": "the policy", "pos": "n.f.", "gender": "f", "register": "neutral", "example": "La politique sur les langues officielles s'applique à tous." },
+    { "fr": "la note de breffage", "en": "the briefing note", "pos": "n.f.", "gender": "f", "register": "formal", "example": "J'ai rédigé une note de breffage de deux pages." },
+    { "fr": "le mandat", "en": "the mandate", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "Le mandat de l'équipe est de moderniser les services." },
+    { "fr": "l'intervenant / l'intervenante", "en": "the stakeholder", "pos": "n.", "register": "formal", "example": "Nous avons consulté les intervenants concernés." },
+    { "fr": "les langues officielles", "en": "the official languages", "pos": "n.f.pl.", "register": "neutral", "example": "Le poste exige les deux langues officielles." },
+    { "fr": "le congé", "en": "the leave / time off", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "J'ai demandé un congé annuel." },
+    { "fr": "l'approbation", "en": "the approval", "pos": "n.f.", "gender": "f", "register": "formal", "example": "La demande est en attente d'approbation." },
+    { "fr": "le suivi", "en": "the follow-up", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "Je fais le suivi du dossier." },
+    { "fr": "l'échéance", "en": "the deadline", "pos": "n.f.", "gender": "f", "register": "neutral", "example": "L'échéance est fixée au 30 du mois." },
+    { "fr": "le rapport", "en": "the report", "pos": "n.m.", "gender": "m", "register": "neutral", "example": "Le rapport sera déposé à la réunion." },
+    { "fr": "déposer", "en": "to table / submit", "pos": "v.", "register": "formal", "example": "On va déposer le document au comité." },
+    { "fr": "relever de", "en": "to report to / fall under", "pos": "v.", "register": "formal", "example": "Cette équipe relève du sous-ministre adjoint." },
+    { "fr": "en vigueur", "en": "in effect / in force", "pos": "expr.", "register": "formal", "example": "La nouvelle règle est en vigueur depuis avril." }
+  ]
+}

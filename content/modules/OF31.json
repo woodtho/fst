@@ -1,0 +1,134 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF31",
+  "titleFr": "Exprimer la volonté, le souhait",
+  "titleEn": "To express will or desire",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/31-2005F",
+    "text": "sources/text/OF31.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF31 — To express will or desire. This objective develops the language needed to express will or desire in a Government of Canada workplace. Grammar focus: The present conditional, The present subjunctive, Reported (indirect) speech. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Exprimer la volonté, le souhait. Objectif communicatif appuyé par : Le conditionnel présent, Le subjonctif présent, Le discours indirect. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present conditional, The present subjunctive, Reported (indirect) speech.",
+        "charts": [],
+        "points": [
+          "Le conditionnel présent (The present conditional) — Politesse, hypothèses et « would ». Radical du futur + terminaisons de l’imparfait.",
+          "· Stem = future stem; endings = imperfect endings.",
+          "· Politeness: je voudrais, pourriez-vous, j’aimerais.",
+          "· Used in the result clause of si + imparfait.",
+          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
+          "· Trigger: il faut que, vouloir que, être content que, douter que…",
+          "· Stem from ils-present (ils finissent → finiss-).",
+          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille.",
+          "Le discours indirect (Reported (indirect) speech) — Rapporter des propos avec dire que / demander si / demander ce que. Au passé, concordance des temps (présent→imparfait, futur→conditionnel).",
+          "· Statement: dire que + clause.",
+          "· Yes/no question: demander si.",
+          "· Past reporting: present→imparfait, futur→conditionnel, passé composé→plus-que-parfait."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le conditionnel présent",
+          "itemRefs": [
+            "itm_of31_conditionnel_1",
+            "itm_of31_conditionnel_2",
+            "itm_of31_conditionnel_3",
+            "itm_of31_conditionnel_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le subjonctif présent",
+          "itemRefs": [
+            "itm_of31_subjonctif_5",
+            "itm_of31_subjonctif_6",
+            "itm_of31_subjonctif_7",
+            "itm_of31_subjonctif_8"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le discours indirect",
+          "itemRefs": [
+            "itm_of31_reported_speech_9",
+            "itm_of31_reported_speech_10",
+            "itm_of31_reported_speech_11",
+            "itm_of31_reported_speech_12"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/47-3-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Exprimer la volonté, le souhait",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « exprimer la volonté, le souhait ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le conditionnel présent, Le subjonctif présent, Le discours indirect.",
+          "promptEn": "In a workplace context, practise the function \"To express will or desire\". Produce a short exchange (3–4 sentences) using: The present conditional, The present subjunctive, Reported (indirect) speech.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/45-3-2006F"
+      },
+      "timedSeconds": 420,
+      "blueprint": {
+        "easy": 2,
+        "medium": 6,
+        "advanced": 4
+      },
+      "drawFrom": [
+        "OF31"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "conditionnel",
+        "subjonctif",
+        "reported_speech"
+      ]
+    }
+  }
+}

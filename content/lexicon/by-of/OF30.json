@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF30",
+  "of": 30,
+  "titleFr": "Permettre ou interdire quelque chose",
+  "titleEn": "To permit or forbid something",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à moins de",
+      "en": "unless"
+    },
+    {
+      "fr": "à moins que",
+      "en": "unless"
+    },
+    {
+      "fr": "accorder (à)",
+      "en": "to grant"
+    },
+    {
+      "fr": "aller à l’encontre (de)",
+      "en": "to go against"
+    },
+    {
+      "fr": "alors que",
+      "en": "whereas"
+    },
+    {
+      "fr": "alors que",
+      "en": "while"
+    },
+    {
+      "fr": "approbation (n. f.)",
+      "en": "approval"
+    },
+    {
+      "fr": "approuvé",
+      "en": "approved"
+    },
+    {
+      "fr": "approuvée",
+      "en": "approved"
+    },
+    {
+      "fr": "approuver",
+      "en": "to approve"
+    },
+    {
+      "fr": "autorisation (n. f.)",
+      "en": "authorization"
+    },
+    {
+      "fr": "autorisé (adj. m.)",
+      "en": "permitted"
+    },
+    {
+      "fr": "autorisé (adj. m.)",
+      "en": "authorized"
+    },
+    {
+      "fr": "autorisée (adj. f.)",
+      "en": "authorized"
+    },
+    {
+      "fr": "autorisée (adj. f.)",
+      "en": "permitted"
+    },
+    {
+      "fr": "autoriser (à)",
+      "en": "to give permission for"
+    },
+    {
+      "fr": "autoriser (à)",
+      "en": "to authorize"
+    },
+    {
+      "fr": "avoir le droit de (+ verbe)",
+      "en": "to be allowed"
+    },
+    {
+      "fr": "bien que",
+      "en": "although"
+    },
+    {
+      "fr": "concession (n. f.)",
+      "en": "concession"
+    },
+    {
+      "fr": "contre – par contre",
+      "en": "on the other hand"
+    },
+    {
+      "fr": "défendre",
+      "en": "to forbid"
+    },
+    {
+      "fr": "défendu",
+      "en": "forbidden"
+    },
+    {
+      "fr": "défendue",
+      "en": "forbidden"
+    },
+    {
+      "fr": "défense (n. f.)",
+      "en": "forbiddance"
+    },
+    {
+      "fr": "droit – avoir le droit de (+ verbe)",
+      "en": "to be allowed"
+    },
+    {
+      "fr": "encontre – aller à l'encontre de",
+      "en": "to go against"
+    },
+    {
+      "fr": "fermer les yeux (sur quelque chose)",
+      "en": "to turn a blind eye (to something)"
+    },
+    {
+      "fr": "interdiction (n. f.)",
+      "en": "prohibition"
+    },
+    {
+      "fr": "interdire (à)",
+      "en": "to prohibit"
+    },
+    {
+      "fr": "interdit (adj. m.)",
+      "en": "prohibited"
+    },
+    {
+      "fr": "interdite (adj. f.)",
+      "en": "prohibited"
+    },
+    {
+      "fr": "laisser",
+      "en": "to let"
+    },
+    {
+      "fr": "malgré",
+      "en": "despite"
+    },
+    {
+      "fr": "même – quand même",
+      "en": "anyway"
+    },
+    {
+      "fr": "même si",
+      "en": "even if"
+    },
+    {
+      "fr": "moins – à moins de",
+      "en": "unless"
+    },
+    {
+      "fr": "moins – à moins que",
+      "en": "unless"
+    },
+    {
+      "fr": "opposer – s'opposer à",
+      "en": "to oppose"
+    },
+    {
+      "fr": "opposition (n. f.)",
+      "en": "opposition"
+    },
+    {
+      "fr": "par contre",
+      "en": "on the other hand"
+    }
+  ]
+}

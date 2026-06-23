@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF20",
+  "of": 20,
+  "titleFr": "Évaluer des personnes",
+  "titleEn": "To express opinions about people",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "affirmatif (adj. m.)",
+      "en": "assertive"
+    },
+    {
+      "fr": "affirmative (adj. f.)",
+      "en": "assertive"
+    },
+    {
+      "fr": "âgé (adj. m.)",
+      "en": "elderly"
+    },
+    {
+      "fr": "âgée (adj. f.)",
+      "en": "elderly"
+    },
+    {
+      "fr": "ambitieuse (adj. f.)",
+      "en": "ambitious"
+    },
+    {
+      "fr": "ambitieux (adj. m.)",
+      "en": "ambitious"
+    },
+    {
+      "fr": "amusant (adj. m.)",
+      "en": "amusing"
+    },
+    {
+      "fr": "amusante (adj. f.)",
+      "en": "amusing"
+    },
+    {
+      "fr": "analytique (adj. m./f.)",
+      "en": "analytical"
+    },
+    {
+      "fr": "antipathique (adj. m./f.)",
+      "en": "unpleasant"
+    },
+    {
+      "fr": "autonome (adj. m./f.)",
+      "en": "independent"
+    },
+    {
+      "fr": "autoritaire (adj. m./f.)",
+      "en": "domineering"
+    },
+    {
+      "fr": "barbu (adj. m.)",
+      "en": "bearded"
+    },
+    {
+      "fr": "beau (adj. m.)",
+      "en": "handsome"
+    },
+    {
+      "fr": "beau (adj. m.)",
+      "en": "pretty"
+    },
+    {
+      "fr": "belle (adj. f.)",
+      "en": "pretty"
+    },
+    {
+      "fr": "bilingue (adj. m./f.)",
+      "en": "bilingual"
+    },
+    {
+      "fr": "blond (adj. m.)",
+      "en": "blonde"
+    },
+    {
+      "fr": "blonde (adj. f.)",
+      "en": "blonde"
+    },
+    {
+      "fr": "bon (adj. m.)",
+      "en": "capable"
+    },
+    {
+      "fr": "bonne (adj. f.)",
+      "en": "capable"
+    },
+    {
+      "fr": "bouche (n. f.)",
+      "en": "mouth"
+    },
+    {
+      "fr": "bras (n. m.)",
+      "en": "arm"
+    },
+    {
+      "fr": "brillant (adj. m.)",
+      "en": "brilliant"
+    },
+    {
+      "fr": "brillante (adj. f.)",
+      "en": "brilliant"
+    },
+    {
+      "fr": "brun (adj. m.)",
+      "en": "brown"
+    },
+    {
+      "fr": "brun (n. m.)",
+      "en": "brunet"
+    },
+    {
+      "fr": "brune (adj. f.)",
+      "en": "brown"
+    },
+    {
+      "fr": "brune (n. f.)",
+      "en": "brunette"
+    },
+    {
+      "fr": "calme (adj. m./f.)",
+      "en": "calm"
+    },
+    {
+      "fr": "châtain (adj. m.)",
+      "en": "chestnut-haired"
+    },
+    {
+      "fr": "châtaine (adj. f.)",
+      "en": "chestnut-haired"
+    },
+    {
+      "fr": "chauve (adj. m./f.)",
+      "en": "bald"
+    },
+    {
+      "fr": "cheveux (n. m.)",
+      "en": "hair"
+    },
+    {
+      "fr": "cheville (n. f.)",
+      "en": "ankle"
+    },
+    {
+      "fr": "compétent (adj. m.)",
+      "en": "competent"
+    },
+    {
+      "fr": "compétente (adj. f.)",
+      "en": "competent"
+    },
+    {
+      "fr": "compréhensif (adj. m.)",
+      "en": "understanding"
+    },
+    {
+      "fr": "compréhensive (adj. f.)",
+      "en": "understanding"
+    },
+    {
+      "fr": "conciliant (adj. m.)",
+      "en": "conciliatory"
+    },
+    {
+      "fr": "conciliante (adj. f.)",
+      "en": "conciliatory"
+    }
+  ]
+}

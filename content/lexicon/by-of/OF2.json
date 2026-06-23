@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF2",
+  "of": 2,
+  "titleFr": "Identifier des objets ou des documents",
+  "titleEn": "To identify objects or documents",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "annexe (n. f.)",
+      "en": "appendix"
+    },
+    {
+      "fr": "appendice (n. m.)",
+      "en": "appendix"
+    },
+    {
+      "fr": "article (grammaire) (n. m.)",
+      "en": "article"
+    },
+    {
+      "fr": "article (publication) (n. m.)",
+      "en": "article"
+    },
+    {
+      "fr": "article défini",
+      "en": "definite article"
+    },
+    {
+      "fr": "article indéfini",
+      "en": "indefinite article"
+    },
+    {
+      "fr": "bibliographie (n. f.)",
+      "en": "bibliography"
+    },
+    {
+      "fr": "brochure (n. f.)",
+      "en": "brochure (bound)"
+    },
+    {
+      "fr": "budget (n. m.)",
+      "en": "budget"
+    },
+    {
+      "fr": "bulletin (n. m.)",
+      "en": "bulletin"
+    },
+    {
+      "fr": "bulletin (n. m.)",
+      "en": "gazette"
+    },
+    {
+      "fr": "bureau (n. m.)",
+      "en": "desk"
+    },
+    {
+      "fr": "carte (n. f.)",
+      "en": "map"
+    },
+    {
+      "fr": "ce sont",
+      "en": "these are"
+    },
+    {
+      "fr": "chemise (n. f.)",
+      "en": "folder"
+    },
+    {
+      "fr": "chèque (n. m.)",
+      "en": "cheque"
+    },
+    {
+      "fr": "circulaire (n. f.)",
+      "en": "circular"
+    },
+    {
+      "fr": "comment",
+      "en": "how"
+    },
+    {
+      "fr": "comment",
+      "en": "what"
+    },
+    {
+      "fr": "communiqué (n. m.)",
+      "en": "communiqué"
+    },
+    {
+      "fr": "communiqué (n. m.)",
+      "en": "press release"
+    },
+    {
+      "fr": "confidentiel (adj. m.)",
+      "en": "confidential"
+    },
+    {
+      "fr": "confidentielle (adj. f.)",
+      "en": "confidential"
+    },
+    {
+      "fr": "consonne (n. f.)",
+      "en": "consonant"
+    },
+    {
+      "fr": "contrat (n. m.)",
+      "en": "contract"
+    },
+    {
+      "fr": "copie (n. f.)",
+      "en": "copy"
+    },
+    {
+      "fr": "courriel (n. m.)",
+      "en": "e-mail"
+    },
+    {
+      "fr": "courrier (n. m.)",
+      "en": "mail"
+    },
+    {
+      "fr": "de l’",
+      "en": "some"
+    },
+    {
+      "fr": "de la",
+      "en": "some"
+    },
+    {
+      "fr": "défini (adj. m.)",
+      "en": "definite"
+    },
+    {
+      "fr": "défini – article défini",
+      "en": "definite article"
+    },
+    {
+      "fr": "définie (adj. f.)",
+      "en": "definite"
+    },
+    {
+      "fr": "demande (n. f.)",
+      "en": "request"
+    },
+    {
+      "fr": "dépliant (n. m.)",
+      "en": "folder"
+    },
+    {
+      "fr": "des",
+      "en": "some"
+    },
+    {
+      "fr": "dessin (n. m.)",
+      "en": "drawing"
+    },
+    {
+      "fr": "diagramme (n. m.)",
+      "en": "diagram"
+    },
+    {
+      "fr": "diffusion restreinte (n. f.)",
+      "en": "restricted"
+    },
+    {
+      "fr": "discours (n. m.)",
+      "en": "speech"
+    },
+    {
+      "fr": "document (n. m.)",
+      "en": "document"
+    }
+  ]
+}

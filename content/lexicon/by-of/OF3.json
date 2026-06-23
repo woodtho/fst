@@ -1,0 +1,170 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF3",
+  "of": 3,
+  "titleFr": "Exprimer des relations d’appartenance",
+  "titleEn": "To express relationships of belonging",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 39,
+  "entries": [
+    {
+      "fr": "à",
+      "en": "with"
+    },
+    {
+      "fr": "à",
+      "en": "at"
+    },
+    {
+      "fr": "à",
+      "en": "to"
+    },
+    {
+      "fr": "à l’",
+      "en": "at the"
+    },
+    {
+      "fr": "à la",
+      "en": "at the"
+    },
+    {
+      "fr": "administratif (adj. m.)",
+      "en": "administrative"
+    },
+    {
+      "fr": "administrative (adj. f.)",
+      "en": "administrative"
+    },
+    {
+      "fr": "administrative – unité administrative",
+      "en": "administrative unit"
+    },
+    {
+      "fr": "appartenance (n. f.)",
+      "en": "belonging"
+    },
+    {
+      "fr": "appartenir à",
+      "en": "to belong to"
+    },
+    {
+      "fr": "association (n. f.)",
+      "en": "association"
+    },
+    {
+      "fr": "au",
+      "en": "at"
+    },
+    {
+      "fr": "aux",
+      "en": "at"
+    },
+    {
+      "fr": "de",
+      "en": "of"
+    },
+    {
+      "fr": "état (n. m.)",
+      "en": "condition"
+    },
+    {
+      "fr": "être de",
+      "en": "to be from"
+    },
+    {
+      "fr": "être membre de",
+      "en": "to be a member of"
+    },
+    {
+      "fr": "faire",
+      "en": "to do"
+    },
+    {
+      "fr": "faire",
+      "en": "to make"
+    },
+    {
+      "fr": "faire partie de",
+      "en": "to be a member of"
+    },
+    {
+      "fr": "faire partie de",
+      "en": "to be part of"
+    },
+    {
+      "fr": "indiquer",
+      "en": "to indicate"
+    },
+    {
+      "fr": "membre (n. m.)",
+      "en": "member"
+    },
+    {
+      "fr": "membre – être membre de",
+      "en": "to be a member of"
+    },
+    {
+      "fr": "partie – faire partie de",
+      "en": "to be part of"
+    },
+    {
+      "fr": "partie – faire partie de",
+      "en": "to be a member of"
+    },
+    {
+      "fr": "professionnel (adj. m.)",
+      "en": "professional"
+    },
+    {
+      "fr": "professionnelle (adj. f.)",
+      "en": "professional"
+    },
+    {
+      "fr": "quelqu’un",
+      "en": "someone"
+    },
+    {
+      "fr": "social (adj. m.)",
+      "en": "social"
+    },
+    {
+      "fr": "sociale (adj. f.)",
+      "en": "social"
+    },
+    {
+      "fr": "travailler à",
+      "en": "to work in"
+    },
+    {
+      "fr": "travailler dans",
+      "en": "to work in"
+    },
+    {
+      "fr": "travailler pour",
+      "en": "to work for"
+    },
+    {
+      "fr": "unité (n. f.)",
+      "en": "unit"
+    },
+    {
+      "fr": "unité administrative",
+      "en": "administrative unit"
+    },
+    {
+      "fr": "venir",
+      "en": "to come"
+    },
+    {
+      "fr": "venir de",
+      "en": "to be from"
+    },
+    {
+      "fr": "venir de",
+      "en": "to come from"
+    }
+  ]
+}

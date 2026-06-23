@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF29",
+  "titleFr": "Apprécier les capacités ou les compétences de quelqu’un",
+  "titleEn": "To assess the abilities or competencies of someone",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/29-2005F",
+    "text": "sources/text/OF29.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF29 — To assess the abilities or competencies of someone. This objective develops the language needed to assess the abilities or competencies of someone in a Government of Canada workplace. Grammar focus: Negation, Comparatives and superlatives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Apprécier les capacités ou les compétences de quelqu’un. Objectif communicatif appuyé par : La négation, Le comparatif et le superlatif. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: Negation, Comparatives and superlatives.",
+        "charts": [],
+        "points": [
+          "La négation (Negation) — ne … pas encadre le verbe conjugué. Variantes : ne…jamais, ne…plus, ne…rien, ne…personne. Après la négation, un/une/des → de.",
+          "· ne + verb + pas (jamais/plus/rien).",
+          "· After negation: un/une/des → de (Je n’ai pas de dossier).",
+          "· In passé composé, ne…pas surrounds the auxiliary.",
+          "Le comparatif et le superlatif (Comparatives and superlatives) — plus/moins/aussi + adjectif + que; le/la/les plus/moins pour le superlatif. Irréguliers : bon→meilleur; bien→mieux.",
+          "· plus … que (more), moins … que (less), aussi … que (as).",
+          "· Superlative: le/la/les plus/moins + adjective.",
+          "· bon → meilleur (adj.); bien → mieux (adv.)."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "La négation",
+          "itemRefs": [
+            "itm_of29_negation_1",
+            "itm_of29_negation_2",
+            "itm_of29_negation_3",
+            "itm_of29_negation_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le comparatif et le superlatif",
+          "itemRefs": [
+            "itm_of29_comparatives_5",
+            "itm_of29_comparatives_6",
+            "itm_of29_comparatives_7",
+            "itm_of29_comparatives_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/47-3-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Apprécier les capacités ou les compétences de quelqu’un",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « apprécier les capacités ou les compétences de quelqu’un ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : La négation, Le comparatif et le superlatif.",
+          "promptEn": "In a workplace context, practise the function \"To assess the abilities or competencies of someone\". Produce a short exchange (3–4 sentences) using: Negation, Comparatives and superlatives.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/45-3-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 5,
+        "advanced": 1
+      },
+      "drawFrom": [
+        "OF29"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "negation",
+        "comparatives"
+      ]
+    }
+  }
+}

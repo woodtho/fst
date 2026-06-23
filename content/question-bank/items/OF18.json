@@ -1,0 +1,473 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF18",
+  "source": {
+    "catalogue": "SC102-2/18-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of18_subjonctif_1",
+      "objectiveId": "OF18",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Indicatif ou subjonctif ? « Je pense qu’il ___ raison. »",
+        "instructions_en": "Penser que (affirmative) → which mood?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "a"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "a",
+          "tag": "correct"
+        },
+        {
+          "value": "ait",
+          "tag": "subjunctive_wrong"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Je pense que » (affirmative opinion) expresses certainty → indicative « a ». The subjunctive appears with doubt/negation (« Je ne pense pas qu’il ait raison »).",
+        "distractor_why": {
+          "subjunctive_wrong": "The subjunctive « ait » is used after doubt or negation, not after affirmative « je pense que »."
+        },
+        "grammar_rule": "penser/croire que (affirmative) → indicative; ne pas penser que / douter que → subjunctive.",
+        "vocab_notes": "avoir raison = to be right.",
+        "common_mistakes": [
+          "over-using the subjunctive after every que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Certainty → indicative; doubt/negation → subjunctive.",
+        "pattern": "Affirmative opinion = indicative.",
+        "similar": [
+          "Je crois qu’il vient.",
+          "Je ne crois pas qu’il vienne."
+        ]
+      }
+    },
+    {
+      "id": "itm_of18_subjonctif_2",
+      "objectiveId": "OF18",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.8,
+      "prompt": {
+        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
+        "instructions_en": "Subjunctive of faire, nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "fassions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
+        "distractor_why": {
+          "indicative": "« faisons » is the indicative.",
+          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
+        },
+        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
+        "vocab_notes": "faire le suivi = to follow up.",
+        "common_mistakes": [
+          "using the indicative faisons after vouloir que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "veut que → subjunctive; faire → fass-.",
+        "pattern": "Verb of will + que + subjunctive.",
+        "similar": [
+          "Il veut que je fasse le rapport.",
+          "Elle souhaite que vous fassiez le point."
+        ]
+      }
+    },
+    {
+      "id": "itm_of18_subjonctif_3",
+      "objectiveId": "OF18",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Subjonctif : « Il faut que vous ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Present subjunctive of finir, vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "finissiez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Il faut que » triggers the subjunctive. Stem finiss- + -iez (vous) = « finissiez ».",
+        "distractor_why": {
+          "indicative": "« finissez » is the indicative present.",
+          "wrong_ending": "vous in the subjunctive takes -iez."
+        },
+        "grammar_rule": "Subjunctive stem from ils-present (finissent → finiss-); endings -e,-es,-e,-ions,-iez,-ent.",
+        "vocab_notes": "Il faut que = it is necessary that.",
+        "common_mistakes": [
+          "using the indicative after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      }
+    },
+    {
+      "id": "itm_of18_subjonctif_4",
+      "objectiveId": "OF18",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Complétez : « Il faut que le rapport ___ prêt vendredi. »",
+        "instructions_en": "Subjunctive of être."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "soit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "soit",
+          "tag": "correct"
+        },
+        {
+          "value": "est",
+          "tag": "indicative"
+        },
+        {
+          "value": "sera",
+          "tag": "future"
+        },
+        {
+          "value": "était",
+          "tag": "imperfect"
+        }
+      ],
+      "explanation": {
+        "correct_why": "After « il faut que », être becomes the subjunctive « soit » → « que le rapport soit prêt ».",
+        "distractor_why": {
+          "indicative": "« est » is the indicative.",
+          "future": "« sera » is future.",
+          "imperfect": "« était » is imperfect."
+        },
+        "grammar_rule": "être subjunctive: sois, sois, soit, soyons, soyez, soient.",
+        "vocab_notes": "prêt = ready.",
+        "common_mistakes": [
+          "using est/sera after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "que … soit (être subjunctive).",
+        "pattern": "Memorize être/avoir/faire/aller subjunctives.",
+        "similar": [
+          "Il faut qu’il ait le dossier.",
+          "Il faut que tu fasses le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of18_present_5",
+      "objectiveId": "OF18",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "distractor_why": {
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
+        },
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
+        ]
+      }
+    },
+    {
+      "id": "itm_of18_present_6",
+      "objectiveId": "OF18",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
+        ]
+      }
+    },
+    {
+      "id": "itm_of18_present_7",
+      "objectiveId": "OF18",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "daily_life",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 20,
+      "irtB": -0.9,
+      "prompt": {
+        "fr": "Complétez : « Nous ___ (avoir) une réunion à 9 h. »",
+        "instructions_en": "Choose the present tense of avoir."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avons"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avons",
+          "tag": "correct"
+        },
+        {
+          "value": "avez",
+          "tag": "vous_form"
+        },
+        {
+          "value": "ont",
+          "tag": "ils_form"
+        },
+        {
+          "value": "as",
+          "tag": "tu_form"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With « nous », avoir is « avons » → « Nous avons une réunion ».",
+        "distractor_why": {
+          "vous_form": "« avez » is the vous form.",
+          "ils_form": "« ont » is the ils/elles form.",
+          "tu_form": "« as » is the tu form."
+        },
+        "grammar_rule": "avoir au présent : ai, as, a, avons, avez, ont.",
+        "vocab_notes": "avoir une réunion = to have a meeting.",
+        "common_mistakes": [
+          "confusing avons (nous) and avez (vous)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of18_present_8",
+      "objectiveId": "OF18",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "daily_life",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
+        "instructions_en": "Conjugate the -er verb for vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
+        "distractor_why": {
+          "wrong_ending": "-ons is nous, -ent is ils/elles.",
+          "infinitive": "« travailler » is the infinitive."
+        },
+        "grammar_rule": "vous + -er → -ez.",
+        "vocab_notes": "la Direction des opérations = the Operations Branch.",
+        "common_mistakes": [
+          "using -ons or the infinitive for vous"
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous → -EZ.",
+        "pattern": "Drop -er, add the subject ending.",
+        "similar": [
+          "Vous préparez l’ordre du jour.",
+          "Vous classez les dossiers."
+        ]
+      }
+    }
+  ]
+}

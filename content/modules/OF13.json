@@ -1,0 +1,103 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF13",
+  "titleFr": "Fournir de l’information sur un événement ou une habitude passés",
+  "titleEn": "To give information about past events and habits",
+  "level": "A",
+  "estMinutes": 45,
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "At work you constantly report what you did: 'I sent the report', 'we finished the meeting', 'she arrived this morning'. French uses the passé composé for completed past actions. It is built from an auxiliary (avoir or être) in the present tense + the past participle. Most verbs use avoir. A small set of movement/state-change verbs (and all pronominal verbs) use être, and with être the participle agrees with the subject.",
+        "fr": "Le passé composé exprime une action passée et terminée. Il se forme avec un auxiliaire (avoir ou être) au présent + le participe passé."
+      },
+      "vocabulary": [
+        { "fr": "envoyer", "en": "to send", "pos": "v.", "pp": "envoyé" },
+        { "fr": "préparer", "en": "to prepare", "pos": "v.", "pp": "préparé" },
+        { "fr": "terminer", "en": "to finish", "pos": "v.", "pp": "terminé" },
+        { "fr": "vérifier", "en": "to check / verify", "pos": "v.", "pp": "vérifié" },
+        { "fr": "recevoir", "en": "to receive", "pos": "v.", "pp": "reçu" },
+        { "fr": "écrire", "en": "to write", "pos": "v.", "pp": "écrit" },
+        { "fr": "arriver", "en": "to arrive", "pos": "v.", "pp": "arrivé", "aux": "être" },
+        { "fr": "partir", "en": "to leave", "pos": "v.", "pp": "parti", "aux": "être" },
+        { "fr": "le rapport", "en": "the report", "pos": "n.m." },
+        { "fr": "le courriel", "en": "the email", "pos": "n.m." },
+        { "fr": "le dossier", "en": "the file / case", "pos": "n.m." },
+        { "fr": "la réunion", "en": "the meeting", "pos": "n.f." },
+        { "fr": "hier", "en": "yesterday", "pos": "adv." },
+        { "fr": "ce matin", "en": "this morning", "pos": "expr." },
+        { "fr": "la semaine dernière", "en": "last week", "pos": "expr." }
+      ],
+      "grammarNotes": {
+        "summary": "Passé composé with avoir (most verbs) and être (movement/state-change + pronominal). Agreement rules.",
+        "charts": ["passe_compose"],
+        "points": [
+          "avoir + past participle: j'ai envoyé, tu as envoyé, il a envoyé, nous avons envoyé, vous avez envoyé, ils ont envoyé.",
+          "With AVOIR, the participle does NOT agree with the subject. Agreement only with a preceding direct object.",
+          "être + past participle (DR & MRS VANDERTRAMP verbs): je suis arrivé(e), elle est partie. The participle AGREES with the subject.",
+          "Regular participles: -er → -é (parlé), -ir → -i (fini), -re → -u (vendu). Many irregulars (reçu, écrit, fait, pris)."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "'j'ai envoyé' — liaison between ai and envoyé: /ʒe.ɑ̃.vwa.je/.",
+          "Past participle -é and infinitive -er sound identical /e/ — context/spelling distinguishes them.",
+          "'ils ont' /il.zɔ̃/ vs 'ils sont' /il.sɔ̃/ — listen for the z liaison of avoir."
+        ]
+      },
+      "dialogues": [
+        {
+          "title": "Point du matin",
+          "register": "formal",
+          "lines": [
+            { "speaker": "Gestionnaire", "fr": "Bonjour. Avez-vous envoyé le rapport hier ?", "en": "Hello. Did you send the report yesterday?" },
+            { "speaker": "Analyste", "fr": "Oui, je l'ai envoyé en fin de journée et j'ai vérifié les chiffres.", "en": "Yes, I sent it at the end of the day and I checked the figures." },
+            { "speaker": "Gestionnaire", "fr": "Parfait. Et Julie, elle est arrivée ?", "en": "Perfect. And Julie, has she arrived?" },
+            { "speaker": "Analyste", "fr": "Elle est arrivée ce matin et elle a déjà préparé l'ordre du jour.", "en": "She arrived this morning and has already prepared the agenda." }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "type": "status_email",
+          "fr": "Bonjour,\n\nVoici le suivi : hier, j'ai terminé l'analyse et j'ai envoyé le dossier à la Direction. Ce matin, j'ai reçu les commentaires de Mme Roy. Julie est arrivée et nous avons commencé la révision.\n\nCordialement",
+          "en": "Hello, Here is the follow-up: yesterday I finished the analysis and sent the file to the Branch. This morning I received Ms. Roy's comments. Julie arrived and we started the revision. Regards."
+        }
+      ]
+    },
+    "practice": {
+      "exerciseSets": [
+        { "title": "Avoir ou être ?", "itemRefs": ["itm_a11_aux_0001", "itm_a11_aux_0002"], "type": "mcq_single" },
+        { "title": "Mettez au passé composé", "itemRefs": ["itm_a11_pc_0007", "itm_a11_pc_0008"], "type": "fill_blank" },
+        { "title": "Corrigez l'erreur", "itemRefs": ["itm_a11_ec_0001"], "type": "error_correction" },
+        { "title": "Construisez la phrase", "itemRefs": ["itm_a11_sb_0001"], "type": "sentence_build" }
+      ]
+    },
+    "consolidation": {
+      "tasks": [
+        {
+          "title": "Courriel de suivi",
+          "type": "real_world_task",
+          "promptFr": "Écrivez un courriel de 3-4 phrases à votre gestionnaire pour résumer ce que vous avez fait hier (au moins trois actions au passé composé, dont une avec « être »).",
+          "promptEn": "Write a 3–4 sentence email to your manager summarizing what you did yesterday (at least three passé composé actions, including one with 'être').",
+          "rubric": ["≥3 passé composé verbs", "correct auxiliary choice", "être-verb agreement", "workplace register"]
+        },
+        {
+          "title": "Compréhension orale",
+          "type": "integrated_listening",
+          "audioRef": "audio/a11_standup.mp3",
+          "itemRefs": ["itm_a11_lc_0001"]
+        }
+      ]
+    },
+    "selfTest": {
+      "timedSeconds": 420,
+      "blueprint": { "easy": 6, "medium": 4, "advanced": 2 },
+      "drawFrom": ["A11"]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": ["passe_compose", "agreement"]
+    }
+  }
+}

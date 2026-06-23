@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF36",
+  "of": 36,
+  "titleFr": "Demander ou donner de l’information sur un projet",
+  "titleEn": "To ask or give information about projects",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "active – forme active",
+      "en": "active voice"
+    },
+    {
+      "fr": "ajustement (n. m.)",
+      "en": "adjustment"
+    },
+    {
+      "fr": "atteindre",
+      "en": "to reach"
+    },
+    {
+      "fr": "atteint",
+      "en": "reached"
+    },
+    {
+      "fr": "atteinte",
+      "en": "reached"
+    },
+    {
+      "fr": "changement (n. m.)",
+      "en": "change"
+    },
+    {
+      "fr": "complication (n. f.)",
+      "en": "complication"
+    },
+    {
+      "fr": "échec (n. m.)",
+      "en": "failure"
+    },
+    {
+      "fr": "échouer",
+      "en": "to fail"
+    },
+    {
+      "fr": "efficacement",
+      "en": "effectively"
+    },
+    {
+      "fr": "ennui (n. m.)",
+      "en": "trouble"
+    },
+    {
+      "fr": "énoncé (n. m.)",
+      "en": "utterance"
+    },
+    {
+      "fr": "enquête (n. f.)",
+      "en": "inquiry"
+    },
+    {
+      "fr": "enquête (n. f.)",
+      "en": "survey"
+    },
+    {
+      "fr": "erreur (n. f.)",
+      "en": "error"
+    },
+    {
+      "fr": "erreur (n. f.)",
+      "en": "mistake"
+    },
+    {
+      "fr": "exploit (n. m.)",
+      "en": "achievement"
+    },
+    {
+      "fr": "exploit (n. m.)",
+      "en": "feat"
+    },
+    {
+      "fr": "facilité (n. f.)",
+      "en": "easiness"
+    },
+    {
+      "fr": "faire part de",
+      "en": "to inform (of, about)"
+    },
+    {
+      "fr": "forme active",
+      "en": "active voice"
+    },
+    {
+      "fr": "forme passive",
+      "en": "passive voice"
+    },
+    {
+      "fr": "improductif (adj. m.)",
+      "en": "unproductive"
+    },
+    {
+      "fr": "improductive (adj. f.)",
+      "en": "unproductive"
+    },
+    {
+      "fr": "inefficace (adj. m./f.)",
+      "en": "inefficient"
+    },
+    {
+      "fr": "inefficacité (n. f.)",
+      "en": "inefficiency"
+    },
+    {
+      "fr": "inexactitude (n. f.)",
+      "en": "inaccuracy"
+    },
+    {
+      "fr": "observation (n. f.)",
+      "en": "observation"
+    },
+    {
+      "fr": "obstacle (n. m.)",
+      "en": "obstacle"
+    },
+    {
+      "fr": "part – faire part de",
+      "en": "to inform (of, about)"
+    },
+    {
+      "fr": "passive – forme passive",
+      "en": "passive voice"
+    },
+    {
+      "fr": "productivité (n. f.)",
+      "en": "productivity"
+    },
+    {
+      "fr": "rappeler (à)",
+      "en": "to remind"
+    },
+    {
+      "fr": "recherche (n. f.)",
+      "en": "research"
+    },
+    {
+      "fr": "recherche (n. f.)",
+      "en": "search"
+    },
+    {
+      "fr": "rectifier",
+      "en": "to rectify"
+    },
+    {
+      "fr": "réussir",
+      "en": "to succeed"
+    },
+    {
+      "fr": "réussite (n. f.)",
+      "en": "success"
+    },
+    {
+      "fr": "révision (n. f.)",
+      "en": "revision"
+    },
+    {
+      "fr": "se tromper",
+      "en": "to make a mistake"
+    },
+    {
+      "fr": "simplifier",
+      "en": "to simplify"
+    }
+  ]
+}

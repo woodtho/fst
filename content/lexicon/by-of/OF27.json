@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF27",
+  "of": 27,
+  "titleFr": "Décrire une tâche (opérations physiques)",
+  "titleEn": "To describe tasks (physical operations)",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à mon avis",
+      "en": "in my view"
+    },
+    {
+      "fr": "à mon avis",
+      "en": "to my mind"
+    },
+    {
+      "fr": "à mon avis",
+      "en": "to my way of thinking"
+    },
+    {
+      "fr": "à propos",
+      "en": "by the way"
+    },
+    {
+      "fr": "ailleurs – d'ailleurs",
+      "en": "besides"
+    },
+    {
+      "fr": "ailleurs – par ailleurs",
+      "en": "furthermore"
+    },
+    {
+      "fr": "ailleurs – par ailleurs",
+      "en": "moreover"
+    },
+    {
+      "fr": "alors",
+      "en": "then"
+    },
+    {
+      "fr": "au fait",
+      "en": "by the way"
+    },
+    {
+      "fr": "avis – à mon avis",
+      "en": "in my view"
+    },
+    {
+      "fr": "avis – à mon avis",
+      "en": "to my mind"
+    },
+    {
+      "fr": "avis – à mon avis",
+      "en": "to my way of thinking"
+    },
+    {
+      "fr": "c’est-à-dire",
+      "en": "that is"
+    },
+    {
+      "fr": "ce – sur ce",
+      "en": "on that note"
+    },
+    {
+      "fr": "ceci dit",
+      "en": "having said that"
+    },
+    {
+      "fr": "cependant",
+      "en": "however"
+    },
+    {
+      "fr": "cependant",
+      "en": "meanwhile"
+    },
+    {
+      "fr": "cohésion (n. f.)",
+      "en": "cohesion"
+    },
+    {
+      "fr": "concerne – en ce qui concerne",
+      "en": "about"
+    },
+    {
+      "fr": "concerne – en ce qui concerne",
+      "en": "as far as . . . is concerned"
+    },
+    {
+      "fr": "concerne – en ce qui concerne",
+      "en": "regarding to"
+    },
+    {
+      "fr": "concerne – en ce qui concerne",
+      "en": "with regards to"
+    },
+    {
+      "fr": "conclure – pour conclure",
+      "en": "to conclude"
+    },
+    {
+      "fr": "conclure – pour conclure",
+      "en": "in conclusion"
+    },
+    {
+      "fr": "conclusion – en conclusion",
+      "en": "in conclusion"
+    },
+    {
+      "fr": "conséquence – en conséquence",
+      "en": "consequently"
+    },
+    {
+      "fr": "conséquence – en conséquence",
+      "en": "as a result"
+    },
+    {
+      "fr": "conséquent – par conséquent",
+      "en": "consequently"
+    },
+    {
+      "fr": "conséquent – par conséquent",
+      "en": "as a result"
+    },
+    {
+      "fr": "côté – d'un côté ... d'un autre côté",
+      "en": "on the one hand . . . on the other hand"
+    },
+    {
+      "fr": "d’ailleurs",
+      "en": "besides"
+    },
+    {
+      "fr": "d’habitude",
+      "en": "usually"
+    },
+    {
+      "fr": "d’un côté ... d’un autre côté",
+      "en": "on the one hand . . . on the other hand."
+    },
+    {
+      "fr": "d’une part, d’autre part",
+      "en": "on the one hand . . . on the other hand."
+    },
+    {
+      "fr": "dire – c'est-à-dire",
+      "en": "that is"
+    },
+    {
+      "fr": "disons que",
+      "en": "let’s say that"
+    },
+    {
+      "fr": "dit – ceci dit",
+      "en": "having said that"
+    },
+    {
+      "fr": "donc",
+      "en": "so"
+    },
+    {
+      "fr": "donc",
+      "en": "thus"
+    },
+    {
+      "fr": "donc – je disais donc que",
+      "en": "as I was saying"
+    },
+    {
+      "fr": "en ce qui concerne",
+      "en": "about"
+    }
+  ]
+}

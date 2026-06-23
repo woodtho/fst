@@ -1,0 +1,480 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF14",
+  "source": {
+    "catalogue": "SC102-2/14-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of14_present_1",
+      "objectiveId": "OF14",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "distractor_why": {
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
+        },
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_present_2",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_present_3",
+      "objectiveId": "OF14",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 20,
+      "irtB": -0.9,
+      "prompt": {
+        "fr": "Complétez : « Nous ___ (avoir) une réunion à 9 h. »",
+        "instructions_en": "Choose the present tense of avoir."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avons"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avons",
+          "tag": "correct"
+        },
+        {
+          "value": "avez",
+          "tag": "vous_form"
+        },
+        {
+          "value": "ont",
+          "tag": "ils_form"
+        },
+        {
+          "value": "as",
+          "tag": "tu_form"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With « nous », avoir is « avons » → « Nous avons une réunion ».",
+        "distractor_why": {
+          "vous_form": "« avez » is the vous form.",
+          "ils_form": "« ont » is the ils/elles form.",
+          "tu_form": "« as » is the tu form."
+        },
+        "grammar_rule": "avoir au présent : ai, as, a, avons, avez, ont.",
+        "vocab_notes": "avoir une réunion = to have a meeting.",
+        "common_mistakes": [
+          "confusing avons (nous) and avez (vous)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_present_4",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
+        "instructions_en": "Conjugate the -er verb for vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
+        "distractor_why": {
+          "wrong_ending": "-ons is nous, -ent is ils/elles.",
+          "infinitive": "« travailler » is the infinitive."
+        },
+        "grammar_rule": "vous + -er → -ez.",
+        "vocab_notes": "la Direction des opérations = the Operations Branch.",
+        "common_mistakes": [
+          "using -ons or the infinitive for vous"
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous → -EZ.",
+        "pattern": "Drop -er, add the subject ending.",
+        "similar": [
+          "Vous préparez l’ordre du jour.",
+          "Vous classez les dossiers."
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_question_formation_5",
+      "objectiveId": "OF14",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Choisissez : « ___ tu fais cet après-midi? » (what are you doing)",
+        "instructions_en": "Choose the question word for 'what'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Qu’est-ce que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Qu’est-ce que",
+          "tag": "correct"
+        },
+        {
+          "value": "Qui est-ce que",
+          "tag": "who"
+        },
+        {
+          "value": "Quel",
+          "tag": "which"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Qu’est-ce que » asks 'what' (object): « Qu’est-ce que tu fais? ».",
+        "distractor_why": {
+          "who": "« Qui est-ce que » asks 'whom' (a person).",
+          "which": "« Quel » needs a noun (quel projet)."
+        },
+        "grammar_rule": "Qu’est-ce que = what (object of the verb).",
+        "vocab_notes": "faire = to do/make.",
+        "common_mistakes": [
+          "using quel without a noun for 'what'"
+        ]
+      },
+      "tip": {
+        "memory_aid": "What + verb → Qu’est-ce que.",
+        "pattern": "Qu’est-ce que + subject + verb.",
+        "similar": [
+          "Qu’est-ce que vous proposez?",
+          "Qu’est-ce qu’il veut?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_question_formation_6",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Corrigez : « Est-ce que est le directeur disponible? »",
+        "instructions_en": "Fix the question structure."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce que le directeur est disponible?",
+          "Est-ce que le directeur est disponible"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « est-ce que » keep normal word order (subject + verb): « Est-ce que le directeur est disponible? ».",
+        "distractor_why": {
+          "inverted_after_estceque": "Don't invert after est-ce que; keep subject-verb order."
+        },
+        "grammar_rule": "Est-ce que + [subject + verb] + ?",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "inverting the verb after est-ce que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "After est-ce que, nothing flips.",
+        "pattern": "Est-ce que + statement order.",
+        "similar": [
+          "Est-ce que la salle est libre?",
+          "Est-ce qu’il a le rapport?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_question_formation_7",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Transformez par inversion : « Vous travaillez ici. » → ___",
+        "instructions_en": "Write the inversion question."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Travaillez-vous ici?",
+          "Travaillez-vous ici"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^travaillez-?vous ici\\??$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Inversion flips verb and subject with a hyphen: « Travaillez-vous ici? ».",
+        "distractor_why": {
+          "no_hyphen": "Inversion needs a hyphen (Travaillez-vous).",
+          "estceque": "« Est-ce que vous travaillez » is the est-ce que form."
+        },
+        "grammar_rule": "Inversion: verb-pronoun + ?",
+        "vocab_notes": "travailler = to work.",
+        "common_mistakes": [
+          "forgetting the hyphen"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous disponible?",
+          "Avez-vous le dossier?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_question_formation_8",
+      "objectiveId": "OF14",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Quel mot interrogatif ? « ___ est la date de la réunion? »",
+        "instructions_en": "Choose the question word."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Quelle"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Quelle",
+          "tag": "correct"
+        },
+        {
+          "value": "Quel",
+          "tag": "masculine"
+        },
+        {
+          "value": "Qui",
+          "tag": "who"
+        },
+        {
+          "value": "Où",
+          "tag": "where"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« date » is feminine singular and quel agrees → « Quelle est la date? ».",
+        "distractor_why": {
+          "masculine": "« Quel » is masculine; date is feminine.",
+          "who": "« Qui » asks about a person.",
+          "where": "« Où » asks about a place."
+        },
+        "grammar_rule": "quel/quelle/quels/quelles agrees with its noun.",
+        "vocab_notes": "la date (f.).",
+        "common_mistakes": [
+          "not agreeing quel with the noun"
+        ]
+      },
+      "tip": {
+        "memory_aid": "quel matches its noun.",
+        "pattern": "quelle date, quel jour.",
+        "similar": [
+          "Quelle heure est-il?",
+          "Quels sont les délais?"
+        ]
+      }
+    }
+  ]
+}

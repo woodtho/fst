@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF17",
+  "of": 17,
+  "titleFr": "S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses",
+  "titleEn": "To give or to ask for information about the presence or availability of people or things",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à la disposition de",
+      "en": "at someone’s disposal"
+    },
+    {
+      "fr": "absent – être absent",
+      "en": "to be absent"
+    },
+    {
+      "fr": "absent – être absent",
+      "en": "to be away"
+    },
+    {
+      "fr": "absente – être absente",
+      "en": "to be absent"
+    },
+    {
+      "fr": "absente – être absente",
+      "en": "to be away"
+    },
+    {
+      "fr": "absenter – s'absenter",
+      "en": "to go out"
+    },
+    {
+      "fr": "avoir le temps",
+      "en": "to have time"
+    },
+    {
+      "fr": "disponible (adj. m./f.)",
+      "en": "available"
+    },
+    {
+      "fr": "disposition – à la disposition de",
+      "en": "at someone’s disposal"
+    },
+    {
+      "fr": "épuisé (adj. m.)",
+      "en": "out of stock"
+    },
+    {
+      "fr": "épuisée (adj. f.)",
+      "en": "out of stock"
+    },
+    {
+      "fr": "être absent",
+      "en": "to be absent"
+    },
+    {
+      "fr": "être absent",
+      "en": "to be away"
+    },
+    {
+      "fr": "être absente",
+      "en": "to be absent"
+    },
+    {
+      "fr": "être absente",
+      "en": "to be away"
+    },
+    {
+      "fr": "être ici",
+      "en": "to be here"
+    },
+    {
+      "fr": "être là",
+      "en": "to be there"
+    },
+    {
+      "fr": "être parti",
+      "en": "to be out"
+    },
+    {
+      "fr": "être parti",
+      "en": "to be away"
+    },
+    {
+      "fr": "être parti",
+      "en": "to be left"
+    },
+    {
+      "fr": "être partie",
+      "en": "to be out"
+    },
+    {
+      "fr": "être partie",
+      "en": "to be away"
+    },
+    {
+      "fr": "être partie",
+      "en": "to be left"
+    },
+    {
+      "fr": "être sorti",
+      "en": "to be out"
+    },
+    {
+      "fr": "être sorti",
+      "en": "to be gone"
+    },
+    {
+      "fr": "être sortie",
+      "en": "to be out"
+    },
+    {
+      "fr": "être sortie",
+      "en": "to be gone"
+    },
+    {
+      "fr": "ici – être ici",
+      "en": "to be here"
+    },
+    {
+      "fr": "là – être là",
+      "en": "to be there"
+    },
+    {
+      "fr": "libre (adj. m./f.)",
+      "en": "free"
+    },
+    {
+      "fr": "manquer",
+      "en": "to be missing"
+    },
+    {
+      "fr": "manquer de",
+      "en": "to lack"
+    },
+    {
+      "fr": "manquer de",
+      "en": "to be short of"
+    },
+    {
+      "fr": "occupé (adj. m.)",
+      "en": "busy"
+    },
+    {
+      "fr": "occupée (adj. f.)",
+      "en": "busy"
+    },
+    {
+      "fr": "parti – être parti",
+      "en": "to be out"
+    },
+    {
+      "fr": "parti – être parti",
+      "en": "to be away"
+    },
+    {
+      "fr": "parti – être parti",
+      "en": "to be left"
+    },
+    {
+      "fr": "partie – être partie",
+      "en": "to be out"
+    },
+    {
+      "fr": "partie – être partie",
+      "en": "to be away"
+    },
+    {
+      "fr": "partie – être partie",
+      "en": "to be left"
+    }
+  ]
+}

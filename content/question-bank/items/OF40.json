@@ -1,0 +1,469 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF40",
+  "source": {
+    "catalogue": "SC102-2/40-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of40_conditionnel_1",
+      "objectiveId": "OF40",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Forme polie : « ___ -vous m’envoyer le dossier? »",
+        "instructions_en": "Choose the polite conditional form of pouvoir."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Pourriez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Pourriez",
+          "tag": "correct"
+        },
+        {
+          "value": "Pouvez",
+          "tag": "present_less_polite"
+        },
+        {
+          "value": "Pourrez",
+          "tag": "future"
+        },
+        {
+          "value": "Pouviez",
+          "tag": "imperfect"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Pourriez-vous… » (conditional of pouvoir) is the polite request form.",
+        "distractor_why": {
+          "present_less_polite": "« Pouvez-vous » is correct but less polite/softened.",
+          "future": "« Pourrez » is future.",
+          "imperfect": "« Pouviez » is imperfect."
+        },
+        "grammar_rule": "Conditional of pouvoir: pourrais, pourrais, pourrait, pourrions, pourriez, pourraient.",
+        "vocab_notes": "Pourriez-vous… = Could you… (polite).",
+        "common_mistakes": [
+          "confusing pourriez (cond.) with pourrez (future)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
+        "pattern": "future stem + imperfect endings.",
+        "similar": [
+          "Voudriez-vous…?",
+          "J’aimerais…"
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_conditionnel_2",
+      "objectiveId": "OF40",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Conditionnel : « Je ___ (vouloir) un rendez-vous avec le gestionnaire. »",
+        "instructions_en": "Polite conditional of vouloir, je form."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "voudrais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Je voudrais » (conditional of vouloir) softens the request — more polite than « je veux ».",
+        "distractor_why": {
+          "present_veux": "« veux » is direct/less polite.",
+          "future": "« voudrai » is future."
+        },
+        "grammar_rule": "vouloir conditional: voudrais, voudrais, voudrait…",
+        "vocab_notes": "un rendez-vous = an appointment.",
+        "common_mistakes": [
+          "using 'je veux' in polite requests"
+        ]
+      },
+      "tip": {
+        "memory_aid": "je voudrais = I would like.",
+        "pattern": "Conditional softens requests.",
+        "similar": [
+          "J’aimerais vous rencontrer.",
+          "Je souhaiterais un délai."
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_conditionnel_3",
+      "objectiveId": "OF40",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Conditionnel : « À votre place, je ___ (parler) au gestionnaire. »",
+        "instructions_en": "Conditional of parler, je form (advice)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "parlerais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Future stem parler- + imperfect ending -ais = « parlerais » (would speak — giving advice).",
+        "distractor_why": {
+          "future": "« parlerai » is future (-ai), not conditional (-ais).",
+          "imperfect": "« parlais » lacks the future stem -er-."
+        },
+        "grammar_rule": "Conditional = future stem + imperfect endings.",
+        "vocab_notes": "À votre place = if I were you.",
+        "common_mistakes": [
+          "dropping the -r- of the future stem",
+          "future -ai vs conditional -ais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Conditional = future stem + -ais.",
+        "pattern": "advice/hypothesis → conditional.",
+        "similar": [
+          "Je proposerais une autre date.",
+          "Nous recommanderions cette option."
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_conditionnel_4",
+      "objectiveId": "OF40",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Quelle formule est la plus polie pour demander un service ?",
+        "instructions_en": "Pick the most polite request."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Pourriez-vous vérifier ce chiffre, s’il vous plaît?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Pourriez-vous vérifier ce chiffre, s’il vous plaît?",
+          "tag": "correct"
+        },
+        {
+          "value": "Vérifie ce chiffre.",
+          "tag": "imperative_blunt"
+        },
+        {
+          "value": "Tu vérifies ce chiffre.",
+          "tag": "statement"
+        }
+      ],
+      "explanation": {
+        "correct_why": "The conditional « Pourriez-vous… s’il vous plaît? » is the polite, professional request form.",
+        "distractor_why": {
+          "imperative_blunt": "« Vérifie » is a blunt command (and tu).",
+          "statement": "« Tu vérifies » is a statement, not a polite request."
+        },
+        "grammar_rule": "Use the conditional + s’il vous plaît for polite workplace requests.",
+        "vocab_notes": "vérifier = to check.",
+        "common_mistakes": [
+          "using bare imperatives in professional requests"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Conditional + svp = polite.",
+        "pattern": "Pourriez-vous / Voudriez-vous + infinitive.",
+        "similar": [
+          "Pourriez-vous me rappeler?",
+          "Voudriez-vous patienter?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_subjonctif_5",
+      "objectiveId": "OF40",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Subjonctif : « Il faut que vous ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Present subjunctive of finir, vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "finissiez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Il faut que » triggers the subjunctive. Stem finiss- + -iez (vous) = « finissiez ».",
+        "distractor_why": {
+          "indicative": "« finissez » is the indicative present.",
+          "wrong_ending": "vous in the subjunctive takes -iez."
+        },
+        "grammar_rule": "Subjunctive stem from ils-present (finissent → finiss-); endings -e,-es,-e,-ions,-iez,-ent.",
+        "vocab_notes": "Il faut que = it is necessary that.",
+        "common_mistakes": [
+          "using the indicative after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_subjonctif_6",
+      "objectiveId": "OF40",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Complétez : « Il faut que le rapport ___ prêt vendredi. »",
+        "instructions_en": "Subjunctive of être."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "soit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "soit",
+          "tag": "correct"
+        },
+        {
+          "value": "est",
+          "tag": "indicative"
+        },
+        {
+          "value": "sera",
+          "tag": "future"
+        },
+        {
+          "value": "était",
+          "tag": "imperfect"
+        }
+      ],
+      "explanation": {
+        "correct_why": "After « il faut que », être becomes the subjunctive « soit » → « que le rapport soit prêt ».",
+        "distractor_why": {
+          "indicative": "« est » is the indicative.",
+          "future": "« sera » is future.",
+          "imperfect": "« était » is imperfect."
+        },
+        "grammar_rule": "être subjunctive: sois, sois, soit, soyons, soyez, soient.",
+        "vocab_notes": "prêt = ready.",
+        "common_mistakes": [
+          "using est/sera after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "que … soit (être subjunctive).",
+        "pattern": "Memorize être/avoir/faire/aller subjunctives.",
+        "similar": [
+          "Il faut qu’il ait le dossier.",
+          "Il faut que tu fasses le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_subjonctif_7",
+      "objectiveId": "OF40",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Indicatif ou subjonctif ? « Je pense qu’il ___ raison. »",
+        "instructions_en": "Penser que (affirmative) → which mood?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "a"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "a",
+          "tag": "correct"
+        },
+        {
+          "value": "ait",
+          "tag": "subjunctive_wrong"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Je pense que » (affirmative opinion) expresses certainty → indicative « a ». The subjunctive appears with doubt/negation (« Je ne pense pas qu’il ait raison »).",
+        "distractor_why": {
+          "subjunctive_wrong": "The subjunctive « ait » is used after doubt or negation, not after affirmative « je pense que »."
+        },
+        "grammar_rule": "penser/croire que (affirmative) → indicative; ne pas penser que / douter que → subjunctive.",
+        "vocab_notes": "avoir raison = to be right.",
+        "common_mistakes": [
+          "over-using the subjunctive after every que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Certainty → indicative; doubt/negation → subjunctive.",
+        "pattern": "Affirmative opinion = indicative.",
+        "similar": [
+          "Je crois qu’il vient.",
+          "Je ne crois pas qu’il vienne."
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_subjonctif_8",
+      "objectiveId": "OF40",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.8,
+      "prompt": {
+        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
+        "instructions_en": "Subjunctive of faire, nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "fassions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
+        "distractor_why": {
+          "indicative": "« faisons » is the indicative.",
+          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
+        },
+        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
+        "vocab_notes": "faire le suivi = to follow up.",
+        "common_mistakes": [
+          "using the indicative faisons after vouloir que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "veut que → subjunctive; faire → fass-.",
+        "pattern": "Verb of will + que + subjunctive.",
+        "similar": [
+          "Il veut que je fasse le rapport.",
+          "Elle souhaite que vous fassiez le point."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF38",
+  "of": 38,
+  "titleFr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation",
+  "titleEn": "To explain the reasons for and results of a decision, an action, an event or a situation",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à cause de",
+      "en": "because of"
+    },
+    {
+      "fr": "à force de",
+      "en": "through"
+    },
+    {
+      "fr": "afin de",
+      "en": "in order to"
+    },
+    {
+      "fr": "afin que",
+      "en": "in order that"
+    },
+    {
+      "fr": "ainsi",
+      "en": "so"
+    },
+    {
+      "fr": "ainsi",
+      "en": "thus"
+    },
+    {
+      "fr": "alors",
+      "en": "so"
+    },
+    {
+      "fr": "assez … pour (que)",
+      "en": "enough … to (that)"
+    },
+    {
+      "fr": "avoir pour but de",
+      "en": "to aim to"
+    },
+    {
+      "fr": "avoir pour conséquence",
+      "en": "to result in"
+    },
+    {
+      "fr": "avoir pour effet de",
+      "en": "to have the effect of"
+    },
+    {
+      "fr": "bien – si bien que",
+      "en": "as a result"
+    },
+    {
+      "fr": "but (n. m.)",
+      "en": "goal"
+    },
+    {
+      "fr": "but – avoir pour but de",
+      "en": "to aim to"
+    },
+    {
+      "fr": "but – dans le but de",
+      "en": "to"
+    },
+    {
+      "fr": "but – dans le but de",
+      "en": "with the intention of"
+    },
+    {
+      "fr": "c’est parce que",
+      "en": "it’s because"
+    },
+    {
+      "fr": "c’est pour ça (que)",
+      "en": "that’s why"
+    },
+    {
+      "fr": "c’est pour que (+ subj.)",
+      "en": "it’s so (that)"
+    },
+    {
+      "fr": "c’est pourquoi",
+      "en": "that’s why"
+    },
+    {
+      "fr": "ça fait que",
+      "en": "that means that"
+    },
+    {
+      "fr": "cause (n. f.)",
+      "en": "cause"
+    },
+    {
+      "fr": "cause – à cause de",
+      "en": "because of"
+    },
+    {
+      "fr": "causé – être causé par",
+      "en": "to be caused by"
+    },
+    {
+      "fr": "causée – être causée par",
+      "en": "to be caused by"
+    },
+    {
+      "fr": "causer",
+      "en": "to cause"
+    },
+    {
+      "fr": "ce qui fait que",
+      "en": "which means that"
+    },
+    {
+      "fr": "comme",
+      "en": "since"
+    },
+    {
+      "fr": "comme ça",
+      "en": "that way"
+    },
+    {
+      "fr": "comment ça se fait (que)",
+      "en": "how is it (that)"
+    },
+    {
+      "fr": "conséquence (n. f.)",
+      "en": "consequence"
+    },
+    {
+      "fr": "conséquence (n. f.)",
+      "en": "outcome"
+    },
+    {
+      "fr": "conséquence – avoir pour conséquence",
+      "en": "to result in"
+    },
+    {
+      "fr": "crainte – de crainte de",
+      "en": "for fear of"
+    },
+    {
+      "fr": "crainte – de crainte que",
+      "en": "for fear that"
+    },
+    {
+      "fr": "dans l’intention de",
+      "en": "with the view to"
+    },
+    {
+      "fr": "dans l’intention de",
+      "en": "to"
+    },
+    {
+      "fr": "dans le but de",
+      "en": "to"
+    },
+    {
+      "fr": "dans le but de",
+      "en": "with the intention of"
+    },
+    {
+      "fr": "de crainte de",
+      "en": "for fear of"
+    },
+    {
+      "fr": "de crainte que",
+      "en": "for fear that"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF37",
+  "of": 37,
+  "titleFr": "Décrire la démarche suivie dans la réalisation d’un projet",
+  "titleEn": "To describe the procedure followed in a project",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 20,
+  "entries": [
+    {
+      "fr": "affecter",
+      "en": "to assign"
+    },
+    {
+      "fr": "allouer (à)",
+      "en": "to allocate (to)"
+    },
+    {
+      "fr": "avancement – état d'avancement",
+      "en": "progress"
+    },
+    {
+      "fr": "compressions (n. f. plur.)",
+      "en": "restrictions"
+    },
+    {
+      "fr": "constatation (n. f.)",
+      "en": "noticing"
+    },
+    {
+      "fr": "engager",
+      "en": "to hire"
+    },
+    {
+      "fr": "état d’avancement (n. m.)",
+      "en": "progress"
+    },
+    {
+      "fr": "humaines – ressources humaines",
+      "en": "human resources"
+    },
+    {
+      "fr": "objectif (n. m.)",
+      "en": "objective"
+    },
+    {
+      "fr": "personnel (n. m.)",
+      "en": "staff"
+    },
+    {
+      "fr": "posé",
+      "en": "carried out"
+    },
+    {
+      "fr": "posée",
+      "en": "carried out"
+    },
+    {
+      "fr": "prolonger",
+      "en": "to prolong"
+    },
+    {
+      "fr": "raccourcir",
+      "en": "to shorten"
+    },
+    {
+      "fr": "rajustement (n. m.)",
+      "en": "adjustment"
+    },
+    {
+      "fr": "réduire",
+      "en": "to reduce"
+    },
+    {
+      "fr": "ressources humaines (n. f.)",
+      "en": "human resources"
+    },
+    {
+      "fr": "suite – à la suite",
+      "en": "following"
+    },
+    {
+      "fr": "suivi (adj. m.)",
+      "en": "followed"
+    },
+    {
+      "fr": "suivie (adj. f.)",
+      "en": "followed"
+    }
+  ]
+}

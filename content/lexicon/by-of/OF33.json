@@ -1,0 +1,122 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF33",
+  "of": 33,
+  "titleFr": "Exprimer un choix",
+  "titleEn": "To express choice",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 27,
+  "entries": [
+    {
+      "fr": "auquel",
+      "en": "to which"
+    },
+    {
+      "fr": "auxquelles",
+      "en": "to which"
+    },
+    {
+      "fr": "auxquels",
+      "en": "to which"
+    },
+    {
+      "fr": "avoir le choix",
+      "en": "to have a/the choice"
+    },
+    {
+      "fr": "choix (n. m.)",
+      "en": "choice"
+    },
+    {
+      "fr": "choix – avoir le choix",
+      "en": "to have a/the choice"
+    },
+    {
+      "fr": "choix – faire un choix",
+      "en": "to make a choice"
+    },
+    {
+      "fr": "choix – laisser le choix",
+      "en": "to give the choice"
+    },
+    {
+      "fr": "choix – offrir le choix",
+      "en": "to offer a choice"
+    },
+    {
+      "fr": "facultatif (adj. m.)",
+      "en": "optional"
+    },
+    {
+      "fr": "facultative (adj. f.)",
+      "en": "optional"
+    },
+    {
+      "fr": "faire un choix",
+      "en": "to make a choice"
+    },
+    {
+      "fr": "laisser le choix (à)",
+      "en": "to give the choice (to)"
+    },
+    {
+      "fr": "laquelle",
+      "en": "which"
+    },
+    {
+      "fr": "lequel",
+      "en": "which"
+    },
+    {
+      "fr": "lesquelles",
+      "en": "which"
+    },
+    {
+      "fr": "lesquels",
+      "en": "which"
+    },
+    {
+      "fr": "offrir le choix",
+      "en": "to offer a choice"
+    },
+    {
+      "fr": "opter",
+      "en": "to opt"
+    },
+    {
+      "fr": "option (n. f.)",
+      "en": "option"
+    },
+    {
+      "fr": "optionnel (adj. m.)",
+      "en": "optional"
+    },
+    {
+      "fr": "optionnelle (adj. f.)",
+      "en": "optional"
+    },
+    {
+      "fr": "renseignement (n. m.)",
+      "en": "information"
+    },
+    {
+      "fr": "retenir",
+      "en": "to keep (for a job)"
+    },
+    {
+      "fr": "sélection (n. f.)",
+      "en": "selection"
+    },
+    {
+      "fr": "sélectionner",
+      "en": "to select"
+    },
+    {
+      "fr": "soit … soit",
+      "en": "either . . . or"
+    }
+  ]
+}

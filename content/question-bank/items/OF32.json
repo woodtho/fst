@@ -1,0 +1,442 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF32",
+  "source": {
+    "catalogue": "SC102-2/32-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of32_subjonctif_1",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Subjonctif : « Il faut que vous ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Present subjunctive of finir, vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "finissiez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Il faut que » triggers the subjunctive. Stem finiss- + -iez (vous) = « finissiez ».",
+        "distractor_why": {
+          "indicative": "« finissez » is the indicative present.",
+          "wrong_ending": "vous in the subjunctive takes -iez."
+        },
+        "grammar_rule": "Subjunctive stem from ils-present (finissent → finiss-); endings -e,-es,-e,-ions,-iez,-ent.",
+        "vocab_notes": "Il faut que = it is necessary that.",
+        "common_mistakes": [
+          "using the indicative after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_subjonctif_2",
+      "objectiveId": "OF32",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Complétez : « Il faut que le rapport ___ prêt vendredi. »",
+        "instructions_en": "Subjunctive of être."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "soit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "soit",
+          "tag": "correct"
+        },
+        {
+          "value": "est",
+          "tag": "indicative"
+        },
+        {
+          "value": "sera",
+          "tag": "future"
+        },
+        {
+          "value": "était",
+          "tag": "imperfect"
+        }
+      ],
+      "explanation": {
+        "correct_why": "After « il faut que », être becomes the subjunctive « soit » → « que le rapport soit prêt ».",
+        "distractor_why": {
+          "indicative": "« est » is the indicative.",
+          "future": "« sera » is future.",
+          "imperfect": "« était » is imperfect."
+        },
+        "grammar_rule": "être subjunctive: sois, sois, soit, soyons, soyez, soient.",
+        "vocab_notes": "prêt = ready.",
+        "common_mistakes": [
+          "using est/sera after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "que … soit (être subjunctive).",
+        "pattern": "Memorize être/avoir/faire/aller subjunctives.",
+        "similar": [
+          "Il faut qu’il ait le dossier.",
+          "Il faut que tu fasses le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_subjonctif_3",
+      "objectiveId": "OF32",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Indicatif ou subjonctif ? « Je pense qu’il ___ raison. »",
+        "instructions_en": "Penser que (affirmative) → which mood?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "a"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "a",
+          "tag": "correct"
+        },
+        {
+          "value": "ait",
+          "tag": "subjunctive_wrong"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Je pense que » (affirmative opinion) expresses certainty → indicative « a ». The subjunctive appears with doubt/negation (« Je ne pense pas qu’il ait raison »).",
+        "distractor_why": {
+          "subjunctive_wrong": "The subjunctive « ait » is used after doubt or negation, not after affirmative « je pense que »."
+        },
+        "grammar_rule": "penser/croire que (affirmative) → indicative; ne pas penser que / douter que → subjunctive.",
+        "vocab_notes": "avoir raison = to be right.",
+        "common_mistakes": [
+          "over-using the subjunctive after every que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Certainty → indicative; doubt/negation → subjunctive.",
+        "pattern": "Affirmative opinion = indicative.",
+        "similar": [
+          "Je crois qu’il vient.",
+          "Je ne crois pas qu’il vienne."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_subjonctif_4",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.8,
+      "prompt": {
+        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
+        "instructions_en": "Subjunctive of faire, nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "fassions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
+        "distractor_why": {
+          "indicative": "« faisons » is the indicative.",
+          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
+        },
+        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
+        "vocab_notes": "faire le suivi = to follow up.",
+        "common_mistakes": [
+          "using the indicative faisons after vouloir que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "veut que → subjunctive; faire → fass-.",
+        "pattern": "Verb of will + que + subjunctive.",
+        "similar": [
+          "Il veut que je fasse le rapport.",
+          "Elle souhaite que vous fassiez le point."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_si_clauses_5",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Type 1 : « Si tu ___ (finir) tôt, nous partirons ensemble. »",
+        "instructions_en": "After si (real condition), which tense?"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "finis"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Real condition: si + present → future. « Si tu finis tôt, nous partirons ».",
+        "distractor_why": {
+          "future_after_si": "Don't use the future after si; the present goes in the si-clause.",
+          "conditional": "The conditional belongs to type 2 (si + imparfait)."
+        },
+        "grammar_rule": "si + présent, … futur.",
+        "vocab_notes": "tôt = early.",
+        "common_mistakes": [
+          "putting the future right after si"
+        ]
+      },
+      "tip": {
+        "memory_aid": "After si: present (type 1), never future.",
+        "pattern": "si + présent → futur.",
+        "similar": [
+          "Si j’ai le temps, je viendrai.",
+          "Si vous voulez, on commencera."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_si_clauses_6",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Type 2 : « Si j’___ (avoir) plus de temps, je réviserais le rapport. »",
+        "instructions_en": "Hypothetical: which tense after si?"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Hypothetical: si + imparfait → conditional. « Si j’avais plus de temps, je réviserais ».",
+        "distractor_why": {
+          "conditional_after_si": "The conditional goes in the result clause, not after si.",
+          "present": "The present would make it a type-1 (real) condition."
+        },
+        "grammar_rule": "si + imparfait, … conditionnel présent.",
+        "vocab_notes": "réviser = to revise.",
+        "common_mistakes": [
+          "using the conditional after si"
+        ]
+      },
+      "tip": {
+        "memory_aid": "si + imparfait → conditional result.",
+        "pattern": "si + imparfait, … conditionnel.",
+        "similar": [
+          "Si j’étais toi, je demanderais.",
+          "Si nous avions le budget, nous embaucherions."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_si_clauses_7",
+      "objectiveId": "OF32",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Choisissez le résultat : « Si nous avions plus de personnel, nous ___ les délais. »",
+        "instructions_en": "Type 2 result clause."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "respecterions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "respecterions",
+          "tag": "correct"
+        },
+        {
+          "value": "respecterons",
+          "tag": "future"
+        },
+        {
+          "value": "respectons",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "si + imparfait → conditional in the result clause: « nous respecterions les délais ».",
+        "distractor_why": {
+          "future": "« respecterons » (future) pairs with si + present, not imparfait.",
+          "present": "« respectons » is present."
+        },
+        "grammar_rule": "Result clause of a type-2 condition is the present conditional.",
+        "vocab_notes": "respecter les délais = to meet deadlines.",
+        "common_mistakes": [
+          "using the future as the result of si + imparfait"
+        ]
+      },
+      "tip": {
+        "memory_aid": "imparfait ↔ conditional partner.",
+        "pattern": "si + imparfait, [conditional].",
+        "similar": [
+          "…, je proposerais une autre date.",
+          "…, on embaucherait."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_si_clauses_8",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Corrigez : « Si vous aurez besoin d’aide, appelez-moi. »",
+        "instructions_en": "Fix the tense after si."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Si vous avez besoin d’aide, appelez-moi",
+          "Si vous avez besoin d’aide, appelez-moi."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "No future after si; use the present: « Si vous avez besoin d’aide, appelez-moi ».",
+        "distractor_why": {
+          "future_kept": "« aurez » (future) is wrong after si; the si-clause takes the present."
+        },
+        "grammar_rule": "si never takes the future directly; use the present.",
+        "vocab_notes": "avoir besoin de = to need.",
+        "common_mistakes": [
+          "using the future after si (English interference)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "si + present (not future).",
+        "pattern": "si + présent, impératif/futur.",
+        "similar": [
+          "Si tu veux, je t’aide.",
+          "Si ça vous convient, on commence."
+        ]
+      }
+    }
+  ]
+}

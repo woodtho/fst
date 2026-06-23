@@ -1,0 +1,464 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF36",
+  "source": {
+    "catalogue": "SC102-2/36-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of36_present_1",
+      "objectiveId": "OF36",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 20,
+      "irtB": -0.9,
+      "prompt": {
+        "fr": "Complétez : « Nous ___ (avoir) une réunion à 9 h. »",
+        "instructions_en": "Choose the present tense of avoir."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avons"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avons",
+          "tag": "correct"
+        },
+        {
+          "value": "avez",
+          "tag": "vous_form"
+        },
+        {
+          "value": "ont",
+          "tag": "ils_form"
+        },
+        {
+          "value": "as",
+          "tag": "tu_form"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With « nous », avoir is « avons » → « Nous avons une réunion ».",
+        "distractor_why": {
+          "vous_form": "« avez » is the vous form.",
+          "ils_form": "« ont » is the ils/elles form.",
+          "tu_form": "« as » is the tu form."
+        },
+        "grammar_rule": "avoir au présent : ai, as, a, avons, avez, ont.",
+        "vocab_notes": "avoir une réunion = to have a meeting.",
+        "common_mistakes": [
+          "confusing avons (nous) and avez (vous)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_present_2",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
+        "instructions_en": "Conjugate the -er verb for vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
+        "distractor_why": {
+          "wrong_ending": "-ons is nous, -ent is ils/elles.",
+          "infinitive": "« travailler » is the infinitive."
+        },
+        "grammar_rule": "vous + -er → -ez.",
+        "vocab_notes": "la Direction des opérations = the Operations Branch.",
+        "common_mistakes": [
+          "using -ons or the infinitive for vous"
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous → -EZ.",
+        "pattern": "Drop -er, add the subject ending.",
+        "similar": [
+          "Vous préparez l’ordre du jour.",
+          "Vous classez les dossiers."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_present_3",
+      "objectiveId": "OF36",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "distractor_why": {
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
+        },
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_present_4",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_futur_simple_5",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Futur simple : « La semaine prochaine, nous ___ (terminer) le projet. »",
+        "instructions_en": "Simple future, nous form."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "terminerons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Infinitive terminer + -ons (nous) = « terminerons ».",
+        "distractor_why": {
+          "present": "« terminons » is present.",
+          "conditional": "« terminerions » is the conditional."
+        },
+        "grammar_rule": "Futur simple = infinitif + -ai/-as/-a/-ons/-ez/-ont.",
+        "vocab_notes": "la semaine prochaine = next week.",
+        "common_mistakes": [
+          "confusing future -ons with conditional -ions"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = the infinitive itself.",
+        "pattern": "infinitive + future endings.",
+        "similar": [
+          "Je vérifierai les chiffres.",
+          "Ils prépareront le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_futur_simple_6",
+      "objectiveId": "OF36",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Complétez : « Demain, je ___ (être) au bureau à 8 h. »",
+        "instructions_en": "Simple future of être (irregular stem)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "serai"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "serai",
+          "tag": "correct"
+        },
+        {
+          "value": "suis",
+          "tag": "present"
+        },
+        {
+          "value": "étais",
+          "tag": "imperfect"
+        },
+        {
+          "value": "serais",
+          "tag": "conditional"
+        }
+      ],
+      "explanation": {
+        "correct_why": "être has the irregular future stem ser-: je → « serai ».",
+        "distractor_why": {
+          "present": "« suis » is present.",
+          "imperfect": "« étais » is imperfect.",
+          "conditional": "« serais » is conditional."
+        },
+        "grammar_rule": "être future: serai, seras, sera, serons, serez, seront.",
+        "vocab_notes": "au bureau = at the office.",
+        "common_mistakes": [
+          "confusing future serai with conditional serais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "être → ser- (serai).",
+        "pattern": "Memorize irregular future stems (ser-, aur-, ir-, fer-).",
+        "similar": [
+          "J’aurai le rapport demain.",
+          "Nous ferons le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_futur_simple_7",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Futur simple : « Quand le budget ___ (être) approuvé, nous embaucherons. »",
+        "instructions_en": "After 'quand' referring to the future, use the future."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "sera"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « quand » referring to a future event, French uses the future: « quand le budget sera approuvé ».",
+        "distractor_why": {
+          "present_after_quand": "Unlike English ('when it is'), French uses the future after quand for future time."
+        },
+        "grammar_rule": "After quand/lorsque/dès que about the future, use the futur simple (not the present).",
+        "vocab_notes": "approuvé = approved; embaucher = to hire.",
+        "common_mistakes": [
+          "using the present after quand (English interference)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "quand + future → future (not present).",
+        "pattern": "Future time clause ⇒ future tense.",
+        "similar": [
+          "Dès que j’aurai les chiffres, je t’écrirai.",
+          "Quand il arrivera, nous commencerons."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_futur_simple_8",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Corrigez : « Nous prendrons une décision quand nous avons toutes les données. »",
+        "instructions_en": "Fix the tense after 'quand'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous prendrons une décision quand nous aurons toutes les données",
+          "Nous prendrons une décision quand nous aurons toutes les données."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Future time after quand → future: « quand nous aurons toutes les données ».",
+        "distractor_why": {
+          "present_kept": "« avons » (present) is wrong here; the data is in the future, so use « aurons »."
+        },
+        "grammar_rule": "Both clauses are future when quand refers to a future moment.",
+        "vocab_notes": "les données = the data.",
+        "common_mistakes": [
+          "leaving the present after quand"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Two futures around 'quand'.",
+        "pattern": "[future] … quand [future].",
+        "similar": [
+          "Je commencerai quand tu seras prêt.",
+          "On partira dès qu’il arrivera."
+        ]
+      }
+    }
+  ]
+}

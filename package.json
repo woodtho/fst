@@ -1,0 +1,35 @@
+{
+  "name": "fsl-trainer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Government of Canada FSL Levels A & B + SLE prep — adaptive learning platform.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "validate": "node --experimental-strip-types scripts/validate-content.ts",
+    "lexicon:parse": "node --experimental-strip-types scripts/parse-lexicon.ts",
+    "build:modules": "node --experimental-strip-types scripts/build-modules.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev --name init",
+    "db:load": "node --experimental-strip-types scripts/load-content.ts",
+    "db:studio": "prisma studio"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "prisma": "^5.20.0",
+    "typescript": "^5.5.4"
+  }
+}

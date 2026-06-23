@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF13",
+  "of": 13,
+  "titleFr": "Fournir de l’information sur un événement ou une habitude passés",
+  "titleEn": "To give information about past events and habits",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à l’avance",
+      "en": "ahead"
+    },
+    {
+      "fr": "à l’avance",
+      "en": "in advance"
+    },
+    {
+      "fr": "à l’heure",
+      "en": "on time"
+    },
+    {
+      "fr": "à temps",
+      "en": "in time"
+    },
+    {
+      "fr": "acquis",
+      "en": "acquired"
+    },
+    {
+      "fr": "acquise",
+      "en": "acquired"
+    },
+    {
+      "fr": "aimé",
+      "en": "loved"
+    },
+    {
+      "fr": "aimé (bien)",
+      "en": "liked"
+    },
+    {
+      "fr": "aimée",
+      "en": "loved"
+    },
+    {
+      "fr": "aimée (bien)",
+      "en": "liked"
+    },
+    {
+      "fr": "attendre",
+      "en": "to wait"
+    },
+    {
+      "fr": "attendu",
+      "en": "waited"
+    },
+    {
+      "fr": "attendu",
+      "en": "expected"
+    },
+    {
+      "fr": "attendue",
+      "en": "waited"
+    },
+    {
+      "fr": "attendue",
+      "en": "expected"
+    },
+    {
+      "fr": "attente (n. f.)",
+      "en": "wait"
+    },
+    {
+      "fr": "avance - à l'avance",
+      "en": "ahead"
+    },
+    {
+      "fr": "avance - à l'avance",
+      "en": "in advance"
+    },
+    {
+      "fr": "avance - en avance",
+      "en": "early"
+    },
+    {
+      "fr": "avance - prendre de l'avance",
+      "en": "to get ahead"
+    },
+    {
+      "fr": "avance - prendre de l'avance",
+      "en": "to get a head start"
+    },
+    {
+      "fr": "avancer",
+      "en": "to move forward"
+    },
+    {
+      "fr": "avancer",
+      "en": "to make earlier"
+    },
+    {
+      "fr": "avant l’heure",
+      "en": "early"
+    },
+    {
+      "fr": "ça fait",
+      "en": "it has been"
+    },
+    {
+      "fr": "clos",
+      "en": "closed"
+    },
+    {
+      "fr": "close",
+      "en": "closed"
+    },
+    {
+      "fr": "connu",
+      "en": "known"
+    },
+    {
+      "fr": "connue",
+      "en": "known"
+    },
+    {
+      "fr": "courir",
+      "en": "to run"
+    },
+    {
+      "fr": "couru",
+      "en": "run"
+    },
+    {
+      "fr": "courue",
+      "en": "run"
+    },
+    {
+      "fr": "dans le temps",
+      "en": "in the past"
+    },
+    {
+      "fr": "dernièrement",
+      "en": "lately"
+    },
+    {
+      "fr": "dit",
+      "en": "told"
+    },
+    {
+      "fr": "dit",
+      "en": "said"
+    },
+    {
+      "fr": "dite",
+      "en": "told"
+    },
+    {
+      "fr": "dite",
+      "en": "said"
+    },
+    {
+      "fr": "dû",
+      "en": "due"
+    },
+    {
+      "fr": "due",
+      "en": "due"
+    },
+    {
+      "fr": "en avance",
+      "en": "early"
+    }
+  ]
+}

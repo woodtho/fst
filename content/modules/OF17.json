@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF17",
+  "titleFr": "S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses",
+  "titleEn": "To give or to ask for information about the presence or availability of people or things",
+  "level": "A",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/17-2005F",
+    "text": "sources/text/OF17.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF17 — To give or to ask for information about the presence or availability of people or things. This objective develops the language needed to give or to ask for information about the presence or availability of people or things in a Government of Canada workplace. Grammar focus: The present tense, Pronouns. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses. Objectif communicatif appuyé par : Le présent de l’indicatif, Les pronoms. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present tense, Pronouns.",
+        "charts": [],
+        "points": [
+          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
+          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
+          "Les pronoms (Pronouns) — Remplacent les noms : objets directs (le/la/les), indirects (lui/leur), y, en, relatifs (qui/que). Ils se placent avant le verbe conjugué.",
+          "· Direct objects: le, la, les, l’.",
+          "· Indirect (à + person): lui, leur. y = à + thing/place; en = de + thing.",
+          "· Relative: qui (subject), que (object)."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le présent de l’indicatif",
+          "itemRefs": [
+            "itm_of17_present_1",
+            "itm_of17_present_2",
+            "itm_of17_present_3",
+            "itm_of17_present_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les pronoms",
+          "itemRefs": [
+            "itm_of17_pronouns_5",
+            "itm_of17_pronouns_6",
+            "itm_of17_pronouns_7",
+            "itm_of17_pronouns_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/47-2-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « s’informer ou informer de la présence ou de la disponibilité de personnes ou de choses ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le présent de l’indicatif, Les pronoms.",
+          "promptEn": "In a workplace context, practise the function \"To give or to ask for information about the presence or availability of people or things\". Produce a short exchange (3–4 sentences) using: The present tense, Pronouns.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/45-2-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 5,
+        "advanced": 1
+      },
+      "drawFrom": [
+        "OF17"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "present",
+        "pronouns"
+      ]
+    }
+  }
+}

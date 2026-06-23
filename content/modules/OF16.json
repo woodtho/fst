@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF16",
+  "titleFr": "Faire une offre et réagir à une offre",
+  "titleEn": "To make and to respond to offers",
+  "level": "A",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/16-2005F",
+    "text": "sources/text/OF16.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF16 — To make and to respond to offers. This objective develops the language needed to make and to respond to offers in a Government of Canada workplace. Grammar focus: The present tense, The compound past. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Faire une offre et réagir à une offre. Objectif communicatif appuyé par : Le présent de l’indicatif, Le passé composé. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present tense, The compound past.",
+        "charts": [],
+        "points": [
+          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
+          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
+          "Le passé composé (The compound past) — Action passée terminée : auxiliaire (avoir/être) au présent + participe passé. Avec être, accord du participe avec le sujet.",
+          "· Most verbs use avoir; no agreement with the subject.",
+          "· Movement/state-change verbs and pronominal verbs use être; participle agrees with subject.",
+          "· Regular participles: -er→-é, -ir→-i, -re→-u."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le présent de l’indicatif",
+          "itemRefs": [
+            "itm_of16_present_1",
+            "itm_of16_present_2",
+            "itm_of16_present_3",
+            "itm_of16_present_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le passé composé",
+          "itemRefs": [
+            "itm_of16_passe_compose_5",
+            "itm_of16_passe_compose_6",
+            "itm_of16_passe_compose_7",
+            "itm_of16_passe_compose_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/47-2-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Faire une offre et réagir à une offre",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « faire une offre et réagir à une offre ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le présent de l’indicatif, Le passé composé.",
+          "promptEn": "In a workplace context, practise the function \"To make and to respond to offers\". Produce a short exchange (3–4 sentences) using: The present tense, The compound past.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/45-2-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 4,
+        "medium": 4,
+        "advanced": 0
+      },
+      "drawFrom": [
+        "OF16"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "present",
+        "passe_compose"
+      ]
+    }
+  }
+}

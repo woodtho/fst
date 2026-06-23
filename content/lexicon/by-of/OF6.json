@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF6",
+  "of": 6,
+  "titleFr": "Indiquer des données chiffrées",
+  "titleEn": "To use numbers",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "adjectif démonstratif",
+      "en": "demonstrative adjective"
+    },
+    {
+      "fr": "ça",
+      "en": "that"
+    },
+    {
+      "fr": "ceci",
+      "en": "this"
+    },
+    {
+      "fr": "cela",
+      "en": "that"
+    },
+    {
+      "fr": "celle",
+      "en": "the one"
+    },
+    {
+      "fr": "celle-ci",
+      "en": "this one"
+    },
+    {
+      "fr": "celle-là",
+      "en": "that one"
+    },
+    {
+      "fr": "celles-ci",
+      "en": "these ones"
+    },
+    {
+      "fr": "celles-là",
+      "en": "those ones"
+    },
+    {
+      "fr": "celui",
+      "en": "the one"
+    },
+    {
+      "fr": "celui-ci",
+      "en": "this one"
+    },
+    {
+      "fr": "celui-là",
+      "en": "that one"
+    },
+    {
+      "fr": "cent",
+      "en": "hundred"
+    },
+    {
+      "fr": "centaine (n. f.)",
+      "en": "about a hundred"
+    },
+    {
+      "fr": "centième (n. m./f.)",
+      "en": "hundredth"
+    },
+    {
+      "fr": "ces",
+      "en": "those"
+    },
+    {
+      "fr": "cet",
+      "en": "this"
+    },
+    {
+      "fr": "cette",
+      "en": "this"
+    },
+    {
+      "fr": "ceux-ci",
+      "en": "these ones"
+    },
+    {
+      "fr": "ceux-là",
+      "en": "those ones"
+    },
+    {
+      "fr": "ci – celle-ci",
+      "en": "this one"
+    },
+    {
+      "fr": "ci – celles-ci",
+      "en": "these ones"
+    },
+    {
+      "fr": "ci – celui-ci",
+      "en": "this one"
+    },
+    {
+      "fr": "ci – ceux-ci",
+      "en": "these ones"
+    },
+    {
+      "fr": "cinq",
+      "en": "five"
+    },
+    {
+      "fr": "cinquantaine (n. f.)",
+      "en": "about fifty"
+    },
+    {
+      "fr": "cinquante",
+      "en": "fifty"
+    },
+    {
+      "fr": "cinquante et un",
+      "en": "fifty one"
+    },
+    {
+      "fr": "collectifs – nombres collectifs",
+      "en": "collective numbers"
+    },
+    {
+      "fr": "combien",
+      "en": "how many"
+    },
+    {
+      "fr": "combien",
+      "en": "how much"
+    },
+    {
+      "fr": "démonstratif – adjectif démonstratif",
+      "en": "demonstrative adjective"
+    },
+    {
+      "fr": "démonstratif – pronom démonstratif",
+      "en": "demonstrative pronoun"
+    },
+    {
+      "fr": "deux",
+      "en": "two"
+    },
+    {
+      "fr": "deuxième",
+      "en": "second"
+    },
+    {
+      "fr": "diviser (par)",
+      "en": "to divide by"
+    },
+    {
+      "fr": "dix",
+      "en": "ten"
+    },
+    {
+      "fr": "dix-huit",
+      "en": "eighteen"
+    },
+    {
+      "fr": "dix-neuf",
+      "en": "nineteen"
+    },
+    {
+      "fr": "dix-sept",
+      "en": "seventeen"
+    },
+    {
+      "fr": "dizaine (n. f.)",
+      "en": "about ten"
+    }
+  ]
+}

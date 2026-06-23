@@ -1,0 +1,134 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF8",
+  "titleFr": "Situer un événement dans le temps",
+  "titleEn": "To give times and dates",
+  "level": "A",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/8-2005F",
+    "text": "sources/text/OF08.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF8 — To give times and dates. This objective develops the language needed to give times and dates in a Government of Canada workplace. Grammar focus: Prepositions, The present tense, Question formation. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Situer un événement dans le temps. Objectif communicatif appuyé par : Les prépositions, Le présent de l’indicatif, L’interrogation. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: Prepositions, The present tense, Question formation.",
+        "charts": [],
+        "points": [
+          "Les prépositions (Prepositions) — Relient les mots et indiquent le lieu, le temps et la relation : à, de, en, dans, sur, chez. à+le=au; de+le=du.",
+          "· Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+          "· Place: à (city), en/au (country), dans (inside), sur (on), chez (at someone's).",
+          "· Time: à (time), en (month/year), dans (in X time), depuis (since).",
+          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
+          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
+          "L’interrogation (Question formation) — Questions fermées : intonation, est-ce que, inversion. Questions ouvertes : qui, que/quoi, où, quand, comment, pourquoi, combien, quel (accordé).",
+          "· Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+          "· Information words: qui, que, où, quand, comment, pourquoi, combien.",
+          "· quel agrees in gender/number with its noun."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Les prépositions",
+          "itemRefs": [
+            "itm_of8_prepositions_1",
+            "itm_of8_prepositions_2",
+            "itm_of8_prepositions_3",
+            "itm_of8_prepositions_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le présent de l’indicatif",
+          "itemRefs": [
+            "itm_of8_present_5",
+            "itm_of8_present_6",
+            "itm_of8_present_7",
+            "itm_of8_present_8"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "L’interrogation",
+          "itemRefs": [
+            "itm_of8_question_formation_9",
+            "itm_of8_question_formation_10",
+            "itm_of8_question_formation_11",
+            "itm_of8_question_formation_12"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 1,
+        "ofRange": [
+          1,
+          12
+        ],
+        "catalogue": "SC102-2/47-1-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Situer un événement dans le temps",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « situer un événement dans le temps ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les prépositions, Le présent de l’indicatif, L’interrogation.",
+          "promptEn": "In a workplace context, practise the function \"To give times and dates\". Produce a short exchange (3–4 sentences) using: Prepositions, The present tense, Question formation.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 1,
+        "ofRange": [
+          1,
+          12
+        ],
+        "catalogue": "SC102-2/45-1-2006F"
+      },
+      "timedSeconds": 420,
+      "blueprint": {
+        "easy": 4,
+        "medium": 6,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF8"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "prepositions",
+        "present",
+        "question_formation"
+      ]
+    }
+  }
+}

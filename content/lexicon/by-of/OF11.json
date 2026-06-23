@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF11",
+  "of": 11,
+  "titleFr": "Préciser comment accomplir une tâche",
+  "titleEn": "To explain how to perform a task",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à",
+      "en": "in"
+    },
+    {
+      "fr": "à",
+      "en": "on"
+    },
+    {
+      "fr": "à",
+      "en": "by"
+    },
+    {
+      "fr": "à l’aide de",
+      "en": "with the help of"
+    },
+    {
+      "fr": "absolu (adj. m.)",
+      "en": "absolute"
+    },
+    {
+      "fr": "absolue (adj. f.)",
+      "en": "absolute"
+    },
+    {
+      "fr": "absolument",
+      "en": "absolutely"
+    },
+    {
+      "fr": "aide – à l'aide de",
+      "en": "with the help of"
+    },
+    {
+      "fr": "assez",
+      "en": "enough"
+    },
+    {
+      "fr": "au moyen de",
+      "en": "by means of"
+    },
+    {
+      "fr": "avec",
+      "en": "with"
+    },
+    {
+      "fr": "biais – par le biais de",
+      "en": "through"
+    },
+    {
+      "fr": "biais – par le biais de",
+      "en": "via"
+    },
+    {
+      "fr": "bien",
+      "en": "well"
+    },
+    {
+      "fr": "bien",
+      "en": "quite"
+    },
+    {
+      "fr": "confidentiellement",
+      "en": "confidentially"
+    },
+    {
+      "fr": "constamment",
+      "en": "constantly"
+    },
+    {
+      "fr": "constant (adj. m.)",
+      "en": "constant"
+    },
+    {
+      "fr": "constante (adj. f.)",
+      "en": "constant"
+    },
+    {
+      "fr": "d’une façon (+ adj.)",
+      "en": "in a (+ adj.) way"
+    },
+    {
+      "fr": "d’une manière (+ adj.)",
+      "en": "in a (+ adj.) way"
+    },
+    {
+      "fr": "différemment",
+      "en": "differently"
+    },
+    {
+      "fr": "différent (adj. m.)",
+      "en": "different"
+    },
+    {
+      "fr": "différente (adj. f.)",
+      "en": "different"
+    },
+    {
+      "fr": "en",
+      "en": "by"
+    },
+    {
+      "fr": "énorme (adj. m./f.)",
+      "en": "huge"
+    },
+    {
+      "fr": "énorme (adj. m./f.)",
+      "en": "enormous"
+    },
+    {
+      "fr": "énormément",
+      "en": "enormously"
+    },
+    {
+      "fr": "énormément",
+      "en": "a lot"
+    },
+    {
+      "fr": "étonnamment",
+      "en": "amazingly"
+    },
+    {
+      "fr": "étonnant (adj. m.)",
+      "en": "amazing"
+    },
+    {
+      "fr": "étonnante (adj. f.)",
+      "en": "amazing"
+    },
+    {
+      "fr": "extrêmement",
+      "en": "extremely"
+    },
+    {
+      "fr": "facile (adj. m./f.)",
+      "en": "easy"
+    },
+    {
+      "fr": "facilement",
+      "en": "easily"
+    },
+    {
+      "fr": "façon – d'une façon (+ adj.)",
+      "en": "in a (+ adj.) way"
+    },
+    {
+      "fr": "grâce à",
+      "en": "thanks to"
+    },
+    {
+      "fr": "intelligemment",
+      "en": "intelligently"
+    },
+    {
+      "fr": "intelligent (adj. m.)",
+      "en": "intelligent"
+    },
+    {
+      "fr": "intelligente (adj. f.)",
+      "en": "intelligent"
+    },
+    {
+      "fr": "légèrement",
+      "en": "lightly"
+    }
+  ]
+}

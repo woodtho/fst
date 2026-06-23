@@ -1,0 +1,242 @@
+{
+  "schema": "grammar/v1",
+  "conceptId": "passe_compose",
+  "nameFr": "Le passé composé",
+  "nameEn": "The compound past",
+  "objectives": [
+    "OF9",
+    "OF13",
+    "OF24"
+  ],
+  "summary": {
+    "en": "Expresses a completed past action. Formed with an auxiliary (avoir or être) in the present + the past participle.",
+    "fr": "Exprime une action passée et terminée. Auxiliaire (avoir ou être) au présent + participe passé."
+  },
+  "charts": [
+    {
+      "id": "passe_compose_avoir",
+      "title": "Avoir + participe passé (envoyer)",
+      "headers": [
+        "Personne",
+        "Auxiliaire (avoir)",
+        "Participe",
+        "Forme"
+      ],
+      "rows": [
+        [
+          "je",
+          "ai",
+          "envoyé",
+          "j'ai envoyé"
+        ],
+        [
+          "tu",
+          "as",
+          "envoyé",
+          "tu as envoyé"
+        ],
+        [
+          "il / elle / on",
+          "a",
+          "envoyé",
+          "il a envoyé"
+        ],
+        [
+          "nous",
+          "avons",
+          "envoyé",
+          "nous avons envoyé"
+        ],
+        [
+          "vous",
+          "avez",
+          "envoyé",
+          "vous avez envoyé"
+        ],
+        [
+          "ils / elles",
+          "ont",
+          "envoyé",
+          "ils ont envoyé"
+        ]
+      ]
+    },
+    {
+      "id": "passe_compose_etre",
+      "title": "Être + participe passé (arriver) — accord avec le sujet",
+      "headers": [
+        "Personne",
+        "Auxiliaire (être)",
+        "Participe (accord)",
+        "Forme"
+      ],
+      "rows": [
+        [
+          "je (m.)",
+          "suis",
+          "arrivé",
+          "je suis arrivé"
+        ],
+        [
+          "je (f.)",
+          "suis",
+          "arrivée",
+          "je suis arrivée"
+        ],
+        [
+          "tu",
+          "es",
+          "arrivé(e)",
+          "tu es arrivé(e)"
+        ],
+        [
+          "il",
+          "est",
+          "arrivé",
+          "il est arrivé"
+        ],
+        [
+          "elle",
+          "est",
+          "arrivée",
+          "elle est arrivée"
+        ],
+        [
+          "nous",
+          "sommes",
+          "arrivé(e)s",
+          "nous sommes arrivés"
+        ],
+        [
+          "vous",
+          "êtes",
+          "arrivé(e)(s)",
+          "vous êtes arrivés"
+        ],
+        [
+          "ils",
+          "sont",
+          "arrivés",
+          "ils sont arrivés"
+        ],
+        [
+          "elles",
+          "sont",
+          "arrivées",
+          "elles sont arrivées"
+        ]
+      ]
+    },
+    {
+      "id": "past_participles_regular",
+      "title": "Participes passés réguliers",
+      "headers": [
+        "Groupe",
+        "Infinitif",
+        "Participe",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "-er",
+          "parler",
+          "parlé",
+          "j'ai parlé"
+        ],
+        [
+          "-ir",
+          "finir",
+          "fini",
+          "j'ai fini"
+        ],
+        [
+          "-re",
+          "vendre",
+          "vendu",
+          "j'ai vendu"
+        ]
+      ]
+    },
+    {
+      "id": "past_participles_irregular",
+      "title": "Participes passés irréguliers fréquents (au travail)",
+      "headers": [
+        "Infinitif",
+        "Participe",
+        "Exemple"
+      ],
+      "rows": [
+        [
+          "recevoir",
+          "reçu",
+          "j'ai reçu le courriel"
+        ],
+        [
+          "écrire",
+          "écrit",
+          "j'ai écrit le rapport"
+        ],
+        [
+          "faire",
+          "fait",
+          "j'ai fait le suivi"
+        ],
+        [
+          "prendre",
+          "pris",
+          "j'ai pris des notes"
+        ],
+        [
+          "mettre",
+          "mis",
+          "j'ai mis à jour le dossier"
+        ],
+        [
+          "lire",
+          "lu",
+          "j'ai lu l'ordre du jour"
+        ],
+        [
+          "voir",
+          "vu",
+          "j'ai vu la gestionnaire"
+        ]
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "aux_choice",
+      "fr": "La plupart des verbes utilisent avoir. Les verbes de mouvement/changement d'état (DR & MRS VANDERTRAMP) et tous les verbes pronominaux utilisent être.",
+      "en": "Most verbs use avoir. Movement/state-change verbs and all pronominal verbs use être."
+    },
+    {
+      "id": "etre_agreement",
+      "fr": "Avec être, le participe s'accorde avec le sujet en genre et en nombre.",
+      "en": "With être, the participle agrees with the subject in gender and number."
+    },
+    {
+      "id": "avoir_agreement",
+      "fr": "Avec avoir, le participe s'accorde seulement avec l'objet direct s'il est placé AVANT le verbe.",
+      "en": "With avoir, the participle agrees only with a direct object that PRECEDES the verb."
+    }
+  ],
+  "etreVerbs": [
+    "aller",
+    "venir",
+    "arriver",
+    "partir",
+    "entrer",
+    "sortir",
+    "monter",
+    "descendre",
+    "naître",
+    "mourir",
+    "rester",
+    "tomber",
+    "retourner",
+    "passer",
+    "devenir",
+    "revenir"
+  ]
+}

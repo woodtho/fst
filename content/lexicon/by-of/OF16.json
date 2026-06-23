@@ -1,0 +1,58 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF16",
+  "of": 16,
+  "titleFr": "Faire une offre et réagir à une offre",
+  "titleEn": "To make and to respond to offers",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 11,
+  "entries": [
+    {
+      "fr": "acceptation (n. f.)",
+      "en": "acceptance"
+    },
+    {
+      "fr": "accepter",
+      "en": "to accept"
+    },
+    {
+      "fr": "ça marche",
+      "en": "that works"
+    },
+    {
+      "fr": "marche – ça marche",
+      "en": "that works"
+    },
+    {
+      "fr": "offert",
+      "en": "offered"
+    },
+    {
+      "fr": "offerte",
+      "en": "offered"
+    },
+    {
+      "fr": "offre (n. f.)",
+      "en": "offer"
+    },
+    {
+      "fr": "offrir (à)",
+      "en": "to offer"
+    },
+    {
+      "fr": "refus (n. m.)",
+      "en": "refusal"
+    },
+    {
+      "fr": "refuser (de)",
+      "en": "to refuse"
+    },
+    {
+      "fr": "volontiers",
+      "en": "gladly"
+    }
+  ]
+}

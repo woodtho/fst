@@ -1,0 +1,134 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF5",
+  "titleFr": "Indiquer où est une personne, un objet, un lieu",
+  "titleEn": "To indicate where a person, an object or a place is",
+  "level": "A",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/5-2005F",
+    "text": "sources/text/OF05.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF5 — To indicate where a person, an object or a place is. This objective develops the language needed to indicate where a person, an object or a place is in a Government of Canada workplace. Grammar focus: Prepositions, Negation, Pronouns. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Indiquer où est une personne, un objet, un lieu. Objectif communicatif appuyé par : Les prépositions, La négation, Les pronoms. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: Prepositions, Negation, Pronouns.",
+        "charts": [],
+        "points": [
+          "Les prépositions (Prepositions) — Relient les mots et indiquent le lieu, le temps et la relation : à, de, en, dans, sur, chez. à+le=au; de+le=du.",
+          "· Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+          "· Place: à (city), en/au (country), dans (inside), sur (on), chez (at someone's).",
+          "· Time: à (time), en (month/year), dans (in X time), depuis (since).",
+          "La négation (Negation) — ne … pas encadre le verbe conjugué. Variantes : ne…jamais, ne…plus, ne…rien, ne…personne. Après la négation, un/une/des → de.",
+          "· ne + verb + pas (jamais/plus/rien).",
+          "· After negation: un/une/des → de (Je n’ai pas de dossier).",
+          "· In passé composé, ne…pas surrounds the auxiliary.",
+          "Les pronoms (Pronouns) — Remplacent les noms : objets directs (le/la/les), indirects (lui/leur), y, en, relatifs (qui/que). Ils se placent avant le verbe conjugué.",
+          "· Direct objects: le, la, les, l’.",
+          "· Indirect (à + person): lui, leur. y = à + thing/place; en = de + thing.",
+          "· Relative: qui (subject), que (object)."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Les prépositions",
+          "itemRefs": [
+            "itm_of5_prepositions_1",
+            "itm_of5_prepositions_2",
+            "itm_of5_prepositions_3",
+            "itm_of5_prepositions_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "La négation",
+          "itemRefs": [
+            "itm_of5_negation_5",
+            "itm_of5_negation_6",
+            "itm_of5_negation_7",
+            "itm_of5_negation_8"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les pronoms",
+          "itemRefs": [
+            "itm_of5_pronouns_9",
+            "itm_of5_pronouns_10",
+            "itm_of5_pronouns_11",
+            "itm_of5_pronouns_12"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 1,
+        "ofRange": [
+          1,
+          12
+        ],
+        "catalogue": "SC102-2/47-1-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Indiquer où est une personne, un objet, un lieu",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « indiquer où est une personne, un objet, un lieu ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les prépositions, La négation, Les pronoms.",
+          "promptEn": "In a workplace context, practise the function \"To indicate where a person, an object or a place is\". Produce a short exchange (3–4 sentences) using: Prepositions, Negation, Pronouns.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 1,
+        "ofRange": [
+          1,
+          12
+        ],
+        "catalogue": "SC102-2/45-1-2006F"
+      },
+      "timedSeconds": 420,
+      "blueprint": {
+        "easy": 2,
+        "medium": 8,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF5"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "prepositions",
+        "negation",
+        "pronouns"
+      ]
+    }
+  }
+}

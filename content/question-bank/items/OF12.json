@@ -1,0 +1,491 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF12",
+  "source": {
+    "catalogue": "SC102-2/12-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of12_present_1",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 20,
+      "irtB": -0.9,
+      "prompt": {
+        "fr": "Complétez : « Nous ___ (avoir) une réunion à 9 h. »",
+        "instructions_en": "Choose the present tense of avoir."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avons"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avons",
+          "tag": "correct"
+        },
+        {
+          "value": "avez",
+          "tag": "vous_form"
+        },
+        {
+          "value": "ont",
+          "tag": "ils_form"
+        },
+        {
+          "value": "as",
+          "tag": "tu_form"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With « nous », avoir is « avons » → « Nous avons une réunion ».",
+        "distractor_why": {
+          "vous_form": "« avez » is the vous form.",
+          "ils_form": "« ont » is the ils/elles form.",
+          "tu_form": "« as » is the tu form."
+        },
+        "grammar_rule": "avoir au présent : ai, as, a, avons, avez, ont.",
+        "vocab_notes": "avoir une réunion = to have a meeting.",
+        "common_mistakes": [
+          "confusing avons (nous) and avez (vous)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of12_present_2",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
+        "instructions_en": "Conjugate the -er verb for vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
+        "distractor_why": {
+          "wrong_ending": "-ons is nous, -ent is ils/elles.",
+          "infinitive": "« travailler » is the infinitive."
+        },
+        "grammar_rule": "vous + -er → -ez.",
+        "vocab_notes": "la Direction des opérations = the Operations Branch.",
+        "common_mistakes": [
+          "using -ons or the infinitive for vous"
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous → -EZ.",
+        "pattern": "Drop -er, add the subject ending.",
+        "similar": [
+          "Vous préparez l’ordre du jour.",
+          "Vous classez les dossiers."
+        ]
+      }
+    },
+    {
+      "id": "itm_of12_present_3",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "distractor_why": {
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
+        },
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
+        ]
+      }
+    },
+    {
+      "id": "itm_of12_present_4",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
+        ]
+      }
+    },
+    {
+      "id": "itm_of12_pronouns_5",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Remplacez : « J’envoie le rapport au gestionnaire. » → « Je ___ envoie au gestionnaire. »",
+        "instructions_en": "Replace 'le rapport' with the right pronoun."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "l’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "l’",
+          "tag": "correct"
+        },
+        {
+          "value": "lui",
+          "tag": "indirect"
+        },
+        {
+          "value": "y",
+          "tag": "y_wrong"
+        },
+        {
+          "value": "en",
+          "tag": "en_wrong"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« le rapport » is a direct object → le; before a vowel it elides to « l’ » → « Je l’envoie ».",
+        "distractor_why": {
+          "indirect": "« lui » replaces an indirect object (au gestionnaire), not le rapport.",
+          "y_wrong": "« y » replaces à + thing/place.",
+          "en_wrong": "« en » replaces de + noun."
+        },
+        "grammar_rule": "Direct object pronouns: le, la, les, l’ (before a vowel).",
+        "vocab_notes": "le rapport (m.) → le/l’.",
+        "common_mistakes": [
+          "using lui for a thing",
+          "no elision before a vowel"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      }
+    },
+    {
+      "id": "itm_of12_pronouns_6",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Remplacez : « Je parle au directeur. » → « Je ___ parle. »",
+        "instructions_en": "Replace 'au directeur' with the right pronoun."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "lui"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "lui",
+          "tag": "correct"
+        },
+        {
+          "value": "le",
+          "tag": "direct"
+        },
+        {
+          "value": "y",
+          "tag": "y_for_person"
+        },
+        {
+          "value": "leur",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« parler à quelqu’un » takes an indirect object; à + one person → « lui » → « Je lui parle ».",
+        "distractor_why": {
+          "direct": "« le » is a direct object pronoun; parler uses à (indirect).",
+          "y_for_person": "« y » replaces à + thing/place, not a person.",
+          "plural": "« leur » is for several people."
+        },
+        "grammar_rule": "Indirect object (à + person): lui (singular), leur (plural).",
+        "vocab_notes": "parler à = to speak to.",
+        "common_mistakes": [
+          "using y for a person",
+          "using le instead of lui"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + person → lui/leur.",
+        "pattern": "Verb + à + person ⇒ indirect pronoun.",
+        "similar": [
+          "Je leur écris.",
+          "Tu lui téléphones."
+        ]
+      }
+    },
+    {
+      "id": "itm_of12_pronouns_7",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Relatif : « C’est le dossier ___ je cherche. »",
+        "instructions_en": "Choose qui or que."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "que",
+          "tag": "correct"
+        },
+        {
+          "value": "qui",
+          "tag": "subject"
+        },
+        {
+          "value": "dont",
+          "tag": "de_relative"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« je cherche [le dossier] » — the dossier is the direct object of cherche, so the relative pronoun is « que ».",
+        "distractor_why": {
+          "subject": "« qui » is used when the relative is the subject (le dossier qui est sur le bureau).",
+          "de_relative": "« dont » replaces de + noun (le dossier dont j’ai besoin)."
+        },
+        "grammar_rule": "qui = subject of the relative clause; que = direct object.",
+        "vocab_notes": "chercher = to look for (no preposition).",
+        "common_mistakes": [
+          "confusing qui (subject) and que (object)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "que + subject+verb; qui + verb directly.",
+        "pattern": "If a subject follows, use que; if a verb follows, use qui.",
+        "similar": [
+          "le rapport que j’ai écrit",
+          "le collègue qui travaille ici"
+        ]
+      }
+    },
+    {
+      "id": "itm_of12_pronouns_8",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Remplacez « des dossiers » : « J’ai trois dossiers. → J’___ ai trois. »",
+        "instructions_en": "Use the pronoun en."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "en"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« en » replaces de/des + noun and is kept with quantities: « J’en ai trois » (I have three of them).",
+        "distractor_why": {
+          "les": "« les » would drop the number; with a quantity you keep « en » + number.",
+          "y": "« y » replaces à + thing/place, not a quantity."
+        },
+        "grammar_rule": "en replaces de + noun and stays with expressions of quantity.",
+        "vocab_notes": "un dossier = a file/case.",
+        "common_mistakes": [
+          "dropping en with quantities",
+          "using les with a number"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantity → keep « en » + number.",
+        "pattern": "J’en ai trois / beaucoup / assez.",
+        "similar": [
+          "Des réunions? J’en ai deux.",
+          "Du café? J’en veux."
+        ]
+      }
+    }
+  ]
+}

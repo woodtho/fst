@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF22",
+  "of": 22,
+  "titleFr": "Préciser les modalités d’exécution (temps) d’un travail",
+  "titleEn": "To give details about the time factors involved in a job",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à l’occasion",
+      "en": "occasionally"
+    },
+    {
+      "fr": "à peu près",
+      "en": "about"
+    },
+    {
+      "fr": "à tout moment",
+      "en": "constantly"
+    },
+    {
+      "fr": "à tout moment",
+      "en": "all the time"
+    },
+    {
+      "fr": "absenter – s'absenter",
+      "en": "to be absent"
+    },
+    {
+      "fr": "abstenir – s'abstenir (de)",
+      "en": "to refrain"
+    },
+    {
+      "fr": "agir – il s'agit (de)",
+      "en": "it is a matter of"
+    },
+    {
+      "fr": "agir – il s'agit (de)",
+      "en": "it’s about"
+    },
+    {
+      "fr": "annuel (adj. m.)",
+      "en": "annual"
+    },
+    {
+      "fr": "annuelle (adj. f.)",
+      "en": "annual"
+    },
+    {
+      "fr": "approximativement",
+      "en": "approximately"
+    },
+    {
+      "fr": "arriver pile",
+      "en": "to arrive right on time"
+    },
+    {
+      "fr": "arriver pile",
+      "en": "to arrive on the dot"
+    },
+    {
+      "fr": "aspect (n. m.)",
+      "en": "aspect"
+    },
+    {
+      "fr": "au complet",
+      "en": "in full force"
+    },
+    {
+      "fr": "au cours de",
+      "en": "during"
+    },
+    {
+      "fr": "au cours de",
+      "en": "in the course of"
+    },
+    {
+      "fr": "au plus tard",
+      "en": "by … at the latest"
+    },
+    {
+      "fr": "au total",
+      "en": "in all"
+    },
+    {
+      "fr": "autour – tourner autour de",
+      "en": "is around"
+    },
+    {
+      "fr": "complet – au complet",
+      "en": "in full force"
+    },
+    {
+      "fr": "complètement",
+      "en": "completely"
+    },
+    {
+      "fr": "composante (n. f.)",
+      "en": "component"
+    },
+    {
+      "fr": "cours – au cours de",
+      "en": "during"
+    },
+    {
+      "fr": "cours – au cours de",
+      "en": "in the course of"
+    },
+    {
+      "fr": "d’ici …",
+      "en": "by …"
+    },
+    {
+      "fr": "date d’échéance (n. f.)",
+      "en": "deadline"
+    },
+    {
+      "fr": "de … à",
+      "en": "from . . . to"
+    },
+    {
+      "fr": "de temps en temps",
+      "en": "from time to time"
+    },
+    {
+      "fr": "début (n. m.)",
+      "en": "beginning"
+    },
+    {
+      "fr": "délai (n. m.)",
+      "en": "time frame"
+    },
+    {
+      "fr": "délai (n. m.)",
+      "en": "extension (of time)"
+    },
+    {
+      "fr": "depuis",
+      "en": "since"
+    },
+    {
+      "fr": "depuis",
+      "en": "for"
+    },
+    {
+      "fr": "devancer l’échéance",
+      "en": "to beat the deadline"
+    },
+    {
+      "fr": "durant",
+      "en": "during"
+    },
+    {
+      "fr": "durée (n. f.)",
+      "en": "duration"
+    },
+    {
+      "fr": "durée (n. f.)",
+      "en": "length"
+    },
+    {
+      "fr": "durer",
+      "en": "to last"
+    },
+    {
+      "fr": "échéance (n. f.)",
+      "en": "deadline"
+    },
+    {
+      "fr": "échéance – date d'échéance",
+      "en": "deadline"
+    }
+  ]
+}

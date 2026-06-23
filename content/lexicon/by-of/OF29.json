@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF29",
+  "of": 29,
+  "titleFr": "Apprécier les capacités ou les compétences de quelqu’un",
+  "titleEn": "To assess the abilities or competencies of someone",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "apte – être apte (à)",
+      "en": "to be capable of"
+    },
+    {
+      "fr": "aptitude (n. f.)",
+      "en": "aptitude"
+    },
+    {
+      "fr": "aptitude – avoir de l'aptitude",
+      "en": "to have the ability"
+    },
+    {
+      "fr": "aptitude – avoir de l'aptitude",
+      "en": "to have the aptitude"
+    },
+    {
+      "fr": "arriver à",
+      "en": "to succeed in"
+    },
+    {
+      "fr": "avoir de l’aptitude",
+      "en": "to have the ability"
+    },
+    {
+      "fr": "avoir de l’aptitude",
+      "en": "to have the aptitude"
+    },
+    {
+      "fr": "avoir du talent",
+      "en": "to have talent"
+    },
+    {
+      "fr": "avoir la capacité",
+      "en": "to have the ability"
+    },
+    {
+      "fr": "avoir la compétence",
+      "en": "to have the competence"
+    },
+    {
+      "fr": "avoir le potentiel",
+      "en": "to have the potential"
+    },
+    {
+      "fr": "capable – être capable de",
+      "en": "to be capable of"
+    },
+    {
+      "fr": "capacité (n. f.)",
+      "en": "ability"
+    },
+    {
+      "fr": "capacité – avoir la capacité de",
+      "en": "to have the ability to"
+    },
+    {
+      "fr": "compétence (n. f.)",
+      "en": "competence"
+    },
+    {
+      "fr": "compétence – avoir la compétence",
+      "en": "to have the competence"
+    },
+    {
+      "fr": "compétent – être compétent",
+      "en": "to be competent"
+    },
+    {
+      "fr": "compétente – être compétente",
+      "en": "to be competent"
+    },
+    {
+      "fr": "empêcher (de)",
+      "en": "to stop"
+    },
+    {
+      "fr": "empêcher (de)",
+      "en": "to prevent"
+    },
+    {
+      "fr": "encore",
+      "en": "again"
+    },
+    {
+      "fr": "être apte à",
+      "en": "to be capable of"
+    },
+    {
+      "fr": "être capable (de)",
+      "en": "to be capable of"
+    },
+    {
+      "fr": "être compétent",
+      "en": "to be competent"
+    },
+    {
+      "fr": "être compétente",
+      "en": "to be competent"
+    },
+    {
+      "fr": "être dans l’incapacité de",
+      "en": "to be unable to"
+    },
+    {
+      "fr": "être dans l’incapacité de",
+      "en": "to be incapable of"
+    },
+    {
+      "fr": "être en mesure de",
+      "en": "to be in a position to"
+    },
+    {
+      "fr": "être incapable (de)",
+      "en": "to be incapable of"
+    },
+    {
+      "fr": "être incapable (de)",
+      "en": "to be unable to"
+    },
+    {
+      "fr": "être incompétent",
+      "en": "to be incompetent"
+    },
+    {
+      "fr": "être incompétente",
+      "en": "to be incompetent"
+    },
+    {
+      "fr": "incapable – être incapable de",
+      "en": "to be incapable of"
+    },
+    {
+      "fr": "incapable – être incapable de",
+      "en": "to be unable to"
+    },
+    {
+      "fr": "incapacité (n. f.)",
+      "en": "incapacity"
+    },
+    {
+      "fr": "incapacité (n. f.)",
+      "en": "inability"
+    },
+    {
+      "fr": "incapacité – être dans l'incapacité de",
+      "en": "to be incapable of"
+    },
+    {
+      "fr": "incompétent – être incompétent",
+      "en": "to be incompetent"
+    },
+    {
+      "fr": "incompétent – être incompétente",
+      "en": "to be incompetent"
+    },
+    {
+      "fr": "mesure – être en mesure de",
+      "en": "to be in a position to"
+    },
+    {
+      "fr": "ne … aucun",
+      "en": "not . . . any"
+    }
+  ]
+}

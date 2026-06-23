@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF28",
+  "of": 28,
+  "titleFr": "Préciser l’importance d’une directive",
+  "titleEn": "To explain the importance of an instruction",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "avoir à",
+      "en": "to have to"
+    },
+    {
+      "fr": "avoir besoin de",
+      "en": "to need"
+    },
+    {
+      "fr": "avoir besoin que",
+      "en": "to need"
+    },
+    {
+      "fr": "besoin (n. m.)",
+      "en": "a need"
+    },
+    {
+      "fr": "besoin – avoir besoin de",
+      "en": "to need"
+    },
+    {
+      "fr": "besoin – avoir besoin que",
+      "en": "to need"
+    },
+    {
+      "fr": "donner",
+      "en": "to give"
+    },
+    {
+      "fr": "essentiel (adj. m.)",
+      "en": "essential"
+    },
+    {
+      "fr": "essentielle (adj. f.)",
+      "en": "essential"
+    },
+    {
+      "fr": "être mieux de",
+      "en": "to be better"
+    },
+    {
+      "fr": "exigé",
+      "en": "required"
+    },
+    {
+      "fr": "exigée",
+      "en": "required"
+    },
+    {
+      "fr": "falloir",
+      "en": "to have to"
+    },
+    {
+      "fr": "fondamental (adj. m.)",
+      "en": "fondamental"
+    },
+    {
+      "fr": "fondamentale (adj. f.)",
+      "en": "fondamental"
+    },
+    {
+      "fr": "importance (n. f.)",
+      "en": "importance"
+    },
+    {
+      "fr": "important (adj. m.)",
+      "en": "important"
+    },
+    {
+      "fr": "importante (adj. f.)",
+      "en": "important"
+    },
+    {
+      "fr": "importer",
+      "en": "to matter"
+    },
+    {
+      "fr": "inutile (adj. m./f.)",
+      "en": "useless"
+    },
+    {
+      "fr": "inutilement",
+      "en": "needlessly"
+    },
+    {
+      "fr": "inutilement",
+      "en": "unnecessarily"
+    },
+    {
+      "fr": "mieux – être mieux de",
+      "en": "to be better"
+    },
+    {
+      "fr": "mieux – valoir mieux",
+      "en": "to be better"
+    },
+    {
+      "fr": "nécessaire (adj. m./f.)",
+      "en": "necessary"
+    },
+    {
+      "fr": "nécessité (n. f.)",
+      "en": "necessity"
+    },
+    {
+      "fr": "obligation (n. f.)",
+      "en": "obligation"
+    },
+    {
+      "fr": "obligatoire (adj. m./f.)",
+      "en": "mandatory"
+    },
+    {
+      "fr": "peine – valoir la peine",
+      "en": "to be worthwhile"
+    },
+    {
+      "fr": "perte de temps (n. f.)",
+      "en": "waste of time"
+    },
+    {
+      "fr": "pertinent (adj. m.)",
+      "en": "relevant"
+    },
+    {
+      "fr": "pertinente (adj. f.)",
+      "en": "relevant"
+    },
+    {
+      "fr": "pour rien",
+      "en": "for nothing"
+    },
+    {
+      "fr": "prendre",
+      "en": "to need"
+    },
+    {
+      "fr": "prioritaire (adj. m./f.)",
+      "en": "that has priority"
+    },
+    {
+      "fr": "priorité (n. f.)",
+      "en": "priority"
+    },
+    {
+      "fr": "requis (adj. m.)",
+      "en": "required"
+    },
+    {
+      "fr": "requise (adj. f.)",
+      "en": "required"
+    },
+    {
+      "fr": "rien – pour rien",
+      "en": "for nothing"
+    },
+    {
+      "fr": "sage (adj. m./f.)",
+      "en": "wise"
+    },
+    {
+      "fr": "servir à",
+      "en": "to be used for"
+    }
+  ]
+}

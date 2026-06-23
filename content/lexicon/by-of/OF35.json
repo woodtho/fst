@@ -1,0 +1,26 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF35",
+  "of": 35,
+  "titleFr": "Faire des prévisions",
+  "titleEn": "To make forecasts",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 3,
+  "entries": [
+    {
+      "fr": "improbabilité (n. f.)",
+      "en": "improbability"
+    },
+    {
+      "fr": "prévisibilité (n. f.)",
+      "en": "foreseeability"
+    },
+    {
+      "fr": "probabilité (n. f.)",
+      "en": "probabilitty"
+    }
+  ]
+}

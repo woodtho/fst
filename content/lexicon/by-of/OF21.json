@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF21",
+  "of": 21,
+  "titleFr": "(Se) renseigner sur l’application de normes et de règlements",
+  "titleEn": "To find out how to apply standards and regulations",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à l’intérieur de",
+      "en": "within"
+    },
+    {
+      "fr": "à l’exception de",
+      "en": "except for"
+    },
+    {
+      "fr": "à l’exclusion de",
+      "en": "with the exclusion of"
+    },
+    {
+      "fr": "à part",
+      "en": "apart from"
+    },
+    {
+      "fr": "additionner",
+      "en": "to add"
+    },
+    {
+      "fr": "ainsi que",
+      "en": "as well as"
+    },
+    {
+      "fr": "alinéa (loi) (n. m.)",
+      "en": "paragraph"
+    },
+    {
+      "fr": "amendement (n. m.)",
+      "en": "amendment"
+    },
+    {
+      "fr": "annexé – ci-annexé",
+      "en": "attached"
+    },
+    {
+      "fr": "annexe – document en annexe",
+      "en": "document annexed"
+    },
+    {
+      "fr": "annexée – ci-annexée",
+      "en": "attached"
+    },
+    {
+      "fr": "application (n. f.)",
+      "en": "application"
+    },
+    {
+      "fr": "appliquer – s'appliquer (à)",
+      "en": "to apply to"
+    },
+    {
+      "fr": "apprendre",
+      "en": "to learn"
+    },
+    {
+      "fr": "arrêté (n. m.)",
+      "en": "order"
+    },
+    {
+      "fr": "article (loi) (n. m.)",
+      "en": "section"
+    },
+    {
+      "fr": "au moins",
+      "en": "at least"
+    },
+    {
+      "fr": "au plus",
+      "en": "at most"
+    },
+    {
+      "fr": "au sein de",
+      "en": "within"
+    },
+    {
+      "fr": "augmenter",
+      "en": "to increase"
+    },
+    {
+      "fr": "aussi",
+      "en": "also"
+    },
+    {
+      "fr": "aussi",
+      "en": "too"
+    },
+    {
+      "fr": "avoir droit à (+ nom)",
+      "en": "to be entitled to"
+    },
+    {
+      "fr": "avoir la responsabilité de",
+      "en": "to be responsible for"
+    },
+    {
+      "fr": "avoir le droit de (+ verbe)",
+      "en": "to be entitled to"
+    },
+    {
+      "fr": "calculer",
+      "en": "to calculate"
+    },
+    {
+      "fr": "centilitre (n. m.)",
+      "en": "centilitre"
+    },
+    {
+      "fr": "centimètre (n. m.)",
+      "en": "centimetre"
+    },
+    {
+      "fr": "ci-annexé",
+      "en": "attached"
+    },
+    {
+      "fr": "ci-annexée",
+      "en": "attached"
+    },
+    {
+      "fr": "ci-inclus (adj. m.)",
+      "en": "included"
+    },
+    {
+      "fr": "ci-incluse (adj. f.)",
+      "en": "included"
+    },
+    {
+      "fr": "ci-joint (adj. m.)",
+      "en": "enclosed"
+    },
+    {
+      "fr": "ci-jointe (adj. f.)",
+      "en": "enclosed"
+    },
+    {
+      "fr": "clause (n. f.)",
+      "en": "clause"
+    },
+    {
+      "fr": "clause (n. f.)",
+      "en": "provision"
+    },
+    {
+      "fr": "comprendre",
+      "en": "to comprise"
+    },
+    {
+      "fr": "compris",
+      "en": "comprised in"
+    },
+    {
+      "fr": "compris – y compris",
+      "en": "including"
+    },
+    {
+      "fr": "comprise",
+      "en": "comprised in"
+    },
+    {
+      "fr": "compter",
+      "en": "to count"
+    }
+  ]
+}

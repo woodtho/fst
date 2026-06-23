@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF22",
+  "titleFr": "Préciser les modalités d’exécution (temps) d’un travail",
+  "titleEn": "To give details about the time factors involved in a job",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/22-2005F",
+    "text": "sources/text/OF22.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF22 — To give details about the time factors involved in a job. This objective develops the language needed to give details about the time factors involved in a job in a Government of Canada workplace. Grammar focus: Prepositions, The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Préciser les modalités d’exécution (temps) d’un travail. Objectif communicatif appuyé par : Les prépositions, Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: Prepositions, The present tense.",
+        "charts": [],
+        "points": [
+          "Les prépositions (Prepositions) — Relient les mots et indiquent le lieu, le temps et la relation : à, de, en, dans, sur, chez. à+le=au; de+le=du.",
+          "· Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+          "· Place: à (city), en/au (country), dans (inside), sur (on), chez (at someone's).",
+          "· Time: à (time), en (month/year), dans (in X time), depuis (since).",
+          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
+          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Les prépositions",
+          "itemRefs": [
+            "itm_of22_prepositions_1",
+            "itm_of22_prepositions_2",
+            "itm_of22_prepositions_3",
+            "itm_of22_prepositions_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le présent de l’indicatif",
+          "itemRefs": [
+            "itm_of22_present_5",
+            "itm_of22_present_6",
+            "itm_of22_present_7",
+            "itm_of22_present_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/47-2-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Préciser les modalités d’exécution (temps) d’un travail",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « préciser les modalités d’exécution (temps) d’un travail ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les prépositions, Le présent de l’indicatif.",
+          "promptEn": "In a workplace context, practise the function \"To give details about the time factors involved in a job\". Produce a short exchange (3–4 sentences) using: Prepositions, The present tense.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/45-2-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 3,
+        "medium": 4,
+        "advanced": 1
+      },
+      "drawFrom": [
+        "OF22"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "prepositions",
+        "present"
+      ]
+    }
+  }
+}

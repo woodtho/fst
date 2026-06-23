@@ -1,0 +1,491 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF2",
+  "source": {
+    "catalogue": "SC102-2/2-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of2_present_1",
+      "objectiveId": "OF2",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "distractor_why": {
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
+        },
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
+        ]
+      }
+    },
+    {
+      "id": "itm_of2_present_2",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
+        ]
+      }
+    },
+    {
+      "id": "itm_of2_present_3",
+      "objectiveId": "OF2",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 20,
+      "irtB": -0.9,
+      "prompt": {
+        "fr": "Complétez : « Nous ___ (avoir) une réunion à 9 h. »",
+        "instructions_en": "Choose the present tense of avoir."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avons"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avons",
+          "tag": "correct"
+        },
+        {
+          "value": "avez",
+          "tag": "vous_form"
+        },
+        {
+          "value": "ont",
+          "tag": "ils_form"
+        },
+        {
+          "value": "as",
+          "tag": "tu_form"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With « nous », avoir is « avons » → « Nous avons une réunion ».",
+        "distractor_why": {
+          "vous_form": "« avez » is the vous form.",
+          "ils_form": "« ont » is the ils/elles form.",
+          "tu_form": "« as » is the tu form."
+        },
+        "grammar_rule": "avoir au présent : ai, as, a, avons, avez, ont.",
+        "vocab_notes": "avoir une réunion = to have a meeting.",
+        "common_mistakes": [
+          "confusing avons (nous) and avez (vous)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of2_present_4",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
+        "instructions_en": "Conjugate the -er verb for vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
+        "distractor_why": {
+          "wrong_ending": "-ons is nous, -ent is ils/elles.",
+          "infinitive": "« travailler » is the infinitive."
+        },
+        "grammar_rule": "vous + -er → -ez.",
+        "vocab_notes": "la Direction des opérations = the Operations Branch.",
+        "common_mistakes": [
+          "using -ons or the infinitive for vous"
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous → -EZ.",
+        "pattern": "Drop -er, add the subject ending.",
+        "similar": [
+          "Vous préparez l’ordre du jour.",
+          "Vous classez les dossiers."
+        ]
+      }
+    },
+    {
+      "id": "itm_of2_agreement_5",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Accord : « Quelles sont vos ___ (principal) responsabilités? »",
+        "instructions_en": "Agree the adjective (f. pl.)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "principales"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« responsabilités » is feminine plural → « principales ».",
+        "distractor_why": {
+          "singular": "« principale » is singular.",
+          "masc": "« principaux » is masculine plural."
+        },
+        "grammar_rule": "Adjective agrees with a feminine plural noun → -es.",
+        "vocab_notes": "les responsabilités (f. pl.).",
+        "common_mistakes": [
+          "forgetting plural agreement"
+        ]
+      },
+      "tip": {
+        "memory_aid": "f. pl. → -ales here.",
+        "pattern": "-al → -ale → -ales (feminine plural).",
+        "similar": [
+          "des tâches principales",
+          "des données générales"
+        ]
+      }
+    },
+    {
+      "id": "itm_of2_agreement_6",
+      "objectiveId": "OF2",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Accord (avoir, objet antéposé) : « La lettre que j’ai ___ (écrire). »",
+        "instructions_en": "Agree the participle with the preceding direct object."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "écrite"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "écrite",
+          "tag": "correct"
+        },
+        {
+          "value": "écrit",
+          "tag": "no_agreement"
+        },
+        {
+          "value": "écrits",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With avoir, the participle agrees with a direct object placed BEFORE the verb. « que » = la lettre (f.s.) → « écrite ».",
+        "distractor_why": {
+          "no_agreement": "Here the direct object (que = la lettre) precedes the verb, so agreement IS required.",
+          "plural": "« écrits » is plural; la lettre is singular."
+        },
+        "grammar_rule": "avoir + participle agrees only with a preceding direct object.",
+        "vocab_notes": "écrire → écrit(e).",
+        "common_mistakes": [
+          "forgetting agreement with a preceding direct object"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Object before avoir → agree.",
+        "pattern": "que/l’/les before avoir triggers agreement.",
+        "similar": [
+          "les rapports que j’ai envoyés",
+          "la note que j’ai signée"
+        ]
+      }
+    },
+    {
+      "id": "itm_of2_agreement_7",
+      "objectiveId": "OF2",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Accord (être) : « Les analystes (f.) sont ___ (parti). »",
+        "instructions_en": "Agree the past participle."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "parties"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "parties",
+          "tag": "correct"
+        },
+        {
+          "value": "parti",
+          "tag": "masc_sing"
+        },
+        {
+          "value": "partis",
+          "tag": "masc_plural"
+        },
+        {
+          "value": "partie",
+          "tag": "fem_sing"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With être, the participle agrees with the subject; feminine plural → « parties ».",
+        "distractor_why": {
+          "masc_sing": "« parti » is masculine singular.",
+          "masc_plural": "« partis » is masculine plural.",
+          "fem_sing": "« partie » is feminine singular."
+        },
+        "grammar_rule": "être-verb participle agrees with the subject (gender + number).",
+        "vocab_notes": "partir → parti(e)(s).",
+        "common_mistakes": [
+          "not agreeing the participle with a feminine plural subject"
+        ]
+      },
+      "tip": {
+        "memory_aid": "être → agree like an adjective.",
+        "pattern": "feminine plural → -es.",
+        "similar": [
+          "Elles sont arrivées.",
+          "Les employées sont venues."
+        ]
+      }
+    },
+    {
+      "id": "itm_of2_agreement_8",
+      "objectiveId": "OF2",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Accord : « une note ___ (officiel) »",
+        "instructions_en": "Agree the adjective."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "officielle"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "officielle",
+          "tag": "correct"
+        },
+        {
+          "value": "officiel",
+          "tag": "masculine"
+        },
+        {
+          "value": "officiels",
+          "tag": "masc_plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« note » is feminine; « officiel » doubles the l and adds -e → « officielle ».",
+        "distractor_why": {
+          "masculine": "« officiel » is masculine.",
+          "masc_plural": "« officiels » is masculine plural."
+        },
+        "grammar_rule": "Some adjectives double the final consonant in the feminine (officiel→officielle).",
+        "vocab_notes": "une note officielle = an official memo.",
+        "common_mistakes": [
+          "not doubling the consonant in the feminine"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-el → -elle (feminine).",
+        "pattern": "Watch consonant-doubling feminines.",
+        "similar": [
+          "une décision finale",
+          "une réponse formelle"
+        ]
+      }
+    }
+  ]
+}

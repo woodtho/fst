@@ -1,0 +1,38 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF34",
+  "of": 34,
+  "titleFr": "Proposer des solutions à un problème",
+  "titleEn": "To put forward solutions to a problem",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 6,
+  "entries": [
+    {
+      "fr": "conditionnelle – proposition conditionnelle",
+      "en": "if-clause"
+    },
+    {
+      "fr": "hypothèse (n. f.)",
+      "en": "hypothesis"
+    },
+    {
+      "fr": "principale – proposition principale",
+      "en": "result clause"
+    },
+    {
+      "fr": "proposition conditionnelle",
+      "en": "if-clause"
+    },
+    {
+      "fr": "proposition principale",
+      "en": "result clause"
+    },
+    {
+      "fr": "supposition (n. f.)",
+      "en": "supposition"
+    }
+  ]
+}

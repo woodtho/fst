@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF38",
+  "titleFr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation",
+  "titleEn": "To explain the reasons for and results of a decision, an action, an event or a situation",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/38-2005F",
+    "text": "sources/text/OF38.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF38 — To explain the reasons for and results of a decision, an action, an event or a situation. This objective develops the language needed to explain the reasons for and results of a decision, an action, an event or a situation in a Government of Canada workplace. Grammar focus: The present subjunctive, The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation. Objectif communicatif appuyé par : Le subjonctif présent, Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present subjunctive, The present tense.",
+        "charts": [],
+        "points": [
+          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
+          "· Trigger: il faut que, vouloir que, être content que, douter que…",
+          "· Stem from ils-present (ils finissent → finiss-).",
+          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille.",
+          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
+          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le subjonctif présent",
+          "itemRefs": [
+            "itm_of38_subjonctif_1",
+            "itm_of38_subjonctif_2",
+            "itm_of38_subjonctif_3",
+            "itm_of38_subjonctif_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le présent de l’indicatif",
+          "itemRefs": [
+            "itm_of38_present_5",
+            "itm_of38_present_6",
+            "itm_of38_present_7",
+            "itm_of38_present_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/47-4-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent, Le présent de l’indicatif.",
+          "promptEn": "In a workplace context, practise the function \"To explain the reasons for and results of a decision, an action, an event or a situation\". Produce a short exchange (3–4 sentences) using: The present subjunctive, The present tense.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/45-4-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 4,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF38"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "subjonctif",
+        "present"
+      ]
+    }
+  }
+}

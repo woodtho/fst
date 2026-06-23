@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF15",
+  "of": 15,
+  "titleFr": "S’informer ou informer d’une requête ou de l’obtention de quelque chose",
+  "titleEn": "To give or to ask for information about requests or obtaining something",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à la demande de",
+      "en": "at someone’s request"
+    },
+    {
+      "fr": "acquérir",
+      "en": "to acquire"
+    },
+    {
+      "fr": "acquisition (n. f.)",
+      "en": "acquisition"
+    },
+    {
+      "fr": "aller chercher",
+      "en": "to go and get"
+    },
+    {
+      "fr": "avoir",
+      "en": "to get"
+    },
+    {
+      "fr": "chercher – aller chercher",
+      "en": "to go and get"
+    },
+    {
+      "fr": "chercher – passer chercher",
+      "en": "to stop by and get"
+    },
+    {
+      "fr": "commande (n. f.)",
+      "en": "order"
+    },
+    {
+      "fr": "conditionnel présent",
+      "en": "present conditional"
+    },
+    {
+      "fr": "décrocher",
+      "en": "to get"
+    },
+    {
+      "fr": "décrocher",
+      "en": "to land (something)"
+    },
+    {
+      "fr": "demandé",
+      "en": "wanted"
+    },
+    {
+      "fr": "demande – à la demande de",
+      "en": "at someone’s request"
+    },
+    {
+      "fr": "demande – faire une demande",
+      "en": "to make a request"
+    },
+    {
+      "fr": "demande – faire une demande",
+      "en": "to apply for"
+    },
+    {
+      "fr": "demande – sur demande",
+      "en": "on request"
+    },
+    {
+      "fr": "demandée",
+      "en": "wanted"
+    },
+    {
+      "fr": "discours indirect",
+      "en": "indirect speech"
+    },
+    {
+      "fr": "empocher",
+      "en": "to pocket"
+    },
+    {
+      "fr": "être prié de",
+      "en": "to be asked to"
+    },
+    {
+      "fr": "être priée de",
+      "en": "to be asked to"
+    },
+    {
+      "fr": "faire une demande",
+      "en": "to make a request"
+    },
+    {
+      "fr": "faire une demande",
+      "en": "to apply for"
+    },
+    {
+      "fr": "formuler",
+      "en": "phrase"
+    },
+    {
+      "fr": "gagner",
+      "en": "to win"
+    },
+    {
+      "fr": "gagner",
+      "en": "to earn"
+    },
+    {
+      "fr": "indirect – discours indirect",
+      "en": "indirect speech"
+    },
+    {
+      "fr": "obtenir",
+      "en": "to obtain"
+    },
+    {
+      "fr": "obtention (n. f.)",
+      "en": "obtaining"
+    },
+    {
+      "fr": "obtention (n. f.)",
+      "en": "achievement"
+    },
+    {
+      "fr": "postuler",
+      "en": "to apply for (a position)"
+    },
+    {
+      "fr": "présent – conditionnel présent",
+      "en": "present conditional"
+    },
+    {
+      "fr": "prié – être prié de",
+      "en": "to be asked to"
+    },
+    {
+      "fr": "priée – être priée de",
+      "en": "to be asked to"
+    },
+    {
+      "fr": "prier de",
+      "en": "to ask to"
+    },
+    {
+      "fr": "prier de",
+      "en": "to beg to"
+    },
+    {
+      "fr": "prière de (écrit)",
+      "en": "please"
+    },
+    {
+      "fr": "procurer – se procurer",
+      "en": "to get"
+    },
+    {
+      "fr": "procurer – se procurer",
+      "en": "to obtain"
+    },
+    {
+      "fr": "quêter",
+      "en": "to beg for"
+    },
+    {
+      "fr": "quêteuse (n. f.)",
+      "en": "beggar"
+    }
+  ]
+}

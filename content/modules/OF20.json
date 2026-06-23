@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF20",
+  "titleFr": "Évaluer des personnes",
+  "titleEn": "To express opinions about people",
+  "level": "A",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/20-2005F",
+    "text": "sources/text/OF20.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF20 — To express opinions about people. This objective develops the language needed to express opinions about people in a Government of Canada workplace. Grammar focus: Adjectives, Agreement. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Évaluer des personnes. Objectif communicatif appuyé par : Les adjectifs, Les accords. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: Adjectives, Agreement.",
+        "charts": [],
+        "points": [
+          "Les adjectifs (Adjectives) — S’accordent en genre et en nombre avec le nom. La plupart suivent le nom; quelques courts (BAGS) le précèdent.",
+          "· Feminine usually adds -e; plural adds -s.",
+          "· Most adjectives follow the noun (un rapport important).",
+          "· BANGS (beauty, age, number, goodness, size) precede: un grand bureau, une nouvelle employée.",
+          "Les accords (Agreement) — Les adjectifs et les participes passés (avec être) s’accordent en genre et en nombre; quel s’accorde avec son nom.",
+          "· Adjective ↔ noun (gender + number).",
+          "· Past participle with être ↔ subject.",
+          "· Past participle with avoir ↔ a preceding direct object only."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Les adjectifs",
+          "itemRefs": [
+            "itm_of20_adjectives_1",
+            "itm_of20_adjectives_2",
+            "itm_of20_adjectives_3",
+            "itm_of20_adjectives_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les accords",
+          "itemRefs": [
+            "itm_of20_agreement_5",
+            "itm_of20_agreement_6",
+            "itm_of20_agreement_7",
+            "itm_of20_agreement_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/47-2-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Évaluer des personnes",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « évaluer des personnes ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les adjectifs, Les accords.",
+          "promptEn": "In a workplace context, practise the function \"To express opinions about people\". Produce a short exchange (3–4 sentences) using: Adjectives, Agreement.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/45-2-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 5,
+        "advanced": 1
+      },
+      "drawFrom": [
+        "OF20"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "adjectives",
+        "agreement"
+      ]
+    }
+  }
+}

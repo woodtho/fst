@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF4",
+  "of": 4,
+  "titleFr": "Exprimer des relations de possession",
+  "titleEn": "To express ownership",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "abîmé (adj. m.)",
+      "en": "damaged"
+    },
+    {
+      "fr": "abîmée (adj. f.)",
+      "en": "damaged"
+    },
+    {
+      "fr": "accentuation (n. f.)",
+      "en": "stress"
+    },
+    {
+      "fr": "adjectif (n. m.)",
+      "en": "adjective"
+    },
+    {
+      "fr": "adjectif possessif",
+      "en": "possessive adjective"
+    },
+    {
+      "fr": "adjectif qualificatif",
+      "en": "qualifying adjective"
+    },
+    {
+      "fr": "assimilation (n. f.)",
+      "en": "assimilation"
+    },
+    {
+      "fr": "avoir",
+      "en": "to have"
+    },
+    {
+      "fr": "bas (adj. m.)",
+      "en": "low"
+    },
+    {
+      "fr": "basse (adj. f.)",
+      "en": "low"
+    },
+    {
+      "fr": "beau (adj. m.)",
+      "en": "nice"
+    },
+    {
+      "fr": "beau (adj. m.)",
+      "en": "beautiful"
+    },
+    {
+      "fr": "belle (adj. f.)",
+      "en": "nice"
+    },
+    {
+      "fr": "belle (adj. f.)",
+      "en": "beautiful"
+    },
+    {
+      "fr": "blanc (adj. m.)",
+      "en": "white"
+    },
+    {
+      "fr": "blanche (adj. f.)",
+      "en": "white"
+    },
+    {
+      "fr": "bleu (adj. m.)",
+      "en": "blue"
+    },
+    {
+      "fr": "bleue (adj. f.)",
+      "en": "blue"
+    },
+    {
+      "fr": "bois (n. m.)",
+      "en": "wood"
+    },
+    {
+      "fr": "bon (adj. m.)",
+      "en": "good"
+    },
+    {
+      "fr": "bonne (adj. f.)",
+      "en": "good"
+    },
+    {
+      "fr": "bref (adj. m.)",
+      "en": "brief"
+    },
+    {
+      "fr": "brève (adj. f.)",
+      "en": "brief"
+    },
+    {
+      "fr": "brique (n. f.)",
+      "en": "brick"
+    },
+    {
+      "fr": "c’est à moi",
+      "en": "it is mine"
+    },
+    {
+      "fr": "carré (adj. m.)",
+      "en": "square"
+    },
+    {
+      "fr": "carré (n. m.)",
+      "en": "square"
+    },
+    {
+      "fr": "carrée (adj. f.)",
+      "en": "square"
+    },
+    {
+      "fr": "carton (n. m.)",
+      "en": "cardboard"
+    },
+    {
+      "fr": "chaud (adj. m.)",
+      "en": "hot"
+    },
+    {
+      "fr": "chaude (adj. f.)",
+      "en": "hot"
+    },
+    {
+      "fr": "clair (adj. m.)",
+      "en": "light"
+    },
+    {
+      "fr": "claire (adj. f.)",
+      "en": "light"
+    },
+    {
+      "fr": "classe (n. f.)",
+      "en": "classroom"
+    },
+    {
+      "fr": "couleur (n. f.)",
+      "en": "colour"
+    },
+    {
+      "fr": "court (adj. m.)",
+      "en": "short"
+    },
+    {
+      "fr": "courte (adj. f.)",
+      "en": "short"
+    },
+    {
+      "fr": "coût (n. m.)",
+      "en": "cost"
+    },
+    {
+      "fr": "cuir (n. m.)",
+      "en": "leather"
+    },
+    {
+      "fr": "en bon état",
+      "en": "in good condition"
+    },
+    {
+      "fr": "en excellent état",
+      "en": "in excellent condition"
+    }
+  ]
+}

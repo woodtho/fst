@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF39",
+  "titleFr": "Évaluer un changement proposé",
+  "titleEn": "To evaluate a proposed change",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/39-2005F",
+    "text": "sources/text/OF39.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF39 — To evaluate a proposed change. This objective develops the language needed to evaluate a proposed change in a Government of Canada workplace. Grammar focus: The present subjunctive, Comparatives and superlatives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Évaluer un changement proposé. Objectif communicatif appuyé par : Le subjonctif présent, Le comparatif et le superlatif. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present subjunctive, Comparatives and superlatives.",
+        "charts": [],
+        "points": [
+          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
+          "· Trigger: il faut que, vouloir que, être content que, douter que…",
+          "· Stem from ils-present (ils finissent → finiss-).",
+          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille.",
+          "Le comparatif et le superlatif (Comparatives and superlatives) — plus/moins/aussi + adjectif + que; le/la/les plus/moins pour le superlatif. Irréguliers : bon→meilleur; bien→mieux.",
+          "· plus … que (more), moins … que (less), aussi … que (as).",
+          "· Superlative: le/la/les plus/moins + adjective.",
+          "· bon → meilleur (adj.); bien → mieux (adv.)."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le subjonctif présent",
+          "itemRefs": [
+            "itm_of39_subjonctif_1",
+            "itm_of39_subjonctif_2",
+            "itm_of39_subjonctif_3",
+            "itm_of39_subjonctif_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le comparatif et le superlatif",
+          "itemRefs": [
+            "itm_of39_comparatives_5",
+            "itm_of39_comparatives_6",
+            "itm_of39_comparatives_7",
+            "itm_of39_comparatives_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/47-4-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Évaluer un changement proposé",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « évaluer un changement proposé ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent, Le comparatif et le superlatif.",
+          "promptEn": "In a workplace context, practise the function \"To evaluate a proposed change\". Produce a short exchange (3–4 sentences) using: The present subjunctive, Comparatives and superlatives.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/45-4-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 1,
+        "medium": 4,
+        "advanced": 3
+      },
+      "drawFrom": [
+        "OF39"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "subjonctif",
+        "comparatives"
+      ]
+    }
+  }
+}

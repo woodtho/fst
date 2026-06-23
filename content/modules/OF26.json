@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF26",
+  "titleFr": "Décrire des déplacements",
+  "titleEn": "To describe movement",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/26-2005F",
+    "text": "sources/text/OF26.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF26 — To describe movement. This objective develops the language needed to describe movement in a Government of Canada workplace. Grammar focus: Pronouns, The compound past. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Décrire des déplacements. Objectif communicatif appuyé par : Les pronoms, Le passé composé. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: Pronouns, The compound past.",
+        "charts": [],
+        "points": [
+          "Les pronoms (Pronouns) — Remplacent les noms : objets directs (le/la/les), indirects (lui/leur), y, en, relatifs (qui/que). Ils se placent avant le verbe conjugué.",
+          "· Direct objects: le, la, les, l’.",
+          "· Indirect (à + person): lui, leur. y = à + thing/place; en = de + thing.",
+          "· Relative: qui (subject), que (object).",
+          "Le passé composé (The compound past) — Action passée terminée : auxiliaire (avoir/être) au présent + participe passé. Avec être, accord du participe avec le sujet.",
+          "· Most verbs use avoir; no agreement with the subject.",
+          "· Movement/state-change verbs and pronominal verbs use être; participle agrees with subject.",
+          "· Regular participles: -er→-é, -ir→-i, -re→-u."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Les pronoms",
+          "itemRefs": [
+            "itm_of26_pronouns_1",
+            "itm_of26_pronouns_2",
+            "itm_of26_pronouns_3",
+            "itm_of26_pronouns_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le passé composé",
+          "itemRefs": [
+            "itm_of26_passe_compose_5",
+            "itm_of26_passe_compose_6",
+            "itm_of26_passe_compose_7",
+            "itm_of26_passe_compose_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/47-3-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Décrire des déplacements",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « décrire des déplacements ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les pronoms, Le passé composé.",
+          "promptEn": "In a workplace context, practise the function \"To describe movement\". Produce a short exchange (3–4 sentences) using: Pronouns, The compound past.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/45-3-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 5,
+        "advanced": 1
+      },
+      "drawFrom": [
+        "OF26"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "pronouns",
+        "passe_compose"
+      ]
+    }
+  }
+}

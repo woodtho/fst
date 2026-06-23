@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF12",
+  "of": 12,
+  "titleFr": "Indiquer la répartition et une quantité non numérique",
+  "titleEn": "To indicate distribution and general quantity",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "assez de",
+      "en": "enough"
+    },
+    {
+      "fr": "autre – d'autres",
+      "en": "other"
+    },
+    {
+      "fr": "beaucoup",
+      "en": "a lot"
+    },
+    {
+      "fr": "beaucoup de",
+      "en": "a lot of"
+    },
+    {
+      "fr": "bien du, de la, des",
+      "en": "many"
+    },
+    {
+      "fr": "certaines",
+      "en": "some"
+    },
+    {
+      "fr": "certains",
+      "en": "some"
+    },
+    {
+      "fr": "chacun",
+      "en": "everyone"
+    },
+    {
+      "fr": "chacune",
+      "en": "everyone"
+    },
+    {
+      "fr": "chaque",
+      "en": "each"
+    },
+    {
+      "fr": "chose – pas grand-chose",
+      "en": "not much"
+    },
+    {
+      "fr": "chose – pas grand-chose",
+      "en": "not a lot"
+    },
+    {
+      "fr": "d’autres",
+      "en": "others"
+    },
+    {
+      "fr": "de nombreux",
+      "en": "a number of"
+    },
+    {
+      "fr": "de nombreux",
+      "en": "numerous"
+    },
+    {
+      "fr": "diviser",
+      "en": "to separate"
+    },
+    {
+      "fr": "entre",
+      "en": "among"
+    },
+    {
+      "fr": "équipe (n. f.)",
+      "en": "team"
+    },
+    {
+      "fr": "grand monde – pas grand monde",
+      "en": "not a lot of people"
+    },
+    {
+      "fr": "grand-chose – pas grandchose",
+      "en": "not much"
+    },
+    {
+      "fr": "grand-chose – pas grandchose",
+      "en": "not a lot"
+    },
+    {
+      "fr": "la plupart (de)",
+      "en": "the majority (of)"
+    },
+    {
+      "fr": "majorité – la (grande) majorité (de)",
+      "en": "the (great) majority (of)"
+    },
+    {
+      "fr": "mal – pas mal de",
+      "en": "quite a lot of"
+    },
+    {
+      "fr": "minorité (n. f.)",
+      "en": "minority"
+    },
+    {
+      "fr": "monde – pas grand monde",
+      "en": "not a lot of people"
+    },
+    {
+      "fr": "nombre (n. m.)",
+      "en": "number"
+    },
+    {
+      "fr": "nombreux – de nombreux",
+      "en": "a number of"
+    },
+    {
+      "fr": "nombreux – de nombreux",
+      "en": "numerous"
+    },
+    {
+      "fr": "numérique (adj. m./f.)",
+      "en": "numerical"
+    },
+    {
+      "fr": "numérique – non numérique",
+      "en": "non-numerical"
+    },
+    {
+      "fr": "par",
+      "en": "per"
+    },
+    {
+      "fr": "partage (n. m.)",
+      "en": "division"
+    },
+    {
+      "fr": "partage (n. m.)",
+      "en": "sharing out"
+    },
+    {
+      "fr": "partager",
+      "en": "to divide"
+    },
+    {
+      "fr": "partager",
+      "en": "to separate"
+    },
+    {
+      "fr": "partager",
+      "en": "to share"
+    },
+    {
+      "fr": "pas de",
+      "en": "not . . . any"
+    },
+    {
+      "fr": "pas grand monde",
+      "en": "not a lot of people"
+    },
+    {
+      "fr": "pas grand-chose",
+      "en": "not much"
+    },
+    {
+      "fr": "pas grand-chose",
+      "en": "not a lot"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF5",
+  "of": 5,
+  "titleFr": "Indiquer où est une personne, un objet, un lieu",
+  "titleEn": "To indicate where a person, an object or a place is",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à côté de",
+      "en": "beside"
+    },
+    {
+      "fr": "à droite",
+      "en": "on the right"
+    },
+    {
+      "fr": "à gauche",
+      "en": "on the left"
+    },
+    {
+      "fr": "adresse (n. f.)",
+      "en": "address"
+    },
+    {
+      "fr": "appartement (n. m.)",
+      "en": "apartment"
+    },
+    {
+      "fr": "ascenseur (n. m.)",
+      "en": "elevator"
+    },
+    {
+      "fr": "attente – salle d'attente",
+      "en": "waiting room"
+    },
+    {
+      "fr": "au bout (de)",
+      "en": "at the end (of)"
+    },
+    {
+      "fr": "au fond (de)",
+      "en": "at the bottom (of)"
+    },
+    {
+      "fr": "au milieu (de)",
+      "en": "in the middle (of)"
+    },
+    {
+      "fr": "au-dessus (de)",
+      "en": "above"
+    },
+    {
+      "fr": "autour (de)",
+      "en": "around"
+    },
+    {
+      "fr": "banque (n. f.)",
+      "en": "bank"
+    },
+    {
+      "fr": "bar (n. m.)",
+      "en": "bar"
+    },
+    {
+      "fr": "bibliothèque (n. f.)",
+      "en": "library"
+    },
+    {
+      "fr": "bout (n. m.)",
+      "en": "end"
+    },
+    {
+      "fr": "bout – au bout (de)",
+      "en": "at the end (of)"
+    },
+    {
+      "fr": "boutique (n. f.)",
+      "en": "boutique"
+    },
+    {
+      "fr": "bureau (n. m.)",
+      "en": "office"
+    },
+    {
+      "fr": "cafétéria (n. f.)",
+      "en": "cafeteria"
+    },
+    {
+      "fr": "cantine (n. f.)",
+      "en": "canteen"
+    },
+    {
+      "fr": "chose (n. f.)",
+      "en": "thing"
+    },
+    {
+      "fr": "chose – quelque chose",
+      "en": "something"
+    },
+    {
+      "fr": "cinéma (n. m.)",
+      "en": "cinema"
+    },
+    {
+      "fr": "conférence (n. f.)",
+      "en": "lecture"
+    },
+    {
+      "fr": "conférence – salle de conférence",
+      "en": "conference room"
+    },
+    {
+      "fr": "conférence (n. f.)",
+      "en": "conference"
+    },
+    {
+      "fr": "corridor (n. m.)",
+      "en": "corridor"
+    },
+    {
+      "fr": "corridor (n. m.)",
+      "en": "hall"
+    },
+    {
+      "fr": "côté – à côté de",
+      "en": "beside"
+    },
+    {
+      "fr": "couloir (n. m.)",
+      "en": "corridor"
+    },
+    {
+      "fr": "courrier – salle de courrier",
+      "en": "mail room"
+    },
+    {
+      "fr": "dans",
+      "en": "into"
+    },
+    {
+      "fr": "dépanneur (n. m.)",
+      "en": "convenience store"
+    },
+    {
+      "fr": "derrière",
+      "en": "behind"
+    },
+    {
+      "fr": "devant",
+      "en": "in front of"
+    },
+    {
+      "fr": "discothèque (n. f.)",
+      "en": "discotheque"
+    },
+    {
+      "fr": "droite – à droite",
+      "en": "on the right"
+    },
+    {
+      "fr": "édifice (n. m.)",
+      "en": "building"
+    },
+    {
+      "fr": "en",
+      "en": "some"
+    },
+    {
+      "fr": "en face de",
+      "en": "opposite"
+    }
+  ]
+}

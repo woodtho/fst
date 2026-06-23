@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF7",
+  "of": 7,
+  "titleFr": "Orienter quelqu’un dans l’espace",
+  "titleEn": "To give directions",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "aborder",
+      "en": "to approach"
+    },
+    {
+      "fr": "aller - pour aller à",
+      "en": "to get to"
+    },
+    {
+      "fr": "aller (à)",
+      "en": "to go"
+    },
+    {
+      "fr": "arriver",
+      "en": "to come to"
+    },
+    {
+      "fr": "c’est vrai?",
+      "en": "really?"
+    },
+    {
+      "fr": "chez",
+      "en": "at, to"
+    },
+    {
+      "fr": "compréhension (n. f.)",
+      "en": "understanding"
+    },
+    {
+      "fr": "continuer (à)",
+      "en": "to carry on"
+    },
+    {
+      "fr": "continuer (à)",
+      "en": "to continue"
+    },
+    {
+      "fr": "continuer (à)",
+      "en": "to keep going"
+    },
+    {
+      "fr": "déplacement (n. m.)",
+      "en": "moving"
+    },
+    {
+      "fr": "descendre",
+      "en": "to go down"
+    },
+    {
+      "fr": "direction (n. f.)",
+      "en": "direction"
+    },
+    {
+      "fr": "droit - tout droit",
+      "en": "straight"
+    },
+    {
+      "fr": "entrer",
+      "en": "to enter"
+    },
+    {
+      "fr": "entrer en vigueur",
+      "en": "to come into force"
+    },
+    {
+      "fr": "exact",
+      "en": "correct"
+    },
+    {
+      "fr": "exactitude (n. f.)",
+      "en": "accuracy"
+    },
+    {
+      "fr": "excuser",
+      "en": "to excuse"
+    },
+    {
+      "fr": "excuser - s'excuser",
+      "en": "to apologize"
+    },
+    {
+      "fr": "impératif (n. m.)",
+      "en": "imperative mood"
+    },
+    {
+      "fr": "jusqu’à, au",
+      "en": "as far as"
+    },
+    {
+      "fr": "jusqu’à, au",
+      "en": "to"
+    },
+    {
+      "fr": "jusqu’à, au",
+      "en": "up to"
+    },
+    {
+      "fr": "merci",
+      "en": "thank you"
+    },
+    {
+      "fr": "monter",
+      "en": "to go up"
+    },
+    {
+      "fr": "où - par où",
+      "en": "where"
+    },
+    {
+      "fr": "par",
+      "en": "by"
+    },
+    {
+      "fr": "par",
+      "en": "through"
+    },
+    {
+      "fr": "par où",
+      "en": "where"
+    },
+    {
+      "fr": "par quel",
+      "en": "by which"
+    },
+    {
+      "fr": "par quelle",
+      "en": "by which"
+    },
+    {
+      "fr": "pardon",
+      "en": "excuse me"
+    },
+    {
+      "fr": "partir",
+      "en": "to leave"
+    },
+    {
+      "fr": "passer",
+      "en": "to pass"
+    },
+    {
+      "fr": "pour aller à",
+      "en": "to get to"
+    },
+    {
+      "fr": "prendre",
+      "en": "to take"
+    },
+    {
+      "fr": "préposition (n. f.)",
+      "en": "preposition"
+    },
+    {
+      "fr": "quel - par quel",
+      "en": "by which"
+    },
+    {
+      "fr": "quelle - par quelle",
+      "en": "by which"
+    },
+    {
+      "fr": "remerciement (n. m.)",
+      "en": "thanks"
+    }
+  ]
+}

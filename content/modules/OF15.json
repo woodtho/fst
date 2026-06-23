@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF15",
+  "titleFr": "S’informer ou informer d’une requête ou de l’obtention de quelque chose",
+  "titleEn": "To give or to ask for information about requests or obtaining something",
+  "level": "A",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/15-2005F",
+    "text": "sources/text/OF15.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF15 — To give or to ask for information about requests or obtaining something. This objective develops the language needed to give or to ask for information about requests or obtaining something in a Government of Canada workplace. Grammar focus: The present conditional, Reported (indirect) speech. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "S’informer ou informer d’une requête ou de l’obtention de quelque chose. Objectif communicatif appuyé par : Le conditionnel présent, Le discours indirect. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present conditional, Reported (indirect) speech.",
+        "charts": [],
+        "points": [
+          "Le conditionnel présent (The present conditional) — Politesse, hypothèses et « would ». Radical du futur + terminaisons de l’imparfait.",
+          "· Stem = future stem; endings = imperfect endings.",
+          "· Politeness: je voudrais, pourriez-vous, j’aimerais.",
+          "· Used in the result clause of si + imparfait.",
+          "Le discours indirect (Reported (indirect) speech) — Rapporter des propos avec dire que / demander si / demander ce que. Au passé, concordance des temps (présent→imparfait, futur→conditionnel).",
+          "· Statement: dire que + clause.",
+          "· Yes/no question: demander si.",
+          "· Past reporting: present→imparfait, futur→conditionnel, passé composé→plus-que-parfait."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le conditionnel présent",
+          "itemRefs": [
+            "itm_of15_conditionnel_1",
+            "itm_of15_conditionnel_2",
+            "itm_of15_conditionnel_3",
+            "itm_of15_conditionnel_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le discours indirect",
+          "itemRefs": [
+            "itm_of15_reported_speech_5",
+            "itm_of15_reported_speech_6",
+            "itm_of15_reported_speech_7",
+            "itm_of15_reported_speech_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/47-2-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — S’informer ou informer d’une requête ou de l’obtention de quelque chose",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « s’informer ou informer d’une requête ou de l’obtention de quelque chose ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le conditionnel présent, Le discours indirect.",
+          "promptEn": "In a workplace context, practise the function \"To give or to ask for information about requests or obtaining something\". Produce a short exchange (3–4 sentences) using: The present conditional, Reported (indirect) speech.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/45-2-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 2,
+        "medium": 4,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF15"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "conditionnel",
+        "reported_speech"
+      ]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF24",
+  "of": 24,
+  "titleFr": "Situer des événements par rapport à d’autres",
+  "titleEn": "To situate events in relation to each other",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "antérieur – futur antérieur",
+      "en": "future perfect"
+    },
+    {
+      "fr": "antérieurement",
+      "en": "previously"
+    },
+    {
+      "fr": "antériorité (n. f.)",
+      "en": "anteriority"
+    },
+    {
+      "fr": "après que",
+      "en": "after"
+    },
+    {
+      "fr": "au moment où",
+      "en": "when"
+    },
+    {
+      "fr": "aussitôt que",
+      "en": "as soon as"
+    },
+    {
+      "fr": "avant de",
+      "en": "before"
+    },
+    {
+      "fr": "avant que (+ subj.)",
+      "en": "before"
+    },
+    {
+      "fr": "comme",
+      "en": "as"
+    },
+    {
+      "fr": "concordance des temps (n. f.)",
+      "en": "sequence of tenses"
+    },
+    {
+      "fr": "déjà",
+      "en": "already"
+    },
+    {
+      "fr": "dès que",
+      "en": "as soon as"
+    },
+    {
+      "fr": "en (+ gérondif)",
+      "en": "by (+ gerund)"
+    },
+    {
+      "fr": "en même temps",
+      "en": "at the same time"
+    },
+    {
+      "fr": "entre-temps",
+      "en": "meanwhile"
+    },
+    {
+      "fr": "entre-temps",
+      "en": "in the meantime"
+    },
+    {
+      "fr": "futur antérieur",
+      "en": "future perfect"
+    },
+    {
+      "fr": "infinitif (n. m.)",
+      "en": "infinitive"
+    },
+    {
+      "fr": "infinitif passé",
+      "en": "past infinitive"
+    },
+    {
+      "fr": "lendemain (n. m.)",
+      "en": "the next day"
+    },
+    {
+      "fr": "lendemain de (n. m.)",
+      "en": "the day after"
+    },
+    {
+      "fr": "lorsque",
+      "en": "when"
+    },
+    {
+      "fr": "même – en même temps",
+      "en": "at the same time"
+    },
+    {
+      "fr": "moment – au moment où",
+      "en": "when"
+    },
+    {
+      "fr": "nominale – proposition nominale",
+      "en": "noun phrase"
+    },
+    {
+      "fr": "où – au moment où",
+      "en": "when"
+    },
+    {
+      "fr": "parfait – plus-que-parfait",
+      "en": "past perfect"
+    },
+    {
+      "fr": "pendant que",
+      "en": "while"
+    },
+    {
+      "fr": "plus tard",
+      "en": "later"
+    },
+    {
+      "fr": "plus tôt",
+      "en": "earlier"
+    },
+    {
+      "fr": "plus tôt que",
+      "en": "earlier than"
+    },
+    {
+      "fr": "plus-que-parfait (n. m.)",
+      "en": "past perfect"
+    },
+    {
+      "fr": "postériorité (n. f.)",
+      "en": "posteriority"
+    },
+    {
+      "fr": "précédent (adj. m.)",
+      "en": "previous"
+    },
+    {
+      "fr": "précédente (adj. f.)",
+      "en": "previous"
+    },
+    {
+      "fr": "proposition nominale",
+      "en": "noun phrase"
+    },
+    {
+      "fr": "que – pendant que",
+      "en": "while"
+    },
+    {
+      "fr": "simultanéité (n. f.)",
+      "en": "simultaneity"
+    },
+    {
+      "fr": "suivant (adj. m.)",
+      "en": "next"
+    },
+    {
+      "fr": "suivante (adj. f.)",
+      "en": "next"
+    },
+    {
+      "fr": "tard – plus tard",
+      "en": "later"
+    }
+  ]
+}

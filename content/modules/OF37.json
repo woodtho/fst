@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF37",
+  "titleFr": "Décrire la démarche suivie dans la réalisation d’un projet",
+  "titleEn": "To describe the procedure followed in a project",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/37-2005F",
+    "text": "sources/text/OF37.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF37 — To describe the procedure followed in a project. This objective develops the language needed to describe the procedure followed in a project in a Government of Canada workplace. Grammar focus: The compound past, Prepositions. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Décrire la démarche suivie dans la réalisation d’un projet. Objectif communicatif appuyé par : Le passé composé, Les prépositions. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The compound past, Prepositions.",
+        "charts": [],
+        "points": [
+          "Le passé composé (The compound past) — Action passée terminée : auxiliaire (avoir/être) au présent + participe passé. Avec être, accord du participe avec le sujet.",
+          "· Most verbs use avoir; no agreement with the subject.",
+          "· Movement/state-change verbs and pronominal verbs use être; participle agrees with subject.",
+          "· Regular participles: -er→-é, -ir→-i, -re→-u.",
+          "Les prépositions (Prepositions) — Relient les mots et indiquent le lieu, le temps et la relation : à, de, en, dans, sur, chez. à+le=au; de+le=du.",
+          "· Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+          "· Place: à (city), en/au (country), dans (inside), sur (on), chez (at someone's).",
+          "· Time: à (time), en (month/year), dans (in X time), depuis (since)."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le passé composé",
+          "itemRefs": [
+            "itm_of37_passe_compose_1",
+            "itm_of37_passe_compose_2",
+            "itm_of37_passe_compose_3",
+            "itm_of37_passe_compose_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les prépositions",
+          "itemRefs": [
+            "itm_of37_prepositions_5",
+            "itm_of37_prepositions_6",
+            "itm_of37_prepositions_7",
+            "itm_of37_prepositions_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/47-4-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Décrire la démarche suivie dans la réalisation d’un projet",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « décrire la démarche suivie dans la réalisation d’un projet ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le passé composé, Les prépositions.",
+          "promptEn": "In a workplace context, practise the function \"To describe the procedure followed in a project\". Produce a short exchange (3–4 sentences) using: The compound past, Prepositions.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/45-4-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 3,
+        "medium": 4,
+        "advanced": 1
+      },
+      "drawFrom": [
+        "OF37"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "passe_compose",
+        "prepositions"
+      ]
+    }
+  }
+}

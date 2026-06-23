@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF23",
+  "of": 23,
+  "titleFr": "Préciser les conditions de réalisation d’un projet",
+  "titleEn": "To give details about how a project is carried out",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à plus tard – remettre à plus tard",
+      "en": "to postpone"
+    },
+    {
+      "fr": "achever",
+      "en": "to complete"
+    },
+    {
+      "fr": "achever",
+      "en": "to finish"
+    },
+    {
+      "fr": "action (n. f.)",
+      "en": "action"
+    },
+    {
+      "fr": "activité (n. f.)",
+      "en": "activity"
+    },
+    {
+      "fr": "agent (n. m.)",
+      "en": "officer"
+    },
+    {
+      "fr": "agente (n. f.)",
+      "en": "officer"
+    },
+    {
+      "fr": "analyse (n. f.)",
+      "en": "analysis"
+    },
+    {
+      "fr": "analyser",
+      "en": "to analyse"
+    },
+    {
+      "fr": "analyste (n. m./f.)",
+      "en": "analyst"
+    },
+    {
+      "fr": "application - mettre en application",
+      "en": "to apply"
+    },
+    {
+      "fr": "arrêter",
+      "en": "to stop"
+    },
+    {
+      "fr": "avant - mettre de l'avant",
+      "en": "to promote"
+    },
+    {
+      "fr": "biennal (adj. m.)",
+      "en": "biennial"
+    },
+    {
+      "fr": "biennale (adj. f.)",
+      "en": "biennial"
+    },
+    {
+      "fr": "bilan - faire le bilan",
+      "en": "to evaluate"
+    },
+    {
+      "fr": "commencer",
+      "en": "to start"
+    },
+    {
+      "fr": "commencer",
+      "en": "to begin"
+    },
+    {
+      "fr": "confier (à)",
+      "en": "to assign (a project)"
+    },
+    {
+      "fr": "conseil (n. m.)",
+      "en": "piece of advice"
+    },
+    {
+      "fr": "conseiller",
+      "en": "to advise"
+    },
+    {
+      "fr": "conseiller (n. m.)",
+      "en": "advisor"
+    },
+    {
+      "fr": "conseillère (n. f.)",
+      "en": "advisor"
+    },
+    {
+      "fr": "contrainte (n. f.)",
+      "en": "constraint"
+    },
+    {
+      "fr": "coordination (n. f.)",
+      "en": "coordination"
+    },
+    {
+      "fr": "coordonnateur (n. m.)",
+      "en": "coordinator"
+    },
+    {
+      "fr": "coordonnatrice (n. f.)",
+      "en": "coordinator"
+    },
+    {
+      "fr": "coordonner",
+      "en": "to coordinate"
+    },
+    {
+      "fr": "côté - mettre de côté",
+      "en": "to put . . . aside"
+    },
+    {
+      "fr": "décider (de)",
+      "en": "to decide to"
+    },
+    {
+      "fr": "décision (n. f.)",
+      "en": "decision"
+    },
+    {
+      "fr": "décision - prendre une décision",
+      "en": "to make a decision"
+    },
+    {
+      "fr": "démarche (n. f.)",
+      "en": "measure"
+    },
+    {
+      "fr": "dépense (n. f.)",
+      "en": "expense"
+    },
+    {
+      "fr": "déroulement (n. m.)",
+      "en": "unfolding"
+    },
+    {
+      "fr": "directeur (n. m.)",
+      "en": "manager"
+    },
+    {
+      "fr": "directeur (n. m.)",
+      "en": "head"
+    },
+    {
+      "fr": "direction (n. f.)",
+      "en": "management"
+    },
+    {
+      "fr": "directrice (n. f.)",
+      "en": "manager"
+    },
+    {
+      "fr": "directrice (n. f.)",
+      "en": "head"
+    },
+    {
+      "fr": "diriger",
+      "en": "to manage"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF26",
+  "of": 26,
+  "titleFr": "Décrire des déplacements",
+  "titleEn": "To describe movement",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à destination de",
+      "en": "bound for"
+    },
+    {
+      "fr": "à destination de",
+      "en": "to"
+    },
+    {
+      "fr": "à l’attention de",
+      "en": "for the attention of"
+    },
+    {
+      "fr": "à l’intention de",
+      "en": "for"
+    },
+    {
+      "fr": "accompagner",
+      "en": "to accompany"
+    },
+    {
+      "fr": "adresser (à)",
+      "en": "to address"
+    },
+    {
+      "fr": "aller – s'en aller",
+      "en": "to go"
+    },
+    {
+      "fr": "aller – s'en aller",
+      "en": "to leave"
+    },
+    {
+      "fr": "aller chercher",
+      "en": "to go and look for"
+    },
+    {
+      "fr": "amener",
+      "en": "to bring"
+    },
+    {
+      "fr": "amener",
+      "en": "to take"
+    },
+    {
+      "fr": "apporter (à)",
+      "en": "to bring"
+    },
+    {
+      "fr": "arriver (de)",
+      "en": "to arrive from"
+    },
+    {
+      "fr": "attention – à l'attention de",
+      "en": "for the attention of"
+    },
+    {
+      "fr": "auteur (n. m.)",
+      "en": "author"
+    },
+    {
+      "fr": "auteure (n. f.)",
+      "en": "author"
+    },
+    {
+      "fr": "aux soins de",
+      "en": "care of"
+    },
+    {
+      "fr": "ce dont",
+      "en": "what . . . about"
+    },
+    {
+      "fr": "ce dont",
+      "en": "what"
+    },
+    {
+      "fr": "ce que (avec antécédent)",
+      "en": "which"
+    },
+    {
+      "fr": "ce que (sans antécédent)",
+      "en": "what"
+    },
+    {
+      "fr": "ce qui (avec antécédent)",
+      "en": "which"
+    },
+    {
+      "fr": "ce qui (sans antécédent)",
+      "en": "what"
+    },
+    {
+      "fr": "chercher – passer chercher",
+      "en": "to come and get"
+    },
+    {
+      "fr": "chercher – venir chercher",
+      "en": "to come and get"
+    },
+    {
+      "fr": "circuler",
+      "en": "to circulate"
+    },
+    {
+      "fr": "circuler",
+      "en": "to drive (along)"
+    },
+    {
+      "fr": "conduire",
+      "en": "to drive"
+    },
+    {
+      "fr": "de la part de",
+      "en": "from"
+    },
+    {
+      "fr": "de la part de",
+      "en": "on behalf of"
+    },
+    {
+      "fr": "déplacer",
+      "en": "to move"
+    },
+    {
+      "fr": "destinataire (n. m./f.)",
+      "en": "addressee"
+    },
+    {
+      "fr": "destinataire (n. m./f.)",
+      "en": "receiver"
+    },
+    {
+      "fr": "destinataire (n. m./f.)",
+      "en": "recipient"
+    },
+    {
+      "fr": "destination (n. f.)",
+      "en": "destination"
+    },
+    {
+      "fr": "destination – à destination de",
+      "en": "bound for"
+    },
+    {
+      "fr": "destination – à destination de",
+      "en": "to"
+    },
+    {
+      "fr": "diffuser",
+      "en": "to broadcast"
+    },
+    {
+      "fr": "diffuser",
+      "en": "to circulate"
+    },
+    {
+      "fr": "diffuser",
+      "en": "to diffuse"
+    },
+    {
+      "fr": "diffuser",
+      "en": "to distribute"
+    }
+  ]
+}

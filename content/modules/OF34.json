@@ -1,0 +1,134 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF34",
+  "titleFr": "Proposer des solutions à un problème",
+  "titleEn": "To put forward solutions to a problem",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/34-2005F",
+    "text": "sources/text/OF34.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF34 — To put forward solutions to a problem. This objective develops the language needed to put forward solutions to a problem in a Government of Canada workplace. Grammar focus: Si (conditional) clauses, The present conditional, The imperfect. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Proposer des solutions à un problème. Objectif communicatif appuyé par : Les phrases avec « si », Le conditionnel présent, L’imparfait. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: Si (conditional) clauses, The present conditional, The imperfect.",
+        "charts": [],
+        "points": [
+          "Les phrases avec « si » (Si (conditional) clauses) — Type 1 (réel) : si + présent → futur. Type 2 (hypothétique) : si + imparfait → conditionnel. Jamais de futur/conditionnel après si.",
+          "· si + présent, … futur (real condition).",
+          "· si + imparfait, … conditionnel présent (hypothetical).",
+          "· No future or conditional directly after si.",
+          "Le conditionnel présent (The present conditional) — Politesse, hypothèses et « would ». Radical du futur + terminaisons de l’imparfait.",
+          "· Stem = future stem; endings = imperfect endings.",
+          "· Politeness: je voudrais, pourriez-vous, j’aimerais.",
+          "· Used in the result clause of si + imparfait.",
+          "L’imparfait (The imperfect) — Description, habitude ou action en cours dans le passé. Radical = nous au présent sans -ons; terminaisons -ais, -ais, -ait, -ions, -iez, -aient.",
+          "· Stem from nous-present: nous travaillons → travaill-.",
+          "· Endings: -ais, -ais, -ait, -ions, -iez, -aient.",
+          "· être is irregular: ét- (j’étais)."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Les phrases avec « si »",
+          "itemRefs": [
+            "itm_of34_si_clauses_1",
+            "itm_of34_si_clauses_2",
+            "itm_of34_si_clauses_3",
+            "itm_of34_si_clauses_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Le conditionnel présent",
+          "itemRefs": [
+            "itm_of34_conditionnel_5",
+            "itm_of34_conditionnel_6",
+            "itm_of34_conditionnel_7",
+            "itm_of34_conditionnel_8"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "L’imparfait",
+          "itemRefs": [
+            "itm_of34_imparfait_9",
+            "itm_of34_imparfait_10",
+            "itm_of34_imparfait_11",
+            "itm_of34_imparfait_12"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/47-4-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Proposer des solutions à un problème",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « proposer des solutions à un problème ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les phrases avec « si », Le conditionnel présent, L’imparfait.",
+          "promptEn": "In a workplace context, practise the function \"To put forward solutions to a problem\". Produce a short exchange (3–4 sentences) using: Si (conditional) clauses, The present conditional, The imperfect.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 4,
+        "ofRange": [
+          33,
+          40
+        ],
+        "catalogue": "SC102-2/45-4-2006F"
+      },
+      "timedSeconds": 420,
+      "blueprint": {
+        "easy": 4,
+        "medium": 6,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF34"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "si_clauses",
+        "conditionnel",
+        "imparfait"
+      ]
+    }
+  }
+}

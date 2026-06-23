@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF8",
+  "of": 8,
+  "titleFr": "Situer un événement dans le temps",
+  "titleEn": "To give times and dates",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à quel",
+      "en": "at which"
+    },
+    {
+      "fr": "à quelle",
+      "en": "at which"
+    },
+    {
+      "fr": "accomplir",
+      "en": "to accomplish"
+    },
+    {
+      "fr": "agrandir",
+      "en": "to enlarge"
+    },
+    {
+      "fr": "année (n. f.)",
+      "en": "year"
+    },
+    {
+      "fr": "août (n. m.)",
+      "en": "August"
+    },
+    {
+      "fr": "après-midi (n. m./f.)",
+      "en": "afternoon"
+    },
+    {
+      "fr": "atterrir",
+      "en": "to land"
+    },
+    {
+      "fr": "automne (n. m.)",
+      "en": "autumn"
+    },
+    {
+      "fr": "automne (n. m.)",
+      "en": "fall"
+    },
+    {
+      "fr": "avant-midi (n. m./f.)",
+      "en": "morning"
+    },
+    {
+      "fr": "avertir (de)",
+      "en": "to warn"
+    },
+    {
+      "fr": "avertir (de)",
+      "en": "to inform"
+    },
+    {
+      "fr": "avril (n. m.)",
+      "en": "April"
+    },
+    {
+      "fr": "choisir",
+      "en": "to choose"
+    },
+    {
+      "fr": "courtoisie (n. f.)",
+      "en": "courtesy"
+    },
+    {
+      "fr": "courtoisie – formule de courtoisie",
+      "en": "polite form"
+    },
+    {
+      "fr": "date (n. f.)",
+      "en": "date"
+    },
+    {
+      "fr": "décembre (n. m.)",
+      "en": "December"
+    },
+    {
+      "fr": "dimanche (n. m.)",
+      "en": "Sunday"
+    },
+    {
+      "fr": "dire",
+      "en": "to say"
+    },
+    {
+      "fr": "dire (à)",
+      "en": "to tell"
+    },
+    {
+      "fr": "en quel",
+      "en": "in which"
+    },
+    {
+      "fr": "en quelle",
+      "en": "in which"
+    },
+    {
+      "fr": "été (n. m.)",
+      "en": "summer"
+    },
+    {
+      "fr": "février (n. m.)",
+      "en": "February"
+    },
+    {
+      "fr": "finir",
+      "en": "to finish"
+    },
+    {
+      "fr": "formule de courtoisie (n. f.)",
+      "en": "polite form"
+    },
+    {
+      "fr": "fournir",
+      "en": "to provide"
+    },
+    {
+      "fr": "fournir",
+      "en": "to supply"
+    },
+    {
+      "fr": "heure (n. f.)",
+      "en": "hour"
+    },
+    {
+      "fr": "hiver (n. m.)",
+      "en": "winter"
+    },
+    {
+      "fr": "information (n. f.)",
+      "en": "information"
+    },
+    {
+      "fr": "janvier (n. m.)",
+      "en": "January"
+    },
+    {
+      "fr": "jeudi (n. m.)",
+      "en": "Thursday"
+    },
+    {
+      "fr": "jour (n. m.)",
+      "en": "day"
+    },
+    {
+      "fr": "journée (n. f.)",
+      "en": "daytime"
+    },
+    {
+      "fr": "juillet (n. m.)",
+      "en": "July"
+    },
+    {
+      "fr": "juin (n. m.)",
+      "en": "June"
+    },
+    {
+      "fr": "lundi (n. m.)",
+      "en": "Monday"
+    },
+    {
+      "fr": "mai (n. m.)",
+      "en": "May"
+    }
+  ]
+}

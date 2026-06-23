@@ -1,0 +1,119 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF32",
+  "titleFr": "Formuler des conditions",
+  "titleEn": "To formulate conditions",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/32-2005F",
+    "text": "sources/text/OF32.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF32 — To formulate conditions. This objective develops the language needed to formulate conditions in a Government of Canada workplace. Grammar focus: The present subjunctive, Si (conditional) clauses. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Formuler des conditions. Objectif communicatif appuyé par : Le subjonctif présent, Les phrases avec « si ». Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present subjunctive, Si (conditional) clauses.",
+        "charts": [],
+        "points": [
+          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
+          "· Trigger: il faut que, vouloir que, être content que, douter que…",
+          "· Stem from ils-present (ils finissent → finiss-).",
+          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille.",
+          "Les phrases avec « si » (Si (conditional) clauses) — Type 1 (réel) : si + présent → futur. Type 2 (hypothétique) : si + imparfait → conditionnel. Jamais de futur/conditionnel après si.",
+          "· si + présent, … futur (real condition).",
+          "· si + imparfait, … conditionnel présent (hypothetical).",
+          "· No future or conditional directly after si."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le subjonctif présent",
+          "itemRefs": [
+            "itm_of32_subjonctif_1",
+            "itm_of32_subjonctif_2",
+            "itm_of32_subjonctif_3",
+            "itm_of32_subjonctif_4"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les phrases avec « si »",
+          "itemRefs": [
+            "itm_of32_si_clauses_5",
+            "itm_of32_si_clauses_6",
+            "itm_of32_si_clauses_7",
+            "itm_of32_si_clauses_8"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/47-3-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Formuler des conditions",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « formuler des conditions ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent, Les phrases avec « si ».",
+          "promptEn": "In a workplace context, practise the function \"To formulate conditions\". Produce a short exchange (3–4 sentences) using: The present subjunctive, Si (conditional) clauses.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/45-3-2006F"
+      },
+      "timedSeconds": 280,
+      "blueprint": {
+        "easy": 0,
+        "medium": 4,
+        "advanced": 4
+      },
+      "drawFrom": [
+        "OF32"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "subjonctif",
+        "si_clauses"
+      ]
+    }
+  }
+}

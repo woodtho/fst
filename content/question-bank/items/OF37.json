@@ -1,0 +1,489 @@
+{
+  "schema": "items/v1",
+  "objectiveId": "OF37",
+  "source": {
+    "catalogue": "SC102-2/37-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
+  "items": [
+    {
+      "id": "itm_of37_passe_compose_1",
+      "objectiveId": "OF37",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.5,
+      "prompt": {
+        "fr": "Choisissez l’auxiliaire : « Elle ___ partie à midi. »",
+        "instructions_en": "Pick the correct auxiliary."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "est"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "est",
+          "tag": "correct"
+        },
+        {
+          "value": "a",
+          "tag": "avoir_for_etre"
+        },
+        {
+          "value": "es",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "ont",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« partir » is an être-verb → « est », and the participle agrees: « est partie » (feminine).",
+        "distractor_why": {
+          "avoir_for_etre": "« a » is avoir; partir takes être.",
+          "wrong_person": "« es » is the tu form.",
+          "plural": "« ont » is plural."
+        },
+        "grammar_rule": "Movement verbs (partir, arriver, venir…) take être; participle agrees with the subject.",
+        "vocab_notes": "partir → parti(e).",
+        "common_mistakes": [
+          "using avoir with être-verbs",
+          "forgetting subject agreement"
+        ]
+      },
+      "tip": {
+        "memory_aid": "DR & MRS VANDERTRAMP = être verbs.",
+        "pattern": "être + participle → agree with subject.",
+        "similar": [
+          "Il est arrivé.",
+          "Elles sont venues."
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_passe_compose_2",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Corrigez : « Nous avons allés à la réunion. »",
+        "instructions_en": "Fix the auxiliary and agreement."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous sommes allés à la réunion",
+          "Nous sommes allés à la réunion."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« aller » is an être-verb → « sommes », and the participle agrees with nous (plural): « allés ».",
+        "distractor_why": {
+          "kept_avoir": "« avons allés » uses avoir; aller takes être.",
+          "no_agreement": "Under être, the participle must agree (allés)."
+        },
+        "grammar_rule": "aller → être; participle agrees with the subject.",
+        "vocab_notes": "aller à la réunion = to go to the meeting.",
+        "common_mistakes": [
+          "using avoir with aller/venir",
+          "missing plural agreement"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aller, venir, arriver, partir → être.",
+        "pattern": "subject + être + participle(agrees).",
+        "similar": [
+          "Nous sommes arrivés tôt.",
+          "Ils sont venus à midi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_passe_compose_3",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Mettez au passé composé : « La gestionnaire ___ (recevoir) les commentaires. »",
+        "instructions_en": "Passé composé (irregular participle)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "a reçu"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^a re[çc]u$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "recevoir is irregular: participle « reçu »; with avoir → « a reçu ».",
+        "distractor_why": {
+          "regularized": "« a recevu » regularizes an irregular participle; it is « reçu ».",
+          "agreement": "No preceding direct object, so no agreement."
+        },
+        "grammar_rule": "Some participles are irregular: recevoir→reçu, écrire→écrit, faire→fait, prendre→pris.",
+        "vocab_notes": "recevoir → reçu; les commentaires = feedback.",
+        "common_mistakes": [
+          "regularizing irregular participles"
+        ]
+      },
+      "tip": {
+        "memory_aid": "reçu carries a cedilla (ç).",
+        "pattern": "Memorize high-frequency irregular participles.",
+        "similar": [
+          "Il a écrit le rapport.",
+          "J’ai pris des notes."
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_passe_compose_4",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Mettez au passé composé : « Hier, j’___ (terminer) le dossier. »",
+        "instructions_en": "Passé composé with avoir."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "ai terminé"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^ai termin[ée]$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "avoir (ai) + participe passé (terminé) = « ai terminé ». No agreement under avoir without a preceding object.",
+        "distractor_why": {
+          "infinitive": "« ai terminer » uses the infinitive; need the participle terminé.",
+          "agreement": "« ai terminée » adds agreement, but no preceding direct object here."
+        },
+        "grammar_rule": "Passé composé = auxiliaire au présent + participe passé.",
+        "vocab_notes": "terminer → terminé.",
+        "common_mistakes": [
+          "infinitive for participle",
+          "needless agreement under avoir"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_prepositions_5",
+      "objectiveId": "OF37",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Lieu : « Le dossier est ___ le bureau. »",
+        "instructions_en": "Choose the preposition for 'on the desk'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "sur"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "sur",
+          "tag": "correct"
+        },
+        {
+          "value": "dans",
+          "tag": "inside"
+        },
+        {
+          "value": "à",
+          "tag": "generic"
+        },
+        {
+          "value": "en",
+          "tag": "en_wrong"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« sur » = on (a surface): « sur le bureau » (on the desk).",
+        "distractor_why": {
+          "inside": "« dans » = inside (in a drawer).",
+          "generic": "« à » is too generic here.",
+          "en_wrong": "« en » is not used for a surface."
+        },
+        "grammar_rule": "sur = on; dans = in/inside; sous = under.",
+        "vocab_notes": "le bureau = desk/office.",
+        "common_mistakes": [
+          "confusing sur (on) and dans (in)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "sur = surface.",
+        "pattern": "Place prepositions are concrete: on/in/under.",
+        "similar": [
+          "sur la table",
+          "dans le tiroir"
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_prepositions_6",
+      "objectiveId": "OF37",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Temps : « La réunion est ___ deux heures. »",
+        "instructions_en": "Choose the time preposition for 'in two hours'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "dans"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "dans",
+          "tag": "correct"
+        },
+        {
+          "value": "en",
+          "tag": "duration"
+        },
+        {
+          "value": "à",
+          "tag": "clock_time"
+        },
+        {
+          "value": "depuis",
+          "tag": "since"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« dans » + time = after that amount of time from now: « dans deux heures » (in two hours).",
+        "distractor_why": {
+          "duration": "« en deux heures » means it takes two hours to complete.",
+          "clock_time": "« à deux heures » = at two o'clock.",
+          "since": "« depuis » = since/for (up to now)."
+        },
+        "grammar_rule": "dans = in (from now); en = within (duration); à = at (clock time).",
+        "vocab_notes": "la réunion = the meeting.",
+        "common_mistakes": [
+          "confusing dans and en for time"
+        ]
+      },
+      "tip": {
+        "memory_aid": "dans = countdown from now.",
+        "pattern": "dans 2 h (later) vs en 2 h (it took).",
+        "similar": [
+          "dans une semaine",
+          "à 9 h"
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_prepositions_7",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Complétez : « Je travaille ici ___ 2019. »",
+        "instructions_en": "Choose the preposition for 'since 2019'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "depuis"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« depuis » + a start point = since: « depuis 2019 » (since 2019, still ongoing). French uses the present with depuis.",
+        "distractor_why": {
+          "pendant": "« pendant » = during/for a finished period.",
+          "pour": "« pour » = for (intended duration, often future)."
+        },
+        "grammar_rule": "depuis + present = an action started in the past and still going.",
+        "vocab_notes": "depuis = since/for (ongoing).",
+        "common_mistakes": [
+          "using the past with depuis (use present)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "depuis + present = still happening.",
+        "pattern": "Je travaille ici depuis…",
+        "similar": [
+          "depuis trois ans",
+          "depuis lundi"
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_prepositions_8",
+      "objectiveId": "OF37",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Contraction : « Je vais ___ bureau du directeur. »",
+        "instructions_en": "à + le = ?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "au"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "au",
+          "tag": "correct"
+        },
+        {
+          "value": "à le",
+          "tag": "uncontracted"
+        },
+        {
+          "value": "du",
+          "tag": "de_contraction"
+        },
+        {
+          "value": "aux",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "à + le contracts to « au » → « au bureau ».",
+        "distractor_why": {
+          "uncontracted": "« à le » must contract to « au ».",
+          "de_contraction": "« du » = de + le, not à + le.",
+          "plural": "« aux » = à + les (plural)."
+        },
+        "grammar_rule": "à + le = au; à + les = aux.",
+        "vocab_notes": "aller au bureau = to go to the office.",
+        "common_mistakes": [
+          "leaving 'à le' uncontracted"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + le = au (always contract).",
+        "pattern": "à+le=au, à+les=aux.",
+        "similar": [
+          "au ministère",
+          "aux employés"
+        ]
+      }
+    }
+  ]
+}

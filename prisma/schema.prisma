@@ -1,0 +1,367 @@
+// FSL Trainer — Prisma schema
+// Dev: SQLite. Prod: switch provider to "postgresql" (schema is Postgres-safe).
+// Note: SQLite has no native enum/array/json types; Prisma maps enums to TEXT and
+// Json to TEXT. For Postgres, enums become native and Json becomes jsonb.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"            // change to "postgresql" for prod
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Enums (Prisma maps to TEXT on SQLite)
+// ---------------------------------------------------------------------------
+
+enum Level        { A B }
+enum Skill        { reading writing listening speaking grammar vocabulary }
+enum Difficulty   { easy medium advanced }
+enum Stage        { learn practice consolidation self_test mastery_check }
+enum ItemStatus   { draft needsReview approved live retired }
+enum SessionMode  { study practice consolidation self_test exam review speaking }
+enum ExamComponent{ reading written_expression oral }
+enum MasteryState { not_started learning review mastered weak }
+
+// ---------------------------------------------------------------------------
+// Content taxonomy
+// ---------------------------------------------------------------------------
+
+model Theme {
+  id          String      @id            // e.g. "workplace"
+  nameEn      String
+  nameFr      String
+  objectives  Objective[] @relation("ObjectiveThemes")
+}
+
+model GrammarConcept {
+  id          String   @id               // e.g. "passe_compose"
+  nameEn      String
+  nameFr      String
+  description String?
+  charts      GrammarChart[]
+  items       ItemGrammarConcept[]
+}
+
+model VocabDomain {
+  id        String       @id             // e.g. "government"
+  nameEn    String
+  nameFr    String
+  entries   LexiconEntry[]
+}
+
+// The 40 PFL2 training objectives = the learning modules.
+model Objective {
+  id            String    @id            // "A01" .. "B40"
+  code          String    @unique
+  level         Level
+  orderIndex    Int
+  titleFr       String
+  titleEn       String
+  summaryEn     String?
+  primarySkill  Skill
+  secondarySkills String                 // CSV of Skill values (SQLite); String[] on PG
+  themes        Theme[]   @relation("ObjectiveThemes")
+  modules       Module[]
+  items         Item[]
+  prerequisites ObjectivePrereq[] @relation("ObjectiveAsTarget")
+  unlocks       ObjectivePrereq[] @relation("ObjectiveAsPrereq")
+
+  @@index([level, orderIndex])
+}
+
+model ObjectivePrereq {
+  id          String    @id @default(cuid())
+  objective   Objective @relation("ObjectiveAsTarget", fields: [objectiveId], references: [id])
+  objectiveId String
+  prereq      Objective @relation("ObjectiveAsPrereq", fields: [prereqId], references: [id])
+  prereqId    String
+  hard        Boolean   @default(false)  // hard=lock; soft=recommendation only
+
+  @@unique([objectiveId, prereqId])
+}
+
+// A Module is a Stage of an Objective (Learn / Practice / ...). Stage content
+// (concept text, vocab list refs, dialogues, example texts) lives in `content` JSON.
+model Module {
+  id          String    @id @default(cuid())
+  objective   Objective @relation(fields: [objectiveId], references: [id])
+  objectiveId String
+  stage       Stage
+  title       String
+  content     Json      // structured per stage; see content/modules/*.json
+  orderIndex  Int       @default(0)
+
+  @@unique([objectiveId, stage])
+  @@index([objectiveId])
+}
+
+// ---------------------------------------------------------------------------
+// Lexicon & grammar reference
+// ---------------------------------------------------------------------------
+
+model LexiconEntry {
+  id          String      @id @default(cuid())
+  fr          String
+  en          String
+  partOfSpeech String?                   // n.m., n.f., v., adj., adv., expr.
+  gender      String?                    // m | f | null
+  register    String?                    // neutral | formal | informal
+  example     String?
+  domain      VocabDomain @relation(fields: [domainId], references: [id])
+  domainId    String
+  audioUrl    String?
+
+  @@index([domainId])
+  @@index([fr])
+}
+
+model GrammarChart {
+  id        String         @id @default(cuid())
+  concept   GrammarConcept @relation(fields: [conceptId], references: [id])
+  conceptId String
+  title     String
+  data      Json           // conjugation tables, rule rows; see content/grammar/*.json
+}
+
+// ---------------------------------------------------------------------------
+// Question bank
+// ---------------------------------------------------------------------------
+
+model Template {
+  id          String  @id
+  objectiveId String
+  type        String
+  difficulty  Difficulty
+  spec        Json                       // stem, slots, derivations, constraints
+  maxInstances Int    @default(50)
+  items       Item[]
+}
+
+model Item {
+  id            String     @id
+  objective     Objective  @relation(fields: [objectiveId], references: [id])
+  objectiveId   String
+  template      Template?  @relation(fields: [templateId], references: [id])
+  templateId    String?
+  skill         Skill
+  theme         String
+  difficulty    Difficulty
+  type          String                   // see question-bank §2
+  status        ItemStatus @default(draft)
+  prompt        Json                     // { fr, en, instructions_en, media }
+  answer        Json                     // { type, accepted[], normalizer, regex }
+  distractors   Json?                    // [{ value, tag }]
+  explanation   Json                     // REQUIRED — enforced in app layer
+  tip           Json                     // REQUIRED
+  estTimeSec    Int        @default(45)
+  // IRT / calibration
+  irtB          Float      @default(0)   // difficulty (logit)
+  irtA          Float      @default(1)   // discrimination
+  // running stats
+  timesServed   Int        @default(0)
+  timesCorrect  Int        @default(0)
+  flagCount     Int        @default(0)
+  grammarConcepts ItemGrammarConcept[]
+  vocabDomains  ItemVocabDomain[]
+  attempts      Attempt[]
+  examItems     ExamItem[]
+
+  @@index([objectiveId, difficulty, status])
+  @@index([skill, status])
+  @@index([type])
+}
+
+model ItemGrammarConcept {
+  item      Item           @relation(fields: [itemId], references: [id])
+  itemId    String
+  concept   GrammarConcept @relation(fields: [conceptId], references: [id])
+  conceptId String
+  @@id([itemId, conceptId])
+}
+
+model ItemVocabDomain {
+  item     Item   @relation(fields: [itemId], references: [id])
+  itemId   String
+  domainId String
+  @@id([itemId, domainId])
+}
+
+// ---------------------------------------------------------------------------
+// Users & progress
+// ---------------------------------------------------------------------------
+
+model User {
+  id            String     @id @default(cuid())
+  email         String     @unique
+  name          String?
+  locale        String     @default("en")
+  createdAt     DateTime   @default(now())
+  targetLevel   Level      @default(A)
+  sessions      Session[]
+  attempts      Attempt[]
+  objectiveProgress ObjectiveProgress[]
+  conceptMastery ConceptMastery[]
+  reviewItems   ReviewSchedule[]
+  exams         ExamAttempt[]
+  speaking      SpeakingAttempt[]
+}
+
+// Per-objective progress and stage gating.
+model ObjectiveProgress {
+  id           String      @id @default(cuid())
+  user         User        @relation(fields: [userId], references: [id])
+  userId       String
+  objectiveId  String
+  state        MasteryState @default(not_started)
+  masteryScore Float       @default(0)   // 0..1 (framework §4)
+  confidence   Float       @default(0)   // 0..1 self-rated rolling avg
+  stageReached Stage       @default(learn)
+  bestSelfTest Float       @default(0)
+  lastActiveAt DateTime?
+  updatedAt    DateTime    @updatedAt
+
+  @@unique([userId, objectiveId])
+  @@index([userId, state])
+}
+
+// Fine-grained mastery on the cross-cutting grammar/vocab/skill tracks.
+model ConceptMastery {
+  id         String   @id @default(cuid())
+  user       User     @relation(fields: [userId], references: [id])
+  userId     String
+  conceptKind String                     // "grammar" | "vocab" | "skill"
+  conceptId  String                      // e.g. "passe_compose" | "government" | "reading"
+  theta      Float    @default(0)        // IRT ability estimate (logit)
+  thetaSe    Float    @default(1)        // standard error of theta
+  attempts   Int      @default(0)
+  updatedAt  DateTime @updatedAt
+
+  @@unique([userId, conceptKind, conceptId])
+  @@index([userId, conceptKind])
+}
+
+// ---------------------------------------------------------------------------
+// Sessions & attempts
+// ---------------------------------------------------------------------------
+
+model Session {
+  id          String      @id @default(cuid())
+  user        User        @relation(fields: [userId], references: [id])
+  userId      String
+  mode        SessionMode
+  objectiveId String?
+  timed       Boolean     @default(false)
+  startedAt   DateTime    @default(now())
+  endedAt     DateTime?
+  scorePct    Float?
+  attempts    Attempt[]
+
+  @@index([userId, mode])
+}
+
+model Attempt {
+  id           String   @id @default(cuid())
+  user         User     @relation(fields: [userId], references: [id])
+  userId       String
+  session      Session  @relation(fields: [sessionId], references: [id])
+  sessionId    String
+  item         Item     @relation(fields: [itemId], references: [id])
+  itemId       String
+  response     Json                       // captured answer (type-specific)
+  isCorrect    Boolean
+  partialScore Float    @default(0)       // 0..1 for partial-credit types
+  responseMs   Int                        // response time (adaptive signal §5)
+  confidence   Int?                       // learner 1..5 self-rating
+  attemptNo    Int      @default(1)       // nth attempt on this item for this user
+  createdAt    DateTime @default(now())
+
+  @@index([userId, itemId])
+  @@index([itemId, isCorrect])
+  @@index([sessionId])
+}
+
+// ---------------------------------------------------------------------------
+// Spaced repetition (FSRS)
+// ---------------------------------------------------------------------------
+
+model ReviewSchedule {
+  id          String   @id @default(cuid())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String
+  itemId      String                      // the unit reviewed (item or concept-card)
+  cardKind    String   @default("item")   // "item" | "concept"
+  stability   Float    @default(0)        // FSRS S
+  difficulty  Float    @default(5)        // FSRS D (1..10)
+  due         DateTime
+  lastReview  DateTime?
+  reps        Int      @default(0)
+  lapses      Int      @default(0)
+  state       String   @default("new")    // new | learning | review | relearning
+
+  @@unique([userId, itemId, cardKind])
+  @@index([userId, due])
+}
+
+// ---------------------------------------------------------------------------
+// Exam mode (SLE prep)
+// ---------------------------------------------------------------------------
+
+model ExamBlueprint {
+  id          String   @id @default(cuid())
+  component   ExamComponent
+  level       Level
+  title       String
+  spec        Json                        // counts per skill/concept/difficulty
+  attempts    ExamAttempt[]
+}
+
+model ExamAttempt {
+  id          String        @id @default(cuid())
+  user        User          @relation(fields: [userId], references: [id])
+  userId      String
+  blueprint   ExamBlueprint @relation(fields: [blueprintId], references: [id])
+  blueprintId String
+  startedAt   DateTime      @default(now())
+  endedAt     DateTime?
+  thetaFinal  Float?                       // ability estimate at end (adaptive form)
+  scaledScore Float?
+  predictedLevel Level?
+  items       ExamItem[]
+
+  @@index([userId])
+}
+
+model ExamItem {
+  id          String      @id @default(cuid())
+  exam        ExamAttempt @relation(fields: [examId], references: [id])
+  examId      String
+  item        Item        @relation(fields: [itemId], references: [id])
+  itemId      String
+  orderIndex  Int
+  response    Json?
+  isCorrect   Boolean?
+  responseMs  Int?
+
+  @@index([examId])
+}
+
+// ---------------------------------------------------------------------------
+// Speaking practice
+// ---------------------------------------------------------------------------
+
+model SpeakingAttempt {
+  id          String   @id @default(cuid())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String
+  itemId      String                       // oral_short_response | oral_roleplay
+  audioUrl    String?
+  transcript  String?                      // ASR output
+  scores      Json                         // { pronunciation, fluency, grammar, vocab } 0..100
+  feedback    Json                         // { modelAnswer, improvements[], alternatives[], strongerPhrasing[] }
+  createdAt   DateTime @default(now())
+
+  @@index([userId])
+}

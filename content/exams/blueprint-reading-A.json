@@ -1,0 +1,35 @@
+{
+  "schema": "exam-blueprint/v1",
+  "id": "bp_reading_A",
+  "component": "reading",
+  "level": "A",
+  "title": "SLE-style Reading Comprehension — Level A",
+  "description": "Increasing-difficulty reading practice in GoC workplace contexts. Original passages and items; resembles SLE format without reproducing test content.",
+  "timeLimitSeconds": 1800,
+  "form": "fixed",
+  "sections": [
+    {
+      "name": "Part 1 — Short notices",
+      "selection": { "type": "reading_passage_set", "difficulty": "easy", "count": 8, "themes": ["workplace", "scheduling", "public_service"] }
+    },
+    {
+      "name": "Part 2 — Emails and memos",
+      "selection": { "type": "reading_passage_set", "difficulty": "medium", "count": 10, "themes": ["workplace", "administration"] }
+    },
+    {
+      "name": "Part 3 — Longer workplace text",
+      "selection": { "type": "reading_passage_set", "difficulty": "advanced", "count": 7, "themes": ["public_service", "government_terminology"] }
+    }
+  ],
+  "scoring": {
+    "method": "irt_theta",
+    "passThetaForLevelA": 0.0,
+    "scaledScoreMap": "logistic",
+    "predictLevel": true
+  },
+  "balance": {
+    "grammarConcepts": { "present": "any", "passe_compose": "any", "prepositions": "any" },
+    "vocabDomains": ["workplace", "administration", "government", "scheduling"]
+  },
+  "notes": "Server draws live items matching each section's selection, balanced per `balance`, no repeats within a sitting. Feedback withheld until submit (exam mode)."
+}

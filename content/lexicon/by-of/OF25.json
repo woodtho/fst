@@ -1,0 +1,178 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF25",
+  "of": 25,
+  "titleFr": "Indiquer les étapes d’un processus",
+  "titleEn": "To indicate the steps in a process",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 41,
+  "entries": [
+    {
+      "fr": "à la fin",
+      "en": "in the end"
+    },
+    {
+      "fr": "abord – d'abord",
+      "en": "first"
+    },
+    {
+      "fr": "au début",
+      "en": "from the beginning"
+    },
+    {
+      "fr": "avant de finir",
+      "en": "before finishing"
+    },
+    {
+      "fr": "commencer – pour commencer",
+      "en": "to begin"
+    },
+    {
+      "fr": "commencer par",
+      "en": "to begin with"
+    },
+    {
+      "fr": "continuer – pour continuer",
+      "en": "to continue"
+    },
+    {
+      "fr": "d’abord",
+      "en": "first"
+    },
+    {
+      "fr": "dans un premier temps",
+      "en": "first"
+    },
+    {
+      "fr": "début – au début",
+      "en": "from the beginning"
+    },
+    {
+      "fr": "début – dès le début",
+      "en": "from the beginning"
+    },
+    {
+      "fr": "dernier – en dernier lieu",
+      "en": "finally"
+    },
+    {
+      "fr": "dernier – en dernier lieu",
+      "en": "in the last place"
+    },
+    {
+      "fr": "dès le début",
+      "en": "from the beginning"
+    },
+    {
+      "fr": "deuxième – en deuxième lieu",
+      "en": "second"
+    },
+    {
+      "fr": "deuxième – en deuxième lieu",
+      "en": "in the second place"
+    },
+    {
+      "fr": "deuxièmement",
+      "en": "secondly"
+    },
+    {
+      "fr": "en dernier lieu",
+      "en": "finally"
+    },
+    {
+      "fr": "en dernier lieu",
+      "en": "in the last place"
+    },
+    {
+      "fr": "en deuxième lieu",
+      "en": "second"
+    },
+    {
+      "fr": "en deuxième lieu",
+      "en": "in the second place"
+    },
+    {
+      "fr": "en premier lieu",
+      "en": "first"
+    },
+    {
+      "fr": "en premier lieu",
+      "en": "in the first place"
+    },
+    {
+      "fr": "en troisième lieu",
+      "en": "third"
+    },
+    {
+      "fr": "enfin",
+      "en": "finally"
+    },
+    {
+      "fr": "ensuite",
+      "en": "next"
+    },
+    {
+      "fr": "étape – l'étape finale",
+      "en": "the final step"
+    },
+    {
+      "fr": "étape – l'étape suivante",
+      "en": "the following step"
+    },
+    {
+      "fr": "étape – la première étape",
+      "en": "the first step"
+    },
+    {
+      "fr": "étape – la prochaine étape",
+      "en": "the next step"
+    },
+    {
+      "fr": "être rendu (à)",
+      "en": "to be at"
+    },
+    {
+      "fr": "être rendue (à)",
+      "en": "to be at"
+    },
+    {
+      "fr": "fin – à la fin",
+      "en": "in the end"
+    },
+    {
+      "fr": "final (adj. m.)",
+      "en": "final"
+    },
+    {
+      "fr": "finale (adj. f. )",
+      "en": "final"
+    },
+    {
+      "fr": "finale – l'étape finale",
+      "en": "the final step"
+    },
+    {
+      "fr": "finalement",
+      "en": "finally"
+    },
+    {
+      "fr": "finir – avant de finir",
+      "en": "before finishing"
+    },
+    {
+      "fr": "finir – pour finir",
+      "en": "to end"
+    },
+    {
+      "fr": "l’étape finale",
+      "en": "the final step"
+    },
+    {
+      "fr": "l’étape suivante",
+      "en": "the following step"
+    }
+  ]
+}

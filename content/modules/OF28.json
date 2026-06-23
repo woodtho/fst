@@ -1,0 +1,104 @@
+{
+  "schema": "module/v1",
+  "objectiveId": "OF28",
+  "titleFr": "Préciser l’importance d’une directive",
+  "titleEn": "To explain the importance of an instruction",
+  "level": "B",
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/28-2005F",
+    "text": "sources/text/OF28.txt"
+  },
+  "stages": {
+    "learn": {
+      "conceptExplanation": {
+        "en": "OF28 — To explain the importance of an instruction. This objective develops the language needed to explain the importance of an instruction in a Government of Canada workplace. Grammar focus: The present subjunctive. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Préciser l’importance d’une directive. Objectif communicatif appuyé par : Le subjonctif présent. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
+      },
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "grammarNotes": {
+        "summary": "Grammar focus for this objective: The present subjunctive.",
+        "charts": [],
+        "points": [
+          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
+          "· Trigger: il faut que, vouloir que, être content que, douter que…",
+          "· Stem from ils-present (ils finissent → finiss-).",
+          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille."
+        ]
+      },
+      "pronunciation": {
+        "points": [
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
+        ]
+      },
+      "dialogues": [],
+      "exampleTexts": []
+    },
+    "practice": {
+      "exerciseSets": [
+        {
+          "title": "Le subjonctif présent",
+          "itemRefs": [
+            "itm_of28_subjonctif_1",
+            "itm_of28_subjonctif_2",
+            "itm_of28_subjonctif_3",
+            "itm_of28_subjonctif_4"
+          ],
+          "type": "mixed"
+        }
+      ]
+    },
+    "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/47-3-2006F"
+      },
+      "tasks": [
+        {
+          "title": "Tâche de consolidation — Préciser l’importance d’une directive",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « préciser l’importance d’une directive ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent.",
+          "promptEn": "In a workplace context, practise the function \"To explain the importance of an instruction\". Produce a short exchange (3–4 sentences) using: The present subjunctive.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
+        }
+      ]
+    },
+    "selfTest": {
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 3,
+        "ofRange": [
+          23,
+          32
+        ],
+        "catalogue": "SC102-2/45-3-2006F"
+      },
+      "timedSeconds": 180,
+      "blueprint": {
+        "easy": 0,
+        "medium": 2,
+        "advanced": 2
+      },
+      "drawFrom": [
+        "OF28"
+      ]
+    },
+    "masteryCheck": {
+      "threshold": 0.8,
+      "concepts": [
+        "subjonctif"
+      ]
+    }
+  }
+}

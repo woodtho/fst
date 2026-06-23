@@ -1,0 +1,98 @@
+{
+  "schema": "lexicon-by-of/v2",
+  "objectiveId": "OF40",
+  "of": 40,
+  "titleFr": "Persuader quelqu’un de quelque chose",
+  "titleEn": "To convince someone of something",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt"
+  },
+  "count": 21,
+  "entries": [
+    {
+      "fr": "clarifier",
+      "en": "to clarify"
+    },
+    {
+      "fr": "engager – s'engager à",
+      "en": "to commit oneself to"
+    },
+    {
+      "fr": "généralement",
+      "en": "generally"
+    },
+    {
+      "fr": "généralisation (n. f.)",
+      "en": "generalization"
+    },
+    {
+      "fr": "habituellement",
+      "en": "usually"
+    },
+    {
+      "fr": "hésiter",
+      "en": "to hesitate"
+    },
+    {
+      "fr": "la plupart du temps",
+      "en": "most of the time"
+    },
+    {
+      "fr": "mise – la mise en valeur",
+      "en": "enhancement"
+    },
+    {
+      "fr": "normalement",
+      "en": "normally"
+    },
+    {
+      "fr": "objection (n. f.)",
+      "en": "objection"
+    },
+    {
+      "fr": "ordinairement",
+      "en": "ordinarily"
+    },
+    {
+      "fr": "plupart – la plupart du temps",
+      "en": "most of the time"
+    },
+    {
+      "fr": "point de vue (n. m.)",
+      "en": "point of view"
+    },
+    {
+      "fr": "promettre (à)",
+      "en": "to promise"
+    },
+    {
+      "fr": "promettre (de)",
+      "en": "to promise"
+    },
+    {
+      "fr": "proposition (n. f.)",
+      "en": "proposition"
+    },
+    {
+      "fr": "s’engager à",
+      "en": "to undertake"
+    },
+    {
+      "fr": "suggestion (n. f.)",
+      "en": "suggestion"
+    },
+    {
+      "fr": "temps – la plupart du temps",
+      "en": "most of the time"
+    },
+    {
+      "fr": "valeur – la mise en valeur",
+      "en": "enhancement"
+    },
+    {
+      "fr": "vue – point de vue",
+      "en": "point of view"
+    }
+  ]
+}
