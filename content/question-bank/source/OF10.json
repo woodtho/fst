@@ -1,0 +1,294 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF10",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of10_src_a5_9",
+      "objectiveId": "OF10",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "informaticien",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "acheter des fournitures de bureau"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "acheter des fournitures de bureau",
+          "tag": "correct"
+        },
+        {
+          "value": "installer un coupe-feu",
+          "tag": "d0"
+        },
+        {
+          "value": "déboguer le réseau",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « acheter des fournitures de bureau ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {
+          "d0": "« installer un coupe-feu » ne complète pas correctement cet énoncé.",
+          "d1": "« déboguer le réseau » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 5).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 5,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a70_1",
+      "objectiveId": "OF10",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Comme il a été précisé lors de la dernière réunion, je coordonnerai tous les travaux en l’absence du directeur. Vous vous adresserez donc à moi pour toute question ayant trait au rapport. Chacun devra remplir la feuille de route que je lui ai remise. La tâche de l’auteur de ce courriel est de :",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "coordonner le travail des employés."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "coordonner le travail des employés.",
+          "tag": "correct"
+        },
+        {
+          "value": "rencontrer les employés et leur donner une note.",
+          "tag": "d0"
+        },
+        {
+          "value": "remplir la feuille de route de chacun.",
+          "tag": "d1"
+        },
+        {
+          "value": "remettre une feuille de route à chacun.",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « coordonner le travail des employés. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {
+          "d0": "« rencontrer les employés et leur donner une note. » ne complète pas correctement cet énoncé.",
+          "d1": "« remplir la feuille de route de chacun. » ne complète pas correctement cet énoncé.",
+          "d2": "« remettre une feuille de route à chacun. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 70).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 70,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a70_2",
+      "objectiveId": "OF10",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Tel que prévu, nous avons reçu tous les questionnaires. Monique et Luc vont s’occuper de compiler les résultats de la première partie. Jeanne et Claire seront responsables des parties 2 et 3 alors que Denis et Pauline commenceront à élaborer l’introduction du rapport. Qui sera responsable de compiler les résultats de la deuxième partie du questionnaire?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Jeanne et Claire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Jeanne et Claire.",
+          "tag": "correct"
+        },
+        {
+          "value": "Monique et Luc.",
+          "tag": "d0"
+        },
+        {
+          "value": "Claire et Denis.",
+          "tag": "d1"
+        },
+        {
+          "value": "Jeanne et Denis.",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Jeanne et Claire. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {
+          "d0": "« Monique et Luc. » ne complète pas correctement cet énoncé.",
+          "d1": "« Claire et Denis. » ne complète pas correctement cet énoncé.",
+          "d2": "« Jeanne et Denis. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 70).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 70,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of10_src_a70_3",
+      "objectiveId": "OF10",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "La semaine prochaine, nous ferons l’inventaire du matériel. Voulez-vous vous assurer que vos employés vérifient si le matériel qui nous manque ne se trouve pas dans leur bureau ou dans leur classeur? Pouvez-vous aussi faire une vérification dans les bureaux des absents? Selon le courriel, les employés :",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "devront vérifier dans leur bureau et leur classeur pour trouver le matériel qui manque."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "devront vérifier dans leur bureau et leur classeur pour trouver le matériel qui manque.",
+          "tag": "correct"
+        },
+        {
+          "value": "devront avertir leurs collègues absents du prochain inventaire.",
+          "tag": "d0"
+        },
+        {
+          "value": "devront récupérer le matériel qui manque.",
+          "tag": "d1"
+        },
+        {
+          "value": "devront vérifier le matériel qui manque.",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « devront vérifier dans leur bureau et leur classeur pour trouver le matériel qui manque. ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {
+          "d0": "« devront avertir leurs collègues absents du prochain inventaire. » ne complète pas correctement cet énoncé.",
+          "d1": "« devront récupérer le matériel qui manque. » ne complète pas correctement cet énoncé.",
+          "d2": "« devront vérifier le matériel qui manque. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/10-2005F, activité 70).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/10-2005F",
+        "activity": 70,
+        "concept": "present"
+      }
+    }
+  ]
+}

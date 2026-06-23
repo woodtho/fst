@@ -1876,9 +1876,9 @@
       }
     },
     {
-      "id": "itm_of1_src_a23_2",
+      "id": "itm_of1_src_a23_1",
       "objectiveId": "OF1",
-      "skill": "writing",
+      "skill": "grammar",
       "grammarConcepts": [
         "present"
       ],
@@ -1887,29 +1887,40 @@
       ],
       "theme": "personal_info",
       "difficulty": "medium",
-      "type": "fill_blank",
+      "type": "mcq_single",
       "status": "live",
       "estTimeSec": 30,
-      "irtB": 0,
+      "irtB": 0.1,
       "prompt": {
-        "fr": "– Finances. Good afternoon. – Monsieur Martineau, s’il vous plaît. – ___ – Philippe Desrochers. a.C’est de la part de qui? b.Est-ce que votre nom, c’est Jean-Guy Poirier?",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "fr": "– Allô, Jeannine? Comment ça va? – C’est Diane!",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
       },
       "answer": {
-        "type": "text",
+        "type": "choice",
         "accepted": [
-          "a"
+          "Qui parle?"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
-      "distractors": [],
+      "distractors": [
+        {
+          "value": "Qui parle?",
+          "tag": "correct"
+        },
+        {
+          "value": "Quel est votre nom?",
+          "tag": "d0"
+        }
+      ],
       "explanation": {
-        "correct_why": "La réponse attendue est « a ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
-        "distractor_why": {},
+        "correct_why": "La bonne réponse est « Qui parle? ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {
+          "d0": "« Quel est votre nom? » ne complète pas correctement cet énoncé."
+        },
         "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 23).",
         "common_mistakes": [
-          "se tromper de forme selon le contexte"
+          "choisir une formule qui ne convient pas au contexte"
         ]
       },
       "tip": {
@@ -1930,7 +1941,7 @@
     {
       "id": "itm_of1_src_a23_3",
       "objectiveId": "OF1",
-      "skill": "writing",
+      "skill": "grammar",
       "grammarConcepts": [
         "present"
       ],
@@ -1939,29 +1950,40 @@
       ],
       "theme": "personal_info",
       "difficulty": "medium",
-      "type": "fill_blank",
+      "type": "mcq_single",
       "status": "live",
       "estTimeSec": 30,
-      "irtB": 0,
+      "irtB": 0.1,
       "prompt": {
-        "fr": "– Allô? – ___ – Oui, c’est bien ça. a.Est-ce que c’est le bureau de monsieur Moussa? b.Qui parle?",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "fr": "– Allô? – ___ – Oui, c’est bien ça.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
       },
       "answer": {
-        "type": "text",
+        "type": "choice",
         "accepted": [
-          "a"
+          "Est-ce que c’est le bureau de monsieur Moussa?"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
-      "distractors": [],
+      "distractors": [
+        {
+          "value": "Est-ce que c’est le bureau de monsieur Moussa?",
+          "tag": "correct"
+        },
+        {
+          "value": "Qui parle?",
+          "tag": "d0"
+        }
+      ],
       "explanation": {
-        "correct_why": "La réponse attendue est « a ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
-        "distractor_why": {},
+        "correct_why": "La bonne réponse est « Est-ce que c’est le bureau de monsieur Moussa? ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {
+          "d0": "« Qui parle? » ne complète pas correctement cet énoncé."
+        },
         "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 23).",
         "common_mistakes": [
-          "se tromper de forme selon le contexte"
+          "choisir une formule qui ne convient pas au contexte"
         ]
       },
       "tip": {

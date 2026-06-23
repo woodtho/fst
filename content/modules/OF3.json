@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF3 — To express relationships of belonging. Source document SC102-2/3-2005F. Grammar taught: present, prepositions. Vocabulary: the OF3 section of the PFL2 Lexique. 46 questions, all traceable to the PFL2 source (0 verbatim source activities + 46 from the OF3 Lexique).",
+        "en": "OF3 — To express relationships of belonging. Source document SC102-2/3-2005F. Grammar taught: present, prepositions. Vocabulary: the OF3 section of the PFL2 Lexique. 47 questions, all traceable to the PFL2 source (1 verbatim source activities + 46 from the OF3 Lexique).",
         "fr": "Exprimer des relations d’appartenance. Document source SC102-2/3-2005F. Grammaire enseignée : present, prepositions. Vocabulaire : section OF3 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "46 questions, all traceable to the PFL2 source (0 verbatim source activities + 46 from the OF3 Lexique).",
+      "coverage": "47 questions, all traceable to the PFL2 source (1 verbatim source activities + 46 from the OF3 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 1
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 46
         }
       ],
-      "totalQuestions": 46
+      "totalQuestions": 47
     },
     "consolidation": {
       "sourceBooklet": {
@@ -65,7 +69,7 @@
       "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 4,
+        "medium": 5,
         "advanced": 0
       },
       "drawFrom": [

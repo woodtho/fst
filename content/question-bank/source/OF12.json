@@ -4,6 +4,258 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
+      "id": "itm_of12_src_a4_2",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Several corrections must be made.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Il faut faire plusieurs corrections."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Il faut faire plusieurs corrections.",
+          "tag": "correct"
+        },
+        {
+          "value": "Il faut faire quelques corrections.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Il faut faire plusieurs corrections. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {
+          "d0": "« Il faut faire quelques corrections. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 4).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 4,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a4_5",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "We must make a few photocopies.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "On doit faire quelques photocopies."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "On doit faire quelques photocopies.",
+          "tag": "correct"
+        },
+        {
+          "value": "On doit faire des photocopies en grande quantité.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « On doit faire quelques photocopies. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {
+          "d0": "« On doit faire des photocopies en grande quantité. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 4).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 4,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a4_6",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "I have signed some of them.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "J’en ai signé quelques-unes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "J’en ai signé quelques-unes.",
+          "tag": "correct"
+        },
+        {
+          "value": "J’ai signé la plupart.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « J’en ai signé quelques-unes. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {
+          "d0": "« J’ai signé la plupart. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 4).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 4,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a4_9",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "We must order a lot of material.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "On doit commander bien du matériel."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "On doit commander bien du matériel.",
+          "tag": "correct"
+        },
+        {
+          "value": "On doit commander du matériel.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « On doit commander bien du matériel. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {
+          "d0": "« On doit commander du matériel. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 4).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 4,
+        "concept": "quantity"
+      }
+    },
+    {
       "id": "itm_of12_src_a7_2",
       "objectiveId": "OF12",
       "skill": "writing",
@@ -364,6 +616,298 @@
         "verbatim": true,
         "catalogue": "SC102-2/12-2005F",
         "activity": 7,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a23_1",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "À qui ce courriel est-il distribué?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "À toutes ces personnes."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "À toutes ces personnes.",
+          "tag": "correct"
+        },
+        {
+          "value": "Aux étudiants.",
+          "tag": "d0"
+        },
+        {
+          "value": "Aux professeurs.",
+          "tag": "d1"
+        },
+        {
+          "value": "À Aurèle St-Jean.",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « À toutes ces personnes. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {
+          "d0": "« Aux étudiants. » ne complète pas correctement cet énoncé.",
+          "d1": "« Aux professeurs. » ne complète pas correctement cet énoncé.",
+          "d2": "« À Aurèle St-Jean. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 23).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 23,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a23_2",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Est-ce qu’il y a des plaintes?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Il y en a plusieurs."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Il y en a plusieurs.",
+          "tag": "correct"
+        },
+        {
+          "value": "Oui, il y en a quelques-unes.",
+          "tag": "d0"
+        },
+        {
+          "value": "Il n’y en a aucune.",
+          "tag": "d1"
+        },
+        {
+          "value": "Il y en a peu.",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Il y en a plusieurs. ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {
+          "d0": "« Oui, il y en a quelques-unes. » ne complète pas correctement cet énoncé.",
+          "d1": "« Il n’y en a aucune. » ne complète pas correctement cet énoncé.",
+          "d2": "« Il y en a peu. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 23).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 23,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a23_3",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Comme solution, on propose :",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "de mettre ses objets personnels dans un casier ou dans un classeur verrouillé;"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "de mettre ses objets personnels dans un casier ou dans un classeur verrouillé;",
+          "tag": "correct"
+        },
+        {
+          "value": "de rapporter ses objets personnels à la maison;",
+          "tag": "d0"
+        },
+        {
+          "value": "de verrouiller les salles de classe avant de partir;",
+          "tag": "d1"
+        },
+        {
+          "value": "d’installer d’autres casiers.",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « de mettre ses objets personnels dans un casier ou dans un classeur verrouillé; ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {
+          "d0": "« de rapporter ses objets personnels à la maison; » ne complète pas correctement cet énoncé.",
+          "d1": "« de verrouiller les salles de classe avant de partir; » ne complète pas correctement cet énoncé.",
+          "d2": "« d’installer d’autres casiers. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 23).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 23,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a23_4",
+      "objectiveId": "OF12",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "En cas de vol, on doit :",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "en informer par écrit l’agent des services administratifs;"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "en informer par écrit l’agent des services administratifs;",
+          "tag": "correct"
+        },
+        {
+          "value": "aviser le commissionnaire;",
+          "tag": "d0"
+        },
+        {
+          "value": "téléphoner à Jean Dubuis;",
+          "tag": "d1"
+        },
+        {
+          "value": "contacter le chef, au 993-0180.",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « en informer par écrit l’agent des services administratifs; ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {
+          "d0": "« aviser le commissionnaire; » ne complète pas correctement cet énoncé.",
+          "d1": "« téléphoner à Jean Dubuis; » ne complète pas correctement cet énoncé.",
+          "d2": "« contacter le chef, au 993-0180. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 23).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 23,
         "concept": "quantity"
       }
     }

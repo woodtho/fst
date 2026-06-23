@@ -60,6 +60,19 @@ function splitNumbered(line: string): Record<number, string> {
   while ((m = re.exec(line))) out[parseInt(m[1], 10)] = m[2].trim();
   return out;
 }
+// Parse a "choose a/b/c" item: split the stem from the labelled options (a.… b.… c.…).
+function parseOptions(text: string): { stem: string; opts: Record<string, string> } {
+  let aIdx = -1;
+  // lookbehind on space/start avoids false matches inside accented words (e.g. the "a." in "ça.")
+  const re = /(?<=\s|^)a\.\s*\S/g; let mm: RegExpExecArray | null;
+  while ((mm = re.exec(text))) { if (/(?<=\s)b\.\s*\S/.test(text.slice(mm.index))) { aIdx = mm.index; break; } }
+  if (aIdx < 0) return { stem: text, opts: {} };
+  const stem = text.slice(0, aIdx).replace(/[–-]\s*[a-e](?=\s|$)/g, " ").replace(/_{2,}/g, "___").replace(/\s+/g, " ").trim();
+  const opts: Record<string, string> = {};
+  const ore = /([a-e])\.\s*(.+?)(?=\s+[a-e]\.|$)/g; let o: RegExpExecArray | null;
+  while ((o = ore.exec(text.slice(aIdx)))) opts[o[1].toLowerCase()] = o[2].trim();
+  return { stem, opts };
+}
 // the instruction is the "ff …" line just before the activity's numbered block
 function activityInstruction(lines: string[], act: number): string {
   const re = new RegExp(`ACTIVIT[ÉE]\\s+${act}\\b`);
@@ -108,7 +121,7 @@ function inferConcept(instruction: string, ofConcepts: string[]): { concept: str
 }
 
 // English text bleeds in from the bilingual source layout — reject it.
-const ENGLISH = /\b(the|what|is|are|this|these|your|you|how|please|name|with|office|pencil|stapler|supplies|aren't|it's|here|there)\b/i;
+const ENGLISH = /\b(the|what|is|are|this|these|your|you|how|please|name|with|office|pencil|stapler|supplies|aren't|it's|here|there|good|afternoon|morning|hello|thank|thanks|welcome|sorry|goodbye|yes|day|week|my)\b/i;
 // answer must be a short word/phrase (skip full-sentence transforms, blanks, page noise, English)
 const goodAnswer = (a: string) =>
   a.length >= 1 && a.length <= 24 && !/_{2,}/.test(a) && !/^\d+$/.test(a) && !ENGLISH.test(a) &&
@@ -147,13 +160,49 @@ for (let of = 1; of <= 40; of++) {
   for (const act of [...acts].sort((x, y) => x - y)) {
     const block = activityBlock(lines, act), key = corrigeBlock(lines, act);
     if (!block || !key) continue;
-    if ((block.match(/_{2,}/g) || []).length < 2) continue; // not a fill-blank activity
     const sents = splitNumbered(block), keys = splitNumbered(key);
     const instruction = activityInstruction(lines, act);
     const { concept, tenseLabel } = inferConcept(instruction, obj?.grammarConcepts ?? []);
     const lib = library[concept] ?? {};
     const ruleFr = (lib.rules && lib.rules[0]) || lib.summaryFr || "Point de grammaire du programme PFL2.";
+    const tip = lib.items?.[0]?.tip ?? { memory_aid: "Relisez la règle de l'objectif.", pattern: "Appliquez le point de grammaire de l'OF.", similar: [] };
+    const sourceNote = `Exercice authentique du programme PFL2 (${obj?.source?.catalogue ?? id}, activité ${act}).`;
+    const newItemId = (num: number) => `itm_${id.toLowerCase()}_src_a${act}_${num}`;
 
+    const keyVals = Object.values(keys);
+    const letterKey = keyVals.length >= 2 && keyVals.every((v) => /^[a-e]$/i.test(v.trim()));
+    const embedded = /\sa\.\s*\S/.test(block) && /\sb\.\s*\S/.test(block);
+
+    if (letterKey && embedded) {
+      // ---- CHOOSE a/b/c multiple-choice ----
+      for (const numStr of Object.keys(sents)) {
+        const num = +numStr;
+        const { stem, opts } = parseOptions(sents[num]);
+        const strip = (v: string) => (v || "").replace(/^[a-e]\.\s*/, "").trim();
+        const letter = (keys[num] || "").toLowerCase();
+        const correct = strip(opts[letter]);
+        const optList = Object.values(opts).map(strip).filter((v) => v && v.length <= 90 && !ENGLISH.test(v));
+        if (!correct || ENGLISH.test(correct) || optList.length < 2 || stem.length < 6 || ENGLISH.test(stem)) continue;
+        const others = optList.filter((v) => v !== correct).slice(0, 3);
+        if (!others.length) continue;
+        const dWhy: Record<string, string> = {};
+        others.forEach((o, i) => { dWhy[`d${i}`] = `« ${o} » ne complète pas correctement cet énoncé.`; });
+        items.push({
+          id: newItemId(num), objectiveId: id, skill: "grammar", grammarConcepts: [concept],
+          vocabDomains: obj?.vocabDomains ?? [], theme: obj?.themes?.[0] ?? "workplace",
+          difficulty: "medium", type: "mcq_single", status: "live", estTimeSec: 30, irtB: 0.1,
+          prompt: { fr: stem, instructions_en: "Choose the option that correctly completes it. (verbatim PFL2 source exercise)" },
+          answer: { type: "choice", accepted: [correct], normalizer: "fr_accent_insensitive_trim_lower" },
+          distractors: [{ value: correct, tag: "correct" }, ...others.map((o, i) => ({ value: o, tag: `d${i}` }))],
+          explanation: { correct_why: `La bonne réponse est « ${correct} ». ${ruleFr}`, distractor_why: dWhy, grammar_rule: ruleFr, vocab_notes: sourceNote, common_mistakes: ["choisir une formule qui ne convient pas au contexte"] },
+          tip, source: { verbatim: true, catalogue: obj?.source?.catalogue, activity: act, concept },
+        });
+      }
+      continue;
+    }
+
+    // ---- FILL-IN-THE-BLANK ----
+    if ((block.match(/_{2,}/g) || []).length < 2) continue;
     for (const numStr of Object.keys(sents)) {
       const num = +numStr;
       const sentence = sents[num];
@@ -161,29 +210,22 @@ for (let of = 1; of <= 40; of++) {
       const ans = keys[num];
       if (!ans || !goodAnswer(ans)) continue;
       const prompt = sentence.replace(/_{2,}/g, "___").replace(/\s+/g, " ").trim();
-      if (prompt.length < 6 || !cleanPrompt(prompt)) continue;        // single blank, no English
+      if (prompt.length < 6 || !cleanPrompt(prompt)) continue;
       const accepted = ans.split(/\s*[,/]\s*/).map((x) => x.trim()).filter(goodAnswer);
       if (!accepted.length) continue;
       const inf = (sentence.match(/\(([a-zàâçéèêëîïôûùüÿœ' ]+?)\)/i) || [])[1] || null;
       const correct_why = inf
         ? `${tenseLabel || "Forme attendue"} : « ${inf.trim()} » donne « ${accepted[0]} » avec ce sujet.`
         : `La réponse attendue est « ${accepted[0]} ». ${ruleFr}`;
-
       items.push({
-        id: `itm_${id.toLowerCase()}_src_a${act}_${num}`,
-        objectiveId: id, skill: "writing", grammarConcepts: [concept],
+        id: newItemId(num), objectiveId: id, skill: "writing", grammarConcepts: [concept],
         vocabDomains: obj?.vocabDomains ?? [], theme: obj?.themes?.[0] ?? "workplace",
         difficulty: "medium", type: "fill_blank", status: "live", estTimeSec: 30, irtB: 0,
         prompt: { fr: prompt, instructions_en: "Complete the blank (verbatim PFL2 source exercise)." },
         answer: { type: "text", accepted: Array.from(new Set(accepted)), normalizer: "fr_accent_insensitive_trim_lower" },
         distractors: [],
-        explanation: {
-          correct_why, distractor_why: {}, grammar_rule: ruleFr,
-          vocab_notes: `Exercice authentique du programme PFL2 (${obj?.source?.catalogue ?? id}, activité ${act}).`,
-          common_mistakes: ["se tromper de forme selon le contexte"],
-        },
-        tip: lib.items?.[0]?.tip ?? { memory_aid: "Relisez la règle de l'objectif.", pattern: "Appliquez le point de grammaire de l'OF.", similar: [] },
-        source: { verbatim: true, catalogue: obj?.source?.catalogue, activity: act, concept },
+        explanation: { correct_why, distractor_why: {}, grammar_rule: ruleFr, vocab_notes: sourceNote, common_mistakes: ["se tromper de forme selon le contexte"] },
+        tip, source: { verbatim: true, catalogue: obj?.source?.catalogue, activity: act, concept },
       });
     }
   }

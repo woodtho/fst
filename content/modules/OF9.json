@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF9 — To situate an event in time: past, present, future. Source document SC102-2/9-2005F. Grammar taught: passe_compose, imparfait, futur_proche, futur_simple. Vocabulary: the OF9 section of the PFL2 Lexique. 78 questions, all traceable to the PFL2 source (12 verbatim source activities + 66 from the OF9 Lexique).",
+        "en": "OF9 — To situate an event in time: past, present, future. Source document SC102-2/9-2005F. Grammar taught: passe_compose, imparfait, futur_proche, futur_simple. Vocabulary: the OF9 section of the PFL2 Lexique. 79 questions, all traceable to the PFL2 source (13 verbatim source activities + 66 from the OF9 Lexique).",
         "fr": "Situer un événement dans le temps : passé, présent, futur. Document source SC102-2/9-2005F. Grammaire enseignée : passe_compose, imparfait, futur_proche, futur_simple. Vocabulaire : section OF9 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,18 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "78 questions, all traceable to the PFL2 source (12 verbatim source activities + 66 from the OF9 Lexique).",
+      "coverage": "79 questions, all traceable to the PFL2 source (13 verbatim source activities + 66 from the OF9 Lexique).",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 12
+          "count": 13
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 66
         }
       ],
-      "totalQuestions": 78
+      "totalQuestions": 79
     },
     "consolidation": {
       "sourceBooklet": {

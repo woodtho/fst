@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF4 — To express ownership. Source document SC102-2/4-2005F. Grammar taught: present, possessives, adjectives. Vocabulary: the OF4 section of the PFL2 Lexique. 59 questions, all traceable to the PFL2 source (0 verbatim source activities + 59 from the OF4 Lexique).",
+        "en": "OF4 — To express ownership. Source document SC102-2/4-2005F. Grammar taught: present, possessives, adjectives. Vocabulary: the OF4 section of the PFL2 Lexique. 60 questions, all traceable to the PFL2 source (1 verbatim source activities + 59 from the OF4 Lexique).",
         "fr": "Exprimer des relations de possession. Document source SC102-2/4-2005F. Grammaire enseignée : present, possessives, adjectives. Vocabulaire : section OF4 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "59 questions, all traceable to the PFL2 source (0 verbatim source activities + 59 from the OF4 Lexique).",
+      "coverage": "60 questions, all traceable to the PFL2 source (1 verbatim source activities + 59 from the OF4 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 1
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 59
         }
       ],
-      "totalQuestions": 59
+      "totalQuestions": 60
     },
     "consolidation": {
       "sourceBooklet": {
@@ -65,7 +69,7 @@
       "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 5,
+        "medium": 6,
         "advanced": 0
       },
       "drawFrom": [

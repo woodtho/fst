@@ -1,0 +1,71 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF4",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of4_src_a27_6",
+      "objectiveId": "OF4",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info",
+        "workplace"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "I have yours.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "J’ai le vôtre. ab"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "J’ai le vôtre. ab",
+          "tag": "correct"
+        },
+        {
+          "value": "J’ai le nôtre.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « J’ai le vôtre. ab ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {
+          "d0": "« J’ai le nôtre. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/4-2005F, activité 27).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/4-2005F",
+        "activity": 27,
+        "concept": "present"
+      }
+    }
+  ]
+}

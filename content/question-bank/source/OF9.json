@@ -638,6 +638,75 @@
         "activity": 7,
         "concept": "passe_compose"
       }
+    },
+    {
+      "id": "itm_of9_src_a17_11",
+      "objectiveId": "OF9",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "inviter Jean-Louis",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "à faire"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "à faire",
+          "tag": "correct"
+        },
+        {
+          "value": "fait  Ce qui est",
+          "tag": "d0"
+        },
+        {
+          "value": "en train de se faire",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « à faire ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {
+          "d0": "« fait  Ce qui est » ne complète pas correctement cet énoncé.",
+          "d1": "« en train de se faire » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 17).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 17,
+        "concept": "passe_compose"
+      }
     }
   ]
 }

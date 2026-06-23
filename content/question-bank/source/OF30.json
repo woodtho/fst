@@ -1,0 +1,485 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF30",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of30_src_a46_1",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Le comité de gestion a approuvé la proposition d’effectuer un sondage auprès de tous les employés. Le sondage devra avoir lieu au début de l’an prochain. Cependant, le comité se réserve le droit de retirer son autorisation si la préparation du sondage dépasse le budget prévu.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Le comité permet qu’on fasse un sondage auprès des employés. abc "
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Le comité permet qu’on fasse un sondage auprès des employés. abc ",
+          "tag": "correct"
+        },
+        {
+          "value": "Le comité a autorisé le sondage sans condition.",
+          "tag": "d0"
+        },
+        {
+          "value": "Le comité va retirer son autorisation.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Le comité permet qu’on fasse un sondage auprès des employés. abc  ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« Le comité a autorisé le sondage sans condition. » ne complète pas correctement cet énoncé.",
+          "d1": "« Le comité va retirer son autorisation. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 46).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 46,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a46_2",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Madame Taviani, à qui je me suis permis d’exposer nos projets, a bien voulu les approuver et nous autoriser à vous les soumettre.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Madame Taviani a approuvé nos projets."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Madame Taviani a approuvé nos projets.",
+          "tag": "correct"
+        },
+        {
+          "value": "Madame Taviani nous a permis d’exposer nos projets.",
+          "tag": "d0"
+        },
+        {
+          "value": "Madame Taviani va approuver nos projets. abc",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Madame Taviani a approuvé nos projets. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« Madame Taviani nous a permis d’exposer nos projets. » ne complète pas correctement cet énoncé.",
+          "d1": "« Madame Taviani va approuver nos projets. abc » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 46).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 46,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a46_3",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Je me permets de signaler qu’une telle autorisation ne saurait être accordée qu’à titre exceptionnel et à des fins expérimentales. C’est pourquoi le Conseil se réserve le privilège de l’annuler si les circonstances l’exigeaient.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Le Conseil accorde son autorisation."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Le Conseil accorde son autorisation.",
+          "tag": "correct"
+        },
+        {
+          "value": "Le Conseil refuse d’accorder son autorisation.",
+          "tag": "d0"
+        },
+        {
+          "value": "Le Conseil accorde son autorisation sans condition. abc",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Le Conseil accorde son autorisation. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« Le Conseil refuse d’accorder son autorisation. » ne complète pas correctement cet énoncé.",
+          "d1": "« Le Conseil accorde son autorisation sans condition. abc » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 46).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 46,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a46_4",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Si vous avez travaillé pour l’un des employeurs susnommés, vous êtes autorisé à transférer à votre régime de retraite les crédits de pension que vous avez accumulés chez l’employeur en question.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "L’employé a le droit de transférer ses crédits de pension accumulés. abc abc"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "L’employé a le droit de transférer ses crédits de pension accumulés. abc abc",
+          "tag": "correct"
+        },
+        {
+          "value": "L’employé peut accumuler ses crédits de pension.",
+          "tag": "d0"
+        },
+        {
+          "value": "Il est interdit de transférer ses crédits de pension d’un employeur à l’autre.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « L’employé a le droit de transférer ses crédits de pension accumulés. abc abc ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« L’employé peut accumuler ses crédits de pension. » ne complète pas correctement cet énoncé.",
+          "d1": "« Il est interdit de transférer ses crédits de pension d’un employeur à l’autre. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 46).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 46,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a46_5",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Afin d’éviter de surcharger notre réseau, vous êtes priés de ne pas demander de renseignements par courriel. Vous pouvez en revanche nous téléphoner.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Il est défendu de demander des renseignements par courriel."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Il est défendu de demander des renseignements par courriel.",
+          "tag": "correct"
+        },
+        {
+          "value": "Il est permis de faire ses demandes par courriel en tout temps.",
+          "tag": "d0"
+        },
+        {
+          "value": "Il est strictement interdit de téléphoner pour demander des renseignements. abc",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Il est défendu de demander des renseignements par courriel. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« Il est permis de faire ses demandes par courriel en tout temps. » ne complète pas correctement cet énoncé.",
+          "d1": "« Il est strictement interdit de téléphoner pour demander des renseignements. abc » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 46).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 46,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a46_6",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Les demandes de congé annuel ou de congé de maladie qui auraient été refusées pendant cette période seront étudiées à nouveau pourvu que l’employé en fasse la demande.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "On n’a pas permis à certains employés de prendre les congés demandés."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "On n’a pas permis à certains employés de prendre les congés demandés.",
+          "tag": "correct"
+        },
+        {
+          "value": "On a refusé tous les congés demandés.",
+          "tag": "d0"
+        },
+        {
+          "value": "On ne permettra pas aux employés de faire une nouvelle demande de congé. abc",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « On n’a pas permis à certains employés de prendre les congés demandés. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« On a refusé tous les congés demandés. » ne complète pas correctement cet énoncé.",
+          "d1": "« On ne permettra pas aux employés de faire une nouvelle demande de congé. abc » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 46).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 46,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of30_src_a46_7",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Dans l’exercice de leurs charges officielles, les fonctionnaires ne doivent pas accorder de traitement de faveur ni à leurs parents ou à leurs amis, ni à des organismes dans lesquels leurs parents ou leurs amis ont des intérêts financiers ou autres.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Il est défendu aux fonctionnaires d’accorder des traitements de faveur."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Il est défendu aux fonctionnaires d’accorder des traitements de faveur.",
+          "tag": "correct"
+        },
+        {
+          "value": "Les fonctionnaires peuvent accorder des traitements de faveur aux organismes.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Il est défendu aux fonctionnaires d’accorder des traitements de faveur. ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« Les fonctionnaires peuvent accorder des traitements de faveur aux organismes. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/30-2005F, activité 46).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/30-2005F",
+        "activity": 46,
+        "concept": "subjonctif"
+      }
+    }
+  ]
+}

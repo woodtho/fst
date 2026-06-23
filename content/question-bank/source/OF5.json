@@ -1,0 +1,1387 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF5",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of5_src_a43_1",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Où est située la tour du CN à Toronto?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Au coeur de Toronto."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Au coeur de Toronto.",
+          "tag": "correct"
+        },
+        {
+          "value": "À l’angle des rues Spadina et Queen.",
+          "tag": "d0"
+        },
+        {
+          "value": "Près du zoo métropolitain de Toronto.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Au coeur de Toronto. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« À l’angle des rues Spadina et Queen. » ne complète pas correctement cet énoncé.",
+          "d1": "« Près du zoo métropolitain de Toronto. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_2",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sur quel continent est le Sahara?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "En Afrique."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "En Afrique.",
+          "tag": "correct"
+        },
+        {
+          "value": "En Australie.",
+          "tag": "d0"
+        },
+        {
+          "value": "En Amérique.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « En Afrique. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« En Australie. » ne complète pas correctement cet énoncé.",
+          "d1": "« En Amérique. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_3",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Où a lieu le Stampede?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "À Calgary."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "À Calgary.",
+          "tag": "correct"
+        },
+        {
+          "value": "Près d’Edmonton.",
+          "tag": "d0"
+        },
+        {
+          "value": "Dans le parc de Banff.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « À Calgary. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Près d’Edmonton. » ne complète pas correctement cet énoncé.",
+          "d1": "« Dans le parc de Banff. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_4",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Dans quel pays le Palais de Westminster se trouve-t-il?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "En Angleterre."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "En Angleterre.",
+          "tag": "correct"
+        },
+        {
+          "value": "Au pays de Galles.",
+          "tag": "d0"
+        },
+        {
+          "value": "En Écosse.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « En Angleterre. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Au pays de Galles. » ne complète pas correctement cet énoncé.",
+          "d1": "« En Écosse. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_5",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "La chute Montmorency, où est-ce?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Au Québec."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Au Québec.",
+          "tag": "correct"
+        },
+        {
+          "value": "Sur la rivière des Outaouais.",
+          "tag": "d0"
+        },
+        {
+          "value": "En Alberta.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Au Québec. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Sur la rivière des Outaouais. » ne complète pas correctement cet énoncé.",
+          "d1": "« En Alberta. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_6",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Dans quelle ville est la Maison Blanche?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "À Washington."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "À Washington.",
+          "tag": "correct"
+        },
+        {
+          "value": "À New York.",
+          "tag": "d0"
+        },
+        {
+          "value": "À Londres.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « À Washington. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« À New York. » ne complète pas correctement cet énoncé.",
+          "d1": "« À Londres. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_7",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Je cherche Lisbonne sur la carte. Pouvez-vous me dire dans quel pays c’est?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "C’est au Portugal."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "C’est au Portugal.",
+          "tag": "correct"
+        },
+        {
+          "value": "C’est en Espagne.",
+          "tag": "d0"
+        },
+        {
+          "value": "C’est en Italie.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « C’est au Portugal. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« C’est en Espagne. » ne complète pas correctement cet énoncé.",
+          "d1": "« C’est en Italie. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_8",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "À quel endroit trouve-t-on les seuls vestiges d’établissements vikings au Canada?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "À Terre-Neuve."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "À Terre-Neuve.",
+          "tag": "correct"
+        },
+        {
+          "value": "Sur la côte nord du Québec.",
+          "tag": "d0"
+        },
+        {
+          "value": "Près de Tadoussac.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « À Terre-Neuve. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Sur la côte nord du Québec. » ne complète pas correctement cet énoncé.",
+          "d1": "« Près de Tadoussac. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_9",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Dans quel pays est-ce qu’il y a des kangourous?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "En Australie."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "En Australie.",
+          "tag": "correct"
+        },
+        {
+          "value": "En Inde.",
+          "tag": "d0"
+        },
+        {
+          "value": "Au Mexique.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « En Australie. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« En Inde. » ne complète pas correctement cet énoncé.",
+          "d1": "« Au Mexique. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_10",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Où se trouve la baie de Malpèque?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "À l’Île-du-Prince-Édouard."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "À l’Île-du-Prince-Édouard.",
+          "tag": "correct"
+        },
+        {
+          "value": "À Terre-Neuve.",
+          "tag": "d0"
+        },
+        {
+          "value": "En Nouvelle-Écosse.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « À l’Île-du-Prince-Édouard. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« À Terre-Neuve. » ne complète pas correctement cet énoncé.",
+          "d1": "« En Nouvelle-Écosse. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_11",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Vous êtes à Toronto. Quelqu’un vous demande : « C’est ici la Cour suprême du Canada? » Que répondez-vous?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Non, ce n’est pas ici, c’est à Ottawa."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Non, ce n’est pas ici, c’est à Ottawa.",
+          "tag": "correct"
+        },
+        {
+          "value": "Non, c’est à Vancouver.",
+          "tag": "d0"
+        },
+        {
+          "value": "Oui, c’est ici.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Non, ce n’est pas ici, c’est à Ottawa. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Non, c’est à Vancouver. » ne complète pas correctement cet énoncé.",
+          "d1": "« Oui, c’est ici. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_12",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Où sont situées les îles de la ReineCharlotte?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Au large de la côte de la Colombie- Britannique."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Au large de la côte de la Colombie- Britannique.",
+          "tag": "correct"
+        },
+        {
+          "value": "Le long de la côte de l’Alaska.",
+          "tag": "d0"
+        },
+        {
+          "value": "Près de la côte est du Canada.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Au large de la côte de la Colombie- Britannique. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Le long de la côte de l’Alaska. » ne complète pas correctement cet énoncé.",
+          "d1": "« Près de la côte est du Canada. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_13",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sur quel continent se trouve le Pérou?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "En Amérique (du Sud)."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "En Amérique (du Sud).",
+          "tag": "correct"
+        },
+        {
+          "value": "En Asie.",
+          "tag": "d0"
+        },
+        {
+          "value": "En Afrique.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « En Amérique (du Sud). ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« En Asie. » ne complète pas correctement cet énoncé.",
+          "d1": "« En Afrique. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_14",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "La forteresse de Louisbourg, c’est dans quelle province?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "En Nouvelle-Écosse."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "En Nouvelle-Écosse.",
+          "tag": "correct"
+        },
+        {
+          "value": "À Terre-Neuve.",
+          "tag": "d0"
+        },
+        {
+          "value": "Au Nouveau-Brunswick.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « En Nouvelle-Écosse. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« À Terre-Neuve. » ne complète pas correctement cet énoncé.",
+          "d1": "« Au Nouveau-Brunswick. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_15",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Où coule le fleuve Mackenzie?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Dans les Territoires du Nord-Ouest."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Dans les Territoires du Nord-Ouest.",
+          "tag": "correct"
+        },
+        {
+          "value": "Au Yukon.",
+          "tag": "d0"
+        },
+        {
+          "value": "En Colombie-Britannique.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Dans les Territoires du Nord-Ouest. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Au Yukon. » ne complète pas correctement cet énoncé.",
+          "d1": "« En Colombie-Britannique. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_16",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Dans quelle province trouve-t-on le lac Winnipegosis?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "C’est au Manitoba."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "C’est au Manitoba.",
+          "tag": "correct"
+        },
+        {
+          "value": "C’est en Saskatchewan.",
+          "tag": "d0"
+        },
+        {
+          "value": "C’est en Alberta.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « C’est au Manitoba. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« C’est en Saskatchewan. » ne complète pas correctement cet énoncé.",
+          "d1": "« C’est en Alberta. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_17",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sur quelle artère se trouve la résidence du premier ministre du Canada?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Sur la promenade Sussex."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Sur la promenade Sussex.",
+          "tag": "correct"
+        },
+        {
+          "value": "Sur la rue Wellington.",
+          "tag": "d0"
+        },
+        {
+          "value": "Sur la promenade Colonel By.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Sur la promenade Sussex. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Sur la rue Wellington. » ne complète pas correctement cet énoncé.",
+          "d1": "« Sur la promenade Colonel By. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_18",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Dans quelle province se trouve le village historique de Caraquet?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Au Nouveau-Brunswick."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Au Nouveau-Brunswick.",
+          "tag": "correct"
+        },
+        {
+          "value": "À l’Île-du-Prince-Édouard.",
+          "tag": "d0"
+        },
+        {
+          "value": "Au Québec.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Au Nouveau-Brunswick. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« À l’Île-du-Prince-Édouard. » ne complète pas correctement cet énoncé.",
+          "d1": "« Au Québec. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_19",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Où est situé le mont Logan?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Au Yukon."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Au Yukon.",
+          "tag": "correct"
+        },
+        {
+          "value": "Entre l’Alberta et la ColombieBritannique.",
+          "tag": "d0"
+        },
+        {
+          "value": "En Orégon.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Au Yukon. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Entre l’Alberta et la ColombieBritannique. » ne complète pas correctement cet énoncé.",
+          "d1": "« En Orégon. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    },
+    {
+      "id": "itm_of5_src_a43_20",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "location"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Où est née Louis Riel?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Près de Winnipeg."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Près de Winnipeg.",
+          "tag": "correct"
+        },
+        {
+          "value": "Dans l’île du Prince-de-Galles.",
+          "tag": "d0"
+        },
+        {
+          "value": "À Vancouver.",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Près de Winnipeg. ». Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "distractor_why": {
+          "d0": "« Dans l’île du Prince-de-Galles. » ne complète pas correctement cet énoncé.",
+          "d1": "« À Vancouver. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/5-2005F, activité 43).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il y a = there is/are.",
+        "pattern": "Il y a + nom (singulier ou pluriel).",
+        "similar": [
+          "Il y a un téléphone.",
+          "Il y a des dossiers."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/5-2005F",
+        "activity": 43,
+        "concept": "location"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1465 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF28",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of28_src_a3_1",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : obligation Il est",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "essentiel"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "essentiel",
+          "tag": "correct"
+        },
+        {
+          "value": "souhaitable",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « essentiel ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« souhaitable » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_2",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : nécessité C’est",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "nécessaire"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "nécessaire",
+          "tag": "correct"
+        },
+        {
+          "value": "amusant",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « nécessaire ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« amusant » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_3",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : désirabilité Il serait",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "bon"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "bon",
+          "tag": "correct"
+        },
+        {
+          "value": "nécessaire",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « bon ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« nécessaire » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_4",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : obligation Il",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "faut"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "faut",
+          "tag": "correct"
+        },
+        {
+          "value": "vaudrait mieux",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « faut ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« vaudrait mieux » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_5",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : nécessité Nous",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avons besoin"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avons besoin",
+          "tag": "correct"
+        },
+        {
+          "value": "serions mieux",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « avons besoin ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« serions mieux » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_6",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : désirabilité Des qualités",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "souhaitables"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "souhaitables",
+          "tag": "correct"
+        },
+        {
+          "value": "essentielles",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « souhaitables ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« essentielles » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_7",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : obligation Par",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "devoir"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "devoir",
+          "tag": "correct"
+        },
+        {
+          "value": "plaisir",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « devoir ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« plaisir » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_8",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : nécessité Il serait",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "indispensable"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "indispensable",
+          "tag": "correct"
+        },
+        {
+          "value": "possible",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « indispensable ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« possible » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_9",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : désirabilité Ce serait",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "sage"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "sage",
+          "tag": "correct"
+        },
+        {
+          "value": "inutile ab ",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « sage ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« inutile ab  » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_10",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : obligation On",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "doit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "doit",
+          "tag": "correct"
+        },
+        {
+          "value": "souhaite",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « doit ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« souhaite » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_11",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : nécessité C’est",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "un besoin"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "un besoin",
+          "tag": "correct"
+        },
+        {
+          "value": "souhaitable",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « un besoin ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« souhaitable » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a3_12",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Sens recherché : désirabilité Il serait",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "souhaitable"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "souhaitable",
+          "tag": "correct"
+        },
+        {
+          "value": "essentiel",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « souhaitable ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« essentiel » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 3).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 3,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_1",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "C’est inutile trois évaluations.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "faire a"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "faire a",
+          "tag": "correct"
+        },
+        {
+          "value": "que tu fasses",
+          "tag": "d0"
+        },
+        {
+          "value": "de faire",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « faire a ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« que tu fasses » ne complète pas correctement cet énoncé.",
+          "d1": "« de faire » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_2",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Il vaudrait mieux cette directive.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "de suivre"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "de suivre",
+          "tag": "correct"
+        },
+        {
+          "value": "que nous suivions",
+          "tag": "d0"
+        },
+        {
+          "value": "suivre",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « de suivre ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« que nous suivions » ne complète pas correctement cet énoncé.",
+          "d1": "« suivre » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_3",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Ce serait bon semaines. une réunion toutes les deux",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "qu’on aille"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "qu’on aille",
+          "tag": "correct"
+        },
+        {
+          "value": "d’avoir",
+          "tag": "d0"
+        },
+        {
+          "value": "qu’on ait",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « qu’on aille ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« d’avoir » ne complète pas correctement cet énoncé.",
+          "d1": "« qu’on ait » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_4",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Il a fallu notre analyse de besoins avant quatre heures.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "de terminer"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "de terminer",
+          "tag": "correct"
+        },
+        {
+          "value": "terminer",
+          "tag": "d0"
+        },
+        {
+          "value": "qu’on termine",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « de terminer ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« terminer » ne complète pas correctement cet énoncé.",
+          "d1": "« qu’on termine » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_5",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Ce serait mieux à l’heure ce jour-là.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "être"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "être",
+          "tag": "correct"
+        },
+        {
+          "value": "d’être",
+          "tag": "d0"
+        },
+        {
+          "value": "que nous soyons",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « être ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« d’être » ne complète pas correctement cet énoncé.",
+          "d1": "« que nous soyons » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_6",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Il est maintenant obligatoire le logiciel Lunix. un cours sur",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "suivre"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "suivre",
+          "tag": "correct"
+        },
+        {
+          "value": "de suivre",
+          "tag": "d0"
+        },
+        {
+          "value": "qu’ils suivent",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « suivre ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« de suivre » ne complète pas correctement cet énoncé.",
+          "d1": "« qu’ils suivent » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_7",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Il est de la plus haute importance règlements. à ces",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "se conformer"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "se conformer",
+          "tag": "correct"
+        },
+        {
+          "value": "de se conformer",
+          "tag": "d0"
+        },
+        {
+          "value": "que nous nous conformions",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « se conformer ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« de se conformer » ne complète pas correctement cet énoncé.",
+          "d1": "« que nous nous conformions » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_8",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Il faudra ces textes dès lundi.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "de traduire"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "de traduire",
+          "tag": "correct"
+        },
+        {
+          "value": "traduire",
+          "tag": "d0"
+        },
+        {
+          "value": "que vous traduisiez",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « de traduire ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« traduire » ne complète pas correctement cet énoncé.",
+          "d1": "« que vous traduisiez » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_9",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Ce serait urgent cette loi.",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "amender"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "amender",
+          "tag": "correct"
+        },
+        {
+          "value": "qu’ils amendent",
+          "tag": "d0"
+        },
+        {
+          "value": "d’amender",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « amender ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« qu’ils amendent » ne complète pas correctement cet énoncé.",
+          "d1": "« d’amender » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    },
+    {
+      "id": "itm_of28_src_a15_10",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Est-ce que ce serait une perte de temps tout le matériel?",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "reclasser"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "reclasser",
+          "tag": "correct"
+        },
+        {
+          "value": "de reclasser",
+          "tag": "d0"
+        },
+        {
+          "value": "qu’on reclasse",
+          "tag": "d1"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « reclasser ». Trigger: il faut que, vouloir que, être content que, douter que…",
+        "distractor_why": {
+          "d0": "« de reclasser » ne complète pas correctement cet énoncé.",
+          "d1": "« qu’on reclasse » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Trigger: il faut que, vouloir que, être content que, douter que…",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/28-2005F, activité 15).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/28-2005F",
+        "activity": 15,
+        "concept": "subjonctif"
+      }
+    }
+  ]
+}

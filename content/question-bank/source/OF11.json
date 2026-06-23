@@ -1,0 +1,721 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF11",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of11_src_a13_1",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Pouvez-vous taper ça",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "d’une façon plus claire?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "d’une façon plus claire?",
+          "tag": "correct"
+        },
+        {
+          "value": "doucement?",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « d’une façon plus claire? ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« doucement? » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_2",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Écoutez mes directives",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "attentivement.."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "attentivement..",
+          "tag": "correct"
+        },
+        {
+          "value": "sans difficulté.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « attentivement.. ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« sans difficulté. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_3",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Quand vous avez un client francophone, il faut le servir",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "en français."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "en français.",
+          "tag": "correct"
+        },
+        {
+          "value": "globalement.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « en français. ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« globalement. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_4",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "On doit guider les visiteurs",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "d’une manière polie."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "d’une manière polie.",
+          "tag": "correct"
+        },
+        {
+          "value": "impoliment.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « d’une manière polie. ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« impoliment. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_5",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Écoute, fais ce travail",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "de ton mieux."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "de ton mieux.",
+          "tag": "correct"
+        },
+        {
+          "value": "d’une façon inefficace.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « de ton mieux. ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« d’une façon inefficace. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_6",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Je veux le compte rendu demain. Pourrais-tu le rédiger",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "rapidement?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "rapidement?",
+          "tag": "correct"
+        },
+        {
+          "value": "en rouge?",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « rapidement? ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« en rouge? » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_7",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Travaillez plus",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "soigneusement."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "soigneusement.",
+          "tag": "correct"
+        },
+        {
+          "value": "difficilement.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « soigneusement. ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« difficilement. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_8",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Il faut établir la liste des priorités",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          ""
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "",
+          "tag": "correct"
+        },
+        {
+          "value": "longuement.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est «  ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« longuement. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_9",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Veux-tu me transmettre les messages",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "directement?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "directement?",
+          "tag": "correct"
+        },
+        {
+          "value": "brusquement?",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « directement? ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« brusquement? » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a13_10",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Pour interviewer rapidement tous les candidats, il faut travailler",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "d’une manière efficace."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "d’une manière efficace.",
+          "tag": "correct"
+        },
+        {
+          "value": "en détail.",
+          "tag": "d0"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « d’une manière efficace. ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« en détail. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 13).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 13,
+        "concept": "adverbs_manner"
+      }
+    },
+    {
+      "id": "itm_of11_src_a28_5",
+      "objectiveId": "OF11",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "adverbs_manner"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Comment est-ce que je vais ajuster la porte? B",
+        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Prends les outils de Louis."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Prends les outils de Louis.",
+          "tag": "correct"
+        },
+        {
+          "value": "Par avion.",
+          "tag": "d0"
+        },
+        {
+          "value": "Vas-y par sujets.",
+          "tag": "d1"
+        },
+        {
+          "value": "En se servant de lettres modèles.",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "La bonne réponse est « Prends les outils de Louis. ». Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "distractor_why": {
+          "d0": "« Par avion. » ne complète pas correctement cet énoncé.",
+          "d1": "« Vas-y par sujets. » ne complète pas correctement cet énoncé.",
+          "d2": "« En se servant de lettres modèles. » ne complète pas correctement cet énoncé."
+        },
+        "grammar_rule": "Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/11-2005F, activité 28).",
+        "common_mistakes": [
+          "choisir une formule qui ne convient pas au contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Féminin + -ment.",
+        "pattern": "lente→lentement, douce→doucement.",
+        "similar": [
+          "rapidement",
+          "facilement",
+          "correctement"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/11-2005F",
+        "activity": 28,
+        "concept": "adverbs_manner"
+      }
+    }
+  ]
+}

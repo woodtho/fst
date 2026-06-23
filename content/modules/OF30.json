@@ -13,7 +13,7 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF30 — To permit or forbid something. Source document SC102-2/30-2005F. Grammar taught: subjonctif, pronouns. Vocabulary: the OF30 section of the PFL2 Lexique. 61 questions, all traceable to the PFL2 source (0 verbatim source activities + 61 from the OF30 Lexique).",
+        "en": "OF30 — To permit or forbid something. Source document SC102-2/30-2005F. Grammar taught: subjonctif, pronouns. Vocabulary: the OF30 section of the PFL2 Lexique. 68 questions, all traceable to the PFL2 source (7 verbatim source activities + 61 from the OF30 Lexique).",
         "fr": "Permettre ou interdire quelque chose. Document source SC102-2/30-2005F. Grammaire enseignée : subjonctif, pronouns. Vocabulaire : section OF30 du Lexique PFL2."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
@@ -30,14 +30,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "61 questions, all traceable to the PFL2 source (0 verbatim source activities + 61 from the OF30 Lexique).",
+      "coverage": "68 questions, all traceable to the PFL2 source (7 verbatim source activities + 61 from the OF30 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 7
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 61
         }
       ],
-      "totalQuestions": 61
+      "totalQuestions": 68
     },
     "consolidation": {
       "sourceBooklet": {
@@ -65,7 +69,7 @@
       "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 5,
+        "medium": 6,
         "advanced": 0
       },
       "drawFrom": [
