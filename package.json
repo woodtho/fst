@@ -10,6 +10,7 @@
     "start": "next start",
     "validate": "node --experimental-strip-types scripts/validate-content.ts",
     "lexicon:parse": "node --experimental-strip-types scripts/parse-lexicon.ts",
+    "extract:source": "node --experimental-strip-types scripts/extract-source-activities.ts",
     "build:modules": "node --experimental-strip-types scripts/build-modules.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev --name init",

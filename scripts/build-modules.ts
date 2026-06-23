@@ -122,9 +122,15 @@ for (const obj of curriculum.objectives) {
   const lex = read(`content/lexicon/by-of/${obj.id}.json`);
   const entries = vocabPool(obj.of);
   const items: any[] = [];
-  const counts = { vocab: 0, grammar: 0, conjugation: 0 };
+  const counts = { source: 0, vocab: 0, grammar: 0, conjugation: 0 };
   let n = 1;
   const newId = (tag: string) => `itm_${ofLower}_${tag}_${n++}`;
+
+  // 0. Verbatim source activities (extracted from the OF document, with its answer key)
+  const srcPath = join(ROOT, "content", "question-bank", "source", `${obj.id}.json`);
+  if (existsSync(srcPath)) {
+    for (const it of read(`content/question-bank/source/${obj.id}.json`).items) { items.push(it); counts.source++; }
+  }
 
   // 1. Vocabulary — French → English MCQ
   for (const e of entries) {
@@ -266,6 +272,7 @@ for (const obj of curriculum.objectives) {
       practice: {
         // Categories only (the bank has 100+ items; the practice runner samples randomly).
         exerciseSets: [
+          ...(counts.source ? [{ title: "Activités du programme PFL2 (sources)", count: counts.source }] : []),
           { title: "Vocabulaire (lexique source)", count: counts.vocab },
           ...(counts.grammar ? [{ title: "Grammaire", count: counts.grammar }] : []),
           ...(counts.conjugation ? [{ title: "Conjugaison", count: counts.conjugation }] : []),
