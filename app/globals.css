@@ -139,6 +139,19 @@ h3 { font-size: 1rem; margin: 18px 0 8px; }
 .build-area { min-height: 48px; border: 1.5px dashed var(--line); border-radius: 10px; padding: 8px; margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; }
 .build-area .token { border-style: solid; background: #eef3fb; border-color: var(--brand); }
 
+/* Lexicon game */
+.game-start .game-opt { margin: 14px 0; }
+.game-label { display: block; font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); margin-bottom: 6px; }
+.game-hud { display: flex; align-items: center; justify-content: space-between; font-size: 1rem; }
+.lives { color: var(--incorrect); font-size: 1.2rem; letter-spacing: 2px; }
+.lives-lost { color: var(--line); }
+.game-score strong { color: var(--brand); font-size: 1.1rem; }
+.game-streak { font-weight: 700; color: var(--muted); }
+.game-streak.hot { color: #c2410c; }
+.game-timer { height: 8px; background: var(--line); border-radius: 999px; overflow: hidden; margin: 10px 0 4px; }
+.game-timer > span { display: block; height: 100%; transition: width .1s linear; }
+.game-prompt { font-size: 1.9rem; font-weight: 700; text-align: center; margin: 6px 0 18px; color: var(--ink); }
+
 /* Lexicon tool */
 .lex-controls { display: flex; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
 .lex-controls .text-input { flex: 1 1 260px; }
