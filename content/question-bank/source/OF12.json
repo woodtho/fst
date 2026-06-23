@@ -1,0 +1,371 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF12",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of12_src_a7_2",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "On a envoyé deux ou trois copies du rapport à la directrice. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "quelques"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « quelques ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 7,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a7_3",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Dans cette brochure, 98 % des illustrations sont en couleur. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la plupart"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la plupart ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 7,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a7_4",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Dans notre travail, on utilise près de vingt livres de référence. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "plusieurs"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « plusieurs ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 7,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a7_5",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "L’Agence du revenu du Canada doit traiter environ 20 millions de déclarations d’impôt chaque année. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un très grand nombre"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un très grand nombre ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 7,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a7_6",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Dans notre ministère, environ 95 % des employés sont informés des nouvelles politiques. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la majorité"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la majorité ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 7,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a7_7",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Ce document ne contient aucune erreur. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "pas d’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « pas d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 7,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of12_src_a7_8",
+      "objectiveId": "OF12",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Notre service d’information répond à plus de deux mille demandes de renseignements par semaine. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "beaucoup de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « beaucoup de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/12-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/12-2005F",
+        "activity": 7,
+        "concept": "quantity"
+      }
+    }
+  ]
+}

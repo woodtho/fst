@@ -1,0 +1,61 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF22",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of22_src_a29_2",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Fais-tu tous les horaires des employés? ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Oui",
+          "je les fais tous."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Oui ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/22-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/22-2005F",
+        "activity": 29,
+        "concept": "quantity"
+      }
+    }
+  ]
+}

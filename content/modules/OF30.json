@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF30",
   "titleFr": "Permettre ou interdire quelque chose",
   "titleEn": "To permit or forbid something",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/30-2005F",
     "text": "sources/text/OF30.txt"
@@ -13,49 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF30 — To permit or forbid something. This objective develops the language needed to permit or forbid something in a Government of Canada workplace. Grammar focus: The present subjunctive, Pronouns. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Permettre ou interdire quelque chose. Objectif communicatif appuyé par : Le subjonctif présent, Les pronoms. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF30 — To permit or forbid something. Source document SC102-2/30-2005F. Grammar taught: subjonctif, pronouns. Vocabulary: the OF30 section of the PFL2 Lexique. 61 questions, all traceable to the PFL2 source (0 verbatim source activities + 61 from the OF30 Lexique).",
+        "fr": "Permettre ou interdire quelque chose. Document source SC102-2/30-2005F. Grammaire enseignée : subjonctif, pronouns. Vocabulaire : section OF30 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The present subjunctive, Pronouns.",
+        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif, pronouns.",
         "charts": [],
-        "points": [
-          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
-          "· Trigger: il faut que, vouloir que, être content que, douter que…",
-          "· Stem from ils-present (ils finissent → finiss-).",
-          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille.",
-          "Les pronoms (Pronouns) — Remplacent les noms : objets directs (le/la/les), indirects (lui/leur), y, en, relatifs (qui/que). Ils se placent avant le verbe conjugué.",
-          "· Direct objects: le, la, les, l’.",
-          "· Indirect (à + person): lui, leur. y = à + thing/place; en = de + thing.",
-          "· Relative: qui (subject), que (object)."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "61 questions, all traceable to the PFL2 source (0 verbatim source activities + 61 from the OF30 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 82
-        },
-        {
-          "title": "Grammaire",
-          "count": 16
-        },
-        {
-          "title": "Conjugaison",
-          "count": 12
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 61
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 61
     },
     "consolidation": {
       "sourceBooklet": {
@@ -67,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-3-2006F"
       },
-      "note": "Consolidation review for OF 23–32 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/23-32.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Permettre ou interdire quelque chose",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « permettre ou interdire quelque chose ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent, Les pronoms.",
-          "promptEn": "In a workplace context, practise the function \"To permit or forbid something\". Produce a short exchange (3–4 sentences) using: The present subjunctive, Pronouns.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 23–32) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -92,11 +62,11 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
-        "advanced": 4
+        "medium": 5,
+        "advanced": 0
       },
       "drawFrom": [
         "OF30"

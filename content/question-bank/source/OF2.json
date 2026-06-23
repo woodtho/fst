@@ -1,0 +1,2330 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF2",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of2_src_a3_3",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ est-ce que ça s’appelle, ça?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Comment"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Comment ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 3).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 3,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a13_7",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "J’aime ___ monument en face du musée.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « le ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 13).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 13,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a15_2",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "C’est ___ porte-monnaie de Marianne.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « le ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 15).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 15,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a15_3",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Je prépare ___ communiqué de presse de la directrice.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « le ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 15).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 15,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a15_4",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "C’est ___ imprimante de Véronique?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "l’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « l’ ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 15).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 15,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_2",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ auto",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "l’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « l’ ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_3",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ bureaux",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « les ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_4",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ arbre",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "l’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « l’ ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_5",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ budget",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « le ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_6",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ facture",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_7",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ crayons",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « les ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_8",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ formulaires",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « les ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_9",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ publication",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_10",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ livres",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « les ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_11",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ contrat",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « le ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_12",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ articles",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « les ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_13",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ souris",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_14",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ fauteuil",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « le ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a16_15",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ écran",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "l’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « l’ ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 16).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 16,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_2",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "le dossier ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_3",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "le bureau ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_4",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "l’imprimante ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "une"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « une ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_5",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la table ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "une"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « une ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_6",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "les ordinateurs ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "des"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « des ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_7",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "le message ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_8",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la lettre ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "une"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « une ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_9",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "le contrat ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_10",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "le téléphone ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_11",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "le rapport ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_12",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la brochure ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "une"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « une ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_13",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "le mobilier ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_14",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "les portefeuilles ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "des"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « des ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a17_15",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "le téléviseur ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 17,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_2",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "shoes ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "des souliers"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « des souliers ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_5",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "a pen ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "une plume",
+          "un stylo"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « une plume ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_8",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "a dress ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "une robe"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « une robe ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_9",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "a chair ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "une chaise"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « une chaise ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_11",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "a plane ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un avion"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un avion ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_13",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "bottles ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "des bouteilles"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « des bouteilles ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_15",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "a computer ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un ordinateur"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un ordinateur ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_16",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "a truck ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un camion"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un camion ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_18",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "a suit ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un complet"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un complet ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    },
+    {
+      "id": "itm_of2_src_a20_20",
+      "objectiveId": "OF2",
+      "skill": "writing",
+      "grammarConcepts": [
+        "articles"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "administration"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "a file ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "un dossier"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « un dossier ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "distractor_why": {},
+        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 20).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Apprenez chaque nom AVEC son article.",
+        "pattern": "le/la/l'/les selon genre et nombre.",
+        "similar": [
+          "la note",
+          "la facture",
+          "la brochure"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/2-2005F",
+        "activity": 20,
+        "concept": "articles"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1226 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF6",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of6_src_a26_2",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ formulaires est-ce que tu as besoin?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "De combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « De combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_3",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ collègues est-ce que tu pars?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Avec combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Avec combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_4",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ est-ce?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_5",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ argent as-tu sur toi?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien d’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_6",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ exemplaires on a besoin?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "De combien d’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « De combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_7",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ collègues tu travailles à ce projet?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Avec combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Avec combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_8",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ est-ce qu’il fait dehors?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_9",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ directeurs généraux est-ce que tu es en contact?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Avec combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Avec combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_11",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ autos est-ce que tu possèdes?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien d’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_12",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ est-ce qu’il y a de stylos dans une boîte?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_13",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ kilomètres au litre votre voiture fait-elle?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_14",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ personnes faites-vous des photocopies?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Pour combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Pour combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_15",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ ça coûte?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_16",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ employés sont en vacances?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien d’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_17",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ personnes est-ce que tu distribues le rapport?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « À combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_18",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ fonctionnaires est-ce que vous offrez le stage?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « À combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_19",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ est-ce que cet appareil de traitement de texte coûte?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_20",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ années-personnes est-ce qu’il a besoin?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "De combien d’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « De combien d’ ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_21",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ est-ce qu’il y a de pièces à votre étage?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_22",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ fois par année fait-on une fête au bureau?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_23",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ ministres est-ce que Madeleine rédige des discours?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Pour combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Pour combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_24",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ gestionnaires régionaux est-ce que tu écris?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "À combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « À combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    },
+    {
+      "id": "itm_of6_src_a26_25",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "quantity"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___ candidats est-ce qu’on vote? Combien Combien de / d’ À combien de / d’ De combien de / d’ Pour combien de / d’ Avec combien de / d’",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Pour combien de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Pour combien de ». Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "distractor_why": {},
+        "grammar_rule": "Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/6-2005F, activité 26).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantité + DE (jamais du/des).",
+        "pattern": "beaucoup / un peu / assez + de + nom.",
+        "similar": [
+          "beaucoup de dossiers",
+          "un peu de temps"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/6-2005F",
+        "activity": 26,
+        "concept": "quantity"
+      }
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF39",
   "titleFr": "Évaluer un changement proposé",
   "titleEn": "To evaluate a proposed change",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/39-2005F",
     "text": "sources/text/OF39.txt"
@@ -13,49 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF39 — To evaluate a proposed change. This objective develops the language needed to evaluate a proposed change in a Government of Canada workplace. Grammar focus: The present subjunctive, Comparatives and superlatives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Évaluer un changement proposé. Objectif communicatif appuyé par : Le subjonctif présent, Le comparatif et le superlatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF39 — To evaluate a proposed change. Source document SC102-2/39-2005F. Grammar taught: subjonctif, comparatives. Vocabulary: the OF39 section of the PFL2 Lexique. 63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF39 Lexique).",
+        "fr": "Évaluer un changement proposé. Document source SC102-2/39-2005F. Grammaire enseignée : subjonctif, comparatives. Vocabulaire : section OF39 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The present subjunctive, Comparatives and superlatives.",
+        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif, comparatives.",
         "charts": [],
-        "points": [
-          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
-          "· Trigger: il faut que, vouloir que, être content que, douter que…",
-          "· Stem from ils-present (ils finissent → finiss-).",
-          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille.",
-          "Le comparatif et le superlatif (Comparatives and superlatives) — plus/moins/aussi + adjectif + que; le/la/les plus/moins pour le superlatif. Irréguliers : bon→meilleur; bien→mieux.",
-          "· plus … que (more), moins … que (less), aussi … que (as).",
-          "· Superlative: le/la/les plus/moins + adjective.",
-          "· bon → meilleur (adj.); bien → mieux (adv.)."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF39 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 82
-        },
-        {
-          "title": "Grammaire",
-          "count": 16
-        },
-        {
-          "title": "Conjugaison",
-          "count": 12
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 63
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 63
     },
     "consolidation": {
       "sourceBooklet": {
@@ -67,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
-      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/33-40.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Évaluer un changement proposé",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « évaluer un changement proposé ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent, Le comparatif et le superlatif.",
-          "promptEn": "In a workplace context, practise the function \"To evaluate a proposed change\". Produce a short exchange (3–4 sentences) using: The present subjunctive, Comparatives and superlatives.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 33–40) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -92,11 +62,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
-        "advanced": 4
+        "medium": 5,
+        "advanced": 0
       },
       "drawFrom": [
         "OF39"

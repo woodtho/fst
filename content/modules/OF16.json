@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF16",
   "titleFr": "Faire une offre et réagir à une offre",
   "titleEn": "To make and to respond to offers",
   "level": "A",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/16-2005F",
     "text": "sources/text/OF16.txt"
@@ -13,49 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF16 — To make and to respond to offers. This objective develops the language needed to make and to respond to offers in a Government of Canada workplace. Grammar focus: The present tense, The compound past. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (112 questions) and consolidate.",
-        "fr": "Faire une offre et réagir à une offre. Objectif communicatif appuyé par : Le présent de l’indicatif, Le passé composé. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (112 questions)."
+        "en": "OF16 — To make and to respond to offers. Source document SC102-2/16-2005F. Grammar taught: present, passe_compose. Vocabulary: the OF16 section of the PFL2 Lexique. 19 questions, all traceable to the PFL2 source (0 verbatim source activities + 19 from the OF16 Lexique).",
+        "fr": "Faire une offre et réagir à une offre. Document source SC102-2/16-2005F. Grammaire enseignée : present, passe_compose. Vocabulaire : section OF16 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The present tense, The compound past.",
+        "summary": "Grammar concepts taught in this objective (from the source document): present, passe_compose.",
         "charts": [],
-        "points": [
-          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
-          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
-          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
-          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
-          "Le passé composé (The compound past) — Action passée terminée : auxiliaire (avoir/être) au présent + participe passé. Avec être, accord du participe avec le sujet.",
-          "· Most verbs use avoir; no agreement with the subject.",
-          "· Movement/state-change verbs and pronominal verbs use être; participle agrees with subject.",
-          "· Regular participles: -er→-é, -ir→-i, -re→-u."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "19 questions, all traceable to the PFL2 source (0 verbatim source activities + 19 from the OF16 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 72
-        },
-        {
-          "title": "Grammaire",
-          "count": 16
-        },
-        {
-          "title": "Conjugaison",
-          "count": 24
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 19
         }
       ],
-      "totalQuestions": 112
+      "totalQuestions": 19
     },
     "consolidation": {
       "sourceBooklet": {
@@ -67,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
-      "note": "Consolidation review for OF 13–22 draws randomly from every objective in this range (including this OF's 112 questions). See /consolidation/13-22.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Faire une offre et réagir à une offre",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « faire une offre et réagir à une offre ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le présent de l’indicatif, Le passé composé.",
-          "promptEn": "In a workplace context, practise the function \"To make and to respond to offers\". Produce a short exchange (3–4 sentences) using: The present tense, The compound past.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 13–22) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -92,10 +62,10 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
+        "medium": 1,
         "advanced": 0
       },
       "drawFrom": [

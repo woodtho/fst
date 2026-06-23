@@ -1,0 +1,735 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF24",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of24_src_a29_2",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elles resteront longtemps au bureau après que le patron ___ (partir).",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "sera parti"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « partir » donne « sera parti » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_3",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Le chèque est déposé automatiquement après qu’on ___ (faire) la demande.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "a fait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « faire » donne « a fait » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_4",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elles enverront les résultats du sondage après les ___ (compiler).",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avoir compilés"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « compiler » donne « avoir compilés » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_5",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Aussitôt que j’___ (finir), je partirai.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "aurai fini"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « finir » donne « aurai fini » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_6",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Nous avons dû faire des changements après ___ (expérimenter) le prototype.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avoir expérimenté"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « expérimenter » donne « avoir expérimenté » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_7",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "L’as-tu félicitée après ___ (apprendre) la nouvelle?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avoir appris"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « apprendre » donne « avoir appris » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_8",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Tu partiras après ___ (remplir) le formulaire.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avoir rempli"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « remplir » donne « avoir rempli » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_9",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elle est arrivée cinq minutes après ___ (téléphoner).",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avoir téléphoné"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « téléphoner » donne « avoir téléphoné » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_10",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Ils observeront la nouvelle politique après en ___ (prendre connaissance).",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avoir pris connaissance"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « prendre connaissance » donne « avoir pris connaissance » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_11",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Quand on ___ (faire) un sondage, ils auront assez d’information pour prendre une décision.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "aura fait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « faire » donne « aura fait » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_12",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Après ___ (consulter) mon patron, je vous donnerai ma réponse.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avoir consulté"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « consulter » donne « avoir consulté » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_13",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il vous accompagnera aussitôt qu’il ___ (arriver).",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "arrivera"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « arriver » donne « arrivera » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_14",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il n’y aura pas de changements majeurs après qu’elle ___ (entrer) en fonction.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "sera entrée"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « entrer » donne « sera entrée » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    },
+    {
+      "id": "itm_of24_src_a29_15",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "compound_tenses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "C’est un calcul qu’on fait après que la personne ___ (quitter) son poste.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "a quitté"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au temps composé : « quitter » donne « a quitté » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "Plus-que-parfait = imparfait de l'auxiliaire + participe passé (j'avais terminé, elle était partie).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/24-2005F, activité 29).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Le passé du passé → plus-que-parfait.",
+        "pattern": "imparfait de l'aux + participe.",
+        "similar": [
+          "j'avais terminé",
+          "elle était partie"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/24-2005F",
+        "activity": 29,
+        "concept": "compound_tenses"
+      }
+    }
+  ]
+}

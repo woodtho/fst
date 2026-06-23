@@ -34,33 +34,37 @@ authentic titles/grammar, [`content/lexicon/by-of/`](content/lexicon/by-of/) hol
 parsed source lexicon (regenerate with `npm run lexicon:parse`), and the module hub shows
 the covering consolidation/self-evaluation booklet per objective.
 
-## Module content status (all 40, uniform format)
+## Source-fidelity policy (per-OF question banks)
 
-Every objective is generated the **same way** by `npm run build:modules`, so all 40 modules
-have an identical structure (Learn → Practice → Consolidation → Self-test → Mastery check).
-Each OF has **at least 100 questions** (avg ~113, **4,500+ total**), every one with the full
-explanation contract. Questions are drawn from authentic sources:
+**Every question in an objective's bank is directly traceable to the Government of Canada
+PFL2 source materials.** The generator does not invent generic French content, does not use
+external textbooks, and does not introduce vocabulary or grammar not taught in that
+objective's source. Coverage of the source is prioritized over question variety; where the
+source has no auto-extractable written questions, the bank is left small or empty rather
+than padded.
 
-1. **Vocabulary (the bulk)** — the OF's PFL2 source lexicon
-   ([`content/lexicon/by-of/`](content/lexicon/by-of/)) → French↔English multiple-choice
-   items and matching sets. Vocabulary is cumulative, so an OF draws on its own terms plus
-   earlier OFs' (guaranteeing a big pool even for OFs with few new terms).
-2. **Grammar** — the hand-authored concept library
-   ([`library.json`](content/_concepts/library.json) +
-   [`library-extra.json`](content/_concepts/library-extra.json)) for the OF's grammar
-   concepts (mcq, fill-blank, error-correction, sentence-building, matching).
-3. **Conjugation** — correct, explained fill-in items produced by the conjugation engine
-   ([`lib/conjugation.ts`](lib/conjugation.ts)) over many verb × person combinations, for
-   each tense concept the OF teaches.
+`npm run build:modules` first identifies each objective's level, training objective, source
+document, **taught vocabulary** (its section of the PFL2 Lexique) and **taught grammar**
+(`content/curriculum.json`, derived from the OF document), then assembles the bank from only:
 
-The generator is deterministic (seeded RNG). **Questions are shown randomly**: Practice
-draws 20 at random from the bank each visit; Self-test draws per blueprint and presents in
-random order; Consolidation shuffles across the whole OF range. Because Consolidation and
-Self-test draw from the same per-OF banks, an OF's consolidation- and self-test-relevant
-questions are exactly its 100+ bank.
+1. **Verbatim source activities** — real fill-in-the-blank exercises + their published
+   answer keys (CORRIGÉ), extracted from the OF document by
+   [`scripts/extract-source-activities.ts`](scripts/extract-source-activities.ts) into
+   [`content/question-bank/source/`](content/question-bank/source/).
+2. **Source-vocabulary questions** — French↔English MCQs and matching built **only** from
+   that OF's own Lexique section ([`content/lexicon/by-of/`](content/lexicon/by-of/)); no
+   untaught or cross-module vocabulary.
 
-Regenerate with `npm run build:modules` (deterministic), then `npm run validate` (enforces
-the explanation contract on all 4,500+ items).
+**Traceability:** every item carries a `trace` block — `sourceDocument`, `trainingObjective`,
+`level`, `page` (where available), `topic`, `vocabularySet`, `grammarConcepts`.
+
+**Current coverage:** ~2,270 source-traceable items; **38/40 objectives have questions**;
+OF34/OF35 have none (their source activities are oral/open-ended and their Lexique sections
+are too small to form questions). Regenerate with `npm run extract:source && npm run
+build:modules`, then `npm run validate`.
+
+> The standalone **conjugation tool** (`/tools/conjugation`) is a generic practice utility
+> kept by request; it is separate from the per-OF banks, which remain strictly source-bound.
 
 ## What's in this repository
 

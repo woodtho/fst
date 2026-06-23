@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF40",
   "titleFr": "Persuader quelqu’un de quelque chose",
   "titleEn": "To convince someone of something",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/40-2005F",
     "text": "sources/text/OF40.txt"
@@ -13,49 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF40 — To convince someone of something. This objective develops the language needed to convince someone of something in a Government of Canada workplace. Grammar focus: The present conditional, The present subjunctive. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (112 questions) and consolidate.",
-        "fr": "Persuader quelqu’un de quelque chose. Objectif communicatif appuyé par : Le conditionnel présent, Le subjonctif présent. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (112 questions)."
+        "en": "OF40 — To convince someone of something. Source document SC102-2/40-2005F. Grammar taught: conditionnel, subjonctif. Vocabulary: the OF40 section of the PFL2 Lexique. 28 questions, all traceable to the PFL2 source (0 verbatim source activities + 28 from the OF40 Lexique).",
+        "fr": "Persuader quelqu’un de quelque chose. Document source SC102-2/40-2005F. Grammaire enseignée : conditionnel, subjonctif. Vocabulaire : section OF40 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The present conditional, The present subjunctive.",
+        "summary": "Grammar concepts taught in this objective (from the source document): conditionnel, subjonctif.",
         "charts": [],
-        "points": [
-          "Le conditionnel présent (The present conditional) — Politesse, hypothèses et « would ». Radical du futur + terminaisons de l’imparfait.",
-          "· Stem = future stem; endings = imperfect endings.",
-          "· Politeness: je voudrais, pourriez-vous, j’aimerais.",
-          "· Used in the result clause of si + imparfait.",
-          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
-          "· Trigger: il faut que, vouloir que, être content que, douter que…",
-          "· Stem from ils-present (ils finissent → finiss-).",
-          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "28 questions, all traceable to the PFL2 source (0 verbatim source activities + 28 from the OF40 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 72
-        },
-        {
-          "title": "Grammaire",
-          "count": 16
-        },
-        {
-          "title": "Conjugaison",
-          "count": 24
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 28
         }
       ],
-      "totalQuestions": 112
+      "totalQuestions": 28
     },
     "consolidation": {
       "sourceBooklet": {
@@ -67,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
-      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 112 questions). See /consolidation/33-40.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Persuader quelqu’un de quelque chose",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « persuader quelqu’un de quelque chose ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le conditionnel présent, Le subjonctif présent.",
-          "promptEn": "In a workplace context, practise the function \"To convince someone of something\". Produce a short exchange (3–4 sentences) using: The present conditional, The present subjunctive.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 33–40) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -92,11 +62,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
-        "advanced": 4
+        "medium": 2,
+        "advanced": 0
       },
       "drawFrom": [
         "OF40"

@@ -1,45 +1,38 @@
 /**
- * build-modules.ts
- * Generates content/modules/OFn.json + content/question-bank/items/OFn.json for ALL 40 OFs,
- * with AT LEAST 100 questions each, drawn from authentic sources:
+ * build-modules.ts  (SOURCE-FIDELITY MODE)
+ * Generates content/modules/OFn.json + content/question-bank/items/OFn.json for all 40 OFs
+ * using ONLY content that is directly traceable to the Government of Canada PFL2 source
+ * materials. NO generic generation, NO concept-library examples, NO conjugation drills, NO
+ * padding to a target count.
  *
- *   1. Vocabulary (the bulk): the OF's PFL2 source lexicon (content/lexicon/by-of) → French↔
- *      English multiple-choice items + matching sets. Real, source-grounded vocabulary.
- *   2. Grammar: the hand-authored concept library (base + extra) for the OF's grammar concepts.
- *   3. Conjugation: for each tense concept, correct + explained fill-in items produced by the
- *      conjugation engine (lib/conjugation.ts) over many verb × person combinations.
- *   4. Padding: additional random vocabulary-matching sets until the OF reaches the target.
- *
- * Every item carries the full explanation contract. Deterministic (seeded RNG) so re-runs
- * are reproducible. Item banks are written compact (one OF per file) to keep size down.
+ * For each objective the generator first identifies (from the source-derived metadata):
+ *   level, training objective, source document, taught vocabulary (the OF's Lexique section)
+ *   and taught grammar concepts (curriculum.json, derived from the OF document).
+ * Then, and only then, it assembles the question bank from:
+ *   1. Verbatim source activities  (content/question-bank/source/OFn.json — real exercises +
+ *      answer keys extracted from the OF document).
+ *   2. Source-vocabulary questions (French↔English MCQs + matching) built ONLY from that OF's
+ *      own Lexique entries — no untaught vocabulary, no vocabulary from other modules.
+ * Every item carries a `trace` block (source document, OF, page, topic, vocabulary set,
+ * grammar concepts). If the source yields no questions, the bank is left small/empty by
+ * design — the system must not invent content.
  *
  * Run: node --experimental-strip-types scripts/build-modules.ts
  */
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { VERBS, PERSONS, TENSES, conjugateRaw, conjugate, type Tense, type PersonKey } from "../lib/conjugation.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
 
 const curriculum = read("content/curriculum.json");
-const library = read("content/_concepts/library.json").concepts as Record<string, any>;
-const extra = existsSync(join(ROOT, "content/_concepts/library-extra.json"))
-  ? (read("content/_concepts/library-extra.json").concepts as Record<string, any>)
-  : {};
 const manifest = read("sources/manifest.json");
+const LEXIQUE = "SC102-2/1-2-2005F"; // the PFL2 Lexique source document
 
-const TARGET = 110; // at least 100 per OF, with margin
-
-function poolFor(concept: string): any[] {
-  return [...(library[concept]?.items ?? []), ...(extra[concept]?.items ?? [])];
-}
 function booklet(kind: "consolidation" | "selfEvaluation", of: number) {
   return (manifest.supplements?.[kind] ?? []).find((b: any) => of >= b.ofRange[0] && of <= b.ofRange[1]) ?? null;
 }
-
-// ---- deterministic RNG (mulberry32) ---------------------------------------
 function rng(seed: number) {
   let a = seed >>> 0;
   return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
@@ -47,259 +40,191 @@ function rng(seed: number) {
 function shuffle<T>(r: () => number, arr: T[]): T[] { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 function sample<T>(r: () => number, arr: T[], n: number): T[] { return shuffle(r, arr).slice(0, n); }
 
-// ---- tense templates for conjugation items --------------------------------
-const TENSE_RULE: Record<string, string> = {
-  present: "Présent : -er → -e/-es/-e/-ons/-ez/-ent ; être/avoir/aller/faire sont irréguliers.",
-  passe_compose: "Passé composé = auxiliaire (avoir/être) au présent + participe passé (accord avec être).",
-  imparfait: "Imparfait = radical du « nous » présent (sans -ons) + -ais/-ais/-ait/-ions/-iez/-aient.",
-  futur_simple: "Futur simple = infinitif (radical) + -ai/-as/-a/-ons/-ez/-ont ; radicaux irréguliers (ser-, aur-, ir-, fer-).",
-  conditionnel: "Conditionnel = radical du futur + terminaisons de l’imparfait (-ais/-ait/-ions…).",
-  subjonctif: "Subjonctif présent (après « que ») : radical du « ils » présent + -e/-es/-e/-ions/-iez/-ent ; irréguliers (sois, aie, fasse, aille…).",
-};
-const TENSE_TIP: Record<string, { memory_aid: string; pattern: string }> = {
-  present: { memory_aid: "Identifiez le groupe (-er/-ir/-re) puis la personne.", pattern: "radical + terminaison de la personne." },
-  passe_compose: { memory_aid: "Auxiliaire + participe (collés).", pattern: "avoir/être au présent + participe passé." },
-  imparfait: { memory_aid: "Radical = « nous » présent sans -ons.", pattern: "nous-radical + -ais/-ait…" },
-  futur_simple: { memory_aid: "Radical du futur = l’infinitif (sauf irréguliers).", pattern: "infinitif + -ai/-ons…" },
-  conditionnel: { memory_aid: "Futur stem + terminaisons de l’imparfait.", pattern: "radical futur + -ais/-ait…" },
-  subjonctif: { memory_aid: "Déclencheur (il faut que, vouloir que…) → subjonctif.", pattern: "que + sujet + subjonctif." },
-};
-const CONCEPT_TO_TENSE: Record<string, Tense> = {
-  present: "present", passe_compose: "passe_compose", imparfait: "imparfait",
-  futur_simple: "futur_simple", conditionnel: "conditionnel", subjonctif: "subjonctif",
-};
-const PERSON_DISPLAY: Record<PersonKey, string> = { je: "je", tu: "tu", il: "il", nous: "nous", vous: "vous", ils: "ils" };
-
-// ---- vocabulary helpers ---------------------------------------------------
+// taught-vocabulary cleaning: dedupe by English, drop function-word noise
 const EN_STOP = new Set(["the", "a", "an", "to", "at", "of", "in", "some", "with", "and", "or", "this", "that", "these"]);
-function frBare(fr: string) { return fr.replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+/g, " ").trim(); }
-function cleanList(entries: { fr: string; en: string }[]) {
+const frBare = (fr: string) => fr.replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+/g, " ").trim();
+function cleanEntries(entries: { fr: string; en: string }[]) {
+  const seen = new Set<string>();
   const out: { fr: string; en: string }[] = [];
   for (const e of entries) {
+    const k = e.en.trim().toLowerCase();
     if (!e.fr || !e.en) continue;
     if (frBare(e.fr).length < 2) continue;
-    if (EN_STOP.has(e.en.trim().toLowerCase())) continue;
-    if (frBare(e.fr).toLowerCase() === e.en.trim().toLowerCase()) continue;
+    if (EN_STOP.has(k)) continue;
+    if (seen.has(k)) continue;
+    if (frBare(e.fr).toLowerCase() === k) continue;
+    seen.add(k);
     out.push(e);
   }
   return out;
 }
 
-// Cleaned source entries per OF, then a CUMULATIVE vocab pool (the OF's own vocabulary +
-// earlier OFs' — vocabulary is cumulative). Guarantees a large pool even for OFs whose own
-// lexicon section is short (e.g. OF35 has only 3 new terms). Deduped by English meaning.
-const cleanedByOf: Record<number, { fr: string; en: string }[]> = {};
-for (const o of curriculum.objectives) {
-  const lx = read(`content/lexicon/by-of/${o.id}.json`);
-  cleanedByOf[o.of] = cleanList(lx.entries ?? []);
-}
-const VOCAB_POOL_MAX = 36;
-function vocabPool(of: number) {
-  const seenEn = new Set<string>();
-  const pool: { fr: string; en: string }[] = [];
-  const add = (list: { fr: string; en: string }[]) => {
-    for (const e of list) {
-      if (pool.length >= VOCAB_POOL_MAX) return;
-      const k = e.en.trim().toLowerCase();
-      if (!seenEn.has(k)) { seenEn.add(k); pool.push(e); }
-    }
-  };
-  add(cleanedByOf[of] ?? []);                                   // the OF's own vocabulary first
-  for (let k = of - 1; k >= 1 && pool.length < VOCAB_POOL_MAX; k--) add(cleanedByOf[k] ?? []); // then earlier OFs
-  return pool;
-}
-
-// ---------------------------------------------------------------------------
-let modCount = 0, itemCount = 0;
+let modCount = 0, itemTotal = 0;
+const report: Record<string, { source: number; vocab: number; total: number }> = {};
 
 for (const obj of curriculum.objectives) {
-  const concepts: string[] = (obj.grammarConcepts ?? []).filter((c: string) => library[c] || extra[c]);
-  const ofLower = obj.id.toLowerCase();
-  const theme = obj.themes?.[0] ?? "workplace";
-  const vocabDomains = obj.vocabDomains ?? [];
-  const r = rng(obj.of * 7919 + 13);
+  // ---- identify the source elements for this objective (required before generation) ----
+  const id: string = obj.id;
+  const of: number = obj.of;
+  const ofLower = id.toLowerCase();
+  const grammarConcepts: string[] = obj.grammarConcepts ?? [];
+  const sourceDoc: string = obj.source?.catalogue ?? id;
+  const lex = read(`content/lexicon/by-of/${id}.json`);
+  const taughtVocab = cleanEntries(lex.entries ?? []); // ONLY this OF's own taught vocabulary
+  const r = rng(of * 7919 + 13);
 
-  const lex = read(`content/lexicon/by-of/${obj.id}.json`);
-  const entries = vocabPool(obj.of);
   const items: any[] = [];
-  const counts = { source: 0, vocab: 0, grammar: 0, conjugation: 0 };
-  let n = 1;
-  const newId = (tag: string) => `itm_${ofLower}_${tag}_${n++}`;
+  const counts = { source: 0, vocab: 0 };
 
-  // 0. Verbatim source activities (extracted from the OF document, with its answer key)
-  const srcPath = join(ROOT, "content", "question-bank", "source", `${obj.id}.json`);
+  const trace = (extra: any) => ({
+    sourceDocument: extra.sourceDocument ?? sourceDoc,
+    trainingObjective: id,
+    level: obj.level,
+    page: extra.page ?? null,
+    topicFr: obj.titleFr,
+    topicEn: obj.titleEn,
+    vocabularySet: extra.vocabularySet ?? null,
+    grammarConcepts: extra.grammarConcepts ?? [],
+  });
+
+  // 1. Verbatim source activities (real exercises + answer keys from the OF document)
+  const srcPath = join(ROOT, "content", "question-bank", "source", `${id}.json`);
   if (existsSync(srcPath)) {
-    for (const it of read(`content/question-bank/source/${obj.id}.json`).items) { items.push(it); counts.source++; }
-  }
-
-  // 1. Vocabulary — French → English MCQ
-  for (const e of entries) {
-    const others = sample(r, entries.filter((x) => x.en !== e.en), 3);
-    if (others.length < 3) continue;
-    const distractors = [{ value: e.en, tag: "correct" }, ...others.map((o, i) => ({ value: o.en, tag: `d${i}` }))];
-    const dWhy: Record<string, string> = {};
-    others.forEach((o, i) => { dWhy[`d${i}`] = `'${o.en}' is the meaning of « ${o.fr} », not « ${e.fr} ».`; });
-    items.push({
-      id: newId("vocfe"), objectiveId: obj.id, skill: "vocabulary", grammarConcepts: [], vocabDomains, theme,
-      difficulty: "easy", type: "mcq_single", status: "live", estTimeSec: 18, irtB: -0.8,
-      prompt: { fr: `« ${e.fr} »`, instructions_en: "What does this mean in English?" },
-      answer: { type: "choice", accepted: [e.en], normalizer: "trim_lower" },
-      distractors,
-      explanation: { correct_why: `« ${e.fr} » means '${e.en}'.`, distractor_why: dWhy, grammar_rule: "Vocabulary item (PFL2 source lexicon).", vocab_notes: `From the OF${obj.of} lexicon (${lex.source?.catalogue ?? "SC102-2/1-2-2005F"}).`, common_mistakes: [`confusing « ${e.fr} » with similar terms`] },
-      tip: { memory_aid: `Link « ${frBare(e.fr)} » ↔ '${e.en}'.`, pattern: "Build your personal glossary from the source lexicon.", similar: sample(r, entries.filter((x) => x.fr !== e.fr), 2).map((x) => x.fr) },
-    });
-    counts.vocab++;
-  }
-
-  // 2. Vocabulary — English → French MCQ
-  for (const e of entries) {
-    const others = sample(r, entries.filter((x) => x.fr !== e.fr), 3);
-    if (others.length < 3) continue;
-    const distractors = [{ value: e.fr, tag: "correct" }, ...others.map((o, i) => ({ value: o.fr, tag: `d${i}` }))];
-    const dWhy: Record<string, string> = {};
-    others.forEach((o, i) => { dWhy[`d${i}`] = `« ${o.fr} » means '${o.en}', not '${e.en}'.`; });
-    items.push({
-      id: newId("vocef"), objectiveId: obj.id, skill: "vocabulary", grammarConcepts: [], vocabDomains, theme,
-      difficulty: "easy", type: "mcq_single", status: "live", estTimeSec: 18, irtB: -0.6,
-      prompt: { fr: `'${e.en}'`, instructions_en: "How do you say this in French?" },
-      answer: { type: "choice", accepted: [e.fr], normalizer: "fr_accent_insensitive_trim_lower" },
-      distractors,
-      explanation: { correct_why: `'${e.en}' is « ${e.fr} » in French.`, distractor_why: dWhy, grammar_rule: "Vocabulary item (PFL2 source lexicon).", vocab_notes: `From the OF${obj.of} lexicon (${lex.source?.catalogue ?? "SC102-2/1-2-2005F"}).`, common_mistakes: [`confusing « ${e.fr} » with near-synonyms`] },
-      tip: { memory_aid: `'${e.en}' → « ${frBare(e.fr)} ».`, pattern: "Recall the French from the English meaning.", similar: sample(r, entries.filter((x) => x.fr !== e.fr), 2).map((x) => x.fr) },
-    });
-    counts.vocab++;
-  }
-
-  // 3. Grammar — concept library items (base + extra, all)
-  for (const concept of concepts) {
-    for (const tpl of poolFor(concept)) {
+    for (const it of read(`content/question-bank/source/${id}.json`).items) {
       items.push({
-        id: newId(`lib_${concept}`), objectiveId: obj.id, skill: tpl.skill, grammarConcepts: [concept], vocabDomains, theme,
-        difficulty: tpl.difficulty, type: tpl.type, status: "live", estTimeSec: tpl.estTimeSec ?? 35, irtB: tpl.irtB ?? 0,
-        prompt: tpl.prompt, answer: tpl.answer, distractors: tpl.distractors ?? [], explanation: tpl.explanation, tip: tpl.tip,
+        ...it,
+        trace: trace({ page: it.source?.page ?? null, topicFr: `activité ${it.source?.activity}`, grammarConcepts: it.grammarConcepts ?? [] }),
       });
-      counts.grammar++;
+      counts.source++;
     }
   }
 
-  // 4. Conjugation — for each tense concept, many verb × person fill-ins
-  const tenseConcepts = concepts.filter((c) => CONCEPT_TO_TENSE[c]);
-  for (const concept of tenseConcepts) {
-    const tense = CONCEPT_TO_TENSE[concept];
-    const tInfo = TENSES.find((t) => t.key === tense)!;
-    const verbs = sample(r, VERBS, 6);
-    for (const v of verbs) {
-      for (const p of sample(r, PERSONS, 2)) {
-        const raw = conjugateRaw(v, tense, p.key);
-        const full = conjugate(v, tense, p.key);
-        const subj = (tense === "subjonctif" ? "que " : "") + PERSON_DISPLAY[p.key];
+  // 2. Source-vocabulary questions — ONLY from this OF's own Lexique entries
+  const vTrace = (concepts: string[] = []) => trace({ sourceDocument: LEXIQUE, vocabularySet: `Lexique — OF${of}`, grammarConcepts: concepts });
+  if (taughtVocab.length >= 4) {
+    let n = 1;
+    const newId = (t: string) => `itm_${ofLower}_${t}_${n++}`;
+    // French → English
+    for (const e of taughtVocab) {
+      const others = sample(r, taughtVocab.filter((x) => x.en !== e.en), 3);
+      if (others.length < 3) continue;
+      const dWhy: Record<string, string> = {};
+      others.forEach((o, i) => { dWhy[`d${i}`] = `'${o.en}' est le sens de « ${o.fr} », pas de « ${e.fr} ».`; });
+      items.push({
+        id: newId("voc_fe"), objectiveId: id, skill: "vocabulary", grammarConcepts: [], vocabDomains: obj.vocabDomains ?? [], theme: obj.themes?.[0] ?? "workplace",
+        difficulty: "easy", type: "mcq_single", status: "live", estTimeSec: 18, irtB: -0.8,
+        prompt: { fr: `« ${e.fr} »`, instructions_en: "What does this mean in English? (PFL2 source vocabulary)" },
+        answer: { type: "choice", accepted: [e.en], normalizer: "trim_lower" },
+        distractors: [{ value: e.en, tag: "correct" }, ...others.map((o, i) => ({ value: o.en, tag: `d${i}` }))],
+        explanation: { correct_why: `« ${e.fr} » signifie '${e.en}'.`, distractor_why: dWhy, grammar_rule: "Vocabulaire du programme PFL2 (Lexique).", vocab_notes: `Lexique OF${of} (${LEXIQUE}).`, common_mistakes: [`confondre « ${e.fr} » avec un terme proche`] },
+        tip: { memory_aid: `« ${frBare(e.fr)} » ↔ '${e.en}'.`, pattern: "Vocabulaire enseigné dans cet objectif.", similar: sample(r, taughtVocab.filter((x) => x.fr !== e.fr), 2).map((x) => x.fr) },
+        trace: vTrace(),
+      });
+      counts.vocab++;
+    }
+    // English → French
+    for (const e of taughtVocab) {
+      const others = sample(r, taughtVocab.filter((x) => x.fr !== e.fr), 3);
+      if (others.length < 3) continue;
+      const dWhy: Record<string, string> = {};
+      others.forEach((o, i) => { dWhy[`d${i}`] = `« ${o.fr} » signifie '${o.en}', pas '${e.en}'.`; });
+      items.push({
+        id: newId("voc_ef"), objectiveId: id, skill: "vocabulary", grammarConcepts: [], vocabDomains: obj.vocabDomains ?? [], theme: obj.themes?.[0] ?? "workplace",
+        difficulty: "easy", type: "mcq_single", status: "live", estTimeSec: 18, irtB: -0.6,
+        prompt: { fr: `'${e.en}'`, instructions_en: "How do you say this in French? (PFL2 source vocabulary)" },
+        answer: { type: "choice", accepted: [e.fr], normalizer: "fr_accent_insensitive_trim_lower" },
+        distractors: [{ value: e.fr, tag: "correct" }, ...others.map((o, i) => ({ value: o.fr, tag: `d${i}` }))],
+        explanation: { correct_why: `'${e.en}' se dit « ${e.fr} » en français.`, distractor_why: dWhy, grammar_rule: "Vocabulaire du programme PFL2 (Lexique).", vocab_notes: `Lexique OF${of} (${LEXIQUE}).`, common_mistakes: [`confondre « ${e.fr} » avec un synonyme proche`] },
+        tip: { memory_aid: `'${e.en}' → « ${frBare(e.fr)} ».`, pattern: "Vocabulaire enseigné dans cet objectif.", similar: sample(r, taughtVocab.filter((x) => x.fr !== e.fr), 2).map((x) => x.fr) },
+        trace: vTrace(),
+      });
+      counts.vocab++;
+    }
+    // Matching (5 taught terms)
+    if (taughtVocab.length >= 5) {
+      const groups = Math.min(8, Math.floor(taughtVocab.length / 5));
+      const seenKey = new Set<string>();
+      let g = 0, guard = 0;
+      while (g < groups && guard < 200) {
+        guard++;
+        const five = sample(r, taughtVocab, 5);
+        const key = five.map((e) => e.fr).sort().join("|");
+        if (seenKey.has(key)) continue;
+        seenKey.add(key);
         items.push({
-          id: newId(`conj_${tense}`), objectiveId: obj.id, skill: "grammar", grammarConcepts: [concept], vocabDomains, theme,
-          difficulty: tense === "present" || tense === "passe_compose" ? "medium" : "advanced", type: "fill_blank", status: "live", estTimeSec: 30, irtB: tense === "present" ? -0.2 : 0.4,
-          prompt: { fr: `${subj} ___ (${v.inf})`, instructions_en: `Conjugate « ${v.inf} » in the ${tInfo.en.toLowerCase()} (type the verb form).` },
-          answer: { type: "text", accepted: Array.from(new Set([raw, full])), normalizer: "fr_accent_insensitive_trim_lower" },
+          id: newId("voc_match"), objectiveId: id, skill: "vocabulary", grammarConcepts: [], vocabDomains: obj.vocabDomains ?? [], theme: obj.themes?.[0] ?? "workplace",
+          difficulty: "medium", type: "matching", status: "live", estTimeSec: 55, irtB: 0,
+          prompt: { fr: "Associez chaque terme français à son sens anglais.", instructions_en: "Match each French term to its English meaning. (PFL2 source vocabulary)", left: five.map((e) => e.fr), right: five.map((e) => e.en) },
+          answer: { type: "sequence", accepted: [five.map((e) => e.en).join(" ")], normalizer: "fr_accent_insensitive_trim_lower" },
           distractors: [],
-          explanation: { correct_why: `${tInfo.fr} de « ${v.inf} » à la personne « ${PERSON_DISPLAY[p.key]} » : « ${raw} ».`, distractor_why: {}, grammar_rule: TENSE_RULE[tense], vocab_notes: `${v.inf} = ${v.en}.`, common_mistakes: ["confondre les terminaisons des personnes", "oublier le radical irrégulier"] },
-          tip: { memory_aid: TENSE_TIP[tense].memory_aid, pattern: TENSE_TIP[tense].pattern, similar: [conjugate(v, tense, "nous"), conjugate(v, tense, "ils")] },
+          explanation: { correct_why: five.map((e) => `« ${e.fr} » = ${e.en}`).join("; ") + ".", distractor_why: {}, grammar_rule: "Vocabulaire du programme PFL2 (Lexique).", vocab_notes: `Lexique OF${of}.`, common_mistakes: ["confondre des termes proches"] },
+          tip: { memory_aid: "Révisez le lexique de l'objectif.", pattern: "terme français ↔ sens anglais.", similar: five.slice(0, 2).map((e) => e.fr) },
+          trace: vTrace(),
         });
-        counts.conjugation++;
+        counts.vocab++; g++;
       }
     }
   }
 
-  // 5. Vocabulary matching sets (initial + padding to reach the target)
-  const makeMatch = () => {
-    const five = sample(r, entries, 5);
-    if (five.length < 5) return null;
-    const left = five.map((e) => e.fr), right = five.map((e) => e.en);
-    return {
-      id: newId("vocmatch"), objectiveId: obj.id, skill: "vocabulary", grammarConcepts: [], vocabDomains, theme,
-      difficulty: "medium", type: "matching", status: "live", estTimeSec: 55, irtB: 0.0,
-      prompt: { fr: "Associez chaque terme français à son sens anglais.", instructions_en: "Match each French term to its English meaning.", left, right },
-      answer: { type: "sequence", accepted: [right.join(" ")], normalizer: "fr_accent_insensitive_trim_lower" },
-      distractors: [],
-      explanation: { correct_why: five.map((e) => `« ${e.fr} » = ${e.en}`).join("; ") + ".", distractor_why: {}, grammar_rule: "Vocabulary matching (PFL2 source lexicon).", vocab_notes: `From the OF${obj.of} lexicon.`, common_mistakes: ["confusing near-synonyms"] },
-      tip: { memory_aid: "Group related terms when you revise.", pattern: "French term ↔ English meaning.", similar: five.slice(0, 2).map((e) => e.fr) },
-    };
-  };
-  const seenMatch = new Set<string>();
-  let guard = 0;
-  while (items.length < TARGET && entries.length >= 5 && guard < 2000) {
-    guard++;
-    const m = makeMatch();
-    if (!m) break;
-    const key = (m.prompt.left as string[]).slice().sort().join("|");
-    if (seenMatch.has(key)) continue;
-    seenMatch.add(key);
-    items.push(m);
-    counts.vocab++;
-  }
-
-  itemCount += items.length;
+  itemTotal += items.length;
+  report[id] = { source: counts.source, vocab: counts.vocab, total: items.length };
   writeFileSync(
-    join(ROOT, "content", "question-bank", "items", `${obj.id}.json`),
-    JSON.stringify({ schema: "items/v1", objectiveId: obj.id, source: { catalogue: obj.source?.catalogue, generated: true, counts, note: "Generated from the OF source lexicon (vocabulary), the concept library (grammar) and the conjugation engine. Full explanation contract on every item." }, items })
+    join(ROOT, "content", "question-bank", "items", `${id}.json`),
+    JSON.stringify({ schema: "items/v2", objectiveId: id, sourceFidelity: true, source: { sourceDocument: sourceDoc, lexique: LEXIQUE, counts }, items })
   );
 
-  // ---- module ----
-  const conceptNamesEn = concepts.map((c) => (library[c] ?? extra[c]).nameEn).join(", ");
-  const conceptNamesFr = concepts.map((c) => (library[c] ?? extra[c]).nameFr).join(", ");
-  const fn = obj.titleEn.replace(/^To\s+/, "").trim();
-  const points: string[] = [];
-  for (const c of concepts) {
-    const info = library[c] ?? extra[c];
-    points.push(`${info.nameFr} (${info.nameEn}) — ${info.summaryFr}`);
-    for (const rl of info.rules ?? []) points.push(`· ${rl}`);
-  }
-  const cons = booklet("consolidation", obj.of);
-  const self = booklet("selfEvaluation", obj.of);
+  // ---- module (learning material; grammar notes describe the OF's taught concepts) ----
+  const cons = booklet("consolidation", of);
+  const self = booklet("selfEvaluation", of);
   const byBand = (b: string) => items.filter((it) => it.difficulty === b).length;
+  const coverageNote = items.length === 0
+    ? "No auto-extractable written questions in this objective's source materials (its activities are oral/listening/open-ended). Per the source-fidelity policy, no questions are generated here."
+    : `${items.length} questions, all traceable to the PFL2 source (${counts.source} verbatim source activities + ${counts.vocab} from the OF${of} Lexique).`;
 
   const module = {
-    schema: "module/v1", objectiveId: obj.id, titleFr: obj.titleFr, titleEn: obj.titleEn, level: obj.level,
-    estMinutes: 40, generated: true, source: obj.source ?? null,
+    schema: "module/v2", objectiveId: id, titleFr: obj.titleFr, titleEn: obj.titleEn, level: obj.level,
+    estMinutes: 40, sourceFidelity: true, source: obj.source ?? null,
     stages: {
       learn: {
         conceptExplanation: {
-          en: `${obj.id} — ${obj.titleEn}. This objective develops the language needed to ${fn[0].toLowerCase() + fn.slice(1)} in a Government of Canada workplace. Grammar focus: ${conceptNamesEn}. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (${items.length} questions) and consolidate.`,
-          fr: `${obj.titleFr}. Objectif communicatif appuyé par : ${conceptNamesFr}. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (${items.length} questions).`,
+          en: `${id} — ${obj.titleEn}. Source document ${sourceDoc}. Grammar taught: ${grammarConcepts.join(", ") || "(see source)"}. Vocabulary: the OF${of} section of the PFL2 Lexique. ${coverageNote}`,
+          fr: `${obj.titleFr}. Document source ${sourceDoc}. Grammaire enseignée : ${grammarConcepts.join(", ") || "(voir source)"}. Vocabulaire : section OF${of} du Lexique PFL2.`,
         },
-        vocabularyNote: "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
-        grammarNotes: { summary: `Grammar focus for this objective: ${conceptNamesEn}.`, charts: [], points },
-        pronunciation: { points: ["Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.", "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."] },
+        vocabularyNote: "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+        grammarNotes: { summary: `Grammar concepts taught in this objective (from the source document): ${grammarConcepts.join(", ")}.`, charts: [], points: [] },
+        pronunciation: { points: [] },
         dialogues: [], exampleTexts: [],
       },
       practice: {
-        // Categories only (the bank has 100+ items; the practice runner samples randomly).
+        sourceFidelity: true,
+        coverage: coverageNote,
         exerciseSets: [
-          ...(counts.source ? [{ title: "Activités du programme PFL2 (sources)", count: counts.source }] : []),
-          { title: "Vocabulaire (lexique source)", count: counts.vocab },
-          ...(counts.grammar ? [{ title: "Grammaire", count: counts.grammar }] : []),
-          ...(counts.conjugation ? [{ title: "Conjugaison", count: counts.conjugation }] : []),
+          ...(counts.source ? [{ title: "Activités du programme PFL2 (verbatim)", count: counts.source }] : []),
+          ...(counts.vocab ? [{ title: "Vocabulaire du Lexique PFL2", count: counts.vocab }] : []),
         ],
         totalQuestions: items.length,
       },
       consolidation: {
         sourceBooklet: cons ? { kind: cons.kind, booklet: cons.booklet, ofRange: cons.ofRange, catalogue: cons.catalogue } : null,
-        note: cons ? `Consolidation review for OF ${cons.ofRange[0]}–${cons.ofRange[1]} draws randomly from every objective in this range (including this OF's ${items.length} questions). See /consolidation/${cons.ofRange[0]}-${cons.ofRange[1]}.` : null,
-        tasks: [
-          { title: `Tâche de consolidation — ${obj.titleFr}`, type: "scenario",
-            promptFr: `Dans un contexte de travail, mettez en pratique la fonction « ${obj.titleFr.toLowerCase()} ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : ${conceptNamesFr}.`,
-            promptEn: `In a workplace context, practise the function "${obj.titleEn}". Produce a short exchange (3–4 sentences) using: ${conceptNamesEn}.`,
-            rubric: ["addresses the communicative function", "uses the target grammar correctly", "workplace register (vous)"] },
-        ],
+        note: cons ? `Consolidation review (OF ${cons.ofRange[0]}–${cons.ofRange[1]}) draws only from the source-traceable banks of the objectives in this range.` : null,
+        tasks: [],
       },
       selfTest: {
         sourceBooklet: self ? { kind: self.kind, booklet: self.booklet, ofRange: self.ofRange, catalogue: self.catalogue } : null,
-        timedSeconds: 18 * 35,
+        timedSeconds: Math.max(180, Math.min(items.length, 16) * 35),
         blueprint: { easy: Math.min(byBand("easy"), 8), medium: Math.min(byBand("medium"), 6), advanced: Math.min(byBand("advanced"), 4) },
-        drawFrom: [obj.id],
+        drawFrom: [id],
       },
-      masteryCheck: { threshold: 0.8, concepts },
+      masteryCheck: { threshold: 0.8, concepts: grammarConcepts },
     },
   };
-  writeFileSync(join(ROOT, "content", "modules", `${obj.id}.json`), JSON.stringify(module, null, 2));
+  writeFileSync(join(ROOT, "content", "modules", `${id}.json`), JSON.stringify(module, null, 2));
   modCount++;
 }
 
-console.log(`Generated ${modCount} modules and ${itemCount} items (${(itemCount / modCount).toFixed(0)} avg/OF, target ${TARGET}).`);
+const empty = Object.entries(report).filter(([, v]) => v.total === 0).map(([k]) => k);
+const withQ = Object.entries(report).filter(([, v]) => v.total > 0);
+console.log(`Generated ${modCount} modules, ${itemTotal} source-traceable items.`);
+console.log(`OFs with questions: ${withQ.length}/40 · OFs with NO source questions: ${empty.length} (${empty.join(", ") || "none"})`);
+console.log("Per-OF (source verbatim / vocab / total):");
+for (const [k, v] of Object.entries(report)) console.log(`  ${k}: ${v.source} / ${v.vocab} / ${v.total}`);

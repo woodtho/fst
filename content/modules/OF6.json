@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF6",
   "titleFr": "Indiquer des données chiffrées",
   "titleEn": "To use numbers",
   "level": "A",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/6-2005F",
     "text": "sources/text/OF06.txt"
@@ -13,41 +13,35 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF6 — To use numbers. This objective develops the language needed to use numbers in a Government of Canada workplace. Grammar focus: Numbers and demonstratives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Indiquer des données chiffrées. Objectif communicatif appuyé par : Les nombres et les démonstratifs. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF6 — To use numbers. Source document SC102-2/6-2005F. Grammar taught: numbers. Vocabulary: the OF6 section of the PFL2 Lexique. 80 questions, all traceable to the PFL2 source (23 verbatim source activities + 57 from the OF6 Lexique).",
+        "fr": "Indiquer des données chiffrées. Document source SC102-2/6-2005F. Grammaire enseignée : numbers. Vocabulaire : section OF6 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Numbers and demonstratives.",
+        "summary": "Grammar concepts taught in this objective (from the source document): numbers.",
         "charts": [],
-        "points": [
-          "Les nombres et les démonstratifs (Numbers and demonstratives) — Exprimer des données chiffrées : nombres cardinaux, nombres ordinaux (premier, deuxième…), le mot interrogatif combien, et les adjectifs démonstratifs (ce/cet/cette/ces).",
-          "· Ordinaux : 1er premier/première, 2e deuxième, 3e troisième, 4e quatrième…",
-          "· combien (de) = how much / how many : Combien de personnes ?",
-          "· Démonstratifs : ce (m.), cet (m. devant voyelle), cette (f.), ces (pluriel)."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "80 questions, all traceable to the PFL2 source (23 verbatim source activities + 57 from the OF6 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 104
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 23
         },
         {
-          "title": "Grammaire",
-          "count": 6
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 57
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 80
     },
     "consolidation": {
       "sourceBooklet": {
@@ -59,20 +53,8 @@
         ],
         "catalogue": "SC102-2/47-1-2006F"
       },
-      "note": "Consolidation review for OF 1–12 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/1-12.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Indiquer des données chiffrées",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « indiquer des données chiffrées ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les nombres et les démonstratifs.",
-          "promptEn": "In a workplace context, practise the function \"To use numbers\". Produce a short exchange (3–4 sentences) using: Numbers and demonstratives.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 1–12) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -84,7 +66,7 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
         "medium": 6,

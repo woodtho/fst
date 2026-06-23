@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF2",
   "titleFr": "Identifier des objets ou des documents",
   "titleEn": "To identify objects or documents",
   "level": "A",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/2-2005F",
     "text": "sources/text/OF02.txt"
@@ -13,42 +13,35 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF2 — To identify objects or documents. This objective develops the language needed to identify objects or documents in a Government of Canada workplace. Grammar focus: Articles and noun gender. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Identifier des objets ou des documents. Objectif communicatif appuyé par : Les articles et le genre des noms. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF2 — To identify objects or documents. Source document SC102-2/2-2005F. Grammar taught: articles. Vocabulary: the OF2 section of the PFL2 Lexique. 102 questions, all traceable to the PFL2 source (43 verbatim source activities + 59 from the OF2 Lexique).",
+        "fr": "Identifier des objets ou des documents. Document source SC102-2/2-2005F. Grammaire enseignée : articles. Vocabulaire : section OF2 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Articles and noun gender.",
+        "summary": "Grammar concepts taught in this objective (from the source document): articles.",
         "charts": [],
-        "points": [
-          "Les articles et le genre des noms (Articles and noun gender) — Choisir l'article — défini (le/la/l'/les), indéfini (un/une/des) ou partitif (du/de la/de l'/des) — selon le genre et le nombre du nom. C'est / ce sont pour identifier.",
-          "· Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-          "· Indéfinis : un (m.), une (f.), des (pluriel). Partitifs : du, de la, de l', des.",
-          "· Le genre se devine souvent par la terminaison : -tion/-sion/-ure/-tte/-ie → féminin ; -ment/-eau/-ier/-oir/-age → masculin (le e final n'est pas toujours féminin).",
-          "· C'est + nom singulier ; Ce sont + nom pluriel."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "102 questions, all traceable to the PFL2 source (43 verbatim source activities + 59 from the OF2 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 102
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 43
         },
         {
-          "title": "Grammaire",
-          "count": 8
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 59
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 102
     },
     "consolidation": {
       "sourceBooklet": {
@@ -60,20 +53,8 @@
         ],
         "catalogue": "SC102-2/47-1-2006F"
       },
-      "note": "Consolidation review for OF 1–12 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/1-12.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Identifier des objets ou des documents",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « identifier des objets ou des documents ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les articles et le genre des noms.",
-          "promptEn": "In a workplace context, practise the function \"To identify objects or documents\". Produce a short exchange (3–4 sentences) using: Articles and noun gender.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 1–12) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -85,7 +66,7 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
         "medium": 6,

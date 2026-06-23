@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF13",
   "titleFr": "Fournir de l’information sur un événement ou une habitude passés",
   "titleEn": "To give information about past events and habits",
   "level": "A",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/13-2005F",
     "text": "sources/text/OF13.txt"
@@ -13,53 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF13 — To give information about past events and habits. This objective develops the language needed to give information about past events and habits in a Government of Canada workplace. Grammar focus: The compound past, The imperfect, Agreement. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (120 questions) and consolidate.",
-        "fr": "Fournir de l’information sur un événement ou une habitude passés. Objectif communicatif appuyé par : Le passé composé, L’imparfait, Les accords. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (120 questions)."
+        "en": "OF13 — To give information about past events and habits. Source document SC102-2/13-2005F. Grammar taught: passe_compose, imparfait, agreement. Vocabulary: the OF13 section of the PFL2 Lexique. 57 questions, all traceable to the PFL2 source (0 verbatim source activities + 57 from the OF13 Lexique).",
+        "fr": "Fournir de l’information sur un événement ou une habitude passés. Document source SC102-2/13-2005F. Grammaire enseignée : passe_compose, imparfait, agreement. Vocabulaire : section OF13 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The compound past, The imperfect, Agreement.",
+        "summary": "Grammar concepts taught in this objective (from the source document): passe_compose, imparfait, agreement.",
         "charts": [],
-        "points": [
-          "Le passé composé (The compound past) — Action passée terminée : auxiliaire (avoir/être) au présent + participe passé. Avec être, accord du participe avec le sujet.",
-          "· Most verbs use avoir; no agreement with the subject.",
-          "· Movement/state-change verbs and pronominal verbs use être; participle agrees with subject.",
-          "· Regular participles: -er→-é, -ir→-i, -re→-u.",
-          "L’imparfait (The imperfect) — Description, habitude ou action en cours dans le passé. Radical = nous au présent sans -ons; terminaisons -ais, -ais, -ait, -ions, -iez, -aient.",
-          "· Stem from nous-present: nous travaillons → travaill-.",
-          "· Endings: -ais, -ais, -ait, -ions, -iez, -aient.",
-          "· être is irregular: ét- (j’étais).",
-          "Les accords (Agreement) — Les adjectifs et les participes passés (avec être) s’accordent en genre et en nombre; quel s’accorde avec son nom.",
-          "· Adjective ↔ noun (gender + number).",
-          "· Past participle with être ↔ subject.",
-          "· Past participle with avoir ↔ a preceding direct object only."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "57 questions, all traceable to the PFL2 source (0 verbatim source activities + 57 from the OF13 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 72
-        },
-        {
-          "title": "Grammaire",
-          "count": 24
-        },
-        {
-          "title": "Conjugaison",
-          "count": 24
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 57
         }
       ],
-      "totalQuestions": 120
+      "totalQuestions": 57
     },
     "consolidation": {
       "sourceBooklet": {
@@ -71,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
-      "note": "Consolidation review for OF 13–22 draws randomly from every objective in this range (including this OF's 120 questions). See /consolidation/13-22.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Fournir de l’information sur un événement ou une habitude passés",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « fournir de l’information sur un événement ou une habitude passés ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le passé composé, L’imparfait, Les accords.",
-          "promptEn": "In a workplace context, practise the function \"To give information about past events and habits\". Produce a short exchange (3–4 sentences) using: The compound past, The imperfect, Agreement.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 13–22) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -96,11 +62,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
-        "advanced": 4
+        "medium": 5,
+        "advanced": 0
       },
       "drawFrom": [
         "OF13"

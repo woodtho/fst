@@ -4,9 +4,9 @@
   "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
   "items": [
     {
-      "id": "itm_of1_src_act14_2",
+      "id": "itm_of1_src_a14_2",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "pronouns"
       ],
@@ -21,7 +21,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ es le patron.",
-        "instructions_en": "Complete with the correct subject pronoun."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -32,33 +32,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Tu ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « Tu ». Direct objects: le, la, les, l’.",
         "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "Direct objects: le, la, les, l’.",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
         "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
+          "Je le prépare.",
+          "Je les envoie."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 14
+        "activity": 14,
+        "concept": "pronouns"
       }
     },
     {
-      "id": "itm_of1_src_act14_3",
+      "id": "itm_of1_src_a14_3",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "pronouns"
       ],
@@ -73,7 +73,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ sommes des employées.",
-        "instructions_en": "Complete with the correct subject pronoun."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -84,33 +84,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Nous ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « Nous ». Direct objects: le, la, les, l’.",
         "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "Direct objects: le, la, les, l’.",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
         "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
+          "Je le prépare.",
+          "Je les envoie."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 14
+        "activity": 14,
+        "concept": "pronouns"
       }
     },
     {
-      "id": "itm_of1_src_act14_4",
+      "id": "itm_of1_src_a14_4",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "pronouns"
       ],
@@ -125,45 +125,44 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ suis programmeur.",
-        "instructions_en": "Complete with the correct subject pronoun."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "Je",
-          "j’"
+          "Je"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Je ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « Je ». Direct objects: le, la, les, l’.",
         "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "Direct objects: le, la, les, l’.",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
         "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
+          "Je le prépare.",
+          "Je les envoie."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 14
+        "activity": 14,
+        "concept": "pronouns"
       }
     },
     {
-      "id": "itm_of1_src_act14_5",
+      "id": "itm_of1_src_a14_5",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "pronouns"
       ],
@@ -178,46 +177,44 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ sont mécaniciens.",
-        "instructions_en": "Complete with the correct subject pronoun."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "Ils",
-          "ils",
-          "elles"
+          "Ils"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Ils ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « Ils ». Direct objects: le, la, les, l’.",
         "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "Direct objects: le, la, les, l’.",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
         "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
+          "Je le prépare.",
+          "Je les envoie."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 14
+        "activity": 14,
+        "concept": "pronouns"
       }
     },
     {
-      "id": "itm_of1_src_act14_6",
+      "id": "itm_of1_src_a14_6",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "pronouns"
       ],
@@ -232,7 +229,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ êtes analyste.",
-        "instructions_en": "Complete with the correct subject pronoun."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -243,89 +240,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Vous ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « Vous ». Direct objects: le, la, les, l’.",
         "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "Direct objects: le, la, les, l’.",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
         "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
+          "Je le prépare.",
+          "Je les envoie."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 14
+        "activity": 14,
+        "concept": "pronouns"
       }
     },
     {
-      "id": "itm_of1_src_act14_7",
+      "id": "itm_of1_src_a14_8",
       "objectiveId": "OF1",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "pronouns"
-      ],
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "___ est commis.",
-        "instructions_en": "Complete with the correct subject pronoun."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "Il",
-          "On",
-          "il",
-          "elle",
-          "on"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « Il ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
-        "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
-        "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
-        ]
-      },
-      "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
-        "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/1-2005F",
-        "activity": 14
-      }
-    },
-    {
-      "id": "itm_of1_src_act14_8",
-      "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "pronouns"
       ],
@@ -340,47 +281,44 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ est la patronne.",
-        "instructions_en": "Complete with the correct subject pronoun."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "Elle",
-          "il",
-          "elle",
-          "on"
+          "Elle"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Elle ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « Elle ». Direct objects: le, la, les, l’.",
         "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "Direct objects: le, la, les, l’.",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
         "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
+          "Je le prépare.",
+          "Je les envoie."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 14
+        "activity": 14,
+        "concept": "pronouns"
       }
     },
     {
-      "id": "itm_of1_src_act14_9",
+      "id": "itm_of1_src_a14_9",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "pronouns"
       ],
@@ -395,47 +333,44 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ est informaticienne.",
-        "instructions_en": "Complete with the correct subject pronoun."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "Elle",
-          "il",
-          "elle",
-          "on"
+          "Elle"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Elle ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « Elle ». Direct objects: le, la, les, l’.",
         "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "Direct objects: le, la, les, l’.",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
         "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
+          "Je le prépare.",
+          "Je les envoie."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 14
+        "activity": 14,
+        "concept": "pronouns"
       }
     },
     {
-      "id": "itm_of1_src_act14_10",
+      "id": "itm_of1_src_a14_10",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "pronouns"
       ],
@@ -450,46 +385,44 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ sont statisticiennes.",
-        "instructions_en": "Complete with the correct subject pronoun."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "Elles",
-          "ils",
-          "elles"
+          "Elles"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « Elles ». Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « Elles ». Direct objects: le, la, les, l’.",
         "distractor_why": {},
-        "grammar_rule": "Pronoms sujets : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "Direct objects: le, la, les, l’.",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 14).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "La forme du verbe révèle le pronom sujet.",
-        "pattern": "verbe → pronom sujet.",
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
         "similar": [
-          "Je suis…",
-          "Nous sommes…",
-          "Ils sont…"
+          "Je le prépare.",
+          "Je les envoie."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 14
+        "activity": 14,
+        "concept": "pronouns"
       }
     },
     {
-      "id": "itm_of1_src_act15_2",
+      "id": "itm_of1_src_a15_2",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -504,7 +437,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Nous ___ directeurs.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -515,33 +448,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « sommes ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « sommes ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act15_3",
+      "id": "itm_of1_src_a15_3",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -556,7 +489,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je ___ préposé à l’entretien.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -567,33 +500,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « suis ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « suis ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act15_4",
+      "id": "itm_of1_src_a15_4",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -608,7 +541,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elle ___ commissionnaire.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -619,33 +552,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « est ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « est ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act15_5",
+      "id": "itm_of1_src_a15_5",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -660,7 +593,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Vous ___ policier.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -671,33 +604,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « êtes ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « êtes ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act15_6",
+      "id": "itm_of1_src_a15_6",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -712,7 +645,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Il ___ documentaliste.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -723,33 +656,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « est ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « est ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act15_7",
+      "id": "itm_of1_src_a15_7",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -764,7 +697,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Tu ___ chercheuse.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -775,33 +708,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « es ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « es ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act15_8",
+      "id": "itm_of1_src_a15_8",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -816,7 +749,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Ils ___ traducteurs.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -827,33 +760,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « sont ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « sont ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act15_9",
+      "id": "itm_of1_src_a15_9",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -868,7 +801,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elles ___ professeures.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -879,33 +812,33 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « sont ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « sont ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act15_10",
+      "id": "itm_of1_src_a15_10",
       "objectiveId": "OF1",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "present"
       ],
@@ -920,7 +853,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "On ___ étudiantes.",
-        "instructions_en": "Complete with the present tense of the verb être."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -931,31 +864,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "La réponse attendue est « est ». Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "correct_why": "La réponse attendue est « est ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "distractor_why": {},
-        "grammar_rule": "Être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 15).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Accordez la forme d’être au sujet.",
-        "pattern": "sujet → forme d’être.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "Nous sommes…",
-          "Vous êtes…",
-          "Elles sont…"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 15
+        "activity": 15,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_2",
+      "id": "itm_of1_src_a17_2",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -972,7 +905,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je ___ (demeurer) à Chilliwack.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -983,31 +916,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « demeurer » donne « demeure » avec ce sujet.",
+        "correct_why": "Au présent : « demeurer » donne « demeure » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_3",
+      "id": "itm_of1_src_a17_3",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1024,7 +957,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Tu ___ (habiter) rue Laurier.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1035,31 +968,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « habiter » donne « habites » avec ce sujet.",
+        "correct_why": "Au présent : « habiter » donne « habites » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_4",
+      "id": "itm_of1_src_a17_4",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1076,7 +1009,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Ils ___ (habiter) en banlieue.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1087,31 +1020,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « habiter » donne « habitent » avec ce sujet.",
+        "correct_why": "Au présent : « habiter » donne « habitent » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_5",
+      "id": "itm_of1_src_a17_5",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1128,7 +1061,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elle ___ (travailler) à Montréal.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1139,31 +1072,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « travailler » donne « travaille » avec ce sujet.",
+        "correct_why": "Au présent : « travailler » donne « travaille » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_6",
+      "id": "itm_of1_src_a17_6",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1180,7 +1113,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Il ___ (demeurer) à Gatineau.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1191,31 +1124,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « demeurer » donne « demeure » avec ce sujet.",
+        "correct_why": "Au présent : « demeurer » donne « demeure » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_7",
+      "id": "itm_of1_src_a17_7",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1232,7 +1165,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elles ___ (travailler) à la fonction publique.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1243,31 +1176,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « travailler » donne « travaillent » avec ce sujet.",
+        "correct_why": "Au présent : « travailler » donne « travaillent » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_8",
+      "id": "itm_of1_src_a17_8",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1284,7 +1217,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Vous ___ (habiter) à Vancouver.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1295,31 +1228,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « habiter » donne « habitez » avec ce sujet.",
+        "correct_why": "Au présent : « habiter » donne « habitez » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_9",
+      "id": "itm_of1_src_a17_9",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1336,7 +1269,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Nous ___ (demeurer) tous au Canada.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1347,31 +1280,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « demeurer » donne « demeurons » avec ce sujet.",
+        "correct_why": "Au présent : « demeurer » donne « demeurons » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_10",
+      "id": "itm_of1_src_a17_10",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1388,7 +1321,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "On ___ (travailler) à Charlottetown.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1399,31 +1332,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « travailler » donne « travaille » avec ce sujet.",
+        "correct_why": "Au présent : « travailler » donne « travaille » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_11",
+      "id": "itm_of1_src_a17_11",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1440,7 +1373,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je ___ (travailler) à l’ordinateur.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1451,31 +1384,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « travailler » donne « travaille » avec ce sujet.",
+        "correct_why": "Au présent : « travailler » donne « travaille » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_12",
+      "id": "itm_of1_src_a17_12",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1492,7 +1425,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Paul ___ (habiter) maintenant à Ottawa.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1503,31 +1436,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « habiter » donne « habite » avec ce sujet.",
+        "correct_why": "Au présent : « habiter » donne « habite » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_13",
+      "id": "itm_of1_src_a17_13",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1544,7 +1477,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Ils ___ (être) commis à la paye.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1555,31 +1488,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « être » donne « sont » avec ce sujet.",
+        "correct_why": "Au présent : « être » donne « sont » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_14",
+      "id": "itm_of1_src_a17_14",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1596,7 +1529,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je ___ (chercher) un autre poste.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1607,31 +1540,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « chercher » donne « cherche » avec ce sujet.",
+        "correct_why": "Au présent : « chercher » donne « cherche » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_15",
+      "id": "itm_of1_src_a17_15",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1648,7 +1581,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elle ___ (être) un peu fatiguée de ce travail.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1659,31 +1592,31 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « être » donne « est » avec ce sujet.",
+        "correct_why": "Au présent : « être » donne « est » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
       }
     },
     {
-      "id": "itm_of1_src_act17_16",
+      "id": "itm_of1_src_a17_16",
       "objectiveId": "OF1",
       "skill": "writing",
       "grammarConcepts": [
@@ -1700,7 +1633,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Tous les jours, nous ___ (classer) des documents.",
-        "instructions_en": "Put the verb in the present tense."
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
       },
       "answer": {
         "type": "text",
@@ -1711,27 +1644,339 @@
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Au présent, « classer » donne « classons » avec ce sujet.",
+        "correct_why": "Au présent : « classer » donne « classons » avec ce sujet.",
         "distractor_why": {},
-        "grammar_rule": "Présent des verbes en -er : -e, -es, -e, -ons, -ez, -ent.",
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
         "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
         "common_mistakes": [
-          "se tromper de terminaison selon le sujet"
+          "se tromper de forme selon le contexte"
         ]
       },
       "tip": {
-        "memory_aid": "Radical + terminaison de la personne.",
-        "pattern": "infinitif sans -er + terminaison.",
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
         "similar": [
-          "je demeure",
-          "nous travaillons",
-          "ils habitent"
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
         ]
       },
       "source": {
         "verbatim": true,
         "catalogue": "SC102-2/1-2005F",
-        "activity": 17
+        "activity": 17,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of1_src_a17_17",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Hélène ___ (remplacer) le patron.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "remplace"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au présent : « remplacer » donne « remplace » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 17,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of1_src_a17_18",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Est-ce que vous ___ (habiter) encore dans le secteur Aylmer?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "habitez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au présent : « habiter » donne « habitez » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 17,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of1_src_a17_19",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Tu ___ (recommander) quel modèle?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "recommandes"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au présent : « recommander » donne « recommandes » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 17,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of1_src_a17_20",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elle ___ (manger) un hamburger.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "mange"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Au présent : « manger » donne « mange » avec ce sujet.",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 17).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 17,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of1_src_a23_2",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "– Finances. Good afternoon. – Monsieur Martineau, s’il vous plaît. – ___ – Philippe Desrochers. a.C’est de la part de qui? b.Est-ce que votre nom, c’est Jean-Guy Poirier?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "a"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « a ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 23,
+        "concept": "present"
+      }
+    },
+    {
+      "id": "itm_of1_src_a23_3",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "– Allô? – ___ – Oui, c’est bien ça. a.Est-ce que c’est le bureau de monsieur Moussa? b.Qui parle?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "a"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « a ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/1-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/1-2005F",
+        "activity": 23,
+        "concept": "present"
       }
     }
   ]

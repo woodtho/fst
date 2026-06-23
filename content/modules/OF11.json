@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF11",
   "titleFr": "Préciser comment accomplir une tâche",
   "titleEn": "To explain how to perform a task",
   "level": "A",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/11-2005F",
     "text": "sources/text/OF11.txt"
@@ -13,41 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF11 — To explain how to perform a task. This objective develops the language needed to explain how to perform a task in a Government of Canada workplace. Grammar focus: Adverbs of manner and the gerund. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Préciser comment accomplir une tâche. Objectif communicatif appuyé par : Les adverbes de manière et le gérondif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF11 — To explain how to perform a task. Source document SC102-2/11-2005F. Grammar taught: adverbs_manner. Vocabulary: the OF11 section of the PFL2 Lexique. 63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF11 Lexique).",
+        "fr": "Préciser comment accomplir une tâche. Document source SC102-2/11-2005F. Grammaire enseignée : adverbs_manner. Vocabulaire : section OF11 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Adverbs of manner and the gerund.",
+        "summary": "Grammar concepts taught in this objective (from the source document): adverbs_manner.",
         "charts": [],
-        "points": [
-          "Les adverbes de manière et le gérondif (Adverbs of manner and the gerund) — Préciser COMMENT une tâche est accomplie. L’adverbe de manière se forme souvent en ajoutant -ment à l’adjectif féminin (lente → lentement) et se place après le verbe. Le gérondif (en + participe présent : en parlant) exprime la manière/le moyen.",
-          "· Adverbe de manière : adjectif féminin + -ment (lente → lentement ; douce → doucement).",
-          "· Place : l’adverbe suit le verbe conjugué (Il travaille rapidement).",
-          "· Gérondif = en + participe présent (radical du « nous » présent + -ant) : en parlant, en travaillant."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF11 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 105
-        },
-        {
-          "title": "Grammaire",
-          "count": 5
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 63
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 63
     },
     "consolidation": {
       "sourceBooklet": {
@@ -59,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-1-2006F"
       },
-      "note": "Consolidation review for OF 1–12 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/1-12.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Préciser comment accomplir une tâche",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « préciser comment accomplir une tâche ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les adverbes de manière et le gérondif.",
-          "promptEn": "In a workplace context, practise the function \"To explain how to perform a task\". Produce a short exchange (3–4 sentences) using: Adverbs of manner and the gerund.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 1–12) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -84,10 +62,10 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
+        "medium": 5,
         "advanced": 0
       },
       "drawFrom": [

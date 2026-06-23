@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF21",
   "titleFr": "(Se) renseigner sur l’application de normes et de règlements",
   "titleEn": "To find out how to apply standards and regulations",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/21-2005F",
     "text": "sources/text/OF21.txt"
@@ -13,49 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF21 — To find out how to apply standards and regulations. This objective develops the language needed to find out how to apply standards and regulations in a Government of Canada workplace. Grammar focus: The present subjunctive, The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (112 questions) and consolidate.",
-        "fr": "(Se) renseigner sur l’application de normes et de règlements. Objectif communicatif appuyé par : Le subjonctif présent, Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (112 questions)."
+        "en": "OF21 — To find out how to apply standards and regulations. Source document SC102-2/21-2005F. Grammar taught: subjonctif, present. Vocabulary: the OF21 section of the PFL2 Lexique. 66 questions, all traceable to the PFL2 source (0 verbatim source activities + 66 from the OF21 Lexique).",
+        "fr": "(Se) renseigner sur l’application de normes et de règlements. Document source SC102-2/21-2005F. Grammaire enseignée : subjonctif, present. Vocabulaire : section OF21 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The present subjunctive, The present tense.",
+        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif, present.",
         "charts": [],
-        "points": [
-          "Le subjonctif présent (The present subjunctive) — Nécessité, volonté, émotion, doute, après que. Radical = ils au présent sans -ent; terminaisons -e, -es, -e, -ions, -iez, -ent. Irréguliers : être, avoir, faire, aller.",
-          "· Trigger: il faut que, vouloir que, être content que, douter que…",
-          "· Stem from ils-present (ils finissent → finiss-).",
-          "· Irregulars: que je sois, que j’aie, que je fasse, que j’aille.",
-          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
-          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
-          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
-          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "66 questions, all traceable to the PFL2 source (0 verbatim source activities + 66 from the OF21 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 72
-        },
-        {
-          "title": "Grammaire",
-          "count": 16
-        },
-        {
-          "title": "Conjugaison",
-          "count": 24
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 66
         }
       ],
-      "totalQuestions": 112
+      "totalQuestions": 66
     },
     "consolidation": {
       "sourceBooklet": {
@@ -67,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
-      "note": "Consolidation review for OF 13–22 draws randomly from every objective in this range (including this OF's 112 questions). See /consolidation/13-22.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — (Se) renseigner sur l’application de normes et de règlements",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « (se) renseigner sur l’application de normes et de règlements ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le subjonctif présent, Le présent de l’indicatif.",
-          "promptEn": "In a workplace context, practise the function \"To find out how to apply standards and regulations\". Produce a short exchange (3–4 sentences) using: The present subjunctive, The present tense.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 13–22) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -92,11 +62,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 4
+        "advanced": 0
       },
       "drawFrom": [
         "OF21"

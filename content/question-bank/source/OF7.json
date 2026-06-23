@@ -1,0 +1,1255 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF7",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of7_src_a21_2",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elle arrive au bureau. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle y arrive."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Elle y arrive. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a21_3",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Tu vas au bureau du patron. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tu y vas."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Tu y vas. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a21_4",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elles arrivent au bureau de poste. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles y arrivent."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Elles y arrivent. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a21_5",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Vous arrivez à l’hôtel. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Vous y arrivez."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Vous y arrivez. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a21_6",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Nous allons au Nunavut. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous y allons."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Nous y allons. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a21_7",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il arrive à l’ascenseur. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il y arrive."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Il y arrive. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a21_8",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Ils vont à la photocopie. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils y vont."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Ils y vont. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a21_9",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "On va aux Îles-de-la-Madeleine. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "On y va."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « On y va. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a21_10",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Tu arrives à Rimouski à 20 h. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tu y arrives à 20 h."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Tu y arrives à 20 h. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 21).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 21,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_2",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Vous arrivez des États-Unis. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Vous en arrivez."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Vous en arrivez. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_3",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Je sors de la classe. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "J'en sors."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « J'en sors. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_4",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Nous venons du concert. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous en venons."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Nous en venons. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_5",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Il arrive du cinéma. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il en arrive."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Il en arrive. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_6",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Vous arrivez du laboratoire. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Vous en arrivez."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Vous en arrivez. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_7",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "J’arrive des Îles-de-la-Baie-Georgienne. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "J'en arrive."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « J'en arrive. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_8",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Ils sortent de la bibliothèque. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Ils en sortent."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Ils en sortent. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_9",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Tu sors de Toronto par la rue Yonge. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Tu en sors."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Tu en sors. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a23_10",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elles arrivent de l’aéroport. ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elles en arrivent."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Elles en arrivent. ». Direct objects: le, la, les, l’.",
+        "distractor_why": {},
+        "grammar_rule": "Direct objects: le, la, les, l’.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 23).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 23,
+        "concept": "pronouns"
+      }
+    },
+    {
+      "id": "itm_of7_src_a34_2",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la réception ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la réception d"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la réception d ». Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 34).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + le = au (always contract).",
+        "pattern": "à+le=au, à+les=aux.",
+        "similar": [
+          "au ministère",
+          "aux employés"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 34,
+        "concept": "prepositions"
+      }
+    },
+    {
+      "id": "itm_of7_src_a34_3",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la réception ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la réception j"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la réception j ». Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 34).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + le = au (always contract).",
+        "pattern": "à+le=au, à+les=aux.",
+        "similar": [
+          "au ministère",
+          "aux employés"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 34,
+        "concept": "prepositions"
+      }
+    },
+    {
+      "id": "itm_of7_src_a34_4",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la salle d'attente ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la salle d'attente w"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la salle d'attente w ». Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 34).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + le = au (always contract).",
+        "pattern": "à+le=au, à+les=aux.",
+        "similar": [
+          "au ministère",
+          "aux employés"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 34,
+        "concept": "prepositions"
+      }
+    },
+    {
+      "id": "itm_of7_src_a34_5",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la réception ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la réception v"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la réception v ». Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 34).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + le = au (always contract).",
+        "pattern": "à+le=au, à+les=aux.",
+        "similar": [
+          "au ministère",
+          "aux employés"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 34,
+        "concept": "prepositions"
+      }
+    },
+    {
+      "id": "itm_of7_src_a34_6",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la pièce 1103 ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la pièce 1103 k"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la pièce 1103 k ». Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 34).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + le = au (always contract).",
+        "pattern": "à+le=au, à+les=aux.",
+        "similar": [
+          "au ministère",
+          "aux employés"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 34,
+        "concept": "prepositions"
+      }
+    },
+    {
+      "id": "itm_of7_src_a34_8",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "la pièce 1109 ___",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la pièce 1109 p"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « la pièce 1109 p ». Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/7-2005F, activité 34).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + le = au (always contract).",
+        "pattern": "à+le=au, à+les=aux.",
+        "similar": [
+          "au ministère",
+          "aux employés"
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/7-2005F",
+        "activity": 34,
+        "concept": "prepositions"
+      }
+    }
+  ]
+}

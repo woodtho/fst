@@ -1,0 +1,643 @@
+{
+  "schema": "source-items/v1",
+  "objectiveId": "OF9",
+  "note": "Verbatim fill-in-the-blank activities + answer keys extracted from the PFL2 source document.",
+  "items": [
+    {
+      "id": "itm_of9_src_a7_1",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elle arrivera jeudi ___.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "prochain"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « prochain ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_2",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "La réunion a lieu ___, à 10 h.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "aujourd’hui"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « aujourd’hui ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_4",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "La saison de la chasse finit ___ semaine.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "cette"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « cette ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_5",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Nous devons être prêts ___ un mois.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "dans"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « dans ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_7",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Elle t’appellera ___ soir.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "demain"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « demain ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_8",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "À ce ___-là, il n’y avait pas de problème de chômage.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "moment"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « moment ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_9",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "J’espère qu’ils arriveront ___ : je suis pressée. VERTICALEMENT",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "bientôt"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « bientôt ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_10",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Aujourd’hui, j’ai une entrevue; demain, je fais mon compte rendu et ___, je rencontre le client.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "après-demain"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « après-demain ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_11",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "La semaine ___, il y a eu plusieurs problèmes au laboratoire.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "dernière"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « dernière ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_12",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "___, les journaux parlent beaucoup de politique.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Actuellement"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Actuellement ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_13",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Vous avez besoin de ce document ___?",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "maintenant"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « maintenant ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    },
+    {
+      "id": "itm_of9_src_a7_14",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Hier, je ne suis pas venue au bureau et ___ non plus.",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avant-hier"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « avant-hier ». Most verbs use avoir; no agreement with the subject.",
+        "distractor_why": {},
+        "grammar_rule": "Most verbs use avoir; no agreement with the subject.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/9-2005F, activité 7).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/9-2005F",
+        "activity": 7,
+        "concept": "passe_compose"
+      }
+    }
+  ]
+}

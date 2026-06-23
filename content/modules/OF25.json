@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF25",
   "titleFr": "Indiquer les étapes d’un processus",
   "titleEn": "To indicate the steps in a process",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/25-2005F",
     "text": "sources/text/OF25.txt"
@@ -13,50 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF25 — To indicate the steps in a process. This objective develops the language needed to indicate the steps in a process in a Government of Canada workplace. Grammar focus: Logical connectors (sequence, cause, consequence, purpose), The present tense. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Indiquer les étapes d’un processus. Objectif communicatif appuyé par : Les connecteurs logiques (séquence, cause, conséquence, but), Le présent de l’indicatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF25 — To indicate the steps in a process. Source document SC102-2/25-2005F. Grammar taught: connectors, present. Vocabulary: the OF25 section of the PFL2 Lexique. 48 questions, all traceable to the PFL2 source (0 verbatim source activities + 48 from the OF25 Lexique).",
+        "fr": "Indiquer les étapes d’un processus. Document source SC102-2/25-2005F. Grammaire enseignée : connectors, present. Vocabulaire : section OF25 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Logical connectors (sequence, cause, consequence, purpose), The present tense.",
+        "summary": "Grammar concepts taught in this objective (from the source document): connectors, present.",
         "charts": [],
-        "points": [
-          "Les connecteurs logiques (séquence, cause, conséquence, but) (Logical connectors (sequence, cause, consequence, purpose)) — Relier les idées : SÉQUENCE (d'abord, ensuite, puis, enfin), CAUSE (parce que, car, à cause de, grâce à), CONSÉQUENCE (donc, alors, par conséquent, c'est pourquoi), BUT (pour + infinitif, pour que + subjonctif, afin de).",
-          "· Séquence : d'abord → ensuite/puis → enfin/finalement.",
-          "· Cause : parce que / car (+ proposition) ; à cause de / grâce à (+ nom).",
-          "· Conséquence : donc, alors, par conséquent, c'est pourquoi.",
-          "· But : pour / afin de + infinitif (même sujet) ; pour que / afin que + subjonctif (sujet différent).",
-          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
-          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
-          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
-          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "48 questions, all traceable to the PFL2 source (0 verbatim source activities + 48 from the OF25 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 85
-        },
-        {
-          "title": "Grammaire",
-          "count": 13
-        },
-        {
-          "title": "Conjugaison",
-          "count": 12
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 48
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 48
     },
     "consolidation": {
       "sourceBooklet": {
@@ -68,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-3-2006F"
       },
-      "note": "Consolidation review for OF 23–32 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/23-32.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Indiquer les étapes d’un processus",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « indiquer les étapes d’un processus ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les connecteurs logiques (séquence, cause, conséquence, but), Le présent de l’indicatif.",
-          "promptEn": "In a workplace context, practise the function \"To indicate the steps in a process\". Produce a short exchange (3–4 sentences) using: Logical connectors (sequence, cause, consequence, purpose), The present tense.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 23–32) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -93,10 +62,10 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
+        "medium": 4,
         "advanced": 0
       },
       "drawFrom": [

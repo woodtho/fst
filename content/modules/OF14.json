@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF14",
   "titleFr": "S’informer ou informer d’un événement",
   "titleEn": "To give or ask information about events and happenings",
   "level": "A",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/14-2005F",
     "text": "sources/text/OF14.txt"
@@ -13,46 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF14 — To give or ask information about events and happenings. This objective develops the language needed to give or ask information about events and happenings in a Government of Canada workplace. Grammar focus: Impersonal verbs, Question formation. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "S’informer ou informer d’un événement. Objectif communicatif appuyé par : Les verbes impersonnels, L’interrogation. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF14 — To give or ask information about events and happenings. Source document SC102-2/14-2005F. Grammar taught: impersonal, question_formation. Vocabulary: the OF14 section of the PFL2 Lexique. 15 questions, all traceable to the PFL2 source (0 verbatim source activities + 15 from the OF14 Lexique).",
+        "fr": "S’informer ou informer d’un événement. Document source SC102-2/14-2005F. Grammaire enseignée : impersonal, question_formation. Vocabulaire : section OF14 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Impersonal verbs, Question formation.",
+        "summary": "Grammar concepts taught in this objective (from the source document): impersonal, question_formation.",
         "charts": [],
-        "points": [
-          "Les verbes impersonnels (Impersonal verbs) — Verbes employés seulement avec « il » (sujet impersonnel) : il faut (il est nécessaire), il y a, il fait + météo, il est + adjectif + de + infinitif, il reste / il manque.",
-          "· il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
-          "· il y a + nom (présence) ; il fait + météo (il fait beau).",
-          "· il est + adjectif + DE + infinitif : il est important DE vérifier.",
-          "· il reste / il manque + nom : il reste deux jours.",
-          "L’interrogation (Question formation) — Questions fermées : intonation, est-ce que, inversion. Questions ouvertes : qui, que/quoi, où, quand, comment, pourquoi, combien, quel (accordé).",
-          "· Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
-          "· Information words: qui, que, où, quand, comment, pourquoi, combien.",
-          "· quel agrees in gender/number with its noun."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "15 questions, all traceable to the PFL2 source (0 verbatim source activities + 15 from the OF14 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 97
-        },
-        {
-          "title": "Grammaire",
-          "count": 13
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 15
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 15
     },
     "consolidation": {
       "sourceBooklet": {
@@ -64,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
-      "note": "Consolidation review for OF 13–22 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/13-22.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — S’informer ou informer d’un événement",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « s’informer ou informer d’un événement ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les verbes impersonnels, L’interrogation.",
-          "promptEn": "In a workplace context, practise the function \"To give or ask information about events and happenings\". Produce a short exchange (3–4 sentences) using: Impersonal verbs, Question formation.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 13–22) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -89,11 +62,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 525,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
-        "advanced": 2
+        "medium": 1,
+        "advanced": 0
       },
       "drawFrom": [
         "OF14"

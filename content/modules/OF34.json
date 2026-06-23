@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF34",
   "titleFr": "Proposer des solutions à un problème",
   "titleEn": "To put forward solutions to a problem",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/34-2005F",
     "text": "sources/text/OF34.txt"
@@ -13,53 +13,26 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF34 — To put forward solutions to a problem. This objective develops the language needed to put forward solutions to a problem in a Government of Canada workplace. Grammar focus: Si (conditional) clauses, The present conditional, The imperfect. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (120 questions) and consolidate.",
-        "fr": "Proposer des solutions à un problème. Objectif communicatif appuyé par : Les phrases avec « si », Le conditionnel présent, L’imparfait. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (120 questions)."
+        "en": "OF34 — To put forward solutions to a problem. Source document SC102-2/34-2005F. Grammar taught: si_clauses, conditionnel, imparfait. Vocabulary: the OF34 section of the PFL2 Lexique. No auto-extractable written questions in this objective's source materials (its activities are oral/listening/open-ended). Per the source-fidelity policy, no questions are generated here.",
+        "fr": "Proposer des solutions à un problème. Document source SC102-2/34-2005F. Grammaire enseignée : si_clauses, conditionnel, imparfait. Vocabulaire : section OF34 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Si (conditional) clauses, The present conditional, The imperfect.",
+        "summary": "Grammar concepts taught in this objective (from the source document): si_clauses, conditionnel, imparfait.",
         "charts": [],
-        "points": [
-          "Les phrases avec « si » (Si (conditional) clauses) — Type 1 (réel) : si + présent → futur. Type 2 (hypothétique) : si + imparfait → conditionnel. Jamais de futur/conditionnel après si.",
-          "· si + présent, … futur (real condition).",
-          "· si + imparfait, … conditionnel présent (hypothetical).",
-          "· No future or conditional directly after si.",
-          "Le conditionnel présent (The present conditional) — Politesse, hypothèses et « would ». Radical du futur + terminaisons de l’imparfait.",
-          "· Stem = future stem; endings = imperfect endings.",
-          "· Politeness: je voudrais, pourriez-vous, j’aimerais.",
-          "· Used in the result clause of si + imparfait.",
-          "L’imparfait (The imperfect) — Description, habitude ou action en cours dans le passé. Radical = nous au présent sans -ons; terminaisons -ais, -ais, -ait, -ions, -iez, -aient.",
-          "· Stem from nous-present: nous travaillons → travaill-.",
-          "· Endings: -ais, -ais, -ait, -ions, -iez, -aient.",
-          "· être is irregular: ét- (j’étais)."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
-      "exerciseSets": [
-        {
-          "title": "Vocabulaire (lexique source)",
-          "count": 72
-        },
-        {
-          "title": "Grammaire",
-          "count": 24
-        },
-        {
-          "title": "Conjugaison",
-          "count": 24
-        }
-      ],
-      "totalQuestions": 120
+      "sourceFidelity": true,
+      "coverage": "No auto-extractable written questions in this objective's source materials (its activities are oral/listening/open-ended). Per the source-fidelity policy, no questions are generated here.",
+      "exerciseSets": [],
+      "totalQuestions": 0
     },
     "consolidation": {
       "sourceBooklet": {
@@ -71,20 +44,8 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
-      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 120 questions). See /consolidation/33-40.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Proposer des solutions à un problème",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « proposer des solutions à un problème ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les phrases avec « si », Le conditionnel présent, L’imparfait.",
-          "promptEn": "In a workplace context, practise the function \"To put forward solutions to a problem\". Produce a short exchange (3–4 sentences) using: Si (conditional) clauses, The present conditional, The imperfect.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 33–40) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -96,11 +57,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 180,
       "blueprint": {
-        "easy": 8,
-        "medium": 6,
-        "advanced": 4
+        "easy": 0,
+        "medium": 0,
+        "advanced": 0
       },
       "drawFrom": [
         "OF34"

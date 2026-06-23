@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF33",
   "titleFr": "Exprimer un choix",
   "titleEn": "To express choice",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/33-2005F",
     "text": "sources/text/OF33.txt"
@@ -13,45 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF33 — To express choice. This objective develops the language needed to express choice in a Government of Canada workplace. Grammar focus: Pronouns, Comparatives and superlatives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Exprimer un choix. Objectif communicatif appuyé par : Les pronoms, Le comparatif et le superlatif. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF33 — To express choice. Source document SC102-2/33-2005F. Grammar taught: pronouns, comparatives. Vocabulary: the OF33 section of the PFL2 Lexique. 33 questions, all traceable to the PFL2 source (0 verbatim source activities + 33 from the OF33 Lexique).",
+        "fr": "Exprimer un choix. Document source SC102-2/33-2005F. Grammaire enseignée : pronouns, comparatives. Vocabulaire : section OF33 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Pronouns, Comparatives and superlatives.",
+        "summary": "Grammar concepts taught in this objective (from the source document): pronouns, comparatives.",
         "charts": [],
-        "points": [
-          "Les pronoms (Pronouns) — Remplacent les noms : objets directs (le/la/les), indirects (lui/leur), y, en, relatifs (qui/que). Ils se placent avant le verbe conjugué.",
-          "· Direct objects: le, la, les, l’.",
-          "· Indirect (à + person): lui, leur. y = à + thing/place; en = de + thing.",
-          "· Relative: qui (subject), que (object).",
-          "Le comparatif et le superlatif (Comparatives and superlatives) — plus/moins/aussi + adjectif + que; le/la/les plus/moins pour le superlatif. Irréguliers : bon→meilleur; bien→mieux.",
-          "· plus … que (more), moins … que (less), aussi … que (as).",
-          "· Superlative: le/la/les plus/moins + adjective.",
-          "· bon → meilleur (adj.); bien → mieux (adv.)."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "33 questions, all traceable to the PFL2 source (0 verbatim source activities + 33 from the OF33 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 94
-        },
-        {
-          "title": "Grammaire",
-          "count": 16
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 33
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 33
     },
     "consolidation": {
       "sourceBooklet": {
@@ -63,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
-      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/33-40.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Exprimer un choix",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « exprimer un choix ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les pronoms, Le comparatif et le superlatif.",
-          "promptEn": "In a workplace context, practise the function \"To express choice\". Produce a short exchange (3–4 sentences) using: Pronouns, Comparatives and superlatives.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 33–40) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -88,11 +62,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
-        "medium": 6,
-        "advanced": 4
+        "medium": 3,
+        "advanced": 0
       },
       "drawFrom": [
         "OF33"

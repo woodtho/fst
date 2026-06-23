@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF35",
   "titleFr": "Faire des prévisions",
   "titleEn": "To make forecasts",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/35-2005F",
     "text": "sources/text/OF35.txt"
@@ -13,49 +13,26 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF35 — To make forecasts. This objective develops the language needed to make forecasts in a Government of Canada workplace. Grammar focus: The simple future, The present conditional. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (112 questions) and consolidate.",
-        "fr": "Faire des prévisions. Objectif communicatif appuyé par : Le futur simple, Le conditionnel présent. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (112 questions)."
+        "en": "OF35 — To make forecasts. Source document SC102-2/35-2005F. Grammar taught: futur_simple, conditionnel. Vocabulary: the OF35 section of the PFL2 Lexique. No auto-extractable written questions in this objective's source materials (its activities are oral/listening/open-ended). Per the source-fidelity policy, no questions are generated here.",
+        "fr": "Faire des prévisions. Document source SC102-2/35-2005F. Grammaire enseignée : futur_simple, conditionnel. Vocabulaire : section OF35 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: The simple future, The present conditional.",
+        "summary": "Grammar concepts taught in this objective (from the source document): futur_simple, conditionnel.",
         "charts": [],
-        "points": [
-          "Le futur simple (The simple future) — Faits et intentions futurs. Terminaisons -ai, -as, -a, -ons, -ez, -ont sur l’infinitif. Radicaux irréguliers : être→ser-, avoir→aur-, aller→ir-, faire→fer-.",
-          "· Endings added to the infinitive (or stem): -ai, -as, -a, -ons, -ez, -ont.",
-          "· -re verbs drop the final -e: prendre → prendr-.",
-          "· Irregular stems: ser-, aur-, ir-, fer-, viendr-, pourr-, devr-.",
-          "Le conditionnel présent (The present conditional) — Politesse, hypothèses et « would ». Radical du futur + terminaisons de l’imparfait.",
-          "· Stem = future stem; endings = imperfect endings.",
-          "· Politeness: je voudrais, pourriez-vous, j’aimerais.",
-          "· Used in the result clause of si + imparfait."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
-      "exerciseSets": [
-        {
-          "title": "Vocabulaire (lexique source)",
-          "count": 72
-        },
-        {
-          "title": "Grammaire",
-          "count": 16
-        },
-        {
-          "title": "Conjugaison",
-          "count": 24
-        }
-      ],
-      "totalQuestions": 112
+      "sourceFidelity": true,
+      "coverage": "No auto-extractable written questions in this objective's source materials (its activities are oral/listening/open-ended). Per the source-fidelity policy, no questions are generated here.",
+      "exerciseSets": [],
+      "totalQuestions": 0
     },
     "consolidation": {
       "sourceBooklet": {
@@ -67,20 +44,8 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
-      "note": "Consolidation review for OF 33–40 draws randomly from every objective in this range (including this OF's 112 questions). See /consolidation/33-40.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Faire des prévisions",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « faire des prévisions ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le futur simple, Le conditionnel présent.",
-          "promptEn": "In a workplace context, practise the function \"To make forecasts\". Produce a short exchange (3–4 sentences) using: The simple future, The present conditional.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 33–40) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -92,11 +57,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 180,
       "blueprint": {
-        "easy": 8,
-        "medium": 6,
-        "advanced": 4
+        "easy": 0,
+        "medium": 0,
+        "advanced": 0
       },
       "drawFrom": [
         "OF35"

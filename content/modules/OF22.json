@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF22",
   "titleFr": "Préciser les modalités d’exécution (temps) d’un travail",
   "titleEn": "To give details about the time factors involved in a job",
   "level": "B",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/22-2005F",
     "text": "sources/text/OF22.txt"
@@ -13,45 +13,35 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF22 — To give details about the time factors involved in a job. This objective develops the language needed to give details about the time factors involved in a job in a Government of Canada workplace. Grammar focus: Expressions of quantity, Prepositions. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Préciser les modalités d’exécution (temps) d’un travail. Objectif communicatif appuyé par : Les expressions de quantité, Les prépositions. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF22 — To give details about the time factors involved in a job. Source document SC102-2/22-2005F. Grammar taught: quantity, prepositions. Vocabulary: the OF22 section of the PFL2 Lexique. 73 questions, all traceable to the PFL2 source (1 verbatim source activities + 72 from the OF22 Lexique).",
+        "fr": "Préciser les modalités d’exécution (temps) d’un travail. Document source SC102-2/22-2005F. Grammaire enseignée : quantity, prepositions. Vocabulaire : section OF22 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Expressions of quantity, Prepositions.",
+        "summary": "Grammar concepts taught in this objective (from the source document): quantity, prepositions.",
         "charts": [],
-        "points": [
-          "Les expressions de quantité (Expressions of quantity) — Exprimer une quantité non chiffrée et la répartition : beaucoup de, un peu de, peu de, assez de, trop de, plusieurs, quelques, un grand nombre de — suivis de DE sans article. Répartition : chaque (+ singulier), tout/toute/tous/toutes.",
-          "· Expression de quantité + DE + nom (sans article) : beaucoup DE dossiers, un peu DE café.",
-          "· plusieurs / quelques + nom directement (plusieurs messages, quelques dossiers).",
-          "· chaque + nom singulier (chaque employé). tout : tout (m.s.), toute (f.s.), tous (m.pl.), toutes (f.pl.).",
-          "Les prépositions (Prepositions) — Relient les mots et indiquent le lieu, le temps et la relation : à, de, en, dans, sur, chez. à+le=au; de+le=du.",
-          "· Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
-          "· Place: à (city), en/au (country), dans (inside), sur (on), chez (at someone's).",
-          "· Time: à (time), en (month/year), dans (in X time), depuis (since)."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "73 questions, all traceable to the PFL2 source (1 verbatim source activities + 72 from the OF22 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 96
+          "title": "Activités du programme PFL2 (verbatim)",
+          "count": 1
         },
         {
-          "title": "Grammaire",
-          "count": 14
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 72
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 73
     },
     "consolidation": {
       "sourceBooklet": {
@@ -63,20 +53,8 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
-      "note": "Consolidation review for OF 13–22 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/13-22.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Préciser les modalités d’exécution (temps) d’un travail",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « préciser les modalités d’exécution (temps) d’un travail ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les expressions de quantité, Les prépositions.",
-          "promptEn": "In a workplace context, practise the function \"To give details about the time factors involved in a job\". Produce a short exchange (3–4 sentences) using: Expressions of quantity, Prepositions.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 13–22) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -88,11 +66,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 1
+        "advanced": 0
       },
       "drawFrom": [
         "OF22"

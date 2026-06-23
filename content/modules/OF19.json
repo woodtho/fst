@@ -1,11 +1,11 @@
 {
-  "schema": "module/v1",
+  "schema": "module/v2",
   "objectiveId": "OF19",
   "titleFr": "Évaluer des choses",
   "titleEn": "To describe things and to express opinions",
   "level": "A",
   "estMinutes": 40,
-  "generated": true,
+  "sourceFidelity": true,
   "source": {
     "catalogue": "SC102-2/19-2005F",
     "text": "sources/text/OF19.txt"
@@ -13,45 +13,31 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF19 — To describe things and to express opinions. This objective develops the language needed to describe things and to express opinions in a Government of Canada workplace. Grammar focus: Comparatives and superlatives, Adjectives. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Évaluer des choses. Objectif communicatif appuyé par : Le comparatif et le superlatif, Les adjectifs. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF19 — To describe things and to express opinions. Source document SC102-2/19-2005F. Grammar taught: comparatives, adjectives. Vocabulary: the OF19 section of the PFL2 Lexique. 70 questions, all traceable to the PFL2 source (0 verbatim source activities + 70 from the OF19 Lexique).",
+        "fr": "Évaluer des choses. Document source SC102-2/19-2005F. Grammaire enseignée : comparatives, adjectives. Vocabulaire : section OF19 du Lexique PFL2."
       },
-      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
+      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Comparatives and superlatives, Adjectives.",
+        "summary": "Grammar concepts taught in this objective (from the source document): comparatives, adjectives.",
         "charts": [],
-        "points": [
-          "Le comparatif et le superlatif (Comparatives and superlatives) — plus/moins/aussi + adjectif + que; le/la/les plus/moins pour le superlatif. Irréguliers : bon→meilleur; bien→mieux.",
-          "· plus … que (more), moins … que (less), aussi … que (as).",
-          "· Superlative: le/la/les plus/moins + adjective.",
-          "· bon → meilleur (adj.); bien → mieux (adv.).",
-          "Les adjectifs (Adjectives) — S’accordent en genre et en nombre avec le nom. La plupart suivent le nom; quelques courts (BAGS) le précèdent.",
-          "· Feminine usually adds -e; plural adds -s.",
-          "· Most adjectives follow the noun (un rapport important).",
-          "· BANGS (beauty, age, number, goodness, size) precede: un grand bureau, une nouvelle employée."
-        ]
+        "points": []
       },
       "pronunciation": {
-        "points": [
-          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
-          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
-        ]
+        "points": []
       },
       "dialogues": [],
       "exampleTexts": []
     },
     "practice": {
+      "sourceFidelity": true,
+      "coverage": "70 questions, all traceable to the PFL2 source (0 verbatim source activities + 70 from the OF19 Lexique).",
       "exerciseSets": [
         {
-          "title": "Vocabulaire (lexique source)",
-          "count": 94
-        },
-        {
-          "title": "Grammaire",
-          "count": 16
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 70
         }
       ],
-      "totalQuestions": 110
+      "totalQuestions": 70
     },
     "consolidation": {
       "sourceBooklet": {
@@ -63,20 +49,8 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
-      "note": "Consolidation review for OF 13–22 draws randomly from every objective in this range (including this OF's 110 questions). See /consolidation/13-22.",
-      "tasks": [
-        {
-          "title": "Tâche de consolidation — Évaluer des choses",
-          "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « évaluer des choses ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le comparatif et le superlatif, Les adjectifs.",
-          "promptEn": "In a workplace context, practise the function \"To describe things and to express opinions\". Produce a short exchange (3–4 sentences) using: Comparatives and superlatives, Adjectives.",
-          "rubric": [
-            "addresses the communicative function",
-            "uses the target grammar correctly",
-            "workplace register (vous)"
-          ]
-        }
-      ]
+      "note": "Consolidation review (OF 13–22) draws only from the source-traceable banks of the objectives in this range.",
+      "tasks": []
     },
     "selfTest": {
       "sourceBooklet": {
@@ -88,11 +62,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 630,
+      "timedSeconds": 560,
       "blueprint": {
         "easy": 8,
         "medium": 6,
-        "advanced": 4
+        "advanced": 0
       },
       "drawFrom": [
         "OF19"
