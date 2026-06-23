@@ -13,7 +13,7 @@
     "present", "passe_compose", "imparfait", "futur_proche", "futur_simple",
     "conditionnel", "subjonctif", "pronouns", "prepositions", "adjectives",
     "negation", "question_formation", "agreement", "comparatives", "si_clauses",
-    "reported_speech"
+    "reported_speech", "articles"
   ],
   "vocabDomains": [
     "workplace", "government", "meetings", "administration", "travel",
@@ -21,7 +21,7 @@
   ],
   "objectives": [
     { "id": "OF1", "of": 1, "level": "A", "order": 1, "titleFr": "S’identifier et identifier des personnes", "titleEn": "To identify yourself and other people", "primarySkill": "speaking", "secondarySkills": ["listening", "vocabulary"], "themes": ["personal_info"], "grammarConcepts": ["present", "pronouns", "question_formation"], "vocabDomains": ["personal_info"], "source": { "catalogue": "SC102-2/1-2005F", "text": "sources/text/OF01.txt" }, "prereqs": [] },
-    { "id": "OF2", "of": 2, "level": "A", "order": 2, "titleFr": "Identifier des objets ou des documents", "titleEn": "To identify objects or documents", "primarySkill": "speaking", "secondarySkills": ["vocabulary", "writing"], "themes": ["workplace", "administration" ], "grammarConcepts": ["present", "agreement"], "vocabDomains": ["workplace", "administration"], "source": { "catalogue": "SC102-2/2-2005F", "text": "sources/text/OF02.txt" }, "prereqs": ["OF1"] },
+    { "id": "OF2", "of": 2, "level": "A", "order": 2, "titleFr": "Identifier des objets ou des documents", "titleEn": "To identify objects or documents", "primarySkill": "speaking", "secondarySkills": ["vocabulary", "writing"], "themes": ["workplace", "administration" ], "grammarConcepts": ["articles"], "vocabDomains": ["workplace", "administration"], "source": { "catalogue": "SC102-2/2-2005F", "text": "sources/text/OF02.txt" }, "prereqs": ["OF1"] },
     { "id": "OF3", "of": 3, "level": "A", "order": 3, "titleFr": "Exprimer des relations d’appartenance", "titleEn": "To express relationships of belonging", "primarySkill": "speaking", "secondarySkills": ["listening"], "themes": ["workplace", "public_service"], "grammarConcepts": ["present", "prepositions"], "vocabDomains": ["government", "workplace"], "source": { "catalogue": "SC102-2/3-2005F", "text": "sources/text/OF03.txt" }, "prereqs": ["OF1"] },
     { "id": "OF4", "of": 4, "level": "A", "order": 4, "titleFr": "Exprimer des relations de possession", "titleEn": "To express ownership", "primarySkill": "writing", "secondarySkills": ["speaking", "vocabulary"], "themes": ["personal_info", "descriptions"], "grammarConcepts": ["present", "adjectives", "agreement", "pronouns"], "vocabDomains": ["personal_info", "workplace"], "source": { "catalogue": "SC102-2/4-2005F", "text": "sources/text/OF04.txt" }, "prereqs": ["OF2"] },
     { "id": "OF5", "of": 5, "level": "A", "order": 5, "titleFr": "Indiquer où est une personne, un objet, un lieu", "titleEn": "To indicate where a person, an object or a place is", "primarySkill": "speaking", "secondarySkills": ["reading"], "themes": ["daily_life", "travel"], "grammarConcepts": ["prepositions", "negation", "pronouns"], "vocabDomains": ["workplace", "travel"], "source": { "catalogue": "SC102-2/5-2005F", "text": "sources/text/OF05.txt" }, "prereqs": ["OF3"] },
