@@ -48,17 +48,21 @@
             "itm_of32_subjonctif_1",
             "itm_of32_subjonctif_2",
             "itm_of32_subjonctif_3",
-            "itm_of32_subjonctif_4"
+            "itm_of32_subjonctif_4",
+            "itm_of32_subjonctif_5",
+            "itm_of32_subjonctif_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les phrases avec « si »",
           "itemRefs": [
-            "itm_of32_si_clauses_5",
-            "itm_of32_si_clauses_6",
             "itm_of32_si_clauses_7",
-            "itm_of32_si_clauses_8"
+            "itm_of32_si_clauses_8",
+            "itm_of32_si_clauses_9",
+            "itm_of32_si_clauses_10",
+            "itm_of32_si_clauses_11",
+            "itm_of32_si_clauses_12"
           ],
           "type": "mixed"
         }
@@ -98,11 +102,11 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
         "easy": 0,
-        "medium": 4,
-        "advanced": 4
+        "medium": 5,
+        "advanced": 3
       },
       "drawFrom": [
         "OF32"

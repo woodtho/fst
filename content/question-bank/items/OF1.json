@@ -1,510 +1,1057 @@
 {
   "schema": "items/v1",
   "objectiveId": "OF1",
-  "source": { "catalogue": "SC102-2/1-2005F", "note": "Items written to OF1 objectives; grounded in the source activities/answer keys, not reproduced verbatim." },
+  "source": {
+    "catalogue": "SC102-2/1-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
   "items": [
     {
-      "id": "itm_of1_etre_0001",
-      "objectiveId": "OF1", "skill": "grammar", "grammarConcepts": ["present"], "vocabDomains": ["workplace"],
-      "theme": "personal_info", "difficulty": "easy", "type": "mcq_single", "status": "live", "estTimeSec": 20, "irtB": -1.1,
-      "prompt": { "fr": "Complétez : « Tu ___ le patron. »", "en": "Complete: 'You are the boss.'", "instructions_en": "Choose the correct form of être." },
-      "answer": { "type": "choice", "accepted": ["es"], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "es", "tag": "correct" },
-        { "value": "est", "tag": "third_person" },
-        { "value": "suis", "tag": "first_person" },
-        { "value": "êtes", "tag": "vous_form" }
+      "id": "itm_of1_present_1",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
       ],
-      "explanation": {
-        "correct_why": "With « tu », the present tense of être is « es » → « Tu es le patron ».",
-        "distractor_why": {
-          "third_person": "« est » goes with il/elle/on (third person singular), not tu.",
-          "first_person": "« suis » goes with je (I am), not tu.",
-          "vous_form": "« êtes » goes with vous, not tu."
-        },
-        "grammar_rule": "être au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
-        "vocab_notes": "le patron / la patronne = the boss.",
-        "common_mistakes": ["mixing tu (es) with il/elle (est)", "using the vous form êtes with tu"]
-      },
-      "tip": { "memory_aid": "tu → eS (one S). il/elle → eST (with a T).", "pattern": "tu es · il est · vous êtes — the endings tell you the subject.", "similar": ["Tu es analyste.", "Tu es fonctionnaire?"] }
-    },
-    {
-      "id": "itm_of1_etre_0002",
-      "objectiveId": "OF1", "skill": "grammar", "grammarConcepts": ["present"], "vocabDomains": ["workplace"],
-      "theme": "personal_info", "difficulty": "easy", "type": "mcq_single", "status": "live", "estTimeSec": 20, "irtB": -1.0,
-      "prompt": { "fr": "Complétez : « Vous ___ analyste. »", "en": "Complete: 'You are an analyst.'", "instructions_en": "Choose the correct form of être." },
-      "answer": { "type": "choice", "accepted": ["êtes"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [
-        { "value": "êtes", "tag": "correct" },
-        { "value": "es", "tag": "tu_form" },
-        { "value": "est", "tag": "third_person" },
-        { "value": "sommes", "tag": "nous_form" }
+      "vocabDomains": [
+        "personal_info"
       ],
-      "explanation": {
-        "correct_why": "With « vous », être is « êtes » → « Vous êtes analyste ». Note the liaison: vous_z_êtes.",
-        "distractor_why": {
-          "tu_form": "« es » is the tu form; vous needs « êtes ».",
-          "third_person": "« est » is il/elle/on, not vous.",
-          "nous_form": "« sommes » is the nous form (we are)."
-        },
-        "grammar_rule": "vous êtes — one of only three irregular -es endings to memorize (vous êtes, vous faites, vous dites).",
-        "vocab_notes": "un(e) analyste — same form for masculine and feminine.",
-        "common_mistakes": ["writing 'vous es'", "forgetting the circumflex on êtes"]
+      "theme": "personal_info",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
+        "instructions_en": "Conjugate the -er verb for vous."
       },
-      "tip": { "memory_aid": "vous ÊTES — circumflex hat on the Ê.", "pattern": "vous + verb usually ends -ez, but être is irregular: êtes.", "similar": ["Vous êtes fonctionnaire?", "Vous êtes le directeur?"] }
-    },
-    {
-      "id": "itm_of1_etre_0003",
-      "objectiveId": "OF1", "skill": "grammar", "grammarConcepts": ["present"], "vocabDomains": ["workplace"],
-      "theme": "personal_info", "difficulty": "easy", "type": "mcq_single", "status": "live", "estTimeSec": 20, "irtB": -0.9,
-      "prompt": { "fr": "Complétez : « Nous ___ des employées. »", "en": "Complete: 'We are employees.'", "instructions_en": "Choose the correct form of être." },
-      "answer": { "type": "choice", "accepted": ["sommes"], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "sommes", "tag": "correct" },
-        { "value": "sont", "tag": "ils_form" },
-        { "value": "êtes", "tag": "vous_form" },
-        { "value": "est", "tag": "third_person" }
-      ],
-      "explanation": {
-        "correct_why": "With « nous », être is « sommes » → « Nous sommes des employées ».",
-        "distractor_why": {
-          "ils_form": "« sont » is ils/elles (they are), not nous.",
-          "vous_form": "« êtes » is vous, not nous.",
-          "third_person": "« est » is singular il/elle/on."
-        },
-        "grammar_rule": "nous sommes — the nous form of être (not the regular -ons you'd expect).",
-        "vocab_notes": "des employées (with -es) = female employees; des employés = male/mixed.",
-        "common_mistakes": ["using 'sont' for nous", "expecting a regular -ons ending"]
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
       },
-      "tip": { "memory_aid": "nous SOMMES — double M.", "pattern": "nous sommes · vous êtes · ils sont — the three plural forms of être.", "similar": ["Nous sommes collègues.", "Nous sommes au ministère."] }
-    },
-    {
-      "id": "itm_of1_pron_0001",
-      "objectiveId": "OF1", "skill": "grammar", "grammarConcepts": ["pronouns", "present"], "vocabDomains": ["workplace"],
-      "theme": "personal_info", "difficulty": "easy", "type": "mcq_single", "status": "live", "estTimeSec": 20, "irtB": -0.8,
-      "prompt": { "fr": "Complétez avec le pronom sujet : « ___ sont mécaniciens. »", "en": "Complete with the subject pronoun: '___ are mechanics.'", "instructions_en": "Pick the subject pronoun that matches the verb." },
-      "answer": { "type": "choice", "accepted": ["Ils"], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "Ils", "tag": "correct" },
-        { "value": "Il", "tag": "singular" },
-        { "value": "Nous", "tag": "wrong_person" },
-        { "value": "On", "tag": "on_singular" }
-      ],
-      "explanation": {
-        "correct_why": "The verb « sont » is third-person plural, so the subject is « ils » (or elles) → « Ils sont mécaniciens ».",
-        "distractor_why": {
-          "singular": "« Il » is singular and would take « est », not « sont ».",
-          "wrong_person": "« Nous » takes « sommes », not « sont ».",
-          "on_singular": "« On » is grammatically singular and takes « est »."
-        },
-        "grammar_rule": "Match the subject pronoun to the verb form: sont → ils/elles; est → il/elle/on; sommes → nous.",
-        "vocab_notes": "un mécanicien → des mécaniciens (m. pl.).",
-        "common_mistakes": ["pairing 'il' with the plural 'sont'", "treating 'on' as plural"]
-      },
-      "tip": { "memory_aid": "Read the verb first — it reveals the person. 'sont' = they.", "pattern": "Plural verb (sont) ⇒ plural pronoun (ils/elles).", "similar": ["Elles sont statisticiennes.", "Ils sont fonctionnaires."] }
-    },
-    {
-      "id": "itm_of1_pron_0002",
-      "objectiveId": "OF1", "skill": "grammar", "grammarConcepts": ["pronouns", "present"], "vocabDomains": ["workplace"],
-      "theme": "personal_info", "difficulty": "easy", "type": "mcq_single", "status": "live", "estTimeSec": 20, "irtB": -0.7,
-      "prompt": { "fr": "Complétez avec le pronom sujet : « ___ êtes analyste. »", "en": "Complete with the subject pronoun: '___ are an analyst.'", "instructions_en": "Pick the subject pronoun that matches the verb." },
-      "answer": { "type": "choice", "accepted": ["Vous"], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "Vous", "tag": "correct" },
-        { "value": "Nous", "tag": "nous_form" },
-        { "value": "Tu", "tag": "tu_form" },
-        { "value": "Ils", "tag": "ils_form" }
-      ],
-      "explanation": {
-        "correct_why": "« êtes » is the vous form, so the subject is « Vous » → « Vous êtes analyste ».",
-        "distractor_why": {
-          "nous_form": "« Nous » takes « sommes ».",
-          "tu_form": "« Tu » takes « es ».",
-          "ils_form": "« Ils » takes « sont »."
-        },
-        "grammar_rule": "êtes ⇒ vous. Each être form points to exactly one subject.",
-        "vocab_notes": "« Vous » can address one person politely or several people.",
-        "common_mistakes": ["pairing 'tu' with 'êtes'"]
-      },
-      "tip": { "memory_aid": "êtes ↔ vous, always.", "pattern": "Endings map 1:1 to subjects for être.", "similar": ["Vous êtes le patron?", "Vous êtes fonctionnaire?"] }
-    },
-    {
-      "id": "itm_of1_er_0001",
-      "objectiveId": "OF1", "skill": "writing", "grammarConcepts": ["present"], "vocabDomains": ["workplace"],
-      "theme": "workplace", "difficulty": "easy", "type": "fill_blank", "status": "live", "estTimeSec": 30, "irtB": -0.6,
-      "prompt": { "fr": "Mettez au présent : « Nous ___ (travailler) à la fonction publique. »", "en": "Put in the present: 'We work in the public service.'", "instructions_en": "Conjugate the -er verb." },
-      "answer": { "type": "text", "accepted": ["travaillons"], "normalizer": "fr_accent_insensitive_trim_lower" },
       "distractors": [],
       "explanation": {
-        "correct_why": "-er verbs with « nous » take the ending -ons: travailler → travaill + ons = « travaillons ».",
+        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
         "distractor_why": {
-          "infinitive": "« travailler » is the infinitive; nous needs a conjugated form.",
-          "wrong_ending": "« travaillез/travaille » are other persons' endings, not nous."
-        },
-        "grammar_rule": "Présent des verbes en -er : je -e, tu -es, il -e, nous -ons, vous -ez, ils -ent.",
-        "vocab_notes": "travailler à + place = to work at; la fonction publique = the public service.",
-        "common_mistakes": ["leaving the infinitive -er", "using -ez (vous) for nous"]
-      },
-      "tip": { "memory_aid": "nous → -ONS (think 'on' + s).", "pattern": "Drop -er, add the ending for the subject.", "similar": ["Nous demeurons à Ottawa.", "Nous classons des documents."] }
-    },
-    {
-      "id": "itm_of1_er_0002",
-      "objectiveId": "OF1", "skill": "writing", "grammarConcepts": ["present"], "vocabDomains": ["personal_info"],
-      "theme": "personal_info", "difficulty": "easy", "type": "fill_blank", "status": "live", "estTimeSec": 30, "irtB": -0.5,
-      "prompt": { "fr": "Mettez au présent : « Elles ___ (travailler) à Montréal. »", "en": "Put in the present: 'They work in Montreal.'", "instructions_en": "Conjugate the -er verb." },
-      "answer": { "type": "text", "accepted": ["travaillent"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "With « elles » (third-person plural), -er verbs take -ent: travaill + ent = « travaillent ». The -ent is silent.",
-        "distractor_why": {
-          "singular": "« travaille » is singular (il/elle); the subject 'elles' is plural.",
+          "wrong_ending": "-ons is nous, -ent is ils/elles.",
           "infinitive": "« travailler » is the infinitive."
         },
-        "grammar_rule": "ils/elles + -er verb → -ent (silent ending; sounds the same as the singular).",
-        "vocab_notes": "Note: 'elles travaillent' and 'elle travaille' sound identical — spelling shows the difference.",
-        "common_mistakes": ["writing the singular 'travaille' for a plural subject", "pronouncing the -ent"]
-      },
-      "tip": { "memory_aid": "ils/elles → -ENT (silent).", "pattern": "Spoken: singular and plural -er sound the same; written: -e vs -ent.", "similar": ["Ils habitent en banlieue.", "Elles classent des dossiers."] }
-    },
-    {
-      "id": "itm_of1_er_0003",
-      "objectiveId": "OF1", "skill": "writing", "grammarConcepts": ["present"], "vocabDomains": ["personal_info"],
-      "theme": "personal_info", "difficulty": "easy", "type": "fill_blank", "status": "live", "estTimeSec": 30, "irtB": -0.4,
-      "prompt": { "fr": "Mettez au présent : « Tu ___ (habiter) rue Laurier. »", "en": "Put in the present: 'You live on Laurier Street.'", "instructions_en": "Conjugate the -er verb." },
-      "answer": { "type": "text", "accepted": ["habites"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "With « tu », -er verbs take -es: habiter → habit + es = « habites ».",
-        "distractor_why": {
-          "no_s": "« habite » is the je/il/elle ending; tu needs the -s.",
-          "infinitive": "« habiter » is the infinitive."
-        },
-        "grammar_rule": "tu + -er verb → -es (silent s).",
-        "vocab_notes": "habiter (rue …) = to live (on … street); also: demeurer à.",
-        "common_mistakes": ["forgetting the -s with tu", "confusing habiter and demeurer usage"]
-      },
-      "tip": { "memory_aid": "tu always carries an -s on the verb (tu es, tu habites, tu travailles).", "pattern": "tu → -es for -er verbs.", "similar": ["Tu travailles à Gatineau?", "Tu demeures à Aylmer?"] }
-    },
-    {
-      "id": "itm_of1_titles_0001",
-      "objectiveId": "OF1", "skill": "vocabulary", "grammarConcepts": [], "vocabDomains": ["workplace", "government"],
-      "theme": "workplace", "difficulty": "easy", "type": "matching", "status": "live", "estTimeSec": 60, "irtB": -0.3,
-      "prompt": {
-        "fr": "Associez chaque titre anglais à son équivalent français.",
-        "en": "Match each English title to its French equivalent.",
-        "instructions_en": "Choose the French title for each role.",
-        "left": ["the manager", "the deputy minister", "the advisor (f.)", "the clerk", "the auditor (f.)"],
-        "right": ["la gestionnaire", "la sous-ministre", "la conseillère", "le commis", "la vérificatrice"]
-      },
-      "answer": { "type": "sequence", "accepted": ["la gestionnaire la sous-ministre la conseillère le commis la vérificatrice"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "the manager → la gestionnaire; the deputy minister → la sous-ministre; the advisor → la conseillère; the clerk → le commis; the auditor → la vérificatrice.",
-        "distractor_why": {},
-        "grammar_rule": "Many titles have masculine/feminine forms (un conseiller / une conseillère; un vérificateur / une vérificatrice). 'commis' and 'gestionnaire' don't change spelling but the article does.",
-        "vocab_notes": "le/la gestionnaire = manager; le sous-ministre / la sous-ministre = deputy minister; le commis = clerk.",
-        "common_mistakes": ["confusing gestionnaire (manager) with directeur (director)", "mismatching masculine/feminine forms"]
-      },
-      "tip": { "memory_aid": "Feminine titles often end -ère (conseillère) or -trice (vérificatrice).", "pattern": "-eur → -euse/-rice; -er → -ère for many job titles.", "similar": ["le directeur / la directrice", "le technicien / la technicienne"] }
-    },
-    {
-      "id": "itm_of1_int_0001",
-      "objectiveId": "OF1", "skill": "grammar", "grammarConcepts": ["question_formation"], "vocabDomains": ["personal_info"],
-      "theme": "telephone", "difficulty": "medium", "type": "mcq_single", "status": "live", "estTimeSec": 30, "irtB": 0.0,
-      "prompt": { "fr": "« – Allô, Jeannine? Comment ça va? – ___ – C’est Diane! »", "en": "'– Hello, Jeannine? How are you? – ___ – It's Diane!'", "instructions_en": "Choose the question that fits the answer 'It's Diane'." },
-      "answer": { "type": "choice", "accepted": ["Qui parle?"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [
-        { "value": "Qui parle?", "tag": "correct" },
-        { "value": "Quel est votre nom?", "tag": "too_formal_quel" },
-        { "value": "Vous travaillez ici?", "tag": "off_topic" }
-      ],
-      "explanation": {
-        "correct_why": "The reply « C’est Diane » identifies a person, so the question is « Qui parle? » (Who is speaking?) — natural on the phone.",
-        "distractor_why": {
-          "too_formal_quel": "« Quel est votre nom? » uses the formal vous and asks for a name in a formal register; here the speakers are familiar (Jeannine, ça va).",
-          "off_topic": "« Vous travaillez ici? » asks about working here, not who is calling."
-        },
-        "grammar_rule": "QUI asks about a person (subject): « Qui parle? », « Qui est à l’appareil? ».",
-        "vocab_notes": "Qui parle? / Qui est à l’appareil? = Who is speaking/calling? (phone).",
-        "common_mistakes": ["using 'quel' (which/what) when asking 'who'", "mixing tu/vous register with the situation"]
-      },
-      "tip": { "memory_aid": "QUI = who (a person). QUEL = which/what (+ a noun).", "pattern": "Answer is a person ⇒ question starts with Qui.", "similar": ["Qui est à l’appareil?", "C’est qui? (familier)"] }
-    },
-    {
-      "id": "itm_of1_int_0002",
-      "objectiveId": "OF1", "skill": "grammar", "grammarConcepts": ["question_formation", "agreement"], "vocabDomains": ["personal_info"],
-      "theme": "personal_info", "difficulty": "medium", "type": "mcq_single", "status": "live", "estTimeSec": 30, "irtB": 0.1,
-      "prompt": { "fr": "Complétez : « ___ est votre profession? »", "en": "Complete: 'What is your occupation?'", "instructions_en": "Choose the correct interrogative word (watch agreement)." },
-      "answer": { "type": "choice", "accepted": ["Quelle"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [
-        { "value": "Quelle", "tag": "correct" },
-        { "value": "Quel", "tag": "masculine" },
-        { "value": "Quels", "tag": "masc_plural" },
-        { "value": "Qui", "tag": "who_for_what" }
-      ],
-      "explanation": {
-        "correct_why": "« profession » is feminine singular, and quel agrees with its noun → « Quelle est votre profession? ».",
-        "distractor_why": {
-          "masculine": "« Quel » is masculine; profession is feminine.",
-          "masc_plural": "« Quels » is masculine plural; profession is singular.",
-          "who_for_what": "« Qui » asks 'who', but here we ask 'what' (an occupation)."
-        },
-        "grammar_rule": "Quel is an interrogative ADJECTIVE and agrees in gender/number: quel (m.s.), quelle (f.s.), quels (m.pl.), quelles (f.pl.).",
-        "vocab_notes": "la profession (f.) → quelle; le nom (m.) → quel; les prénoms (m.pl.) → quels.",
-        "common_mistakes": ["not agreeing quel with the noun", "using qui to ask 'what'"]
-      },
-      "tip": { "memory_aid": "Match quel to its noun like an adjective: quelle profession, quel nom.", "pattern": "quel + noun → agree in gender & number.", "similar": ["Quel est votre nom?", "Quelles sont vos fonctions?"] }
-    },
-    {
-      "id": "itm_of1_int_0003",
-      "objectiveId": "OF1", "skill": "grammar", "grammarConcepts": ["question_formation", "agreement"], "vocabDomains": ["personal_info"],
-      "theme": "personal_info", "difficulty": "medium", "type": "mcq_single", "status": "live", "estTimeSec": 30, "irtB": 0.2,
-      "prompt": { "fr": "Complétez : « ___ sont vos prénoms? »", "en": "Complete: 'What are your first names?'", "instructions_en": "Choose the correct interrogative word (watch agreement)." },
-      "answer": { "type": "choice", "accepted": ["Quels"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [
-        { "value": "Quels", "tag": "correct" },
-        { "value": "Quel", "tag": "singular" },
-        { "value": "Quelles", "tag": "feminine" },
-        { "value": "Quelle", "tag": "fem_singular" }
-      ],
-      "explanation": {
-        "correct_why": "« prénoms » is masculine plural and the verb is « sont », so → « Quels sont vos prénoms? ».",
-        "distractor_why": {
-          "singular": "« Quel » is singular; prénoms is plural (and verb 'sont' confirms plural).",
-          "feminine": "« Quelles » is feminine; prénom is masculine.",
-          "fem_singular": "« Quelle » is feminine singular; wrong on both counts."
-        },
-        "grammar_rule": "quels = masculine plural form of the interrogative adjective quel.",
-        "vocab_notes": "le prénom = first name; le nom (de famille) = last/family name.",
-        "common_mistakes": ["ignoring the plural verb 'sont' as a clue", "defaulting to 'quel' singular"]
-      },
-      "tip": { "memory_aid": "The verb 'sont' (plural) signals a plural quel → quels/quelles.", "pattern": "Plural noun + sont → quels (m.) / quelles (f.).", "similar": ["Quelles sont vos fonctions?", "Quels sont vos titres?"] }
-    },
-    {
-      "id": "itm_of1_int_0004",
-      "objectiveId": "OF1", "skill": "listening", "grammarConcepts": ["question_formation"], "vocabDomains": ["workplace"],
-      "theme": "telephone", "difficulty": "medium", "type": "mcq_single", "status": "live", "estTimeSec": 30, "irtB": 0.3,
-      "prompt": { "fr": "Au téléphone, pour demander qui appelle, on dit :", "en": "On the phone, to ask who is calling, you say:", "instructions_en": "Choose the phone-appropriate phrase." },
-      "answer": { "type": "choice", "accepted": ["C’est de la part de qui?"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [
-        { "value": "C’est de la part de qui?", "tag": "correct" },
-        { "value": "Quelle est votre profession?", "tag": "asks_job" },
-        { "value": "Vous êtes bien Paul Olivier?", "tag": "verifies_identity" }
-      ],
-      "explanation": {
-        "correct_why": "« C’est de la part de qui? » is the standard phone formula to ask who is calling.",
-        "distractor_why": {
-          "asks_job": "« Quelle est votre profession? » asks the person's job, not who is calling.",
-          "verifies_identity": "« Vous êtes bien Paul Olivier? » verifies a specific identity rather than asking who is calling."
-        },
-        "grammar_rule": "Set phone formulas: « C’est de la part de qui? », « Qui est à l’appareil? ».",
-        "vocab_notes": "à l’appareil = speaking (on the phone); de la part de = on behalf of / from.",
-        "common_mistakes": ["asking the job instead of the caller", "confusing 'verify identity' with 'ask who is calling'"]
-      },
-      "tip": { "memory_aid": "Phone = 'de la part de qui?' (from whom?).", "pattern": "Identify the function first: ask-who vs verify-who vs ask-job.", "similar": ["Qui est à l’appareil?", "Huguette Leroux, à l’appareil."] }
-    },
-    {
-      "id": "itm_of1_trans_0001",
-      "objectiveId": "OF1", "skill": "writing", "grammarConcepts": ["question_formation"], "vocabDomains": ["workplace"],
-      "theme": "workplace", "difficulty": "medium", "type": "fill_blank", "status": "live", "estTimeSec": 40, "irtB": 0.2,
-      "prompt": { "fr": "Transformez avec EST-CE QUE : « Vous êtes fonctionnaire. » → ___", "en": "Rewrite using est-ce que: 'You are a public servant.'", "instructions_en": "Write the est-ce que question." },
-      "answer": { "type": "text", "accepted": ["Est-ce que vous êtes fonctionnaire?", "Est-ce que vous êtes fonctionnaire"], "normalizer": "fr_accent_insensitive_trim_lower", "regex": "^est-?ce que vous etes fonctionnaire\\??$" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "Add « Est-ce que » before the statement: « Est-ce que vous êtes fonctionnaire? ». The word order of the statement does not change.",
-        "distractor_why": {
-          "inversion_mix": "« Êtes-vous… » is the inversion form, not the est-ce que form.",
-          "no_question": "Leaving it as a statement isn't a question transformation."
-        },
-        "grammar_rule": "Yes/no questions: (1) intonation, (2) Est-ce que + statement, (3) inversion (verb-subject).",
-        "vocab_notes": "un(e) fonctionnaire = a public servant.",
-        "common_mistakes": ["mixing est-ce que with inversion", "changing the subject-verb order after est-ce que"]
-      },
-      "tip": { "memory_aid": "Est-ce que = a question 'switch' you put in front; everything after stays the same.", "pattern": "Est-ce que + [statement] + ?", "similar": ["Est-ce que vous travaillez ici?", "Est-ce qu’ils sont fonctionnaires?"] }
-    },
-    {
-      "id": "itm_of1_trans_0002",
-      "objectiveId": "OF1", "skill": "writing", "grammarConcepts": ["question_formation"], "vocabDomains": ["workplace"],
-      "theme": "workplace", "difficulty": "medium", "type": "fill_blank", "status": "live", "estTimeSec": 40, "irtB": 0.4,
-      "prompt": { "fr": "Transformez par INVERSION : « Tu es fonctionnaire. » → ___", "en": "Rewrite using inversion: 'You are a public servant.'", "instructions_en": "Write the inversion question." },
-      "answer": { "type": "text", "accepted": ["Es-tu fonctionnaire?", "Es-tu fonctionnaire"], "normalizer": "fr_accent_insensitive_trim_lower", "regex": "^es-?tu fonctionnaire\\??$" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "Inversion reverses the subject pronoun and the verb, joined by a hyphen: « Tu es » → « Es-tu fonctionnaire? ».",
-        "distractor_why": {
-          "no_hyphen": "Inversion requires a hyphen between verb and pronoun: « Es-tu », not « Es tu ».",
-          "estceque_mix": "« Est-ce que tu es… » is the est-ce que form, not inversion."
-        },
-        "grammar_rule": "Inversion: verb + - + subject pronoun (Es-tu? Êtes-vous? Travaillez-vous?). Common with tu and vous.",
-        "vocab_notes": "fonctionnaire stays the same in the question.",
-        "common_mistakes": ["forgetting the hyphen", "confusing inversion with est-ce que"]
-      },
-      "tip": { "memory_aid": "Inversion = flip + hyphen: verb-pronoun.", "pattern": "[Verb]-[pronoun] + ?", "similar": ["Êtes-vous fonctionnaire?", "Travaillez-vous avec monsieur Leblanc?"] }
-    },
-    {
-      "id": "itm_of1_tv_0001",
-      "objectiveId": "OF1", "skill": "speaking", "grammarConcepts": ["pronouns"], "vocabDomains": ["workplace"],
-      "theme": "workplace", "difficulty": "medium", "type": "mcq_single", "status": "live", "estTimeSec": 25, "irtB": 0.1,
-      "prompt": { "fr": "Vous parlez à votre supérieur que vous connaissez peu. Vous employez :", "en": "You speak to a superior you barely know. You use:", "instructions_en": "Choose tu or vous for this situation." },
-      "answer": { "type": "choice", "accepted": ["vous"], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "vous", "tag": "correct" },
-        { "value": "tu", "tag": "too_familiar" }
-      ],
-      "explanation": {
-        "correct_why": "With a superior — especially someone you don't know well — you use « vous » to show distance and respect.",
-        "distractor_why": {
-          "too_familiar": "« tu » signals familiarity; using it with a superior you barely know is too informal."
-        },
-        "grammar_rule": "Use VOUS with: superiors, people you don't know, older people, clerks/service staff, in class. Use TU with: friends, children, close colleagues of your own age.",
-        "vocab_notes": "vouvoyer = to address as vous; tutoyer = to address as tu.",
-        "common_mistakes": ["defaulting to tu in professional settings", "switching to tu before it's invited"]
-      },
-      "tip": { "memory_aid": "At work, when in doubt → VOUS.", "pattern": "Distance/respect ⇒ vous; closeness/familiarity ⇒ tu.", "similar": ["Vous êtes le directeur?", "Comment vous appelez-vous?"] }
-    },
-    {
-      "id": "itm_of1_tv_0002",
-      "objectiveId": "OF1", "skill": "speaking", "grammarConcepts": ["pronouns"], "vocabDomains": ["personal_info"],
-      "theme": "daily_life", "difficulty": "medium", "type": "mcq_single", "status": "live", "estTimeSec": 25, "irtB": 0.0,
-      "prompt": { "fr": "Vous parlez à un ami proche du même âge. Vous employez :", "en": "You speak to a close friend your own age. You use:", "instructions_en": "Choose tu or vous for this situation." },
-      "answer": { "type": "choice", "accepted": ["tu"], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "tu", "tag": "correct" },
-        { "value": "vous", "tag": "too_distant" }
-      ],
-      "explanation": {
-        "correct_why": "With a close friend your own age, « tu » is the natural, familiar choice.",
-        "distractor_why": {
-          "too_distant": "« vous » would sound oddly distant/formal between close friends."
-        },
-        "grammar_rule": "TU shows familiarity (friends, peers your age, children); VOUS shows distance/respect.",
-        "vocab_notes": "« Comment vas-tu? » (tu) vs « Comment allez-vous? » (vous).",
-        "common_mistakes": ["over-using vous with peers", "mismatching the verb form to tu/vous"]
-      },
-      "tip": { "memory_aid": "Friends & peers = tu; bosses & strangers = vous.", "pattern": "Choose the pronoun, then match the verb (tu es / vous êtes).", "similar": ["Salut, comment vas-tu?", "Et toi, comment t’appelles-tu?"] }
-    },
-    {
-      "id": "itm_of1_strat_0001",
-      "objectiveId": "OF1", "skill": "speaking", "grammarConcepts": [], "vocabDomains": ["workplace"],
-      "theme": "workplace", "difficulty": "medium", "type": "matching", "status": "live", "estTimeSec": 70, "irtB": 0.2,
-      "prompt": {
-        "fr": "Associez chaque énoncé à la stratégie de communication.",
-        "en": "Match each expression to the communication strategy it performs.",
-        "instructions_en": "Pick the strategy each phrase performs.",
-        "left": [
-          "Pourriez-vous répéter, s’il vous plaît?",
-          "Pouvez-vous parler plus fort, s’il vous plaît?",
-          "Qu’est-ce que ça veut dire?",
-          "Comment dit-on ça en français?",
-          "Pourriez-vous épeler votre nom?"
-        ],
-        "right": [
-          "demander de répéter",
-          "demander de parler plus fort",
-          "demander d’expliquer un mot",
-          "demander l’équivalent français",
-          "demander d’épeler"
+        "grammar_rule": "vous + -er → -ez.",
+        "vocab_notes": "la Direction des opérations = the Operations Branch.",
+        "common_mistakes": [
+          "using -ons or the infinitive for vous"
         ]
       },
-      "answer": { "type": "sequence", "accepted": ["demander de répéter demander de parler plus fort demander d’expliquer un mot demander l’équivalent français demander d’épeler"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« Pourriez-vous répéter? » = ask to repeat; « parler plus fort » = ask to speak louder; « Qu’est-ce que ça veut dire? » = ask the meaning; « Comment dit-on ça en français? » = ask the French equivalent; « épeler » = ask to spell.",
-        "distractor_why": {},
-        "grammar_rule": "These are fixed communication-strategy formulas; recognizing the verb (répéter, expliquer, épeler) identifies the function.",
-        "vocab_notes": "épeler = to spell; vouloir dire / signifier = to mean; plus fort = louder; plus lentement = slower.",
-        "common_mistakes": ["confusing 'ask the meaning' with 'ask the equivalent'", "mixing louder vs slower"]
-      },
-      "tip": { "memory_aid": "Listen for the key verb: répéter / expliquer / traduire / épeler.", "pattern": "Each repair strategy has its own signal verb.", "similar": ["Que veut dire le mot…?", "Comment est-ce qu’on dit ça en français?"] }
+      "tip": {
+        "memory_aid": "vous → -EZ.",
+        "pattern": "Drop -er, add the subject ending.",
+        "similar": [
+          "Vous préparez l’ordre du jour.",
+          "Vous classez les dossiers."
+        ]
+      }
     },
     {
-      "id": "itm_of1_build_0001",
-      "objectiveId": "OF1", "skill": "writing", "grammarConcepts": ["present"], "vocabDomains": ["workplace"],
-      "theme": "personal_info", "difficulty": "medium", "type": "sentence_build", "status": "live", "estTimeSec": 45, "irtB": 0.1,
+      "id": "itm_of1_present_2",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
       "prompt": {
-        "fr": "Remettez les mots dans l’ordre pour vous présenter.",
-        "en": "Put the words in order to introduce yourself.",
-        "instructions_en": "Drag the tokens to build the sentence.",
-        "tokens": ["Je", "suis", "analyste", "à", "la Commission de la fonction publique"]
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
       },
-      "answer": { "type": "sequence", "accepted": ["Je suis analyste à la Commission de la fonction publique"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "Order: subject + être + profession + à + workplace → « Je suis analyste à la Commission de la fonction publique ».",
-        "distractor_why": {
-          "no_article": "French drops no article here: 'Je suis analyste' (no 'un' with a bare profession after être).",
-          "wrong_order": "The workplace phrase (à + place) comes after the profession."
-        },
-        "grammar_rule": "After être, a profession is used without an article: « Je suis analyste » (not 'un analyste'). Add « à + workplace » for where you work.",
-        "vocab_notes": "à la Commission de la fonction publique = at the Public Service Commission.",
-        "common_mistakes": ["adding 'un/une' before a bare profession after être", "putting the workplace before the profession"]
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
       },
-      "tip": { "memory_aid": "Je suis + job (no article) + à + place.", "pattern": "subject + être + profession + à + lieu.", "similar": ["Je suis fonctionnaire à Santé Canada.", "Elle est directrice à Patrimoine canadien."] }
-    },
-    {
-      "id": "itm_of1_ec_0001",
-      "objectiveId": "OF1", "skill": "writing", "grammarConcepts": ["question_formation"], "vocabDomains": ["workplace"],
-      "theme": "workplace", "difficulty": "advanced", "type": "error_correction", "status": "live", "estTimeSec": 40, "irtB": 0.6,
-      "prompt": { "fr": "Corrigez : « Est ce que vous etes le directeur ? »", "en": "Correct: 'Are you the director?'", "instructions_en": "Rewrite the question correctly (hyphen, accent)." },
-      "answer": { "type": "text", "accepted": ["Est-ce que vous êtes le directeur?", "Est-ce que vous êtes le directeur"], "normalizer": "fr_accent_insensitive_trim_lower", "regex": "^est-ce que vous etes le directeur ?\\??$" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« Est-ce que » is written with hyphens, and « êtes » needs its circumflex → « Est-ce que vous êtes le directeur? ».",
-        "distractor_why": {
-          "missing_hyphens": "« Est ce que » must be hyphenated: « Est-ce que ».",
-          "missing_accent": "« etes » should be « êtes » (circumflex)."
-        },
-        "grammar_rule": "The fixed phrase is spelled « est-ce que » (with hyphens); the present of vous + être is « êtes ».",
-        "vocab_notes": "le directeur / la directrice = the director.",
-        "common_mistakes": ["omitting hyphens in est-ce que", "dropping the circumflex on êtes"]
-      },
-      "tip": { "memory_aid": "est-ce que is one hyphenated unit; êtes wears a hat (ê).", "pattern": "Spelling counts: est-ce que + vous êtes.", "similar": ["Est-ce que vous êtes fonctionnaire?", "Est-ce qu’elle est analyste?"] }
-    },
-    {
-      "id": "itm_of1_fn_0001",
-      "objectiveId": "OF1", "skill": "speaking", "grammarConcepts": ["question_formation"], "vocabDomains": ["workplace"],
-      "theme": "workplace", "difficulty": "advanced", "type": "mcq_single", "status": "live", "estTimeSec": 40, "irtB": 0.7,
-      "prompt": { "fr": "Vous arrivez à une réunion et vous voulez vérifier l’identité de la personne présente (vous la rencontrez pour la première fois). Vous dites :", "en": "You arrive at a meeting and want to verify the identity of the person there (first meeting). You say:", "instructions_en": "Choose the best identity-verification line." },
-      "answer": { "type": "choice", "accepted": ["Bonjour, vous êtes bien madame Tremblay?"], "normalizer": "fr_accent_insensitive_trim_lower" },
       "distractors": [
-        { "value": "Bonjour, vous êtes bien madame Tremblay?", "tag": "correct" },
-        { "value": "Comment t’appelles-tu?", "tag": "wrong_register" },
-        { "value": "Qu’est-ce que ça veut dire?", "tag": "wrong_function" }
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
       ],
       "explanation": {
-        "correct_why": "To verify a specific person's identity politely, use « Vous êtes bien madame Tremblay? » — vous register, with « bien » to confirm.",
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
         "distractor_why": {
-          "wrong_register": "« Comment t’appelles-tu? » uses tu (too familiar for a first professional meeting) and asks a name rather than verifying a known one.",
-          "wrong_function": "« Qu’est-ce que ça veut dire? » is a clarification strategy (asking a word's meaning), not identity verification."
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
         },
-        "grammar_rule": "Identity verification formulas: « Vous êtes bien …? », « C’est bien madame …? ».",
-        "vocab_notes": "« bien » here = 'indeed/really', confirming you have the right person.",
-        "common_mistakes": ["using tu in a formal first meeting", "confusing verifying identity with asking a name"]
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
       },
-      "tip": { "memory_aid": "Verify = 'Vous êtes BIEN …?' (the 'bien' confirms).", "pattern": "Match the formula to the function: ask-name vs verify-identity vs clarify.", "similar": ["C’est bien madame Renaud?", "Vous êtes bien le technicien?"] }
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
+        ]
+      }
     },
     {
-      "id": "itm_of1_fn_0002",
-      "objectiveId": "OF1", "skill": "speaking", "grammarConcepts": ["pronouns"], "vocabDomains": ["workplace"],
-      "theme": "meetings", "difficulty": "advanced", "type": "mcq_single", "status": "live", "estTimeSec": 40, "irtB": 0.8,
-      "prompt": { "fr": "Vous présentez votre collègue Mélanie (analyste) à votre gestionnaire. Vous dites :", "en": "You introduce your colleague Mélanie (analyst) to your manager. You say:", "instructions_en": "Choose the best third-person introduction." },
-      "answer": { "type": "choice", "accepted": ["Je vous présente Mélanie. Elle est analyste."], "normalizer": "fr_accent_insensitive_trim_lower" },
+      "id": "itm_of1_present_3",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_present_4",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 22,
+      "irtB": -0.7,
+      "prompt": {
+        "fr": "Complétez : « Le directeur ___ (vendre) l’ancien équipement. »",
+        "instructions_en": "Present tense of the -re verb (3rd sing.)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "vend"
+        ],
+        "normalizer": "trim_lower"
+      },
       "distractors": [
-        { "value": "Je vous présente Mélanie. Elle est analyste.", "tag": "correct" },
-        { "value": "Je me présente : Mélanie, analyste.", "tag": "self_intro" },
-        { "value": "Tu es analyste, Mélanie?", "tag": "question_not_intro" }
+        {
+          "value": "vend",
+          "tag": "correct"
+        },
+        {
+          "value": "vends",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "vendent",
+          "tag": "plural"
+        },
+        {
+          "value": "vendre",
+          "tag": "infinitive"
+        }
       ],
       "explanation": {
-        "correct_why": "To introduce a third person formally: « Je vous présente Mélanie. Elle est analyste. » — present her, then identify her role in the third person.",
+        "correct_why": "-re verbs drop -re; il/elle has no ending: vendre → « vend ».",
         "distractor_why": {
-          "self_intro": "« Je me présente… » introduces YOURSELF, not a third person.",
-          "question_not_intro": "« Tu es analyste, Mélanie? » is a question to Mélanie, not an introduction to the manager (and tu is too familiar here)."
+          "wrong_person": "« vends » is je/tu.",
+          "plural": "« vendent » is ils/elles.",
+          "infinitive": "« vendre » is the infinitive."
         },
-        "grammar_rule": "Introducing others: « Je vous présente [name]. Il/Elle est [role]. » Use vous to the manager; third-person (il/elle) for the person introduced.",
-        "vocab_notes": "présenter quelqu’un à quelqu’un = to introduce someone to someone; se présenter = to introduce oneself.",
-        "common_mistakes": ["confusing 'je vous présente' (introduce another) with 'je me présente' (introduce self)", "using tu to a manager"]
+        "grammar_rule": "-re : -s, -s, –, -ons, -ez, -ent (il form has no ending).",
+        "vocab_notes": "vendre = to sell; l’équipement = equipment.",
+        "common_mistakes": [
+          "adding -t or -d ending to the il form of -re verbs"
+        ]
       },
-      "tip": { "memory_aid": "me présente = myself; vous présente = someone else to you.", "pattern": "Je vous présente X. Il/Elle est … / Il/Elle travaille à …", "similar": ["Je vous présente notre nouveau secrétaire, Denis.", "Je te présente mon ami, Luc."] }
+      "tip": {
+        "memory_aid": "-re il form = bare stem (vend, attend, répond).",
+        "pattern": "il/elle -re → no ending.",
+        "similar": [
+          "Il attend la réponse.",
+          "Elle répond au courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_present_5",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.5,
+      "prompt": {
+        "fr": "Mettez au présent : « Nous ___ (choisir) un fournisseur. »",
+        "instructions_en": "Conjugate the -ir verb for nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "choisissons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-ir (type finir) with nous: choisir → chois + issons = « choisissons ».",
+        "distractor_why": {
+          "wrong": "« choisons » drops the -iss- infix required by -ir verbs.",
+          "infinitive": "« choisir » is the infinitive."
+        },
+        "grammar_rule": "-ir verbs: nous -issons, vous -issez, ils -issent (with -iss-).",
+        "vocab_notes": "choisir = to choose; un fournisseur = a supplier.",
+        "common_mistakes": [
+          "dropping the -iss- in the plural of -ir verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-ir plurals add -iss- (finissons, choisissons).",
+        "pattern": "nous -ir → -issons.",
+        "similar": [
+          "Nous finissons à 17 h.",
+          "Ils réfléchissent à l’offre."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_present_6",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Remettez les mots dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Je",
+          "prépare",
+          "l’ordre du jour",
+          "de la réunion"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Je prépare l’ordre du jour de la réunion"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Order: subject + present verb + object + complement → « Je prépare l’ordre du jour de la réunion ».",
+        "distractor_why": {},
+        "grammar_rule": "Basic French word order: subject + verb + object.",
+        "vocab_notes": "l’ordre du jour = the agenda.",
+        "common_mistakes": [
+          "splitting the noun phrase « l’ordre du jour »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "S-V-O, then details.",
+        "pattern": "subject + verb + object + (de…).",
+        "similar": [
+          "Je vérifie les chiffres du rapport.",
+          "Elle envoie le compte rendu de la séance."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_pronouns_7",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Remplacez : « Je parle au directeur. » → « Je ___ parle. »",
+        "instructions_en": "Replace 'au directeur' with the right pronoun."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "lui"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "lui",
+          "tag": "correct"
+        },
+        {
+          "value": "le",
+          "tag": "direct"
+        },
+        {
+          "value": "y",
+          "tag": "y_for_person"
+        },
+        {
+          "value": "leur",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« parler à quelqu’un » takes an indirect object; à + one person → « lui » → « Je lui parle ».",
+        "distractor_why": {
+          "direct": "« le » is a direct object pronoun; parler uses à (indirect).",
+          "y_for_person": "« y » replaces à + thing/place, not a person.",
+          "plural": "« leur » is for several people."
+        },
+        "grammar_rule": "Indirect object (à + person): lui (singular), leur (plural).",
+        "vocab_notes": "parler à = to speak to.",
+        "common_mistakes": [
+          "using y for a person",
+          "using le instead of lui"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à + person → lui/leur.",
+        "pattern": "Verb + à + person ⇒ indirect pronoun.",
+        "similar": [
+          "Je leur écris.",
+          "Tu lui téléphones."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_pronouns_8",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Relatif : « C’est le dossier ___ je cherche. »",
+        "instructions_en": "Choose qui or que."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "que",
+          "tag": "correct"
+        },
+        {
+          "value": "qui",
+          "tag": "subject"
+        },
+        {
+          "value": "dont",
+          "tag": "de_relative"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« je cherche [le dossier] » — the dossier is the direct object of cherche, so the relative pronoun is « que ».",
+        "distractor_why": {
+          "subject": "« qui » is used when the relative is the subject (le dossier qui est sur le bureau).",
+          "de_relative": "« dont » replaces de + noun (le dossier dont j’ai besoin)."
+        },
+        "grammar_rule": "qui = subject of the relative clause; que = direct object.",
+        "vocab_notes": "chercher = to look for (no preposition).",
+        "common_mistakes": [
+          "confusing qui (subject) and que (object)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "que + subject+verb; qui + verb directly.",
+        "pattern": "If a subject follows, use que; if a verb follows, use qui.",
+        "similar": [
+          "le rapport que j’ai écrit",
+          "le collègue qui travaille ici"
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_pronouns_9",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Remplacez « des dossiers » : « J’ai trois dossiers. → J’___ ai trois. »",
+        "instructions_en": "Use the pronoun en."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "en"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« en » replaces de/des + noun and is kept with quantities: « J’en ai trois » (I have three of them).",
+        "distractor_why": {
+          "les": "« les » would drop the number; with a quantity you keep « en » + number.",
+          "y": "« y » replaces à + thing/place, not a quantity."
+        },
+        "grammar_rule": "en replaces de + noun and stays with expressions of quantity.",
+        "vocab_notes": "un dossier = a file/case.",
+        "common_mistakes": [
+          "dropping en with quantities",
+          "using les with a number"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantity → keep « en » + number.",
+        "pattern": "J’en ai trois / beaucoup / assez.",
+        "similar": [
+          "Des réunions? J’en ai deux.",
+          "Du café? J’en veux."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_pronouns_10",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Associez le complément au pronom qui le remplace.",
+        "instructions_en": "Match each phrase to the pronoun that replaces it.",
+        "left": [
+          "le rapport",
+          "au directeur",
+          "à Ottawa",
+          "de café",
+          "les dossiers"
+        ],
+        "right": [
+          "le",
+          "lui",
+          "y",
+          "en",
+          "les"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "le lui y en les"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "le rapport→le (direct); au directeur→lui (indirect person); à Ottawa→y (place); de café→en (de + noun); les dossiers→les (direct plural).",
+        "distractor_why": {},
+        "grammar_rule": "Direct (le/la/les), indirect (lui/leur), y (à+place/thing), en (de+noun).",
+        "vocab_notes": "Match the preposition/role to the pronoun.",
+        "common_mistakes": [
+          "using y for a person, lui for a thing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à+place→y; de+noun→en; à+person→lui.",
+        "pattern": "Role decides the pronoun.",
+        "similar": [
+          "J’y vais.",
+          "J’en ai besoin.",
+          "Je lui parle."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_pronouns_11",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Remplacez : « Je vais à la réunion. » → « J’___ vais. »",
+        "instructions_en": "Replace 'à la réunion'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "y"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "y",
+          "tag": "correct"
+        },
+        {
+          "value": "lui",
+          "tag": "person"
+        },
+        {
+          "value": "en",
+          "tag": "de"
+        },
+        {
+          "value": "la",
+          "tag": "direct"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« à la réunion » (à + place) → « y »: « J’y vais ».",
+        "distractor_why": {
+          "person": "« lui » replaces à + a person.",
+          "de": "« en » replaces de + noun.",
+          "direct": "« la » is a direct object pronoun."
+        },
+        "grammar_rule": "y replaces à + place/thing.",
+        "vocab_notes": "aller à = to go to.",
+        "common_mistakes": [
+          "using la for a place"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Place after à → y.",
+        "pattern": "à + place → y.",
+        "similar": [
+          "J’y pense.",
+          "Nous y serons."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_pronouns_12",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Remplacez « les dossiers » : « Je prépare les dossiers. → Je ___ prépare. »",
+        "instructions_en": "Direct object pronoun (plural)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« les dossiers » is a plural direct object → « les »: « Je les prépare ».",
+        "distractor_why": {
+          "leur": "« leur » is an indirect plural pronoun.",
+          "en": "« en » replaces de + noun."
+        },
+        "grammar_rule": "les = plural direct object pronoun.",
+        "vocab_notes": "un dossier = a file.",
+        "common_mistakes": [
+          "using leur (indirect) for a direct object"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Plural thing, direct → les.",
+        "pattern": "Pronoun before the verb.",
+        "similar": [
+          "Je les envoie.",
+          "Je les vérifie."
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_question_formation_13",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Quel mot interrogatif ? « ___ est la date de la réunion? »",
+        "instructions_en": "Choose the question word."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Quelle"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Quelle",
+          "tag": "correct"
+        },
+        {
+          "value": "Quel",
+          "tag": "masculine"
+        },
+        {
+          "value": "Qui",
+          "tag": "who"
+        },
+        {
+          "value": "Où",
+          "tag": "where"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« date » is feminine singular and quel agrees → « Quelle est la date? ».",
+        "distractor_why": {
+          "masculine": "« Quel » is masculine; date is feminine.",
+          "who": "« Qui » asks about a person.",
+          "where": "« Où » asks about a place."
+        },
+        "grammar_rule": "quel/quelle/quels/quelles agrees with its noun.",
+        "vocab_notes": "la date (f.).",
+        "common_mistakes": [
+          "not agreeing quel with the noun"
+        ]
+      },
+      "tip": {
+        "memory_aid": "quel matches its noun.",
+        "pattern": "quelle date, quel jour.",
+        "similar": [
+          "Quelle heure est-il?",
+          "Quels sont les délais?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_question_formation_14",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Choisissez : « ___ tu fais cet après-midi? » (what are you doing)",
+        "instructions_en": "Choose the question word for 'what'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Qu’est-ce que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Qu’est-ce que",
+          "tag": "correct"
+        },
+        {
+          "value": "Qui est-ce que",
+          "tag": "who"
+        },
+        {
+          "value": "Quel",
+          "tag": "which"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Qu’est-ce que » asks 'what' (object): « Qu’est-ce que tu fais? ».",
+        "distractor_why": {
+          "who": "« Qui est-ce que » asks 'whom' (a person).",
+          "which": "« Quel » needs a noun (quel projet)."
+        },
+        "grammar_rule": "Qu’est-ce que = what (object of the verb).",
+        "vocab_notes": "faire = to do/make.",
+        "common_mistakes": [
+          "using quel without a noun for 'what'"
+        ]
+      },
+      "tip": {
+        "memory_aid": "What + verb → Qu’est-ce que.",
+        "pattern": "Qu’est-ce que + subject + verb.",
+        "similar": [
+          "Qu’est-ce que vous proposez?",
+          "Qu’est-ce qu’il veut?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_question_formation_15",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Corrigez : « Est-ce que est le directeur disponible? »",
+        "instructions_en": "Fix the question structure."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce que le directeur est disponible?",
+          "Est-ce que le directeur est disponible"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « est-ce que » keep normal word order (subject + verb): « Est-ce que le directeur est disponible? ».",
+        "distractor_why": {
+          "inverted_after_estceque": "Don't invert after est-ce que; keep subject-verb order."
+        },
+        "grammar_rule": "Est-ce que + [subject + verb] + ?",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "inverting the verb after est-ce que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "After est-ce que, nothing flips.",
+        "pattern": "Est-ce que + statement order.",
+        "similar": [
+          "Est-ce que la salle est libre?",
+          "Est-ce qu’il a le rapport?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_question_formation_16",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Associez le mot interrogatif à son sens.",
+        "instructions_en": "Match each question word to its meaning.",
+        "left": [
+          "qui",
+          "où",
+          "quand",
+          "combien",
+          "pourquoi"
+        ],
+        "right": [
+          "who",
+          "where",
+          "when",
+          "how much/many",
+          "why"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "who where when how much/many why"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "qui=who, où=where, quand=when, combien=how much/many, pourquoi=why.",
+        "distractor_why": {},
+        "grammar_rule": "Information questions use these words.",
+        "vocab_notes": "Don't confuse où (where) with ou (or).",
+        "common_mistakes": [
+          "mixing combien (how much) and comment (how)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "où has an accent (where); ou = or.",
+        "pattern": "Question word sets the expected answer.",
+        "similar": [
+          "Où est le bureau?",
+          "Combien de jours?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_question_formation_17",
+      "objectiveId": "OF1",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Inversion : « Vous avez le dossier. » → ___",
+        "instructions_en": "Write the inversion question."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Avez-vous le dossier?",
+          "Avez-vous le dossier"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^avez-?vous le dossier\\??$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Inversion: « Avez-vous le dossier? » (verb-pronoun + hyphen).",
+        "distractor_why": {
+          "no_hyphen": "Needs a hyphen.",
+          "estceque": "« Est-ce que vous avez » is the est-ce que form."
+        },
+        "grammar_rule": "Inversion = verb-pronoun + ?",
+        "vocab_notes": "le dossier = the file.",
+        "common_mistakes": [
+          "forgetting the hyphen"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous prêt?",
+          "Travaillez-vous ici?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of1_question_formation_18",
+      "objectiveId": "OF1",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "personal_info"
+      ],
+      "theme": "personal_info",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Mot interrogatif : « ___ est le bureau de Mme Roy? »",
+        "instructions_en": "Choose the question word for a place."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Où"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Où",
+          "tag": "correct"
+        },
+        {
+          "value": "Quand",
+          "tag": "when"
+        },
+        {
+          "value": "Qui",
+          "tag": "who"
+        },
+        {
+          "value": "Comment",
+          "tag": "how"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Asking for a place → « Où »: « Où est le bureau? ».",
+        "distractor_why": {
+          "when": "« Quand » asks about time.",
+          "who": "« Qui » asks about a person.",
+          "how": "« Comment » asks about manner."
+        },
+        "grammar_rule": "Où = where (place).",
+        "vocab_notes": "le bureau = office.",
+        "common_mistakes": [
+          "confusing où (where) and quand (when)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Où = where (with accent).",
+        "pattern": "Place question → où.",
+        "similar": [
+          "Où travaillez-vous?",
+          "Où est la salle?"
+        ]
+      }
     }
   ]
 }

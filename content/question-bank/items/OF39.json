@@ -20,40 +20,44 @@
       ],
       "theme": "meetings",
       "difficulty": "advanced",
-      "type": "fill_blank",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.8,
+      "estTimeSec": 45,
+      "irtB": 0.7,
       "prompt": {
-        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
-        "instructions_en": "Subjunctive of faire, nous."
+        "fr": "Remettez dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Il faut",
+          "que",
+          "nous",
+          "soyons",
+          "à l’heure"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "fassions"
+          "Il faut que nous soyons à l’heure"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
-        "distractor_why": {
-          "indicative": "« faisons » is the indicative.",
-          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
-        },
-        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
-        "vocab_notes": "faire le suivi = to follow up.",
+        "correct_why": "« Il faut que » + subjunctive of être (soyons) = « Il faut que nous soyons à l’heure ».",
+        "distractor_why": {},
+        "grammar_rule": "Necessity + que + subjunctive.",
+        "vocab_notes": "à l’heure = on time.",
         "common_mistakes": [
-          "using the indicative faisons after vouloir que"
+          "using « sommes » instead of « soyons »"
         ]
       },
       "tip": {
-        "memory_aid": "veut que → subjunctive; faire → fass-.",
-        "pattern": "Verb of will + que + subjunctive.",
+        "memory_aid": "il faut que … soyons.",
+        "pattern": "Il faut que + subject + subjunctive.",
         "similar": [
-          "Il veut que je fasse le rapport.",
-          "Elle souhaite que vous fassiez le point."
+          "Il faut que vous soyez disponibles.",
+          "Il faut qu’il ait le dossier."
         ]
       }
     },
@@ -234,11 +238,11 @@
       }
     },
     {
-      "id": "itm_of39_comparatives_5",
+      "id": "itm_of39_subjonctif_5",
       "objectiveId": "OF39",
       "skill": "writing",
       "grammarConcepts": [
-        "comparatives"
+        "subjonctif"
       ],
       "vocabDomains": [
         "meetings",
@@ -248,43 +252,162 @@
       "difficulty": "advanced",
       "type": "fill_blank",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.6,
+      "estTimeSec": 40,
+      "irtB": 0.8,
       "prompt": {
-        "fr": "Superlatif : « C’est le projet ___ ___ important du ministère. » (the most)",
-        "instructions_en": "Write 'le plus' for the superlative."
+        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
+        "instructions_en": "Subjunctive of faire, nous."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "le plus"
+          "fassions"
         ],
-        "normalizer": "trim_lower"
+        "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Superlative of superiority: « le plus important » → « le projet le plus important ».",
+        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
         "distractor_why": {
-          "plus_only": "The article (le) is required in the superlative.",
-          "tres": "« très » is 'very', not a superlative."
+          "indicative": "« faisons » is the indicative.",
+          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
         },
-        "grammar_rule": "Superlative: le/la/les plus/moins + adjective (article repeated after the noun for post-nominal adjectives).",
-        "vocab_notes": "important follows the noun, so the article repeats: le projet le plus important.",
+        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
+        "vocab_notes": "faire le suivi = to follow up.",
         "common_mistakes": [
-          "dropping the article in the superlative"
+          "using the indicative faisons after vouloir que"
         ]
       },
       "tip": {
-        "memory_aid": "Superlative needs THE: le plus / la plus.",
-        "pattern": "le/la/les + plus/moins + adjective.",
+        "memory_aid": "veut que → subjunctive; faire → fass-.",
+        "pattern": "Verb of will + que + subjunctive.",
         "similar": [
-          "la plus efficace",
-          "les plus rapides"
+          "Il veut que je fasse le rapport.",
+          "Elle souhaite que vous fassiez le point."
         ]
       }
     },
     {
-      "id": "itm_of39_comparatives_6",
+      "id": "itm_of39_subjonctif_6",
+      "objectiveId": "OF39",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Associez le verbe à son subjonctif (que je …).",
+        "instructions_en": "Match each verb to its 'je' subjunctive.",
+        "left": [
+          "être",
+          "avoir",
+          "faire",
+          "aller",
+          "pouvoir"
+        ],
+        "right": [
+          "sois",
+          "aie",
+          "fasse",
+          "aille",
+          "puisse"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "sois aie fasse aille puisse"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "que je sois, que j’aie, que je fasse, que j’aille, que je puisse.",
+        "distractor_why": {},
+        "grammar_rule": "These verbs have irregular subjunctive stems to memorize.",
+        "vocab_notes": "All follow « il faut que … » / « que … ».",
+        "common_mistakes": [
+          "using the indicative form after a subjunctive trigger"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn être/avoir/faire/aller/pouvoir subjunctives by heart.",
+        "pattern": "Irregular stem + subjunctive endings.",
+        "similar": [
+          "Il faut que je sois là.",
+          "Il faut qu’il fasse le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of39_comparatives_7",
+      "objectiveId": "OF39",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 50,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Associez la forme de base à son comparatif irrégulier.",
+        "instructions_en": "Match each word to its irregular comparative.",
+        "left": [
+          "bon",
+          "bien",
+          "mauvais"
+        ],
+        "right": [
+          "meilleur",
+          "mieux",
+          "pire"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "meilleur mieux pire"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "bon→meilleur (adj.), bien→mieux (adv.), mauvais→pire (adj.).",
+        "distractor_why": {},
+        "grammar_rule": "Irregular comparatives: never « plus bon » / « plus bien ».",
+        "vocab_notes": "pire = worse (adjective).",
+        "common_mistakes": [
+          "saying « plus mauvais » where « pire » is expected"
+        ]
+      },
+      "tip": {
+        "memory_aid": "good→meilleur; well→mieux; bad→pire.",
+        "pattern": "Use the irregular form.",
+        "similar": [
+          "la meilleure option",
+          "il va mieux",
+          "c’est pire"
+        ]
+      }
+    },
+    {
+      "id": "itm_of39_comparatives_8",
       "objectiveId": "OF39",
       "skill": "grammar",
       "grammarConcepts": [
@@ -348,7 +471,7 @@
       }
     },
     {
-      "id": "itm_of39_comparatives_7",
+      "id": "itm_of39_comparatives_9",
       "objectiveId": "OF39",
       "skill": "grammar",
       "grammarConcepts": [
@@ -412,7 +535,7 @@
       }
     },
     {
-      "id": "itm_of39_comparatives_8",
+      "id": "itm_of39_comparatives_10",
       "objectiveId": "OF39",
       "skill": "grammar",
       "grammarConcepts": [
@@ -471,6 +594,119 @@
         "similar": [
           "aussi clair que",
           "aussi long que"
+        ]
+      }
+    },
+    {
+      "id": "itm_of39_comparatives_11",
+      "objectiveId": "OF39",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Superlatif : « C’est le projet ___ ___ important du ministère. » (the most)",
+        "instructions_en": "Write 'le plus' for the superlative."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "le plus"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Superlative of superiority: « le plus important » → « le projet le plus important ».",
+        "distractor_why": {
+          "plus_only": "The article (le) is required in the superlative.",
+          "tres": "« très » is 'very', not a superlative."
+        },
+        "grammar_rule": "Superlative: le/la/les plus/moins + adjective (article repeated after the noun for post-nominal adjectives).",
+        "vocab_notes": "important follows the noun, so the article repeats: le projet le plus important.",
+        "common_mistakes": [
+          "dropping the article in the superlative"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Superlative needs THE: le plus / la plus.",
+        "pattern": "le/la/les + plus/moins + adjective.",
+        "similar": [
+          "la plus efficace",
+          "les plus rapides"
+        ]
+      }
+    },
+    {
+      "id": "itm_of39_comparatives_12",
+      "objectiveId": "OF39",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "government"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Comparatif d’infériorité : « Cette méthode est ___ coûteuse ___ l’autre. » (less … than)",
+        "instructions_en": "Express 'less … than'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "moins / que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "moins / que",
+          "tag": "correct"
+        },
+        {
+          "value": "moins / de",
+          "tag": "wrong_de"
+        },
+        {
+          "value": "peu / que",
+          "tag": "peu"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Inferiority: « moins … que » → « moins coûteuse que l’autre ».",
+        "distractor_why": {
+          "wrong_de": "Comparisons use que, not de.",
+          "peu": "« peu » means 'little', not 'less … than'."
+        },
+        "grammar_rule": "moins + adjective + que.",
+        "vocab_notes": "coûteux/coûteuse = costly.",
+        "common_mistakes": [
+          "using de instead of que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "moins … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins rapide que",
+          "moins cher que"
         ]
       }
     }

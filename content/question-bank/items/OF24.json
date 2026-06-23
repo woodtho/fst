@@ -228,7 +228,116 @@
       }
     },
     {
-      "id": "itm_of24_imparfait_5",
+      "id": "itm_of24_passe_compose_5",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Associez l’infinitif à son participe passé.",
+        "instructions_en": "Match each verb to its past participle.",
+        "left": [
+          "faire",
+          "prendre",
+          "écrire",
+          "recevoir",
+          "mettre"
+        ],
+        "right": [
+          "fait",
+          "pris",
+          "écrit",
+          "reçu",
+          "mis"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "fait pris écrit reçu mis"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire→fait, prendre→pris, écrire→écrit, recevoir→reçu, mettre→mis.",
+        "distractor_why": {},
+        "grammar_rule": "Many high-frequency verbs have irregular participles to memorize.",
+        "vocab_notes": "These five appear constantly in workplace writing.",
+        "common_mistakes": [
+          "regularizing (e.g. « prendu » instead of « pris »)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn irregular participles in pairs.",
+        "pattern": "Irregular participle ≠ infinitive stem.",
+        "similar": [
+          "J’ai fait le suivi.",
+          "J’ai mis à jour le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_passe_compose_6",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Passé composé : « Nous ___ (attendre) la décision. »",
+        "instructions_en": "Passé composé with avoir (-re verb)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avons attendu"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "avoir (avons) + participle attendu (-re→-u) = « avons attendu ».",
+        "distractor_why": {
+          "wrong_pp": "-re verbs give -u participles: attendre → attendu.",
+          "infinitive": "« avons attendre » uses the infinitive."
+        },
+        "grammar_rule": "-re participle = -u (vendu, attendu, répondu).",
+        "vocab_notes": "attendre = to wait (for).",
+        "common_mistakes": [
+          "wrong participle ending for -re verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re → -u participle.",
+        "pattern": "avoir + -u participle.",
+        "similar": [
+          "J’ai répondu au courriel.",
+          "Nous avons vendu l’équipement."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_imparfait_7",
       "objectiveId": "OF24",
       "skill": "writing",
       "grammarConcepts": [
@@ -277,7 +386,7 @@
       }
     },
     {
-      "id": "itm_of24_imparfait_6",
+      "id": "itm_of24_imparfait_8",
       "objectiveId": "OF24",
       "skill": "grammar",
       "grammarConcepts": [
@@ -339,7 +448,7 @@
       }
     },
     {
-      "id": "itm_of24_imparfait_7",
+      "id": "itm_of24_imparfait_9",
       "objectiveId": "OF24",
       "skill": "writing",
       "grammarConcepts": [
@@ -388,7 +497,7 @@
       }
     },
     {
-      "id": "itm_of24_imparfait_8",
+      "id": "itm_of24_imparfait_10",
       "objectiveId": "OF24",
       "skill": "grammar",
       "grammarConcepts": [
@@ -450,7 +559,118 @@
       }
     },
     {
-      "id": "itm_of24_futur_simple_9",
+      "id": "itm_of24_imparfait_11",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Imparfait : « Nous ___ (avoir) plus de personnel à l’époque. »",
+        "instructions_en": "Imperfect of avoir, nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "avoir nous-stem av- + -ions = « avions ».",
+        "distractor_why": {
+          "present": "« avons » is present.",
+          "wrong": "« avaisons » is not a form."
+        },
+        "grammar_rule": "Imparfait stem = nous-present minus -ons (avons→av-).",
+        "vocab_notes": "à l’époque = at the time.",
+        "common_mistakes": [
+          "confusing avions (imparfait) with avons (present)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "av- + -ions = avions.",
+        "pattern": "nous-stem + -ions.",
+        "similar": [
+          "Nous étions en réunion.",
+          "Nous faisions le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_imparfait_12",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Description ou événement ? « Il ___ beau et tout le monde était de bonne humeur. »",
+        "instructions_en": "Setting/description → which form?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "faisait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "faisait",
+          "tag": "correct"
+        },
+        {
+          "value": "a fait",
+          "tag": "pc"
+        },
+        {
+          "value": "fait",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Weather/setting in the past is description → imparfait « faisait ».",
+        "distractor_why": {
+          "pc": "Passé composé marks a completed event, not a description.",
+          "present": "« fait » is present."
+        },
+        "grammar_rule": "Descriptions and settings in the past use the imparfait.",
+        "vocab_notes": "il fait beau = the weather is nice.",
+        "common_mistakes": [
+          "using passé composé for weather/description"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Scenery/weather → imparfait.",
+        "pattern": "Description = imparfait.",
+        "similar": [
+          "C’était calme.",
+          "Il y avait beaucoup de monde."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_futur_simple_13",
       "objectiveId": "OF24",
       "skill": "writing",
       "grammarConcepts": [
@@ -499,7 +719,7 @@
       }
     },
     {
-      "id": "itm_of24_futur_simple_10",
+      "id": "itm_of24_futur_simple_14",
       "objectiveId": "OF24",
       "skill": "grammar",
       "grammarConcepts": [
@@ -566,7 +786,7 @@
       }
     },
     {
-      "id": "itm_of24_futur_simple_11",
+      "id": "itm_of24_futur_simple_15",
       "objectiveId": "OF24",
       "skill": "writing",
       "grammarConcepts": [
@@ -614,7 +834,7 @@
       }
     },
     {
-      "id": "itm_of24_futur_simple_12",
+      "id": "itm_of24_futur_simple_16",
       "objectiveId": "OF24",
       "skill": "writing",
       "grammarConcepts": [
@@ -663,7 +883,117 @@
       }
     },
     {
-      "id": "itm_of24_reported_speech_13",
+      "id": "itm_of24_futur_simple_17",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Associez le verbe à son radical du futur.",
+        "instructions_en": "Match each verb to its future stem.",
+        "left": [
+          "être",
+          "avoir",
+          "aller",
+          "faire",
+          "venir"
+        ],
+        "right": [
+          "ser-",
+          "aur-",
+          "ir-",
+          "fer-",
+          "viendr-"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "ser- aur- ir- fer- viendr-"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "être→ser-, avoir→aur-, aller→ir-, faire→fer-, venir→viendr-.",
+        "distractor_why": {},
+        "grammar_rule": "Irregular future stems take the regular endings -ai/-as/-a/-ons/-ez/-ont.",
+        "vocab_notes": "These are the most common irregular future stems.",
+        "common_mistakes": [
+          "using the infinitive as the stem for irregular verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Same stem for future AND conditional.",
+        "pattern": "Memorize the irregular stems.",
+        "similar": [
+          "je serai",
+          "nous aurons",
+          "il ira"
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_futur_simple_18",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Futur simple : « Nous ___ (prendre) une décision demain. »",
+        "instructions_en": "Simple future, nous (-re verb)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "prendrons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-re verbs drop the final -e: prendre→prendr- + -ons = « prendrons ».",
+        "distractor_why": {
+          "kept_e": "Drop the -e of -re verbs before the ending.",
+          "present": "« prenons » is present."
+        },
+        "grammar_rule": "-re verbs: drop final -e, then add future endings.",
+        "vocab_notes": "prendre une décision = to make a decision.",
+        "common_mistakes": [
+          "keeping the -e (prendre+ons)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re → drop e, then -ai/-ons…",
+        "pattern": "prendr- + ending.",
+        "similar": [
+          "Je répondrai demain.",
+          "Ils attendront le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_reported_speech_19",
       "objectiveId": "OF24",
       "skill": "grammar",
       "grammarConcepts": [
@@ -725,7 +1055,7 @@
       }
     },
     {
-      "id": "itm_of24_reported_speech_14",
+      "id": "itm_of24_reported_speech_20",
       "objectiveId": "OF24",
       "skill": "writing",
       "grammarConcepts": [
@@ -773,7 +1103,7 @@
       }
     },
     {
-      "id": "itm_of24_reported_speech_15",
+      "id": "itm_of24_reported_speech_21",
       "objectiveId": "OF24",
       "skill": "grammar",
       "grammarConcepts": [
@@ -835,7 +1165,7 @@
       }
     },
     {
-      "id": "itm_of24_reported_speech_16",
+      "id": "itm_of24_reported_speech_22",
       "objectiveId": "OF24",
       "skill": "writing",
       "grammarConcepts": [
@@ -881,6 +1211,116 @@
         "similar": [
           "Il a dit qu’il viendrait le lendemain.",
           "Elle a dit qu’elle était occupée ce jour-là."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_reported_speech_23",
+      "objectiveId": "OF24",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Question indirecte : « Il demande : “Qu’est-ce que tu veux?” » → « Il demande ___ tu veux. »",
+        "instructions_en": "Report a 'what' question."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "ce que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "ce que",
+          "tag": "correct"
+        },
+        {
+          "value": "qu’est-ce que",
+          "tag": "kept"
+        },
+        {
+          "value": "que",
+          "tag": "que"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Qu’est-ce que » becomes « ce que » in indirect speech: « Il demande ce que tu veux ».",
+        "distractor_why": {
+          "kept": "« qu’est-ce que » doesn't survive in indirect speech.",
+          "que": "« que » alone introduces a statement, not an embedded 'what' question."
+        },
+        "grammar_rule": "Indirect 'what' question: ce que (object) / ce qui (subject).",
+        "vocab_notes": "vouloir = to want.",
+        "common_mistakes": [
+          "keeping est-ce que in indirect questions"
+        ]
+      },
+      "tip": {
+        "memory_aid": "what → ce que (indirect).",
+        "pattern": "demander ce que / ce qui.",
+        "similar": [
+          "Il demande ce qui se passe.",
+          "Je ne sais pas ce que tu veux."
+        ]
+      }
+    },
+    {
+      "id": "itm_of24_reported_speech_24",
+      "objectiveId": "OF24",
+      "skill": "writing",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Concordance : « Elle a dit : “Je viendrai demain.” » → « Elle a dit qu’elle ___ le lendemain. »",
+        "instructions_en": "Past report: future → conditional."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "viendrait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « a dit » (past), the future « viendrai » becomes the conditional « viendrait », and « demain » → « le lendemain ».",
+        "distractor_why": {
+          "future_kept": "« viendra » keeps the future; a past report needs the conditional."
+        },
+        "grammar_rule": "Past reporting: future → conditional; demain → le lendemain.",
+        "vocab_notes": "le lendemain = the next day.",
+        "common_mistakes": [
+          "not shifting future to conditional"
+        ]
+      },
+      "tip": {
+        "memory_aid": "future → conditional (past report).",
+        "pattern": "a dit que + conditional + le lendemain.",
+        "similar": [
+          "Il a dit qu’il enverrait le rapport.",
+          "Elle a dit qu’elle appellerait."
         ]
       }
     }

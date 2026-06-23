@@ -22,61 +22,111 @@
       "difficulty": "medium",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 30,
+      "estTimeSec": 28,
       "irtB": 0.2,
       "prompt": {
-        "fr": "Lieu : « Le dossier est ___ le bureau. »",
-        "instructions_en": "Choose the preposition for 'on the desk'."
+        "fr": "Temps : « La formation a lieu ___ septembre. »",
+        "instructions_en": "Preposition for a month."
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "sur"
+          "en"
         ],
         "normalizer": "trim_lower"
       },
       "distractors": [
         {
-          "value": "sur",
+          "value": "en",
           "tag": "correct"
         },
         {
-          "value": "dans",
-          "tag": "inside"
-        },
-        {
           "value": "à",
-          "tag": "generic"
+          "tag": "clock"
         },
         {
-          "value": "en",
-          "tag": "en_wrong"
+          "value": "dans",
+          "tag": "later"
+        },
+        {
+          "value": "depuis",
+          "tag": "since"
         }
       ],
       "explanation": {
-        "correct_why": "« sur » = on (a surface): « sur le bureau » (on the desk).",
+        "correct_why": "Use « en » with months and years: « en septembre ».",
         "distractor_why": {
-          "inside": "« dans » = inside (in a drawer).",
-          "generic": "« à » is too generic here.",
-          "en_wrong": "« en » is not used for a surface."
+          "clock": "« à » is for clock times (à 9 h).",
+          "later": "« dans » = in X time from now.",
+          "since": "« depuis » = since."
         },
-        "grammar_rule": "sur = on; dans = in/inside; sous = under.",
-        "vocab_notes": "le bureau = desk/office.",
+        "grammar_rule": "en + month/year; au mois de + month also possible.",
+        "vocab_notes": "avoir lieu = to take place.",
         "common_mistakes": [
-          "confusing sur (on) and dans (in)"
+          "using à or dans with a month"
         ]
       },
       "tip": {
-        "memory_aid": "sur = surface.",
-        "pattern": "Place prepositions are concrete: on/in/under.",
+        "memory_aid": "en septembre, en 2025.",
+        "pattern": "en + month/year.",
         "similar": [
-          "sur la table",
-          "dans le tiroir"
+          "en janvier",
+          "en 2026"
         ]
       }
     },
     {
       "id": "itm_of5_prepositions_2",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Lieu : « Le client est ___ le médecin aujourd’hui. » (at the …’s)",
+        "instructions_en": "Preposition for 'at someone's place'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "chez"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« chez » = at someone's place/office: « chez le médecin ».",
+        "distractor_why": {
+          "a": "« à » doesn't work before a person here.",
+          "dans": "« dans » = inside (a thing/place)."
+        },
+        "grammar_rule": "chez + person = at that person's place.",
+        "vocab_notes": "chez le médecin = at the doctor's.",
+        "common_mistakes": [
+          "using à/dans before a person"
+        ]
+      },
+      "tip": {
+        "memory_aid": "chez = at someone's.",
+        "pattern": "chez + person.",
+        "similar": [
+          "chez le dentiste",
+          "chez nous"
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_prepositions_3",
       "objectiveId": "OF5",
       "skill": "grammar",
       "grammarConcepts": [
@@ -90,106 +140,56 @@
       "difficulty": "medium",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 30,
+      "estTimeSec": 28,
       "irtB": 0.3,
       "prompt": {
-        "fr": "Temps : « La réunion est ___ deux heures. »",
-        "instructions_en": "Choose the time preposition for 'in two hours'."
+        "fr": "Pays : « Elle travaille ___ Canada. »",
+        "instructions_en": "Preposition for a masculine country."
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "dans"
+          "au"
         ],
         "normalizer": "trim_lower"
       },
       "distractors": [
         {
-          "value": "dans",
+          "value": "au",
           "tag": "correct"
         },
         {
           "value": "en",
-          "tag": "duration"
+          "tag": "feminine"
         },
         {
           "value": "à",
-          "tag": "clock_time"
+          "tag": "city"
         },
         {
-          "value": "depuis",
-          "tag": "since"
+          "value": "dans",
+          "tag": "inside"
         }
       ],
       "explanation": {
-        "correct_why": "« dans » + time = after that amount of time from now: « dans deux heures » (in two hours).",
+        "correct_why": "Masculine countries take « au »: « au Canada ». (Feminine countries take « en ».)",
         "distractor_why": {
-          "duration": "« en deux heures » means it takes two hours to complete.",
-          "clock_time": "« à deux heures » = at two o'clock.",
-          "since": "« depuis » = since/for (up to now)."
+          "feminine": "« en » is for feminine countries (en France).",
+          "city": "« à » is for cities (à Ottawa).",
+          "inside": "« dans » means inside."
         },
-        "grammar_rule": "dans = in (from now); en = within (duration); à = at (clock time).",
-        "vocab_notes": "la réunion = the meeting.",
+        "grammar_rule": "à + city; en + feminine country; au + masculine country; aux + plural.",
+        "vocab_notes": "le Canada (m.) → au Canada.",
         "common_mistakes": [
-          "confusing dans and en for time"
+          "using en with masculine countries"
         ]
       },
       "tip": {
-        "memory_aid": "dans = countdown from now.",
-        "pattern": "dans 2 h (later) vs en 2 h (it took).",
+        "memory_aid": "au Canada / en France / à Ottawa.",
+        "pattern": "Gender of country decides au vs en.",
         "similar": [
-          "dans une semaine",
-          "à 9 h"
-        ]
-      }
-    },
-    {
-      "id": "itm_of5_prepositions_3",
-      "objectiveId": "OF5",
-      "skill": "writing",
-      "grammarConcepts": [
-        "prepositions"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "travel"
-      ],
-      "theme": "daily_life",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.5,
-      "prompt": {
-        "fr": "Complétez : « Je travaille ici ___ 2019. »",
-        "instructions_en": "Choose the preposition for 'since 2019'."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "depuis"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« depuis » + a start point = since: « depuis 2019 » (since 2019, still ongoing). French uses the present with depuis.",
-        "distractor_why": {
-          "pendant": "« pendant » = during/for a finished period.",
-          "pour": "« pour » = for (intended duration, often future)."
-        },
-        "grammar_rule": "depuis + present = an action started in the past and still going.",
-        "vocab_notes": "depuis = since/for (ongoing).",
-        "common_mistakes": [
-          "using the past with depuis (use present)"
-        ]
-      },
-      "tip": {
-        "memory_aid": "depuis + present = still happening.",
-        "pattern": "Je travaille ici depuis…",
-        "similar": [
-          "depuis trois ans",
-          "depuis lundi"
+          "au Québec",
+          "aux États-Unis"
         ]
       }
     },
@@ -262,7 +262,143 @@
       }
     },
     {
-      "id": "itm_of5_negation_5",
+      "id": "itm_of5_prepositions_5",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Lieu : « Le dossier est ___ le bureau. »",
+        "instructions_en": "Choose the preposition for 'on the desk'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "sur"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "sur",
+          "tag": "correct"
+        },
+        {
+          "value": "dans",
+          "tag": "inside"
+        },
+        {
+          "value": "à",
+          "tag": "generic"
+        },
+        {
+          "value": "en",
+          "tag": "en_wrong"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« sur » = on (a surface): « sur le bureau » (on the desk).",
+        "distractor_why": {
+          "inside": "« dans » = inside (in a drawer).",
+          "generic": "« à » is too generic here.",
+          "en_wrong": "« en » is not used for a surface."
+        },
+        "grammar_rule": "sur = on; dans = in/inside; sous = under.",
+        "vocab_notes": "le bureau = desk/office.",
+        "common_mistakes": [
+          "confusing sur (on) and dans (in)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "sur = surface.",
+        "pattern": "Place prepositions are concrete: on/in/under.",
+        "similar": [
+          "sur la table",
+          "dans le tiroir"
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_prepositions_6",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Temps : « La réunion est ___ deux heures. »",
+        "instructions_en": "Choose the time preposition for 'in two hours'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "dans"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "dans",
+          "tag": "correct"
+        },
+        {
+          "value": "en",
+          "tag": "duration"
+        },
+        {
+          "value": "à",
+          "tag": "clock_time"
+        },
+        {
+          "value": "depuis",
+          "tag": "since"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« dans » + time = after that amount of time from now: « dans deux heures » (in two hours).",
+        "distractor_why": {
+          "duration": "« en deux heures » means it takes two hours to complete.",
+          "clock_time": "« à deux heures » = at two o'clock.",
+          "since": "« depuis » = since/for (up to now)."
+        },
+        "grammar_rule": "dans = in (from now); en = within (duration); à = at (clock time).",
+        "vocab_notes": "la réunion = the meeting.",
+        "common_mistakes": [
+          "confusing dans and en for time"
+        ]
+      },
+      "tip": {
+        "memory_aid": "dans = countdown from now.",
+        "pattern": "dans 2 h (later) vs en 2 h (it took).",
+        "similar": [
+          "dans une semaine",
+          "à 9 h"
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_negation_7",
       "objectiveId": "OF5",
       "skill": "writing",
       "grammarConcepts": [
@@ -279,41 +415,39 @@
       "estTimeSec": 30,
       "irtB": 0.2,
       "prompt": {
-        "fr": "Mettez à la forme négative (ne…jamais) : « Il est en retard. » → « Il ___ en retard. »",
-        "instructions_en": "Use ne … jamais."
+        "fr": "Forme négative (personne) : « ___ ___ est disponible cet après-midi. » (nobody)",
+        "instructions_en": "Start with 'nobody'."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "n’est jamais"
+          "personne n’"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "ne…jamais surrounds the verb: « Il n’est jamais en retard » (never late).",
+        "correct_why": "As a subject, « personne » comes first and keeps « ne »: « Personne n’est disponible ».",
         "distractor_why": {
-          "wrong_order": "« est ne jamais » is wrong; ne precedes the verb, jamais follows.",
-          "pas_jamais": "Don't combine pas and jamais."
+          "wrong_order": "« Ne personne » is wrong; personne is the subject here."
         },
-        "grammar_rule": "ne (n’) + verb + jamais.",
-        "vocab_notes": "en retard = late.",
+        "grammar_rule": "Personne/Rien as subject: Personne ne… / Rien ne…",
+        "vocab_notes": "disponible = available.",
         "common_mistakes": [
-          "mixing pas with jamais",
-          "wrong word order"
+          "dropping « ne » when personne is the subject"
         ]
       },
       "tip": {
-        "memory_aid": "ne … jamais = never.",
-        "pattern": "ne (n’) + verb + jamais/plus/rien.",
+        "memory_aid": "Personne ne… / Rien ne…",
+        "pattern": "Negative subject still needs ne.",
         "similar": [
-          "Je ne fume plus.",
-          "Elle ne dit rien."
+          "Rien n’est prêt.",
+          "Personne ne répond."
         ]
       }
     },
     {
-      "id": "itm_of5_negation_6",
+      "id": "itm_of5_negation_8",
       "objectiveId": "OF5",
       "skill": "writing",
       "grammarConcepts": [
@@ -324,46 +458,50 @@
         "travel"
       ],
       "theme": "daily_life",
-      "difficulty": "medium",
-      "type": "error_correction",
+      "difficulty": "easy",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.3,
+      "estTimeSec": 36,
+      "irtB": -0.2,
       "prompt": {
-        "fr": "Corrigez (passé composé) : « Je n’ai parlé pas au gestionnaire. »",
-        "instructions_en": "Fix the negation placement."
+        "fr": "Remettez dans l’ordre (ne…plus).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Je",
+          "ne",
+          "travaille",
+          "plus",
+          "ici"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "Je n’ai pas parlé au gestionnaire",
-          "Je n’ai pas parlé au gestionnaire."
+          "Je ne travaille plus ici"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "In the passé composé, ne…pas surrounds the auxiliary: « Je n’ai pas parlé ».",
-        "distractor_why": {
-          "after_participle": "« ai parlé pas » puts pas after the participle; it must wrap the auxiliary (ai)."
-        },
-        "grammar_rule": "Compound tenses: ne + auxiliary + pas + participle.",
-        "vocab_notes": "parler à = to speak to.",
+        "correct_why": "ne…plus surrounds the verb: « Je ne travaille plus ici » (no longer).",
+        "distractor_why": {},
+        "grammar_rule": "ne (n’) + verb + plus.",
+        "vocab_notes": "ne…plus = no longer.",
         "common_mistakes": [
-          "placing pas after the participle"
+          "wrong placement of plus"
         ]
       },
       "tip": {
-        "memory_aid": "ne…pas hugs the auxiliary, not the participle.",
-        "pattern": "ne + [aux] + pas + participle.",
+        "memory_aid": "ne…plus = no longer.",
+        "pattern": "ne + verb + plus.",
         "similar": [
-          "Je n’ai pas reçu le courriel.",
-          "Il n’est pas venu."
+          "Il ne fume plus.",
+          "Nous n’avons plus de questions."
         ]
       }
     },
     {
-      "id": "itm_of5_negation_7",
+      "id": "itm_of5_negation_9",
       "objectiveId": "OF5",
       "skill": "grammar",
       "grammarConcepts": [
@@ -374,59 +512,59 @@
         "travel"
       ],
       "theme": "daily_life",
-      "difficulty": "medium",
+      "difficulty": "advanced",
       "type": "mcq_single",
       "status": "live",
       "estTimeSec": 30,
-      "irtB": 0.1,
+      "irtB": 0.6,
       "prompt": {
-        "fr": "Choisissez : « Il ___ travaille ___ ici. » (no longer works here)",
-        "instructions_en": "Express 'no longer'."
+        "fr": "Sens : « Je ne travaille que le matin. » signifie :",
+        "instructions_en": "What does ne…que mean?"
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "ne / plus"
+          "Je travaille seulement le matin."
         ],
-        "normalizer": "trim_lower"
+        "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [
         {
-          "value": "ne / plus",
+          "value": "Je travaille seulement le matin.",
           "tag": "correct"
         },
         {
-          "value": "ne / jamais",
-          "tag": "never"
+          "value": "Je ne travaille pas le matin.",
+          "tag": "negation"
         },
         {
-          "value": "ne / rien",
-          "tag": "nothing"
+          "value": "Je travaille tout le temps.",
+          "tag": "always"
         }
       ],
       "explanation": {
-        "correct_why": "« ne … plus » = no longer/not anymore → « Il ne travaille plus ici ».",
+        "correct_why": "« ne … que » is not a negation; it means « seulement » (only): « Je ne travaille que le matin » = I work only in the morning.",
         "distractor_why": {
-          "never": "« ne…jamais » = never (not 'no longer').",
-          "nothing": "« ne…rien » = nothing."
+          "negation": "« ne…que » does NOT negate the verb.",
+          "always": "It restricts, it doesn't mean 'all the time'."
         },
-        "grammar_rule": "ne…plus = no longer; ne…jamais = never; ne…rien = nothing.",
-        "vocab_notes": "ne…plus = not anymore.",
+        "grammar_rule": "ne … que = only (a restriction, not a true negation).",
+        "vocab_notes": "le matin = (in) the morning.",
         "common_mistakes": [
-          "confusing plus (no longer) and jamais (never)"
+          "reading ne…que as a negation"
         ]
       },
       "tip": {
-        "memory_aid": "plus = no more / no longer.",
-        "pattern": "Pick the right second element.",
+        "memory_aid": "ne…que = only (= seulement).",
+        "pattern": "Restriction, not negation.",
         "similar": [
-          "Je n’ai plus de questions.",
-          "Elle ne fume plus."
+          "Il n’y a que deux options.",
+          "Je n’ai qu’une question."
         ]
       }
     },
     {
-      "id": "itm_of5_negation_8",
+      "id": "itm_of5_negation_10",
       "objectiveId": "OF5",
       "skill": "grammar",
       "grammarConcepts": [
@@ -494,7 +632,358 @@
       }
     },
     {
-      "id": "itm_of5_pronouns_9",
+      "id": "itm_of5_negation_11",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Mettez à la forme négative (ne…jamais) : « Il est en retard. » → « Il ___ en retard. »",
+        "instructions_en": "Use ne … jamais."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "n’est jamais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "ne…jamais surrounds the verb: « Il n’est jamais en retard » (never late).",
+        "distractor_why": {
+          "wrong_order": "« est ne jamais » is wrong; ne precedes the verb, jamais follows.",
+          "pas_jamais": "Don't combine pas and jamais."
+        },
+        "grammar_rule": "ne (n’) + verb + jamais.",
+        "vocab_notes": "en retard = late.",
+        "common_mistakes": [
+          "mixing pas with jamais",
+          "wrong word order"
+        ]
+      },
+      "tip": {
+        "memory_aid": "ne … jamais = never.",
+        "pattern": "ne (n’) + verb + jamais/plus/rien.",
+        "similar": [
+          "Je ne fume plus.",
+          "Elle ne dit rien."
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_negation_12",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Corrigez (passé composé) : « Je n’ai parlé pas au gestionnaire. »",
+        "instructions_en": "Fix the negation placement."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je n’ai pas parlé au gestionnaire",
+          "Je n’ai pas parlé au gestionnaire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "In the passé composé, ne…pas surrounds the auxiliary: « Je n’ai pas parlé ».",
+        "distractor_why": {
+          "after_participle": "« ai parlé pas » puts pas after the participle; it must wrap the auxiliary (ai)."
+        },
+        "grammar_rule": "Compound tenses: ne + auxiliary + pas + participle.",
+        "vocab_notes": "parler à = to speak to.",
+        "common_mistakes": [
+          "placing pas after the participle"
+        ]
+      },
+      "tip": {
+        "memory_aid": "ne…pas hugs the auxiliary, not the participle.",
+        "pattern": "ne + [aux] + pas + participle.",
+        "similar": [
+          "Je n’ai pas reçu le courriel.",
+          "Il n’est pas venu."
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_pronouns_13",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Remplacez : « Je vais à la réunion. » → « J’___ vais. »",
+        "instructions_en": "Replace 'à la réunion'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "y"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "y",
+          "tag": "correct"
+        },
+        {
+          "value": "lui",
+          "tag": "person"
+        },
+        {
+          "value": "en",
+          "tag": "de"
+        },
+        {
+          "value": "la",
+          "tag": "direct"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« à la réunion » (à + place) → « y »: « J’y vais ».",
+        "distractor_why": {
+          "person": "« lui » replaces à + a person.",
+          "de": "« en » replaces de + noun.",
+          "direct": "« la » is a direct object pronoun."
+        },
+        "grammar_rule": "y replaces à + place/thing.",
+        "vocab_notes": "aller à = to go to.",
+        "common_mistakes": [
+          "using la for a place"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Place after à → y.",
+        "pattern": "à + place → y.",
+        "similar": [
+          "J’y pense.",
+          "Nous y serons."
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_pronouns_14",
+      "objectiveId": "OF5",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Remplacez « les dossiers » : « Je prépare les dossiers. → Je ___ prépare. »",
+        "instructions_en": "Direct object pronoun (plural)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« les dossiers » is a plural direct object → « les »: « Je les prépare ».",
+        "distractor_why": {
+          "leur": "« leur » is an indirect plural pronoun.",
+          "en": "« en » replaces de + noun."
+        },
+        "grammar_rule": "les = plural direct object pronoun.",
+        "vocab_notes": "un dossier = a file.",
+        "common_mistakes": [
+          "using leur (indirect) for a direct object"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Plural thing, direct → les.",
+        "pattern": "Pronoun before the verb.",
+        "similar": [
+          "Je les envoie.",
+          "Je les vérifie."
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_pronouns_15",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Relatif : « C’est le projet ___ je suis responsable. »",
+        "instructions_en": "Choose the relative (être responsable DE)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "dont"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "dont",
+          "tag": "correct"
+        },
+        {
+          "value": "que",
+          "tag": "direct"
+        },
+        {
+          "value": "qui",
+          "tag": "subject"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« être responsable DE » → the relative pronoun « dont » replaces de + noun.",
+        "distractor_why": {
+          "direct": "« que » is for a direct object (no preposition).",
+          "subject": "« qui » is the subject of the relative clause."
+        },
+        "grammar_rule": "dont replaces de + noun in a relative clause.",
+        "vocab_notes": "responsable de = responsible for.",
+        "common_mistakes": [
+          "using que when the verb needs de (dont)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "verb + de → dont.",
+        "pattern": "de-relations → dont.",
+        "similar": [
+          "le dossier dont j’ai besoin",
+          "la réunion dont je parle"
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_pronouns_16",
+      "objectiveId": "OF5",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "travel"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Remplacez : « J’envoie le rapport au gestionnaire. » → « Je ___ envoie au gestionnaire. »",
+        "instructions_en": "Replace 'le rapport' with the right pronoun."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "l’"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "l’",
+          "tag": "correct"
+        },
+        {
+          "value": "lui",
+          "tag": "indirect"
+        },
+        {
+          "value": "y",
+          "tag": "y_wrong"
+        },
+        {
+          "value": "en",
+          "tag": "en_wrong"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« le rapport » is a direct object → le; before a vowel it elides to « l’ » → « Je l’envoie ».",
+        "distractor_why": {
+          "indirect": "« lui » replaces an indirect object (au gestionnaire), not le rapport.",
+          "y_wrong": "« y » replaces à + thing/place.",
+          "en_wrong": "« en » replaces de + noun."
+        },
+        "grammar_rule": "Direct object pronouns: le, la, les, l’ (before a vowel).",
+        "vocab_notes": "le rapport (m.) → le/l’.",
+        "common_mistakes": [
+          "using lui for a thing",
+          "no elision before a vowel"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
+        "pattern": "Pronoun goes before the verb.",
+        "similar": [
+          "Je le prépare.",
+          "Je les envoie."
+        ]
+      }
+    },
+    {
+      "id": "itm_of5_pronouns_17",
       "objectiveId": "OF5",
       "skill": "grammar",
       "grammarConcepts": [
@@ -563,7 +1052,7 @@
       }
     },
     {
-      "id": "itm_of5_pronouns_10",
+      "id": "itm_of5_pronouns_18",
       "objectiveId": "OF5",
       "skill": "grammar",
       "grammarConcepts": [
@@ -622,126 +1111,6 @@
         "similar": [
           "le rapport que j’ai écrit",
           "le collègue qui travaille ici"
-        ]
-      }
-    },
-    {
-      "id": "itm_of5_pronouns_11",
-      "objectiveId": "OF5",
-      "skill": "writing",
-      "grammarConcepts": [
-        "pronouns"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "travel"
-      ],
-      "theme": "daily_life",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.6,
-      "prompt": {
-        "fr": "Remplacez « des dossiers » : « J’ai trois dossiers. → J’___ ai trois. »",
-        "instructions_en": "Use the pronoun en."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "en"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« en » replaces de/des + noun and is kept with quantities: « J’en ai trois » (I have three of them).",
-        "distractor_why": {
-          "les": "« les » would drop the number; with a quantity you keep « en » + number.",
-          "y": "« y » replaces à + thing/place, not a quantity."
-        },
-        "grammar_rule": "en replaces de + noun and stays with expressions of quantity.",
-        "vocab_notes": "un dossier = a file/case.",
-        "common_mistakes": [
-          "dropping en with quantities",
-          "using les with a number"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Quantity → keep « en » + number.",
-        "pattern": "J’en ai trois / beaucoup / assez.",
-        "similar": [
-          "Des réunions? J’en ai deux.",
-          "Du café? J’en veux."
-        ]
-      }
-    },
-    {
-      "id": "itm_of5_pronouns_12",
-      "objectiveId": "OF5",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "pronouns"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "travel"
-      ],
-      "theme": "daily_life",
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.1,
-      "prompt": {
-        "fr": "Remplacez : « J’envoie le rapport au gestionnaire. » → « Je ___ envoie au gestionnaire. »",
-        "instructions_en": "Replace 'le rapport' with the right pronoun."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "l’"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "l’",
-          "tag": "correct"
-        },
-        {
-          "value": "lui",
-          "tag": "indirect"
-        },
-        {
-          "value": "y",
-          "tag": "y_wrong"
-        },
-        {
-          "value": "en",
-          "tag": "en_wrong"
-        }
-      ],
-      "explanation": {
-        "correct_why": "« le rapport » is a direct object → le; before a vowel it elides to « l’ » → « Je l’envoie ».",
-        "distractor_why": {
-          "indirect": "« lui » replaces an indirect object (au gestionnaire), not le rapport.",
-          "y_wrong": "« y » replaces à + thing/place.",
-          "en_wrong": "« en » replaces de + noun."
-        },
-        "grammar_rule": "Direct object pronouns: le, la, les, l’ (before a vowel).",
-        "vocab_notes": "le rapport (m.) → le/l’.",
-        "common_mistakes": [
-          "using lui for a thing",
-          "no elision before a vowel"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
-        "pattern": "Pronoun goes before the verb.",
-        "similar": [
-          "Je le prépare.",
-          "Je les envoie."
         ]
       }
     }

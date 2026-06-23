@@ -10,6 +10,224 @@
     {
       "id": "itm_of37_passe_compose_1",
       "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Passé composé : « Nous ___ (attendre) la décision. »",
+        "instructions_en": "Passé composé with avoir (-re verb)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avons attendu"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "avoir (avons) + participle attendu (-re→-u) = « avons attendu ».",
+        "distractor_why": {
+          "wrong_pp": "-re verbs give -u participles: attendre → attendu.",
+          "infinitive": "« avons attendre » uses the infinitive."
+        },
+        "grammar_rule": "-re participle = -u (vendu, attendu, répondu).",
+        "vocab_notes": "attendre = to wait (for).",
+        "common_mistakes": [
+          "wrong participle ending for -re verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re → -u participle.",
+        "pattern": "avoir + -u participle.",
+        "similar": [
+          "J’ai répondu au courriel.",
+          "Nous avons vendu l’équipement."
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_passe_compose_2",
+      "objectiveId": "OF37",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Choisissez : « Elle ___ venue à la réunion. »",
+        "instructions_en": "Auxiliary + agreement."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "est"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "est",
+          "tag": "correct"
+        },
+        {
+          "value": "a",
+          "tag": "avoir_for_etre"
+        },
+        {
+          "value": "es",
+          "tag": "person"
+        }
+      ],
+      "explanation": {
+        "correct_why": "venir takes être → « est », participle agrees: venue (f.).",
+        "distractor_why": {
+          "avoir_for_etre": "venir uses être, not avoir.",
+          "person": "« es » is the tu form."
+        },
+        "grammar_rule": "venir is an être-verb; the participle agrees with the subject.",
+        "vocab_notes": "venir → venu(e).",
+        "common_mistakes": [
+          "using avoir with venir"
+        ]
+      },
+      "tip": {
+        "memory_aid": "venir/devenir/revenir → être.",
+        "pattern": "être + agreeing participle.",
+        "similar": [
+          "Il est revenu.",
+          "Elles sont devenues gestionnaires."
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_passe_compose_3",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (passé composé).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Hier",
+          "j’ai",
+          "signé",
+          "la note de breffage"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Hier j’ai signé la note de breffage"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Time + subject/aux + participle + object: « Hier, j’ai signé la note de breffage ».",
+        "distractor_why": {},
+        "grammar_rule": "Auxiliary and participle stay adjacent.",
+        "vocab_notes": "la note de breffage = the briefing note.",
+        "common_mistakes": [
+          "separating « ai » from « signé »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aux + participle = glued.",
+        "pattern": "[time] + aux + participle + object.",
+        "similar": [
+          "Ce matin, j’ai approuvé la demande.",
+          "Hier, elle a déposé le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_passe_compose_4",
+      "objectiveId": "OF37",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Mettez au passé composé : « Hier, j’___ (terminer) le dossier. »",
+        "instructions_en": "Passé composé with avoir."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "ai terminé"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^ai termin[ée]$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "avoir (ai) + participe passé (terminé) = « ai terminé ». No agreement under avoir without a preceding object.",
+        "distractor_why": {
+          "infinitive": "« ai terminer » uses the infinitive; need the participle terminé.",
+          "agreement": "« ai terminée » adds agreement, but no preceding direct object here."
+        },
+        "grammar_rule": "Passé composé = auxiliaire au présent + participe passé.",
+        "vocab_notes": "terminer → terminé.",
+        "common_mistakes": [
+          "infinitive for participle",
+          "needless agreement under avoir"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_passe_compose_5",
+      "objectiveId": "OF37",
       "skill": "grammar",
       "grammarConcepts": [
         "passe_compose"
@@ -77,7 +295,7 @@
       }
     },
     {
-      "id": "itm_of37_passe_compose_2",
+      "id": "itm_of37_passe_compose_6",
       "objectiveId": "OF37",
       "skill": "writing",
       "grammarConcepts": [
@@ -129,11 +347,79 @@
       }
     },
     {
-      "id": "itm_of37_passe_compose_3",
+      "id": "itm_of37_prepositions_7",
+      "objectiveId": "OF37",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Temps : « La formation a lieu ___ septembre. »",
+        "instructions_en": "Preposition for a month."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "en"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "en",
+          "tag": "correct"
+        },
+        {
+          "value": "à",
+          "tag": "clock"
+        },
+        {
+          "value": "dans",
+          "tag": "later"
+        },
+        {
+          "value": "depuis",
+          "tag": "since"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Use « en » with months and years: « en septembre ».",
+        "distractor_why": {
+          "clock": "« à » is for clock times (à 9 h).",
+          "later": "« dans » = in X time from now.",
+          "since": "« depuis » = since."
+        },
+        "grammar_rule": "en + month/year; au mois de + month also possible.",
+        "vocab_notes": "avoir lieu = to take place.",
+        "common_mistakes": [
+          "using à or dans with a month"
+        ]
+      },
+      "tip": {
+        "memory_aid": "en septembre, en 2025.",
+        "pattern": "en + month/year.",
+        "similar": [
+          "en janvier",
+          "en 2026"
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_prepositions_8",
       "objectiveId": "OF37",
       "skill": "writing",
       "grammarConcepts": [
-        "passe_compose"
+        "prepositions"
       ],
       "vocabDomains": [
         "administration",
@@ -143,48 +429,115 @@
       "difficulty": "medium",
       "type": "fill_blank",
       "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.3,
+      "estTimeSec": 30,
+      "irtB": 0.1,
       "prompt": {
-        "fr": "Mettez au passé composé : « La gestionnaire ___ (recevoir) les commentaires. »",
-        "instructions_en": "Passé composé (irregular participle)."
+        "fr": "Lieu : « Le client est ___ le médecin aujourd’hui. » (at the …’s)",
+        "instructions_en": "Preposition for 'at someone's place'."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "a reçu"
+          "chez"
         ],
-        "normalizer": "fr_accent_insensitive_trim_lower",
-        "regex": "^a re[çc]u$"
+        "normalizer": "trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "recevoir is irregular: participle « reçu »; with avoir → « a reçu ».",
+        "correct_why": "« chez » = at someone's place/office: « chez le médecin ».",
         "distractor_why": {
-          "regularized": "« a recevu » regularizes an irregular participle; it is « reçu ».",
-          "agreement": "No preceding direct object, so no agreement."
+          "a": "« à » doesn't work before a person here.",
+          "dans": "« dans » = inside (a thing/place)."
         },
-        "grammar_rule": "Some participles are irregular: recevoir→reçu, écrire→écrit, faire→fait, prendre→pris.",
-        "vocab_notes": "recevoir → reçu; les commentaires = feedback.",
+        "grammar_rule": "chez + person = at that person's place.",
+        "vocab_notes": "chez le médecin = at the doctor's.",
         "common_mistakes": [
-          "regularizing irregular participles"
+          "using à/dans before a person"
         ]
       },
       "tip": {
-        "memory_aid": "reçu carries a cedilla (ç).",
-        "pattern": "Memorize high-frequency irregular participles.",
+        "memory_aid": "chez = at someone's.",
+        "pattern": "chez + person.",
         "similar": [
-          "Il a écrit le rapport.",
-          "J’ai pris des notes."
+          "chez le dentiste",
+          "chez nous"
         ]
       }
     },
     {
-      "id": "itm_of37_passe_compose_4",
+      "id": "itm_of37_prepositions_9",
       "objectiveId": "OF37",
-      "skill": "writing",
+      "skill": "grammar",
       "grammarConcepts": [
-        "passe_compose"
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "administration",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Pays : « Elle travaille ___ Canada. »",
+        "instructions_en": "Preposition for a masculine country."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "au"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "au",
+          "tag": "correct"
+        },
+        {
+          "value": "en",
+          "tag": "feminine"
+        },
+        {
+          "value": "à",
+          "tag": "city"
+        },
+        {
+          "value": "dans",
+          "tag": "inside"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Masculine countries take « au »: « au Canada ». (Feminine countries take « en ».)",
+        "distractor_why": {
+          "feminine": "« en » is for feminine countries (en France).",
+          "city": "« à » is for cities (à Ottawa).",
+          "inside": "« dans » means inside."
+        },
+        "grammar_rule": "à + city; en + feminine country; au + masculine country; aux + plural.",
+        "vocab_notes": "le Canada (m.) → au Canada.",
+        "common_mistakes": [
+          "using en with masculine countries"
+        ]
+      },
+      "tip": {
+        "memory_aid": "au Canada / en France / à Ottawa.",
+        "pattern": "Gender of country decides au vs en.",
+        "similar": [
+          "au Québec",
+          "aux États-Unis"
+        ]
+      }
+    },
+    {
+      "id": "itm_of37_prepositions_10",
+      "objectiveId": "OF37",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
       ],
       "vocabDomains": [
         "administration",
@@ -192,47 +545,63 @@
       ],
       "theme": "workplace",
       "difficulty": "easy",
-      "type": "fill_blank",
+      "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 35,
+      "estTimeSec": 25,
       "irtB": -0.3,
       "prompt": {
-        "fr": "Mettez au passé composé : « Hier, j’___ (terminer) le dossier. »",
-        "instructions_en": "Passé composé with avoir."
+        "fr": "Contraction : « Je vais ___ bureau du directeur. »",
+        "instructions_en": "à + le = ?"
       },
       "answer": {
-        "type": "text",
+        "type": "choice",
         "accepted": [
-          "ai terminé"
+          "au"
         ],
-        "normalizer": "fr_accent_insensitive_trim_lower",
-        "regex": "^ai termin[ée]$"
+        "normalizer": "trim_lower"
       },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "avoir (ai) + participe passé (terminé) = « ai terminé ». No agreement under avoir without a preceding object.",
-        "distractor_why": {
-          "infinitive": "« ai terminer » uses the infinitive; need the participle terminé.",
-          "agreement": "« ai terminée » adds agreement, but no preceding direct object here."
+      "distractors": [
+        {
+          "value": "au",
+          "tag": "correct"
         },
-        "grammar_rule": "Passé composé = auxiliaire au présent + participe passé.",
-        "vocab_notes": "terminer → terminé.",
+        {
+          "value": "à le",
+          "tag": "uncontracted"
+        },
+        {
+          "value": "du",
+          "tag": "de_contraction"
+        },
+        {
+          "value": "aux",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "à + le contracts to « au » → « au bureau ».",
+        "distractor_why": {
+          "uncontracted": "« à le » must contract to « au ».",
+          "de_contraction": "« du » = de + le, not à + le.",
+          "plural": "« aux » = à + les (plural)."
+        },
+        "grammar_rule": "à + le = au; à + les = aux.",
+        "vocab_notes": "aller au bureau = to go to the office.",
         "common_mistakes": [
-          "infinitive for participle",
-          "needless agreement under avoir"
+          "leaving 'à le' uncontracted"
         ]
       },
       "tip": {
-        "memory_aid": "Participle -é (not -er).",
-        "pattern": "avoir + participe → no agreement.",
+        "memory_aid": "à + le = au (always contract).",
+        "pattern": "à+le=au, à+les=aux.",
         "similar": [
-          "J’ai préparé l’ordre du jour.",
-          "J’ai envoyé le courriel."
+          "au ministère",
+          "aux employés"
         ]
       }
     },
     {
-      "id": "itm_of37_prepositions_5",
+      "id": "itm_of37_prepositions_11",
       "objectiveId": "OF37",
       "skill": "grammar",
       "grammarConcepts": [
@@ -300,7 +669,7 @@
       }
     },
     {
-      "id": "itm_of37_prepositions_6",
+      "id": "itm_of37_prepositions_12",
       "objectiveId": "OF37",
       "skill": "grammar",
       "grammarConcepts": [
@@ -364,124 +733,6 @@
         "similar": [
           "dans une semaine",
           "à 9 h"
-        ]
-      }
-    },
-    {
-      "id": "itm_of37_prepositions_7",
-      "objectiveId": "OF37",
-      "skill": "writing",
-      "grammarConcepts": [
-        "prepositions"
-      ],
-      "vocabDomains": [
-        "administration",
-        "workplace"
-      ],
-      "theme": "workplace",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.5,
-      "prompt": {
-        "fr": "Complétez : « Je travaille ici ___ 2019. »",
-        "instructions_en": "Choose the preposition for 'since 2019'."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "depuis"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« depuis » + a start point = since: « depuis 2019 » (since 2019, still ongoing). French uses the present with depuis.",
-        "distractor_why": {
-          "pendant": "« pendant » = during/for a finished period.",
-          "pour": "« pour » = for (intended duration, often future)."
-        },
-        "grammar_rule": "depuis + present = an action started in the past and still going.",
-        "vocab_notes": "depuis = since/for (ongoing).",
-        "common_mistakes": [
-          "using the past with depuis (use present)"
-        ]
-      },
-      "tip": {
-        "memory_aid": "depuis + present = still happening.",
-        "pattern": "Je travaille ici depuis…",
-        "similar": [
-          "depuis trois ans",
-          "depuis lundi"
-        ]
-      }
-    },
-    {
-      "id": "itm_of37_prepositions_8",
-      "objectiveId": "OF37",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "prepositions"
-      ],
-      "vocabDomains": [
-        "administration",
-        "workplace"
-      ],
-      "theme": "workplace",
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 25,
-      "irtB": -0.3,
-      "prompt": {
-        "fr": "Contraction : « Je vais ___ bureau du directeur. »",
-        "instructions_en": "à + le = ?"
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "au"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "au",
-          "tag": "correct"
-        },
-        {
-          "value": "à le",
-          "tag": "uncontracted"
-        },
-        {
-          "value": "du",
-          "tag": "de_contraction"
-        },
-        {
-          "value": "aux",
-          "tag": "plural"
-        }
-      ],
-      "explanation": {
-        "correct_why": "à + le contracts to « au » → « au bureau ».",
-        "distractor_why": {
-          "uncontracted": "« à le » must contract to « au ».",
-          "de_contraction": "« du » = de + le, not à + le.",
-          "plural": "« aux » = à + les (plural)."
-        },
-        "grammar_rule": "à + le = au; à + les = aux.",
-        "vocab_notes": "aller au bureau = to go to the office.",
-        "common_mistakes": [
-          "leaving 'à le' uncontracted"
-        ]
-      },
-      "tip": {
-        "memory_aid": "à + le = au (always contract).",
-        "pattern": "à+le=au, à+les=aux.",
-        "similar": [
-          "au ministère",
-          "aux employés"
         ]
       }
     }

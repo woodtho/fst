@@ -4,100 +4,137 @@
   "titleFr": "Fournir de l’information sur un événement ou une habitude passés",
   "titleEn": "To give information about past events and habits",
   "level": "A",
-  "estMinutes": 45,
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/13-2005F",
+    "text": "sources/text/OF13.txt"
+  },
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "At work you constantly report what you did: 'I sent the report', 'we finished the meeting', 'she arrived this morning'. French uses the passé composé for completed past actions. It is built from an auxiliary (avoir or être) in the present tense + the past participle. Most verbs use avoir. A small set of movement/state-change verbs (and all pronominal verbs) use être, and with être the participle agrees with the subject.",
-        "fr": "Le passé composé exprime une action passée et terminée. Il se forme avec un auxiliaire (avoir ou être) au présent + le participe passé."
+        "en": "OF13 — To give information about past events and habits. This objective develops the language needed to give information about past events and habits in a Government of Canada workplace. Grammar focus: The compound past, The imperfect, Agreement. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "Fournir de l’information sur un événement ou une habitude passés. Objectif communicatif appuyé par : Le passé composé, L’imparfait, Les accords. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
       },
-      "vocabulary": [
-        { "fr": "envoyer", "en": "to send", "pos": "v.", "pp": "envoyé" },
-        { "fr": "préparer", "en": "to prepare", "pos": "v.", "pp": "préparé" },
-        { "fr": "terminer", "en": "to finish", "pos": "v.", "pp": "terminé" },
-        { "fr": "vérifier", "en": "to check / verify", "pos": "v.", "pp": "vérifié" },
-        { "fr": "recevoir", "en": "to receive", "pos": "v.", "pp": "reçu" },
-        { "fr": "écrire", "en": "to write", "pos": "v.", "pp": "écrit" },
-        { "fr": "arriver", "en": "to arrive", "pos": "v.", "pp": "arrivé", "aux": "être" },
-        { "fr": "partir", "en": "to leave", "pos": "v.", "pp": "parti", "aux": "être" },
-        { "fr": "le rapport", "en": "the report", "pos": "n.m." },
-        { "fr": "le courriel", "en": "the email", "pos": "n.m." },
-        { "fr": "le dossier", "en": "the file / case", "pos": "n.m." },
-        { "fr": "la réunion", "en": "the meeting", "pos": "n.f." },
-        { "fr": "hier", "en": "yesterday", "pos": "adv." },
-        { "fr": "ce matin", "en": "this morning", "pos": "expr." },
-        { "fr": "la semaine dernière", "en": "last week", "pos": "expr." }
-      ],
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
-        "summary": "Passé composé with avoir (most verbs) and être (movement/state-change + pronominal). Agreement rules.",
-        "charts": ["passe_compose"],
+        "summary": "Grammar focus for this objective: The compound past, The imperfect, Agreement.",
+        "charts": [],
         "points": [
-          "avoir + past participle: j'ai envoyé, tu as envoyé, il a envoyé, nous avons envoyé, vous avez envoyé, ils ont envoyé.",
-          "With AVOIR, the participle does NOT agree with the subject. Agreement only with a preceding direct object.",
-          "être + past participle (DR & MRS VANDERTRAMP verbs): je suis arrivé(e), elle est partie. The participle AGREES with the subject.",
-          "Regular participles: -er → -é (parlé), -ir → -i (fini), -re → -u (vendu). Many irregulars (reçu, écrit, fait, pris)."
+          "Le passé composé (The compound past) — Action passée terminée : auxiliaire (avoir/être) au présent + participe passé. Avec être, accord du participe avec le sujet.",
+          "· Most verbs use avoir; no agreement with the subject.",
+          "· Movement/state-change verbs and pronominal verbs use être; participle agrees with subject.",
+          "· Regular participles: -er→-é, -ir→-i, -re→-u.",
+          "L’imparfait (The imperfect) — Description, habitude ou action en cours dans le passé. Radical = nous au présent sans -ons; terminaisons -ais, -ais, -ait, -ions, -iez, -aient.",
+          "· Stem from nous-present: nous travaillons → travaill-.",
+          "· Endings: -ais, -ais, -ait, -ions, -iez, -aient.",
+          "· être is irregular: ét- (j’étais).",
+          "Les accords (Agreement) — Les adjectifs et les participes passés (avec être) s’accordent en genre et en nombre; quel s’accorde avec son nom.",
+          "· Adjective ↔ noun (gender + number).",
+          "· Past participle with être ↔ subject.",
+          "· Past participle with avoir ↔ a preceding direct object only."
         ]
       },
       "pronunciation": {
         "points": [
-          "'j'ai envoyé' — liaison between ai and envoyé: /ʒe.ɑ̃.vwa.je/.",
-          "Past participle -é and infinitive -er sound identical /e/ — context/spelling distinguishes them.",
-          "'ils ont' /il.zɔ̃/ vs 'ils sont' /il.sɔ̃/ — listen for the z liaison of avoir."
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
         ]
       },
-      "dialogues": [
-        {
-          "title": "Point du matin",
-          "register": "formal",
-          "lines": [
-            { "speaker": "Gestionnaire", "fr": "Bonjour. Avez-vous envoyé le rapport hier ?", "en": "Hello. Did you send the report yesterday?" },
-            { "speaker": "Analyste", "fr": "Oui, je l'ai envoyé en fin de journée et j'ai vérifié les chiffres.", "en": "Yes, I sent it at the end of the day and I checked the figures." },
-            { "speaker": "Gestionnaire", "fr": "Parfait. Et Julie, elle est arrivée ?", "en": "Perfect. And Julie, has she arrived?" },
-            { "speaker": "Analyste", "fr": "Elle est arrivée ce matin et elle a déjà préparé l'ordre du jour.", "en": "She arrived this morning and has already prepared the agenda." }
-          ]
-        }
-      ],
-      "exampleTexts": [
-        {
-          "type": "status_email",
-          "fr": "Bonjour,\n\nVoici le suivi : hier, j'ai terminé l'analyse et j'ai envoyé le dossier à la Direction. Ce matin, j'ai reçu les commentaires de Mme Roy. Julie est arrivée et nous avons commencé la révision.\n\nCordialement",
-          "en": "Hello, Here is the follow-up: yesterday I finished the analysis and sent the file to the Branch. This morning I received Ms. Roy's comments. Julie arrived and we started the revision. Regards."
-        }
-      ]
+      "dialogues": [],
+      "exampleTexts": []
     },
     "practice": {
       "exerciseSets": [
-        { "title": "Avoir ou être ?", "itemRefs": ["itm_a11_aux_0001", "itm_a11_aux_0002"], "type": "mcq_single" },
-        { "title": "Mettez au passé composé", "itemRefs": ["itm_a11_pc_0007", "itm_a11_pc_0008"], "type": "fill_blank" },
-        { "title": "Corrigez l'erreur", "itemRefs": ["itm_a11_ec_0001"], "type": "error_correction" },
-        { "title": "Construisez la phrase", "itemRefs": ["itm_a11_sb_0001"], "type": "sentence_build" }
+        {
+          "title": "Le passé composé",
+          "itemRefs": [
+            "itm_of13_passe_compose_1",
+            "itm_of13_passe_compose_2",
+            "itm_of13_passe_compose_3",
+            "itm_of13_passe_compose_4",
+            "itm_of13_passe_compose_5",
+            "itm_of13_passe_compose_6"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "L’imparfait",
+          "itemRefs": [
+            "itm_of13_imparfait_7",
+            "itm_of13_imparfait_8",
+            "itm_of13_imparfait_9",
+            "itm_of13_imparfait_10",
+            "itm_of13_imparfait_11",
+            "itm_of13_imparfait_12"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les accords",
+          "itemRefs": [
+            "itm_of13_agreement_13",
+            "itm_of13_agreement_14",
+            "itm_of13_agreement_15",
+            "itm_of13_agreement_16",
+            "itm_of13_agreement_17",
+            "itm_of13_agreement_18"
+          ],
+          "type": "mixed"
+        }
       ]
     },
     "consolidation": {
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/47-2-2006F"
+      },
       "tasks": [
         {
-          "title": "Courriel de suivi",
-          "type": "real_world_task",
-          "promptFr": "Écrivez un courriel de 3-4 phrases à votre gestionnaire pour résumer ce que vous avez fait hier (au moins trois actions au passé composé, dont une avec « être »).",
-          "promptEn": "Write a 3–4 sentence email to your manager summarizing what you did yesterday (at least three passé composé actions, including one with 'être').",
-          "rubric": ["≥3 passé composé verbs", "correct auxiliary choice", "être-verb agreement", "workplace register"]
-        },
-        {
-          "title": "Compréhension orale",
-          "type": "integrated_listening",
-          "audioRef": "audio/a11_standup.mp3",
-          "itemRefs": ["itm_a11_lc_0001"]
+          "title": "Tâche de consolidation — Fournir de l’information sur un événement ou une habitude passés",
+          "type": "scenario",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « fournir de l’information sur un événement ou une habitude passés ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le passé composé, L’imparfait, Les accords.",
+          "promptEn": "In a workplace context, practise the function \"To give information about past events and habits\". Produce a short exchange (3–4 sentences) using: The compound past, The imperfect, Agreement.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
         }
       ]
     },
     "selfTest": {
-      "timedSeconds": 420,
-      "blueprint": { "easy": 6, "medium": 4, "advanced": 2 },
-      "drawFrom": ["A11"]
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 2,
+        "ofRange": [
+          13,
+          22
+        ],
+        "catalogue": "SC102-2/45-2-2006F"
+      },
+      "timedSeconds": 490,
+      "blueprint": {
+        "easy": 6,
+        "medium": 5,
+        "advanced": 1
+      },
+      "drawFrom": [
+        "OF13"
+      ]
     },
     "masteryCheck": {
       "threshold": 0.8,
-      "concepts": ["passe_compose", "agreement"]
+      "concepts": [
+        "passe_compose",
+        "imparfait",
+        "agreement"
+      ]
     }
   }
 }

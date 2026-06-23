@@ -48,17 +48,21 @@
             "itm_of18_subjonctif_1",
             "itm_of18_subjonctif_2",
             "itm_of18_subjonctif_3",
-            "itm_of18_subjonctif_4"
+            "itm_of18_subjonctif_4",
+            "itm_of18_subjonctif_5",
+            "itm_of18_subjonctif_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Le présent de l’indicatif",
           "itemRefs": [
-            "itm_of18_present_5",
-            "itm_of18_present_6",
             "itm_of18_present_7",
-            "itm_of18_present_8"
+            "itm_of18_present_8",
+            "itm_of18_present_9",
+            "itm_of18_present_10",
+            "itm_of18_present_11",
+            "itm_of18_present_12"
           ],
           "type": "mixed"
         }
@@ -98,11 +102,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 2,
+        "easy": 3,
         "medium": 4,
-        "advanced": 2
+        "advanced": 3
       },
       "drawFrom": [
         "OF18"

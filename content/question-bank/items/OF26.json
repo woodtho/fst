@@ -133,60 +133,53 @@
         "workplace"
       ],
       "theme": "travel",
-      "difficulty": "medium",
-      "type": "mcq_single",
+      "difficulty": "advanced",
+      "type": "matching",
       "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.1,
+      "estTimeSec": 60,
+      "irtB": 0.5,
       "prompt": {
-        "fr": "Remplacez : « J’envoie le rapport au gestionnaire. » → « Je ___ envoie au gestionnaire. »",
-        "instructions_en": "Replace 'le rapport' with the right pronoun."
+        "fr": "Associez le complément au pronom qui le remplace.",
+        "instructions_en": "Match each phrase to the pronoun that replaces it.",
+        "left": [
+          "le rapport",
+          "au directeur",
+          "à Ottawa",
+          "de café",
+          "les dossiers"
+        ],
+        "right": [
+          "le",
+          "lui",
+          "y",
+          "en",
+          "les"
+        ]
       },
       "answer": {
-        "type": "choice",
+        "type": "sequence",
         "accepted": [
-          "l’"
+          "le lui y en les"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
-      "distractors": [
-        {
-          "value": "l’",
-          "tag": "correct"
-        },
-        {
-          "value": "lui",
-          "tag": "indirect"
-        },
-        {
-          "value": "y",
-          "tag": "y_wrong"
-        },
-        {
-          "value": "en",
-          "tag": "en_wrong"
-        }
-      ],
+      "distractors": [],
       "explanation": {
-        "correct_why": "« le rapport » is a direct object → le; before a vowel it elides to « l’ » → « Je l’envoie ».",
-        "distractor_why": {
-          "indirect": "« lui » replaces an indirect object (au gestionnaire), not le rapport.",
-          "y_wrong": "« y » replaces à + thing/place.",
-          "en_wrong": "« en » replaces de + noun."
-        },
-        "grammar_rule": "Direct object pronouns: le, la, les, l’ (before a vowel).",
-        "vocab_notes": "le rapport (m.) → le/l’.",
+        "correct_why": "le rapport→le (direct); au directeur→lui (indirect person); à Ottawa→y (place); de café→en (de + noun); les dossiers→les (direct plural).",
+        "distractor_why": {},
+        "grammar_rule": "Direct (le/la/les), indirect (lui/leur), y (à+place/thing), en (de+noun).",
+        "vocab_notes": "Match the preposition/role to the pronoun.",
         "common_mistakes": [
-          "using lui for a thing",
-          "no elision before a vowel"
+          "using y for a person, lui for a thing"
         ]
       },
       "tip": {
-        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
-        "pattern": "Pronoun goes before the verb.",
+        "memory_aid": "à+place→y; de+noun→en; à+person→lui.",
+        "pattern": "Role decides the pronoun.",
         "similar": [
-          "Je le prépare.",
-          "Je les envoie."
+          "J’y vais.",
+          "J’en ai besoin.",
+          "Je lui parle."
         ]
       }
     },
@@ -206,61 +199,173 @@
       "type": "mcq_single",
       "status": "live",
       "estTimeSec": 30,
-      "irtB": 0.3,
+      "irtB": 0.2,
       "prompt": {
-        "fr": "Remplacez : « Je parle au directeur. » → « Je ___ parle. »",
-        "instructions_en": "Replace 'au directeur' with the right pronoun."
+        "fr": "Remplacez : « Je vais à la réunion. » → « J’___ vais. »",
+        "instructions_en": "Replace 'à la réunion'."
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "lui"
+          "y"
         ],
         "normalizer": "trim_lower"
       },
       "distractors": [
         {
-          "value": "lui",
+          "value": "y",
           "tag": "correct"
         },
         {
-          "value": "le",
+          "value": "lui",
+          "tag": "person"
+        },
+        {
+          "value": "en",
+          "tag": "de"
+        },
+        {
+          "value": "la",
           "tag": "direct"
-        },
-        {
-          "value": "y",
-          "tag": "y_for_person"
-        },
-        {
-          "value": "leur",
-          "tag": "plural"
         }
       ],
       "explanation": {
-        "correct_why": "« parler à quelqu’un » takes an indirect object; à + one person → « lui » → « Je lui parle ».",
+        "correct_why": "« à la réunion » (à + place) → « y »: « J’y vais ».",
         "distractor_why": {
-          "direct": "« le » is a direct object pronoun; parler uses à (indirect).",
-          "y_for_person": "« y » replaces à + thing/place, not a person.",
-          "plural": "« leur » is for several people."
+          "person": "« lui » replaces à + a person.",
+          "de": "« en » replaces de + noun.",
+          "direct": "« la » is a direct object pronoun."
         },
-        "grammar_rule": "Indirect object (à + person): lui (singular), leur (plural).",
-        "vocab_notes": "parler à = to speak to.",
+        "grammar_rule": "y replaces à + place/thing.",
+        "vocab_notes": "aller à = to go to.",
         "common_mistakes": [
-          "using y for a person",
-          "using le instead of lui"
+          "using la for a place"
         ]
       },
       "tip": {
-        "memory_aid": "à + person → lui/leur.",
-        "pattern": "Verb + à + person ⇒ indirect pronoun.",
+        "memory_aid": "Place after à → y.",
+        "pattern": "à + place → y.",
         "similar": [
-          "Je leur écris.",
-          "Tu lui téléphones."
+          "J’y pense.",
+          "Nous y serons."
         ]
       }
     },
     {
-      "id": "itm_of26_passe_compose_5",
+      "id": "itm_of26_pronouns_5",
+      "objectiveId": "OF26",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel",
+        "workplace"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Remplacez « les dossiers » : « Je prépare les dossiers. → Je ___ prépare. »",
+        "instructions_en": "Direct object pronoun (plural)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« les dossiers » is a plural direct object → « les »: « Je les prépare ».",
+        "distractor_why": {
+          "leur": "« leur » is an indirect plural pronoun.",
+          "en": "« en » replaces de + noun."
+        },
+        "grammar_rule": "les = plural direct object pronoun.",
+        "vocab_notes": "un dossier = a file.",
+        "common_mistakes": [
+          "using leur (indirect) for a direct object"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Plural thing, direct → les.",
+        "pattern": "Pronoun before the verb.",
+        "similar": [
+          "Je les envoie.",
+          "Je les vérifie."
+        ]
+      }
+    },
+    {
+      "id": "itm_of26_pronouns_6",
+      "objectiveId": "OF26",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "travel",
+        "workplace"
+      ],
+      "theme": "travel",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Relatif : « C’est le projet ___ je suis responsable. »",
+        "instructions_en": "Choose the relative (être responsable DE)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "dont"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "dont",
+          "tag": "correct"
+        },
+        {
+          "value": "que",
+          "tag": "direct"
+        },
+        {
+          "value": "qui",
+          "tag": "subject"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« être responsable DE » → the relative pronoun « dont » replaces de + noun.",
+        "distractor_why": {
+          "direct": "« que » is for a direct object (no preposition).",
+          "subject": "« qui » is the subject of the relative clause."
+        },
+        "grammar_rule": "dont replaces de + noun in a relative clause.",
+        "vocab_notes": "responsable de = responsible for.",
+        "common_mistakes": [
+          "using que when the verb needs de (dont)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "verb + de → dont.",
+        "pattern": "de-relations → dont.",
+        "similar": [
+          "le dossier dont j’ai besoin",
+          "la réunion dont je parle"
+        ]
+      }
+    },
+    {
+      "id": "itm_of26_passe_compose_7",
       "objectiveId": "OF26",
       "skill": "writing",
       "grammarConcepts": [
@@ -312,7 +417,7 @@
       }
     },
     {
-      "id": "itm_of26_passe_compose_6",
+      "id": "itm_of26_passe_compose_8",
       "objectiveId": "OF26",
       "skill": "writing",
       "grammarConcepts": [
@@ -363,7 +468,68 @@
       }
     },
     {
-      "id": "itm_of26_passe_compose_7",
+      "id": "itm_of26_passe_compose_9",
+      "objectiveId": "OF26",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "travel",
+        "workplace"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Associez l’infinitif à son participe passé.",
+        "instructions_en": "Match each verb to its past participle.",
+        "left": [
+          "faire",
+          "prendre",
+          "écrire",
+          "recevoir",
+          "mettre"
+        ],
+        "right": [
+          "fait",
+          "pris",
+          "écrit",
+          "reçu",
+          "mis"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "fait pris écrit reçu mis"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire→fait, prendre→pris, écrire→écrit, recevoir→reçu, mettre→mis.",
+        "distractor_why": {},
+        "grammar_rule": "Many high-frequency verbs have irregular participles to memorize.",
+        "vocab_notes": "These five appear constantly in workplace writing.",
+        "common_mistakes": [
+          "regularizing (e.g. « prendu » instead of « pris »)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn irregular participles in pairs.",
+        "pattern": "Irregular participle ≠ infinitive stem.",
+        "similar": [
+          "J’ai fait le suivi.",
+          "J’ai mis à jour le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of26_passe_compose_10",
       "objectiveId": "OF26",
       "skill": "writing",
       "grammarConcepts": [
@@ -378,44 +544,42 @@
       "type": "fill_blank",
       "status": "live",
       "estTimeSec": 35,
-      "irtB": -0.3,
+      "irtB": -0.2,
       "prompt": {
-        "fr": "Mettez au passé composé : « Hier, j’___ (terminer) le dossier. »",
-        "instructions_en": "Passé composé with avoir."
+        "fr": "Passé composé : « Nous ___ (attendre) la décision. »",
+        "instructions_en": "Passé composé with avoir (-re verb)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "ai terminé"
+          "avons attendu"
         ],
-        "normalizer": "fr_accent_insensitive_trim_lower",
-        "regex": "^ai termin[ée]$"
+        "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "avoir (ai) + participe passé (terminé) = « ai terminé ». No agreement under avoir without a preceding object.",
+        "correct_why": "avoir (avons) + participle attendu (-re→-u) = « avons attendu ».",
         "distractor_why": {
-          "infinitive": "« ai terminer » uses the infinitive; need the participle terminé.",
-          "agreement": "« ai terminée » adds agreement, but no preceding direct object here."
+          "wrong_pp": "-re verbs give -u participles: attendre → attendu.",
+          "infinitive": "« avons attendre » uses the infinitive."
         },
-        "grammar_rule": "Passé composé = auxiliaire au présent + participe passé.",
-        "vocab_notes": "terminer → terminé.",
+        "grammar_rule": "-re participle = -u (vendu, attendu, répondu).",
+        "vocab_notes": "attendre = to wait (for).",
         "common_mistakes": [
-          "infinitive for participle",
-          "needless agreement under avoir"
+          "wrong participle ending for -re verbs"
         ]
       },
       "tip": {
-        "memory_aid": "Participle -é (not -er).",
-        "pattern": "avoir + participe → no agreement.",
+        "memory_aid": "-re → -u participle.",
+        "pattern": "avoir + -u participle.",
         "similar": [
-          "J’ai préparé l’ordre du jour.",
-          "J’ai envoyé le courriel."
+          "J’ai répondu au courriel.",
+          "Nous avons vendu l’équipement."
         ]
       }
     },
     {
-      "id": "itm_of26_passe_compose_8",
+      "id": "itm_of26_passe_compose_11",
       "objectiveId": "OF26",
       "skill": "grammar",
       "grammarConcepts": [
@@ -426,14 +590,14 @@
         "workplace"
       ],
       "theme": "travel",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 25,
-      "irtB": -0.5,
+      "estTimeSec": 30,
+      "irtB": 0.3,
       "prompt": {
-        "fr": "Choisissez l’auxiliaire : « Elle ___ partie à midi. »",
-        "instructions_en": "Pick the correct auxiliary."
+        "fr": "Choisissez : « Elle ___ venue à la réunion. »",
+        "instructions_en": "Auxiliary + agreement."
       },
       "answer": {
         "type": "choice",
@@ -453,33 +617,80 @@
         },
         {
           "value": "es",
-          "tag": "wrong_person"
-        },
-        {
-          "value": "ont",
-          "tag": "plural"
+          "tag": "person"
         }
       ],
       "explanation": {
-        "correct_why": "« partir » is an être-verb → « est », and the participle agrees: « est partie » (feminine).",
+        "correct_why": "venir takes être → « est », participle agrees: venue (f.).",
         "distractor_why": {
-          "avoir_for_etre": "« a » is avoir; partir takes être.",
-          "wrong_person": "« es » is the tu form.",
-          "plural": "« ont » is plural."
+          "avoir_for_etre": "venir uses être, not avoir.",
+          "person": "« es » is the tu form."
         },
-        "grammar_rule": "Movement verbs (partir, arriver, venir…) take être; participle agrees with the subject.",
-        "vocab_notes": "partir → parti(e).",
+        "grammar_rule": "venir is an être-verb; the participle agrees with the subject.",
+        "vocab_notes": "venir → venu(e).",
         "common_mistakes": [
-          "using avoir with être-verbs",
-          "forgetting subject agreement"
+          "using avoir with venir"
         ]
       },
       "tip": {
-        "memory_aid": "DR & MRS VANDERTRAMP = être verbs.",
-        "pattern": "être + participle → agree with subject.",
+        "memory_aid": "venir/devenir/revenir → être.",
+        "pattern": "être + agreeing participle.",
         "similar": [
-          "Il est arrivé.",
-          "Elles sont venues."
+          "Il est revenu.",
+          "Elles sont devenues gestionnaires."
+        ]
+      }
+    },
+    {
+      "id": "itm_of26_passe_compose_12",
+      "objectiveId": "OF26",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "travel",
+        "workplace"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (passé composé).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Hier",
+          "j’ai",
+          "signé",
+          "la note de breffage"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Hier j’ai signé la note de breffage"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Time + subject/aux + participle + object: « Hier, j’ai signé la note de breffage ».",
+        "distractor_why": {},
+        "grammar_rule": "Auxiliary and participle stay adjacent.",
+        "vocab_notes": "la note de breffage = the briefing note.",
+        "common_mistakes": [
+          "separating « ai » from « signé »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aux + participle = glued.",
+        "pattern": "[time] + aux + participle + object.",
+        "similar": [
+          "Ce matin, j’ai approuvé la demande.",
+          "Hier, elle a déposé le rapport."
         ]
       }
     }

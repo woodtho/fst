@@ -13,7 +13,7 @@
  * Deterministic: re-running overwrites with identical output.
  * Run: node --experimental-strip-types scripts/build-modules.ts
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -22,9 +22,18 @@ const read = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
 
 const curriculum = read("content/curriculum.json");
 const library = read("content/_concepts/library.json").concepts as Record<string, any>;
+const extra = existsSync(join(ROOT, "content/_concepts/library-extra.json"))
+  ? (read("content/_concepts/library-extra.json").concepts as Record<string, any>)
+  : {};
 const manifest = read("sources/manifest.json");
 
-const SKIP = new Set(["OF1", "OF13"]); // hand-authored in full depth
+// Merged item pool per concept (base + extra examples/types).
+function poolFor(concept: string): any[] {
+  return [...(library[concept]?.items ?? []), ...(extra[concept]?.items ?? [])];
+}
+const PER_CONCEPT = 6; // items drawn per concept per OF (rotated → different examples across OFs)
+
+const SKIP = new Set<string>(); // all 40 OFs use the same generated format
 
 function booklet(kind: "consolidation" | "selfEvaluation", of: number) {
   const list = manifest.supplements?.[kind] ?? [];
@@ -56,7 +65,8 @@ for (const obj of curriculum.objectives) {
   const setsByConcept: Record<string, string[]> = {};
   let n = 1;
   for (const concept of concepts) {
-    const pool = rotate(library[concept].items, obj.of);
+    // rotate the merged pool by the OF number, then take a window → different examples per OF
+    const pool = rotate(poolFor(concept), obj.of).slice(0, PER_CONCEPT);
     setsByConcept[concept] = [];
     for (const tpl of pool) {
       const id = `itm_${ofLower}_${concept}_${n++}`;
@@ -155,8 +165,8 @@ for (const obj of curriculum.objectives) {
       },
       selfTest: {
         sourceBooklet: self ? { kind: self.kind, booklet: self.booklet, ofRange: self.ofRange, catalogue: self.catalogue } : null,
-        timedSeconds: Math.max(180, items.length * 35),
-        blueprint: { easy: byBand("easy"), medium: byBand("medium"), advanced: byBand("advanced") },
+        timedSeconds: Math.max(240, Math.min(items.length, 14) * 35),
+        blueprint: { easy: Math.min(byBand("easy"), 6), medium: Math.min(byBand("medium"), 5), advanced: Math.min(byBand("advanced"), 3) },
         drawFrom: [obj.id],
       },
       masteryCheck: { threshold: 0.8, concepts },
@@ -167,4 +177,4 @@ for (const obj of curriculum.objectives) {
   modCount++;
 }
 
-console.log(`Generated ${modCount} modules and ${itemCount} items (OF2–OF40, excluding hand-authored OF1/OF13).`);
+console.log(`Generated ${modCount} modules and ${itemCount} items (all OFs, uniform format).`);

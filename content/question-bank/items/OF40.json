@@ -240,7 +240,120 @@
       }
     },
     {
-      "id": "itm_of40_subjonctif_5",
+      "id": "itm_of40_conditionnel_5",
+      "objectiveId": "OF40",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Conditionnel : « J’___ (aimer) vous rencontrer cette semaine. »",
+        "instructions_en": "Polite conditional of aimer, je."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "aimerais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« J’aimerais » (conditional) is the polite way to say 'I would like'.",
+        "distractor_why": {
+          "present": "« aime » is too direct.",
+          "future": "« aimerai » is future, not conditional."
+        },
+        "grammar_rule": "Conditional = future stem + imperfect endings.",
+        "vocab_notes": "J’aimerais = I would like.",
+        "common_mistakes": [
+          "future -ai vs conditional -ais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "j’aimerais = I would like.",
+        "pattern": "Polite wish → conditional.",
+        "similar": [
+          "Je voudrais…",
+          "Je souhaiterais…"
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_conditionnel_6",
+      "objectiveId": "OF40",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Conditionnel : « À ta place, j’___ (aller) voir le gestionnaire. »",
+        "instructions_en": "Conditional of aller (advice)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "irais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "irais",
+          "tag": "correct"
+        },
+        {
+          "value": "irai",
+          "tag": "future"
+        },
+        {
+          "value": "vais",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Advice uses the conditional; aller stem ir- + -ais = « irais ».",
+        "distractor_why": {
+          "future": "« irai » is future.",
+          "present": "« vais » is present."
+        },
+        "grammar_rule": "Conditional uses the future stem + imperfect endings.",
+        "vocab_notes": "À ta place = if I were you.",
+        "common_mistakes": [
+          "future irai vs conditional irais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Advice → conditional (-ais).",
+        "pattern": "future stem + -ais.",
+        "similar": [
+          "Je ferais autrement.",
+          "Nous demanderions un délai."
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_subjonctif_7",
       "objectiveId": "OF40",
       "skill": "writing",
       "grammarConcepts": [
@@ -290,7 +403,7 @@
       }
     },
     {
-      "id": "itm_of40_subjonctif_6",
+      "id": "itm_of40_subjonctif_8",
       "objectiveId": "OF40",
       "skill": "grammar",
       "grammarConcepts": [
@@ -358,7 +471,7 @@
       }
     },
     {
-      "id": "itm_of40_subjonctif_7",
+      "id": "itm_of40_subjonctif_9",
       "objectiveId": "OF40",
       "skill": "grammar",
       "grammarConcepts": [
@@ -416,7 +529,7 @@
       }
     },
     {
-      "id": "itm_of40_subjonctif_8",
+      "id": "itm_of40_subjonctif_10",
       "objectiveId": "OF40",
       "skill": "writing",
       "grammarConcepts": [
@@ -462,6 +575,117 @@
         "similar": [
           "Il veut que je fasse le rapport.",
           "Elle souhaite que vous fassiez le point."
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_subjonctif_11",
+      "objectiveId": "OF40",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Associez le verbe à son subjonctif (que je …).",
+        "instructions_en": "Match each verb to its 'je' subjunctive.",
+        "left": [
+          "être",
+          "avoir",
+          "faire",
+          "aller",
+          "pouvoir"
+        ],
+        "right": [
+          "sois",
+          "aie",
+          "fasse",
+          "aille",
+          "puisse"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "sois aie fasse aille puisse"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "que je sois, que j’aie, que je fasse, que j’aille, que je puisse.",
+        "distractor_why": {},
+        "grammar_rule": "These verbs have irregular subjunctive stems to memorize.",
+        "vocab_notes": "All follow « il faut que … » / « que … ».",
+        "common_mistakes": [
+          "using the indicative form after a subjunctive trigger"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn être/avoir/faire/aller/pouvoir subjunctives by heart.",
+        "pattern": "Irregular stem + subjunctive endings.",
+        "similar": [
+          "Il faut que je sois là.",
+          "Il faut qu’il fasse le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of40_subjonctif_12",
+      "objectiveId": "OF40",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 38,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Subjonctif : « Il faut que tu ___ (aller) au bureau du directeur. »",
+        "instructions_en": "Subjunctive of aller, tu."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "ailles"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « il faut que », aller → aille-: tu → « ailles ».",
+        "distractor_why": {
+          "indicative": "« vas » is the indicative.",
+          "wrong_stem": "aller uses the irregular subjunctive stem aill-."
+        },
+        "grammar_rule": "aller subjunctive: aille, ailles, aille, allions, alliez, aillent.",
+        "vocab_notes": "au bureau de = to the office of.",
+        "common_mistakes": [
+          "using « vas » after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que tu ailles.",
+        "pattern": "Trigger + que + subjunctive.",
+        "similar": [
+          "Il faut que j’aille.",
+          "Il faut que vous alliez."
         ]
       }
     }

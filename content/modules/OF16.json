@@ -48,17 +48,21 @@
             "itm_of16_present_1",
             "itm_of16_present_2",
             "itm_of16_present_3",
-            "itm_of16_present_4"
+            "itm_of16_present_4",
+            "itm_of16_present_5",
+            "itm_of16_present_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Le passé composé",
           "itemRefs": [
-            "itm_of16_passe_compose_5",
-            "itm_of16_passe_compose_6",
             "itm_of16_passe_compose_7",
-            "itm_of16_passe_compose_8"
+            "itm_of16_passe_compose_8",
+            "itm_of16_passe_compose_9",
+            "itm_of16_passe_compose_10",
+            "itm_of16_passe_compose_11",
+            "itm_of16_passe_compose_12"
           ],
           "type": "mixed"
         }
@@ -98,10 +102,10 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 4,
-        "medium": 4,
+        "easy": 6,
+        "medium": 5,
         "advanced": 0
       },
       "drawFrom": [

@@ -48,17 +48,21 @@
             "itm_of19_comparatives_1",
             "itm_of19_comparatives_2",
             "itm_of19_comparatives_3",
-            "itm_of19_comparatives_4"
+            "itm_of19_comparatives_4",
+            "itm_of19_comparatives_5",
+            "itm_of19_comparatives_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les adjectifs",
           "itemRefs": [
-            "itm_of19_adjectives_5",
-            "itm_of19_adjectives_6",
             "itm_of19_adjectives_7",
-            "itm_of19_adjectives_8"
+            "itm_of19_adjectives_8",
+            "itm_of19_adjectives_9",
+            "itm_of19_adjectives_10",
+            "itm_of19_adjectives_11",
+            "itm_of19_adjectives_12"
           ],
           "type": "mixed"
         }
@@ -98,11 +102,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
         "easy": 2,
         "medium": 5,
-        "advanced": 1
+        "advanced": 3
       },
       "drawFrom": [
         "OF19"

@@ -48,17 +48,21 @@
             "itm_of39_subjonctif_1",
             "itm_of39_subjonctif_2",
             "itm_of39_subjonctif_3",
-            "itm_of39_subjonctif_4"
+            "itm_of39_subjonctif_4",
+            "itm_of39_subjonctif_5",
+            "itm_of39_subjonctif_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Le comparatif et le superlatif",
           "itemRefs": [
-            "itm_of39_comparatives_5",
-            "itm_of39_comparatives_6",
             "itm_of39_comparatives_7",
-            "itm_of39_comparatives_8"
+            "itm_of39_comparatives_8",
+            "itm_of39_comparatives_9",
+            "itm_of39_comparatives_10",
+            "itm_of39_comparatives_11",
+            "itm_of39_comparatives_12"
           ],
           "type": "mixed"
         }
@@ -98,10 +102,10 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
         "easy": 1,
-        "medium": 4,
+        "medium": 5,
         "advanced": 3
       },
       "drawFrom": [

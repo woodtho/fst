@@ -258,7 +258,133 @@
       }
     },
     {
-      "id": "itm_of8_present_5",
+      "id": "itm_of8_prepositions_5",
+      "objectiveId": "OF8",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.4,
+      "prompt": {
+        "fr": "Associez la combinaison à sa contraction.",
+        "instructions_en": "Match each combination to its contraction.",
+        "left": [
+          "à + le",
+          "à + les",
+          "de + le",
+          "de + les"
+        ],
+        "right": [
+          "au",
+          "aux",
+          "du",
+          "des"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "au aux du des"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Articles contract with à and de (but not à+la / de+la).",
+        "vocab_notes": "These contractions are obligatory.",
+        "common_mistakes": [
+          "writing « à le » / « de le » uncontracted"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à+le=au; de+le=du.",
+        "pattern": "Contract before le/les only.",
+        "similar": [
+          "au bureau",
+          "du directeur",
+          "aux employés"
+        ]
+      }
+    },
+    {
+      "id": "itm_of8_prepositions_6",
+      "objectiveId": "OF8",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Temps : « La formation a lieu ___ septembre. »",
+        "instructions_en": "Preposition for a month."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "en"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "en",
+          "tag": "correct"
+        },
+        {
+          "value": "à",
+          "tag": "clock"
+        },
+        {
+          "value": "dans",
+          "tag": "later"
+        },
+        {
+          "value": "depuis",
+          "tag": "since"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Use « en » with months and years: « en septembre ».",
+        "distractor_why": {
+          "clock": "« à » is for clock times (à 9 h).",
+          "later": "« dans » = in X time from now.",
+          "since": "« depuis » = since."
+        },
+        "grammar_rule": "en + month/year; au mois de + month also possible.",
+        "vocab_notes": "avoir lieu = to take place.",
+        "common_mistakes": [
+          "using à or dans with a month"
+        ]
+      },
+      "tip": {
+        "memory_aid": "en septembre, en 2025.",
+        "pattern": "en + month/year.",
+        "similar": [
+          "en janvier",
+          "en 2026"
+        ]
+      }
+    },
+    {
+      "id": "itm_of8_present_7",
       "objectiveId": "OF8",
       "skill": "grammar",
       "grammarConcepts": [
@@ -325,7 +451,7 @@
       }
     },
     {
-      "id": "itm_of8_present_6",
+      "id": "itm_of8_present_8",
       "objectiveId": "OF8",
       "skill": "writing",
       "grammarConcepts": [
@@ -374,7 +500,7 @@
       }
     },
     {
-      "id": "itm_of8_present_7",
+      "id": "itm_of8_present_9",
       "objectiveId": "OF8",
       "skill": "grammar",
       "grammarConcepts": [
@@ -441,7 +567,7 @@
       }
     },
     {
-      "id": "itm_of8_present_8",
+      "id": "itm_of8_present_10",
       "objectiveId": "OF8",
       "skill": "writing",
       "grammarConcepts": [
@@ -490,7 +616,123 @@
       }
     },
     {
-      "id": "itm_of8_question_formation_9",
+      "id": "itm_of8_present_11",
+      "objectiveId": "OF8",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 22,
+      "irtB": -0.7,
+      "prompt": {
+        "fr": "Complétez : « Le directeur ___ (vendre) l’ancien équipement. »",
+        "instructions_en": "Present tense of the -re verb (3rd sing.)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "vend"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "vend",
+          "tag": "correct"
+        },
+        {
+          "value": "vends",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "vendent",
+          "tag": "plural"
+        },
+        {
+          "value": "vendre",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "-re verbs drop -re; il/elle has no ending: vendre → « vend ».",
+        "distractor_why": {
+          "wrong_person": "« vends » is je/tu.",
+          "plural": "« vendent » is ils/elles.",
+          "infinitive": "« vendre » is the infinitive."
+        },
+        "grammar_rule": "-re : -s, -s, –, -ons, -ez, -ent (il form has no ending).",
+        "vocab_notes": "vendre = to sell; l’équipement = equipment.",
+        "common_mistakes": [
+          "adding -t or -d ending to the il form of -re verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re il form = bare stem (vend, attend, répond).",
+        "pattern": "il/elle -re → no ending.",
+        "similar": [
+          "Il attend la réponse.",
+          "Elle répond au courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of8_present_12",
+      "objectiveId": "OF8",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.5,
+      "prompt": {
+        "fr": "Mettez au présent : « Nous ___ (choisir) un fournisseur. »",
+        "instructions_en": "Conjugate the -ir verb for nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "choisissons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-ir (type finir) with nous: choisir → chois + issons = « choisissons ».",
+        "distractor_why": {
+          "wrong": "« choisons » drops the -iss- infix required by -ir verbs.",
+          "infinitive": "« choisir » is the infinitive."
+        },
+        "grammar_rule": "-ir verbs: nous -issons, vous -issez, ils -issent (with -iss-).",
+        "vocab_notes": "choisir = to choose; un fournisseur = a supplier.",
+        "common_mistakes": [
+          "dropping the -iss- in the plural of -ir verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-ir plurals add -iss- (finissons, choisissons).",
+        "pattern": "nous -ir → -issons.",
+        "similar": [
+          "Nous finissons à 17 h.",
+          "Ils réfléchissent à l’offre."
+        ]
+      }
+    },
+    {
+      "id": "itm_of8_question_formation_13",
       "objectiveId": "OF8",
       "skill": "writing",
       "grammarConcepts": [
@@ -541,7 +783,7 @@
       }
     },
     {
-      "id": "itm_of8_question_formation_10",
+      "id": "itm_of8_question_formation_14",
       "objectiveId": "OF8",
       "skill": "grammar",
       "grammarConcepts": [
@@ -608,7 +850,7 @@
       }
     },
     {
-      "id": "itm_of8_question_formation_11",
+      "id": "itm_of8_question_formation_15",
       "objectiveId": "OF8",
       "skill": "grammar",
       "grammarConcepts": [
@@ -670,7 +912,7 @@
       }
     },
     {
-      "id": "itm_of8_question_formation_12",
+      "id": "itm_of8_question_formation_16",
       "objectiveId": "OF8",
       "skill": "writing",
       "grammarConcepts": [
@@ -715,6 +957,117 @@
         "similar": [
           "Est-ce que la salle est libre?",
           "Est-ce qu’il a le rapport?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of8_question_formation_17",
+      "objectiveId": "OF8",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Associez le mot interrogatif à son sens.",
+        "instructions_en": "Match each question word to its meaning.",
+        "left": [
+          "qui",
+          "où",
+          "quand",
+          "combien",
+          "pourquoi"
+        ],
+        "right": [
+          "who",
+          "where",
+          "when",
+          "how much/many",
+          "why"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "who where when how much/many why"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "qui=who, où=where, quand=when, combien=how much/many, pourquoi=why.",
+        "distractor_why": {},
+        "grammar_rule": "Information questions use these words.",
+        "vocab_notes": "Don't confuse où (where) with ou (or).",
+        "common_mistakes": [
+          "mixing combien (how much) and comment (how)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "où has an accent (where); ou = or.",
+        "pattern": "Question word sets the expected answer.",
+        "similar": [
+          "Où est le bureau?",
+          "Combien de jours?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of8_question_formation_18",
+      "objectiveId": "OF8",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Inversion : « Vous avez le dossier. » → ___",
+        "instructions_en": "Write the inversion question."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Avez-vous le dossier?",
+          "Avez-vous le dossier"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^avez-?vous le dossier\\??$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Inversion: « Avez-vous le dossier? » (verb-pronoun + hyphen).",
+        "distractor_why": {
+          "no_hyphen": "Needs a hyphen.",
+          "estceque": "« Est-ce que vous avez » is the est-ce que form."
+        },
+        "grammar_rule": "Inversion = verb-pronoun + ?",
+        "vocab_notes": "le dossier = the file.",
+        "common_mistakes": [
+          "forgetting the hyphen"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Flip + hyphen.",
+        "pattern": "[Verb]-[pronoun]?",
+        "similar": [
+          "Êtes-vous prêt?",
+          "Travaillez-vous ici?"
         ]
       }
     }

@@ -48,17 +48,21 @@
             "itm_of35_futur_simple_1",
             "itm_of35_futur_simple_2",
             "itm_of35_futur_simple_3",
-            "itm_of35_futur_simple_4"
+            "itm_of35_futur_simple_4",
+            "itm_of35_futur_simple_5",
+            "itm_of35_futur_simple_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Le conditionnel présent",
           "itemRefs": [
-            "itm_of35_conditionnel_5",
-            "itm_of35_conditionnel_6",
             "itm_of35_conditionnel_7",
-            "itm_of35_conditionnel_8"
+            "itm_of35_conditionnel_8",
+            "itm_of35_conditionnel_9",
+            "itm_of35_conditionnel_10",
+            "itm_of35_conditionnel_11",
+            "itm_of35_conditionnel_12"
           ],
           "type": "mixed"
         }
@@ -98,11 +102,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 2,
-        "medium": 4,
-        "advanced": 2
+        "easy": 3,
+        "medium": 5,
+        "advanced": 1
       },
       "drawFrom": [
         "OF35"

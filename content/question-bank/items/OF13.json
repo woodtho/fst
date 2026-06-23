@@ -1,267 +1,1013 @@
 {
   "schema": "items/v1",
   "objectiveId": "OF13",
+  "source": {
+    "catalogue": "SC102-2/13-2005F",
+    "generated": true,
+    "note": "Generated from the concept library mapped to this OF's source-derived grammar scope. Full explanation contract on every item."
+  },
   "items": [
     {
-      "id": "itm_a11_aux_0001",
-      "objectiveId": "OF13",
-      "skill": "grammar",
-      "grammarConcepts": ["passe_compose"],
-      "vocabDomains": ["workplace"],
-      "theme": "workplace",
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 25,
-      "irtB": -1.0,
-      "prompt": {
-        "fr": "Choisissez l'auxiliaire correct : « Julie ___ arrivée ce matin. »",
-        "en": "Choose the correct auxiliary: 'Julie ___ arrived this morning.'",
-        "instructions_en": "Pick the correct passé composé auxiliary."
-      },
-      "answer": { "type": "choice", "accepted": ["est"], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "est", "tag": "correct" },
-        { "value": "a", "tag": "avoir_for_etre_verb" },
-        { "value": "es", "tag": "wrong_person" },
-        { "value": "ont", "tag": "wrong_number" }
-      ],
-      "explanation": {
-        "correct_why": "« Arriver » is a movement verb that takes ÊTRE in the passé composé. With 'elle/Julie', that is « est » → « Julie est arrivée ». The participle agrees: arrivée (feminine).",
-        "distractor_why": {
-          "avoir_for_etre_verb": "« a » is the avoir auxiliary. Arriver does not use avoir; it is one of the être verbs (DR & MRS VANDERTRAMP).",
-          "wrong_person": "« es » is the tu-form of être (tu es). The subject 'Julie' is third person, so we need « est ».",
-          "wrong_number": "« ont » is third-person plural (ils/elles ont). 'Julie' is singular, so « est », not « ont »."
-        },
-        "grammar_rule": "Movement / state-change verbs (arriver, partir, venir, aller, naître, mourir…) and all pronominal verbs form the passé composé with être; the participle agrees with the subject in gender and number.",
-        "vocab_notes": "arriver → participe passé « arrivé(e) ». Feminine subject → arrivée.",
-        "common_mistakes": ["using avoir with être-verbs", "forgetting subject agreement on the participle"]
-      },
-      "tip": {
-        "memory_aid": "DR & MRS VANDERTRAMP = the être verbs. If it's about going/coming/staying/being born/dying, think ÊTRE.",
-        "pattern": "être + participe passé → participle agrees with the subject (-e fem, -s plural).",
-        "similar": ["Il est parti à midi.", "Elles sont venues à la réunion.", "Nous sommes arrivés en retard."]
-      }
-    },
-    {
-      "id": "itm_a11_aux_0002",
-      "objectiveId": "OF13",
-      "skill": "grammar",
-      "grammarConcepts": ["passe_compose"],
-      "vocabDomains": ["workplace"],
-      "theme": "workplace",
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 25,
-      "irtB": -0.9,
-      "prompt": {
-        "fr": "« J'___ envoyé le rapport. » Quel auxiliaire ?",
-        "en": "'I ___ sent the report.' Which auxiliary?",
-        "instructions_en": "Pick the correct auxiliary."
-      },
-      "answer": { "type": "choice", "accepted": ["ai"], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "ai", "tag": "correct" },
-        { "value": "suis", "tag": "etre_for_avoir_verb" },
-        { "value": "as", "tag": "wrong_person" }
-      ],
-      "explanation": {
-        "correct_why": "« Envoyer » takes AVOIR. First person singular present of avoir is « ai » → « j'ai envoyé ».",
-        "distractor_why": {
-          "etre_for_avoir_verb": "« suis » is être. Envoyer is a transitive action verb and uses avoir, not être.",
-          "wrong_person": "« as » is the tu-form (tu as). The subject is 'je', so « ai »."
-        },
-        "grammar_rule": "Most verbs (especially transitive verbs with a direct object) form the passé composé with avoir. No agreement with the subject.",
-        "vocab_notes": "envoyer → envoyé; collocations: envoyer un courriel / un rapport / un dossier.",
-        "common_mistakes": ["using être for transitive verbs", "agreeing the participle with the subject under avoir"]
-      },
-      "tip": {
-        "memory_aid": "If the verb takes a direct object (send WHAT? the report), it almost always takes avoir.",
-        "pattern": "avoir + participe passé → no subject agreement.",
-        "similar": ["J'ai préparé l'ordre du jour.", "Nous avons reçu les commentaires."]
-      }
-    },
-    {
-      "id": "itm_a11_pc_0007",
+      "id": "itm_of13_passe_compose_1",
       "objectiveId": "OF13",
       "skill": "writing",
-      "grammarConcepts": ["passe_compose", "agreement"],
-      "vocabDomains": ["workplace"],
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
       "theme": "workplace",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "type": "fill_blank",
       "status": "live",
-      "estTimeSec": 40,
+      "estTimeSec": 35,
       "irtB": -0.2,
       "prompt": {
-        "fr": "Hier, j'___ (envoyer) le rapport au gestionnaire.",
-        "en": "Yesterday, I sent the report to the manager.",
-        "instructions_en": "Write the verb in the passé composé."
+        "fr": "Passé composé : « Nous ___ (attendre) la décision. »",
+        "instructions_en": "Passé composé with avoir (-re verb)."
       },
-      "answer": { "type": "text", "accepted": ["ai envoyé"], "normalizer": "fr_accent_insensitive_trim_lower", "regex": "^j?'?\\s*ai\\s+envoy[ée]$" },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avons attendu"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
       "distractors": [],
       "explanation": {
-        "correct_why": "Passé composé of envoyer with 'je': avoir (ai) + past participle (envoyé) → « ai envoyé ». No agreement: avoir auxiliary with no preceding direct object.",
+        "correct_why": "avoir (avons) + participle attendu (-re→-u) = « avons attendu ».",
         "distractor_why": {
-          "infinitive_for_participle": "Writing « ai envoyer » uses the infinitive. After the auxiliary you need the past participle « envoyé ».",
-          "wrong_auxiliary": "« suis envoyé » uses être; envoyer takes avoir.",
-          "wrong_agreement": "« ai envoyée » adds agreement, but with avoir there is no preceding direct object here, so no -e."
+          "wrong_pp": "-re verbs give -u participles: attendre → attendu.",
+          "infinitive": "« avons attendre » uses the infinitive."
         },
-        "grammar_rule": "Passé composé = auxiliaire au présent + participe passé. With avoir, agreement only when a direct object precedes the verb.",
-        "vocab_notes": "envoyer → envoyé. The direct object « le rapport » comes AFTER the verb, so no agreement.",
-        "common_mistakes": ["-er infinitive used as participle", "adding -e/-s without a preceding direct object"]
+        "grammar_rule": "-re participle = -u (vendu, attendu, répondu).",
+        "vocab_notes": "attendre = to wait (for).",
+        "common_mistakes": [
+          "wrong participle ending for -re verbs"
+        ]
       },
       "tip": {
-        "memory_aid": "Participle ending -é (one sound /e/) but spelled like the past, not the infinitive -er.",
-        "pattern": "avoir + participe passé → no agreement unless a direct object comes BEFORE.",
-        "similar": ["J'ai préparé le dossier.", "Nous avons terminé la réunion."]
+        "memory_aid": "-re → -u participle.",
+        "pattern": "avoir + -u participle.",
+        "similar": [
+          "J’ai répondu au courriel.",
+          "Nous avons vendu l’équipement."
+        ]
       }
     },
     {
-      "id": "itm_a11_pc_0008",
+      "id": "itm_of13_passe_compose_2",
       "objectiveId": "OF13",
-      "skill": "writing",
-      "grammarConcepts": ["passe_compose", "agreement"],
-      "vocabDomains": ["workplace"],
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
       "theme": "workplace",
       "difficulty": "medium",
-      "type": "fill_blank",
+      "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 45,
-      "irtB": 0.1,
+      "estTimeSec": 30,
+      "irtB": 0.3,
       "prompt": {
-        "fr": "Ce matin, Julie ___ (arriver) en retard à la réunion.",
-        "en": "This morning, Julie arrived late to the meeting.",
-        "instructions_en": "Write the verb in the passé composé (watch the auxiliary and agreement)."
+        "fr": "Choisissez : « Elle ___ venue à la réunion. »",
+        "instructions_en": "Auxiliary + agreement."
       },
-      "answer": { "type": "text", "accepted": ["est arrivée"], "normalizer": "fr_accent_insensitive_trim_lower", "regex": "^est\\s+arriv[ée]e$" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "Arriver takes être; subject 'Julie' is feminine singular, so the participle agrees: « est arrivée ».",
-        "distractor_why": {
-          "avoir_aux": "« a arrivé » uses avoir; arriver is an être-verb.",
-          "no_agreement": "« est arrivé » misses the feminine agreement required with être (Julie → arrivée)."
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "est"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "est",
+          "tag": "correct"
         },
-        "grammar_rule": "Être-verbs agree the past participle with the subject: -e (feminine), -s (plural), -es (feminine plural).",
-        "vocab_notes": "arriver → arrivé(e); en retard = late; à la réunion = to/at the meeting.",
-        "common_mistakes": ["using avoir", "forgetting the feminine -e with être"]
+        {
+          "value": "a",
+          "tag": "avoir_for_etre"
+        },
+        {
+          "value": "es",
+          "tag": "person"
+        }
+      ],
+      "explanation": {
+        "correct_why": "venir takes être → « est », participle agrees: venue (f.).",
+        "distractor_why": {
+          "avoir_for_etre": "venir uses être, not avoir.",
+          "person": "« es » is the tu form."
+        },
+        "grammar_rule": "venir is an être-verb; the participle agrees with the subject.",
+        "vocab_notes": "venir → venu(e).",
+        "common_mistakes": [
+          "using avoir with venir"
+        ]
       },
       "tip": {
-        "memory_aid": "ÊTRE-verb + feminine subject = add -e to the participle, like an adjective.",
-        "pattern": "subject ÊTRE participle(agrees).",
-        "similar": ["Elle est partie.", "Elles sont venues.", "Il est resté au bureau."]
+        "memory_aid": "venir/devenir/revenir → être.",
+        "pattern": "être + agreeing participle.",
+        "similar": [
+          "Il est revenu.",
+          "Elles sont devenues gestionnaires."
+        ]
       }
     },
     {
-      "id": "itm_a11_ec_0001",
+      "id": "itm_of13_passe_compose_3",
       "objectiveId": "OF13",
       "skill": "writing",
-      "grammarConcepts": ["passe_compose"],
-      "vocabDomains": ["workplace"],
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (passé composé).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Hier",
+          "j’ai",
+          "signé",
+          "la note de breffage"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Hier j’ai signé la note de breffage"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Time + subject/aux + participle + object: « Hier, j’ai signé la note de breffage ».",
+        "distractor_why": {},
+        "grammar_rule": "Auxiliary and participle stay adjacent.",
+        "vocab_notes": "la note de breffage = the briefing note.",
+        "common_mistakes": [
+          "separating « ai » from « signé »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aux + participle = glued.",
+        "pattern": "[time] + aux + participle + object.",
+        "similar": [
+          "Ce matin, j’ai approuvé la demande.",
+          "Hier, elle a déposé le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_passe_compose_4",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Mettez au passé composé : « Hier, j’___ (terminer) le dossier. »",
+        "instructions_en": "Passé composé with avoir."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "ai terminé"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": "^ai termin[ée]$"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "avoir (ai) + participe passé (terminé) = « ai terminé ». No agreement under avoir without a preceding object.",
+        "distractor_why": {
+          "infinitive": "« ai terminer » uses the infinitive; need the participle terminé.",
+          "agreement": "« ai terminée » adds agreement, but no preceding direct object here."
+        },
+        "grammar_rule": "Passé composé = auxiliaire au présent + participe passé.",
+        "vocab_notes": "terminer → terminé.",
+        "common_mistakes": [
+          "infinitive for participle",
+          "needless agreement under avoir"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Participle -é (not -er).",
+        "pattern": "avoir + participe → no agreement.",
+        "similar": [
+          "J’ai préparé l’ordre du jour.",
+          "J’ai envoyé le courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_passe_compose_5",
+      "objectiveId": "OF13",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.5,
+      "prompt": {
+        "fr": "Choisissez l’auxiliaire : « Elle ___ partie à midi. »",
+        "instructions_en": "Pick the correct auxiliary."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "est"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "est",
+          "tag": "correct"
+        },
+        {
+          "value": "a",
+          "tag": "avoir_for_etre"
+        },
+        {
+          "value": "es",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "ont",
+          "tag": "plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« partir » is an être-verb → « est », and the participle agrees: « est partie » (feminine).",
+        "distractor_why": {
+          "avoir_for_etre": "« a » is avoir; partir takes être.",
+          "wrong_person": "« es » is the tu form.",
+          "plural": "« ont » is plural."
+        },
+        "grammar_rule": "Movement verbs (partir, arriver, venir…) take être; participle agrees with the subject.",
+        "vocab_notes": "partir → parti(e).",
+        "common_mistakes": [
+          "using avoir with être-verbs",
+          "forgetting subject agreement"
+        ]
+      },
+      "tip": {
+        "memory_aid": "DR & MRS VANDERTRAMP = être verbs.",
+        "pattern": "être + participle → agree with subject.",
+        "similar": [
+          "Il est arrivé.",
+          "Elles sont venues."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_passe_compose_6",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
       "theme": "workplace",
       "difficulty": "medium",
       "type": "error_correction",
       "status": "live",
       "estTimeSec": 40,
-      "irtB": 0.0,
+      "irtB": 0.1,
       "prompt": {
-        "fr": "Corrigez : « Nous avons partis tôt après la réunion. »",
-        "en": "Correct: 'We left early after the meeting.'",
-        "instructions_en": "Rewrite the sentence correctly."
+        "fr": "Corrigez : « Nous avons allés à la réunion. »",
+        "instructions_en": "Fix the auxiliary and agreement."
       },
-      "answer": { "type": "text", "accepted": ["Nous sommes partis tôt après la réunion", "Nous sommes partis tôt après la réunion."], "normalizer": "fr_accent_insensitive_trim_lower" },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Nous sommes allés à la réunion",
+          "Nous sommes allés à la réunion."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
       "distractors": [],
       "explanation": {
-        "correct_why": "Partir is an être-verb, so the auxiliary must be « sommes », not « avons ». With être, the participle agrees with 'nous' (plural) → « partis ». Correct: « Nous sommes partis ».",
+        "correct_why": "« aller » is an être-verb → « sommes », and the participle agrees with nous (plural): « allés ».",
         "distractor_why": {
-          "kept_avoir": "Keeping « avons partis » is wrong because partir uses être.",
-          "dropped_agreement": "« Nous sommes parti » misses the plural -s required by the plural subject 'nous'."
+          "kept_avoir": "« avons allés » uses avoir; aller takes être.",
+          "no_agreement": "Under être, the participle must agree (allés)."
         },
-        "grammar_rule": "Movement verbs (partir) take être; the participle agrees with the subject. 'Nous' (assumed masculine/mixed) → partis.",
-        "vocab_notes": "partir → parti(s); tôt = early; après = after.",
-        "common_mistakes": ["using avoir with partir/sortir/arriver", "no plural agreement under être"]
+        "grammar_rule": "aller → être; participle agrees with the subject.",
+        "vocab_notes": "aller à la réunion = to go to the meeting.",
+        "common_mistakes": [
+          "using avoir with aller/venir",
+          "missing plural agreement"
+        ]
       },
       "tip": {
-        "memory_aid": "Partir/Sortir/Arriver/Rester/Tomber — all the 'house' movement verbs take être.",
-        "pattern": "être-verb → match the participle to the subject's gender/number.",
-        "similar": ["Nous sommes sortis du bureau.", "Ils sont restés tard."]
+        "memory_aid": "aller, venir, arriver, partir → être.",
+        "pattern": "subject + être + participle(agrees).",
+        "similar": [
+          "Nous sommes arrivés tôt.",
+          "Ils sont venus à midi."
+        ]
       }
     },
     {
-      "id": "itm_a11_sb_0001",
+      "id": "itm_of13_imparfait_7",
       "objectiveId": "OF13",
-      "skill": "writing",
-      "grammarConcepts": ["passe_compose"],
-      "vocabDomains": ["workplace"],
+      "skill": "grammar",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
       "theme": "workplace",
       "difficulty": "medium",
-      "type": "sentence_build",
+      "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 50,
-      "irtB": 0.2,
+      "estTimeSec": 30,
+      "irtB": 0.3,
       "prompt": {
-        "fr": "Remettez les mots dans l'ordre.",
-        "en": "Put the words in order.",
-        "instructions_en": "Drag the tokens to build a correct sentence.",
-        "tokens": ["ce matin", "nous", "avons", "reçu", "les commentaires", "de Mme Roy"]
+        "fr": "Description ou événement ? « Il ___ beau et tout le monde était de bonne humeur. »",
+        "instructions_en": "Setting/description → which form?"
       },
-      "answer": { "type": "sequence", "accepted": ["Ce matin nous avons reçu les commentaires de Mme Roy"], "normalizer": "fr_accent_insensitive_trim_lower" },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "Order: time phrase + subject + auxiliary (avons) + participle (reçu) + object. « Ce matin, nous avons reçu les commentaires de Mme Roy. »",
-        "distractor_why": {
-          "split_auxiliary": "Auxiliary and participle must stay together (avons reçu); you cannot insert the object between them.",
-          "wrong_participle": "Recevoir is irregular: participle is « reçu » (with cedilla), not « recevu »."
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "faisait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "faisait",
+          "tag": "correct"
         },
-        "grammar_rule": "In the passé composé the auxiliary and participle are adjacent; adverbs of time usually sit at the start or right after the auxiliary.",
-        "vocab_notes": "recevoir → reçu; les commentaires = the comments/feedback.",
-        "common_mistakes": ["separating avoir from the participle", "regularizing irregular participles"]
+        {
+          "value": "a fait",
+          "tag": "pc"
+        },
+        {
+          "value": "fait",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Weather/setting in the past is description → imparfait « faisait ».",
+        "distractor_why": {
+          "pc": "Passé composé marks a completed event, not a description.",
+          "present": "« fait » is present."
+        },
+        "grammar_rule": "Descriptions and settings in the past use the imparfait.",
+        "vocab_notes": "il fait beau = the weather is nice.",
+        "common_mistakes": [
+          "using passé composé for weather/description"
+        ]
       },
       "tip": {
-        "memory_aid": "Auxiliary + participle are glued together — never split them with the object.",
-        "pattern": "[time] + subject + aux + participle + object.",
-        "similar": ["Hier, j'ai écrit le compte rendu.", "Ce matin, ils ont vérifié les chiffres."]
+        "memory_aid": "Scenery/weather → imparfait.",
+        "pattern": "Description = imparfait.",
+        "similar": [
+          "C’était calme.",
+          "Il y avait beaucoup de monde."
+        ]
       }
     },
     {
-      "id": "itm_a11_lc_0001",
+      "id": "itm_of13_imparfait_8",
       "objectiveId": "OF13",
-      "skill": "listening",
-      "grammarConcepts": ["passe_compose"],
-      "vocabDomains": ["workplace"],
-      "theme": "workplace",
-      "difficulty": "advanced",
-      "type": "listening_mcq",
-      "status": "live",
-      "estTimeSec": 60,
-      "irtB": 0.8,
-      "prompt": {
-        "fr": "Écoutez le point du matin. Qu'est-ce que l'analyste a fait hier ?",
-        "en": "Listen to the morning stand-up. What did the analyst do yesterday?",
-        "instructions_en": "Listen, then choose the best answer.",
-        "media": { "audioUrl": "audio/a11_standup.mp3" }
-      },
-      "answer": { "type": "choice", "accepted": ["Il a terminé l'analyse et envoyé le dossier."], "normalizer": "trim_lower" },
-      "distractors": [
-        { "value": "Il a terminé l'analyse et envoyé le dossier.", "tag": "correct" },
-        { "value": "Il a commencé l'analyse ce matin.", "tag": "tense_time_confusion" },
-        { "value": "Il a reçu les commentaires hier.", "tag": "detail_swap" }
+      "skill": "writing",
+      "grammarConcepts": [
+        "imparfait"
       ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 38,
+      "irtB": -0.1,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (imparfait).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Avant",
+          "je",
+          "travaillais",
+          "à Québec"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Avant je travaillais à Québec"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
       "explanation": {
-        "correct_why": "The audio says « hier, j'ai terminé l'analyse et j'ai envoyé le dossier ». Both completed actions are reported in the passé composé.",
-        "distractor_why": {
-          "tense_time_confusion": "He says he STARTED the revision this morning, not the analysis — and the analysis was finished, not started.",
-          "detail_swap": "He received the comments THIS morning, not yesterday."
-        },
-        "grammar_rule": "Passé composé signals completed past actions; time markers (hier vs ce matin) anchor when.",
-        "vocab_notes": "terminer = to finish; le dossier = the file; les commentaires = feedback.",
-        "common_mistakes": ["confusing ce matin and hier", "mixing which action was completed"]
+        "correct_why": "« Avant » signals a past habit/situation → imparfait: « Avant, je travaillais à Québec ».",
+        "distractor_why": {},
+        "grammar_rule": "Past habit markers (avant, autrefois) cue the imparfait.",
+        "vocab_notes": "Avant = before/previously.",
+        "common_mistakes": [
+          "using passé composé with « avant » for a habit"
+        ]
       },
       "tip": {
-        "memory_aid": "Listen for the time markers — they tell you which action happened when.",
-        "pattern": "hier → done; ce matin → just done/started today.",
-        "similar": ["Hier j'ai fini; ce matin j'ai commencé.", "La semaine dernière nous avons révisé."]
+        "memory_aid": "Avant + imparfait.",
+        "pattern": "[time] + subject + imparfait.",
+        "similar": [
+          "Autrefois, nous habitions Ottawa.",
+          "Avant, elle dirigeait l’équipe."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_imparfait_9",
+      "objectiveId": "OF13",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Imparfait : « Il ___ (faire) le suivi chaque vendredi. »",
+        "instructions_en": "Imperfect of faire, il."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "faisait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire nous-stem fais- + -ait = « faisait ».",
+        "distractor_why": {
+          "present": "« fait » is present.",
+          "wrong_stem": "Use the nous-stem fais-, not fai-."
+        },
+        "grammar_rule": "faire imparfait: faisais, faisais, faisait…",
+        "vocab_notes": "chaque vendredi = every Friday (habit).",
+        "common_mistakes": [
+          "dropping the s of the fais- stem"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire → fais- (faisait).",
+        "pattern": "nous-stem + -ait.",
+        "similar": [
+          "Elle prenait des notes.",
+          "Nous finissions tôt."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_imparfait_10",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Mettez à l’imparfait : « Avant, je ___ (travailler) à Montréal. »",
+        "instructions_en": "Imperfect, je form."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Stem travaill- + -ais (je) = « travaillais ».",
+        "distractor_why": {
+          "present": "« travaille » is the present.",
+          "passe_compose": "« ai travaillé » is the passé composé."
+        },
+        "grammar_rule": "Imparfait je → radical + -ais.",
+        "vocab_notes": "Avant = before/previously (signals habit → imparfait).",
+        "common_mistakes": [
+          "using present or passé composé for a past habit"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Habit/background in the past → imparfait.",
+        "pattern": "nous-stem + -ais/-ait…",
+        "similar": [
+          "Avant, il habitait à Québec.",
+          "Nous travaillions ensemble."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_imparfait_11",
+      "objectiveId": "OF13",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Choisissez le temps : « Quand le téléphone a sonné, je ___ un courriel. »",
+        "instructions_en": "Background action interrupted → which form?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "écrivais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "écrivais",
+          "tag": "correct"
+        },
+        {
+          "value": "ai écrit",
+          "tag": "pc_for_background"
+        },
+        {
+          "value": "écris",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "The ongoing background action uses the imparfait: « j’écrivais » (was writing) when the phone rang (passé composé).",
+        "distractor_why": {
+          "pc_for_background": "« ai écrit » would mean a completed action, not the ongoing background.",
+          "present": "« écris » is present, not past."
+        },
+        "grammar_rule": "Imparfait = ongoing/background; passé composé = the interrupting completed event.",
+        "vocab_notes": "sonner = to ring.",
+        "common_mistakes": [
+          "using passé composé for the background action"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Was -ing → imparfait.",
+        "pattern": "Background (imparfait) + event (passé composé).",
+        "similar": [
+          "Je lisais quand il est arrivé.",
+          "Elle parlait quand on a frappé."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_imparfait_12",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Mettez à l’imparfait : « Nous ___ (être) en réunion à 10 h. »",
+        "instructions_en": "Imperfect of être."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "étions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "être has the irregular imparfait stem ét-: nous → « étions ».",
+        "distractor_why": {
+          "present": "« sommes » is present.",
+          "wrong_stem": "être does not use the regular nous-stem; it uses ét-."
+        },
+        "grammar_rule": "être imparfait: j’étais, tu étais, il était, nous étions, vous étiez, ils étaient.",
+        "vocab_notes": "en réunion = in a meeting.",
+        "common_mistakes": [
+          "regularizing être's imperfect stem"
+        ]
+      },
+      "tip": {
+        "memory_aid": "être → ét- (j’étais).",
+        "pattern": "Only the stem is irregular; endings are normal.",
+        "similar": [
+          "J’étais au bureau.",
+          "Ils étaient absents."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_agreement_13",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Accord : « des données ___ (général) »",
+        "instructions_en": "Agree the adjective (f. pl.)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "générales"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« données » is feminine plural → « générales ».",
+        "distractor_why": {
+          "masc": "« généraux » is masculine plural.",
+          "sing": "« générale » is singular."
+        },
+        "grammar_rule": "Feminine plural adds -es (and -al stays -ale → -ales).",
+        "vocab_notes": "les données (f. pl.) = data.",
+        "common_mistakes": [
+          "using the masculine généraux"
+        ]
+      },
+      "tip": {
+        "memory_aid": "f. pl. -ale → -ales.",
+        "pattern": "Agree in gender + number.",
+        "similar": [
+          "des règles générales",
+          "des consignes spéciales"
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_agreement_14",
+      "objectiveId": "OF13",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Accord (avoir, objet antéposé) : « Les rapports que j’ai ___ (envoyer). »",
+        "instructions_en": "Agree with the preceding direct object."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "envoyés"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "envoyés",
+          "tag": "correct"
+        },
+        {
+          "value": "envoyé",
+          "tag": "no_agreement"
+        },
+        {
+          "value": "envoyées",
+          "tag": "feminine"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With avoir, the participle agrees with a preceding direct object. « que » = les rapports (m. pl.) → « envoyés ».",
+        "distractor_why": {
+          "no_agreement": "The direct object precedes the verb, so agreement IS required.",
+          "feminine": "rapports is masculine, not feminine."
+        },
+        "grammar_rule": "avoir + participle agrees only with a preceding direct object.",
+        "vocab_notes": "envoyer → envoyé(s).",
+        "common_mistakes": [
+          "forgetting agreement with a preceding object"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Object before avoir → agree.",
+        "pattern": "que/les… before avoir triggers agreement.",
+        "similar": [
+          "la note que j’ai signée",
+          "les chiffres que j’ai vérifiés"
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_agreement_15",
+      "objectiveId": "OF13",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Associez le nom à l’adjectif accordé « important ».",
+        "instructions_en": "Match the noun to the correct form of 'important'.",
+        "left": [
+          "un projet",
+          "une décision",
+          "des enjeux",
+          "des questions"
+        ],
+        "right": [
+          "important",
+          "importante",
+          "importants",
+          "importantes"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "important importante importants importantes"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "projet (m.s.)→important; décision (f.s.)→importante; enjeux (m.pl.)→importants; questions (f.pl.)→importantes.",
+        "distractor_why": {},
+        "grammar_rule": "Adjectives agree in gender and number with their noun.",
+        "vocab_notes": "un enjeu = an issue/stake.",
+        "common_mistakes": [
+          "not matching number as well as gender"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Gender AND number.",
+        "pattern": "Four forms: -, -e, -s, -es.",
+        "similar": [
+          "un point clé",
+          "des données complètes"
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_agreement_16",
+      "objectiveId": "OF13",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Accord (être) : « Les analystes (f.) sont ___ (parti). »",
+        "instructions_en": "Agree the past participle."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "parties"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "parties",
+          "tag": "correct"
+        },
+        {
+          "value": "parti",
+          "tag": "masc_sing"
+        },
+        {
+          "value": "partis",
+          "tag": "masc_plural"
+        },
+        {
+          "value": "partie",
+          "tag": "fem_sing"
+        }
+      ],
+      "explanation": {
+        "correct_why": "With être, the participle agrees with the subject; feminine plural → « parties ».",
+        "distractor_why": {
+          "masc_sing": "« parti » is masculine singular.",
+          "masc_plural": "« partis » is masculine plural.",
+          "fem_sing": "« partie » is feminine singular."
+        },
+        "grammar_rule": "être-verb participle agrees with the subject (gender + number).",
+        "vocab_notes": "partir → parti(e)(s).",
+        "common_mistakes": [
+          "not agreeing the participle with a feminine plural subject"
+        ]
+      },
+      "tip": {
+        "memory_aid": "être → agree like an adjective.",
+        "pattern": "feminine plural → -es.",
+        "similar": [
+          "Elles sont arrivées.",
+          "Les employées sont venues."
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_agreement_17",
+      "objectiveId": "OF13",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.3,
+      "prompt": {
+        "fr": "Accord : « une note ___ (officiel) »",
+        "instructions_en": "Agree the adjective."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "officielle"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "officielle",
+          "tag": "correct"
+        },
+        {
+          "value": "officiel",
+          "tag": "masculine"
+        },
+        {
+          "value": "officiels",
+          "tag": "masc_plural"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« note » is feminine; « officiel » doubles the l and adds -e → « officielle ».",
+        "distractor_why": {
+          "masculine": "« officiel » is masculine.",
+          "masc_plural": "« officiels » is masculine plural."
+        },
+        "grammar_rule": "Some adjectives double the final consonant in the feminine (officiel→officielle).",
+        "vocab_notes": "une note officielle = an official memo.",
+        "common_mistakes": [
+          "not doubling the consonant in the feminine"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-el → -elle (feminine).",
+        "pattern": "Watch consonant-doubling feminines.",
+        "similar": [
+          "une décision finale",
+          "une réponse formelle"
+        ]
+      }
+    },
+    {
+      "id": "itm_of13_agreement_18",
+      "objectiveId": "OF13",
+      "skill": "writing",
+      "grammarConcepts": [
+        "agreement"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Accord : « Quelles sont vos ___ (principal) responsabilités? »",
+        "instructions_en": "Agree the adjective (f. pl.)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "principales"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« responsabilités » is feminine plural → « principales ».",
+        "distractor_why": {
+          "singular": "« principale » is singular.",
+          "masc": "« principaux » is masculine plural."
+        },
+        "grammar_rule": "Adjective agrees with a feminine plural noun → -es.",
+        "vocab_notes": "les responsabilités (f. pl.).",
+        "common_mistakes": [
+          "forgetting plural agreement"
+        ]
+      },
+      "tip": {
+        "memory_aid": "f. pl. → -ales here.",
+        "pattern": "-al → -ale → -ales (feminine plural).",
+        "similar": [
+          "des tâches principales",
+          "des données générales"
+        ]
       }
     }
   ]

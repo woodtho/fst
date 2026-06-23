@@ -48,17 +48,21 @@
             "itm_of20_adjectives_1",
             "itm_of20_adjectives_2",
             "itm_of20_adjectives_3",
-            "itm_of20_adjectives_4"
+            "itm_of20_adjectives_4",
+            "itm_of20_adjectives_5",
+            "itm_of20_adjectives_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les accords",
           "itemRefs": [
-            "itm_of20_agreement_5",
-            "itm_of20_agreement_6",
             "itm_of20_agreement_7",
-            "itm_of20_agreement_8"
+            "itm_of20_agreement_8",
+            "itm_of20_agreement_9",
+            "itm_of20_agreement_10",
+            "itm_of20_agreement_11",
+            "itm_of20_agreement_12"
           ],
           "type": "mixed"
         }
@@ -98,9 +102,9 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 2,
+        "easy": 4,
         "medium": 5,
         "advanced": 1
       },

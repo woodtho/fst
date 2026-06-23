@@ -25,36 +25,34 @@
       "estTimeSec": 30,
       "irtB": 0.2,
       "prompt": {
-        "fr": "Mettez à la forme négative (ne…jamais) : « Il est en retard. » → « Il ___ en retard. »",
-        "instructions_en": "Use ne … jamais."
+        "fr": "Forme négative (personne) : « ___ ___ est disponible cet après-midi. » (nobody)",
+        "instructions_en": "Start with 'nobody'."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "n’est jamais"
+          "personne n’"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "ne…jamais surrounds the verb: « Il n’est jamais en retard » (never late).",
+        "correct_why": "As a subject, « personne » comes first and keeps « ne »: « Personne n’est disponible ».",
         "distractor_why": {
-          "wrong_order": "« est ne jamais » is wrong; ne precedes the verb, jamais follows.",
-          "pas_jamais": "Don't combine pas and jamais."
+          "wrong_order": "« Ne personne » is wrong; personne is the subject here."
         },
-        "grammar_rule": "ne (n’) + verb + jamais.",
-        "vocab_notes": "en retard = late.",
+        "grammar_rule": "Personne/Rien as subject: Personne ne… / Rien ne…",
+        "vocab_notes": "disponible = available.",
         "common_mistakes": [
-          "mixing pas with jamais",
-          "wrong word order"
+          "dropping « ne » when personne is the subject"
         ]
       },
       "tip": {
-        "memory_aid": "ne … jamais = never.",
-        "pattern": "ne (n’) + verb + jamais/plus/rien.",
+        "memory_aid": "Personne ne… / Rien ne…",
+        "pattern": "Negative subject still needs ne.",
         "similar": [
-          "Je ne fume plus.",
-          "Elle ne dit rien."
+          "Rien n’est prêt.",
+          "Personne ne répond."
         ]
       }
     },
@@ -70,41 +68,45 @@
         "meetings"
       ],
       "theme": "workplace",
-      "difficulty": "medium",
-      "type": "error_correction",
+      "difficulty": "easy",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.3,
+      "estTimeSec": 36,
+      "irtB": -0.2,
       "prompt": {
-        "fr": "Corrigez (passé composé) : « Je n’ai parlé pas au gestionnaire. »",
-        "instructions_en": "Fix the negation placement."
+        "fr": "Remettez dans l’ordre (ne…plus).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Je",
+          "ne",
+          "travaille",
+          "plus",
+          "ici"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "Je n’ai pas parlé au gestionnaire",
-          "Je n’ai pas parlé au gestionnaire."
+          "Je ne travaille plus ici"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "In the passé composé, ne…pas surrounds the auxiliary: « Je n’ai pas parlé ».",
-        "distractor_why": {
-          "after_participle": "« ai parlé pas » puts pas after the participle; it must wrap the auxiliary (ai)."
-        },
-        "grammar_rule": "Compound tenses: ne + auxiliary + pas + participle.",
-        "vocab_notes": "parler à = to speak to.",
+        "correct_why": "ne…plus surrounds the verb: « Je ne travaille plus ici » (no longer).",
+        "distractor_why": {},
+        "grammar_rule": "ne (n’) + verb + plus.",
+        "vocab_notes": "ne…plus = no longer.",
         "common_mistakes": [
-          "placing pas after the participle"
+          "wrong placement of plus"
         ]
       },
       "tip": {
-        "memory_aid": "ne…pas hugs the auxiliary, not the participle.",
-        "pattern": "ne + [aux] + pas + participle.",
+        "memory_aid": "ne…plus = no longer.",
+        "pattern": "ne + verb + plus.",
         "similar": [
-          "Je n’ai pas reçu le courriel.",
-          "Il n’est pas venu."
+          "Il ne fume plus.",
+          "Nous n’avons plus de questions."
         ]
       }
     },
@@ -120,54 +122,54 @@
         "meetings"
       ],
       "theme": "workplace",
-      "difficulty": "medium",
+      "difficulty": "advanced",
       "type": "mcq_single",
       "status": "live",
       "estTimeSec": 30,
-      "irtB": 0.1,
+      "irtB": 0.6,
       "prompt": {
-        "fr": "Choisissez : « Il ___ travaille ___ ici. » (no longer works here)",
-        "instructions_en": "Express 'no longer'."
+        "fr": "Sens : « Je ne travaille que le matin. » signifie :",
+        "instructions_en": "What does ne…que mean?"
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "ne / plus"
+          "Je travaille seulement le matin."
         ],
-        "normalizer": "trim_lower"
+        "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [
         {
-          "value": "ne / plus",
+          "value": "Je travaille seulement le matin.",
           "tag": "correct"
         },
         {
-          "value": "ne / jamais",
-          "tag": "never"
+          "value": "Je ne travaille pas le matin.",
+          "tag": "negation"
         },
         {
-          "value": "ne / rien",
-          "tag": "nothing"
+          "value": "Je travaille tout le temps.",
+          "tag": "always"
         }
       ],
       "explanation": {
-        "correct_why": "« ne … plus » = no longer/not anymore → « Il ne travaille plus ici ».",
+        "correct_why": "« ne … que » is not a negation; it means « seulement » (only): « Je ne travaille que le matin » = I work only in the morning.",
         "distractor_why": {
-          "never": "« ne…jamais » = never (not 'no longer').",
-          "nothing": "« ne…rien » = nothing."
+          "negation": "« ne…que » does NOT negate the verb.",
+          "always": "It restricts, it doesn't mean 'all the time'."
         },
-        "grammar_rule": "ne…plus = no longer; ne…jamais = never; ne…rien = nothing.",
-        "vocab_notes": "ne…plus = not anymore.",
+        "grammar_rule": "ne … que = only (a restriction, not a true negation).",
+        "vocab_notes": "le matin = (in) the morning.",
         "common_mistakes": [
-          "confusing plus (no longer) and jamais (never)"
+          "reading ne…que as a negation"
         ]
       },
       "tip": {
-        "memory_aid": "plus = no more / no longer.",
-        "pattern": "Pick the right second element.",
+        "memory_aid": "ne…que = only (= seulement).",
+        "pattern": "Restriction, not negation.",
         "similar": [
-          "Je n’ai plus de questions.",
-          "Elle ne fume plus."
+          "Il n’y a que deux options.",
+          "Je n’ai qu’une question."
         ]
       }
     },
@@ -240,7 +242,343 @@
       }
     },
     {
-      "id": "itm_of29_comparatives_5",
+      "id": "itm_of29_negation_5",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Mettez à la forme négative (ne…jamais) : « Il est en retard. » → « Il ___ en retard. »",
+        "instructions_en": "Use ne … jamais."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "n’est jamais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "ne…jamais surrounds the verb: « Il n’est jamais en retard » (never late).",
+        "distractor_why": {
+          "wrong_order": "« est ne jamais » is wrong; ne precedes the verb, jamais follows.",
+          "pas_jamais": "Don't combine pas and jamais."
+        },
+        "grammar_rule": "ne (n’) + verb + jamais.",
+        "vocab_notes": "en retard = late.",
+        "common_mistakes": [
+          "mixing pas with jamais",
+          "wrong word order"
+        ]
+      },
+      "tip": {
+        "memory_aid": "ne … jamais = never.",
+        "pattern": "ne (n’) + verb + jamais/plus/rien.",
+        "similar": [
+          "Je ne fume plus.",
+          "Elle ne dit rien."
+        ]
+      }
+    },
+    {
+      "id": "itm_of29_negation_6",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "negation"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Corrigez (passé composé) : « Je n’ai parlé pas au gestionnaire. »",
+        "instructions_en": "Fix the negation placement."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je n’ai pas parlé au gestionnaire",
+          "Je n’ai pas parlé au gestionnaire."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "In the passé composé, ne…pas surrounds the auxiliary: « Je n’ai pas parlé ».",
+        "distractor_why": {
+          "after_participle": "« ai parlé pas » puts pas after the participle; it must wrap the auxiliary (ai)."
+        },
+        "grammar_rule": "Compound tenses: ne + auxiliary + pas + participle.",
+        "vocab_notes": "parler à = to speak to.",
+        "common_mistakes": [
+          "placing pas after the participle"
+        ]
+      },
+      "tip": {
+        "memory_aid": "ne…pas hugs the auxiliary, not the participle.",
+        "pattern": "ne + [aux] + pas + participle.",
+        "similar": [
+          "Je n’ai pas reçu le courriel.",
+          "Il n’est pas venu."
+        ]
+      }
+    },
+    {
+      "id": "itm_of29_comparatives_7",
+      "objectiveId": "OF29",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 36,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Superlatif : « C’est l’option ___ ___ coûteuse. » (the least)",
+        "instructions_en": "Write 'la moins' for the superlative."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la moins"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Superlative of inferiority: « la moins coûteuse » (option is feminine).",
+        "distractor_why": {
+          "moins_only": "The article (la) is required.",
+          "le": "Use « la » to agree with the feminine « option »."
+        },
+        "grammar_rule": "Superlative: le/la/les plus/moins + adjective (article agrees).",
+        "vocab_notes": "une option = an option.",
+        "common_mistakes": [
+          "dropping or mis-gendering the article"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Superlative needs THE.",
+        "pattern": "la moins / le plus …",
+        "similar": [
+          "la plus efficace",
+          "le moins risqué"
+        ]
+      }
+    },
+    {
+      "id": "itm_of29_comparatives_8",
+      "objectiveId": "OF29",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Choisissez : « Elle gère les dossiers ___ que son prédécesseur. » (better — adverb)",
+        "instructions_en": "'Better' modifying a verb → which word?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "mieux"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "mieux",
+          "tag": "correct"
+        },
+        {
+          "value": "meilleur",
+          "tag": "adjective"
+        },
+        {
+          "value": "plus bien",
+          "tag": "plus_bien"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« gère » is a verb, so 'better' is the adverb « mieux » → « gère … mieux que ».",
+        "distractor_why": {
+          "adjective": "« meilleur » is an adjective (modifies a noun), not a verb.",
+          "plus_bien": "« plus bien » does not exist; use « mieux »."
+        },
+        "grammar_rule": "bien → mieux (adverb); bon → meilleur (adjective).",
+        "vocab_notes": "gérer = to manage.",
+        "common_mistakes": [
+          "using meilleur to modify a verb"
+        ]
+      },
+      "tip": {
+        "memory_aid": "verb → mieux; noun → meilleur.",
+        "pattern": "Never « plus bien » / « plus bon ».",
+        "similar": [
+          "Il écrit mieux.",
+          "C’est une meilleure méthode."
+        ]
+      }
+    },
+    {
+      "id": "itm_of29_comparatives_9",
+      "objectiveId": "OF29",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 50,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Associez la forme de base à son comparatif irrégulier.",
+        "instructions_en": "Match each word to its irregular comparative.",
+        "left": [
+          "bon",
+          "bien",
+          "mauvais"
+        ],
+        "right": [
+          "meilleur",
+          "mieux",
+          "pire"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "meilleur mieux pire"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "bon→meilleur (adj.), bien→mieux (adv.), mauvais→pire (adj.).",
+        "distractor_why": {},
+        "grammar_rule": "Irregular comparatives: never « plus bon » / « plus bien ».",
+        "vocab_notes": "pire = worse (adjective).",
+        "common_mistakes": [
+          "saying « plus mauvais » where « pire » is expected"
+        ]
+      },
+      "tip": {
+        "memory_aid": "good→meilleur; well→mieux; bad→pire.",
+        "pattern": "Use the irregular form.",
+        "similar": [
+          "la meilleure option",
+          "il va mieux",
+          "c’est pire"
+        ]
+      }
+    },
+    {
+      "id": "itm_of29_comparatives_10",
+      "objectiveId": "OF29",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Comparatif : « Cette option est ___ efficace ___ l’autre. » (more … than)",
+        "instructions_en": "Choose the comparative."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "plus / que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "plus / que",
+          "tag": "correct"
+        },
+        {
+          "value": "plus / de",
+          "tag": "wrong_de"
+        },
+        {
+          "value": "très / que",
+          "tag": "tres"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Comparison of superiority: « plus … que » → « plus efficace que l’autre ».",
+        "distractor_why": {
+          "wrong_de": "Use « que » (not de) in comparisons.",
+          "tres": "« très » means 'very', not 'more … than'."
+        },
+        "grammar_rule": "plus/moins/aussi + adjective + que.",
+        "vocab_notes": "efficace = effective/efficient.",
+        "common_mistakes": [
+          "using de instead of que",
+          "confusing très and plus"
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus … QUE.",
+        "pattern": "comparative + que.",
+        "similar": [
+          "moins cher que",
+          "aussi rapide que"
+        ]
+      }
+    },
+    {
+      "id": "itm_of29_comparatives_11",
       "objectiveId": "OF29",
       "skill": "grammar",
       "grammarConcepts": [
@@ -304,7 +642,7 @@
       }
     },
     {
-      "id": "itm_of29_comparatives_6",
+      "id": "itm_of29_comparatives_12",
       "objectiveId": "OF29",
       "skill": "grammar",
       "grammarConcepts": [
@@ -363,120 +701,6 @@
         "similar": [
           "aussi clair que",
           "aussi long que"
-        ]
-      }
-    },
-    {
-      "id": "itm_of29_comparatives_7",
-      "objectiveId": "OF29",
-      "skill": "writing",
-      "grammarConcepts": [
-        "comparatives"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "meetings"
-      ],
-      "theme": "workplace",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.6,
-      "prompt": {
-        "fr": "Superlatif : « C’est le projet ___ ___ important du ministère. » (the most)",
-        "instructions_en": "Write 'le plus' for the superlative."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "le plus"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "Superlative of superiority: « le plus important » → « le projet le plus important ».",
-        "distractor_why": {
-          "plus_only": "The article (le) is required in the superlative.",
-          "tres": "« très » is 'very', not a superlative."
-        },
-        "grammar_rule": "Superlative: le/la/les plus/moins + adjective (article repeated after the noun for post-nominal adjectives).",
-        "vocab_notes": "important follows the noun, so the article repeats: le projet le plus important.",
-        "common_mistakes": [
-          "dropping the article in the superlative"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Superlative needs THE: le plus / la plus.",
-        "pattern": "le/la/les + plus/moins + adjective.",
-        "similar": [
-          "la plus efficace",
-          "les plus rapides"
-        ]
-      }
-    },
-    {
-      "id": "itm_of29_comparatives_8",
-      "objectiveId": "OF29",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "comparatives"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "meetings"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.2,
-      "prompt": {
-        "fr": "Comparatif : « Cette option est ___ efficace ___ l’autre. » (more … than)",
-        "instructions_en": "Choose the comparative."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "plus / que"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "plus / que",
-          "tag": "correct"
-        },
-        {
-          "value": "plus / de",
-          "tag": "wrong_de"
-        },
-        {
-          "value": "très / que",
-          "tag": "tres"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Comparison of superiority: « plus … que » → « plus efficace que l’autre ».",
-        "distractor_why": {
-          "wrong_de": "Use « que » (not de) in comparisons.",
-          "tres": "« très » means 'very', not 'more … than'."
-        },
-        "grammar_rule": "plus/moins/aussi + adjective + que.",
-        "vocab_notes": "efficace = effective/efficient.",
-        "common_mistakes": [
-          "using de instead of que",
-          "confusing très and plus"
-        ]
-      },
-      "tip": {
-        "memory_aid": "plus … QUE.",
-        "pattern": "comparative + que.",
-        "similar": [
-          "moins cher que",
-          "aussi rapide que"
         ]
       }
     }

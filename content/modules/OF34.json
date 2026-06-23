@@ -52,27 +52,33 @@
             "itm_of34_si_clauses_1",
             "itm_of34_si_clauses_2",
             "itm_of34_si_clauses_3",
-            "itm_of34_si_clauses_4"
+            "itm_of34_si_clauses_4",
+            "itm_of34_si_clauses_5",
+            "itm_of34_si_clauses_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Le conditionnel présent",
           "itemRefs": [
-            "itm_of34_conditionnel_5",
-            "itm_of34_conditionnel_6",
             "itm_of34_conditionnel_7",
-            "itm_of34_conditionnel_8"
+            "itm_of34_conditionnel_8",
+            "itm_of34_conditionnel_9",
+            "itm_of34_conditionnel_10",
+            "itm_of34_conditionnel_11",
+            "itm_of34_conditionnel_12"
           ],
           "type": "mixed"
         },
         {
           "title": "L’imparfait",
           "itemRefs": [
-            "itm_of34_imparfait_9",
-            "itm_of34_imparfait_10",
-            "itm_of34_imparfait_11",
-            "itm_of34_imparfait_12"
+            "itm_of34_imparfait_13",
+            "itm_of34_imparfait_14",
+            "itm_of34_imparfait_15",
+            "itm_of34_imparfait_16",
+            "itm_of34_imparfait_17",
+            "itm_of34_imparfait_18"
           ],
           "type": "mixed"
         }
@@ -112,11 +118,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 490,
       "blueprint": {
-        "easy": 4,
-        "medium": 6,
-        "advanced": 2
+        "easy": 5,
+        "medium": 5,
+        "advanced": 3
       },
       "drawFrom": [
         "OF34"

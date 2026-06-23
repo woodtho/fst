@@ -10,6 +10,56 @@
     {
       "id": "itm_of22_prepositions_1",
       "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Lieu : « Le client est ___ le médecin aujourd’hui. » (at the …’s)",
+        "instructions_en": "Preposition for 'at someone's place'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "chez"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« chez » = at someone's place/office: « chez le médecin ».",
+        "distractor_why": {
+          "a": "« à » doesn't work before a person here.",
+          "dans": "« dans » = inside (a thing/place)."
+        },
+        "grammar_rule": "chez + person = at that person's place.",
+        "vocab_notes": "chez le médecin = at the doctor's.",
+        "common_mistakes": [
+          "using à/dans before a person"
+        ]
+      },
+      "tip": {
+        "memory_aid": "chez = at someone's.",
+        "pattern": "chez + person.",
+        "similar": [
+          "chez le dentiste",
+          "chez nous"
+        ]
+      }
+    },
+    {
+      "id": "itm_of22_prepositions_2",
+      "objectiveId": "OF22",
       "skill": "grammar",
       "grammarConcepts": [
         "prepositions"
@@ -22,106 +72,56 @@
       "difficulty": "medium",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 30,
+      "estTimeSec": 28,
       "irtB": 0.3,
       "prompt": {
-        "fr": "Temps : « La réunion est ___ deux heures. »",
-        "instructions_en": "Choose the time preposition for 'in two hours'."
+        "fr": "Pays : « Elle travaille ___ Canada. »",
+        "instructions_en": "Preposition for a masculine country."
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "dans"
+          "au"
         ],
         "normalizer": "trim_lower"
       },
       "distractors": [
         {
-          "value": "dans",
+          "value": "au",
           "tag": "correct"
         },
         {
           "value": "en",
-          "tag": "duration"
+          "tag": "feminine"
         },
         {
           "value": "à",
-          "tag": "clock_time"
+          "tag": "city"
         },
         {
-          "value": "depuis",
-          "tag": "since"
+          "value": "dans",
+          "tag": "inside"
         }
       ],
       "explanation": {
-        "correct_why": "« dans » + time = after that amount of time from now: « dans deux heures » (in two hours).",
+        "correct_why": "Masculine countries take « au »: « au Canada ». (Feminine countries take « en ».)",
         "distractor_why": {
-          "duration": "« en deux heures » means it takes two hours to complete.",
-          "clock_time": "« à deux heures » = at two o'clock.",
-          "since": "« depuis » = since/for (up to now)."
+          "feminine": "« en » is for feminine countries (en France).",
+          "city": "« à » is for cities (à Ottawa).",
+          "inside": "« dans » means inside."
         },
-        "grammar_rule": "dans = in (from now); en = within (duration); à = at (clock time).",
-        "vocab_notes": "la réunion = the meeting.",
+        "grammar_rule": "à + city; en + feminine country; au + masculine country; aux + plural.",
+        "vocab_notes": "le Canada (m.) → au Canada.",
         "common_mistakes": [
-          "confusing dans and en for time"
+          "using en with masculine countries"
         ]
       },
       "tip": {
-        "memory_aid": "dans = countdown from now.",
-        "pattern": "dans 2 h (later) vs en 2 h (it took).",
+        "memory_aid": "au Canada / en France / à Ottawa.",
+        "pattern": "Gender of country decides au vs en.",
         "similar": [
-          "dans une semaine",
-          "à 9 h"
-        ]
-      }
-    },
-    {
-      "id": "itm_of22_prepositions_2",
-      "objectiveId": "OF22",
-      "skill": "writing",
-      "grammarConcepts": [
-        "prepositions"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "scheduling"
-      ],
-      "theme": "workplace",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.5,
-      "prompt": {
-        "fr": "Complétez : « Je travaille ici ___ 2019. »",
-        "instructions_en": "Choose the preposition for 'since 2019'."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "depuis"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« depuis » + a start point = since: « depuis 2019 » (since 2019, still ongoing). French uses the present with depuis.",
-        "distractor_why": {
-          "pendant": "« pendant » = during/for a finished period.",
-          "pour": "« pour » = for (intended duration, often future)."
-        },
-        "grammar_rule": "depuis + present = an action started in the past and still going.",
-        "vocab_notes": "depuis = since/for (ongoing).",
-        "common_mistakes": [
-          "using the past with depuis (use present)"
-        ]
-      },
-      "tip": {
-        "memory_aid": "depuis + present = still happening.",
-        "pattern": "Je travaille ici depuis…",
-        "similar": [
-          "depuis trois ans",
-          "depuis lundi"
+          "au Québec",
+          "aux États-Unis"
         ]
       }
     },
@@ -262,11 +262,11 @@
       }
     },
     {
-      "id": "itm_of22_present_5",
+      "id": "itm_of22_prepositions_5",
       "objectiveId": "OF22",
       "skill": "grammar",
       "grammarConcepts": [
-        "present"
+        "prepositions"
       ],
       "vocabDomains": [
         "workplace",
@@ -276,61 +276,111 @@
       "difficulty": "medium",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 25,
-      "irtB": 0,
+      "estTimeSec": 30,
+      "irtB": 0.3,
       "prompt": {
-        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
-        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+        "fr": "Temps : « La réunion est ___ deux heures. »",
+        "instructions_en": "Choose the time preposition for 'in two hours'."
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "finit"
+          "dans"
         ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
+        "normalizer": "trim_lower"
       },
       "distractors": [
         {
-          "value": "finit",
+          "value": "dans",
           "tag": "correct"
         },
         {
-          "value": "finis",
-          "tag": "wrong_person"
+          "value": "en",
+          "tag": "duration"
         },
         {
-          "value": "finissent",
-          "tag": "plural"
+          "value": "à",
+          "tag": "clock_time"
         },
         {
-          "value": "finir",
-          "tag": "infinitive"
+          "value": "depuis",
+          "tag": "since"
         }
       ],
       "explanation": {
-        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "correct_why": "« dans » + time = after that amount of time from now: « dans deux heures » (in two hours).",
         "distractor_why": {
-          "wrong_person": "« finis » is je/tu.",
-          "plural": "« finissent » is ils/elles.",
-          "infinitive": "« finir » is the infinitive."
+          "duration": "« en deux heures » means it takes two hours to complete.",
+          "clock_time": "« à deux heures » = at two o'clock.",
+          "since": "« depuis » = since/for (up to now)."
         },
-        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
-        "vocab_notes": "le comité = the committee (singular).",
+        "grammar_rule": "dans = in (from now); en = within (duration); à = at (clock time).",
+        "vocab_notes": "la réunion = the meeting.",
         "common_mistakes": [
-          "treating a collective noun as plural"
+          "confusing dans and en for time"
         ]
       },
       "tip": {
-        "memory_aid": "il/elle → -it for -ir verbs.",
-        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "memory_aid": "dans = countdown from now.",
+        "pattern": "dans 2 h (later) vs en 2 h (it took).",
         "similar": [
-          "Elle finit la tâche.",
-          "Le ministère choisit un fournisseur."
+          "dans une semaine",
+          "à 9 h"
         ]
       }
     },
     {
-      "id": "itm_of22_present_6",
+      "id": "itm_of22_prepositions_6",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Complétez : « Je travaille ici ___ 2019. »",
+        "instructions_en": "Choose the preposition for 'since 2019'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "depuis"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« depuis » + a start point = since: « depuis 2019 » (since 2019, still ongoing). French uses the present with depuis.",
+        "distractor_why": {
+          "pendant": "« pendant » = during/for a finished period.",
+          "pour": "« pour » = for (intended duration, often future)."
+        },
+        "grammar_rule": "depuis + present = an action started in the past and still going.",
+        "vocab_notes": "depuis = since/for (ongoing).",
+        "common_mistakes": [
+          "using the past with depuis (use present)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "depuis + present = still happening.",
+        "pattern": "Je travaille ici depuis…",
+        "similar": [
+          "depuis trois ans",
+          "depuis lundi"
+        ]
+      }
+    },
+    {
+      "id": "itm_of22_present_7",
       "objectiveId": "OF22",
       "skill": "writing",
       "grammarConcepts": [
@@ -342,45 +392,109 @@
       ],
       "theme": "workplace",
       "difficulty": "medium",
-      "type": "error_correction",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.2,
+      "estTimeSec": 40,
+      "irtB": 0,
       "prompt": {
-        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
-        "instructions_en": "Fix the verb/agreement error."
+        "fr": "Remettez les mots dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Je",
+          "prépare",
+          "l’ordre du jour",
+          "de la réunion"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+          "Je prépare l’ordre du jour de la réunion"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
-        "distractor_why": {
-          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
-        },
-        "grammar_rule": "Negation in standard French: ne + verb + pas.",
-        "vocab_notes": "disponible = available.",
+        "correct_why": "Order: subject + present verb + object + complement → « Je prépare l’ordre du jour de la réunion ».",
+        "distractor_why": {},
+        "grammar_rule": "Basic French word order: subject + verb + object.",
+        "vocab_notes": "l’ordre du jour = the agenda.",
         "common_mistakes": [
-          "omitting ne in writing"
+          "splitting the noun phrase « l’ordre du jour »"
         ]
       },
       "tip": {
-        "memory_aid": "Writing keeps the « ne ».",
-        "pattern": "ne (n’) + verb + pas.",
+        "memory_aid": "S-V-O, then details.",
+        "pattern": "subject + verb + object + (de…).",
         "similar": [
-          "Il n’est pas là.",
-          "Ce n’est pas possible."
+          "Je vérifie les chiffres du rapport.",
+          "Elle envoie le compte rendu de la séance."
         ]
       }
     },
     {
-      "id": "itm_of22_present_7",
+      "id": "itm_of22_present_8",
+      "objectiveId": "OF22",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Associez chaque sujet à la forme du verbe ÊTRE.",
+        "instructions_en": "Match the subject to its être form.",
+        "left": [
+          "je",
+          "tu",
+          "nous",
+          "vous",
+          "ils"
+        ],
+        "right": [
+          "suis",
+          "es",
+          "sommes",
+          "êtes",
+          "sont"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "suis es sommes êtes sont"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "je suis, tu es, nous sommes, vous êtes, ils sont.",
+        "distractor_why": {},
+        "grammar_rule": "être présent: suis, es, est, sommes, êtes, sont.",
+        "vocab_notes": "être = to be.",
+        "common_mistakes": [
+          "swapping êtes (vous) and sont (ils)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Memorize être as a block.",
+        "pattern": "Each subject → one form.",
+        "similar": [
+          "Je suis analyste.",
+          "Vous êtes le directeur?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of22_present_9",
       "objectiveId": "OF22",
       "skill": "grammar",
       "grammarConcepts": [
@@ -448,7 +562,7 @@
       }
     },
     {
-      "id": "itm_of22_present_8",
+      "id": "itm_of22_present_10",
       "objectiveId": "OF22",
       "skill": "writing",
       "grammarConcepts": [
@@ -494,6 +608,124 @@
         "similar": [
           "Vous préparez l’ordre du jour.",
           "Vous classez les dossiers."
+        ]
+      }
+    },
+    {
+      "id": "itm_of22_present_11",
+      "objectiveId": "OF22",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "distractor_why": {
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
+        },
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
+        ]
+      }
+    },
+    {
+      "id": "itm_of22_present_12",
+      "objectiveId": "OF22",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
         ]
       }
     }

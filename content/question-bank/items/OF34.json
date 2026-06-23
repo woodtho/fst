@@ -138,40 +138,103 @@
       "estTimeSec": 35,
       "irtB": 0.3,
       "prompt": {
-        "fr": "Type 1 : « Si tu ___ (finir) tôt, nous partirons ensemble. »",
+        "fr": "Type 1 : « Si le client ___ (appeler), je prendrai le message. »",
         "instructions_en": "After si (real condition), which tense?"
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "finis"
+          "appelle"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Real condition: si + present → future. « Si tu finis tôt, nous partirons ».",
+        "correct_why": "Real condition: si + present → future. « Si le client appelle, je prendrai… ».",
         "distractor_why": {
-          "future_after_si": "Don't use the future after si; the present goes in the si-clause.",
-          "conditional": "The conditional belongs to type 2 (si + imparfait)."
+          "future_after_si": "No future after si.",
+          "conditional": "Conditional belongs to type 2."
         },
         "grammar_rule": "si + présent, … futur.",
-        "vocab_notes": "tôt = early.",
+        "vocab_notes": "appeler = to call.",
         "common_mistakes": [
-          "putting the future right after si"
+          "future after si"
         ]
       },
       "tip": {
-        "memory_aid": "After si: present (type 1), never future.",
+        "memory_aid": "si + present (type 1).",
         "pattern": "si + présent → futur.",
         "similar": [
-          "Si j’ai le temps, je viendrai.",
-          "Si vous voulez, on commencera."
+          "Si tu finis tôt, on partira.",
+          "Si j’ai le temps, je viendrai."
         ]
       }
     },
     {
       "id": "itm_of34_si_clauses_4",
+      "objectiveId": "OF34",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "problem_solving",
+        "meetings"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Type 2 : « Si nous ___ (avoir) le budget, nous embaucherions. »",
+        "instructions_en": "Hypothetical: which tense after si?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avions",
+          "tag": "correct"
+        },
+        {
+          "value": "aurions",
+          "tag": "conditional"
+        },
+        {
+          "value": "avons",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "si + imparfait → conditional: « Si nous avions le budget, nous embaucherions ».",
+        "distractor_why": {
+          "conditional": "The conditional goes in the result clause, not after si.",
+          "present": "Present makes it a real (type-1) condition."
+        },
+        "grammar_rule": "si + imparfait, … conditionnel.",
+        "vocab_notes": "embaucher = to hire.",
+        "common_mistakes": [
+          "conditional after si"
+        ]
+      },
+      "tip": {
+        "memory_aid": "si + imparfait → conditional.",
+        "pattern": "Pair imparfait with conditional.",
+        "similar": [
+          "Si j’étais toi…",
+          "Si on avait plus de temps…"
+        ]
+      }
+    },
+    {
+      "id": "itm_of34_si_clauses_5",
       "objectiveId": "OF34",
       "skill": "writing",
       "grammarConcepts": [
@@ -183,45 +246,100 @@
       ],
       "theme": "problem_solving",
       "difficulty": "advanced",
-      "type": "fill_blank",
+      "type": "error_correction",
       "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.6,
+      "estTimeSec": 38,
+      "irtB": 0.7,
       "prompt": {
-        "fr": "Type 2 : « Si j’___ (avoir) plus de temps, je réviserais le rapport. »",
-        "instructions_en": "Hypothetical: which tense after si?"
+        "fr": "Corrigez : « Si vous aurez des questions, écrivez-moi. »",
+        "instructions_en": "Fix the tense after si."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "avais"
+          "Si vous avez des questions, écrivez-moi",
+          "Si vous avez des questions, écrivez-moi."
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Hypothetical: si + imparfait → conditional. « Si j’avais plus de temps, je réviserais ».",
+        "correct_why": "No future after si; use the present: « Si vous avez des questions, écrivez-moi ».",
         "distractor_why": {
-          "conditional_after_si": "The conditional goes in the result clause, not after si.",
-          "present": "The present would make it a type-1 (real) condition."
+          "future_kept": "« aurez » (future) is wrong after si."
         },
-        "grammar_rule": "si + imparfait, … conditionnel présent.",
-        "vocab_notes": "réviser = to revise.",
+        "grammar_rule": "si never takes the future directly.",
+        "vocab_notes": "écrire = to write.",
         "common_mistakes": [
-          "using the conditional after si"
+          "future after si"
         ]
       },
       "tip": {
-        "memory_aid": "si + imparfait → conditional result.",
-        "pattern": "si + imparfait, … conditionnel.",
+        "memory_aid": "si + present, impératif.",
+        "pattern": "si + présent, [impératif].",
         "similar": [
-          "Si j’étais toi, je demanderais.",
+          "Si tu veux, appelle-moi.",
+          "Si ça convient, commençons."
+        ]
+      }
+    },
+    {
+      "id": "itm_of34_si_clauses_6",
+      "objectiveId": "OF34",
+      "skill": "writing",
+      "grammarConcepts": [
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "problem_solving",
+        "meetings"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 46,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (type 2).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Si",
+          "j’avais",
+          "plus de temps",
+          "je",
+          "réviserais",
+          "le rapport"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Si j’avais plus de temps je réviserais le rapport"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "si + imparfait (avais) → conditional (réviserais).",
+        "distractor_why": {},
+        "grammar_rule": "Type-2 structure: Si + imparfait, … conditionnel.",
+        "vocab_notes": "réviser = to revise.",
+        "common_mistakes": [
+          "mismatching the two clause tenses"
+        ]
+      },
+      "tip": {
+        "memory_aid": "imparfait ↔ conditional.",
+        "pattern": "Si [imparfait], [conditionnel].",
+        "similar": [
+          "Si je pouvais, je le ferais.",
           "Si nous avions le budget, nous embaucherions."
         ]
       }
     },
     {
-      "id": "itm_of34_conditionnel_5",
+      "id": "itm_of34_conditionnel_7",
       "objectiveId": "OF34",
       "skill": "writing",
       "grammarConcepts": [
@@ -272,7 +390,7 @@
       }
     },
     {
-      "id": "itm_of34_conditionnel_6",
+      "id": "itm_of34_conditionnel_8",
       "objectiveId": "OF34",
       "skill": "grammar",
       "grammarConcepts": [
@@ -335,75 +453,7 @@
       }
     },
     {
-      "id": "itm_of34_conditionnel_7",
-      "objectiveId": "OF34",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "conditionnel"
-      ],
-      "vocabDomains": [
-        "problem_solving",
-        "meetings"
-      ],
-      "theme": "problem_solving",
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 25,
-      "irtB": -0.3,
-      "prompt": {
-        "fr": "Forme polie : « ___ -vous m’envoyer le dossier? »",
-        "instructions_en": "Choose the polite conditional form of pouvoir."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "Pourriez"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "Pourriez",
-          "tag": "correct"
-        },
-        {
-          "value": "Pouvez",
-          "tag": "present_less_polite"
-        },
-        {
-          "value": "Pourrez",
-          "tag": "future"
-        },
-        {
-          "value": "Pouviez",
-          "tag": "imperfect"
-        }
-      ],
-      "explanation": {
-        "correct_why": "« Pourriez-vous… » (conditional of pouvoir) is the polite request form.",
-        "distractor_why": {
-          "present_less_polite": "« Pouvez-vous » is correct but less polite/softened.",
-          "future": "« Pourrez » is future.",
-          "imperfect": "« Pouviez » is imperfect."
-        },
-        "grammar_rule": "Conditional of pouvoir: pourrais, pourrais, pourrait, pourrions, pourriez, pourraient.",
-        "vocab_notes": "Pourriez-vous… = Could you… (polite).",
-        "common_mistakes": [
-          "confusing pourriez (cond.) with pourrez (future)"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Polite ask → conditional (pourriez, voudriez).",
-        "pattern": "future stem + imperfect endings.",
-        "similar": [
-          "Voudriez-vous…?",
-          "J’aimerais…"
-        ]
-      }
-    },
-    {
-      "id": "itm_of34_conditionnel_8",
+      "id": "itm_of34_conditionnel_9",
       "objectiveId": "OF34",
       "skill": "writing",
       "grammarConcepts": [
@@ -417,43 +467,209 @@
       "difficulty": "medium",
       "type": "fill_blank",
       "status": "live",
-      "estTimeSec": 35,
+      "estTimeSec": 34,
       "irtB": 0.1,
       "prompt": {
-        "fr": "Conditionnel : « Je ___ (vouloir) un rendez-vous avec le gestionnaire. »",
-        "instructions_en": "Polite conditional of vouloir, je form."
+        "fr": "Conditionnel : « J’___ (aimer) vous rencontrer cette semaine. »",
+        "instructions_en": "Polite conditional of aimer, je."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "voudrais"
+          "aimerais"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "« Je voudrais » (conditional of vouloir) softens the request — more polite than « je veux ».",
+        "correct_why": "« J’aimerais » (conditional) is the polite way to say 'I would like'.",
         "distractor_why": {
-          "present_veux": "« veux » is direct/less polite.",
-          "future": "« voudrai » is future."
+          "present": "« aime » is too direct.",
+          "future": "« aimerai » is future, not conditional."
         },
-        "grammar_rule": "vouloir conditional: voudrais, voudrais, voudrait…",
-        "vocab_notes": "un rendez-vous = an appointment.",
+        "grammar_rule": "Conditional = future stem + imperfect endings.",
+        "vocab_notes": "J’aimerais = I would like.",
         "common_mistakes": [
-          "using 'je veux' in polite requests"
+          "future -ai vs conditional -ais"
         ]
       },
       "tip": {
-        "memory_aid": "je voudrais = I would like.",
-        "pattern": "Conditional softens requests.",
+        "memory_aid": "j’aimerais = I would like.",
+        "pattern": "Polite wish → conditional.",
         "similar": [
-          "J’aimerais vous rencontrer.",
-          "Je souhaiterais un délai."
+          "Je voudrais…",
+          "Je souhaiterais…"
         ]
       }
     },
     {
-      "id": "itm_of34_imparfait_9",
+      "id": "itm_of34_conditionnel_10",
+      "objectiveId": "OF34",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "problem_solving",
+        "meetings"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Conditionnel : « À ta place, j’___ (aller) voir le gestionnaire. »",
+        "instructions_en": "Conditional of aller (advice)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "irais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "irais",
+          "tag": "correct"
+        },
+        {
+          "value": "irai",
+          "tag": "future"
+        },
+        {
+          "value": "vais",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Advice uses the conditional; aller stem ir- + -ais = « irais ».",
+        "distractor_why": {
+          "future": "« irai » is future.",
+          "present": "« vais » is present."
+        },
+        "grammar_rule": "Conditional uses the future stem + imperfect endings.",
+        "vocab_notes": "À ta place = if I were you.",
+        "common_mistakes": [
+          "future irai vs conditional irais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Advice → conditional (-ais).",
+        "pattern": "future stem + -ais.",
+        "similar": [
+          "Je ferais autrement.",
+          "Nous demanderions un délai."
+        ]
+      }
+    },
+    {
+      "id": "itm_of34_conditionnel_11",
+      "objectiveId": "OF34",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "problem_solving",
+        "meetings"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "easy",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 36,
+      "irtB": -0.1,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (demande polie).",
+        "instructions_en": "Build the polite request.",
+        "tokens": [
+          "Je",
+          "voudrais",
+          "un rendez-vous",
+          "avec le directeur"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Je voudrais un rendez-vous avec le directeur"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Je voudrais » + noun phrase makes a polite request.",
+        "distractor_why": {},
+        "grammar_rule": "Conditional of vouloir softens requests.",
+        "vocab_notes": "un rendez-vous = an appointment.",
+        "common_mistakes": [
+          "using « je veux » in a polite context"
+        ]
+      },
+      "tip": {
+        "memory_aid": "voudrais = would like.",
+        "pattern": "Je voudrais + noun / infinitive.",
+        "similar": [
+          "Je voudrais parler à…",
+          "J’aimerais obtenir…"
+        ]
+      }
+    },
+    {
+      "id": "itm_of34_conditionnel_12",
+      "objectiveId": "OF34",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "problem_solving",
+        "meetings"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Conditionnel : « Nous ___ (pouvoir) reporter la réunion. »",
+        "instructions_en": "Conditional of pouvoir, nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "pourrions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "pouvoir stem pourr- + -ions = « pourrions » (we could/would be able to).",
+        "distractor_why": {
+          "future": "« pourrons » is future.",
+          "present": "« pouvons » is present."
+        },
+        "grammar_rule": "pouvoir conditional: pourrais, pourrait, pourrions…",
+        "vocab_notes": "reporter = to postpone.",
+        "common_mistakes": [
+          "pourrions (cond.) vs pourrons (future)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pourr- + -ions = pourrions.",
+        "pattern": "Suggestion → on pourrait / nous pourrions.",
+        "similar": [
+          "On pourrait commencer plus tard.",
+          "Nous devrions vérifier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of34_imparfait_13",
       "objectiveId": "OF34",
       "skill": "writing",
       "grammarConcepts": [
@@ -503,7 +719,7 @@
       }
     },
     {
-      "id": "itm_of34_imparfait_10",
+      "id": "itm_of34_imparfait_14",
       "objectiveId": "OF34",
       "skill": "grammar",
       "grammarConcepts": [
@@ -566,7 +782,7 @@
       }
     },
     {
-      "id": "itm_of34_imparfait_11",
+      "id": "itm_of34_imparfait_15",
       "objectiveId": "OF34",
       "skill": "writing",
       "grammarConcepts": [
@@ -580,43 +796,43 @@
       "difficulty": "easy",
       "type": "fill_blank",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": -0.2,
+      "estTimeSec": 32,
+      "irtB": -0.3,
       "prompt": {
-        "fr": "Mettez à l’imparfait : « Avant, je ___ (travailler) à Montréal. »",
-        "instructions_en": "Imperfect, je form."
+        "fr": "Imparfait : « Nous ___ (avoir) plus de personnel à l’époque. »",
+        "instructions_en": "Imperfect of avoir, nous."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "travaillais"
+          "avions"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Stem travaill- + -ais (je) = « travaillais ».",
+        "correct_why": "avoir nous-stem av- + -ions = « avions ».",
         "distractor_why": {
-          "present": "« travaille » is the present.",
-          "passe_compose": "« ai travaillé » is the passé composé."
+          "present": "« avons » is present.",
+          "wrong": "« avaisons » is not a form."
         },
-        "grammar_rule": "Imparfait je → radical + -ais.",
-        "vocab_notes": "Avant = before/previously (signals habit → imparfait).",
+        "grammar_rule": "Imparfait stem = nous-present minus -ons (avons→av-).",
+        "vocab_notes": "à l’époque = at the time.",
         "common_mistakes": [
-          "using present or passé composé for a past habit"
+          "confusing avions (imparfait) with avons (present)"
         ]
       },
       "tip": {
-        "memory_aid": "Habit/background in the past → imparfait.",
-        "pattern": "nous-stem + -ais/-ait…",
+        "memory_aid": "av- + -ions = avions.",
+        "pattern": "nous-stem + -ions.",
         "similar": [
-          "Avant, il habitait à Québec.",
-          "Nous travaillions ensemble."
+          "Nous étions en réunion.",
+          "Nous faisions le suivi."
         ]
       }
     },
     {
-      "id": "itm_of34_imparfait_12",
+      "id": "itm_of34_imparfait_16",
       "objectiveId": "OF34",
       "skill": "grammar",
       "grammarConcepts": [
@@ -631,50 +847,153 @@
       "type": "mcq_single",
       "status": "live",
       "estTimeSec": 30,
-      "irtB": 0.2,
+      "irtB": 0.3,
       "prompt": {
-        "fr": "Choisissez le temps : « Quand le téléphone a sonné, je ___ un courriel. »",
-        "instructions_en": "Background action interrupted → which form?"
+        "fr": "Description ou événement ? « Il ___ beau et tout le monde était de bonne humeur. »",
+        "instructions_en": "Setting/description → which form?"
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "écrivais"
+          "faisait"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [
         {
-          "value": "écrivais",
+          "value": "faisait",
           "tag": "correct"
         },
         {
-          "value": "ai écrit",
-          "tag": "pc_for_background"
+          "value": "a fait",
+          "tag": "pc"
         },
         {
-          "value": "écris",
+          "value": "fait",
           "tag": "present"
         }
       ],
       "explanation": {
-        "correct_why": "The ongoing background action uses the imparfait: « j’écrivais » (was writing) when the phone rang (passé composé).",
+        "correct_why": "Weather/setting in the past is description → imparfait « faisait ».",
         "distractor_why": {
-          "pc_for_background": "« ai écrit » would mean a completed action, not the ongoing background.",
-          "present": "« écris » is present, not past."
+          "pc": "Passé composé marks a completed event, not a description.",
+          "present": "« fait » is present."
         },
-        "grammar_rule": "Imparfait = ongoing/background; passé composé = the interrupting completed event.",
-        "vocab_notes": "sonner = to ring.",
+        "grammar_rule": "Descriptions and settings in the past use the imparfait.",
+        "vocab_notes": "il fait beau = the weather is nice.",
         "common_mistakes": [
-          "using passé composé for the background action"
+          "using passé composé for weather/description"
         ]
       },
       "tip": {
-        "memory_aid": "Was -ing → imparfait.",
-        "pattern": "Background (imparfait) + event (passé composé).",
+        "memory_aid": "Scenery/weather → imparfait.",
+        "pattern": "Description = imparfait.",
         "similar": [
-          "Je lisais quand il est arrivé.",
-          "Elle parlait quand on a frappé."
+          "C’était calme.",
+          "Il y avait beaucoup de monde."
+        ]
+      }
+    },
+    {
+      "id": "itm_of34_imparfait_17",
+      "objectiveId": "OF34",
+      "skill": "writing",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "problem_solving",
+        "meetings"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "easy",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 38,
+      "irtB": -0.1,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (imparfait).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Avant",
+          "je",
+          "travaillais",
+          "à Québec"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Avant je travaillais à Québec"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Avant » signals a past habit/situation → imparfait: « Avant, je travaillais à Québec ».",
+        "distractor_why": {},
+        "grammar_rule": "Past habit markers (avant, autrefois) cue the imparfait.",
+        "vocab_notes": "Avant = before/previously.",
+        "common_mistakes": [
+          "using passé composé with « avant » for a habit"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Avant + imparfait.",
+        "pattern": "[time] + subject + imparfait.",
+        "similar": [
+          "Autrefois, nous habitions Ottawa.",
+          "Avant, elle dirigeait l’équipe."
+        ]
+      }
+    },
+    {
+      "id": "itm_of34_imparfait_18",
+      "objectiveId": "OF34",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "problem_solving",
+        "meetings"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Imparfait : « Il ___ (faire) le suivi chaque vendredi. »",
+        "instructions_en": "Imperfect of faire, il."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "faisait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire nous-stem fais- + -ait = « faisait ».",
+        "distractor_why": {
+          "present": "« fait » is present.",
+          "wrong_stem": "Use the nous-stem fais-, not fai-."
+        },
+        "grammar_rule": "faire imparfait: faisais, faisais, faisait…",
+        "vocab_notes": "chaque vendredi = every Friday (habit).",
+        "common_mistakes": [
+          "dropping the s of the fais- stem"
+        ]
+      },
+      "tip": {
+        "memory_aid": "faire → fais- (faisait).",
+        "pattern": "nous-stem + -ait.",
+        "similar": [
+          "Elle prenait des notes.",
+          "Nous finissions tôt."
         ]
       }
     }

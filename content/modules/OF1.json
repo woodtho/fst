@@ -4,144 +4,137 @@
   "titleFr": "S’identifier et identifier des personnes",
   "titleEn": "To identify yourself and other people",
   "level": "A",
-  "estMinutes": 60,
-  "source": { "catalogue": "SC102-2/1-2005F", "text": "sources/text/OF01.txt" },
+  "estMinutes": 40,
+  "generated": true,
+  "source": {
+    "catalogue": "SC102-2/1-2005F",
+    "text": "sources/text/OF01.txt"
+  },
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF1 is the foundation: saying who you are, asking who someone is, and introducing a third person — in person and on the phone, in a Government of Canada workplace. You need (1) the verb être and -er verbs in the present, (2) the ways to ask questions (intonation, est-ce que, inversion, and the question words qui and quel), and (3) the tu/vous distinction. You also handle names and titles, spell them out loud, and use communication strategies to keep a conversation going (asking someone to repeat, slow down, or explain a word).",
-        "fr": "S’identifier, demander l’identité de quelqu’un et présenter une tierce personne, au bureau et au téléphone. On emploie le verbe être et les verbes en -er au présent, les formes interrogatives (intonation, est-ce que, inversion, qui, quel) et la distinction tu / vous."
+        "en": "OF1 — To identify yourself and other people. This objective develops the language needed to identify yourself and other people in a Government of Canada workplace. Grammar focus: The present tense, Pronouns, Question formation. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise and consolidate with workplace tasks.",
+        "fr": "S’identifier et identifier des personnes. Objectif communicatif appuyé par : Le présent de l’indicatif, Les pronoms, L’interrogation. Étudiez le lexique source (ci-dessous), révisez les points de grammaire, puis pratiquez et consolidez."
       },
-      "vocabulary": [
-        { "fr": "s’appeler", "en": "to be called / one's name is", "pos": "v.", "example": "Je m’appelle Luce Larocque." },
-        { "fr": "se présenter", "en": "to introduce oneself", "pos": "v.", "example": "Je me présente : Denise Lévesque." },
-        { "fr": "à l’appareil", "en": "speaking (on the phone)", "pos": "expr.", "example": "Jeannine Mongeon, à l’appareil." },
-        { "fr": "de la part de qui", "en": "who is calling", "pos": "expr.", "example": "C’est de la part de qui?" },
-        { "fr": "un(e) fonctionnaire", "en": "a public servant", "pos": "n.", "register": "neutral" },
-        { "fr": "le/la gestionnaire", "en": "the manager", "pos": "n." },
-        { "fr": "le/la chef de section", "en": "the section head", "pos": "n." },
-        { "fr": "le directeur / la directrice", "en": "the director", "pos": "n." },
-        { "fr": "le/la collègue", "en": "the colleague", "pos": "n." },
-        { "fr": "le commis", "en": "the clerk", "pos": "n.m." },
-        { "fr": "le/la secrétaire", "en": "the secretary", "pos": "n." },
-        { "fr": "l’adjoint(e)", "en": "the assistant", "pos": "n." },
-        { "fr": "le/la spécialiste", "en": "the specialist", "pos": "n." },
-        { "fr": "l’analyste", "en": "the analyst", "pos": "n." },
-        { "fr": "le sous-ministre / la sous-ministre", "en": "the deputy minister", "pos": "n." },
-        { "fr": "le ministère", "en": "the department", "pos": "n.m." },
-        { "fr": "demeurer", "en": "to live / reside", "pos": "v.", "example": "Je demeure à Gatineau." },
-        { "fr": "habiter", "en": "to live (somewhere)", "pos": "v.", "example": "Tu habites rue Laurier." },
-        { "fr": "travailler", "en": "to work", "pos": "v.", "example": "Nous travaillons à la fonction publique." }
-      ],
+      "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
-        "summary": "Subject pronouns + être, -er verbs in the present, the interrogative forms, and tu vs vous.",
-        "charts": ["present_etre", "present_er_travailler", "interrogatives"],
+        "summary": "Grammar focus for this objective: The present tense, Pronouns, Question formation.",
+        "charts": [],
         "points": [
-          "ÊTRE au présent : je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont. Aussi : C’est… / Ce sont…",
-          "En conversation, « on » remplace souvent « nous ». « Vous » peut s’adresser à une seule personne (politesse).",
-          "Verbes en -ER : on enlève -er et on ajoute -e, -es, -e, -ons, -ez, -ent. Ex. travailler → je travaille, nous travaillons, ils travaillent.",
-          "Trois façons de poser une question fermée (oui/non) : intonation montante (« Elle est fonctionnaire? »), est-ce que (« Est-ce qu’ils sont fonctionnaires? »), inversion (« Es-tu fonctionnaire? »).",
-          "Questions ouvertes : QUI (personne) → « Qui parle? ». QUEL/QUELLE/QUELS/QUELLES (adjectif interrogatif, s’accorde) → « Quel est votre nom? », « Quelle est votre profession? », « Quels sont vos prénoms? ».",
-          "TU = familiarité (amis, collègues du même âge, enfants). VOUS = distance/respect (supérieurs, inconnus, personnes plus âgées, en classe). Au travail, vouvoiement par défaut."
+          "Le présent de l’indicatif (The present tense) — Exprime des faits, des habitudes et des situations actuelles. Les verbes réguliers en -er/-ir/-re ont des terminaisons fixes; être, avoir, aller, faire sont irréguliers.",
+          "· -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+          "· -ir (type finir) : -is, -is, -it, -issons, -issez, -issent.",
+          "· être : suis, es, est, sommes, êtes, sont. avoir : ai, as, a, avons, avez, ont.",
+          "Les pronoms (Pronouns) — Remplacent les noms : objets directs (le/la/les), indirects (lui/leur), y, en, relatifs (qui/que). Ils se placent avant le verbe conjugué.",
+          "· Direct objects: le, la, les, l’.",
+          "· Indirect (à + person): lui, leur. y = à + thing/place; en = de + thing.",
+          "· Relative: qui (subject), que (object).",
+          "L’interrogation (Question formation) — Questions fermées : intonation, est-ce que, inversion. Questions ouvertes : qui, que/quoi, où, quand, comment, pourquoi, combien, quel (accordé).",
+          "· Yes/no: intonation; Est-ce que + statement; inversion (verb-pronoun).",
+          "· Information words: qui, que, où, quand, comment, pourquoi, combien.",
+          "· quel agrees in gender/number with its noun."
         ]
       },
       "pronunciation": {
         "points": [
-          "À l’oral, les pronoms se réduisent : je → j’ (j’travaille), tu → t’ devant voyelle (t’es), il → i (i travaille), ils/elles → [i]/[E] (i travaillent).",
-          "Liaison : « vous êtes » → /vu.zɛt/ ; « ils ont » se distingue de « ils sont » par le [z].",
-          "L’alphabet français : A B C D E F G… (révisez la prononciation, différente de l’anglais).",
-          "Pour épeler : signalez les signes — l’accent aigu (é), l’accent grave (è), l’accent circonflexe (ê), la cédille (ç), le tréma (ï), le trait d’union (-), la majuscule, la minuscule."
+          "Listen to and repeat the source vocabulary aloud; French final consonants are often silent and vowels are pure.",
+          "Liaison links a final consonant to a following vowel (e.g. vous‿êtes, nous‿avons)."
         ]
       },
-      "dialogues": [
-        {
-          "title": "Au téléphone — vérifier l’identité",
-          "register": "formal",
-          "lines": [
-            { "speaker": "Réceptionniste", "fr": "Finances. Bonjour.", "en": "Finance. Good day." },
-            { "speaker": "Appelant", "fr": "Monsieur Martineau, s’il vous plaît.", "en": "Mr. Martineau, please." },
-            { "speaker": "Réceptionniste", "fr": "C’est de la part de qui?", "en": "Who is calling?" },
-            { "speaker": "Appelant", "fr": "Philippe Desrochers.", "en": "Philippe Desrochers." },
-            { "speaker": "Réceptionniste", "fr": "Un instant, je vous prie.", "en": "One moment, please." }
-          ]
-        },
-        {
-          "title": "Une soirée — se présenter et présenter (extrait)",
-          "register": "informal",
-          "lines": [
-            { "speaker": "Bob", "fr": "Bonsoir. Je m’appelle Bob Jackson. Et toi, comment t’appelles-tu?", "en": "Good evening. My name is Bob Jackson. And you, what's your name?" },
-            { "speaker": "Julie", "fr": "Julie. Julie Blondin.", "en": "Julie. Julie Blondin." },
-            { "speaker": "Bob", "fr": "Tu es étudiante?", "en": "Are you a student?" },
-            { "speaker": "Julie", "fr": "Oui, à l’Université du Québec.", "en": "Yes, at the Université du Québec." },
-            { "speaker": "Marie", "fr": "Lilianne, Richard, je vous présente monsieur et madame Legrand.", "en": "Lilianne, Richard, let me introduce Mr. and Mrs. Legrand." },
-            { "speaker": "Claude", "fr": "Je me présente : Claude Roger. Je suis agent de formation à Transports Canada.", "en": "Let me introduce myself: Claude Roger. I'm a training officer at Transport Canada." }
-          ]
-        }
-      ],
-      "exampleTexts": [
-        {
-          "type": "self_introduction_card",
-          "fr": "Je m’appelle Benoît Giroux. Je suis analyste à la Commission de la fonction publique. Je travaille à Gatineau et j’habite rue Laurier, à Ottawa.",
-          "en": "My name is Benoît Giroux. I'm an analyst at the Public Service Commission. I work in Gatineau and I live on Laurier Street, in Ottawa."
-        },
-        {
-          "type": "staff_directory",
-          "fr": "Cabinet du ministre — Pierre Arsenault, adjoint; Andréa Massé, adjointe; Madeleine Mercier, conseillère spéciale; Raymond Cormier, coordonnateur des projets spéciaux; Monique Lachance, secrétaire.",
-          "en": "Minister's Office — Pierre Arsenault, assistant; Andréa Massé, assistant; Madeleine Mercier, special advisor; Raymond Cormier, special projects coordinator; Monique Lachance, secretary."
-        }
-      ]
+      "dialogues": [],
+      "exampleTexts": []
     },
     "practice": {
       "exerciseSets": [
-        { "title": "Le verbe être au présent", "itemRefs": ["itm_of1_etre_0001", "itm_of1_etre_0002", "itm_of1_etre_0003"], "type": "mcq_single" },
-        { "title": "Le pronom sujet qui convient", "itemRefs": ["itm_of1_pron_0001", "itm_of1_pron_0002"], "type": "mcq_single" },
-        { "title": "Les verbes en -er au présent", "itemRefs": ["itm_of1_er_0001", "itm_of1_er_0002", "itm_of1_er_0003"], "type": "fill_blank" },
-        { "title": "Les titres de postes", "itemRefs": ["itm_of1_titles_0001"], "type": "matching" },
-        { "title": "Formes interrogatives", "itemRefs": ["itm_of1_int_0001", "itm_of1_int_0002", "itm_of1_int_0003", "itm_of1_int_0004"], "type": "mcq_single" },
-        { "title": "Transformer la question", "itemRefs": ["itm_of1_trans_0001", "itm_of1_trans_0002"], "type": "fill_blank" },
-        { "title": "Tu ou vous ?", "itemRefs": ["itm_of1_tv_0001", "itm_of1_tv_0002"], "type": "mcq_single" },
-        { "title": "Stratégies de communication", "itemRefs": ["itm_of1_strat_0001"], "type": "matching" },
-        { "title": "Construire et corriger", "itemRefs": ["itm_of1_build_0001", "itm_of1_ec_0001", "itm_of1_fn_0001", "itm_of1_fn_0002"], "type": "mixed" }
+        {
+          "title": "Le présent de l’indicatif",
+          "itemRefs": [
+            "itm_of1_present_1",
+            "itm_of1_present_2",
+            "itm_of1_present_3",
+            "itm_of1_present_4",
+            "itm_of1_present_5",
+            "itm_of1_present_6"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "Les pronoms",
+          "itemRefs": [
+            "itm_of1_pronouns_7",
+            "itm_of1_pronouns_8",
+            "itm_of1_pronouns_9",
+            "itm_of1_pronouns_10",
+            "itm_of1_pronouns_11",
+            "itm_of1_pronouns_12"
+          ],
+          "type": "mixed"
+        },
+        {
+          "title": "L’interrogation",
+          "itemRefs": [
+            "itm_of1_question_formation_13",
+            "itm_of1_question_formation_14",
+            "itm_of1_question_formation_15",
+            "itm_of1_question_formation_16",
+            "itm_of1_question_formation_17",
+            "itm_of1_question_formation_18"
+          ],
+          "type": "mixed"
+        }
       ]
     },
     "consolidation": {
-      "sourceBooklet": { "kind": "consolidation", "booklet": 1, "ofRange": [1, 12], "catalogue": "SC102-2/47-1-2006F" },
+      "sourceBooklet": {
+        "kind": "consolidation",
+        "booklet": 1,
+        "ofRange": [
+          1,
+          12
+        ],
+        "catalogue": "SC102-2/47-1-2006F"
+      },
       "tasks": [
         {
-          "title": "Vérifier l’identité d’une personne",
+          "title": "Tâche de consolidation — S’identifier et identifier des personnes",
           "type": "scenario",
-          "promptFr": "Vous vous présentez au bureau de la nouvelle chef d’équipe. C’est la première fois que vous la rencontrez. Vérifiez son identité (vous).",
-          "promptEn": "You go to the new team leader’s office for the first time. Verify her identity (formal).",
-          "modelAnswerFr": "Bonjour, vous êtes bien madame Tremblay, la nouvelle chef d’équipe?",
-          "rubric": ["uses vous", "verification formula (Vous êtes bien…?)", "names the role/person"]
-        },
-        {
-          "title": "Présenter une tierce personne",
-          "type": "real_world_task",
-          "promptFr": "Au bureau, présentez votre nouvelle collègue Mélanie Vaillancourt (analyste à Statistique Canada) à votre gestionnaire.",
-          "promptEn": "At the office, introduce your new colleague Mélanie Vaillancourt (analyst at Statistics Canada) to your manager.",
-          "modelAnswerFr": "Je vous présente Mélanie Vaillancourt. Elle est analyste à Statistique Canada.",
-          "rubric": ["présentation formula (Je vous présente…)", "third-person identity (Elle est… / Elle travaille à…)", "vous register"]
-        },
-        {
-          "title": "Au téléphone — prendre l’identité",
-          "type": "scenario",
-          "promptFr": "Vous répondez au téléphone. Demandez à l’appelant de s’identifier, puis demandez-lui d’épeler son nom.",
-          "promptEn": "You answer the phone. Ask the caller to identify themselves, then ask them to spell their name.",
-          "modelAnswerFr": "C’est de la part de qui? … Pourriez-vous épeler votre nom, s’il vous plaît?",
-          "rubric": ["asks who is calling (de la part de qui)", "asks to spell (épeler)", "politeness"]
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « s’identifier et identifier des personnes ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Le présent de l’indicatif, Les pronoms, L’interrogation.",
+          "promptEn": "In a workplace context, practise the function \"To identify yourself and other people\". Produce a short exchange (3–4 sentences) using: The present tense, Pronouns, Question formation.",
+          "rubric": [
+            "addresses the communicative function",
+            "uses the target grammar correctly",
+            "workplace register (vous)"
+          ]
         }
       ]
     },
     "selfTest": {
-      "sourceBooklet": { "kind": "self_eval", "booklet": 1, "ofRange": [1, 12], "catalogue": "SC102-2/45-1-2006F" },
-      "timedSeconds": 480,
-      "blueprint": { "easy": 8, "medium": 5, "advanced": 2 },
-      "drawFrom": ["OF1"]
+      "sourceBooklet": {
+        "kind": "self_eval",
+        "booklet": 1,
+        "ofRange": [
+          1,
+          12
+        ],
+        "catalogue": "SC102-2/45-1-2006F"
+      },
+      "timedSeconds": 490,
+      "blueprint": {
+        "easy": 6,
+        "medium": 5,
+        "advanced": 3
+      },
+      "drawFrom": [
+        "OF1"
+      ]
     },
     "masteryCheck": {
       "threshold": 0.8,
-      "concepts": ["present", "pronouns", "question_formation"]
+      "concepts": [
+        "present",
+        "pronouns",
+        "question_formation"
+      ]
     }
   }
 }

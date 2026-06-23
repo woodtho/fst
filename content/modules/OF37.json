@@ -48,17 +48,21 @@
             "itm_of37_passe_compose_1",
             "itm_of37_passe_compose_2",
             "itm_of37_passe_compose_3",
-            "itm_of37_passe_compose_4"
+            "itm_of37_passe_compose_4",
+            "itm_of37_passe_compose_5",
+            "itm_of37_passe_compose_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les prépositions",
           "itemRefs": [
-            "itm_of37_prepositions_5",
-            "itm_of37_prepositions_6",
             "itm_of37_prepositions_7",
-            "itm_of37_prepositions_8"
+            "itm_of37_prepositions_8",
+            "itm_of37_prepositions_9",
+            "itm_of37_prepositions_10",
+            "itm_of37_prepositions_11",
+            "itm_of37_prepositions_12"
           ],
           "type": "mixed"
         }
@@ -98,11 +102,11 @@
         ],
         "catalogue": "SC102-2/45-4-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 3,
-        "medium": 4,
-        "advanced": 1
+        "easy": 4,
+        "medium": 5,
+        "advanced": 0
       },
       "drawFrom": [
         "OF37"

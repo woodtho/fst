@@ -56,37 +56,45 @@
             "itm_of24_passe_compose_1",
             "itm_of24_passe_compose_2",
             "itm_of24_passe_compose_3",
-            "itm_of24_passe_compose_4"
+            "itm_of24_passe_compose_4",
+            "itm_of24_passe_compose_5",
+            "itm_of24_passe_compose_6"
           ],
           "type": "mixed"
         },
         {
           "title": "L’imparfait",
           "itemRefs": [
-            "itm_of24_imparfait_5",
-            "itm_of24_imparfait_6",
             "itm_of24_imparfait_7",
-            "itm_of24_imparfait_8"
+            "itm_of24_imparfait_8",
+            "itm_of24_imparfait_9",
+            "itm_of24_imparfait_10",
+            "itm_of24_imparfait_11",
+            "itm_of24_imparfait_12"
           ],
           "type": "mixed"
         },
         {
           "title": "Le futur simple",
           "itemRefs": [
-            "itm_of24_futur_simple_9",
-            "itm_of24_futur_simple_10",
-            "itm_of24_futur_simple_11",
-            "itm_of24_futur_simple_12"
+            "itm_of24_futur_simple_13",
+            "itm_of24_futur_simple_14",
+            "itm_of24_futur_simple_15",
+            "itm_of24_futur_simple_16",
+            "itm_of24_futur_simple_17",
+            "itm_of24_futur_simple_18"
           ],
           "type": "mixed"
         },
         {
           "title": "Le discours indirect",
           "itemRefs": [
-            "itm_of24_reported_speech_13",
-            "itm_of24_reported_speech_14",
-            "itm_of24_reported_speech_15",
-            "itm_of24_reported_speech_16"
+            "itm_of24_reported_speech_19",
+            "itm_of24_reported_speech_20",
+            "itm_of24_reported_speech_21",
+            "itm_of24_reported_speech_22",
+            "itm_of24_reported_speech_23",
+            "itm_of24_reported_speech_24"
           ],
           "type": "mixed"
         }
@@ -126,11 +134,11 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 560,
+      "timedSeconds": 490,
       "blueprint": {
-        "easy": 4,
-        "medium": 8,
-        "advanced": 4
+        "easy": 6,
+        "medium": 5,
+        "advanced": 3
       },
       "drawFrom": [
         "OF24"

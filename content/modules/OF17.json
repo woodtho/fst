@@ -48,17 +48,21 @@
             "itm_of17_present_1",
             "itm_of17_present_2",
             "itm_of17_present_3",
-            "itm_of17_present_4"
+            "itm_of17_present_4",
+            "itm_of17_present_5",
+            "itm_of17_present_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les pronoms",
           "itemRefs": [
-            "itm_of17_pronouns_5",
-            "itm_of17_pronouns_6",
             "itm_of17_pronouns_7",
-            "itm_of17_pronouns_8"
+            "itm_of17_pronouns_8",
+            "itm_of17_pronouns_9",
+            "itm_of17_pronouns_10",
+            "itm_of17_pronouns_11",
+            "itm_of17_pronouns_12"
           ],
           "type": "mixed"
         }
@@ -98,11 +102,11 @@
         ],
         "catalogue": "SC102-2/45-2-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 2,
+        "easy": 3,
         "medium": 5,
-        "advanced": 1
+        "advanced": 2
       },
       "drawFrom": [
         "OF17"

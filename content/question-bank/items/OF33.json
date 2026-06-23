@@ -198,65 +198,174 @@
         "meetings"
       ],
       "theme": "meetings",
-      "difficulty": "medium",
-      "type": "mcq_single",
+      "difficulty": "advanced",
+      "type": "matching",
       "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.1,
+      "estTimeSec": 60,
+      "irtB": 0.5,
       "prompt": {
-        "fr": "Remplacez : « J’envoie le rapport au gestionnaire. » → « Je ___ envoie au gestionnaire. »",
-        "instructions_en": "Replace 'le rapport' with the right pronoun."
+        "fr": "Associez le complément au pronom qui le remplace.",
+        "instructions_en": "Match each phrase to the pronoun that replaces it.",
+        "left": [
+          "le rapport",
+          "au directeur",
+          "à Ottawa",
+          "de café",
+          "les dossiers"
+        ],
+        "right": [
+          "le",
+          "lui",
+          "y",
+          "en",
+          "les"
+        ]
       },
       "answer": {
-        "type": "choice",
+        "type": "sequence",
         "accepted": [
-          "l’"
+          "le lui y en les"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
-      "distractors": [
-        {
-          "value": "l’",
-          "tag": "correct"
-        },
-        {
-          "value": "lui",
-          "tag": "indirect"
-        },
-        {
-          "value": "y",
-          "tag": "y_wrong"
-        },
-        {
-          "value": "en",
-          "tag": "en_wrong"
-        }
-      ],
+      "distractors": [],
       "explanation": {
-        "correct_why": "« le rapport » is a direct object → le; before a vowel it elides to « l’ » → « Je l’envoie ».",
-        "distractor_why": {
-          "indirect": "« lui » replaces an indirect object (au gestionnaire), not le rapport.",
-          "y_wrong": "« y » replaces à + thing/place.",
-          "en_wrong": "« en » replaces de + noun."
-        },
-        "grammar_rule": "Direct object pronouns: le, la, les, l’ (before a vowel).",
-        "vocab_notes": "le rapport (m.) → le/l’.",
+        "correct_why": "le rapport→le (direct); au directeur→lui (indirect person); à Ottawa→y (place); de café→en (de + noun); les dossiers→les (direct plural).",
+        "distractor_why": {},
+        "grammar_rule": "Direct (le/la/les), indirect (lui/leur), y (à+place/thing), en (de+noun).",
+        "vocab_notes": "Match the preposition/role to the pronoun.",
         "common_mistakes": [
-          "using lui for a thing",
-          "no elision before a vowel"
+          "using y for a person, lui for a thing"
         ]
       },
       "tip": {
-        "memory_aid": "Direct object → le/la/les; elide before a vowel (l’).",
-        "pattern": "Pronoun goes before the verb.",
+        "memory_aid": "à+place→y; de+noun→en; à+person→lui.",
+        "pattern": "Role decides the pronoun.",
         "similar": [
-          "Je le prépare.",
-          "Je les envoie."
+          "J’y vais.",
+          "J’en ai besoin.",
+          "Je lui parle."
         ]
       }
     },
     {
-      "id": "itm_of33_comparatives_5",
+      "id": "itm_of33_pronouns_5",
+      "objectiveId": "OF33",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Remplacez : « Je vais à la réunion. » → « J’___ vais. »",
+        "instructions_en": "Replace 'à la réunion'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "y"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "y",
+          "tag": "correct"
+        },
+        {
+          "value": "lui",
+          "tag": "person"
+        },
+        {
+          "value": "en",
+          "tag": "de"
+        },
+        {
+          "value": "la",
+          "tag": "direct"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« à la réunion » (à + place) → « y »: « J’y vais ».",
+        "distractor_why": {
+          "person": "« lui » replaces à + a person.",
+          "de": "« en » replaces de + noun.",
+          "direct": "« la » is a direct object pronoun."
+        },
+        "grammar_rule": "y replaces à + place/thing.",
+        "vocab_notes": "aller à = to go to.",
+        "common_mistakes": [
+          "using la for a place"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Place after à → y.",
+        "pattern": "à + place → y.",
+        "similar": [
+          "J’y pense.",
+          "Nous y serons."
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_pronouns_6",
+      "objectiveId": "OF33",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Remplacez « les dossiers » : « Je prépare les dossiers. → Je ___ prépare. »",
+        "instructions_en": "Direct object pronoun (plural)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "les"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« les dossiers » is a plural direct object → « les »: « Je les prépare ».",
+        "distractor_why": {
+          "leur": "« leur » is an indirect plural pronoun.",
+          "en": "« en » replaces de + noun."
+        },
+        "grammar_rule": "les = plural direct object pronoun.",
+        "vocab_notes": "un dossier = a file.",
+        "common_mistakes": [
+          "using leur (indirect) for a direct object"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Plural thing, direct → les.",
+        "pattern": "Pronoun before the verb.",
+        "similar": [
+          "Je les envoie.",
+          "Je les vérifie."
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_comparatives_7",
       "objectiveId": "OF33",
       "skill": "grammar",
       "grammarConcepts": [
@@ -319,7 +428,7 @@
       }
     },
     {
-      "id": "itm_of33_comparatives_6",
+      "id": "itm_of33_comparatives_8",
       "objectiveId": "OF33",
       "skill": "grammar",
       "grammarConcepts": [
@@ -381,7 +490,7 @@
       }
     },
     {
-      "id": "itm_of33_comparatives_7",
+      "id": "itm_of33_comparatives_9",
       "objectiveId": "OF33",
       "skill": "writing",
       "grammarConcepts": [
@@ -430,7 +539,7 @@
       }
     },
     {
-      "id": "itm_of33_comparatives_8",
+      "id": "itm_of33_comparatives_10",
       "objectiveId": "OF33",
       "skill": "grammar",
       "grammarConcepts": [
@@ -446,49 +555,159 @@
       "estTimeSec": 30,
       "irtB": 0.2,
       "prompt": {
-        "fr": "Comparatif : « Cette option est ___ efficace ___ l’autre. » (more … than)",
-        "instructions_en": "Choose the comparative."
+        "fr": "Comparatif d’infériorité : « Cette méthode est ___ coûteuse ___ l’autre. » (less … than)",
+        "instructions_en": "Express 'less … than'."
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "plus / que"
+          "moins / que"
         ],
         "normalizer": "trim_lower"
       },
       "distractors": [
         {
-          "value": "plus / que",
+          "value": "moins / que",
           "tag": "correct"
         },
         {
-          "value": "plus / de",
+          "value": "moins / de",
           "tag": "wrong_de"
         },
         {
-          "value": "très / que",
-          "tag": "tres"
+          "value": "peu / que",
+          "tag": "peu"
         }
       ],
       "explanation": {
-        "correct_why": "Comparison of superiority: « plus … que » → « plus efficace que l’autre ».",
+        "correct_why": "Inferiority: « moins … que » → « moins coûteuse que l’autre ».",
         "distractor_why": {
-          "wrong_de": "Use « que » (not de) in comparisons.",
-          "tres": "« très » means 'very', not 'more … than'."
+          "wrong_de": "Comparisons use que, not de.",
+          "peu": "« peu » means 'little', not 'less … than'."
         },
-        "grammar_rule": "plus/moins/aussi + adjective + que.",
-        "vocab_notes": "efficace = effective/efficient.",
+        "grammar_rule": "moins + adjective + que.",
+        "vocab_notes": "coûteux/coûteuse = costly.",
         "common_mistakes": [
-          "using de instead of que",
-          "confusing très and plus"
+          "using de instead of que"
         ]
       },
       "tip": {
-        "memory_aid": "plus … QUE.",
+        "memory_aid": "moins … QUE.",
         "pattern": "comparative + que.",
         "similar": [
-          "moins cher que",
-          "aussi rapide que"
+          "moins rapide que",
+          "moins cher que"
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_comparatives_11",
+      "objectiveId": "OF33",
+      "skill": "writing",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 36,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Superlatif : « C’est l’option ___ ___ coûteuse. » (the least)",
+        "instructions_en": "Write 'la moins' for the superlative."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "la moins"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Superlative of inferiority: « la moins coûteuse » (option is feminine).",
+        "distractor_why": {
+          "moins_only": "The article (la) is required.",
+          "le": "Use « la » to agree with the feminine « option »."
+        },
+        "grammar_rule": "Superlative: le/la/les plus/moins + adjective (article agrees).",
+        "vocab_notes": "une option = an option.",
+        "common_mistakes": [
+          "dropping or mis-gendering the article"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Superlative needs THE.",
+        "pattern": "la moins / le plus …",
+        "similar": [
+          "la plus efficace",
+          "le moins risqué"
+        ]
+      }
+    },
+    {
+      "id": "itm_of33_comparatives_12",
+      "objectiveId": "OF33",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [
+        "meetings"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Choisissez : « Elle gère les dossiers ___ que son prédécesseur. » (better — adverb)",
+        "instructions_en": "'Better' modifying a verb → which word?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "mieux"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "mieux",
+          "tag": "correct"
+        },
+        {
+          "value": "meilleur",
+          "tag": "adjective"
+        },
+        {
+          "value": "plus bien",
+          "tag": "plus_bien"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« gère » is a verb, so 'better' is the adverb « mieux » → « gère … mieux que ».",
+        "distractor_why": {
+          "adjective": "« meilleur » is an adjective (modifies a noun), not a verb.",
+          "plus_bien": "« plus bien » does not exist; use « mieux »."
+        },
+        "grammar_rule": "bien → mieux (adverb); bon → meilleur (adjective).",
+        "vocab_notes": "gérer = to manage.",
+        "common_mistakes": [
+          "using meilleur to modify a verb"
+        ]
+      },
+      "tip": {
+        "memory_aid": "verb → mieux; noun → meilleur.",
+        "pattern": "Never « plus bien » / « plus bon ».",
+        "similar": [
+          "Il écrit mieux.",
+          "C’est une meilleure méthode."
         ]
       }
     }

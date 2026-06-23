@@ -230,7 +230,116 @@
       }
     },
     {
-      "id": "itm_of32_si_clauses_5",
+      "id": "itm_of32_subjonctif_5",
+      "objectiveId": "OF32",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Associez le verbe à son subjonctif (que je …).",
+        "instructions_en": "Match each verb to its 'je' subjunctive.",
+        "left": [
+          "être",
+          "avoir",
+          "faire",
+          "aller",
+          "pouvoir"
+        ],
+        "right": [
+          "sois",
+          "aie",
+          "fasse",
+          "aille",
+          "puisse"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "sois aie fasse aille puisse"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "que je sois, que j’aie, que je fasse, que j’aille, que je puisse.",
+        "distractor_why": {},
+        "grammar_rule": "These verbs have irregular subjunctive stems to memorize.",
+        "vocab_notes": "All follow « il faut que … » / « que … ».",
+        "common_mistakes": [
+          "using the indicative form after a subjunctive trigger"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn être/avoir/faire/aller/pouvoir subjunctives by heart.",
+        "pattern": "Irregular stem + subjunctive endings.",
+        "similar": [
+          "Il faut que je sois là.",
+          "Il faut qu’il fasse le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_subjonctif_6",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 38,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Subjonctif : « Il faut que tu ___ (aller) au bureau du directeur. »",
+        "instructions_en": "Subjunctive of aller, tu."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "ailles"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « il faut que », aller → aille-: tu → « ailles ».",
+        "distractor_why": {
+          "indicative": "« vas » is the indicative.",
+          "wrong_stem": "aller uses the irregular subjunctive stem aill-."
+        },
+        "grammar_rule": "aller subjunctive: aille, ailles, aille, allions, alliez, aillent.",
+        "vocab_notes": "au bureau de = to the office of.",
+        "common_mistakes": [
+          "using « vas » after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que tu ailles.",
+        "pattern": "Trigger + que + subjunctive.",
+        "similar": [
+          "Il faut que j’aille.",
+          "Il faut que vous alliez."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_si_clauses_7",
       "objectiveId": "OF32",
       "skill": "writing",
       "grammarConcepts": [
@@ -279,7 +388,7 @@
       }
     },
     {
-      "id": "itm_of32_si_clauses_6",
+      "id": "itm_of32_si_clauses_8",
       "objectiveId": "OF32",
       "skill": "writing",
       "grammarConcepts": [
@@ -328,7 +437,7 @@
       }
     },
     {
-      "id": "itm_of32_si_clauses_7",
+      "id": "itm_of32_si_clauses_9",
       "objectiveId": "OF32",
       "skill": "grammar",
       "grammarConcepts": [
@@ -390,7 +499,7 @@
       }
     },
     {
-      "id": "itm_of32_si_clauses_8",
+      "id": "itm_of32_si_clauses_10",
       "objectiveId": "OF32",
       "skill": "writing",
       "grammarConcepts": [
@@ -435,6 +544,117 @@
         "similar": [
           "Si tu veux, je t’aide.",
           "Si ça vous convient, on commence."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_si_clauses_11",
+      "objectiveId": "OF32",
+      "skill": "writing",
+      "grammarConcepts": [
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Type 1 : « Si le client ___ (appeler), je prendrai le message. »",
+        "instructions_en": "After si (real condition), which tense?"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "appelle"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Real condition: si + present → future. « Si le client appelle, je prendrai… ».",
+        "distractor_why": {
+          "future_after_si": "No future after si.",
+          "conditional": "Conditional belongs to type 2."
+        },
+        "grammar_rule": "si + présent, … futur.",
+        "vocab_notes": "appeler = to call.",
+        "common_mistakes": [
+          "future after si"
+        ]
+      },
+      "tip": {
+        "memory_aid": "si + present (type 1).",
+        "pattern": "si + présent → futur.",
+        "similar": [
+          "Si tu finis tôt, on partira.",
+          "Si j’ai le temps, je viendrai."
+        ]
+      }
+    },
+    {
+      "id": "itm_of32_si_clauses_12",
+      "objectiveId": "OF32",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "si_clauses"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "problem_solving",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Type 2 : « Si nous ___ (avoir) le budget, nous embaucherions. »",
+        "instructions_en": "Hypothetical: which tense after si?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avions",
+          "tag": "correct"
+        },
+        {
+          "value": "aurions",
+          "tag": "conditional"
+        },
+        {
+          "value": "avons",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "si + imparfait → conditional: « Si nous avions le budget, nous embaucherions ».",
+        "distractor_why": {
+          "conditional": "The conditional goes in the result clause, not after si.",
+          "present": "Present makes it a real (type-1) condition."
+        },
+        "grammar_rule": "si + imparfait, … conditionnel.",
+        "vocab_notes": "embaucher = to hire.",
+        "common_mistakes": [
+          "conditional after si"
+        ]
+      },
+      "tip": {
+        "memory_aid": "si + imparfait → conditional.",
+        "pattern": "Pair imparfait with conditional.",
+        "similar": [
+          "Si j’étais toi…",
+          "Si on avait plus de temps…"
         ]
       }
     }

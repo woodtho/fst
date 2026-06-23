@@ -52,27 +52,33 @@
             "itm_of31_conditionnel_1",
             "itm_of31_conditionnel_2",
             "itm_of31_conditionnel_3",
-            "itm_of31_conditionnel_4"
+            "itm_of31_conditionnel_4",
+            "itm_of31_conditionnel_5",
+            "itm_of31_conditionnel_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Le subjonctif présent",
           "itemRefs": [
-            "itm_of31_subjonctif_5",
-            "itm_of31_subjonctif_6",
             "itm_of31_subjonctif_7",
-            "itm_of31_subjonctif_8"
+            "itm_of31_subjonctif_8",
+            "itm_of31_subjonctif_9",
+            "itm_of31_subjonctif_10",
+            "itm_of31_subjonctif_11",
+            "itm_of31_subjonctif_12"
           ],
           "type": "mixed"
         },
         {
           "title": "Le discours indirect",
           "itemRefs": [
-            "itm_of31_reported_speech_9",
-            "itm_of31_reported_speech_10",
-            "itm_of31_reported_speech_11",
-            "itm_of31_reported_speech_12"
+            "itm_of31_reported_speech_13",
+            "itm_of31_reported_speech_14",
+            "itm_of31_reported_speech_15",
+            "itm_of31_reported_speech_16",
+            "itm_of31_reported_speech_17",
+            "itm_of31_reported_speech_18"
           ],
           "type": "mixed"
         }
@@ -112,11 +118,11 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 490,
       "blueprint": {
         "easy": 2,
-        "medium": 6,
-        "advanced": 4
+        "medium": 5,
+        "advanced": 3
       },
       "drawFrom": [
         "OF31"

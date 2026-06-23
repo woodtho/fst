@@ -48,17 +48,21 @@
             "itm_of30_subjonctif_1",
             "itm_of30_subjonctif_2",
             "itm_of30_subjonctif_3",
-            "itm_of30_subjonctif_4"
+            "itm_of30_subjonctif_4",
+            "itm_of30_subjonctif_5",
+            "itm_of30_subjonctif_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les pronoms",
           "itemRefs": [
-            "itm_of30_pronouns_5",
-            "itm_of30_pronouns_6",
             "itm_of30_pronouns_7",
-            "itm_of30_pronouns_8"
+            "itm_of30_pronouns_8",
+            "itm_of30_pronouns_9",
+            "itm_of30_pronouns_10",
+            "itm_of30_pronouns_11",
+            "itm_of30_pronouns_12"
           ],
           "type": "mixed"
         }
@@ -98,7 +102,7 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
         "easy": 0,
         "medium": 5,

@@ -56,37 +56,45 @@
             "itm_of9_passe_compose_1",
             "itm_of9_passe_compose_2",
             "itm_of9_passe_compose_3",
-            "itm_of9_passe_compose_4"
+            "itm_of9_passe_compose_4",
+            "itm_of9_passe_compose_5",
+            "itm_of9_passe_compose_6"
           ],
           "type": "mixed"
         },
         {
           "title": "L’imparfait",
           "itemRefs": [
-            "itm_of9_imparfait_5",
-            "itm_of9_imparfait_6",
             "itm_of9_imparfait_7",
-            "itm_of9_imparfait_8"
+            "itm_of9_imparfait_8",
+            "itm_of9_imparfait_9",
+            "itm_of9_imparfait_10",
+            "itm_of9_imparfait_11",
+            "itm_of9_imparfait_12"
           ],
           "type": "mixed"
         },
         {
           "title": "Le futur proche",
           "itemRefs": [
-            "itm_of9_futur_proche_9",
-            "itm_of9_futur_proche_10",
-            "itm_of9_futur_proche_11",
-            "itm_of9_futur_proche_12"
+            "itm_of9_futur_proche_13",
+            "itm_of9_futur_proche_14",
+            "itm_of9_futur_proche_15",
+            "itm_of9_futur_proche_16",
+            "itm_of9_futur_proche_17",
+            "itm_of9_futur_proche_18"
           ],
           "type": "mixed"
         },
         {
           "title": "Le futur simple",
           "itemRefs": [
-            "itm_of9_futur_simple_13",
-            "itm_of9_futur_simple_14",
-            "itm_of9_futur_simple_15",
-            "itm_of9_futur_simple_16"
+            "itm_of9_futur_simple_19",
+            "itm_of9_futur_simple_20",
+            "itm_of9_futur_simple_21",
+            "itm_of9_futur_simple_22",
+            "itm_of9_futur_simple_23",
+            "itm_of9_futur_simple_24"
           ],
           "type": "mixed"
         }
@@ -126,10 +134,10 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 560,
+      "timedSeconds": 490,
       "blueprint": {
         "easy": 6,
-        "medium": 8,
+        "medium": 5,
         "advanced": 2
       },
       "drawFrom": [

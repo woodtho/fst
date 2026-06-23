@@ -44,7 +44,9 @@
             "itm_of28_subjonctif_1",
             "itm_of28_subjonctif_2",
             "itm_of28_subjonctif_3",
-            "itm_of28_subjonctif_4"
+            "itm_of28_subjonctif_4",
+            "itm_of28_subjonctif_5",
+            "itm_of28_subjonctif_6"
           ],
           "type": "mixed"
         }
@@ -84,11 +86,11 @@
         ],
         "catalogue": "SC102-2/45-3-2006F"
       },
-      "timedSeconds": 180,
+      "timedSeconds": 240,
       "blueprint": {
         "easy": 0,
-        "medium": 2,
-        "advanced": 2
+        "medium": 3,
+        "advanced": 3
       },
       "drawFrom": [
         "OF28"

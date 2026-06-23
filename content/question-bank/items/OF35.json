@@ -60,6 +60,234 @@
     {
       "id": "itm_of35_futur_simple_2",
       "objectiveId": "OF35",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Associez le verbe à son radical du futur.",
+        "instructions_en": "Match each verb to its future stem.",
+        "left": [
+          "être",
+          "avoir",
+          "aller",
+          "faire",
+          "venir"
+        ],
+        "right": [
+          "ser-",
+          "aur-",
+          "ir-",
+          "fer-",
+          "viendr-"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "ser- aur- ir- fer- viendr-"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "être→ser-, avoir→aur-, aller→ir-, faire→fer-, venir→viendr-.",
+        "distractor_why": {},
+        "grammar_rule": "Irregular future stems take the regular endings -ai/-as/-a/-ons/-ez/-ont.",
+        "vocab_notes": "These are the most common irregular future stems.",
+        "common_mistakes": [
+          "using the infinitive as the stem for irregular verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Same stem for future AND conditional.",
+        "pattern": "Memorize the irregular stems.",
+        "similar": [
+          "je serai",
+          "nous aurons",
+          "il ira"
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_futur_simple_3",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Futur simple : « Nous ___ (prendre) une décision demain. »",
+        "instructions_en": "Simple future, nous (-re verb)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "prendrons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-re verbs drop the final -e: prendre→prendr- + -ons = « prendrons ».",
+        "distractor_why": {
+          "kept_e": "Drop the -e of -re verbs before the ending.",
+          "present": "« prenons » is present."
+        },
+        "grammar_rule": "-re verbs: drop final -e, then add future endings.",
+        "vocab_notes": "prendre une décision = to make a decision.",
+        "common_mistakes": [
+          "keeping the -e (prendre+ons)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re → drop e, then -ai/-ons…",
+        "pattern": "prendr- + ending.",
+        "similar": [
+          "Je répondrai demain.",
+          "Ils attendront le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_futur_simple_4",
+      "objectiveId": "OF35",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Futur : « L’an prochain, elle ___ (aller) à Ottawa. »",
+        "instructions_en": "Simple future of aller (irregular stem)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "ira"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "ira",
+          "tag": "correct"
+        },
+        {
+          "value": "allera",
+          "tag": "regularized"
+        },
+        {
+          "value": "va",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "aller has the irregular future stem ir-: elle → « ira ».",
+        "distractor_why": {
+          "regularized": "« allera » wrongly uses the infinitive stem; aller→ir-.",
+          "present": "« va » is present."
+        },
+        "grammar_rule": "aller future: irai, iras, ira, irons, irez, iront.",
+        "vocab_notes": "l’an prochain = next year.",
+        "common_mistakes": [
+          "regularizing the future stem of aller"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aller → ir- (j’irai).",
+        "pattern": "Irregular stem + regular endings.",
+        "similar": [
+          "J’irai demain.",
+          "Nous irons ensemble."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_futur_simple_5",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (futur).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "La semaine prochaine",
+          "je",
+          "vérifierai",
+          "les chiffres"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "La semaine prochaine je vérifierai les chiffres"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Future of vérifier: vérifier + -ai = « vérifierai ».",
+        "distractor_why": {},
+        "grammar_rule": "Futur simple = infinitive + endings.",
+        "vocab_notes": "la semaine prochaine = next week.",
+        "common_mistakes": [
+          "confusing future -ai with conditional -ais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Future stem = infinitive.",
+        "pattern": "[time] + subject + future verb + object.",
+        "similar": [
+          "Demain, je préparerai l’ordre du jour.",
+          "Bientôt, nous terminerons."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_futur_simple_6",
+      "objectiveId": "OF35",
       "skill": "writing",
       "grammarConcepts": [
         "futur_simple"
@@ -108,124 +336,7 @@
       }
     },
     {
-      "id": "itm_of35_futur_simple_3",
-      "objectiveId": "OF35",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "futur_simple"
-      ],
-      "vocabDomains": [
-        "government",
-        "workplace"
-      ],
-      "theme": "public_service",
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.3,
-      "prompt": {
-        "fr": "Complétez : « Demain, je ___ (être) au bureau à 8 h. »",
-        "instructions_en": "Simple future of être (irregular stem)."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "serai"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "serai",
-          "tag": "correct"
-        },
-        {
-          "value": "suis",
-          "tag": "present"
-        },
-        {
-          "value": "étais",
-          "tag": "imperfect"
-        },
-        {
-          "value": "serais",
-          "tag": "conditional"
-        }
-      ],
-      "explanation": {
-        "correct_why": "être has the irregular future stem ser-: je → « serai ».",
-        "distractor_why": {
-          "present": "« suis » is present.",
-          "imperfect": "« étais » is imperfect.",
-          "conditional": "« serais » is conditional."
-        },
-        "grammar_rule": "être future: serai, seras, sera, serons, serez, seront.",
-        "vocab_notes": "au bureau = at the office.",
-        "common_mistakes": [
-          "confusing future serai with conditional serais"
-        ]
-      },
-      "tip": {
-        "memory_aid": "être → ser- (serai).",
-        "pattern": "Memorize irregular future stems (ser-, aur-, ir-, fer-).",
-        "similar": [
-          "J’aurai le rapport demain.",
-          "Nous ferons le suivi."
-        ]
-      }
-    },
-    {
-      "id": "itm_of35_futur_simple_4",
-      "objectiveId": "OF35",
-      "skill": "writing",
-      "grammarConcepts": [
-        "futur_simple"
-      ],
-      "vocabDomains": [
-        "government",
-        "workplace"
-      ],
-      "theme": "public_service",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.6,
-      "prompt": {
-        "fr": "Futur simple : « Quand le budget ___ (être) approuvé, nous embaucherons. »",
-        "instructions_en": "After 'quand' referring to the future, use the future."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "sera"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "After « quand » referring to a future event, French uses the future: « quand le budget sera approuvé ».",
-        "distractor_why": {
-          "present_after_quand": "Unlike English ('when it is'), French uses the future after quand for future time."
-        },
-        "grammar_rule": "After quand/lorsque/dès que about the future, use the futur simple (not the present).",
-        "vocab_notes": "approuvé = approved; embaucher = to hire.",
-        "common_mistakes": [
-          "using the present after quand (English interference)"
-        ]
-      },
-      "tip": {
-        "memory_aid": "quand + future → future (not present).",
-        "pattern": "Future time clause ⇒ future tense.",
-        "similar": [
-          "Dès que j’aurai les chiffres, je t’écrirai.",
-          "Quand il arrivera, nous commencerons."
-        ]
-      }
-    },
-    {
-      "id": "itm_of35_conditionnel_5",
+      "id": "itm_of35_conditionnel_7",
       "objectiveId": "OF35",
       "skill": "grammar",
       "grammarConcepts": [
@@ -288,7 +399,223 @@
       }
     },
     {
-      "id": "itm_of35_conditionnel_6",
+      "id": "itm_of35_conditionnel_8",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Conditionnel : « J’___ (aimer) vous rencontrer cette semaine. »",
+        "instructions_en": "Polite conditional of aimer, je."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "aimerais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« J’aimerais » (conditional) is the polite way to say 'I would like'.",
+        "distractor_why": {
+          "present": "« aime » is too direct.",
+          "future": "« aimerai » is future, not conditional."
+        },
+        "grammar_rule": "Conditional = future stem + imperfect endings.",
+        "vocab_notes": "J’aimerais = I would like.",
+        "common_mistakes": [
+          "future -ai vs conditional -ais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "j’aimerais = I would like.",
+        "pattern": "Polite wish → conditional.",
+        "similar": [
+          "Je voudrais…",
+          "Je souhaiterais…"
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_conditionnel_9",
+      "objectiveId": "OF35",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Conditionnel : « À ta place, j’___ (aller) voir le gestionnaire. »",
+        "instructions_en": "Conditional of aller (advice)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "irais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "irais",
+          "tag": "correct"
+        },
+        {
+          "value": "irai",
+          "tag": "future"
+        },
+        {
+          "value": "vais",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Advice uses the conditional; aller stem ir- + -ais = « irais ».",
+        "distractor_why": {
+          "future": "« irai » is future.",
+          "present": "« vais » is present."
+        },
+        "grammar_rule": "Conditional uses the future stem + imperfect endings.",
+        "vocab_notes": "À ta place = if I were you.",
+        "common_mistakes": [
+          "future irai vs conditional irais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Advice → conditional (-ais).",
+        "pattern": "future stem + -ais.",
+        "similar": [
+          "Je ferais autrement.",
+          "Nous demanderions un délai."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_conditionnel_10",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "easy",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 36,
+      "irtB": -0.1,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (demande polie).",
+        "instructions_en": "Build the polite request.",
+        "tokens": [
+          "Je",
+          "voudrais",
+          "un rendez-vous",
+          "avec le directeur"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Je voudrais un rendez-vous avec le directeur"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Je voudrais » + noun phrase makes a polite request.",
+        "distractor_why": {},
+        "grammar_rule": "Conditional of vouloir softens requests.",
+        "vocab_notes": "un rendez-vous = an appointment.",
+        "common_mistakes": [
+          "using « je veux » in a polite context"
+        ]
+      },
+      "tip": {
+        "memory_aid": "voudrais = would like.",
+        "pattern": "Je voudrais + noun / infinitive.",
+        "similar": [
+          "Je voudrais parler à…",
+          "J’aimerais obtenir…"
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_conditionnel_11",
+      "objectiveId": "OF35",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Conditionnel : « Nous ___ (pouvoir) reporter la réunion. »",
+        "instructions_en": "Conditional of pouvoir, nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "pourrions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "pouvoir stem pourr- + -ions = « pourrions » (we could/would be able to).",
+        "distractor_why": {
+          "future": "« pourrons » is future.",
+          "present": "« pouvons » is present."
+        },
+        "grammar_rule": "pouvoir conditional: pourrais, pourrait, pourrions…",
+        "vocab_notes": "reporter = to postpone.",
+        "common_mistakes": [
+          "pourrions (cond.) vs pourrons (future)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "pourr- + -ions = pourrions.",
+        "pattern": "Suggestion → on pourrait / nous pourrions.",
+        "similar": [
+          "On pourrait commencer plus tard.",
+          "Nous devrions vérifier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of35_conditionnel_12",
       "objectiveId": "OF35",
       "skill": "grammar",
       "grammarConcepts": [
@@ -352,107 +679,6 @@
         "similar": [
           "Voudriez-vous…?",
           "J’aimerais…"
-        ]
-      }
-    },
-    {
-      "id": "itm_of35_conditionnel_7",
-      "objectiveId": "OF35",
-      "skill": "writing",
-      "grammarConcepts": [
-        "conditionnel"
-      ],
-      "vocabDomains": [
-        "government",
-        "workplace"
-      ],
-      "theme": "public_service",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.1,
-      "prompt": {
-        "fr": "Conditionnel : « Je ___ (vouloir) un rendez-vous avec le gestionnaire. »",
-        "instructions_en": "Polite conditional of vouloir, je form."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "voudrais"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« Je voudrais » (conditional of vouloir) softens the request — more polite than « je veux ».",
-        "distractor_why": {
-          "present_veux": "« veux » is direct/less polite.",
-          "future": "« voudrai » is future."
-        },
-        "grammar_rule": "vouloir conditional: voudrais, voudrais, voudrait…",
-        "vocab_notes": "un rendez-vous = an appointment.",
-        "common_mistakes": [
-          "using 'je veux' in polite requests"
-        ]
-      },
-      "tip": {
-        "memory_aid": "je voudrais = I would like.",
-        "pattern": "Conditional softens requests.",
-        "similar": [
-          "J’aimerais vous rencontrer.",
-          "Je souhaiterais un délai."
-        ]
-      }
-    },
-    {
-      "id": "itm_of35_conditionnel_8",
-      "objectiveId": "OF35",
-      "skill": "writing",
-      "grammarConcepts": [
-        "conditionnel"
-      ],
-      "vocabDomains": [
-        "government",
-        "workplace"
-      ],
-      "theme": "public_service",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.3,
-      "prompt": {
-        "fr": "Conditionnel : « À votre place, je ___ (parler) au gestionnaire. »",
-        "instructions_en": "Conditional of parler, je form (advice)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "parlerais"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "Future stem parler- + imperfect ending -ais = « parlerais » (would speak — giving advice).",
-        "distractor_why": {
-          "future": "« parlerai » is future (-ai), not conditional (-ais).",
-          "imperfect": "« parlais » lacks the future stem -er-."
-        },
-        "grammar_rule": "Conditional = future stem + imperfect endings.",
-        "vocab_notes": "À votre place = if I were you.",
-        "common_mistakes": [
-          "dropping the -r- of the future stem",
-          "future -ai vs conditional -ais"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Conditional = future stem + -ais.",
-        "pattern": "advice/hypothesis → conditional.",
-        "similar": [
-          "Je proposerais une autre date.",
-          "Nous recommanderions cette option."
         ]
       }
     }

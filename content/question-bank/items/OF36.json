@@ -22,6 +22,238 @@
       "difficulty": "easy",
       "type": "mcq_single",
       "status": "live",
+      "estTimeSec": 22,
+      "irtB": -0.7,
+      "prompt": {
+        "fr": "Complétez : « Le directeur ___ (vendre) l’ancien équipement. »",
+        "instructions_en": "Present tense of the -re verb (3rd sing.)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "vend"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "vend",
+          "tag": "correct"
+        },
+        {
+          "value": "vends",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "vendent",
+          "tag": "plural"
+        },
+        {
+          "value": "vendre",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "-re verbs drop -re; il/elle has no ending: vendre → « vend ».",
+        "distractor_why": {
+          "wrong_person": "« vends » is je/tu.",
+          "plural": "« vendent » is ils/elles.",
+          "infinitive": "« vendre » is the infinitive."
+        },
+        "grammar_rule": "-re : -s, -s, –, -ons, -ez, -ent (il form has no ending).",
+        "vocab_notes": "vendre = to sell; l’équipement = equipment.",
+        "common_mistakes": [
+          "adding -t or -d ending to the il form of -re verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re il form = bare stem (vend, attend, répond).",
+        "pattern": "il/elle -re → no ending.",
+        "similar": [
+          "Il attend la réponse.",
+          "Elle répond au courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_present_2",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.5,
+      "prompt": {
+        "fr": "Mettez au présent : « Nous ___ (choisir) un fournisseur. »",
+        "instructions_en": "Conjugate the -ir verb for nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "choisissons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-ir (type finir) with nous: choisir → chois + issons = « choisissons ».",
+        "distractor_why": {
+          "wrong": "« choisons » drops the -iss- infix required by -ir verbs.",
+          "infinitive": "« choisir » is the infinitive."
+        },
+        "grammar_rule": "-ir verbs: nous -issons, vous -issez, ils -issent (with -iss-).",
+        "vocab_notes": "choisir = to choose; un fournisseur = a supplier.",
+        "common_mistakes": [
+          "dropping the -iss- in the plural of -ir verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-ir plurals add -iss- (finissons, choisissons).",
+        "pattern": "nous -ir → -issons.",
+        "similar": [
+          "Nous finissons à 17 h.",
+          "Ils réfléchissent à l’offre."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_present_3",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Remettez les mots dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Je",
+          "prépare",
+          "l’ordre du jour",
+          "de la réunion"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Je prépare l’ordre du jour de la réunion"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Order: subject + present verb + object + complement → « Je prépare l’ordre du jour de la réunion ».",
+        "distractor_why": {},
+        "grammar_rule": "Basic French word order: subject + verb + object.",
+        "vocab_notes": "l’ordre du jour = the agenda.",
+        "common_mistakes": [
+          "splitting the noun phrase « l’ordre du jour »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "S-V-O, then details.",
+        "pattern": "subject + verb + object + (de…).",
+        "similar": [
+          "Je vérifie les chiffres du rapport.",
+          "Elle envoie le compte rendu de la séance."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_present_4",
+      "objectiveId": "OF36",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Associez chaque sujet à la forme du verbe ÊTRE.",
+        "instructions_en": "Match the subject to its être form.",
+        "left": [
+          "je",
+          "tu",
+          "nous",
+          "vous",
+          "ils"
+        ],
+        "right": [
+          "suis",
+          "es",
+          "sommes",
+          "êtes",
+          "sont"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "suis es sommes êtes sont"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "je suis, tu es, nous sommes, vous êtes, ils sont.",
+        "distractor_why": {},
+        "grammar_rule": "être présent: suis, es, est, sommes, êtes, sont.",
+        "vocab_notes": "être = to be.",
+        "common_mistakes": [
+          "swapping êtes (vous) and sont (ils)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Memorize être as a block.",
+        "pattern": "Each subject → one form.",
+        "similar": [
+          "Je suis analyste.",
+          "Vous êtes le directeur?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_present_5",
+      "objectiveId": "OF36",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
       "estTimeSec": 20,
       "irtB": -0.9,
       "prompt": {
@@ -76,7 +308,7 @@
       }
     },
     {
-      "id": "itm_of36_present_2",
+      "id": "itm_of36_present_6",
       "objectiveId": "OF36",
       "skill": "writing",
       "grammarConcepts": [
@@ -126,11 +358,123 @@
       }
     },
     {
-      "id": "itm_of36_present_3",
+      "id": "itm_of36_futur_simple_7",
       "objectiveId": "OF36",
       "skill": "grammar",
       "grammarConcepts": [
-        "present"
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Associez le verbe à son radical du futur.",
+        "instructions_en": "Match each verb to its future stem.",
+        "left": [
+          "être",
+          "avoir",
+          "aller",
+          "faire",
+          "venir"
+        ],
+        "right": [
+          "ser-",
+          "aur-",
+          "ir-",
+          "fer-",
+          "viendr-"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "ser- aur- ir- fer- viendr-"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "être→ser-, avoir→aur-, aller→ir-, faire→fer-, venir→viendr-.",
+        "distractor_why": {},
+        "grammar_rule": "Irregular future stems take the regular endings -ai/-as/-a/-ons/-ez/-ont.",
+        "vocab_notes": "These are the most common irregular future stems.",
+        "common_mistakes": [
+          "using the infinitive as the stem for irregular verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Same stem for future AND conditional.",
+        "pattern": "Memorize the irregular stems.",
+        "similar": [
+          "je serai",
+          "nous aurons",
+          "il ira"
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_futur_simple_8",
+      "objectiveId": "OF36",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "meetings"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Futur simple : « Nous ___ (prendre) une décision demain. »",
+        "instructions_en": "Simple future, nous (-re verb)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "prendrons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-re verbs drop the final -e: prendre→prendr- + -ons = « prendrons ».",
+        "distractor_why": {
+          "kept_e": "Drop the -e of -re verbs before the ending.",
+          "present": "« prenons » is present."
+        },
+        "grammar_rule": "-re verbs: drop final -e, then add future endings.",
+        "vocab_notes": "prendre une décision = to make a decision.",
+        "common_mistakes": [
+          "keeping the -e (prendre+ons)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re → drop e, then -ai/-ons…",
+        "pattern": "prendr- + ending.",
+        "similar": [
+          "Je répondrai demain.",
+          "Ils attendront le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of36_futur_simple_9",
+      "objectiveId": "OF36",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
       ],
       "vocabDomains": [
         "workplace",
@@ -140,65 +484,60 @@
       "difficulty": "medium",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 25,
-      "irtB": 0,
+      "estTimeSec": 28,
+      "irtB": 0.2,
       "prompt": {
-        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
-        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+        "fr": "Futur : « L’an prochain, elle ___ (aller) à Ottawa. »",
+        "instructions_en": "Simple future of aller (irregular stem)."
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "finit"
+          "ira"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [
         {
-          "value": "finit",
+          "value": "ira",
           "tag": "correct"
         },
         {
-          "value": "finis",
-          "tag": "wrong_person"
+          "value": "allera",
+          "tag": "regularized"
         },
         {
-          "value": "finissent",
-          "tag": "plural"
-        },
-        {
-          "value": "finir",
-          "tag": "infinitive"
+          "value": "va",
+          "tag": "present"
         }
       ],
       "explanation": {
-        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "correct_why": "aller has the irregular future stem ir-: elle → « ira ».",
         "distractor_why": {
-          "wrong_person": "« finis » is je/tu.",
-          "plural": "« finissent » is ils/elles.",
-          "infinitive": "« finir » is the infinitive."
+          "regularized": "« allera » wrongly uses the infinitive stem; aller→ir-.",
+          "present": "« va » is present."
         },
-        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
-        "vocab_notes": "le comité = the committee (singular).",
+        "grammar_rule": "aller future: irai, iras, ira, irons, irez, iront.",
+        "vocab_notes": "l’an prochain = next year.",
         "common_mistakes": [
-          "treating a collective noun as plural"
+          "regularizing the future stem of aller"
         ]
       },
       "tip": {
-        "memory_aid": "il/elle → -it for -ir verbs.",
-        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "memory_aid": "aller → ir- (j’irai).",
+        "pattern": "Irregular stem + regular endings.",
         "similar": [
-          "Elle finit la tâche.",
-          "Le ministère choisit un fournisseur."
+          "J’irai demain.",
+          "Nous irons ensemble."
         ]
       }
     },
     {
-      "id": "itm_of36_present_4",
+      "id": "itm_of36_futur_simple_10",
       "objectiveId": "OF36",
       "skill": "writing",
       "grammarConcepts": [
-        "present"
+        "futur_simple"
       ],
       "vocabDomains": [
         "workplace",
@@ -206,45 +545,48 @@
       ],
       "theme": "workplace",
       "difficulty": "medium",
-      "type": "error_correction",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.2,
+      "estTimeSec": 40,
+      "irtB": 0.3,
       "prompt": {
-        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
-        "instructions_en": "Fix the verb/agreement error."
+        "fr": "Remettez dans l’ordre (futur).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "La semaine prochaine",
+          "je",
+          "vérifierai",
+          "les chiffres"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+          "La semaine prochaine je vérifierai les chiffres"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
-        "distractor_why": {
-          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
-        },
-        "grammar_rule": "Negation in standard French: ne + verb + pas.",
-        "vocab_notes": "disponible = available.",
+        "correct_why": "Future of vérifier: vérifier + -ai = « vérifierai ».",
+        "distractor_why": {},
+        "grammar_rule": "Futur simple = infinitive + endings.",
+        "vocab_notes": "la semaine prochaine = next week.",
         "common_mistakes": [
-          "omitting ne in writing"
+          "confusing future -ai with conditional -ais"
         ]
       },
       "tip": {
-        "memory_aid": "Writing keeps the « ne ».",
-        "pattern": "ne (n’) + verb + pas.",
+        "memory_aid": "Future stem = infinitive.",
+        "pattern": "[time] + subject + future verb + object.",
         "similar": [
-          "Il n’est pas là.",
-          "Ce n’est pas possible."
+          "Demain, je préparerai l’ordre du jour.",
+          "Bientôt, nous terminerons."
         ]
       }
     },
     {
-      "id": "itm_of36_futur_simple_5",
+      "id": "itm_of36_futur_simple_11",
       "objectiveId": "OF36",
       "skill": "writing",
       "grammarConcepts": [
@@ -294,7 +636,7 @@
       }
     },
     {
-      "id": "itm_of36_futur_simple_6",
+      "id": "itm_of36_futur_simple_12",
       "objectiveId": "OF36",
       "skill": "grammar",
       "grammarConcepts": [
@@ -358,105 +700,6 @@
         "similar": [
           "J’aurai le rapport demain.",
           "Nous ferons le suivi."
-        ]
-      }
-    },
-    {
-      "id": "itm_of36_futur_simple_7",
-      "objectiveId": "OF36",
-      "skill": "writing",
-      "grammarConcepts": [
-        "futur_simple"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "meetings"
-      ],
-      "theme": "workplace",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.6,
-      "prompt": {
-        "fr": "Futur simple : « Quand le budget ___ (être) approuvé, nous embaucherons. »",
-        "instructions_en": "After 'quand' referring to the future, use the future."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "sera"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "After « quand » referring to a future event, French uses the future: « quand le budget sera approuvé ».",
-        "distractor_why": {
-          "present_after_quand": "Unlike English ('when it is'), French uses the future after quand for future time."
-        },
-        "grammar_rule": "After quand/lorsque/dès que about the future, use the futur simple (not the present).",
-        "vocab_notes": "approuvé = approved; embaucher = to hire.",
-        "common_mistakes": [
-          "using the present after quand (English interference)"
-        ]
-      },
-      "tip": {
-        "memory_aid": "quand + future → future (not present).",
-        "pattern": "Future time clause ⇒ future tense.",
-        "similar": [
-          "Dès que j’aurai les chiffres, je t’écrirai.",
-          "Quand il arrivera, nous commencerons."
-        ]
-      }
-    },
-    {
-      "id": "itm_of36_futur_simple_8",
-      "objectiveId": "OF36",
-      "skill": "writing",
-      "grammarConcepts": [
-        "futur_simple"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "meetings"
-      ],
-      "theme": "workplace",
-      "difficulty": "advanced",
-      "type": "error_correction",
-      "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.7,
-      "prompt": {
-        "fr": "Corrigez : « Nous prendrons une décision quand nous avons toutes les données. »",
-        "instructions_en": "Fix the tense after 'quand'."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "Nous prendrons une décision quand nous aurons toutes les données",
-          "Nous prendrons une décision quand nous aurons toutes les données."
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "Future time after quand → future: « quand nous aurons toutes les données ».",
-        "distractor_why": {
-          "present_kept": "« avons » (present) is wrong here; the data is in the future, so use « aurons »."
-        },
-        "grammar_rule": "Both clauses are future when quand refers to a future moment.",
-        "vocab_notes": "les données = the data.",
-        "common_mistakes": [
-          "leaving the present after quand"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Two futures around 'quand'.",
-        "pattern": "[future] … quand [future].",
-        "similar": [
-          "Je commencerai quand tu seras prêt.",
-          "On partira dès qu’il arrivera."
         ]
       }
     }

@@ -10,7 +10,7 @@
     {
       "id": "itm_of7_prepositions_1",
       "objectiveId": "OF7",
-      "skill": "writing",
+      "skill": "grammar",
       "grammarConcepts": [
         "prepositions"
       ],
@@ -18,41 +18,59 @@
         "travel"
       ],
       "theme": "travel",
-      "difficulty": "advanced",
-      "type": "fill_blank",
+      "difficulty": "medium",
+      "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.5,
+      "estTimeSec": 28,
+      "irtB": 0.3,
       "prompt": {
-        "fr": "Complétez : « Je travaille ici ___ 2019. »",
-        "instructions_en": "Choose the preposition for 'since 2019'."
+        "fr": "Pays : « Elle travaille ___ Canada. »",
+        "instructions_en": "Preposition for a masculine country."
       },
       "answer": {
-        "type": "text",
+        "type": "choice",
         "accepted": [
-          "depuis"
+          "au"
         ],
         "normalizer": "trim_lower"
       },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« depuis » + a start point = since: « depuis 2019 » (since 2019, still ongoing). French uses the present with depuis.",
-        "distractor_why": {
-          "pendant": "« pendant » = during/for a finished period.",
-          "pour": "« pour » = for (intended duration, often future)."
+      "distractors": [
+        {
+          "value": "au",
+          "tag": "correct"
         },
-        "grammar_rule": "depuis + present = an action started in the past and still going.",
-        "vocab_notes": "depuis = since/for (ongoing).",
+        {
+          "value": "en",
+          "tag": "feminine"
+        },
+        {
+          "value": "à",
+          "tag": "city"
+        },
+        {
+          "value": "dans",
+          "tag": "inside"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Masculine countries take « au »: « au Canada ». (Feminine countries take « en ».)",
+        "distractor_why": {
+          "feminine": "« en » is for feminine countries (en France).",
+          "city": "« à » is for cities (à Ottawa).",
+          "inside": "« dans » means inside."
+        },
+        "grammar_rule": "à + city; en + feminine country; au + masculine country; aux + plural.",
+        "vocab_notes": "le Canada (m.) → au Canada.",
         "common_mistakes": [
-          "using the past with depuis (use present)"
+          "using en with masculine countries"
         ]
       },
       "tip": {
-        "memory_aid": "depuis + present = still happening.",
-        "pattern": "Je travaille ici depuis…",
+        "memory_aid": "au Canada / en France / à Ottawa.",
+        "pattern": "Gender of country decides au vs en.",
         "similar": [
-          "depuis trois ans",
-          "depuis lundi"
+          "au Québec",
+          "aux États-Unis"
         ]
       }
     },
@@ -258,9 +276,117 @@
       }
     },
     {
-      "id": "itm_of7_present_5",
+      "id": "itm_of7_prepositions_5",
       "objectiveId": "OF7",
       "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Complétez : « Je travaille ici ___ 2019. »",
+        "instructions_en": "Choose the preposition for 'since 2019'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "depuis"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« depuis » + a start point = since: « depuis 2019 » (since 2019, still ongoing). French uses the present with depuis.",
+        "distractor_why": {
+          "pendant": "« pendant » = during/for a finished period.",
+          "pour": "« pour » = for (intended duration, often future)."
+        },
+        "grammar_rule": "depuis + present = an action started in the past and still going.",
+        "vocab_notes": "depuis = since/for (ongoing).",
+        "common_mistakes": [
+          "using the past with depuis (use present)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "depuis + present = still happening.",
+        "pattern": "Je travaille ici depuis…",
+        "similar": [
+          "depuis trois ans",
+          "depuis lundi"
+        ]
+      }
+    },
+    {
+      "id": "itm_of7_prepositions_6",
+      "objectiveId": "OF7",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.4,
+      "prompt": {
+        "fr": "Associez la combinaison à sa contraction.",
+        "instructions_en": "Match each combination to its contraction.",
+        "left": [
+          "à + le",
+          "à + les",
+          "de + le",
+          "de + les"
+        ],
+        "right": [
+          "au",
+          "aux",
+          "du",
+          "des"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "au aux du des"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Articles contract with à and de (but not à+la / de+la).",
+        "vocab_notes": "These contractions are obligatory.",
+        "common_mistakes": [
+          "writing « à le » / « de le » uncontracted"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à+le=au; de+le=du.",
+        "pattern": "Contract before le/les only.",
+        "similar": [
+          "au bureau",
+          "du directeur",
+          "aux employés"
+        ]
+      }
+    },
+    {
+      "id": "itm_of7_present_7",
+      "objectiveId": "OF7",
+      "skill": "grammar",
       "grammarConcepts": [
         "present"
       ],
@@ -268,46 +394,57 @@
         "travel"
       ],
       "theme": "travel",
-      "difficulty": "medium",
-      "type": "error_correction",
+      "difficulty": "easy",
+      "type": "matching",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.2,
+      "estTimeSec": 55,
+      "irtB": -0.6,
       "prompt": {
-        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
-        "instructions_en": "Fix the verb/agreement error."
+        "fr": "Associez chaque sujet à la forme du verbe ÊTRE.",
+        "instructions_en": "Match the subject to its être form.",
+        "left": [
+          "je",
+          "tu",
+          "nous",
+          "vous",
+          "ils"
+        ],
+        "right": [
+          "suis",
+          "es",
+          "sommes",
+          "êtes",
+          "sont"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+          "suis es sommes êtes sont"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
-        "distractor_why": {
-          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
-        },
-        "grammar_rule": "Negation in standard French: ne + verb + pas.",
-        "vocab_notes": "disponible = available.",
+        "correct_why": "je suis, tu es, nous sommes, vous êtes, ils sont.",
+        "distractor_why": {},
+        "grammar_rule": "être présent: suis, es, est, sommes, êtes, sont.",
+        "vocab_notes": "être = to be.",
         "common_mistakes": [
-          "omitting ne in writing"
+          "swapping êtes (vous) and sont (ils)"
         ]
       },
       "tip": {
-        "memory_aid": "Writing keeps the « ne ».",
-        "pattern": "ne (n’) + verb + pas.",
+        "memory_aid": "Memorize être as a block.",
+        "pattern": "Each subject → one form.",
         "similar": [
-          "Il n’est pas là.",
-          "Ce n’est pas possible."
+          "Je suis analyste.",
+          "Vous êtes le directeur?"
         ]
       }
     },
     {
-      "id": "itm_of7_present_6",
+      "id": "itm_of7_present_8",
       "objectiveId": "OF7",
       "skill": "grammar",
       "grammarConcepts": [
@@ -374,7 +511,7 @@
       }
     },
     {
-      "id": "itm_of7_present_7",
+      "id": "itm_of7_present_9",
       "objectiveId": "OF7",
       "skill": "writing",
       "grammarConcepts": [
@@ -423,7 +560,7 @@
       }
     },
     {
-      "id": "itm_of7_present_8",
+      "id": "itm_of7_present_10",
       "objectiveId": "OF7",
       "skill": "grammar",
       "grammarConcepts": [
@@ -486,6 +623,122 @@
         "similar": [
           "Elle finit la tâche.",
           "Le ministère choisit un fournisseur."
+        ]
+      }
+    },
+    {
+      "id": "itm_of7_present_11",
+      "objectiveId": "OF7",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
+        ]
+      }
+    },
+    {
+      "id": "itm_of7_present_12",
+      "objectiveId": "OF7",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "travel"
+      ],
+      "theme": "travel",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 22,
+      "irtB": -0.7,
+      "prompt": {
+        "fr": "Complétez : « Le directeur ___ (vendre) l’ancien équipement. »",
+        "instructions_en": "Present tense of the -re verb (3rd sing.)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "vend"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "vend",
+          "tag": "correct"
+        },
+        {
+          "value": "vends",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "vendent",
+          "tag": "plural"
+        },
+        {
+          "value": "vendre",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "-re verbs drop -re; il/elle has no ending: vendre → « vend ».",
+        "distractor_why": {
+          "wrong_person": "« vends » is je/tu.",
+          "plural": "« vendent » is ils/elles.",
+          "infinitive": "« vendre » is the infinitive."
+        },
+        "grammar_rule": "-re : -s, -s, –, -ons, -ez, -ent (il form has no ending).",
+        "vocab_notes": "vendre = to sell; l’équipement = equipment.",
+        "common_mistakes": [
+          "adding -t or -d ending to the il form of -re verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re il form = bare stem (vend, attend, répond).",
+        "pattern": "il/elle -re → no ending.",
+        "similar": [
+          "Il attend la réponse.",
+          "Elle répond au courriel."
         ]
       }
     }

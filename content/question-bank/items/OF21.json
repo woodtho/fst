@@ -10,6 +10,223 @@
     {
       "id": "itm_of21_subjonctif_1",
       "objectiveId": "OF21",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "administration"
+      ],
+      "theme": "government_terminology",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 38,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Subjonctif : « Il faut que tu ___ (aller) au bureau du directeur. »",
+        "instructions_en": "Subjunctive of aller, tu."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "ailles"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « il faut que », aller → aille-: tu → « ailles ».",
+        "distractor_why": {
+          "indicative": "« vas » is the indicative.",
+          "wrong_stem": "aller uses the irregular subjunctive stem aill-."
+        },
+        "grammar_rule": "aller subjunctive: aille, ailles, aille, allions, alliez, aillent.",
+        "vocab_notes": "au bureau de = to the office of.",
+        "common_mistakes": [
+          "using « vas » after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que tu ailles.",
+        "pattern": "Trigger + que + subjunctive.",
+        "similar": [
+          "Il faut que j’aille.",
+          "Il faut que vous alliez."
+        ]
+      }
+    },
+    {
+      "id": "itm_of21_subjonctif_2",
+      "objectiveId": "OF21",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "administration"
+      ],
+      "theme": "government_terminology",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Indicatif ou subjonctif ? « Je veux que tu ___ le rapport avant midi. »",
+        "instructions_en": "vouloir que → which mood (finir)?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finisses"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finisses",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "indicative"
+        },
+        {
+          "value": "finiras",
+          "tag": "future"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« vouloir que » triggers the subjunctive: tu finisses.",
+        "distractor_why": {
+          "indicative": "« finis » is the indicative.",
+          "future": "« finiras » is the future indicative."
+        },
+        "grammar_rule": "Verbs of will (vouloir/souhaiter que) take the subjunctive.",
+        "vocab_notes": "avant midi = before noon.",
+        "common_mistakes": [
+          "using the indicative/future after vouloir que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "want that → subjunctive.",
+        "pattern": "vouloir que + subjunctive.",
+        "similar": [
+          "Je veux qu’il vienne.",
+          "Elle souhaite que nous soyons prêts."
+        ]
+      }
+    },
+    {
+      "id": "itm_of21_subjonctif_3",
+      "objectiveId": "OF21",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "administration"
+      ],
+      "theme": "government_terminology",
+      "difficulty": "advanced",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Remettez dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Il faut",
+          "que",
+          "nous",
+          "soyons",
+          "à l’heure"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Il faut que nous soyons à l’heure"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Il faut que » + subjunctive of être (soyons) = « Il faut que nous soyons à l’heure ».",
+        "distractor_why": {},
+        "grammar_rule": "Necessity + que + subjunctive.",
+        "vocab_notes": "à l’heure = on time.",
+        "common_mistakes": [
+          "using « sommes » instead of « soyons »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que … soyons.",
+        "pattern": "Il faut que + subject + subjunctive.",
+        "similar": [
+          "Il faut que vous soyez disponibles.",
+          "Il faut qu’il ait le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of21_subjonctif_4",
+      "objectiveId": "OF21",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "administration"
+      ],
+      "theme": "government_terminology",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Subjonctif : « Il faut que vous ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Present subjunctive of finir, vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "finissiez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Il faut que » triggers the subjunctive. Stem finiss- + -iez (vous) = « finissiez ».",
+        "distractor_why": {
+          "indicative": "« finissez » is the indicative present.",
+          "wrong_ending": "vous in the subjunctive takes -iez."
+        },
+        "grammar_rule": "Subjunctive stem from ils-present (finissent → finiss-); endings -e,-es,-e,-ions,-iez,-ent.",
+        "vocab_notes": "Il faut que = it is necessary that.",
+        "common_mistakes": [
+          "using the indicative after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que → subjunctive.",
+        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
+        "similar": [
+          "Il faut que nous partions.",
+          "Je veux que tu finisses."
+        ]
+      }
+    },
+    {
+      "id": "itm_of21_subjonctif_5",
+      "objectiveId": "OF21",
       "skill": "grammar",
       "grammarConcepts": [
         "subjonctif"
@@ -76,7 +293,7 @@
       }
     },
     {
-      "id": "itm_of21_subjonctif_2",
+      "id": "itm_of21_subjonctif_6",
       "objectiveId": "OF21",
       "skill": "grammar",
       "grammarConcepts": [
@@ -134,107 +351,7 @@
       }
     },
     {
-      "id": "itm_of21_subjonctif_3",
-      "objectiveId": "OF21",
-      "skill": "writing",
-      "grammarConcepts": [
-        "subjonctif"
-      ],
-      "vocabDomains": [
-        "government",
-        "administration"
-      ],
-      "theme": "government_terminology",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.8,
-      "prompt": {
-        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
-        "instructions_en": "Subjunctive of faire, nous."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "fassions"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
-        "distractor_why": {
-          "indicative": "« faisons » is the indicative.",
-          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
-        },
-        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
-        "vocab_notes": "faire le suivi = to follow up.",
-        "common_mistakes": [
-          "using the indicative faisons after vouloir que"
-        ]
-      },
-      "tip": {
-        "memory_aid": "veut que → subjunctive; faire → fass-.",
-        "pattern": "Verb of will + que + subjunctive.",
-        "similar": [
-          "Il veut que je fasse le rapport.",
-          "Elle souhaite que vous fassiez le point."
-        ]
-      }
-    },
-    {
-      "id": "itm_of21_subjonctif_4",
-      "objectiveId": "OF21",
-      "skill": "writing",
-      "grammarConcepts": [
-        "subjonctif"
-      ],
-      "vocabDomains": [
-        "government",
-        "administration"
-      ],
-      "theme": "government_terminology",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.3,
-      "prompt": {
-        "fr": "Subjonctif : « Il faut que vous ___ (finir) le rapport aujourd’hui. »",
-        "instructions_en": "Present subjunctive of finir, vous."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "finissiez"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« Il faut que » triggers the subjunctive. Stem finiss- + -iez (vous) = « finissiez ».",
-        "distractor_why": {
-          "indicative": "« finissez » is the indicative present.",
-          "wrong_ending": "vous in the subjunctive takes -iez."
-        },
-        "grammar_rule": "Subjunctive stem from ils-present (finissent → finiss-); endings -e,-es,-e,-ions,-iez,-ent.",
-        "vocab_notes": "Il faut que = it is necessary that.",
-        "common_mistakes": [
-          "using the indicative after il faut que"
-        ]
-      },
-      "tip": {
-        "memory_aid": "il faut que → subjunctive.",
-        "pattern": "Necessity/will/emotion/doubt + que → subjunctive.",
-        "similar": [
-          "Il faut que nous partions.",
-          "Je veux que tu finisses."
-        ]
-      }
-    },
-    {
-      "id": "itm_of21_present_5",
+      "id": "itm_of21_present_7",
       "objectiveId": "OF21",
       "skill": "writing",
       "grammarConcepts": [
@@ -249,110 +366,42 @@
       "type": "fill_blank",
       "status": "live",
       "estTimeSec": 30,
-      "irtB": -0.6,
+      "irtB": -0.5,
       "prompt": {
-        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
-        "instructions_en": "Conjugate the -er verb for vous."
+        "fr": "Mettez au présent : « Nous ___ (choisir) un fournisseur. »",
+        "instructions_en": "Conjugate the -ir verb for nous."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "travaillez"
+          "choisissons"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
+        "correct_why": "-ir (type finir) with nous: choisir → chois + issons = « choisissons ».",
         "distractor_why": {
-          "wrong_ending": "-ons is nous, -ent is ils/elles.",
-          "infinitive": "« travailler » is the infinitive."
+          "wrong": "« choisons » drops the -iss- infix required by -ir verbs.",
+          "infinitive": "« choisir » is the infinitive."
         },
-        "grammar_rule": "vous + -er → -ez.",
-        "vocab_notes": "la Direction des opérations = the Operations Branch.",
+        "grammar_rule": "-ir verbs: nous -issons, vous -issez, ils -issent (with -iss-).",
+        "vocab_notes": "choisir = to choose; un fournisseur = a supplier.",
         "common_mistakes": [
-          "using -ons or the infinitive for vous"
+          "dropping the -iss- in the plural of -ir verbs"
         ]
       },
       "tip": {
-        "memory_aid": "vous → -EZ.",
-        "pattern": "Drop -er, add the subject ending.",
+        "memory_aid": "-ir plurals add -iss- (finissons, choisissons).",
+        "pattern": "nous -ir → -issons.",
         "similar": [
-          "Vous préparez l’ordre du jour.",
-          "Vous classez les dossiers."
+          "Nous finissons à 17 h.",
+          "Ils réfléchissent à l’offre."
         ]
       }
     },
     {
-      "id": "itm_of21_present_6",
-      "objectiveId": "OF21",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "present"
-      ],
-      "vocabDomains": [
-        "government",
-        "administration"
-      ],
-      "theme": "government_terminology",
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
-        "instructions_en": "Choose the present tense of finir (3rd person singular)."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "finit"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "finit",
-          "tag": "correct"
-        },
-        {
-          "value": "finis",
-          "tag": "wrong_person"
-        },
-        {
-          "value": "finissent",
-          "tag": "plural"
-        },
-        {
-          "value": "finir",
-          "tag": "infinitive"
-        }
-      ],
-      "explanation": {
-        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
-        "distractor_why": {
-          "wrong_person": "« finis » is je/tu.",
-          "plural": "« finissent » is ils/elles.",
-          "infinitive": "« finir » is the infinitive."
-        },
-        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
-        "vocab_notes": "le comité = the committee (singular).",
-        "common_mistakes": [
-          "treating a collective noun as plural"
-        ]
-      },
-      "tip": {
-        "memory_aid": "il/elle → -it for -ir verbs.",
-        "pattern": "Collective nouns (comité, équipe) take the singular.",
-        "similar": [
-          "Elle finit la tâche.",
-          "Le ministère choisit un fournisseur."
-        ]
-      }
-    },
-    {
-      "id": "itm_of21_present_7",
+      "id": "itm_of21_present_8",
       "objectiveId": "OF21",
       "skill": "writing",
       "grammarConcepts": [
@@ -364,45 +413,109 @@
       ],
       "theme": "government_terminology",
       "difficulty": "medium",
-      "type": "error_correction",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.2,
+      "estTimeSec": 40,
+      "irtB": 0,
       "prompt": {
-        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
-        "instructions_en": "Fix the verb/agreement error."
+        "fr": "Remettez les mots dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Je",
+          "prépare",
+          "l’ordre du jour",
+          "de la réunion"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+          "Je prépare l’ordre du jour de la réunion"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
-        "distractor_why": {
-          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
-        },
-        "grammar_rule": "Negation in standard French: ne + verb + pas.",
-        "vocab_notes": "disponible = available.",
+        "correct_why": "Order: subject + present verb + object + complement → « Je prépare l’ordre du jour de la réunion ».",
+        "distractor_why": {},
+        "grammar_rule": "Basic French word order: subject + verb + object.",
+        "vocab_notes": "l’ordre du jour = the agenda.",
         "common_mistakes": [
-          "omitting ne in writing"
+          "splitting the noun phrase « l’ordre du jour »"
         ]
       },
       "tip": {
-        "memory_aid": "Writing keeps the « ne ».",
-        "pattern": "ne (n’) + verb + pas.",
+        "memory_aid": "S-V-O, then details.",
+        "pattern": "subject + verb + object + (de…).",
         "similar": [
-          "Il n’est pas là.",
-          "Ce n’est pas possible."
+          "Je vérifie les chiffres du rapport.",
+          "Elle envoie le compte rendu de la séance."
         ]
       }
     },
     {
-      "id": "itm_of21_present_8",
+      "id": "itm_of21_present_9",
+      "objectiveId": "OF21",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "government",
+        "administration"
+      ],
+      "theme": "government_terminology",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Associez chaque sujet à la forme du verbe ÊTRE.",
+        "instructions_en": "Match the subject to its être form.",
+        "left": [
+          "je",
+          "tu",
+          "nous",
+          "vous",
+          "ils"
+        ],
+        "right": [
+          "suis",
+          "es",
+          "sommes",
+          "êtes",
+          "sont"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "suis es sommes êtes sont"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "je suis, tu es, nous sommes, vous êtes, ils sont.",
+        "distractor_why": {},
+        "grammar_rule": "être présent: suis, es, est, sommes, êtes, sont.",
+        "vocab_notes": "être = to be.",
+        "common_mistakes": [
+          "swapping êtes (vous) and sont (ils)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Memorize être as a block.",
+        "pattern": "Each subject → one form.",
+        "similar": [
+          "Je suis analyste.",
+          "Vous êtes le directeur?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of21_present_10",
       "objectiveId": "OF21",
       "skill": "grammar",
       "grammarConcepts": [
@@ -466,6 +579,124 @@
         "similar": [
           "Nous avons un dossier.",
           "Vous avez le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of21_present_11",
+      "objectiveId": "OF21",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "government",
+        "administration"
+      ],
+      "theme": "government_terminology",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
+        "instructions_en": "Conjugate the -er verb for vous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "travaillez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
+        "distractor_why": {
+          "wrong_ending": "-ons is nous, -ent is ils/elles.",
+          "infinitive": "« travailler » is the infinitive."
+        },
+        "grammar_rule": "vous + -er → -ez.",
+        "vocab_notes": "la Direction des opérations = the Operations Branch.",
+        "common_mistakes": [
+          "using -ons or the infinitive for vous"
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous → -EZ.",
+        "pattern": "Drop -er, add the subject ending.",
+        "similar": [
+          "Vous préparez l’ordre du jour.",
+          "Vous classez les dossiers."
+        ]
+      }
+    },
+    {
+      "id": "itm_of21_present_12",
+      "objectiveId": "OF21",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "government",
+        "administration"
+      ],
+      "theme": "government_terminology",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "distractor_why": {
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
+        },
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
         ]
       }
     }

@@ -48,17 +48,21 @@
             "itm_of11_present_1",
             "itm_of11_present_2",
             "itm_of11_present_3",
-            "itm_of11_present_4"
+            "itm_of11_present_4",
+            "itm_of11_present_5",
+            "itm_of11_present_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les prépositions",
           "itemRefs": [
-            "itm_of11_prepositions_5",
-            "itm_of11_prepositions_6",
             "itm_of11_prepositions_7",
-            "itm_of11_prepositions_8"
+            "itm_of11_prepositions_8",
+            "itm_of11_prepositions_9",
+            "itm_of11_prepositions_10",
+            "itm_of11_prepositions_11",
+            "itm_of11_prepositions_12"
           ],
           "type": "mixed"
         }
@@ -98,10 +102,10 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 3,
-        "medium": 4,
+        "easy": 6,
+        "medium": 5,
         "advanced": 1
       },
       "drawFrom": [

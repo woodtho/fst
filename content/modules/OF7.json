@@ -48,17 +48,21 @@
             "itm_of7_prepositions_1",
             "itm_of7_prepositions_2",
             "itm_of7_prepositions_3",
-            "itm_of7_prepositions_4"
+            "itm_of7_prepositions_4",
+            "itm_of7_prepositions_5",
+            "itm_of7_prepositions_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Le présent de l’indicatif",
           "itemRefs": [
-            "itm_of7_present_5",
-            "itm_of7_present_6",
             "itm_of7_present_7",
-            "itm_of7_present_8"
+            "itm_of7_present_8",
+            "itm_of7_present_9",
+            "itm_of7_present_10",
+            "itm_of7_present_11",
+            "itm_of7_present_12"
           ],
           "type": "mixed"
         }
@@ -98,10 +102,10 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 3,
-        "medium": 4,
+        "easy": 6,
+        "medium": 5,
         "advanced": 1
       },
       "drawFrom": [

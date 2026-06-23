@@ -22,46 +22,51 @@
       "difficulty": "advanced",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 35,
+      "estTimeSec": 32,
       "irtB": 0.7,
       "prompt": {
-        "fr": "Indicatif ou subjonctif ? « Je pense qu’il ___ raison. »",
-        "instructions_en": "Penser que (affirmative) → which mood?"
+        "fr": "Indicatif ou subjonctif ? « Je veux que tu ___ le rapport avant midi. »",
+        "instructions_en": "vouloir que → which mood (finir)?"
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "a"
+          "finisses"
         ],
-        "normalizer": "trim_lower"
+        "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [
         {
-          "value": "a",
+          "value": "finisses",
           "tag": "correct"
         },
         {
-          "value": "ait",
-          "tag": "subjunctive_wrong"
+          "value": "finis",
+          "tag": "indicative"
+        },
+        {
+          "value": "finiras",
+          "tag": "future"
         }
       ],
       "explanation": {
-        "correct_why": "« Je pense que » (affirmative opinion) expresses certainty → indicative « a ». The subjunctive appears with doubt/negation (« Je ne pense pas qu’il ait raison »).",
+        "correct_why": "« vouloir que » triggers the subjunctive: tu finisses.",
         "distractor_why": {
-          "subjunctive_wrong": "The subjunctive « ait » is used after doubt or negation, not after affirmative « je pense que »."
+          "indicative": "« finis » is the indicative.",
+          "future": "« finiras » is the future indicative."
         },
-        "grammar_rule": "penser/croire que (affirmative) → indicative; ne pas penser que / douter que → subjunctive.",
-        "vocab_notes": "avoir raison = to be right.",
+        "grammar_rule": "Verbs of will (vouloir/souhaiter que) take the subjunctive.",
+        "vocab_notes": "avant midi = before noon.",
         "common_mistakes": [
-          "over-using the subjunctive after every que"
+          "using the indicative/future after vouloir que"
         ]
       },
       "tip": {
-        "memory_aid": "Certainty → indicative; doubt/negation → subjunctive.",
-        "pattern": "Affirmative opinion = indicative.",
+        "memory_aid": "want that → subjunctive.",
+        "pattern": "vouloir que + subjunctive.",
         "similar": [
-          "Je crois qu’il vient.",
-          "Je ne crois pas qu’il vienne."
+          "Je veux qu’il vienne.",
+          "Elle souhaite que nous soyons prêts."
         ]
       }
     },
@@ -78,40 +83,44 @@
       ],
       "theme": "public_service",
       "difficulty": "advanced",
-      "type": "fill_blank",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.8,
+      "estTimeSec": 45,
+      "irtB": 0.7,
       "prompt": {
-        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
-        "instructions_en": "Subjunctive of faire, nous."
+        "fr": "Remettez dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Il faut",
+          "que",
+          "nous",
+          "soyons",
+          "à l’heure"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "fassions"
+          "Il faut que nous soyons à l’heure"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
-        "distractor_why": {
-          "indicative": "« faisons » is the indicative.",
-          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
-        },
-        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
-        "vocab_notes": "faire le suivi = to follow up.",
+        "correct_why": "« Il faut que » + subjunctive of être (soyons) = « Il faut que nous soyons à l’heure ».",
+        "distractor_why": {},
+        "grammar_rule": "Necessity + que + subjunctive.",
+        "vocab_notes": "à l’heure = on time.",
         "common_mistakes": [
-          "using the indicative faisons after vouloir que"
+          "using « sommes » instead of « soyons »"
         ]
       },
       "tip": {
-        "memory_aid": "veut que → subjunctive; faire → fass-.",
-        "pattern": "Verb of will + que + subjunctive.",
+        "memory_aid": "il faut que … soyons.",
+        "pattern": "Il faut que + subject + subjunctive.",
         "similar": [
-          "Il veut que je fasse le rapport.",
-          "Elle souhaite que vous fassiez le point."
+          "Il faut que vous soyez disponibles.",
+          "Il faut qu’il ait le dossier."
         ]
       }
     },
@@ -234,70 +243,115 @@
       }
     },
     {
-      "id": "itm_of30_pronouns_5",
+      "id": "itm_of30_subjonctif_5",
       "objectiveId": "OF30",
       "skill": "grammar",
       "grammarConcepts": [
-        "pronouns"
+        "subjonctif"
       ],
       "vocabDomains": [
         "government",
         "workplace"
       ],
       "theme": "public_service",
-      "difficulty": "medium",
+      "difficulty": "advanced",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.2,
+      "estTimeSec": 35,
+      "irtB": 0.7,
       "prompt": {
-        "fr": "Relatif : « C’est le dossier ___ je cherche. »",
-        "instructions_en": "Choose qui or que."
+        "fr": "Indicatif ou subjonctif ? « Je pense qu’il ___ raison. »",
+        "instructions_en": "Penser que (affirmative) → which mood?"
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "que"
+          "a"
         ],
         "normalizer": "trim_lower"
       },
       "distractors": [
         {
-          "value": "que",
+          "value": "a",
           "tag": "correct"
         },
         {
-          "value": "qui",
-          "tag": "subject"
-        },
-        {
-          "value": "dont",
-          "tag": "de_relative"
+          "value": "ait",
+          "tag": "subjunctive_wrong"
         }
       ],
       "explanation": {
-        "correct_why": "« je cherche [le dossier] » — the dossier is the direct object of cherche, so the relative pronoun is « que ».",
+        "correct_why": "« Je pense que » (affirmative opinion) expresses certainty → indicative « a ». The subjunctive appears with doubt/negation (« Je ne pense pas qu’il ait raison »).",
         "distractor_why": {
-          "subject": "« qui » is used when the relative is the subject (le dossier qui est sur le bureau).",
-          "de_relative": "« dont » replaces de + noun (le dossier dont j’ai besoin)."
+          "subjunctive_wrong": "The subjunctive « ait » is used after doubt or negation, not after affirmative « je pense que »."
         },
-        "grammar_rule": "qui = subject of the relative clause; que = direct object.",
-        "vocab_notes": "chercher = to look for (no preposition).",
+        "grammar_rule": "penser/croire que (affirmative) → indicative; ne pas penser que / douter que → subjunctive.",
+        "vocab_notes": "avoir raison = to be right.",
         "common_mistakes": [
-          "confusing qui (subject) and que (object)"
+          "over-using the subjunctive after every que"
         ]
       },
       "tip": {
-        "memory_aid": "que + subject+verb; qui + verb directly.",
-        "pattern": "If a subject follows, use que; if a verb follows, use qui.",
+        "memory_aid": "Certainty → indicative; doubt/negation → subjunctive.",
+        "pattern": "Affirmative opinion = indicative.",
         "similar": [
-          "le rapport que j’ai écrit",
-          "le collègue qui travaille ici"
+          "Je crois qu’il vient.",
+          "Je ne crois pas qu’il vienne."
         ]
       }
     },
     {
-      "id": "itm_of30_pronouns_6",
+      "id": "itm_of30_subjonctif_6",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.8,
+      "prompt": {
+        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
+        "instructions_en": "Subjunctive of faire, nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "fassions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
+        "distractor_why": {
+          "indicative": "« faisons » is the indicative.",
+          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
+        },
+        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
+        "vocab_notes": "faire le suivi = to follow up.",
+        "common_mistakes": [
+          "using the indicative faisons after vouloir que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "veut que → subjunctive; faire → fass-.",
+        "pattern": "Verb of will + que + subjunctive.",
+        "similar": [
+          "Il veut que je fasse le rapport.",
+          "Elle souhaite que vous fassiez le point."
+        ]
+      }
+    },
+    {
+      "id": "itm_of30_pronouns_7",
       "objectiveId": "OF30",
       "skill": "writing",
       "grammarConcepts": [
@@ -308,47 +362,109 @@
         "workplace"
       ],
       "theme": "public_service",
-      "difficulty": "advanced",
+      "difficulty": "medium",
       "type": "fill_blank",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.6,
+      "estTimeSec": 32,
+      "irtB": 0.2,
       "prompt": {
-        "fr": "Remplacez « des dossiers » : « J’ai trois dossiers. → J’___ ai trois. »",
-        "instructions_en": "Use the pronoun en."
+        "fr": "Remplacez « les dossiers » : « Je prépare les dossiers. → Je ___ prépare. »",
+        "instructions_en": "Direct object pronoun (plural)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "en"
+          "les"
         ],
         "normalizer": "trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "« en » replaces de/des + noun and is kept with quantities: « J’en ai trois » (I have three of them).",
+        "correct_why": "« les dossiers » is a plural direct object → « les »: « Je les prépare ».",
         "distractor_why": {
-          "les": "« les » would drop the number; with a quantity you keep « en » + number.",
-          "y": "« y » replaces à + thing/place, not a quantity."
+          "leur": "« leur » is an indirect plural pronoun.",
+          "en": "« en » replaces de + noun."
         },
-        "grammar_rule": "en replaces de + noun and stays with expressions of quantity.",
-        "vocab_notes": "un dossier = a file/case.",
+        "grammar_rule": "les = plural direct object pronoun.",
+        "vocab_notes": "un dossier = a file.",
         "common_mistakes": [
-          "dropping en with quantities",
-          "using les with a number"
+          "using leur (indirect) for a direct object"
         ]
       },
       "tip": {
-        "memory_aid": "Quantity → keep « en » + number.",
-        "pattern": "J’en ai trois / beaucoup / assez.",
+        "memory_aid": "Plural thing, direct → les.",
+        "pattern": "Pronoun before the verb.",
         "similar": [
-          "Des réunions? J’en ai deux.",
-          "Du café? J’en veux."
+          "Je les envoie.",
+          "Je les vérifie."
         ]
       }
     },
     {
-      "id": "itm_of30_pronouns_7",
+      "id": "itm_of30_pronouns_8",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Relatif : « C’est le projet ___ je suis responsable. »",
+        "instructions_en": "Choose the relative (être responsable DE)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "dont"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "dont",
+          "tag": "correct"
+        },
+        {
+          "value": "que",
+          "tag": "direct"
+        },
+        {
+          "value": "qui",
+          "tag": "subject"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« être responsable DE » → the relative pronoun « dont » replaces de + noun.",
+        "distractor_why": {
+          "direct": "« que » is for a direct object (no preposition).",
+          "subject": "« qui » is the subject of the relative clause."
+        },
+        "grammar_rule": "dont replaces de + noun in a relative clause.",
+        "vocab_notes": "responsable de = responsible for.",
+        "common_mistakes": [
+          "using que when the verb needs de (dont)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "verb + de → dont.",
+        "pattern": "de-relations → dont.",
+        "similar": [
+          "le dossier dont j’ai besoin",
+          "la réunion dont je parle"
+        ]
+      }
+    },
+    {
+      "id": "itm_of30_pronouns_9",
       "objectiveId": "OF30",
       "skill": "grammar",
       "grammarConcepts": [
@@ -417,7 +533,7 @@
       }
     },
     {
-      "id": "itm_of30_pronouns_8",
+      "id": "itm_of30_pronouns_10",
       "objectiveId": "OF30",
       "skill": "grammar",
       "grammarConcepts": [
@@ -482,6 +598,120 @@
         "similar": [
           "Je leur écris.",
           "Tu lui téléphones."
+        ]
+      }
+    },
+    {
+      "id": "itm_of30_pronouns_11",
+      "objectiveId": "OF30",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Relatif : « C’est le dossier ___ je cherche. »",
+        "instructions_en": "Choose qui or que."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "que"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "que",
+          "tag": "correct"
+        },
+        {
+          "value": "qui",
+          "tag": "subject"
+        },
+        {
+          "value": "dont",
+          "tag": "de_relative"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« je cherche [le dossier] » — the dossier is the direct object of cherche, so the relative pronoun is « que ».",
+        "distractor_why": {
+          "subject": "« qui » is used when the relative is the subject (le dossier qui est sur le bureau).",
+          "de_relative": "« dont » replaces de + noun (le dossier dont j’ai besoin)."
+        },
+        "grammar_rule": "qui = subject of the relative clause; que = direct object.",
+        "vocab_notes": "chercher = to look for (no preposition).",
+        "common_mistakes": [
+          "confusing qui (subject) and que (object)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "que + subject+verb; qui + verb directly.",
+        "pattern": "If a subject follows, use que; if a verb follows, use qui.",
+        "similar": [
+          "le rapport que j’ai écrit",
+          "le collègue qui travaille ici"
+        ]
+      }
+    },
+    {
+      "id": "itm_of30_pronouns_12",
+      "objectiveId": "OF30",
+      "skill": "writing",
+      "grammarConcepts": [
+        "pronouns"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "public_service",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Remplacez « des dossiers » : « J’ai trois dossiers. → J’___ ai trois. »",
+        "instructions_en": "Use the pronoun en."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "en"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« en » replaces de/des + noun and is kept with quantities: « J’en ai trois » (I have three of them).",
+        "distractor_why": {
+          "les": "« les » would drop the number; with a quantity you keep « en » + number.",
+          "y": "« y » replaces à + thing/place, not a quantity."
+        },
+        "grammar_rule": "en replaces de + noun and stays with expressions of quantity.",
+        "vocab_notes": "un dossier = a file/case.",
+        "common_mistakes": [
+          "dropping en with quantities",
+          "using les with a number"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Quantity → keep « en » + number.",
+        "pattern": "J’en ai trois / beaucoup / assez.",
+        "similar": [
+          "Des réunions? J’en ai deux.",
+          "Du café? J’en veux."
         ]
       }
     }

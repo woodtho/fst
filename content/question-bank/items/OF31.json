@@ -10,7 +10,7 @@
     {
       "id": "itm_of31_conditionnel_1",
       "objectiveId": "OF31",
-      "skill": "grammar",
+      "skill": "writing",
       "grammarConcepts": [
         "conditionnel"
       ],
@@ -19,54 +19,41 @@
         "workplace"
       ],
       "theme": "meetings",
-      "difficulty": "easy",
-      "type": "mcq_single",
+      "difficulty": "medium",
+      "type": "fill_blank",
       "status": "live",
-      "estTimeSec": 25,
-      "irtB": -0.2,
+      "estTimeSec": 34,
+      "irtB": 0.2,
       "prompt": {
-        "fr": "Quelle formule est la plus polie pour demander un service ?",
-        "instructions_en": "Pick the most polite request."
+        "fr": "Conditionnel : « Nous ___ (pouvoir) reporter la réunion. »",
+        "instructions_en": "Conditional of pouvoir, nous."
       },
       "answer": {
-        "type": "choice",
+        "type": "text",
         "accepted": [
-          "Pourriez-vous vérifier ce chiffre, s’il vous plaît?"
+          "pourrions"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
-      "distractors": [
-        {
-          "value": "Pourriez-vous vérifier ce chiffre, s’il vous plaît?",
-          "tag": "correct"
-        },
-        {
-          "value": "Vérifie ce chiffre.",
-          "tag": "imperative_blunt"
-        },
-        {
-          "value": "Tu vérifies ce chiffre.",
-          "tag": "statement"
-        }
-      ],
+      "distractors": [],
       "explanation": {
-        "correct_why": "The conditional « Pourriez-vous… s’il vous plaît? » is the polite, professional request form.",
+        "correct_why": "pouvoir stem pourr- + -ions = « pourrions » (we could/would be able to).",
         "distractor_why": {
-          "imperative_blunt": "« Vérifie » is a blunt command (and tu).",
-          "statement": "« Tu vérifies » is a statement, not a polite request."
+          "future": "« pourrons » is future.",
+          "present": "« pouvons » is present."
         },
-        "grammar_rule": "Use the conditional + s’il vous plaît for polite workplace requests.",
-        "vocab_notes": "vérifier = to check.",
+        "grammar_rule": "pouvoir conditional: pourrais, pourrait, pourrions…",
+        "vocab_notes": "reporter = to postpone.",
         "common_mistakes": [
-          "using bare imperatives in professional requests"
+          "pourrions (cond.) vs pourrons (future)"
         ]
       },
       "tip": {
-        "memory_aid": "Conditional + svp = polite.",
-        "pattern": "Pourriez-vous / Voudriez-vous + infinitive.",
+        "memory_aid": "pourr- + -ions = pourrions.",
+        "pattern": "Suggestion → on pourrait / nous pourrions.",
         "similar": [
-          "Pourriez-vous me rappeler?",
-          "Voudriez-vous patienter?"
+          "On pourrait commencer plus tard.",
+          "Nous devrions vérifier."
         ]
       }
     },
@@ -240,7 +227,120 @@
       }
     },
     {
-      "id": "itm_of31_subjonctif_5",
+      "id": "itm_of31_conditionnel_5",
+      "objectiveId": "OF31",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Quelle formule est la plus polie pour demander un service ?",
+        "instructions_en": "Pick the most polite request."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Pourriez-vous vérifier ce chiffre, s’il vous plaît?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Pourriez-vous vérifier ce chiffre, s’il vous plaît?",
+          "tag": "correct"
+        },
+        {
+          "value": "Vérifie ce chiffre.",
+          "tag": "imperative_blunt"
+        },
+        {
+          "value": "Tu vérifies ce chiffre.",
+          "tag": "statement"
+        }
+      ],
+      "explanation": {
+        "correct_why": "The conditional « Pourriez-vous… s’il vous plaît? » is the polite, professional request form.",
+        "distractor_why": {
+          "imperative_blunt": "« Vérifie » is a blunt command (and tu).",
+          "statement": "« Tu vérifies » is a statement, not a polite request."
+        },
+        "grammar_rule": "Use the conditional + s’il vous plaît for polite workplace requests.",
+        "vocab_notes": "vérifier = to check.",
+        "common_mistakes": [
+          "using bare imperatives in professional requests"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Conditional + svp = polite.",
+        "pattern": "Pourriez-vous / Voudriez-vous + infinitive.",
+        "similar": [
+          "Pourriez-vous me rappeler?",
+          "Voudriez-vous patienter?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of31_conditionnel_6",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 34,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Conditionnel : « J’___ (aimer) vous rencontrer cette semaine. »",
+        "instructions_en": "Polite conditional of aimer, je."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "aimerais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« J’aimerais » (conditional) is the polite way to say 'I would like'.",
+        "distractor_why": {
+          "present": "« aime » is too direct.",
+          "future": "« aimerai » is future, not conditional."
+        },
+        "grammar_rule": "Conditional = future stem + imperfect endings.",
+        "vocab_notes": "J’aimerais = I would like.",
+        "common_mistakes": [
+          "future -ai vs conditional -ais"
+        ]
+      },
+      "tip": {
+        "memory_aid": "j’aimerais = I would like.",
+        "pattern": "Polite wish → conditional.",
+        "similar": [
+          "Je voudrais…",
+          "Je souhaiterais…"
+        ]
+      }
+    },
+    {
+      "id": "itm_of31_subjonctif_7",
       "objectiveId": "OF31",
       "skill": "writing",
       "grammarConcepts": [
@@ -252,45 +352,49 @@
       ],
       "theme": "meetings",
       "difficulty": "advanced",
-      "type": "fill_blank",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.8,
+      "estTimeSec": 45,
+      "irtB": 0.7,
       "prompt": {
-        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
-        "instructions_en": "Subjunctive of faire, nous."
+        "fr": "Remettez dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Il faut",
+          "que",
+          "nous",
+          "soyons",
+          "à l’heure"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "fassions"
+          "Il faut que nous soyons à l’heure"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
-        "distractor_why": {
-          "indicative": "« faisons » is the indicative.",
-          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
-        },
-        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
-        "vocab_notes": "faire le suivi = to follow up.",
+        "correct_why": "« Il faut que » + subjunctive of être (soyons) = « Il faut que nous soyons à l’heure ».",
+        "distractor_why": {},
+        "grammar_rule": "Necessity + que + subjunctive.",
+        "vocab_notes": "à l’heure = on time.",
         "common_mistakes": [
-          "using the indicative faisons after vouloir que"
+          "using « sommes » instead of « soyons »"
         ]
       },
       "tip": {
-        "memory_aid": "veut que → subjunctive; faire → fass-.",
-        "pattern": "Verb of will + que + subjunctive.",
+        "memory_aid": "il faut que … soyons.",
+        "pattern": "Il faut que + subject + subjunctive.",
         "similar": [
-          "Il veut que je fasse le rapport.",
-          "Elle souhaite que vous fassiez le point."
+          "Il faut que vous soyez disponibles.",
+          "Il faut qu’il ait le dossier."
         ]
       }
     },
     {
-      "id": "itm_of31_subjonctif_6",
+      "id": "itm_of31_subjonctif_8",
       "objectiveId": "OF31",
       "skill": "writing",
       "grammarConcepts": [
@@ -340,7 +444,7 @@
       }
     },
     {
-      "id": "itm_of31_subjonctif_7",
+      "id": "itm_of31_subjonctif_9",
       "objectiveId": "OF31",
       "skill": "grammar",
       "grammarConcepts": [
@@ -408,7 +512,7 @@
       }
     },
     {
-      "id": "itm_of31_subjonctif_8",
+      "id": "itm_of31_subjonctif_10",
       "objectiveId": "OF31",
       "skill": "grammar",
       "grammarConcepts": [
@@ -466,7 +570,118 @@
       }
     },
     {
-      "id": "itm_of31_reported_speech_9",
+      "id": "itm_of31_subjonctif_11",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.8,
+      "prompt": {
+        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
+        "instructions_en": "Subjunctive of faire, nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "fassions"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
+        "distractor_why": {
+          "indicative": "« faisons » is the indicative.",
+          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
+        },
+        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
+        "vocab_notes": "faire le suivi = to follow up.",
+        "common_mistakes": [
+          "using the indicative faisons after vouloir que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "veut que → subjunctive; faire → fass-.",
+        "pattern": "Verb of will + que + subjunctive.",
+        "similar": [
+          "Il veut que je fasse le rapport.",
+          "Elle souhaite que vous fassiez le point."
+        ]
+      }
+    },
+    {
+      "id": "itm_of31_subjonctif_12",
+      "objectiveId": "OF31",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Associez le verbe à son subjonctif (que je …).",
+        "instructions_en": "Match each verb to its 'je' subjunctive.",
+        "left": [
+          "être",
+          "avoir",
+          "faire",
+          "aller",
+          "pouvoir"
+        ],
+        "right": [
+          "sois",
+          "aie",
+          "fasse",
+          "aille",
+          "puisse"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "sois aie fasse aille puisse"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "que je sois, que j’aie, que je fasse, que j’aille, que je puisse.",
+        "distractor_why": {},
+        "grammar_rule": "These verbs have irregular subjunctive stems to memorize.",
+        "vocab_notes": "All follow « il faut que … » / « que … ».",
+        "common_mistakes": [
+          "using the indicative form after a subjunctive trigger"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn être/avoir/faire/aller/pouvoir subjunctives by heart.",
+        "pattern": "Irregular stem + subjunctive endings.",
+        "similar": [
+          "Il faut que je sois là.",
+          "Il faut qu’il fasse le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of31_reported_speech_13",
       "objectiveId": "OF31",
       "skill": "writing",
       "grammarConcepts": [
@@ -483,41 +698,40 @@
       "estTimeSec": 40,
       "irtB": 0.7,
       "prompt": {
-        "fr": "Corrigez : « Elle a dit qu’elle va envoyer le rapport demain. » (concordance)",
-        "instructions_en": "Apply the tense shift after a past reporting verb."
+        "fr": "Corrigez (concordance) : « Il a dit qu’il est occupé aujourd’hui. »",
+        "instructions_en": "Shift the tense after the past reporting verb."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "Elle a dit qu’elle allait envoyer le rapport le lendemain",
-          "Elle a dit qu’elle enverrait le rapport le lendemain",
-          "Elle a dit qu’elle allait envoyer le rapport le lendemain."
+          "Il a dit qu’il était occupé ce jour-là",
+          "Il a dit qu’il était occupé ce jour-là."
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "After « a dit » (past), the near future « va envoyer » shifts to « allait envoyer » (or future→conditional « enverrait »), and « demain » → « le lendemain ».",
+        "correct_why": "After « a dit » (past), present « est » → imparfait « était », and « aujourd’hui » → « ce jour-là ».",
         "distractor_why": {
-          "no_shift": "« va envoyer » keeps the present-time frame; after a past report it must shift."
+          "no_shift": "« est … aujourd’hui » keeps the present frame; a past report shifts both."
         },
-        "grammar_rule": "Past reporting: futur proche → imparfait of aller + inf.; futur → conditionnel; demain → le lendemain.",
-        "vocab_notes": "le lendemain = the next day.",
+        "grammar_rule": "Past reporting: present → imparfait; aujourd’hui → ce jour-là.",
+        "vocab_notes": "ce jour-là = that day.",
         "common_mistakes": [
-          "not shifting tense or time words in past reported speech"
+          "not shifting time words"
         ]
       },
       "tip": {
-        "memory_aid": "Past report shifts both tense and time words.",
-        "pattern": "a dit que + shifted tense + le lendemain.",
+        "memory_aid": "Past report shifts tense AND time words.",
+        "pattern": "a dit que + imparfait + ce jour-là.",
         "similar": [
-          "Il a dit qu’il viendrait le lendemain.",
-          "Elle a dit qu’elle était occupée ce jour-là."
+          "Il a dit qu’il arrivait.",
+          "Elle a dit qu’elle avait le dossier."
         ]
       }
     },
     {
-      "id": "itm_of31_reported_speech_10",
+      "id": "itm_of31_reported_speech_14",
       "objectiveId": "OF31",
       "skill": "grammar",
       "grammarConcepts": [
@@ -580,7 +794,7 @@
       }
     },
     {
-      "id": "itm_of31_reported_speech_11",
+      "id": "itm_of31_reported_speech_15",
       "objectiveId": "OF31",
       "skill": "writing",
       "grammarConcepts": [
@@ -629,7 +843,7 @@
       }
     },
     {
-      "id": "itm_of31_reported_speech_12",
+      "id": "itm_of31_reported_speech_16",
       "objectiveId": "OF31",
       "skill": "grammar",
       "grammarConcepts": [
@@ -688,6 +902,120 @@
         "similar": [
           "Il demande si c’est prêt.",
           "Elle demande si tu es libre."
+        ]
+      }
+    },
+    {
+      "id": "itm_of31_reported_speech_17",
+      "objectiveId": "OF31",
+      "skill": "writing",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Corrigez : « Elle a dit qu’elle va envoyer le rapport demain. » (concordance)",
+        "instructions_en": "Apply the tense shift after a past reporting verb."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Elle a dit qu’elle allait envoyer le rapport le lendemain",
+          "Elle a dit qu’elle enverrait le rapport le lendemain",
+          "Elle a dit qu’elle allait envoyer le rapport le lendemain."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « a dit » (past), the near future « va envoyer » shifts to « allait envoyer » (or future→conditional « enverrait »), and « demain » → « le lendemain ».",
+        "distractor_why": {
+          "no_shift": "« va envoyer » keeps the present-time frame; after a past report it must shift."
+        },
+        "grammar_rule": "Past reporting: futur proche → imparfait of aller + inf.; futur → conditionnel; demain → le lendemain.",
+        "vocab_notes": "le lendemain = the next day.",
+        "common_mistakes": [
+          "not shifting tense or time words in past reported speech"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Past report shifts both tense and time words.",
+        "pattern": "a dit que + shifted tense + le lendemain.",
+        "similar": [
+          "Il a dit qu’il viendrait le lendemain.",
+          "Elle a dit qu’elle était occupée ce jour-là."
+        ]
+      }
+    },
+    {
+      "id": "itm_of31_reported_speech_18",
+      "objectiveId": "OF31",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [
+        "meetings",
+        "workplace"
+      ],
+      "theme": "meetings",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Question indirecte : « Il demande : “Qu’est-ce que tu veux?” » → « Il demande ___ tu veux. »",
+        "instructions_en": "Report a 'what' question."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "ce que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "ce que",
+          "tag": "correct"
+        },
+        {
+          "value": "qu’est-ce que",
+          "tag": "kept"
+        },
+        {
+          "value": "que",
+          "tag": "que"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Qu’est-ce que » becomes « ce que » in indirect speech: « Il demande ce que tu veux ».",
+        "distractor_why": {
+          "kept": "« qu’est-ce que » doesn't survive in indirect speech.",
+          "que": "« que » alone introduces a statement, not an embedded 'what' question."
+        },
+        "grammar_rule": "Indirect 'what' question: ce que (object) / ce qui (subject).",
+        "vocab_notes": "vouloir = to want.",
+        "common_mistakes": [
+          "keeping est-ce que in indirect questions"
+        ]
+      },
+      "tip": {
+        "memory_aid": "what → ce que (indirect).",
+        "pattern": "demander ce que / ce qui.",
+        "similar": [
+          "Il demande ce qui se passe.",
+          "Je ne sais pas ce que tu veux."
         ]
       }
     }

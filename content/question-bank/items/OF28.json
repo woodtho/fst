@@ -10,6 +10,234 @@
     {
       "id": "itm_of28_subjonctif_1",
       "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Associez le verbe à son subjonctif (que je …).",
+        "instructions_en": "Match each verb to its 'je' subjunctive.",
+        "left": [
+          "être",
+          "avoir",
+          "faire",
+          "aller",
+          "pouvoir"
+        ],
+        "right": [
+          "sois",
+          "aie",
+          "fasse",
+          "aille",
+          "puisse"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "sois aie fasse aille puisse"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "que je sois, que j’aie, que je fasse, que j’aille, que je puisse.",
+        "distractor_why": {},
+        "grammar_rule": "These verbs have irregular subjunctive stems to memorize.",
+        "vocab_notes": "All follow « il faut que … » / « que … ».",
+        "common_mistakes": [
+          "using the indicative form after a subjunctive trigger"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn être/avoir/faire/aller/pouvoir subjunctives by heart.",
+        "pattern": "Irregular stem + subjunctive endings.",
+        "similar": [
+          "Il faut que je sois là.",
+          "Il faut qu’il fasse le suivi."
+        ]
+      }
+    },
+    {
+      "id": "itm_of28_subjonctif_2",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 38,
+      "irtB": 0.4,
+      "prompt": {
+        "fr": "Subjonctif : « Il faut que tu ___ (aller) au bureau du directeur. »",
+        "instructions_en": "Subjunctive of aller, tu."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "ailles"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « il faut que », aller → aille-: tu → « ailles ».",
+        "distractor_why": {
+          "indicative": "« vas » is the indicative.",
+          "wrong_stem": "aller uses the irregular subjunctive stem aill-."
+        },
+        "grammar_rule": "aller subjunctive: aille, ailles, aille, allions, alliez, aillent.",
+        "vocab_notes": "au bureau de = to the office of.",
+        "common_mistakes": [
+          "using « vas » after il faut que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que tu ailles.",
+        "pattern": "Trigger + que + subjunctive.",
+        "similar": [
+          "Il faut que j’aille.",
+          "Il faut que vous alliez."
+        ]
+      }
+    },
+    {
+      "id": "itm_of28_subjonctif_3",
+      "objectiveId": "OF28",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 32,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Indicatif ou subjonctif ? « Je veux que tu ___ le rapport avant midi. »",
+        "instructions_en": "vouloir que → which mood (finir)?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finisses"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finisses",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "indicative"
+        },
+        {
+          "value": "finiras",
+          "tag": "future"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« vouloir que » triggers the subjunctive: tu finisses.",
+        "distractor_why": {
+          "indicative": "« finis » is the indicative.",
+          "future": "« finiras » is the future indicative."
+        },
+        "grammar_rule": "Verbs of will (vouloir/souhaiter que) take the subjunctive.",
+        "vocab_notes": "avant midi = before noon.",
+        "common_mistakes": [
+          "using the indicative/future after vouloir que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "want that → subjunctive.",
+        "pattern": "vouloir que + subjunctive.",
+        "similar": [
+          "Je veux qu’il vienne.",
+          "Elle souhaite que nous soyons prêts."
+        ]
+      }
+    },
+    {
+      "id": "itm_of28_subjonctif_4",
+      "objectiveId": "OF28",
+      "skill": "writing",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [
+        "administration",
+        "government"
+      ],
+      "theme": "instructions",
+      "difficulty": "advanced",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.7,
+      "prompt": {
+        "fr": "Remettez dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Il faut",
+          "que",
+          "nous",
+          "soyons",
+          "à l’heure"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Il faut que nous soyons à l’heure"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Il faut que » + subjunctive of être (soyons) = « Il faut que nous soyons à l’heure ».",
+        "distractor_why": {},
+        "grammar_rule": "Necessity + que + subjunctive.",
+        "vocab_notes": "à l’heure = on time.",
+        "common_mistakes": [
+          "using « sommes » instead of « soyons »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut que … soyons.",
+        "pattern": "Il faut que + subject + subjunctive.",
+        "similar": [
+          "Il faut que vous soyez disponibles.",
+          "Il faut qu’il ait le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of28_subjonctif_5",
+      "objectiveId": "OF28",
       "skill": "writing",
       "grammarConcepts": [
         "subjonctif"
@@ -58,7 +286,7 @@
       }
     },
     {
-      "id": "itm_of28_subjonctif_2",
+      "id": "itm_of28_subjonctif_6",
       "objectiveId": "OF28",
       "skill": "grammar",
       "grammarConcepts": [
@@ -122,114 +350,6 @@
         "similar": [
           "Il faut qu’il ait le dossier.",
           "Il faut que tu fasses le suivi."
-        ]
-      }
-    },
-    {
-      "id": "itm_of28_subjonctif_3",
-      "objectiveId": "OF28",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "subjonctif"
-      ],
-      "vocabDomains": [
-        "administration",
-        "government"
-      ],
-      "theme": "instructions",
-      "difficulty": "advanced",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.7,
-      "prompt": {
-        "fr": "Indicatif ou subjonctif ? « Je pense qu’il ___ raison. »",
-        "instructions_en": "Penser que (affirmative) → which mood?"
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "a"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "a",
-          "tag": "correct"
-        },
-        {
-          "value": "ait",
-          "tag": "subjunctive_wrong"
-        }
-      ],
-      "explanation": {
-        "correct_why": "« Je pense que » (affirmative opinion) expresses certainty → indicative « a ». The subjunctive appears with doubt/negation (« Je ne pense pas qu’il ait raison »).",
-        "distractor_why": {
-          "subjunctive_wrong": "The subjunctive « ait » is used after doubt or negation, not after affirmative « je pense que »."
-        },
-        "grammar_rule": "penser/croire que (affirmative) → indicative; ne pas penser que / douter que → subjunctive.",
-        "vocab_notes": "avoir raison = to be right.",
-        "common_mistakes": [
-          "over-using the subjunctive after every que"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Certainty → indicative; doubt/negation → subjunctive.",
-        "pattern": "Affirmative opinion = indicative.",
-        "similar": [
-          "Je crois qu’il vient.",
-          "Je ne crois pas qu’il vienne."
-        ]
-      }
-    },
-    {
-      "id": "itm_of28_subjonctif_4",
-      "objectiveId": "OF28",
-      "skill": "writing",
-      "grammarConcepts": [
-        "subjonctif"
-      ],
-      "vocabDomains": [
-        "administration",
-        "government"
-      ],
-      "theme": "instructions",
-      "difficulty": "advanced",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 40,
-      "irtB": 0.8,
-      "prompt": {
-        "fr": "Subjonctif : « Le gestionnaire veut que nous ___ (faire) le suivi. »",
-        "instructions_en": "Subjunctive of faire, nous."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "fassions"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "« vouloir que » triggers the subjunctive; faire → fass-, nous → « fassions ».",
-        "distractor_why": {
-          "indicative": "« faisons » is the indicative.",
-          "wrong_stem": "faire uses the irregular subjunctive stem fass-."
-        },
-        "grammar_rule": "faire subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent.",
-        "vocab_notes": "faire le suivi = to follow up.",
-        "common_mistakes": [
-          "using the indicative faisons after vouloir que"
-        ]
-      },
-      "tip": {
-        "memory_aid": "veut que → subjunctive; faire → fass-.",
-        "pattern": "Verb of will + que + subjunctive.",
-        "similar": [
-          "Il veut que je fasse le rapport.",
-          "Elle souhaite que vous fassiez le point."
         ]
       }
     }

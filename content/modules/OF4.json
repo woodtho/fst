@@ -56,37 +56,45 @@
             "itm_of4_present_1",
             "itm_of4_present_2",
             "itm_of4_present_3",
-            "itm_of4_present_4"
+            "itm_of4_present_4",
+            "itm_of4_present_5",
+            "itm_of4_present_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les adjectifs",
           "itemRefs": [
-            "itm_of4_adjectives_5",
-            "itm_of4_adjectives_6",
             "itm_of4_adjectives_7",
-            "itm_of4_adjectives_8"
+            "itm_of4_adjectives_8",
+            "itm_of4_adjectives_9",
+            "itm_of4_adjectives_10",
+            "itm_of4_adjectives_11",
+            "itm_of4_adjectives_12"
           ],
           "type": "mixed"
         },
         {
           "title": "Les accords",
           "itemRefs": [
-            "itm_of4_agreement_9",
-            "itm_of4_agreement_10",
-            "itm_of4_agreement_11",
-            "itm_of4_agreement_12"
+            "itm_of4_agreement_13",
+            "itm_of4_agreement_14",
+            "itm_of4_agreement_15",
+            "itm_of4_agreement_16",
+            "itm_of4_agreement_17",
+            "itm_of4_agreement_18"
           ],
           "type": "mixed"
         },
         {
           "title": "Les pronoms",
           "itemRefs": [
-            "itm_of4_pronouns_13",
-            "itm_of4_pronouns_14",
-            "itm_of4_pronouns_15",
-            "itm_of4_pronouns_16"
+            "itm_of4_pronouns_19",
+            "itm_of4_pronouns_20",
+            "itm_of4_pronouns_21",
+            "itm_of4_pronouns_22",
+            "itm_of4_pronouns_23",
+            "itm_of4_pronouns_24"
           ],
           "type": "mixed"
         }
@@ -126,11 +134,11 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 560,
+      "timedSeconds": 490,
       "blueprint": {
-        "easy": 4,
-        "medium": 10,
-        "advanced": 2
+        "easy": 6,
+        "medium": 5,
+        "advanced": 3
       },
       "drawFrom": [
         "OF4"

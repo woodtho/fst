@@ -10,74 +10,6 @@
     {
       "id": "itm_of6_present_1",
       "objectiveId": "OF6",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "present"
-      ],
-      "vocabDomains": [
-        "administration",
-        "scheduling"
-      ],
-      "theme": "scheduling",
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
-        "instructions_en": "Choose the present tense of finir (3rd person singular)."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "finit"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "finit",
-          "tag": "correct"
-        },
-        {
-          "value": "finis",
-          "tag": "wrong_person"
-        },
-        {
-          "value": "finissent",
-          "tag": "plural"
-        },
-        {
-          "value": "finir",
-          "tag": "infinitive"
-        }
-      ],
-      "explanation": {
-        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
-        "distractor_why": {
-          "wrong_person": "« finis » is je/tu.",
-          "plural": "« finissent » is ils/elles.",
-          "infinitive": "« finir » is the infinitive."
-        },
-        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
-        "vocab_notes": "le comité = the committee (singular).",
-        "common_mistakes": [
-          "treating a collective noun as plural"
-        ]
-      },
-      "tip": {
-        "memory_aid": "il/elle → -it for -ir verbs.",
-        "pattern": "Collective nouns (comité, équipe) take the singular.",
-        "similar": [
-          "Elle finit la tâche.",
-          "Le ministère choisit un fournisseur."
-        ]
-      }
-    },
-    {
-      "id": "itm_of6_present_2",
-      "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
         "present"
@@ -88,40 +20,104 @@
       ],
       "theme": "scheduling",
       "difficulty": "medium",
-      "type": "error_correction",
+      "type": "sentence_build",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": 0.2,
+      "estTimeSec": 40,
+      "irtB": 0,
       "prompt": {
-        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
-        "instructions_en": "Fix the verb/agreement error."
+        "fr": "Remettez les mots dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Je",
+          "prépare",
+          "l’ordre du jour",
+          "de la réunion"
+        ]
       },
       "answer": {
-        "type": "text",
+        "type": "sequence",
         "accepted": [
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
-          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+          "Je prépare l’ordre du jour de la réunion"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
-        "distractor_why": {
-          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
-        },
-        "grammar_rule": "Negation in standard French: ne + verb + pas.",
-        "vocab_notes": "disponible = available.",
+        "correct_why": "Order: subject + present verb + object + complement → « Je prépare l’ordre du jour de la réunion ».",
+        "distractor_why": {},
+        "grammar_rule": "Basic French word order: subject + verb + object.",
+        "vocab_notes": "l’ordre du jour = the agenda.",
         "common_mistakes": [
-          "omitting ne in writing"
+          "splitting the noun phrase « l’ordre du jour »"
         ]
       },
       "tip": {
-        "memory_aid": "Writing keeps the « ne ».",
-        "pattern": "ne (n’) + verb + pas.",
+        "memory_aid": "S-V-O, then details.",
+        "pattern": "subject + verb + object + (de…).",
         "similar": [
-          "Il n’est pas là.",
-          "Ce n’est pas possible."
+          "Je vérifie les chiffres du rapport.",
+          "Elle envoie le compte rendu de la séance."
+        ]
+      }
+    },
+    {
+      "id": "itm_of6_present_2",
+      "objectiveId": "OF6",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Associez chaque sujet à la forme du verbe ÊTRE.",
+        "instructions_en": "Match the subject to its être form.",
+        "left": [
+          "je",
+          "tu",
+          "nous",
+          "vous",
+          "ils"
+        ],
+        "right": [
+          "suis",
+          "es",
+          "sommes",
+          "êtes",
+          "sont"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "suis es sommes êtes sont"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "je suis, tu es, nous sommes, vous êtes, ils sont.",
+        "distractor_why": {},
+        "grammar_rule": "être présent: suis, es, est, sommes, êtes, sont.",
+        "vocab_notes": "être = to be.",
+        "common_mistakes": [
+          "swapping êtes (vous) and sont (ils)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Memorize être as a block.",
+        "pattern": "Each subject → one form.",
+        "similar": [
+          "Je suis analyste.",
+          "Vous êtes le directeur?"
         ]
       }
     },
@@ -244,7 +240,125 @@
       }
     },
     {
-      "id": "itm_of6_question_formation_5",
+      "id": "itm_of6_present_5",
+      "objectiveId": "OF6",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 25,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
+        "instructions_en": "Choose the present tense of finir (3rd person singular)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "finit"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "finit",
+          "tag": "correct"
+        },
+        {
+          "value": "finis",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "finissent",
+          "tag": "plural"
+        },
+        {
+          "value": "finir",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
+        "distractor_why": {
+          "wrong_person": "« finis » is je/tu.",
+          "plural": "« finissent » is ils/elles.",
+          "infinitive": "« finir » is the infinitive."
+        },
+        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
+        "vocab_notes": "le comité = the committee (singular).",
+        "common_mistakes": [
+          "treating a collective noun as plural"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il/elle → -it for -ir verbs.",
+        "pattern": "Collective nouns (comité, équipe) take the singular.",
+        "similar": [
+          "Elle finit la tâche.",
+          "Le ministère choisit un fournisseur."
+        ]
+      }
+    },
+    {
+      "id": "itm_of6_present_6",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Corrigez : « Je suis d’accord, mais elle est pas disponible aujourd’hui. »",
+        "instructions_en": "Fix the verb/agreement error."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui",
+          "Je suis d’accord, mais elle n’est pas disponible aujourd’hui."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Negation needs « ne » (n’) before the verb: « elle n’est pas disponible ».",
+        "distractor_why": {
+          "missing_ne": "Dropping « ne » is informal speech; in writing use « n’est pas »."
+        },
+        "grammar_rule": "Negation in standard French: ne + verb + pas.",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "omitting ne in writing"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Writing keeps the « ne ».",
+        "pattern": "ne (n’) + verb + pas.",
+        "similar": [
+          "Il n’est pas là.",
+          "Ce n’est pas possible."
+        ]
+      }
+    },
+    {
+      "id": "itm_of6_question_formation_7",
       "objectiveId": "OF6",
       "skill": "grammar",
       "grammarConcepts": [
@@ -255,59 +369,64 @@
         "scheduling"
       ],
       "theme": "scheduling",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "type": "mcq_single",
       "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.3,
+      "estTimeSec": 25,
+      "irtB": -0.2,
       "prompt": {
-        "fr": "Choisissez : « ___ tu fais cet après-midi? » (what are you doing)",
-        "instructions_en": "Choose the question word for 'what'."
+        "fr": "Mot interrogatif : « ___ est le bureau de Mme Roy? »",
+        "instructions_en": "Choose the question word for a place."
       },
       "answer": {
         "type": "choice",
         "accepted": [
-          "Qu’est-ce que"
+          "Où"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [
         {
-          "value": "Qu’est-ce que",
+          "value": "Où",
           "tag": "correct"
         },
         {
-          "value": "Qui est-ce que",
+          "value": "Quand",
+          "tag": "when"
+        },
+        {
+          "value": "Qui",
           "tag": "who"
         },
         {
-          "value": "Quel",
-          "tag": "which"
+          "value": "Comment",
+          "tag": "how"
         }
       ],
       "explanation": {
-        "correct_why": "« Qu’est-ce que » asks 'what' (object): « Qu’est-ce que tu fais? ».",
+        "correct_why": "Asking for a place → « Où »: « Où est le bureau? ».",
         "distractor_why": {
-          "who": "« Qui est-ce que » asks 'whom' (a person).",
-          "which": "« Quel » needs a noun (quel projet)."
+          "when": "« Quand » asks about time.",
+          "who": "« Qui » asks about a person.",
+          "how": "« Comment » asks about manner."
         },
-        "grammar_rule": "Qu’est-ce que = what (object of the verb).",
-        "vocab_notes": "faire = to do/make.",
+        "grammar_rule": "Où = where (place).",
+        "vocab_notes": "le bureau = office.",
         "common_mistakes": [
-          "using quel without a noun for 'what'"
+          "confusing où (where) and quand (when)"
         ]
       },
       "tip": {
-        "memory_aid": "What + verb → Qu’est-ce que.",
-        "pattern": "Qu’est-ce que + subject + verb.",
+        "memory_aid": "Où = where (with accent).",
+        "pattern": "Place question → où.",
         "similar": [
-          "Qu’est-ce que vous proposez?",
-          "Qu’est-ce qu’il veut?"
+          "Où travaillez-vous?",
+          "Où est la salle?"
         ]
       }
     },
     {
-      "id": "itm_of6_question_formation_6",
+      "id": "itm_of6_question_formation_8",
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
@@ -321,43 +440,43 @@
       "difficulty": "advanced",
       "type": "error_correction",
       "status": "live",
-      "estTimeSec": 35,
+      "estTimeSec": 34,
       "irtB": 0.6,
       "prompt": {
-        "fr": "Corrigez : « Est-ce que est le directeur disponible? »",
-        "instructions_en": "Fix the question structure."
+        "fr": "Corrigez : « Pourquoi est-ce que vous voulez ce poste? » → réponse avec « parce que » : « Je veux ce poste ___ il correspond à mes compétences. »",
+        "instructions_en": "Complete the reason with the right connector."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "Est-ce que le directeur est disponible?",
-          "Est-ce que le directeur est disponible"
+          "parce qu’"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "After « est-ce que » keep normal word order (subject + verb): « Est-ce que le directeur est disponible? ».",
+        "correct_why": "« pourquoi » is answered with « parce que » (parce qu’ before a vowel): « parce qu’il correspond… ».",
         "distractor_why": {
-          "inverted_after_estceque": "Don't invert after est-ce que; keep subject-verb order."
+          "pour": "« pour » introduces a goal, not a stated reason here.",
+          "car": "« car » is possible but more formal/written and not elided to qu’."
         },
-        "grammar_rule": "Est-ce que + [subject + verb] + ?",
-        "vocab_notes": "disponible = available.",
+        "grammar_rule": "pourquoi ↔ parce que (because).",
+        "vocab_notes": "correspondre à = to match.",
         "common_mistakes": [
-          "inverting the verb after est-ce que"
+          "answering pourquoi without parce que"
         ]
       },
       "tip": {
-        "memory_aid": "After est-ce que, nothing flips.",
-        "pattern": "Est-ce que + statement order.",
+        "memory_aid": "pourquoi → parce que.",
+        "pattern": "Question/answer pairs: pourquoi/parce que.",
         "similar": [
-          "Est-ce que la salle est libre?",
-          "Est-ce qu’il a le rapport?"
+          "Parce que c’est urgent.",
+          "Parce qu’il est absent."
         ]
       }
     },
     {
-      "id": "itm_of6_question_formation_7",
+      "id": "itm_of6_question_formation_9",
       "objectiveId": "OF6",
       "skill": "writing",
       "grammarConcepts": [
@@ -409,7 +528,7 @@
       }
     },
     {
-      "id": "itm_of6_question_formation_8",
+      "id": "itm_of6_question_formation_10",
       "objectiveId": "OF6",
       "skill": "grammar",
       "grammarConcepts": [
@@ -473,6 +592,119 @@
         "similar": [
           "Quelle heure est-il?",
           "Quels sont les délais?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of6_question_formation_11",
+      "objectiveId": "OF6",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Choisissez : « ___ tu fais cet après-midi? » (what are you doing)",
+        "instructions_en": "Choose the question word for 'what'."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Qu’est-ce que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Qu’est-ce que",
+          "tag": "correct"
+        },
+        {
+          "value": "Qui est-ce que",
+          "tag": "who"
+        },
+        {
+          "value": "Quel",
+          "tag": "which"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« Qu’est-ce que » asks 'what' (object): « Qu’est-ce que tu fais? ».",
+        "distractor_why": {
+          "who": "« Qui est-ce que » asks 'whom' (a person).",
+          "which": "« Quel » needs a noun (quel projet)."
+        },
+        "grammar_rule": "Qu’est-ce que = what (object of the verb).",
+        "vocab_notes": "faire = to do/make.",
+        "common_mistakes": [
+          "using quel without a noun for 'what'"
+        ]
+      },
+      "tip": {
+        "memory_aid": "What + verb → Qu’est-ce que.",
+        "pattern": "Qu’est-ce que + subject + verb.",
+        "similar": [
+          "Qu’est-ce que vous proposez?",
+          "Qu’est-ce qu’il veut?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of6_question_formation_12",
+      "objectiveId": "OF6",
+      "skill": "writing",
+      "grammarConcepts": [
+        "question_formation"
+      ],
+      "vocabDomains": [
+        "administration",
+        "scheduling"
+      ],
+      "theme": "scheduling",
+      "difficulty": "advanced",
+      "type": "error_correction",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": 0.6,
+      "prompt": {
+        "fr": "Corrigez : « Est-ce que est le directeur disponible? »",
+        "instructions_en": "Fix the question structure."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Est-ce que le directeur est disponible?",
+          "Est-ce que le directeur est disponible"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "After « est-ce que » keep normal word order (subject + verb): « Est-ce que le directeur est disponible? ».",
+        "distractor_why": {
+          "inverted_after_estceque": "Don't invert after est-ce que; keep subject-verb order."
+        },
+        "grammar_rule": "Est-ce que + [subject + verb] + ?",
+        "vocab_notes": "disponible = available.",
+        "common_mistakes": [
+          "inverting the verb after est-ce que"
+        ]
+      },
+      "tip": {
+        "memory_aid": "After est-ce que, nothing flips.",
+        "pattern": "Est-ce que + statement order.",
+        "similar": [
+          "Est-ce que la salle est libre?",
+          "Est-ce qu’il a le rapport?"
         ]
       }
     }

@@ -182,6 +182,67 @@
     {
       "id": "itm_of9_passe_compose_4",
       "objectiveId": "OF9",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Associez l’infinitif à son participe passé.",
+        "instructions_en": "Match each verb to its past participle.",
+        "left": [
+          "faire",
+          "prendre",
+          "écrire",
+          "recevoir",
+          "mettre"
+        ],
+        "right": [
+          "fait",
+          "pris",
+          "écrit",
+          "reçu",
+          "mis"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "fait pris écrit reçu mis"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire→fait, prendre→pris, écrire→écrit, recevoir→reçu, mettre→mis.",
+        "distractor_why": {},
+        "grammar_rule": "Many high-frequency verbs have irregular participles to memorize.",
+        "vocab_notes": "These five appear constantly in workplace writing.",
+        "common_mistakes": [
+          "regularizing (e.g. « prendu » instead of « pris »)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn irregular participles in pairs.",
+        "pattern": "Irregular participle ≠ infinitive stem.",
+        "similar": [
+          "J’ai fait le suivi.",
+          "J’ai mis à jour le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of9_passe_compose_5",
+      "objectiveId": "OF9",
       "skill": "writing",
       "grammarConcepts": [
         "passe_compose"
@@ -195,44 +256,105 @@
       "type": "fill_blank",
       "status": "live",
       "estTimeSec": 35,
-      "irtB": -0.3,
+      "irtB": -0.2,
       "prompt": {
-        "fr": "Mettez au passé composé : « Hier, j’___ (terminer) le dossier. »",
-        "instructions_en": "Passé composé with avoir."
+        "fr": "Passé composé : « Nous ___ (attendre) la décision. »",
+        "instructions_en": "Passé composé with avoir (-re verb)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "ai terminé"
+          "avons attendu"
         ],
-        "normalizer": "fr_accent_insensitive_trim_lower",
-        "regex": "^ai termin[ée]$"
+        "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "avoir (ai) + participe passé (terminé) = « ai terminé ». No agreement under avoir without a preceding object.",
+        "correct_why": "avoir (avons) + participle attendu (-re→-u) = « avons attendu ».",
         "distractor_why": {
-          "infinitive": "« ai terminer » uses the infinitive; need the participle terminé.",
-          "agreement": "« ai terminée » adds agreement, but no preceding direct object here."
+          "wrong_pp": "-re verbs give -u participles: attendre → attendu.",
+          "infinitive": "« avons attendre » uses the infinitive."
         },
-        "grammar_rule": "Passé composé = auxiliaire au présent + participe passé.",
-        "vocab_notes": "terminer → terminé.",
+        "grammar_rule": "-re participle = -u (vendu, attendu, répondu).",
+        "vocab_notes": "attendre = to wait (for).",
         "common_mistakes": [
-          "infinitive for participle",
-          "needless agreement under avoir"
+          "wrong participle ending for -re verbs"
         ]
       },
       "tip": {
-        "memory_aid": "Participle -é (not -er).",
-        "pattern": "avoir + participe → no agreement.",
+        "memory_aid": "-re → -u participle.",
+        "pattern": "avoir + -u participle.",
         "similar": [
-          "J’ai préparé l’ordre du jour.",
-          "J’ai envoyé le courriel."
+          "J’ai répondu au courriel.",
+          "Nous avons vendu l’équipement."
         ]
       }
     },
     {
-      "id": "itm_of9_imparfait_5",
+      "id": "itm_of9_passe_compose_6",
+      "objectiveId": "OF9",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Choisissez : « Elle ___ venue à la réunion. »",
+        "instructions_en": "Auxiliary + agreement."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "est"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "est",
+          "tag": "correct"
+        },
+        {
+          "value": "a",
+          "tag": "avoir_for_etre"
+        },
+        {
+          "value": "es",
+          "tag": "person"
+        }
+      ],
+      "explanation": {
+        "correct_why": "venir takes être → « est », participle agrees: venue (f.).",
+        "distractor_why": {
+          "avoir_for_etre": "venir uses être, not avoir.",
+          "person": "« es » is the tu form."
+        },
+        "grammar_rule": "venir is an être-verb; the participle agrees with the subject.",
+        "vocab_notes": "venir → venu(e).",
+        "common_mistakes": [
+          "using avoir with venir"
+        ]
+      },
+      "tip": {
+        "memory_aid": "venir/devenir/revenir → être.",
+        "pattern": "être + agreeing participle.",
+        "similar": [
+          "Il est revenu.",
+          "Elles sont devenues gestionnaires."
+        ]
+      }
+    },
+    {
+      "id": "itm_of9_imparfait_7",
       "objectiveId": "OF9",
       "skill": "grammar",
       "grammarConcepts": [
@@ -295,7 +417,7 @@
       }
     },
     {
-      "id": "itm_of9_imparfait_6",
+      "id": "itm_of9_imparfait_8",
       "objectiveId": "OF9",
       "skill": "writing",
       "grammarConcepts": [
@@ -345,7 +467,7 @@
       }
     },
     {
-      "id": "itm_of9_imparfait_7",
+      "id": "itm_of9_imparfait_9",
       "objectiveId": "OF9",
       "skill": "grammar",
       "grammarConcepts": [
@@ -408,7 +530,7 @@
       }
     },
     {
-      "id": "itm_of9_imparfait_8",
+      "id": "itm_of9_imparfait_10",
       "objectiveId": "OF9",
       "skill": "writing",
       "grammarConcepts": [
@@ -422,43 +544,159 @@
       "difficulty": "easy",
       "type": "fill_blank",
       "status": "live",
-      "estTimeSec": 35,
-      "irtB": -0.2,
+      "estTimeSec": 32,
+      "irtB": -0.3,
       "prompt": {
-        "fr": "Mettez à l’imparfait : « Avant, je ___ (travailler) à Montréal. »",
-        "instructions_en": "Imperfect, je form."
+        "fr": "Imparfait : « Nous ___ (avoir) plus de personnel à l’époque. »",
+        "instructions_en": "Imperfect of avoir, nous."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "travaillais"
+          "avions"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Stem travaill- + -ais (je) = « travaillais ».",
+        "correct_why": "avoir nous-stem av- + -ions = « avions ».",
         "distractor_why": {
-          "present": "« travaille » is the present.",
-          "passe_compose": "« ai travaillé » is the passé composé."
+          "present": "« avons » is present.",
+          "wrong": "« avaisons » is not a form."
         },
-        "grammar_rule": "Imparfait je → radical + -ais.",
-        "vocab_notes": "Avant = before/previously (signals habit → imparfait).",
+        "grammar_rule": "Imparfait stem = nous-present minus -ons (avons→av-).",
+        "vocab_notes": "à l’époque = at the time.",
         "common_mistakes": [
-          "using present or passé composé for a past habit"
+          "confusing avions (imparfait) with avons (present)"
         ]
       },
       "tip": {
-        "memory_aid": "Habit/background in the past → imparfait.",
-        "pattern": "nous-stem + -ais/-ait…",
+        "memory_aid": "av- + -ions = avions.",
+        "pattern": "nous-stem + -ions.",
         "similar": [
-          "Avant, il habitait à Québec.",
-          "Nous travaillions ensemble."
+          "Nous étions en réunion.",
+          "Nous faisions le suivi."
         ]
       }
     },
     {
-      "id": "itm_of9_futur_proche_9",
+      "id": "itm_of9_imparfait_11",
+      "objectiveId": "OF9",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Description ou événement ? « Il ___ beau et tout le monde était de bonne humeur. »",
+        "instructions_en": "Setting/description → which form?"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "faisait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "faisait",
+          "tag": "correct"
+        },
+        {
+          "value": "a fait",
+          "tag": "pc"
+        },
+        {
+          "value": "fait",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Weather/setting in the past is description → imparfait « faisait ».",
+        "distractor_why": {
+          "pc": "Passé composé marks a completed event, not a description.",
+          "present": "« fait » is present."
+        },
+        "grammar_rule": "Descriptions and settings in the past use the imparfait.",
+        "vocab_notes": "il fait beau = the weather is nice.",
+        "common_mistakes": [
+          "using passé composé for weather/description"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Scenery/weather → imparfait.",
+        "pattern": "Description = imparfait.",
+        "similar": [
+          "C’était calme.",
+          "Il y avait beaucoup de monde."
+        ]
+      }
+    },
+    {
+      "id": "itm_of9_imparfait_12",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "easy",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 38,
+      "irtB": -0.1,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (imparfait).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Avant",
+          "je",
+          "travaillais",
+          "à Québec"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Avant je travaillais à Québec"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« Avant » signals a past habit/situation → imparfait: « Avant, je travaillais à Québec ».",
+        "distractor_why": {},
+        "grammar_rule": "Past habit markers (avant, autrefois) cue the imparfait.",
+        "vocab_notes": "Avant = before/previously.",
+        "common_mistakes": [
+          "using passé composé with « avant » for a habit"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Avant + imparfait.",
+        "pattern": "[time] + subject + imparfait.",
+        "similar": [
+          "Autrefois, nous habitions Ottawa.",
+          "Avant, elle dirigeait l’équipe."
+        ]
+      }
+    },
+    {
+      "id": "itm_of9_futur_proche_13",
       "objectiveId": "OF9",
       "skill": "grammar",
       "grammarConcepts": [
@@ -526,7 +764,7 @@
       }
     },
     {
-      "id": "itm_of9_futur_proche_10",
+      "id": "itm_of9_futur_proche_14",
       "objectiveId": "OF9",
       "skill": "writing",
       "grammarConcepts": [
@@ -576,7 +814,7 @@
       }
     },
     {
-      "id": "itm_of9_futur_proche_11",
+      "id": "itm_of9_futur_proche_15",
       "objectiveId": "OF9",
       "skill": "grammar",
       "grammarConcepts": [
@@ -639,7 +877,61 @@
       }
     },
     {
-      "id": "itm_of9_futur_proche_12",
+      "id": "itm_of9_futur_proche_16",
+      "objectiveId": "OF9",
+      "skill": "writing",
+      "grammarConcepts": [
+        "futur_proche"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "easy",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 38,
+      "irtB": -0.4,
+      "prompt": {
+        "fr": "Remettez dans l’ordre (futur proche).",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Demain",
+          "nous",
+          "allons",
+          "commencer",
+          "le projet"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Demain nous allons commencer le projet"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Futur proche = aller + infinitive: « Demain, nous allons commencer le projet ».",
+        "distractor_why": {},
+        "grammar_rule": "aller (conjugated) + infinitive.",
+        "vocab_notes": "demain = tomorrow.",
+        "common_mistakes": [
+          "conjugating « commencer »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aller + infinitive (unchanged).",
+        "pattern": "[time] + aller + infinitive.",
+        "similar": [
+          "Je vais envoyer le rapport.",
+          "Ils vont arriver bientôt."
+        ]
+      }
+    },
+    {
+      "id": "itm_of9_futur_proche_17",
       "objectiveId": "OF9",
       "skill": "writing",
       "grammarConcepts": [
@@ -654,43 +946,105 @@
       "type": "fill_blank",
       "status": "live",
       "estTimeSec": 30,
-      "irtB": -0.4,
+      "irtB": -0.3,
       "prompt": {
-        "fr": "Futur proche : « Demain, je ___ (envoyer) le rapport. »",
-        "instructions_en": "Use aller + infinitive."
+        "fr": "Futur proche : « Il ___ (préparer) la présentation cet après-midi. »",
+        "instructions_en": "aller + infinitive, il."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "vais envoyer"
+          "va préparer"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Futur proche = aller (je vais) + infinitive (envoyer) → « vais envoyer ».",
+        "correct_why": "aller (va) + infinitive (préparer) = « va préparer ».",
         "distractor_why": {
-          "conjugated_2nd": "Don't conjugate the second verb; it stays infinitive.",
-          "wrong_aller": "Use the je form « vais »."
+          "conjugated": "Keep the second verb in the infinitive.",
+          "wrong_aller": "Use « va » for il/elle."
         },
-        "grammar_rule": "Futur proche = aller au présent + infinitif.",
-        "vocab_notes": "demain = tomorrow.",
+        "grammar_rule": "Futur proche = aller + infinitif.",
+        "vocab_notes": "cet après-midi = this afternoon.",
         "common_mistakes": [
-          "conjugating the infinitive",
-          "wrong aller form"
+          "conjugating the infinitive"
         ]
       },
       "tip": {
-        "memory_aid": "going to + verb = aller + infinitif.",
-        "pattern": "aller (conjugated) + infinitive.",
+        "memory_aid": "va + verb.",
+        "pattern": "aller + infinitive.",
         "similar": [
-          "Il va préparer la réunion.",
-          "Nous allons vérifier les chiffres."
+          "Elle va vérifier les chiffres.",
+          "On va déposer le document."
         ]
       }
     },
     {
-      "id": "itm_of9_futur_simple_13",
+      "id": "itm_of9_futur_proche_18",
+      "objectiveId": "OF9",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_proche"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Quelle phrase exprime une intention proche ?",
+        "instructions_en": "Pick the near-future plan."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "Je vais envoyer le compte rendu après la réunion."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "Je vais envoyer le compte rendu après la réunion.",
+          "tag": "correct"
+        },
+        {
+          "value": "J’envoie le compte rendu chaque semaine.",
+          "tag": "habit"
+        },
+        {
+          "value": "J’ai envoyé le compte rendu.",
+          "tag": "past"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« vais envoyer … après la réunion » is an imminent intention.",
+        "distractor_why": {
+          "habit": "« chaque semaine » = a present habit.",
+          "past": "« ai envoyé » is past."
+        },
+        "grammar_rule": "Futur proche expresses near intentions.",
+        "vocab_notes": "le compte rendu = the minutes/write-up.",
+        "common_mistakes": [
+          "confusing a plan with a habit"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Soon/plan → aller + infinitive.",
+        "pattern": "Time cue + aller + infinitive.",
+        "similar": [
+          "On va se réunir demain.",
+          "Je vais te rappeler."
+        ]
+      }
+    },
+    {
+      "id": "itm_of9_futur_simple_19",
       "objectiveId": "OF9",
       "skill": "grammar",
       "grammarConcepts": [
@@ -758,7 +1112,7 @@
       }
     },
     {
-      "id": "itm_of9_futur_simple_14",
+      "id": "itm_of9_futur_simple_20",
       "objectiveId": "OF9",
       "skill": "writing",
       "grammarConcepts": [
@@ -807,7 +1161,7 @@
       }
     },
     {
-      "id": "itm_of9_futur_simple_15",
+      "id": "itm_of9_futur_simple_21",
       "objectiveId": "OF9",
       "skill": "writing",
       "grammarConcepts": [
@@ -857,7 +1211,69 @@
       }
     },
     {
-      "id": "itm_of9_futur_simple_16",
+      "id": "itm_of9_futur_simple_22",
+      "objectiveId": "OF9",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Associez le verbe à son radical du futur.",
+        "instructions_en": "Match each verb to its future stem.",
+        "left": [
+          "être",
+          "avoir",
+          "aller",
+          "faire",
+          "venir"
+        ],
+        "right": [
+          "ser-",
+          "aur-",
+          "ir-",
+          "fer-",
+          "viendr-"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "ser- aur- ir- fer- viendr-"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "être→ser-, avoir→aur-, aller→ir-, faire→fer-, venir→viendr-.",
+        "distractor_why": {},
+        "grammar_rule": "Irregular future stems take the regular endings -ai/-as/-a/-ons/-ez/-ont.",
+        "vocab_notes": "These are the most common irregular future stems.",
+        "common_mistakes": [
+          "using the infinitive as the stem for irregular verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Same stem for future AND conditional.",
+        "pattern": "Memorize the irregular stems.",
+        "similar": [
+          "je serai",
+          "nous aurons",
+          "il ira"
+        ]
+      }
+    },
+    {
+      "id": "itm_of9_futur_simple_23",
       "objectiveId": "OF9",
       "skill": "writing",
       "grammarConcepts": [
@@ -872,37 +1288,100 @@
       "type": "fill_blank",
       "status": "live",
       "estTimeSec": 35,
-      "irtB": 0.1,
+      "irtB": 0.2,
       "prompt": {
-        "fr": "Futur simple : « La semaine prochaine, nous ___ (terminer) le projet. »",
-        "instructions_en": "Simple future, nous form."
+        "fr": "Futur simple : « Nous ___ (prendre) une décision demain. »",
+        "instructions_en": "Simple future, nous (-re verb)."
       },
       "answer": {
         "type": "text",
         "accepted": [
-          "terminerons"
+          "prendrons"
         ],
         "normalizer": "fr_accent_insensitive_trim_lower"
       },
       "distractors": [],
       "explanation": {
-        "correct_why": "Infinitive terminer + -ons (nous) = « terminerons ».",
+        "correct_why": "-re verbs drop the final -e: prendre→prendr- + -ons = « prendrons ».",
         "distractor_why": {
-          "present": "« terminons » is present.",
-          "conditional": "« terminerions » is the conditional."
+          "kept_e": "Drop the -e of -re verbs before the ending.",
+          "present": "« prenons » is present."
         },
-        "grammar_rule": "Futur simple = infinitif + -ai/-as/-a/-ons/-ez/-ont.",
-        "vocab_notes": "la semaine prochaine = next week.",
+        "grammar_rule": "-re verbs: drop final -e, then add future endings.",
+        "vocab_notes": "prendre une décision = to make a decision.",
         "common_mistakes": [
-          "confusing future -ons with conditional -ions"
+          "keeping the -e (prendre+ons)"
         ]
       },
       "tip": {
-        "memory_aid": "Future stem = the infinitive itself.",
-        "pattern": "infinitive + future endings.",
+        "memory_aid": "-re → drop e, then -ai/-ons…",
+        "pattern": "prendr- + ending.",
         "similar": [
-          "Je vérifierai les chiffres.",
-          "Ils prépareront le dossier."
+          "Je répondrai demain.",
+          "Ils attendront le rapport."
+        ]
+      }
+    },
+    {
+      "id": "itm_of9_futur_simple_24",
+      "objectiveId": "OF9",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "futur_simple"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "daily_life",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Futur : « L’an prochain, elle ___ (aller) à Ottawa. »",
+        "instructions_en": "Simple future of aller (irregular stem)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "ira"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "ira",
+          "tag": "correct"
+        },
+        {
+          "value": "allera",
+          "tag": "regularized"
+        },
+        {
+          "value": "va",
+          "tag": "present"
+        }
+      ],
+      "explanation": {
+        "correct_why": "aller has the irregular future stem ir-: elle → « ira ».",
+        "distractor_why": {
+          "regularized": "« allera » wrongly uses the infinitive stem; aller→ir-.",
+          "present": "« va » is present."
+        },
+        "grammar_rule": "aller future: irai, iras, ira, irons, irez, iront.",
+        "vocab_notes": "l’an prochain = next year.",
+        "common_mistakes": [
+          "regularizing the future stem of aller"
+        ]
+      },
+      "tip": {
+        "memory_aid": "aller → ir- (j’irai).",
+        "pattern": "Irregular stem + regular endings.",
+        "similar": [
+          "J’irai demain.",
+          "Nous irons ensemble."
         ]
       }
     }

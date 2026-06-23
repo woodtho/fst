@@ -240,7 +240,123 @@
       }
     },
     {
-      "id": "itm_of16_passe_compose_5",
+      "id": "itm_of16_present_5",
+      "objectiveId": "OF16",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 22,
+      "irtB": -0.7,
+      "prompt": {
+        "fr": "Complétez : « Le directeur ___ (vendre) l’ancien équipement. »",
+        "instructions_en": "Present tense of the -re verb (3rd sing.)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "vend"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "vend",
+          "tag": "correct"
+        },
+        {
+          "value": "vends",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "vendent",
+          "tag": "plural"
+        },
+        {
+          "value": "vendre",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "-re verbs drop -re; il/elle has no ending: vendre → « vend ».",
+        "distractor_why": {
+          "wrong_person": "« vends » is je/tu.",
+          "plural": "« vendent » is ils/elles.",
+          "infinitive": "« vendre » is the infinitive."
+        },
+        "grammar_rule": "-re : -s, -s, –, -ons, -ez, -ent (il form has no ending).",
+        "vocab_notes": "vendre = to sell; l’équipement = equipment.",
+        "common_mistakes": [
+          "adding -t or -d ending to the il form of -re verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re il form = bare stem (vend, attend, répond).",
+        "pattern": "il/elle -re → no ending.",
+        "similar": [
+          "Il attend la réponse.",
+          "Elle répond au courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of16_present_6",
+      "objectiveId": "OF16",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.5,
+      "prompt": {
+        "fr": "Mettez au présent : « Nous ___ (choisir) un fournisseur. »",
+        "instructions_en": "Conjugate the -ir verb for nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "choisissons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-ir (type finir) with nous: choisir → chois + issons = « choisissons ».",
+        "distractor_why": {
+          "wrong": "« choisons » drops the -iss- infix required by -ir verbs.",
+          "infinitive": "« choisir » is the infinitive."
+        },
+        "grammar_rule": "-ir verbs: nous -issons, vous -issez, ils -issent (with -iss-).",
+        "vocab_notes": "choisir = to choose; un fournisseur = a supplier.",
+        "common_mistakes": [
+          "dropping the -iss- in the plural of -ir verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-ir plurals add -iss- (finissons, choisissons).",
+        "pattern": "nous -ir → -issons.",
+        "similar": [
+          "Nous finissons à 17 h.",
+          "Ils réfléchissent à l’offre."
+        ]
+      }
+    },
+    {
+      "id": "itm_of16_passe_compose_7",
       "objectiveId": "OF16",
       "skill": "writing",
       "grammarConcepts": [
@@ -291,7 +407,7 @@
       }
     },
     {
-      "id": "itm_of16_passe_compose_6",
+      "id": "itm_of16_passe_compose_8",
       "objectiveId": "OF16",
       "skill": "grammar",
       "grammarConcepts": [
@@ -359,7 +475,7 @@
       }
     },
     {
-      "id": "itm_of16_passe_compose_7",
+      "id": "itm_of16_passe_compose_9",
       "objectiveId": "OF16",
       "skill": "writing",
       "grammarConcepts": [
@@ -410,7 +526,7 @@
       }
     },
     {
-      "id": "itm_of16_passe_compose_8",
+      "id": "itm_of16_passe_compose_10",
       "objectiveId": "OF16",
       "skill": "writing",
       "grammarConcepts": [
@@ -456,6 +572,115 @@
         "similar": [
           "Il a écrit le rapport.",
           "J’ai pris des notes."
+        ]
+      }
+    },
+    {
+      "id": "itm_of16_passe_compose_11",
+      "objectiveId": "OF16",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 60,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Associez l’infinitif à son participe passé.",
+        "instructions_en": "Match each verb to its past participle.",
+        "left": [
+          "faire",
+          "prendre",
+          "écrire",
+          "recevoir",
+          "mettre"
+        ],
+        "right": [
+          "fait",
+          "pris",
+          "écrit",
+          "reçu",
+          "mis"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "fait pris écrit reçu mis"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire→fait, prendre→pris, écrire→écrit, recevoir→reçu, mettre→mis.",
+        "distractor_why": {},
+        "grammar_rule": "Many high-frequency verbs have irregular participles to memorize.",
+        "vocab_notes": "These five appear constantly in workplace writing.",
+        "common_mistakes": [
+          "regularizing (e.g. « prendu » instead of « pris »)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Learn irregular participles in pairs.",
+        "pattern": "Irregular participle ≠ infinitive stem.",
+        "similar": [
+          "J’ai fait le suivi.",
+          "J’ai mis à jour le dossier."
+        ]
+      }
+    },
+    {
+      "id": "itm_of16_passe_compose_12",
+      "objectiveId": "OF16",
+      "skill": "writing",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 35,
+      "irtB": -0.2,
+      "prompt": {
+        "fr": "Passé composé : « Nous ___ (attendre) la décision. »",
+        "instructions_en": "Passé composé with avoir (-re verb)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "avons attendu"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "avoir (avons) + participle attendu (-re→-u) = « avons attendu ».",
+        "distractor_why": {
+          "wrong_pp": "-re verbs give -u participles: attendre → attendu.",
+          "infinitive": "« avons attendre » uses the infinitive."
+        },
+        "grammar_rule": "-re participle = -u (vendu, attendu, répondu).",
+        "vocab_notes": "attendre = to wait (for).",
+        "common_mistakes": [
+          "wrong participle ending for -re verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re → -u participle.",
+        "pattern": "avoir + -u participle.",
+        "similar": [
+          "J’ai répondu au courriel.",
+          "Nous avons vendu l’équipement."
         ]
       }
     }

@@ -52,27 +52,33 @@
             "itm_of5_prepositions_1",
             "itm_of5_prepositions_2",
             "itm_of5_prepositions_3",
-            "itm_of5_prepositions_4"
+            "itm_of5_prepositions_4",
+            "itm_of5_prepositions_5",
+            "itm_of5_prepositions_6"
           ],
           "type": "mixed"
         },
         {
           "title": "La négation",
           "itemRefs": [
-            "itm_of5_negation_5",
-            "itm_of5_negation_6",
             "itm_of5_negation_7",
-            "itm_of5_negation_8"
+            "itm_of5_negation_8",
+            "itm_of5_negation_9",
+            "itm_of5_negation_10",
+            "itm_of5_negation_11",
+            "itm_of5_negation_12"
           ],
           "type": "mixed"
         },
         {
           "title": "Les pronoms",
           "itemRefs": [
-            "itm_of5_pronouns_9",
-            "itm_of5_pronouns_10",
-            "itm_of5_pronouns_11",
-            "itm_of5_pronouns_12"
+            "itm_of5_pronouns_13",
+            "itm_of5_pronouns_14",
+            "itm_of5_pronouns_15",
+            "itm_of5_pronouns_16",
+            "itm_of5_pronouns_17",
+            "itm_of5_pronouns_18"
           ],
           "type": "mixed"
         }
@@ -112,10 +118,10 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 420,
+      "timedSeconds": 490,
       "blueprint": {
-        "easy": 2,
-        "medium": 8,
+        "easy": 3,
+        "medium": 5,
         "advanced": 2
       },
       "drawFrom": [

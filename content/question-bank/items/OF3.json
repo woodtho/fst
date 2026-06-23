@@ -72,6 +72,238 @@
       "difficulty": "easy",
       "type": "mcq_single",
       "status": "live",
+      "estTimeSec": 22,
+      "irtB": -0.7,
+      "prompt": {
+        "fr": "Complétez : « Le directeur ___ (vendre) l’ancien équipement. »",
+        "instructions_en": "Present tense of the -re verb (3rd sing.)."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "vend"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "vend",
+          "tag": "correct"
+        },
+        {
+          "value": "vends",
+          "tag": "wrong_person"
+        },
+        {
+          "value": "vendent",
+          "tag": "plural"
+        },
+        {
+          "value": "vendre",
+          "tag": "infinitive"
+        }
+      ],
+      "explanation": {
+        "correct_why": "-re verbs drop -re; il/elle has no ending: vendre → « vend ».",
+        "distractor_why": {
+          "wrong_person": "« vends » is je/tu.",
+          "plural": "« vendent » is ils/elles.",
+          "infinitive": "« vendre » is the infinitive."
+        },
+        "grammar_rule": "-re : -s, -s, –, -ons, -ez, -ent (il form has no ending).",
+        "vocab_notes": "vendre = to sell; l’équipement = equipment.",
+        "common_mistakes": [
+          "adding -t or -d ending to the il form of -re verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-re il form = bare stem (vend, attend, répond).",
+        "pattern": "il/elle -re → no ending.",
+        "similar": [
+          "Il attend la réponse.",
+          "Elle répond au courriel."
+        ]
+      }
+    },
+    {
+      "id": "itm_of3_present_3",
+      "objectiveId": "OF3",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": -0.5,
+      "prompt": {
+        "fr": "Mettez au présent : « Nous ___ (choisir) un fournisseur. »",
+        "instructions_en": "Conjugate the -ir verb for nous."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "choisissons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "-ir (type finir) with nous: choisir → chois + issons = « choisissons ».",
+        "distractor_why": {
+          "wrong": "« choisons » drops the -iss- infix required by -ir verbs.",
+          "infinitive": "« choisir » is the infinitive."
+        },
+        "grammar_rule": "-ir verbs: nous -issons, vous -issez, ils -issent (with -iss-).",
+        "vocab_notes": "choisir = to choose; un fournisseur = a supplier.",
+        "common_mistakes": [
+          "dropping the -iss- in the plural of -ir verbs"
+        ]
+      },
+      "tip": {
+        "memory_aid": "-ir plurals add -iss- (finissons, choisissons).",
+        "pattern": "nous -ir → -issons.",
+        "similar": [
+          "Nous finissons à 17 h.",
+          "Ils réfléchissent à l’offre."
+        ]
+      }
+    },
+    {
+      "id": "itm_of3_present_4",
+      "objectiveId": "OF3",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "sentence_build",
+      "status": "live",
+      "estTimeSec": 40,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Remettez les mots dans l’ordre.",
+        "instructions_en": "Build the sentence.",
+        "tokens": [
+          "Je",
+          "prépare",
+          "l’ordre du jour",
+          "de la réunion"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "Je prépare l’ordre du jour de la réunion"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Order: subject + present verb + object + complement → « Je prépare l’ordre du jour de la réunion ».",
+        "distractor_why": {},
+        "grammar_rule": "Basic French word order: subject + verb + object.",
+        "vocab_notes": "l’ordre du jour = the agenda.",
+        "common_mistakes": [
+          "splitting the noun phrase « l’ordre du jour »"
+        ]
+      },
+      "tip": {
+        "memory_aid": "S-V-O, then details.",
+        "pattern": "subject + verb + object + (de…).",
+        "similar": [
+          "Je vérifie les chiffres du rapport.",
+          "Elle envoie le compte rendu de la séance."
+        ]
+      }
+    },
+    {
+      "id": "itm_of3_present_5",
+      "objectiveId": "OF3",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "Associez chaque sujet à la forme du verbe ÊTRE.",
+        "instructions_en": "Match the subject to its être form.",
+        "left": [
+          "je",
+          "tu",
+          "nous",
+          "vous",
+          "ils"
+        ],
+        "right": [
+          "suis",
+          "es",
+          "sommes",
+          "êtes",
+          "sont"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "suis es sommes êtes sont"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "je suis, tu es, nous sommes, vous êtes, ils sont.",
+        "distractor_why": {},
+        "grammar_rule": "être présent: suis, es, est, sommes, êtes, sont.",
+        "vocab_notes": "être = to be.",
+        "common_mistakes": [
+          "swapping êtes (vous) and sont (ils)"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Memorize être as a block.",
+        "pattern": "Each subject → one form.",
+        "similar": [
+          "Je suis analyste.",
+          "Vous êtes le directeur?"
+        ]
+      }
+    },
+    {
+      "id": "itm_of3_present_6",
+      "objectiveId": "OF3",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
       "estTimeSec": 20,
       "irtB": -0.9,
       "prompt": {
@@ -126,125 +358,7 @@
       }
     },
     {
-      "id": "itm_of3_present_3",
-      "objectiveId": "OF3",
-      "skill": "writing",
-      "grammarConcepts": [
-        "present"
-      ],
-      "vocabDomains": [
-        "government",
-        "workplace"
-      ],
-      "theme": "workplace",
-      "difficulty": "easy",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "Mettez au présent : « Vous ___ (travailler) à la Direction des opérations. »",
-        "instructions_en": "Conjugate the -er verb for vous."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "travaillez"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "-er verbs take -ez with vous: travailler → « travaillez ».",
-        "distractor_why": {
-          "wrong_ending": "-ons is nous, -ent is ils/elles.",
-          "infinitive": "« travailler » is the infinitive."
-        },
-        "grammar_rule": "vous + -er → -ez.",
-        "vocab_notes": "la Direction des opérations = the Operations Branch.",
-        "common_mistakes": [
-          "using -ons or the infinitive for vous"
-        ]
-      },
-      "tip": {
-        "memory_aid": "vous → -EZ.",
-        "pattern": "Drop -er, add the subject ending.",
-        "similar": [
-          "Vous préparez l’ordre du jour.",
-          "Vous classez les dossiers."
-        ]
-      }
-    },
-    {
-      "id": "itm_of3_present_4",
-      "objectiveId": "OF3",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "present"
-      ],
-      "vocabDomains": [
-        "government",
-        "workplace"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Complétez : « Le comité ___ (finir) le rapport aujourd’hui. »",
-        "instructions_en": "Choose the present tense of finir (3rd person singular)."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "finit"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "finit",
-          "tag": "correct"
-        },
-        {
-          "value": "finis",
-          "tag": "wrong_person"
-        },
-        {
-          "value": "finissent",
-          "tag": "plural"
-        },
-        {
-          "value": "finir",
-          "tag": "infinitive"
-        }
-      ],
-      "explanation": {
-        "correct_why": "« Le comité » is third-person singular; finir → « finit ».",
-        "distractor_why": {
-          "wrong_person": "« finis » is je/tu.",
-          "plural": "« finissent » is ils/elles.",
-          "infinitive": "« finir » is the infinitive."
-        },
-        "grammar_rule": "-ir (finir) : finis, finis, finit, finissons, finissez, finissent.",
-        "vocab_notes": "le comité = the committee (singular).",
-        "common_mistakes": [
-          "treating a collective noun as plural"
-        ]
-      },
-      "tip": {
-        "memory_aid": "il/elle → -it for -ir verbs.",
-        "pattern": "Collective nouns (comité, équipe) take the singular.",
-        "similar": [
-          "Elle finit la tâche.",
-          "Le ministère choisit un fournisseur."
-        ]
-      }
-    },
-    {
-      "id": "itm_of3_prepositions_5",
+      "id": "itm_of3_prepositions_7",
       "objectiveId": "OF3",
       "skill": "writing",
       "grammarConcepts": [
@@ -294,7 +408,253 @@
       }
     },
     {
-      "id": "itm_of3_prepositions_6",
+      "id": "itm_of3_prepositions_8",
+      "objectiveId": "OF3",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": -0.4,
+      "prompt": {
+        "fr": "Associez la combinaison à sa contraction.",
+        "instructions_en": "Match each combination to its contraction.",
+        "left": [
+          "à + le",
+          "à + les",
+          "de + le",
+          "de + les"
+        ],
+        "right": [
+          "au",
+          "aux",
+          "du",
+          "des"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "au aux du des"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "à+le=au, à+les=aux, de+le=du, de+les=des.",
+        "distractor_why": {},
+        "grammar_rule": "Articles contract with à and de (but not à+la / de+la).",
+        "vocab_notes": "These contractions are obligatory.",
+        "common_mistakes": [
+          "writing « à le » / « de le » uncontracted"
+        ]
+      },
+      "tip": {
+        "memory_aid": "à+le=au; de+le=du.",
+        "pattern": "Contract before le/les only.",
+        "similar": [
+          "au bureau",
+          "du directeur",
+          "aux employés"
+        ]
+      }
+    },
+    {
+      "id": "itm_of3_prepositions_9",
+      "objectiveId": "OF3",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": 0.2,
+      "prompt": {
+        "fr": "Temps : « La formation a lieu ___ septembre. »",
+        "instructions_en": "Preposition for a month."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "en"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "en",
+          "tag": "correct"
+        },
+        {
+          "value": "à",
+          "tag": "clock"
+        },
+        {
+          "value": "dans",
+          "tag": "later"
+        },
+        {
+          "value": "depuis",
+          "tag": "since"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Use « en » with months and years: « en septembre ».",
+        "distractor_why": {
+          "clock": "« à » is for clock times (à 9 h).",
+          "later": "« dans » = in X time from now.",
+          "since": "« depuis » = since."
+        },
+        "grammar_rule": "en + month/year; au mois de + month also possible.",
+        "vocab_notes": "avoir lieu = to take place.",
+        "common_mistakes": [
+          "using à or dans with a month"
+        ]
+      },
+      "tip": {
+        "memory_aid": "en septembre, en 2025.",
+        "pattern": "en + month/year.",
+        "similar": [
+          "en janvier",
+          "en 2026"
+        ]
+      }
+    },
+    {
+      "id": "itm_of3_prepositions_10",
+      "objectiveId": "OF3",
+      "skill": "writing",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0.1,
+      "prompt": {
+        "fr": "Lieu : « Le client est ___ le médecin aujourd’hui. » (at the …’s)",
+        "instructions_en": "Preposition for 'at someone's place'."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "chez"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« chez » = at someone's place/office: « chez le médecin ».",
+        "distractor_why": {
+          "a": "« à » doesn't work before a person here.",
+          "dans": "« dans » = inside (a thing/place)."
+        },
+        "grammar_rule": "chez + person = at that person's place.",
+        "vocab_notes": "chez le médecin = at the doctor's.",
+        "common_mistakes": [
+          "using à/dans before a person"
+        ]
+      },
+      "tip": {
+        "memory_aid": "chez = at someone's.",
+        "pattern": "chez + person.",
+        "similar": [
+          "chez le dentiste",
+          "chez nous"
+        ]
+      }
+    },
+    {
+      "id": "itm_of3_prepositions_11",
+      "objectiveId": "OF3",
+      "skill": "grammar",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [
+        "government",
+        "workplace"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 28,
+      "irtB": 0.3,
+      "prompt": {
+        "fr": "Pays : « Elle travaille ___ Canada. »",
+        "instructions_en": "Preposition for a masculine country."
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "au"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "au",
+          "tag": "correct"
+        },
+        {
+          "value": "en",
+          "tag": "feminine"
+        },
+        {
+          "value": "à",
+          "tag": "city"
+        },
+        {
+          "value": "dans",
+          "tag": "inside"
+        }
+      ],
+      "explanation": {
+        "correct_why": "Masculine countries take « au »: « au Canada ». (Feminine countries take « en ».)",
+        "distractor_why": {
+          "feminine": "« en » is for feminine countries (en France).",
+          "city": "« à » is for cities (à Ottawa).",
+          "inside": "« dans » means inside."
+        },
+        "grammar_rule": "à + city; en + feminine country; au + masculine country; aux + plural.",
+        "vocab_notes": "le Canada (m.) → au Canada.",
+        "common_mistakes": [
+          "using en with masculine countries"
+        ]
+      },
+      "tip": {
+        "memory_aid": "au Canada / en France / à Ottawa.",
+        "pattern": "Gender of country decides au vs en.",
+        "similar": [
+          "au Québec",
+          "aux États-Unis"
+        ]
+      }
+    },
+    {
+      "id": "itm_of3_prepositions_12",
       "objectiveId": "OF3",
       "skill": "grammar",
       "grammarConcepts": [
@@ -358,142 +718,6 @@
         "similar": [
           "au ministère",
           "aux employés"
-        ]
-      }
-    },
-    {
-      "id": "itm_of3_prepositions_7",
-      "objectiveId": "OF3",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "prepositions"
-      ],
-      "vocabDomains": [
-        "government",
-        "workplace"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.2,
-      "prompt": {
-        "fr": "Lieu : « Le dossier est ___ le bureau. »",
-        "instructions_en": "Choose the preposition for 'on the desk'."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "sur"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "sur",
-          "tag": "correct"
-        },
-        {
-          "value": "dans",
-          "tag": "inside"
-        },
-        {
-          "value": "à",
-          "tag": "generic"
-        },
-        {
-          "value": "en",
-          "tag": "en_wrong"
-        }
-      ],
-      "explanation": {
-        "correct_why": "« sur » = on (a surface): « sur le bureau » (on the desk).",
-        "distractor_why": {
-          "inside": "« dans » = inside (in a drawer).",
-          "generic": "« à » is too generic here.",
-          "en_wrong": "« en » is not used for a surface."
-        },
-        "grammar_rule": "sur = on; dans = in/inside; sous = under.",
-        "vocab_notes": "le bureau = desk/office.",
-        "common_mistakes": [
-          "confusing sur (on) and dans (in)"
-        ]
-      },
-      "tip": {
-        "memory_aid": "sur = surface.",
-        "pattern": "Place prepositions are concrete: on/in/under.",
-        "similar": [
-          "sur la table",
-          "dans le tiroir"
-        ]
-      }
-    },
-    {
-      "id": "itm_of3_prepositions_8",
-      "objectiveId": "OF3",
-      "skill": "grammar",
-      "grammarConcepts": [
-        "prepositions"
-      ],
-      "vocabDomains": [
-        "government",
-        "workplace"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0.3,
-      "prompt": {
-        "fr": "Temps : « La réunion est ___ deux heures. »",
-        "instructions_en": "Choose the time preposition for 'in two hours'."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "dans"
-        ],
-        "normalizer": "trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "dans",
-          "tag": "correct"
-        },
-        {
-          "value": "en",
-          "tag": "duration"
-        },
-        {
-          "value": "à",
-          "tag": "clock_time"
-        },
-        {
-          "value": "depuis",
-          "tag": "since"
-        }
-      ],
-      "explanation": {
-        "correct_why": "« dans » + time = after that amount of time from now: « dans deux heures » (in two hours).",
-        "distractor_why": {
-          "duration": "« en deux heures » means it takes two hours to complete.",
-          "clock_time": "« à deux heures » = at two o'clock.",
-          "since": "« depuis » = since/for (up to now)."
-        },
-        "grammar_rule": "dans = in (from now); en = within (duration); à = at (clock time).",
-        "vocab_notes": "la réunion = the meeting.",
-        "common_mistakes": [
-          "confusing dans and en for time"
-        ]
-      },
-      "tip": {
-        "memory_aid": "dans = countdown from now.",
-        "pattern": "dans 2 h (later) vs en 2 h (it took).",
-        "similar": [
-          "dans une semaine",
-          "à 9 h"
         ]
       }
     }

@@ -48,17 +48,21 @@
             "itm_of6_present_1",
             "itm_of6_present_2",
             "itm_of6_present_3",
-            "itm_of6_present_4"
+            "itm_of6_present_4",
+            "itm_of6_present_5",
+            "itm_of6_present_6"
           ],
           "type": "mixed"
         },
         {
           "title": "L’interrogation",
           "itemRefs": [
-            "itm_of6_question_formation_5",
-            "itm_of6_question_formation_6",
             "itm_of6_question_formation_7",
-            "itm_of6_question_formation_8"
+            "itm_of6_question_formation_8",
+            "itm_of6_question_formation_9",
+            "itm_of6_question_formation_10",
+            "itm_of6_question_formation_11",
+            "itm_of6_question_formation_12"
           ],
           "type": "mixed"
         }
@@ -98,11 +102,11 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 3,
-        "medium": 4,
-        "advanced": 1
+        "easy": 5,
+        "medium": 5,
+        "advanced": 2
       },
       "drawFrom": [
         "OF6"

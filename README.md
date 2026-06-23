@@ -34,23 +34,30 @@ authentic titles/grammar, [`content/lexicon/by-of/`](content/lexicon/by-of/) hol
 parsed source lexicon (regenerate with `npm run lexicon:parse`), and the module hub shows
 the covering consolidation/self-evaluation booklet per objective.
 
-## Module content status (all 40 implemented)
+## Module content status (all 40, uniform format)
 
-Every objective has a playable module (Learn + Practice) and an item bank — **369 questions**
-in total, each with the full explanation contract.
+Every objective is generated the **same way** by `npm run build:modules`, so all 40 modules
+have an identical structure (Learn → Practice → Consolidation → Self-test → Mastery check)
+and an item bank — **546 questions** in total, each with the full explanation contract.
 
-| Tier | Objectives | How authored |
-|------|-----------|--------------|
-| **Hand-authored, full depth** | OF1, OF13 | Written directly from the source PDF: concept, real vocabulary tables, grammar charts, dialogues, example texts, and 20+ bespoke items (incl. matching) grounded in the source activities and answer keys. |
-| **Generated from source grammar scope** | OF2–OF40 (38 modules) | `npm run build:modules` maps each OF's authentic grammar concepts (extracted from its source doc) onto a hand-authored **concept library** ([`content/_concepts/library.json`](content/_concepts/library.json)) covering all 16 grammar concepts. Each module gets concept-accurate grammar notes + a question bank (4 items per concept, rotated per OF), plus the OF's **full source vocabulary** auto-rendered on the Learn page and links to its consolidation/self-evaluation booklets. |
+How it works:
+- Each OF's authentic grammar concepts (extracted from its source PDF into
+  [`content/curriculum.json`](content/curriculum.json)) are mapped onto a hand-authored
+  **concept library** covering all 16 grammar concepts:
+  [`content/_concepts/library.json`](content/_concepts/library.json) +
+  [`content/_concepts/library-extra.json`](content/_concepts/library-extra.json) (extra
+  examples and question types — `sentence_build`, `matching`).
+- The generator draws **6 items per concept**, rotated by OF number, so two objectives that
+  share a concept get **different examples** of the same material.
+- Each module gets concept-accurate grammar notes, the OF's **full source vocabulary**
+  (auto-rendered on the Learn page from [`content/lexicon/by-of/`](content/lexicon/by-of/)),
+  and links to its consolidation/self-evaluation booklets.
+- Per OF: 6–24 questions (avg ~14), spanning mcq, fill-in-blank, error-correction,
+  sentence-building and matching, across easy/medium/advanced.
 
-Regenerate the bulk modules anytime with `npm run build:modules` (deterministic), then
-`npm run validate` (enforces the explanation contract on all 369 items).
-
-> The generated tier gives every objective real, schema-valid, fully-explained grammar
-> practice tied to its source-derived scope. The richest hand-authored depth (source
-> dialogues, bespoke communicative items, vocabulary tables) currently exists for OF1 and
-> OF13; the same treatment can be applied OF-by-OF on top of the generated baseline.
+Regenerate anytime with `npm run build:modules` (deterministic), then `npm run validate`
+(enforces the explanation contract on all 546 items). To add more variety everywhere, add
+items to the concept library and re-run — it multiplies across all 40 OFs at once.
 
 ## What's in this repository
 

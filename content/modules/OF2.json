@@ -48,17 +48,21 @@
             "itm_of2_present_1",
             "itm_of2_present_2",
             "itm_of2_present_3",
-            "itm_of2_present_4"
+            "itm_of2_present_4",
+            "itm_of2_present_5",
+            "itm_of2_present_6"
           ],
           "type": "mixed"
         },
         {
           "title": "Les accords",
           "itemRefs": [
-            "itm_of2_agreement_5",
-            "itm_of2_agreement_6",
             "itm_of2_agreement_7",
-            "itm_of2_agreement_8"
+            "itm_of2_agreement_8",
+            "itm_of2_agreement_9",
+            "itm_of2_agreement_10",
+            "itm_of2_agreement_11",
+            "itm_of2_agreement_12"
           ],
           "type": "mixed"
         }
@@ -98,11 +102,11 @@
         ],
         "catalogue": "SC102-2/45-1-2006F"
       },
-      "timedSeconds": 280,
+      "timedSeconds": 420,
       "blueprint": {
-        "easy": 3,
-        "medium": 4,
-        "advanced": 1
+        "easy": 4,
+        "medium": 5,
+        "advanced": 2
       },
       "drawFrom": [
         "OF2"
