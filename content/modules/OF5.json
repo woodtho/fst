@@ -13,18 +13,19 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF5 — To indicate where a person, an object or a place is. This objective develops the language needed to indicate where a person, an object or a place is in a Government of Canada workplace. Grammar focus: Prepositions, Negation, Pronouns. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
-        "fr": "Indiquer où est une personne, un objet, un lieu. Objectif communicatif appuyé par : Les prépositions, La négation, Les pronoms. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
+        "en": "OF5 — To indicate where a person, an object or a place is. This objective develops the language needed to indicate where a person, an object or a place is in a Government of Canada workplace. Grammar focus: Indicating location (il y a, où, prepositions of place), Negation, Pronouns. Study the PFL2 source vocabulary (panel below), review the grammar notes, then practise (110 questions) and consolidate.",
+        "fr": "Indiquer où est une personne, un objet, un lieu. Objectif communicatif appuyé par : Indiquer la localisation (il y a, où, prépositions de lieu), La négation, Les pronoms. Étudiez le lexique source (ci-dessous), révisez la grammaire, puis pratiquez (110 questions)."
       },
       "vocabularyNote": "The full PFL2 source vocabulary for this objective is shown in the 'Lexicon — PFL2 source vocabulary' panel below (from SC102-2/1-2-2005F).",
       "grammarNotes": {
-        "summary": "Grammar focus for this objective: Prepositions, Negation, Pronouns.",
+        "summary": "Grammar focus for this objective: Indicating location (il y a, où, prepositions of place), Negation, Pronouns.",
         "charts": [],
         "points": [
-          "Les prépositions (Prepositions) — Relient les mots et indiquent le lieu, le temps et la relation : à, de, en, dans, sur, chez. à+le=au; de+le=du.",
-          "· Contractions: à+le=au, à+les=aux, de+le=du, de+les=des.",
-          "· Place: à (city), en/au (country), dans (inside), sur (on), chez (at someone's).",
-          "· Time: à (time), en (month/year), dans (in X time), depuis (since).",
+          "Indiquer la localisation (il y a, où, prépositions de lieu) (Indicating location (il y a, où, prepositions of place)) — Indiquer où sont les personnes/objets/lieux. Employer « il y a », le mot interrogatif « où », et les prépositions de lieu — simples (sur, sous, dans, devant, derrière, entre) et composées en de (à côté de, en face de, près de, au milieu de, au bout de). Les composées se contractent : en face du, à côté du.",
+          "· Il y a = there is / there are (invariable). Négatif : il n'y a pas de…",
+          "· Après une négation, un/une/des → de : il n'y a pas DE fenêtre.",
+          "· où = mot interrogatif de lieu (Où est le bureau ?).",
+          "· Prépositions composées en « de » → contraction : en face DU bureau, à côté DU couloir, près DE L'entrée.",
           "La négation (Negation) — ne … pas encadre le verbe conjugué. Variantes : ne…jamais, ne…plus, ne…rien, ne…personne. Après la négation, un/une/des → de.",
           "· ne + verb + pas (jamais/plus/rien).",
           "· After negation: un/une/des → de (Je n’ai pas de dossier).",
@@ -72,8 +73,8 @@
         {
           "title": "Tâche de consolidation — Indiquer où est une personne, un objet, un lieu",
           "type": "scenario",
-          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « indiquer où est une personne, un objet, un lieu ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Les prépositions, La négation, Les pronoms.",
-          "promptEn": "In a workplace context, practise the function \"To indicate where a person, an object or a place is\". Produce a short exchange (3–4 sentences) using: Prepositions, Negation, Pronouns.",
+          "promptFr": "Dans un contexte de travail, mettez en pratique la fonction « indiquer où est une personne, un objet, un lieu ». Rédigez ou jouez un court échange (3 à 4 phrases) en employant : Indiquer la localisation (il y a, où, prépositions de lieu), La négation, Les pronoms.",
+          "promptEn": "In a workplace context, practise the function \"To indicate where a person, an object or a place is\". Produce a short exchange (3–4 sentences) using: Indicating location (il y a, où, prepositions of place), Negation, Pronouns.",
           "rubric": [
             "addresses the communicative function",
             "uses the target grammar correctly",
@@ -105,7 +106,7 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
-        "prepositions",
+        "location",
         "negation",
         "pronouns"
       ]
