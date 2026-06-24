@@ -13,35 +13,127 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF24 — To situate events in relation to each other. Source document SC102-2/24-2005F. Grammar taught: compound_tenses, passe_compose, reported_speech. Vocabulary: the OF24 section of the PFL2 Lexique. 96 questions, all traceable to the PFL2 source (35 verbatim source activities + 61 from the OF24 Lexique).",
-        "fr": "Situer des événements par rapport à d’autres. Document source SC102-2/24-2005F. Grammaire enseignée : compound_tenses, passe_compose, reported_speech. Vocabulaire : section OF24 du Lexique PFL2."
+        "en": "OF24 teaches how to situate events in relation to each other: before, during, after, and by the time another event happens. The source emphasizes temporal indicators, plus-que-parfait, futur antérieur, infinitif passé, noun-phrase replacements, and en + participe présent.",
+        "fr": "OF24 apprend à situer des événements les uns par rapport aux autres : avant, pendant, après ou au moment où un autre événement se produit. Le document source met l’accent sur les indicateurs temporels, le plus-que-parfait, le futur antérieur, l’infinitif passé, les expressions nominales et en + participe présent."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Key OF24 expressions include antérieurement, avant de, avant que, déjà, la veille, au moment où, pendant que, entre-temps, après que, aussitôt que, dès que, le lendemain, plus tard, plus tôt and suivant.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): compound_tenses, passe_compose, reported_speech.",
-        "charts": [],
-        "points": []
+        "summary": "Use the marker and the event order together: antériorité says one event happened before another, simultanéité says events overlap, and postériorité says one event follows another.",
+        "charts": [
+          {
+            "title": "Indicateurs temporels",
+            "rows": [
+              [
+                "Antériorité",
+                "avant, avant de, avant que, déjà, la veille, plus tôt, précédent"
+              ],
+              [
+                "Simultanéité",
+                "au moment où, comme, en même temps, entre-temps, pendant que, quand, en + participe présent"
+              ],
+              [
+                "Postériorité",
+                "après, après que, aussitôt que, dès que, le lendemain, plus tard, suivant"
+              ]
+            ]
+          },
+          {
+            "title": "Temps composés utiles",
+            "rows": [
+              [
+                "Plus-que-parfait",
+                "imparfait de avoir/être + participe passé: il avait terminé, elle était partie"
+              ],
+              [
+                "Futur antérieur",
+                "futur de avoir/être + participe passé: il aura terminé, elle sera partie"
+              ],
+              [
+                "Infinitif passé",
+                "avoir/être + participe passé: après avoir lu, après être parti"
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Use the plus-que-parfait for an event completed before another past event: Il avait déjà démissionné quand je suis arrivé.",
+          "Use the futur antérieur for an event completed before another future event: Je partirai quand j’aurai fini.",
+          "After avant que, use a conjugated clause; after avant de, use an infinitive with the same subject.",
+          "After après avoir/après être, use the infinitif passé to show the action was completed first.",
+          "Use en + participe présent to show simultaneous action by the same subject: Elle travaille en écoutant la radio."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "OF24 phonetics reviews French rhythm: group short connected words around meaning units, not word-by-word English stress.",
+          "Temporal expressions often form one rhythm group: avant de partir, pendant la réunion, dès que possible."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Réunion de projet",
+          "lines": [
+            {
+              "speaker": "Paul",
+              "fr": "Après avoir adopté le compte rendu, on abordera les points à l’ordre du jour."
+            },
+            {
+              "speaker": "Joël",
+              "fr": "Dès qu’on aura terminé la réunion, je rencontrerai la consultante."
+            },
+            {
+              "speaker": "Émilie",
+              "fr": "J’aviserai mon équipe dès notre prochaine rencontre."
+            }
+          ]
+        },
+        {
+          "title": "Préparatifs de voyage",
+          "lines": [
+            {
+              "speaker": "Bertrand",
+              "fr": "Avant de réserver une chambre, je vais vérifier les prix."
+            },
+            {
+              "speaker": "Annie",
+              "fr": "La semaine précédente, j’avais envoyé deux courriels."
+            },
+            {
+              "speaker": "Marie",
+              "fr": "On devrait se revoir plus tard, quand tout sera prêt."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Antériorité, simultanéité, postériorité",
+          "fr": "Avant de partir, elle vérifie le rapport. Pendant que son collègue imprime les copies, elle corrige les tableaux. Dès qu’ils auront terminé, ils enverront le dossier."
+        },
+        {
+          "title": "Remplacer une subordonnée par un nom",
+          "fr": "avant que la réunion commence -> avant le début de la réunion; après qu’il sera parti -> après son départ; pendant que sa femme étudiait -> pendant les études de sa femme."
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "96 questions, all traceable to the PFL2 source (35 verbatim source activities + 61 from the OF24 Lexique).",
+      "coverage": "207 questions: 146 source-derived concept questions + 61 OF24 Lexique questions.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 25
+          "title": "Indicateurs temporels et relations entre événements",
+          "count": 68
+        },
+        {
+          "title": "Temps composés, infinitif passé et gérondif",
+          "count": 78
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 61
         }
       ],
-      "totalQuestions": 86
+      "totalQuestions": 207
     },
     "consolidation": {
       "sourceBooklet": {
@@ -79,47 +171,41 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
-        "compound_tenses",
-        "passe_compose",
-        "reported_speech"
+        "temporal_indicators",
+        "plus_que_parfait",
+        "futur_anterieur",
+        "infinitif_passe",
+        "gerondif",
+        "temporal_functions"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 7,
+    "convertibleComplete": true,
+    "coveredElements": 35,
     "totalElements": 61,
     "convertible": {
-      "covered": 7,
+      "covered": 35,
       "total": 36
     },
     "actionableGaps": {
       "sections": [],
       "activities": [
         1,
-        4,
-        6,
-        8,
         9,
         11,
-        12,
         13,
         15,
-        16,
         17,
-        19,
         21,
         22,
-        23,
         25,
         27,
         30,
         33,
         34,
         35,
-        36,
-        37,
         38,
         39,
         40,
@@ -134,8 +220,6 @@
     },
     "nonConvertible": {
       "sections": [
-        "24.3 Fonctions (function)",
-        "24.4 Fonctions (function)",
         "24.5 Phonétique (phonetics)"
       ],
       "activities": [

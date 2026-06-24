@@ -5,7 +5,7 @@
   "titleEn": "To describe movement",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/26-2005F",
     "text": "sources/text/OF26.txt"
@@ -13,31 +13,154 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF26 — To describe movement. Source document SC102-2/26-2005F. Grammar taught: pronouns, passe_compose. Vocabulary: the OF26 section of the PFL2 Lexique. 63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF26 Lexique).",
-        "fr": "Décrire des déplacements. Document source SC102-2/26-2005F. Grammaire enseignée : pronouns, passe_compose. Vocabulaire : section OF26 du Lexique PFL2."
+        "en": "OF26 teaches how to describe movement of people, objects, documents and information: going, coming back, bringing, accompanying, sending, origin, destination, and source. It also teaches relative pronouns used to add detail to those descriptions.",
+        "fr": "OF26 apprend à décrire les déplacements de personnes, d’objets, de documents et d’information : aller, revenir, apporter, accompagner, adresser, origine, destination et source. Il enseigne aussi les pronoms relatifs qui servent à ajouter des précisions à ces descriptions."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Expressions clés : se rendre, revenir, retourner, s’en aller, s’en venir, accompagner, amener, aller chercher, venir chercher, passer chercher, conduire, à destination de, en provenance de, de la part de, à l’attention de, à l’intention de, aux soins de, destinataire, expéditeur, auteur, source.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): pronouns, passe_compose.",
-        "charts": [],
-        "points": []
+        "summary": "OF26 combines movement vocabulary with relative pronouns. Use the movement expression to show origin/destination, and use the relative pronoun according to its role in the added clause.",
+        "charts": [
+          {
+            "title": "Déplacement, origine, destination",
+            "rows": [
+              [
+                "Déplacement",
+                "se rendre, revenir, retourner, s’en aller, voyager, circuler"
+              ],
+              [
+                "Accompagnement/transport",
+                "accompagner, conduire, amener, apporter"
+              ],
+              [
+                "Chercher",
+                "aller chercher, venir chercher, passer chercher"
+              ],
+              [
+                "Origine",
+                "venir de, arriver de, en provenance de, de la part de"
+              ],
+              [
+                "Destination",
+                "à destination de, à l’attention de, à l’intention de, aux soins de"
+              ]
+            ]
+          },
+          {
+            "title": "Pronoms relatifs",
+            "rows": [
+              [
+                "qui",
+                "sujet: la personne qui accompagne le directeur"
+              ],
+              [
+                "que",
+                "objet direct: les documents que tu as apportés"
+              ],
+              [
+                "dont",
+                "complément avec de: le logiciel dont elle a besoin"
+              ],
+              [
+                "où",
+                "lieu ou temps: le bureau où elle travaille; le jour où il arrive"
+              ],
+              [
+                "ce qui / ce que / ce dont",
+                "idée neutre: ce qui arrive, ce que je veux, ce dont tu parles"
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Use se rendre à to describe going to a destination: Il se rend au Centre des congrès.",
+          "Use revenir or retourner for coming/going back; use s’en aller for leaving.",
+          "Use apporter for bringing a thing, amener/accompagner/conduire for people depending on meaning.",
+          "Use dont when the second clause requires de: parler de, avoir besoin de, être fier de.",
+          "Use ce qui, ce que, ce dont when the antecedent is an idea or unspecified fact, not a specific noun."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In movement descriptions, group prepositions with the destination or origin: à destination de Vancouver, en provenance du Ghana, de la part du ministre."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Déplacement professionnel",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Où est-ce que Monique s’en va?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Elle se rend chez la directrice."
+            },
+            {
+              "speaker": "A",
+              "fr": "Est-ce qu’elle revient aujourd’hui?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Oui, elle sera de retour à 13 h."
+            }
+          ]
+        },
+        {
+          "title": "Document et destination",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "À qui s’adresse cette directive?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Elle est écrite à l’intention des nouveaux agents."
+            },
+            {
+              "speaker": "A",
+              "fr": "Qui est le destinataire de la lettre?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Madame Latrémouille doit l’ouvrir elle-même."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Déplacement",
+          "fr": "Eugène se présente au Bureau des passeports. Il vient chercher un formulaire, puis il ira chercher ses photos. Le 12 juin, il se rendra au Honduras."
+        },
+        {
+          "title": "Pronoms relatifs",
+          "fr": "Je cherche le document qui est sur la table. Les dossiers que tu dois classer sont prêts. Le rapport dont je suis fier sera diffusé demain. La salle où la réunion a lieu est au deuxième étage."
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF26 Lexique).",
+      "coverage": "224 questions: 161 source-derived concept questions + 63 OF26 Lexique questions.",
       "exerciseSets": [
+        {
+          "title": "Déplacements, origine et destination",
+          "count": 53
+        },
+        {
+          "title": "Pronoms relatifs",
+          "count": 74
+        },
+        {
+          "title": "Fonctions et compréhension",
+          "count": 34
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 63
+      "totalQuestions": 224
     },
     "consolidation": {
       "sourceBooklet": {
@@ -75,52 +198,34 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
-        "pronouns",
-        "passe_compose"
+        "movement",
+        "origin_destination",
+        "relative_pronouns",
+        "ce_relative_pronouns",
+        "movement_functions"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 2,
+    "convertibleComplete": true,
+    "coveredElements": 18,
     "totalElements": 31,
     "convertible": {
-      "covered": 2,
+      "covered": 18,
       "total": 18
     },
     "actionableGaps": {
-      "sections": [
-        "26.2 Grammaire (grammar)"
-      ],
-      "activities": [
-        4,
-        5,
-        7,
-        8,
-        10,
-        11,
-        12,
-        13,
-        15,
-        16,
-        17,
-        18,
-        19
-      ],
+      "sections": [],
+      "activities": [],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-3 (SC102-2-45-3)"
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "26.3 Fonctions (function)",
-        "26.4 Fonctions (function)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

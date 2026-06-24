@@ -5,7 +5,7 @@
   "titleEn": "To indicate the steps in a process",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/25-2005F",
     "text": "sources/text/OF25.txt"
@@ -13,31 +13,139 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF25 — To indicate the steps in a process. Source document SC102-2/25-2005F. Grammar taught: connectors, present. Vocabulary: the OF25 section of the PFL2 Lexique. 48 questions, all traceable to the PFL2 source (0 verbatim source activities + 48 from the OF25 Lexique).",
-        "fr": "Indiquer les étapes d’un processus. Document source SC102-2/25-2005F. Grammaire enseignée : connectors, present. Vocabulaire : section OF25 du Lexique PFL2."
+        "en": "OF25 teaches how to describe and understand the stages of a process: what happens first, what comes next, what continues, and what ends the process. The source uses workplace procedures, emergency instructions, project planning, a retirement dinner, a construction project, and a study-day schedule.",
+        "fr": "OF25 apprend à décrire et à comprendre les étapes d’un processus : ce qui arrive d’abord, ce qui vient ensuite, ce qui se poursuit et ce qui termine le processus. Le document source utilise des procédures de travail, des consignes d’urgence, la planification d’un projet, un souper de départ, un projet de construction et l’horaire d’une journée d’étude."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Expressions clés : d’abord, en premier lieu, premièrement, dans un premier temps, ensuite, puis, après ça, la prochaine étape, l’étape suivante, pour continuer, se poursuivre, être rendu à, avant de finir, enfin, finalement, à la fin, pour finir, se terminer.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): connectors, present.",
-        "charts": [],
-        "points": []
+        "summary": "OF25 focuses on connectors and process-stage questions. The tense is usually present, futur proche, futur simple, or imperative depending on whether the speaker describes, plans, or gives instructions.",
+        "charts": [
+          {
+            "title": "Stades du déroulement",
+            "rows": [
+              [
+                "Début",
+                "d’abord, en premier lieu, premièrement, pour commencer, au début"
+              ],
+              [
+                "Suite",
+                "ensuite, puis, après ça, la prochaine étape, l’étape suivante"
+              ],
+              [
+                "Continuité",
+                "pour continuer, se poursuivre, être rendu à"
+              ],
+              [
+                "Fin",
+                "avant de finir, enfin, finalement, à la fin, pour finir, se terminer"
+              ]
+            ]
+          },
+          {
+            "title": "Questions utiles",
+            "rows": [
+              [
+                "Début",
+                "Qu’est-ce qu’on fait d’abord? / Par quoi commence-t-on?"
+              ],
+              [
+                "Étape suivante",
+                "Quelle est la prochaine étape? / Qu’est-ce qu’on fait ensuite?"
+              ],
+              [
+                "Progression",
+                "Où êtes-vous rendus? / Est-ce que le projet se poursuit?"
+              ],
+              [
+                "Fin",
+                "Comment ça se termine? / Qu’est-ce qu’il faut faire pour finir?"
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Use d’abord, en premier lieu, premièrement, or pour commencer to introduce the first stage.",
+          "Use ensuite, puis, après ça, la prochaine étape, or l’étape suivante to move forward in the process.",
+          "Use se poursuivre and être rendu à to talk about progress already underway.",
+          "Use enfin, finalement, à la fin, pour finir, or se terminer to mark the final stage.",
+          "When asking about a process, include the stage marker in the question so the listener knows whether you mean the beginning, next step, current stage, or end."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In spoken instructions, sequence markers are usually grouped with the action that follows: D’abord, on vérifie le dossier.",
+          "Pause briefly after longer organizers such as en premier lieu, dans un premier temps, and pour continuer."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander les étapes",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Qu’est-ce qu’on fait d’abord?"
+            },
+            {
+              "speaker": "B",
+              "fr": "D’abord, on établit l’ordre du jour. Ensuite, on contacte les participants."
+            },
+            {
+              "speaker": "A",
+              "fr": "Et la prochaine étape?"
+            },
+            {
+              "speaker": "B",
+              "fr": "On réserve la salle et le matériel audiovisuel."
+            }
+          ]
+        },
+        {
+          "title": "Donner des consignes",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Pour commencer, entre ton code d’identification."
+            },
+            {
+              "speaker": "A",
+              "fr": "Après ça, choisis le type de demande."
+            },
+            {
+              "speaker": "A",
+              "fr": "Finalement, envoie la demande à ton superviseur."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Processus de dotation",
+          "fr": "D’abord, on détermine les besoins. Ensuite, on rédige l’énoncé de qualités. L’étape suivante est l’évaluation des candidats. Finalement, on procède à la sélection."
+        },
+        {
+          "title": "Organisation d’une réunion",
+          "fr": "En premier lieu, on établit l’ordre du jour. Puis, on réserve la salle. Après ça, on distribue les documents. La réunion se termine par le compte rendu."
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "48 questions, all traceable to the PFL2 source (0 verbatim source activities + 48 from the OF25 Lexique).",
+      "coverage": "142 questions: 94 source-derived concept questions + 48 OF25 Lexique questions.",
       "exerciseSets": [
+        {
+          "title": "Indicateurs et marqueurs d’étapes",
+          "count": 37
+        },
+        {
+          "title": "Questions et compréhension des étapes",
+          "count": 57
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 48
         }
       ],
-      "totalQuestions": 48
+      "totalQuestions": 142
     },
     "consolidation": {
       "sourceBooklet": {
@@ -76,44 +184,32 @@
       "threshold": 0.8,
       "concepts": [
         "connectors",
-        "present"
+        "process_steps",
+        "process_questions",
+        "process_comprehension"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 2,
+    "convertibleComplete": true,
+    "coveredElements": 11,
     "totalElements": 22,
     "convertible": {
-      "covered": 2,
+      "covered": 11,
       "total": 11
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        1,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
+      "activities": [],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-3 (SC102-2-45-3)"
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "25.2 Fonctions (function)",
-        "25.3 Fonctions (function)",
-        "25.4 Compréhension de l’oral (oral)"
-      ],
+      "sections": [],
       "activities": [
         2,
         3,
