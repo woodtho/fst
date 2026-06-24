@@ -13,6 +13,8 @@
     "extract:source": "node --experimental-strip-types scripts/extract-source-activities.ts",
     "build:modules": "node --experimental-strip-types scripts/build-modules.ts",
     "build:verbs": "node --experimental-strip-types scripts/build-verbs.ts",
+    "repair:questions": "node --experimental-strip-types scripts/repair-questions.ts",
+    "generate:questions": "node --experimental-strip-types scripts/generate-questions.ts",
     "coverage": "node --experimental-strip-types scripts/build-coverage-map.ts",
     "content": "npm run extract:source && npm run build:modules && npm run coverage && npm run validate",
     "db:generate": "prisma generate",

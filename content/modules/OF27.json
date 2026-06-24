@@ -5,7 +5,7 @@
   "titleEn": "To describe tasks (physical operations)",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/27-2005F",
     "text": "sources/text/OF27.txt"
@@ -13,31 +13,129 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF27 — To describe tasks (physical operations). Source document SC102-2/27-2005F. Grammar taught: pronominal_verbs, present. Vocabulary: the OF27 section of the PFL2 Lexique. 63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF27 Lexique).",
-        "fr": "Décrire une tâche (opérations physiques). Document source SC102-2/27-2005F. Grammaire enseignée : pronominal_verbs, present. Vocabulaire : section OF27 du Lexique PFL2."
+        "en": "OF27 teaches how to describe a physical task: naming concrete actions, posture changes, equipment operations, and the result of an action. It also teaches cohesion markers used to organize explanations.",
+        "fr": "OF27 apprend à décrire une tâche physique : nommer les actions concrètes, les changements de position, les opérations avec des appareils et le résultat d’une action. Il enseigne aussi les indicateurs de cohésion qui organisent une explication."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Actions clés : accrocher, décrocher, brancher, débrancher, insérer, retirer, plier, déplier, réparer, briser, laver, salir, taper, déplacer, nettoyer, appuyer, cliquer, composer, rassembler, jeter. Cohésion : en ce qui concerne, à propos, par exemple, donc, selon moi, pour conclure.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): pronominal_verbs, present.",
-        "charts": [],
-        "points": []
+        "summary": "The source focuses on present and past descriptions of physical operations, pronominal posture verbs, and discourse cohesion markers.",
+        "charts": [
+          {
+            "title": "Opérations physiques",
+            "rows": [
+              [
+                "Téléphone/ordinateur",
+                "décrocher, raccrocher, composer, insérer, cliquer, démarrer"
+              ],
+              [
+                "Objets/documents",
+                "classer, trier, distribuer, estampiller, plier, jeter"
+              ],
+              [
+                "Appareils",
+                "brancher, débrancher, réparer, faire fonctionner, appuyer sur"
+              ],
+              [
+                "Positions",
+                "s’asseoir, se coucher, se lever, se pencher, s’accroupir, s’allonger"
+              ]
+            ]
+          },
+          {
+            "title": "Indicateurs de cohésion",
+            "rows": [
+              [
+                "Présenter le sujet",
+                "il s’agit de, en ce qui concerne, quant à"
+              ],
+              [
+                "Changer d’idée",
+                "à propos, au fait, pendant que j’y pense, en passant"
+              ],
+              [
+                "Ajouter/expliquer",
+                "par exemple, par ailleurs, c’est-à-dire, en fait, d’ailleurs"
+              ],
+              [
+                "Conséquence/opinion/conclusion",
+                "donc, en conséquence, selon moi, à mon avis, pour conclure, ceci dit"
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Use an action verb when the task manipulates an object: brancher l’imprimante, classer les documents, laver les tables.",
+          "Use pronominal verbs for body position: je me suis penché, elle s’est levée, ils se sont allongés.",
+          "Use the result adjective to describe the state after an action: être assis, couché, habillé, debout, penché.",
+          "Use cohesion markers to make a task explanation followable: d’abord, par exemple, donc, pour conclure."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In task instructions, pause after cohesion markers such as en ce qui concerne, par exemple, donc and pour conclure."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Décrire une opération",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Comment est-ce que je remplace la cartouche?"
+            },
+            {
+              "speaker": "B",
+              "fr": "D’abord, ouvre le couvercle. Ensuite, retire l’ancienne cartouche et insère la nouvelle."
+            }
+          ]
+        },
+        {
+          "title": "Organiser l’explication",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "En ce qui concerne la photocopieuse, elle fonctionne bien."
+            },
+            {
+              "speaker": "B",
+              "fr": "À propos, sais-tu comment enlever une feuille coincée?"
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Installer un ordinateur",
+          "fr": "D’abord, déballez l’ordinateur. Ensuite, branchez le moniteur, la souris et le clavier. Enfin, connectez l’appareil à l’imprimante."
+        },
+        {
+          "title": "Décrire une position",
+          "fr": "Il s’est assis, puis il s’est penché vers l’avant. Après l’exercice, il s’est allongé sur le plancher."
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "63 questions, all traceable to the PFL2 source (0 verbatim source activities + 63 from the OF27 Lexique).",
+      "coverage": "238 questions: 175 source-derived concept questions + 63 OF27 Lexique questions.",
       "exerciseSets": [
+        {
+          "title": "Opérations physiques et postures",
+          "count": 107
+        },
+        {
+          "title": "Fonctions de tâche et compréhension",
+          "count": 44
+        },
+        {
+          "title": "Indicateurs de cohésion",
+          "count": 24
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 63
+      "totalQuestions": 238
     },
     "consolidation": {
       "sourceBooklet": {
@@ -75,53 +173,33 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
-        "pronominal_verbs",
-        "present"
+        "physical_operations",
+        "posture",
+        "task_functions",
+        "cohesion"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 2,
+    "convertibleComplete": true,
+    "coveredElements": 19,
     "totalElements": 29,
     "convertible": {
-      "covered": 2,
+      "covered": 19,
       "total": 19
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        1,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        15,
-        16,
-        18,
-        19
-      ],
+      "activities": [],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-3 (SC102-2-45-3)"
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "27.2 Fonctions (function)",
-        "27.3 Fonctions (function)",
-        "27.4 Stratégies de communication (strategy)"
-      ],
+      "sections": [],
       "activities": [
         2,
         13,

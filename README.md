@@ -36,12 +36,19 @@ the covering consolidation/self-evaluation booklet per objective.
 
 ## Source-fidelity policy (per-OF question banks)
 
-**Every question in an objective's bank is directly traceable to the Government of Canada
-PFL2 source materials.** The generator does not invent generic French content, does not use
-external textbooks, and does not introduce vocabulary or grammar not taught in that
-objective's source. Coverage of the source is prioritized over question variety; where the
-source has no auto-extractable written questions, the bank is left small or empty rather
-than padded.
+**The bulk of every objective's bank is directly traceable to the Government of Canada PFL2
+source materials** (verbatim activities + the objective's Lexique). The extractor does not
+invent generic content or introduce untaught vocabulary/grammar.
+
+**Authored concept questions (`generated: true`).** Some objectives' source documents yielded
+few auto-extractable *grammar* exercises, so their banks were almost entirely vocabulary and
+under-taught the objective's main concept. For those (OF8, OF13, OF15, OF16, OF19, OF20),
+hand-written concept questions were added via [`scripts/generate-questions.ts`](scripts/generate-questions.ts) —
+each targets that OF's grammar concept (time prepositions, passé composé/imparfait, the
+conditional & reported speech, offers, comparatives, adjective agreement) using vocabulary
+appropriate to the objective. They are tagged `generated: true` and kept idempotent.
+Practice sessions ([`lib/session.ts`](lib/session.ts)) balance the draw so concept/grammar
+questions make up ~60% of each session instead of being drowned out by the larger vocab pool.
 
 `npm run build:modules` first identifies each objective's level, training objective, source
 document, **taught vocabulary** (its section of the PFL2 Lexique) and **taught grammar**
