@@ -14,7 +14,7 @@ function toggle<T>(set: Set<T>, key: T): Set<T> {
 
 export default function ConjugationTable() {
   const [groups, setGroups] = useState<Set<string>>(new Set(GROUPS.map((g) => g.key)));
-  const [selected, setSelected] = useState<string[]>(["parler"]);
+  const [selected, setSelected] = useState<string[]>([]);
   const [tenses, setTenses] = useState<Set<Tense>>(new Set(DEFAULT_TENSES));
   const [persons, setPersons] = useState<Set<PersonKey>>(new Set(PERSONS.map((p) => p.key)));
   const [query, setQuery] = useState("");
@@ -28,8 +28,9 @@ export default function ConjugationTable() {
     () => (q ? pool.filter((v) => v.inf.toLowerCase().includes(q) || v.en.toLowerCase().includes(q)) : pool).slice(0, 60),
     [pool, q],
   );
-  const add = (inf: string) => { setSelected((s) => (s.includes(inf) ? s : [...s, inf])); setQuery(""); };
-  const remove = (inf: string) => setSelected((s) => (s.length === 1 ? s : s.filter((x) => x !== inf)));
+  // clicking a verb in the dropdown toggles it; selection may be empty
+  const toggleVerb = (inf: string) => setSelected((s) => (s.includes(inf) ? s.filter((x) => x !== inf) : [...s, inf]));
+  const remove = (inf: string) => setSelected((s) => s.filter((x) => x !== inf));
 
   const selectedVerbs = selected.map((inf) => VERBS.find((v) => v.inf === inf)!).filter(Boolean);
   const shownTenses = TENSES.filter((t) => tenses.has(t.key));
@@ -61,7 +62,7 @@ export default function ConjugationTable() {
               onFocus={() => { if (blurTimer.current) clearTimeout(blurTimer.current); setOpen(true); }}
               onBlur={() => { blurTimer.current = setTimeout(() => setOpen(false), 150); }}
               onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
-              onKeyDown={(e) => { if (e.key === "Enter" && matches[0]) add(matches[0].inf); if (e.key === "Escape") setOpen(false); }}
+              onKeyDown={(e) => { if (e.key === "Enter" && matches[0]) toggleVerb(matches[0].inf); if (e.key === "Escape") setOpen(false); }}
             />
             {open && (
               <ul className="combo-list">
@@ -69,8 +70,8 @@ export default function ConjugationTable() {
                   <li className="combo-empty">No match</li>
                 ) : matches.map((v) => (
                   <li key={v.inf}>
-                    <button type="button" className={selected.includes(v.inf) ? "sel" : ""} onMouseDown={(e) => e.preventDefault()} onClick={() => add(v.inf)}>
-                      <span className="fr" lang="fr">{v.inf}</span> <span className="muted">— {v.en}</span>{selected.includes(v.inf) ? " ✓" : ""}
+                    <button type="button" className={selected.includes(v.inf) ? "sel" : ""} onMouseDown={(e) => e.preventDefault()} onClick={() => toggleVerb(v.inf)}>
+                      <span className="fr" lang="fr">{v.inf}</span> <span className="muted">— {v.en}</span>{selected.includes(v.inf) ? " ✓ (click to remove)" : ""}
                     </button>
                   </li>
                 ))}
@@ -80,16 +81,17 @@ export default function ConjugationTable() {
         </div>
       </div>
 
-      <div className="chiprow" style={{ marginTop: 10 }}>
-        {selectedVerbs.map((v) => (
-          <span key={v.inf} className="chip active verb-chip">
-            <span className="fr" lang="fr">{v.inf}</span>
-            {selected.length > 1 && (
+      {selectedVerbs.length > 0 && (
+        <div className="chiprow" style={{ marginTop: 10, alignItems: "center" }}>
+          {selectedVerbs.map((v) => (
+            <span key={v.inf} className="chip active verb-chip">
+              <span className="fr" lang="fr">{v.inf}</span>
               <button type="button" aria-label={`Remove ${v.inf}`} className="chip-x" onClick={() => remove(v.inf)}>×</button>
-            )}
-          </span>
-        ))}
-      </div>
+            </span>
+          ))}
+          <button type="button" className="chip" onClick={() => setSelected([])}>Clear all</button>
+        </div>
+      )}
 
       <div className="control-block" style={{ marginTop: 14 }}>
         <label className="control-label">Forms to show (pick any)</label>
@@ -122,7 +124,9 @@ export default function ConjugationTable() {
         </div>
       </div>
 
-      {shownTenses.length === 0 ? (
+      {selectedVerbs.length === 0 ? (
+        <div className="panel" style={{ marginTop: 16 }}><p className="muted" style={{ margin: 0 }}>Search and select one or more verbs above to see their conjugations.</p></div>
+      ) : shownTenses.length === 0 ? (
         <div className="panel" style={{ marginTop: 16 }}><p className="muted" style={{ margin: 0 }}>Select at least one form above.</p></div>
       ) : (
         selectedVerbs.map((v) => (
