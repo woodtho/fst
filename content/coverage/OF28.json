@@ -16,61 +16,7 @@
       "topicsFr": "Indicateurs d’obligation, de nécessité et de désirabilité",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
-      "linkedItems": [
-        "itm_of28_voc_fe_1",
-        "itm_of28_voc_fe_2",
-        "itm_of28_voc_fe_3",
-        "itm_of28_voc_fe_4",
-        "itm_of28_voc_fe_5",
-        "itm_of28_voc_fe_6",
-        "itm_of28_voc_fe_7",
-        "itm_of28_voc_fe_8"
-      ]
-    },
-    {
-      "id": "28.2",
-      "heading": "Notions",
-      "topicsFr": "Indicateurs d’importance",
-      "kind": "vocabulary",
-      "covered": true,
-      "itemCount": 8,
-      "linkedItems": [
-        "itm_of28_voc_fe_1",
-        "itm_of28_voc_fe_2",
-        "itm_of28_voc_fe_3",
-        "itm_of28_voc_fe_4",
-        "itm_of28_voc_fe_5",
-        "itm_of28_voc_fe_6",
-        "itm_of28_voc_fe_7",
-        "itm_of28_voc_fe_8"
-      ]
-    },
-    {
-      "id": "28.3",
-      "heading": "Notions",
-      "topicsFr": "Indicateurs d’utilité et d’inutilité",
-      "kind": "vocabulary",
-      "covered": true,
-      "itemCount": 8,
-      "linkedItems": [
-        "itm_of28_voc_fe_1",
-        "itm_of28_voc_fe_2",
-        "itm_of28_voc_fe_3",
-        "itm_of28_voc_fe_4",
-        "itm_of28_voc_fe_5",
-        "itm_of28_voc_fe_6",
-        "itm_of28_voc_fe_7",
-        "itm_of28_voc_fe_8"
-      ]
-    },
-    {
-      "id": "28.4",
-      "heading": "Grammaire",
-      "topicsFr": "Subjonctif ou infinitif après des expressions d’obligation, de nécessité et de désirabilité, d’importance, d’utilité et d’inutilité",
-      "kind": "grammar",
-      "covered": true,
-      "itemCount": 8,
+      "itemCount": 24,
       "linkedItems": [
         "itm_of28_src_a3_1",
         "itm_of28_src_a3_2",
@@ -79,26 +25,204 @@
         "itm_of28_src_a3_5",
         "itm_of28_src_a3_6",
         "itm_of28_src_a3_7",
-        "itm_of28_src_a3_8"
+        "itm_of28_src_a3_8",
+        "itm_of28_src_a3_9",
+        "itm_of28_src_a3_10",
+        "itm_of28_src_a3_11",
+        "itm_of28_src_a3_12",
+        "itm_of28_src_a4_1",
+        "itm_of28_src_a4_2",
+        "itm_of28_src_a4_3",
+        "itm_of28_src_a4_4",
+        "itm_of28_src_a4_5",
+        "itm_of28_src_a4_6",
+        "itm_of28_src_a4_7",
+        "itm_of28_src_a4_8",
+        "itm_of28_src_a4_9",
+        "itm_of28_src_a4_10",
+        "itm_of28_src_a4_11",
+        "itm_of28_src_a4_12"
+      ]
+    },
+    {
+      "id": "28.2",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs d’importance",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of28_src_a6_1",
+        "itm_of28_src_a6_2",
+        "itm_of28_src_a6_3",
+        "itm_of28_src_a6_4",
+        "itm_of28_src_a6_5",
+        "itm_of28_src_a6_6",
+        "itm_of28_src_a6_7",
+        "itm_of28_src_a6_8",
+        "itm_of28_src_a6_9",
+        "itm_of28_src_a6_10"
+      ]
+    },
+    {
+      "id": "28.3",
+      "heading": "Notions",
+      "topicsFr": "Indicateurs d’utilité et d’inutilité",
+      "kind": "vocabulary",
+      "covered": true,
+      "itemCount": 20,
+      "linkedItems": [
+        "itm_of28_src_a8_1",
+        "itm_of28_src_a8_2",
+        "itm_of28_src_a8_3",
+        "itm_of28_src_a8_4",
+        "itm_of28_src_a8_5",
+        "itm_of28_src_a8_6",
+        "itm_of28_src_a8_7",
+        "itm_of28_src_a8_8",
+        "itm_of28_src_a9_1",
+        "itm_of28_src_a9_2",
+        "itm_of28_src_a9_3",
+        "itm_of28_src_a9_4",
+        "itm_of28_src_a9_5",
+        "itm_of28_src_a9_6",
+        "itm_of28_src_a9_7",
+        "itm_of28_src_a9_8",
+        "itm_of28_src_a9_9",
+        "itm_of28_src_a9_10",
+        "itm_of28_src_a9_11",
+        "itm_of28_src_a9_12"
+      ]
+    },
+    {
+      "id": "28.4",
+      "heading": "Grammaire",
+      "topicsFr": "Subjonctif ou infinitif après des expressions d’obligation, de nécessité et de désirabilité, d’importance, d’utilité et d’inutilité",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 40,
+      "linkedItems": [
+        "itm_of28_src_a11_1",
+        "itm_of28_src_a11_2",
+        "itm_of28_src_a11_3",
+        "itm_of28_src_a11_4",
+        "itm_of28_src_a11_5",
+        "itm_of28_src_a11_6",
+        "itm_of28_src_a11_7",
+        "itm_of28_src_a11_8",
+        "itm_of28_src_a11_9",
+        "itm_of28_src_a11_10",
+        "itm_of28_src_a12_1",
+        "itm_of28_src_a12_2",
+        "itm_of28_src_a12_3",
+        "itm_of28_src_a12_4",
+        "itm_of28_src_a12_5",
+        "itm_of28_src_a12_6",
+        "itm_of28_src_a12_7",
+        "itm_of28_src_a12_8",
+        "itm_of28_src_a12_9",
+        "itm_of28_src_a12_10",
+        "itm_of28_src_a13_1",
+        "itm_of28_src_a13_2",
+        "itm_of28_src_a13_3",
+        "itm_of28_src_a13_4",
+        "itm_of28_src_a13_5",
+        "itm_of28_src_a13_6",
+        "itm_of28_src_a13_7",
+        "itm_of28_src_a13_8",
+        "itm_of28_src_a13_9",
+        "itm_of28_src_a13_10",
+        "itm_of28_src_a15_1",
+        "itm_of28_src_a15_2",
+        "itm_of28_src_a15_3",
+        "itm_of28_src_a15_4",
+        "itm_of28_src_a15_5",
+        "itm_of28_src_a15_6",
+        "itm_of28_src_a15_7",
+        "itm_of28_src_a15_8",
+        "itm_of28_src_a15_9",
+        "itm_of28_src_a15_10"
       ]
     },
     {
       "id": "28.5",
       "heading": "Fonctions",
-      "topicsFr": "Understanding information and requests for information about the importance of an instruction",
+      "topicsFr": "Comprendre de l’information et une demande d’information sur l’importance d’une directive",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 30,
+      "linkedItems": [
+        "itm_of28_src_a17_1",
+        "itm_of28_src_a17_2",
+        "itm_of28_src_a17_3",
+        "itm_of28_src_a17_4",
+        "itm_of28_src_a17_5",
+        "itm_of28_src_a17_6",
+        "itm_of28_src_a17_7",
+        "itm_of28_src_a17_8",
+        "itm_of28_src_a17_9",
+        "itm_of28_src_a17_10",
+        "itm_of28_src_a17_11",
+        "itm_of28_src_a17_12",
+        "itm_of28_src_a18_1",
+        "itm_of28_src_a18_2",
+        "itm_of28_src_a18_3",
+        "itm_of28_src_a18_4",
+        "itm_of28_src_a18_5",
+        "itm_of28_src_a18_6",
+        "itm_of28_src_a18_7",
+        "itm_of28_src_a18_8",
+        "itm_of28_src_a18_9",
+        "itm_of28_src_a18_10",
+        "itm_of28_src_a19_1",
+        "itm_of28_src_a19_2",
+        "itm_of28_src_a19_3",
+        "itm_of28_src_a19_4",
+        "itm_of28_src_a19_5",
+        "itm_of28_src_a19_6",
+        "itm_of28_src_a19_7",
+        "itm_of28_src_a19_8"
+      ]
     },
     {
       "id": "28.6",
       "heading": "Fonctions",
-      "topicsFr": "Asking for and giving information about the importance of an instruction",
+      "topicsFr": "Demander et donner de l’information sur l’importance d’une directive",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 30,
+      "linkedItems": [
+        "itm_of28_src_a17_1",
+        "itm_of28_src_a17_2",
+        "itm_of28_src_a17_3",
+        "itm_of28_src_a17_4",
+        "itm_of28_src_a17_5",
+        "itm_of28_src_a17_6",
+        "itm_of28_src_a17_7",
+        "itm_of28_src_a17_8",
+        "itm_of28_src_a17_9",
+        "itm_of28_src_a17_10",
+        "itm_of28_src_a17_11",
+        "itm_of28_src_a17_12",
+        "itm_of28_src_a18_1",
+        "itm_of28_src_a18_2",
+        "itm_of28_src_a18_3",
+        "itm_of28_src_a18_4",
+        "itm_of28_src_a18_5",
+        "itm_of28_src_a18_6",
+        "itm_of28_src_a18_7",
+        "itm_of28_src_a18_8",
+        "itm_of28_src_a18_9",
+        "itm_of28_src_a18_10",
+        "itm_of28_src_a19_1",
+        "itm_of28_src_a19_2",
+        "itm_of28_src_a19_3",
+        "itm_of28_src_a19_4",
+        "itm_of28_src_a19_5",
+        "itm_of28_src_a19_6",
+        "itm_of28_src_a19_7",
+        "itm_of28_src_a19_8"
+      ]
     }
   ],
   "vocabulary": {
@@ -110,10 +234,10 @@
   },
   "examples": {
     "sourceMarkers": 6,
-    "derivedItems": 56,
+    "derivedItems": 124,
     "convertible": true,
     "covered": true,
-    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+    "note": "The model expressions and dialogue sentences are embedded in self-contained practice items and the learn tab."
   },
   "selfTest": {
     "selfEvalBooklet": "selfeval-3 (SC102-2-45-3)",
@@ -165,9 +289,22 @@
       "activity": 4,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of28_src_a4_1",
+        "itm_of28_src_a4_2",
+        "itm_of28_src_a4_3",
+        "itm_of28_src_a4_4",
+        "itm_of28_src_a4_5",
+        "itm_of28_src_a4_6",
+        "itm_of28_src_a4_7",
+        "itm_of28_src_a4_8",
+        "itm_of28_src_a4_9",
+        "itm_of28_src_a4_10",
+        "itm_of28_src_a4_11",
+        "itm_of28_src_a4_12"
+      ]
     },
     {
       "activity": 5,
@@ -181,9 +318,20 @@
       "activity": 6,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of28_src_a6_1",
+        "itm_of28_src_a6_2",
+        "itm_of28_src_a6_3",
+        "itm_of28_src_a6_4",
+        "itm_of28_src_a6_5",
+        "itm_of28_src_a6_6",
+        "itm_of28_src_a6_7",
+        "itm_of28_src_a6_8",
+        "itm_of28_src_a6_9",
+        "itm_of28_src_a6_10"
+      ]
     },
     {
       "activity": 7,
@@ -197,17 +345,39 @@
       "activity": 8,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of28_src_a8_1",
+        "itm_of28_src_a8_2",
+        "itm_of28_src_a8_3",
+        "itm_of28_src_a8_4",
+        "itm_of28_src_a8_5",
+        "itm_of28_src_a8_6",
+        "itm_of28_src_a8_7",
+        "itm_of28_src_a8_8"
+      ]
     },
     {
       "activity": 9,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of28_src_a9_1",
+        "itm_of28_src_a9_2",
+        "itm_of28_src_a9_3",
+        "itm_of28_src_a9_4",
+        "itm_of28_src_a9_5",
+        "itm_of28_src_a9_6",
+        "itm_of28_src_a9_7",
+        "itm_of28_src_a9_8",
+        "itm_of28_src_a9_9",
+        "itm_of28_src_a9_10",
+        "itm_of28_src_a9_11",
+        "itm_of28_src_a9_12"
+      ]
     },
     {
       "activity": 10,
@@ -222,9 +392,17 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 2,
+      "itemCount": 10,
       "linkedItems": [
+        "itm_of28_src_a11_1",
+        "itm_of28_src_a11_2",
+        "itm_of28_src_a11_3",
+        "itm_of28_src_a11_4",
         "itm_of28_src_a11_5",
+        "itm_of28_src_a11_6",
+        "itm_of28_src_a11_7",
+        "itm_of28_src_a11_8",
+        "itm_of28_src_a11_9",
         "itm_of28_src_a11_10"
       ]
     },
@@ -233,7 +411,7 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 9,
+      "itemCount": 10,
       "linkedItems": [
         "itm_of28_src_a12_1",
         "itm_of28_src_a12_2",
@@ -243,6 +421,7 @@
         "itm_of28_src_a12_6",
         "itm_of28_src_a12_7",
         "itm_of28_src_a12_8",
+        "itm_of28_src_a12_9",
         "itm_of28_src_a12_10"
       ]
     },
@@ -250,9 +429,20 @@
       "activity": 13,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of28_src_a13_1",
+        "itm_of28_src_a13_2",
+        "itm_of28_src_a13_3",
+        "itm_of28_src_a13_4",
+        "itm_of28_src_a13_5",
+        "itm_of28_src_a13_6",
+        "itm_of28_src_a13_7",
+        "itm_of28_src_a13_8",
+        "itm_of28_src_a13_9",
+        "itm_of28_src_a13_10"
+      ]
     },
     {
       "activity": 14,
@@ -293,25 +483,58 @@
       "activity": 17,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of28_src_a17_1",
+        "itm_of28_src_a17_2",
+        "itm_of28_src_a17_3",
+        "itm_of28_src_a17_4",
+        "itm_of28_src_a17_5",
+        "itm_of28_src_a17_6",
+        "itm_of28_src_a17_7",
+        "itm_of28_src_a17_8",
+        "itm_of28_src_a17_9",
+        "itm_of28_src_a17_10",
+        "itm_of28_src_a17_11",
+        "itm_of28_src_a17_12"
+      ]
     },
     {
       "activity": 18,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of28_src_a18_1",
+        "itm_of28_src_a18_2",
+        "itm_of28_src_a18_3",
+        "itm_of28_src_a18_4",
+        "itm_of28_src_a18_5",
+        "itm_of28_src_a18_6",
+        "itm_of28_src_a18_7",
+        "itm_of28_src_a18_8",
+        "itm_of28_src_a18_9",
+        "itm_of28_src_a18_10"
+      ]
     },
     {
       "activity": 19,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of28_src_a19_1",
+        "itm_of28_src_a19_2",
+        "itm_of28_src_a19_3",
+        "itm_of28_src_a19_4",
+        "itm_of28_src_a19_5",
+        "itm_of28_src_a19_6",
+        "itm_of28_src_a19_7",
+        "itm_of28_src_a19_8"
+      ]
     },
     {
       "activity": 20,
@@ -356,25 +579,16 @@
   ],
   "validation": {
     "strictComplete": false,
-    "convertibleComplete": false,
+    "convertibleComplete": true,
     "totalElements": 33,
-    "coveredElements": 10,
+    "coveredElements": 18,
     "convertible": {
-      "covered": 10,
-      "total": 19
+      "covered": 18,
+      "total": 18
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        4,
-        6,
-        8,
-        9,
-        13,
-        17,
-        18,
-        19
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -382,10 +596,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "28.5 Fonctions (function)",
-        "28.6 Fonctions (function)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,
@@ -401,6 +612,6 @@
         24
       ]
     },
-    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+    "note": "All answer-keyed OF28 activities and function sections have concept-focused items. Oral/group production activities remain non-auto-gradable."
   }
 }

@@ -5,7 +5,7 @@
   "titleEn": "To explain the importance of an instruction",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/28-2005F",
     "text": "sources/text/OF28.txt"
@@ -13,35 +13,101 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF28 — To explain the importance of an instruction. Source document SC102-2/28-2005F. Grammar taught: subjonctif. Vocabulary: the OF28 section of the PFL2 Lexique. 91 questions, all traceable to the PFL2 source (39 verbatim source activities + 52 from the OF28 Lexique).",
-        "fr": "Préciser l’importance d’une directive. Document source SC102-2/28-2005F. Grammaire enseignée : subjonctif. Vocabulaire : section OF28 du Lexique PFL2."
+        "en": "OF28 teaches how to explain how important an instruction is: required, necessary, desirable, important, useful, useless, or not required. The core skill is choosing expressions that show the right degree of force, then using infinitive or subjunctive correctly after those expressions.",
+        "fr": "L’OF28 sert à préciser l’importance d’une directive : obligatoire, nécessaire, souhaitable, importante, utile, inutile ou non obligatoire. Il faut choisir l’indicateur qui donne le bon degré de force, puis employer l’infinitif ou le subjonctif selon la structure."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Indicateurs clés : devoir, être obligé de, être tenu de, il faut, obligatoire, nécessaire, indispensable, souhaitable, sage, important, essentiel, fondamental, prioritaire, ce qui importe, ce qui compte, utile, inutile, pertinent, servir à, valoir la peine, perte de temps, pour rien.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif.",
-        "charts": [],
-        "points": []
+        "summary": "Expressions of obligation, necessity, importance, usefulness, and uselessness are followed either by de + infinitive or by que + subjunctive.",
+        "charts": [
+          {
+            "title": "Infinitif ou subjonctif",
+            "rows": [
+              [
+                "Action générale",
+                "Il est important de vérifier les chiffres."
+              ],
+              [
+                "Sujet nommé après que",
+                "Il est important que vous vérifiiez les chiffres."
+              ],
+              [
+                "Il faut + infinitif",
+                "Il faut répondre rapidement."
+              ],
+              [
+                "Il faut que + subjonctif",
+                "Il faut que nous répondions rapidement."
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Use de + infinitive when the action is general or the subject is not identified.",
+          "Use que + subjunctive when the person or group responsible for the action is named.",
+          "Do not confuse advice with obligation: il vaut mieux and ce serait sage are softer than il faut, obligatoire, exigé, or requis.",
+          "Use utility expressions to justify a directive: ça sert à, ça vaut la peine, c’est utile, c’est une perte de temps, ça ne sert à rien."
+        ]
       },
       "pronunciation": {
         "points": []
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander l’importance d’une directive",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Est-ce qu’on est vraiment obligés de faire ça?"
+            },
+            {
+              "speaker": "B",
+              "text": "Oui, c’est essentiel que ce soit fait aujourd’hui."
+            },
+            {
+              "speaker": "A",
+              "text": "À quoi ça sert d’appliquer le règlement à la lettre?"
+            },
+            {
+              "speaker": "B",
+              "text": "Ça nous évite de refaire le travail pour rien."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Prioriser pendant une absence",
+          "body": "J’ai deux dossiers très importants qu’il faudrait traiter pendant mon absence. Il faut faire une recherche et répondre le plus tôt possible. Pour l’autre dossier, c’est essentiel que ça soit fait maintenant; plus on attend, plus ce sera long pour la bénéficiaire."
+        }
+      ]
     },
     "practice": {
-      "sourceFidelity": true,
-      "coverage": "91 questions, all traceable to the PFL2 source (39 verbatim source activities + 52 from the OF28 Lexique).",
+      "sourceFidelity": false,
+      "coverage": "176 questions: 124 concept-focused items derived from SC102-2/28-2005F plus 52 OF28 lexicon items.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 33
+          "title": "Indicateurs d’obligation, de nécessité et de désirabilité",
+          "count": 24
+        },
+        {
+          "title": "Indicateurs d’importance, d’utilité et d’inutilité",
+          "count": 30
+        },
+        {
+          "title": "Infinitif ou subjonctif après les indicateurs",
+          "count": 40
+        },
+        {
+          "title": "Fonctions : demander et donner l’importance d’une directive",
+          "count": 30
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 52
         }
       ],
-      "totalQuestions": 85
+      "totalQuestions": 176
     },
     "consolidation": {
       "sourceBooklet": {
@@ -79,31 +145,28 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
-        "subjonctif"
+        "importance des directives",
+        "indicateurs d’obligation",
+        "indicateurs de nécessité",
+        "indicateurs de désirabilité",
+        "indicateurs d’utilité",
+        "subjonctif",
+        "infinitif"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 10,
+    "convertibleComplete": true,
+    "coveredElements": 18,
     "totalElements": 33,
     "convertible": {
-      "covered": 10,
-      "total": 19
+      "covered": 18,
+      "total": 18
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        4,
-        6,
-        8,
-        9,
-        13,
-        17,
-        18,
-        19
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -111,10 +174,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "28.5 Fonctions (function)",
-        "28.6 Fonctions (function)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,
