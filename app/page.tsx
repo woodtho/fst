@@ -20,8 +20,8 @@ export default function CatalogPage({
     <>
       <h1>Training objectives</h1>
       <p className="lead">
-        The 40 PFL2 communicative objectives. Modules with authored content are playable now;
-        the rest are scaffolded from <code>content/curriculum.json</code>.
+        The 40 communicative objectives of the Government of Canada French (PFL2) program,
+        Levels A and B. Choose an objective to learn, practise and test it.
       </p>
 
       <div className="filterbar" role="group" aria-label="Filter by level">
@@ -39,7 +39,7 @@ export default function CatalogPage({
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span className="card-code">{o.id}</span>
                 <span className={`pill ${playable ? "available" : "soon"}`}>
-                  {playable ? "Available" : "Scaffolded"}
+                  {playable ? "Available" : "Coming soon"}
                 </span>
               </div>
               <div className="card-title fr">{o.titleFr}</div>

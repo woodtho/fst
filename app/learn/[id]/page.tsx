@@ -45,7 +45,7 @@ export default function ModuleHub({ params }: { params: { id: string } }) {
           </div>
           {hasLearn
             ? <Link className="btn secondary" href={`/learn/${objective.id}/learn`}>Open</Link>
-            : <span className="meta">Not yet authored</span>}
+            : <span className="meta">Coming soon</span>}
         </div>
 
         <div className="stage">
@@ -55,7 +55,7 @@ export default function ModuleHub({ params }: { params: { id: string } }) {
           </div>
           {items.length > 0
             ? <Link className="btn" href={`/learn/${objective.id}/practice`}>Start practice</Link>
-            : <span className="meta">Not yet authored</span>}
+            : <span className="meta">Coming soon</span>}
         </div>
 
         <div className="stage">
@@ -69,7 +69,7 @@ export default function ModuleHub({ params }: { params: { id: string } }) {
           </div>
           {supp.consolidation
             ? <span className="pill available">Source available</span>
-            : <span className="meta">Spec only</span>}
+            : <span className="meta">Coming soon</span>}
         </div>
 
         <div className="stage">

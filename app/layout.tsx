@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main className="container">{children}</main>
         <footer className="footer">
-          Vertical slice · content read from <code>/content</code> · original FSL material
+          Based on the Government of Canada French as a Second Language (PFL2) program · Levels A &amp; B
         </footer>
       </body>
     </html>
