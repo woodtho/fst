@@ -27,11 +27,8 @@
       "topicsFr": "Nombres ordinaux",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of6_src_a16_1",
-        "itm_of6_src_a16_6"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "6.3",
@@ -39,11 +36,9 @@
       "topicsFr": "Mot interrogatif combien · Adjectifs et pronoms démonstratifs",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 4,
+      "itemCount": 2,
       "linkedItems": [
         "itm_of6_src_a21_1",
-        "itm_of6_src_a22_1",
-        "itm_of6_src_a25_1",
         "itm_of6_src_a26_2"
       ]
     },
@@ -53,11 +48,8 @@
       "topicsFr": "Understanding questions and information involving numbers (quantity, age, address, number)",
       "kind": "function",
       "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of6_src_a27_1",
-        "itm_of6_src_a28_1"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "6.5",
@@ -65,11 +57,8 @@
       "topicsFr": "Messages containing numbers",
       "kind": "writing",
       "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of6_src_a29_1",
-        "itm_of6_src_a29_8"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "6.6",
@@ -77,9 +66,8 @@
       "topicsFr": "Asking for and providing numerical information",
       "kind": "function",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of6_src_a25_1",
         "itm_of6_src_a26_2"
       ]
     },
@@ -89,7 +77,7 @@
       "topicsFr": "Sounds, rhythm and intonation in French",
       "kind": "phonetics",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 0,
       "linkedItems": []
     }
   ],

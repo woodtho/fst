@@ -37,11 +37,10 @@
       "topicsFr": "Formation du passé composé, de l’imparfait, du futur simple, du futur proche",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 3,
+      "itemCount": 2,
       "linkedItems": [
         "itm_of9_src_a4_1",
-        "itm_of9_src_a11_1",
-        "itm_of9_src_a15_1"
+        "itm_of9_src_a11_1"
       ]
     },
     {
@@ -50,9 +49,8 @@
       "topicsFr": "Usage de l’indicatif présent",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of9_src_a13_1",
         "itm_of9_src_a21_1"
       ]
     },
@@ -62,11 +60,9 @@
       "topicsFr": "Comprendre des énoncés qui situent un événement dans le temps : passé, présent, futur",
       "kind": "function",
       "covered": true,
-      "itemCount": 3,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of9_src_a5_1",
-        "itm_of9_src_a16_1",
-        "itm_of9_src_a17_extra_1"
+        "itm_of9_src_a5_1"
       ]
     },
     {
@@ -75,9 +71,8 @@
       "topicsFr": "Describing situations in the present",
       "kind": "function",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of9_src_a13_1",
         "itm_of9_src_a21_1"
       ]
     },
@@ -87,7 +82,7 @@
       "topicsFr": "Sounds, rhythm and intonation in French",
       "kind": "phonetics",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 0,
       "linkedItems": []
     }
   ],

@@ -5,7 +5,7 @@
   "titleEn": "To give details about the time factors involved in a job",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/22-2005F",
     "text": "sources/text/OF22.txt"
@@ -13,35 +13,120 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF22 — To give details about the time factors involved in a job. Source document SC102-2/22-2005F. Grammar taught: quantity, prepositions. Vocabulary: the OF22 section of the PFL2 Lexique. 97 questions, all traceable to the PFL2 source (25 verbatim source activities + 72 from the OF22 Lexique).",
-        "fr": "Préciser les modalités d’exécution (temps) d’un travail. Document source SC102-2/22-2005F. Grammaire enseignée : quantity, prepositions. Vocabulaire : section OF22 du Lexique PFL2."
+        "en": "OF22 teaches how to specify time factors for work: duration, frequency, deadline, extension, exactness, approximation, totality, partial completion, and pronominal verbs used in workplace tasks.",
+        "fr": "Préciser les modalités d’exécution d’un travail : durée, fréquence, échéance, délai, exactitude, approximation, totalité, composante et verbes pronominaux liés aux tâches."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "OF22 vocabulary focuses on time indicators, deadlines, extensions, task execution verbs, and the source lexicon shown below.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): quantity, prepositions.",
+        "summary": "OF22 combines time expressions with tout/tous/toutes and pronominal verbs.",
         "charts": [],
-        "points": []
+        "points": [
+          "Duration: depuis, pendant, durant, pour, en, ça fait, ça prend, mettre, durer.",
+          "Frequency: souvent, régulièrement, chaque semaine, tous les mois, deux fois par semaine, rarement, jamais.",
+          "Deadline: d’ici le 15, au plus tard le 15, pas plus tard que le 15, avant le 15, jusqu’au 12.",
+          "Approximation and exactness: vers, environ, à peu près, une dizaine de; exactement, précisément, pile, juste.",
+          "Tout as adjective agrees with the noun: tout le service, toute la journée, tous les projets, toutes les données.",
+          "Tout as pronoun replaces a whole group or means everything: ils les rencontrent tous; elle les révise toutes; tout va bien.",
+          "Pronominal verbs keep the reflexive pronoun with the subject: je me sers, vous vous souvenez, ils se rencontreront.",
+          "Affirmative imperative places the pronoun after the verb: préparez-vous, sers-toi; negative imperative keeps it before: ne vous inscrivez pas."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "The adjective tous before a noun is usually pronounced [tu]; the pronoun tous at the end of a group is pronounced [tus].",
+          "Keep deadline groups together when speaking: au plus tard le 15; d’ici vendredi; jusqu’au 25 octobre."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Échéance et délai",
+          "register": "workplace",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "J’aimerais te demander de vérifier les dernières statistiques sur le chômage."
+            },
+            {
+              "speaker": "B",
+              "fr": "J’ai jusqu’à quand pour faire ça?"
+            },
+            {
+              "speaker": "A",
+              "fr": "Jusqu’à mercredi."
+            },
+            {
+              "speaker": "B",
+              "fr": "C’est un peu court. Je peux prendre une journée de plus?"
+            },
+            {
+              "speaker": "A",
+              "fr": "Je regrette, c’est impossible."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Indicateurs de durée et de fréquence",
+          "table": {
+            "headers": [
+              "Function",
+              "French",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Duration continuing now",
+                "depuis",
+                "Je travaille à ce rapport depuis trois jours."
+              ],
+              [
+                "Duration span",
+                "pendant / durant",
+                "Elle a lu pendant tout l’avant-midi."
+              ],
+              [
+                "Time needed",
+                "ça prend / mettre",
+                "Ça prend cinq jours pour faire ce travail."
+              ],
+              [
+                "Frequency",
+                "chaque / tous les / deux fois par",
+                "On se réunit trois fois par mois."
+              ],
+              [
+                "Deadline",
+                "d’ici / au plus tard / jusqu’à",
+                "Vous avez jusqu’au 25 octobre."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Tout, toute, tous, toutes",
+          "fr": "Tout le matériel sert à l’organisation du stage.\nToutes les données sont prêtes.\nLes gestionnaires se rencontrent tous une fois par mois.\nElle les révise toutes.\nTout va bien."
+        },
+        {
+          "title": "Préciser le temps d’exécution",
+          "fr": "En combien de temps est-ce que Judith a lu cette brochure? Elle l’a lue en une heure.\nÀ quelle fréquence est-ce qu’on va se réunir en comité? On va se réunir trois fois par mois.\nC’est pour quelle date? Pour jeudi, au plus tard.\nPouvez-vous nous accorder un délai? Oui, je vous accorde un jour de plus."
+        }
+      ]
     },
     "practice": {
-      "sourceFidelity": true,
-      "coverage": "97 questions, all traceable to the PFL2 source (25 verbatim source activities + 72 from the OF22 Lexique).",
+      "sourceFidelity": false,
+      "coverage": "175 useful questions (103 source activity questions + 72 vocabulary questions), all answerable from the visible prompt. Hidden audio/image-only activities are covered in the learn tab when useful.",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 25
+          "count": 103
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 72
         }
       ],
-      "totalQuestions": 97
+      "totalQuestions": 175
     },
     "consolidation": {
       "sourceBooklet": {
@@ -87,10 +172,10 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 12,
+    "coveredElements": 20,
     "totalElements": 76,
     "convertible": {
-      "covered": 12,
+      "covered": 20,
       "total": 46
     },
     "actionableGaps": {
@@ -100,34 +185,25 @@
         2,
         3,
         4,
-        6,
         12,
         13,
         14,
-        17,
         18,
-        19,
         21,
         22,
-        25,
         26,
         30,
         31,
-        33,
         34,
         35,
         36,
-        38,
-        40,
         42,
         43,
         44,
         47,
         48,
         49,
-        50,
         51,
-        59,
         62
       ],
       "vocabulary": [],

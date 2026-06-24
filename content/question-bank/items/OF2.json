@@ -6,7 +6,7 @@
     "sourceDocument": "SC102-2/2-2005F",
     "lexique": "SC102-2/1-2-2005F",
     "counts": {
-      "source": 119,
+      "source": 95,
       "vocab": 59
     }
   },
@@ -30,7 +30,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ est-ce que ça s’appelle, ça?",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete the blank."
       },
       "answer": {
         "type": "text",
@@ -96,7 +96,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "J’aime ___ monument en face du musée.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete the blank."
       },
       "answer": {
         "type": "text",
@@ -162,7 +162,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "C’est ___ porte-monnaie de Marianne.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete the blank."
       },
       "answer": {
         "type": "text",
@@ -228,7 +228,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je prépare ___ communiqué de presse de la directrice.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete the blank."
       },
       "answer": {
         "type": "text",
@@ -294,7 +294,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "C’est ___ imprimante de Véronique?",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete the blank."
       },
       "answer": {
         "type": "text",
@@ -360,7 +360,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ auto",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -426,7 +426,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ bureaux",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -492,7 +492,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ arbre",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -558,7 +558,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ budget",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -624,7 +624,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ facture",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -690,7 +690,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ crayons",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -756,7 +756,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ formulaires",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -822,7 +822,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ publication",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -888,7 +888,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ livres",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -954,7 +954,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ contrat",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -1020,7 +1020,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ articles",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -1086,7 +1086,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ souris",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -1152,7 +1152,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ fauteuil",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -1218,7 +1218,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ écran",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct definite article."
       },
       "answer": {
         "type": "text",
@@ -1266,930 +1266,6 @@
       }
     },
     {
-      "id": "itm_of2_src_a17_2",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "le dossier ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "un"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_3",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "le bureau ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "un"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_4",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "l’imprimante ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "une"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « une ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_5",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "la table ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "une"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « une ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_6",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "les ordinateurs ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "des"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « des ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_7",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "le message ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "un"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_8",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "la lettre ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "une"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « une ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_9",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "le contrat ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "un"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_10",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "le téléphone ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "un"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_11",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "le rapport ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "un"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_12",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "la brochure ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "une"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « une ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_13",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "le mobilier ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "un"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_14",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "les portefeuilles ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "des"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « des ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "id": "itm_of2_src_a17_15",
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "grammarConcepts": [
-        "articles"
-      ],
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "difficulty": "medium",
-      "type": "fill_blank",
-      "status": "live",
-      "estTimeSec": 30,
-      "irtB": 0,
-      "prompt": {
-        "fr": "le téléviseur ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
-      },
-      "answer": {
-        "type": "text",
-        "accepted": [
-          "un"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [],
-      "explanation": {
-        "correct_why": "La réponse attendue est « un ». Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "distractor_why": {},
-        "grammar_rule": "Définis : le (m. sing.), la (f. sing.), l' (devant voyelle), les (pluriel).",
-        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/2-2005F, activité 17).",
-        "common_mistakes": [
-          "se tromper de forme selon le contexte"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom AVEC son article.",
-        "pattern": "le/la/l'/les selon genre et nombre.",
-        "similar": [
-          "la note",
-          "la facture",
-          "la brochure"
-        ]
-      },
-      "source": {
-        "verbatim": true,
-        "catalogue": "SC102-2/2-2005F",
-        "activity": 17,
-        "concept": "articles"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "page": null,
-        "topicFr": "Identifier des objets ou des documents",
-        "topicEn": "To identify objects or documents",
-        "vocabularySet": null,
-        "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
       "id": "itm_of2_src_a20_2",
       "objectiveId": "OF2",
       "skill": "writing",
@@ -2208,7 +1284,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "shoes ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2274,7 +1350,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "a pen ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2341,7 +1417,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "a dress ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2407,7 +1483,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "a chair ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2473,7 +1549,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "a plane ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2539,7 +1615,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "bottles ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2605,7 +1681,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "a computer ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2671,7 +1747,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "a truck ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2737,7 +1813,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "a suit ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -2803,7 +1879,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "a file ___",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Write the French noun phrase with the correct article."
       },
       "answer": {
         "type": "text",
@@ -12719,896 +11795,6 @@
         "topicFr": "Identifier des objets ou des documents",
         "activity": 26,
         "grammarConcepts": [
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_a",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Est-ce que c’est une copie du rapport annuel?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "2"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "2",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "3",
-          "tag": "d1"
-        },
-        {
-          "value": "4",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Est-ce que c’est une copie du rapport annuel? » correspond au mini-dialogue 2.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 3 » ne convient pas dans ce contexte.",
-          "d2": "« 4 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_b",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Mais, est-ce que c’est l’agenda du directeur, ça?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "6"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "6",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "2",
-          "tag": "d1"
-        },
-        {
-          "value": "3",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Mais, est-ce que c’est l’agenda du directeur, ça? » correspond au mini-dialogue 6.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 2 » ne convient pas dans ce contexte.",
-          "d2": "« 3 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_c",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Pourrais-tu me dire ce que c’est, cette boîte-là?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "8"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "8",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "2",
-          "tag": "d1"
-        },
-        {
-          "value": "3",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Pourrais-tu me dire ce que c’est, cette boîte-là? » correspond au mini-dialogue 8.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 2 » ne convient pas dans ce contexte.",
-          "d2": "« 3 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_d",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Qu’est-ce que c’est?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "1"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "1",
-          "tag": "correct"
-        },
-        {
-          "value": "2",
-          "tag": "d0"
-        },
-        {
-          "value": "3",
-          "tag": "d1"
-        },
-        {
-          "value": "4",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Qu’est-ce que c’est? » correspond au mini-dialogue 1.",
-        "distractor_why": {
-          "d0": "« 2 » ne convient pas dans ce contexte.",
-          "d1": "« 3 » ne convient pas dans ce contexte.",
-          "d2": "« 4 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_e",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Et ça, c’est les dictionnaires de Sylvie?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "10"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "10",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "2",
-          "tag": "d1"
-        },
-        {
-          "value": "3",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Et ça, c’est les dictionnaires de Sylvie? » correspond au mini-dialogue 10.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 2 » ne convient pas dans ce contexte.",
-          "d2": "« 3 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_f",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Les notes de service, est-ce que c’est les originaux?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "4"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "4",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "2",
-          "tag": "d1"
-        },
-        {
-          "value": "3",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Les notes de service, est-ce que c’est les originaux? » correspond au mini-dialogue 4.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 2 » ne convient pas dans ce contexte.",
-          "d2": "« 3 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_g",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "C’est quoi, le nom de cet objet-là?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "7"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "7",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "2",
-          "tag": "d1"
-        },
-        {
-          "value": "3",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « C’est quoi, le nom de cet objet-là? » correspond au mini-dialogue 7.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 2 » ne convient pas dans ce contexte.",
-          "d2": "« 3 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_h",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Qu’est-ce que c’est, ce dossier-là?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "3"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "3",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "2",
-          "tag": "d1"
-        },
-        {
-          "value": "4",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Qu’est-ce que c’est, ce dossier-là? » correspond au mini-dialogue 3.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 2 » ne convient pas dans ce contexte.",
-          "d2": "« 4 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_i",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Qu’est-ce que c’est, ces formulaires-là?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "9"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "9",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "2",
-          "tag": "d1"
-        },
-        {
-          "value": "3",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Qu’est-ce que c’est, ces formulaires-là? » correspond au mini-dialogue 9.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 2 » ne convient pas dans ce contexte.",
-          "d2": "« 3 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
-          "articles"
-        ]
-      }
-    },
-    {
-      "objectiveId": "OF2",
-      "skill": "writing",
-      "vocabDomains": [
-        "workplace",
-        "administration"
-      ],
-      "theme": "workplace",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of2_a27_j",
-      "grammarConcepts": [
-        "question_formation",
-        "articles"
-      ],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Quel est le titre du livre?",
-        "instructions_en": "Choose the mini-dialogue number where this expression appears."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "5"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "5",
-          "tag": "correct"
-        },
-        {
-          "value": "1",
-          "tag": "d0"
-        },
-        {
-          "value": "2",
-          "tag": "d1"
-        },
-        {
-          "value": "3",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans le corrigé de l’activité 27, l’énoncé « Quel est le titre du livre? » correspond au mini-dialogue 5.",
-        "distractor_why": {
-          "d0": "« 1 » ne convient pas dans ce contexte.",
-          "d1": "« 2 » ne convient pas dans ce contexte.",
-          "d2": "« 3 » ne convient pas dans ce contexte."
-        },
-        "grammar_rule": "Les questions d’identification d’objets/documents peuvent demander ce que c’est, comment ça s’appelle, ou vérifier une identification.",
-        "vocab_notes": "Expressions clés: Qu’est-ce que c’est? C’est quoi? Quel est le titre? Est-ce que c’est...?",
-        "common_mistakes": [
-          "confondre une question d’identification avec une question de vérification"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Apprenez chaque nom avec son article.",
-        "pattern": "genre/nombre + contexte -> article ou formule correcte.",
-        "similar": [
-          "C’est un bureau.",
-          "Ce sont des photocopies."
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 27,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/2-2005F",
-        "trainingObjective": "OF2",
-        "level": "A",
-        "topicFr": "Identifier des objets ou des documents",
-        "activity": 27,
-        "grammarConcepts": [
-          "question_formation",
           "articles"
         ]
       }

@@ -36,10 +36,9 @@
       "topicsFr": "Verbes aller et venir à l'indicatif présent · Verbes de déplacement à l'indicatif présent · Verbes de déplacement à l'impératif présent · Prépositions · Pronoms de lieu y et en",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of7_src_a21_2",
-        "itm_of7_src_a24_1"
+        "itm_of7_src_a21_2"
       ]
     },
     {
@@ -60,11 +59,9 @@
       "topicsFr": "Comprendre des questions et des directives relatives au déplacement",
       "kind": "function",
       "covered": true,
-      "itemCount": 3,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of7_src_a30_1",
-        "itm_of7_src_a31_1",
-        "itm_of7_src_a32_1"
+        "itm_of7_src_a30_1"
       ]
     },
     {
@@ -73,7 +70,7 @@
       "topicsFr": "Utiliser des formules de courtoisie pour aborder quelqu'un, remercier et accepter des remerciements",
       "kind": "strategy",
       "covered": true,
-      "itemCount": 4,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -82,10 +79,9 @@
       "topicsFr": "Demander de décrire un trajet et décrire un trajet",
       "kind": "function",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of7_src_a29_1",
-        "itm_of7_src_a33_1"
+        "itm_of7_src_a29_1"
       ]
     },
     {
@@ -94,7 +90,7 @@
       "topicsFr": "Sons, rythmes et intonations du français",
       "kind": "phonetics",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -103,11 +99,8 @@
       "topicsFr": "Vérifier sa compréhension et l'exactitude d'un fait",
       "kind": "strategy",
       "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of7_src_a44_3",
-        "itm_of7_src_a44_5"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     }
   ],
   "vocabulary": {

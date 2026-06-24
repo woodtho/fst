@@ -6,7 +6,7 @@
     "sourceDocument": "SC102-2/1-2005F",
     "lexique": "SC102-2/1-2-2005F",
     "counts": {
-      "source": 175,
+      "source": 141,
       "vocab": 63
     }
   },
@@ -29,7 +29,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "– Votre nom, s’il vous plaît? – Je ___ Marthe Beaulieu.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete the blank."
       },
       "answer": {
         "type": "text",
@@ -96,7 +96,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ es le patron.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct subject pronoun."
       },
       "answer": {
         "type": "text",
@@ -161,7 +161,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ sommes des employées.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct subject pronoun."
       },
       "answer": {
         "type": "text",
@@ -226,7 +226,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ suis programmeur.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct subject pronoun."
       },
       "answer": {
         "type": "text",
@@ -291,7 +291,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ sont mécaniciens.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct subject pronoun."
       },
       "answer": {
         "type": "text",
@@ -356,7 +356,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ êtes analyste.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct subject pronoun."
       },
       "answer": {
         "type": "text",
@@ -421,7 +421,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ est la patronne.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct subject pronoun."
       },
       "answer": {
         "type": "text",
@@ -486,7 +486,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ est informaticienne.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct subject pronoun."
       },
       "answer": {
         "type": "text",
@@ -551,7 +551,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "___ sont statisticiennes.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct subject pronoun."
       },
       "answer": {
         "type": "text",
@@ -616,7 +616,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Nous ___ directeurs.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -681,7 +681,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je ___ préposé à l’entretien.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -746,7 +746,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elle ___ commissionnaire.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -811,7 +811,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Vous ___ policier.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -876,7 +876,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Il ___ documentaliste.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -941,7 +941,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Tu ___ chercheuse.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -1006,7 +1006,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Ils ___ traducteurs.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -1071,7 +1071,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elles ___ professeures.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -1136,7 +1136,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "On ___ étudiantes.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Complete with the correct form of être."
       },
       "answer": {
         "type": "text",
@@ -1201,7 +1201,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je ___ (demeurer) à Chilliwack.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1265,7 +1265,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Tu ___ (habiter) rue Laurier.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1329,7 +1329,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Ils ___ (habiter) en banlieue.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1393,7 +1393,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elle ___ (travailler) à Montréal.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1457,7 +1457,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Il ___ (demeurer) à Gatineau.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1521,7 +1521,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elles ___ (travailler) à la fonction publique.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1585,7 +1585,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Vous ___ (habiter) à Vancouver.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1649,7 +1649,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Nous ___ (demeurer) tous au Canada.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1713,7 +1713,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "On ___ (travailler) à Charlottetown.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1777,7 +1777,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je ___ (travailler) à l’ordinateur.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1841,7 +1841,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Paul ___ (habiter) maintenant à Ottawa.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1905,7 +1905,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Ils ___ (être) commis à la paye.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -1970,7 +1970,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Je ___ (chercher) un autre poste.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -2034,7 +2034,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elle ___ (être) un peu fatiguée de ce travail.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -2099,7 +2099,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Tous les jours, nous ___ (classer) des documents.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -2163,7 +2163,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Hélène ___ (remplacer) le patron.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -2227,7 +2227,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Est-ce que vous ___ (habiter) encore dans le secteur Aylmer?",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -2291,7 +2291,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Tu ___ (recommander) quel modèle?",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -2355,7 +2355,7 @@
       "irtB": 0,
       "prompt": {
         "fr": "Elle ___ (manger) un hamburger.",
-        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+        "instructions_en": "Conjugate the verb in parentheses in the present tense."
       },
       "answer": {
         "type": "text",
@@ -2419,7 +2419,7 @@
       "irtB": 0.1,
       "prompt": {
         "fr": "– Allô, Jeannine? Comment ça va? – C’est Diane!",
-        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+        "instructions_en": "Choose the expression that naturally completes the visible dialogue."
       },
       "answer": {
         "type": "choice",
@@ -2494,7 +2494,7 @@
       "irtB": 0.1,
       "prompt": {
         "fr": "– Allô? – ___ – Oui, c’est bien ça.",
-        "instructions_en": "Choose the option that correctly completes it. (verbatim PFL2 source exercise)"
+        "instructions_en": "Choose the expression that naturally completes the visible dialogue."
       },
       "answer": {
         "type": "choice",
@@ -2569,7 +2569,7 @@
       "irtB": 0.5,
       "prompt": {
         "fr": "Vous êtes fonctionnaire?",
-        "instructions_en": "Rewrite the question using a different French question form. (Source task: Interrogez votre collègue en changeant la forme de la question.)"
+        "instructions_en": "Rewrite the question using est-ce que or inversion."
       },
       "answer": {
         "type": "text",
@@ -2634,7 +2634,7 @@
       "irtB": 0.5,
       "prompt": {
         "fr": "Vous êtes professeur?",
-        "instructions_en": "Rewrite the question using a different French question form. (Source task: Interrogez votre collègue en changeant la forme de la question.)"
+        "instructions_en": "Rewrite the question using est-ce que or inversion."
       },
       "answer": {
         "type": "text",
@@ -2699,7 +2699,7 @@
       "irtB": 0.5,
       "prompt": {
         "fr": "Votre nom, c’est « Leblanc »?",
-        "instructions_en": "Rewrite the question using a different French question form. (Source task: Interrogez votre collègue en changeant la forme de la question.)"
+        "instructions_en": "Rewrite the question using est-ce que or inversion."
       },
       "answer": {
         "type": "text",
@@ -2764,7 +2764,7 @@
       "irtB": 0.5,
       "prompt": {
         "fr": "Votre fille est fonctionnaire?",
-        "instructions_en": "Rewrite the question using a different French question form. (Source task: Interrogez votre collègue en changeant la forme de la question.)"
+        "instructions_en": "Rewrite the question using est-ce que or inversion."
       },
       "answer": {
         "type": "text",
@@ -2829,7 +2829,7 @@
       "irtB": 0.5,
       "prompt": {
         "fr": "Il est directeur du personnel?",
-        "instructions_en": "Rewrite the question using a different French question form. (Source task: Interrogez votre collègue en changeant la forme de la question.)"
+        "instructions_en": "Rewrite the question using est-ce que or inversion."
       },
       "answer": {
         "type": "text",
@@ -2894,7 +2894,7 @@
       "irtB": 0.5,
       "prompt": {
         "fr": "Votre fils travaille à la fonction publique?",
-        "instructions_en": "Rewrite the question using a different French question form. (Source task: Interrogez votre collègue en changeant la forme de la question.)"
+        "instructions_en": "Rewrite the question using est-ce que or inversion."
       },
       "answer": {
         "type": "text",
@@ -11566,836 +11566,6 @@
         "audioUrl": null,
         "imageUrl": null
       },
-      "id": "itm_of1_a10_1",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Andréa Massé",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "adjointe"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "adjointe",
-          "tag": "correct"
-        },
-        {
-          "value": "conseillère spéciale",
-          "tag": "d0"
-        },
-        {
-          "value": "secrétaire",
-          "tag": "d1"
-        },
-        {
-          "value": "directrice",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Andréa Massé est « adjointe ».",
-        "distractor_why": {
-          "d0": "« conseillère spéciale » ne convient pas ici.",
-          "d1": "« secrétaire » ne convient pas ici.",
-          "d2": "« directrice » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_2",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Madeleine Mercier",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "conseillère spéciale"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "conseillère spéciale",
-          "tag": "correct"
-        },
-        {
-          "value": "adjointe",
-          "tag": "d0"
-        },
-        {
-          "value": "réceptionniste",
-          "tag": "d1"
-        },
-        {
-          "value": "rédactrice",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Madeleine Mercier est « conseillère spéciale ».",
-        "distractor_why": {
-          "d0": "« adjointe » ne convient pas ici.",
-          "d1": "« réceptionniste » ne convient pas ici.",
-          "d2": "« rédactrice » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_3",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Raymond Cormier",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "coordonnateur des projets spéciaux"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "coordonnateur des projets spéciaux",
-          "tag": "correct"
-        },
-        {
-          "value": "chef",
-          "tag": "d0"
-        },
-        {
-          "value": "directeur adjoint",
-          "tag": "d1"
-        },
-        {
-          "value": "réviseur",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Raymond Cormier est « coordonnateur des projets spéciaux ».",
-        "distractor_why": {
-          "d0": "« chef » ne convient pas ici.",
-          "d1": "« directeur adjoint » ne convient pas ici.",
-          "d2": "« réviseur » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_4",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Monique Lachance",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "secrétaire"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "secrétaire",
-          "tag": "correct"
-        },
-        {
-          "value": "adjointe",
-          "tag": "d0"
-        },
-        {
-          "value": "traductrice",
-          "tag": "d1"
-        },
-        {
-          "value": "commis",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Monique Lachance est « secrétaire ».",
-        "distractor_why": {
-          "d0": "« adjointe » ne convient pas ici.",
-          "d1": "« traductrice » ne convient pas ici.",
-          "d2": "« commis » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_5",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Hugues Boucher",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "chef de la Division des services de traduction"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "chef de la Division des services de traduction",
-          "tag": "correct"
-        },
-        {
-          "value": "réviseur",
-          "tag": "d0"
-        },
-        {
-          "value": "réceptionniste",
-          "tag": "d1"
-        },
-        {
-          "value": "directeur adjoint",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Hugues Boucher est « chef de la Division des services de traduction ».",
-        "distractor_why": {
-          "d0": "« réviseur » ne convient pas ici.",
-          "d1": "« réceptionniste » ne convient pas ici.",
-          "d2": "« directeur adjoint » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_6",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Marc Ledoux",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "réviseur"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "réviseur",
-          "tag": "correct"
-        },
-        {
-          "value": "traducteur",
-          "tag": "d0"
-        },
-        {
-          "value": "commis",
-          "tag": "d1"
-        },
-        {
-          "value": "coordonnateur",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Marc Ledoux est « réviseur ».",
-        "distractor_why": {
-          "d0": "« traducteur » ne convient pas ici.",
-          "d1": "« commis » ne convient pas ici.",
-          "d2": "« coordonnateur » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_7",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Sylvie Dupré",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "traductrice"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "traductrice",
-          "tag": "correct"
-        },
-        {
-          "value": "rédactrice",
-          "tag": "d0"
-        },
-        {
-          "value": "secrétaire",
-          "tag": "d1"
-        },
-        {
-          "value": "réceptionniste",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Sylvie Dupré est « traductrice ».",
-        "distractor_why": {
-          "d0": "« rédactrice » ne convient pas ici.",
-          "d1": "« secrétaire » ne convient pas ici.",
-          "d2": "« réceptionniste » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_8",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Rémi Fournier",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "réceptionniste"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "réceptionniste",
-          "tag": "correct"
-        },
-        {
-          "value": "réviseur",
-          "tag": "d0"
-        },
-        {
-          "value": "chef",
-          "tag": "d1"
-        },
-        {
-          "value": "adjoint",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Rémi Fournier est « réceptionniste ».",
-        "distractor_why": {
-          "d0": "« réviseur » ne convient pas ici.",
-          "d1": "« chef » ne convient pas ici.",
-          "d2": "« adjoint » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_9",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Yvette Landry",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "chef de la Division de l’élaboration des règlements"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "chef de la Division de l’élaboration des règlements",
-          "tag": "correct"
-        },
-        {
-          "value": "rédactrice",
-          "tag": "d0"
-        },
-        {
-          "value": "directrice",
-          "tag": "d1"
-        },
-        {
-          "value": "secrétaire",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Yvette Landry est « chef de la Division de l’élaboration des règlements ».",
-        "distractor_why": {
-          "d0": "« rédactrice » ne convient pas ici.",
-          "d1": "« directrice » ne convient pas ici.",
-          "d2": "« secrétaire » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a10_10",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Gilles Sauvé",
-        "instructions_en": "Choose this person's role from the staff-list activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "directeur adjoint"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "directeur adjoint",
-          "tag": "correct"
-        },
-        {
-          "value": "directeur",
-          "tag": "d0"
-        },
-        {
-          "value": "coordonnateur",
-          "tag": "d1"
-        },
-        {
-          "value": "secrétaire",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 10, Gilles Sauvé est « directeur adjoint ».",
-        "distractor_why": {
-          "d0": "« directeur » ne convient pas ici.",
-          "d1": "« coordonnateur » ne convient pas ici.",
-          "d2": "« secrétaire » ne convient pas ici."
-        },
-        "grammar_rule": "Pour identifier un collègue, associez le nom à son titre ou à sa fonction.",
-        "vocab_notes": "Activité 10 présente des collègues, divisions et titres de poste.",
-        "common_mistakes": [
-          "confondre le prénom/nom avec le titre",
-          "confondre division et poste"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 10,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 10,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
       "id": "itm_of1_a12_1",
       "skill": "speaking",
       "grammarConcepts": [],
@@ -15982,1998 +15152,6 @@
         "level": "A",
         "topicFr": "S’identifier et identifier des personnes",
         "activity": 38,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_1",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue de l’Atmosphère",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "28"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "28",
-          "tag": "correct"
-        },
-        {
-          "value": "47",
-          "tag": "d0"
-        },
-        {
-          "value": "99",
-          "tag": "d1"
-        },
-        {
-          "value": "72",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue de l’Atmosphère » correspond au numéro 28.",
-        "distractor_why": {
-          "d0": "« 47 » ne convient pas ici.",
-          "d1": "« 99 » ne convient pas ici.",
-          "d2": "« 72 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_2",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "boulevard Cité-des-Jeunes",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "47"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "47",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "99",
-          "tag": "d1"
-        },
-        {
-          "value": "72",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « boulevard Cité-des-Jeunes » correspond au numéro 47.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 99 » ne convient pas ici.",
-          "d2": "« 72 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_3",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue Saint-Honoré",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "39"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "39",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue Saint-Honoré » correspond au numéro 39.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_4",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue des Érables",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "99"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "99",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "72",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue des Érables » correspond au numéro 99.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 72 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_5",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue des Algonquins",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "76"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "76",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue des Algonquins » correspond au numéro 76.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_6",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue du Frimas",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "68"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "68",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue du Frimas » correspond au numéro 68.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_7",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue de l’Aube",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "51"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "51",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue de l’Aube » correspond au numéro 51.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_8",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue des Chardonnerets",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "17"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "17",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue des Chardonnerets » correspond au numéro 17.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_9",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "Montée-du-Sourire",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "72"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "72",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « Montée-du-Sourire » correspond au numéro 72.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_10",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "13e Avenue",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "87"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "87",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « 13e Avenue » correspond au numéro 87.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_11",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue Noël",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "101"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "101",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue Noël » correspond au numéro 101.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_12",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "chemin Grand-Pré",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "45"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "45",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « chemin Grand-Pré » correspond au numéro 45.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_13",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue de la Comptine",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "24"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "24",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue de la Comptine » correspond au numéro 24.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a40_14",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": -0.6,
-      "prompt": {
-        "fr": "rue du Granite",
-        "instructions_en": "Choose the street number from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "93"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "93",
-          "tag": "correct"
-        },
-        {
-          "value": "28",
-          "tag": "d0"
-        },
-        {
-          "value": "47",
-          "tag": "d1"
-        },
-        {
-          "value": "99",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "Dans l’activité 40, « rue du Granite » correspond au numéro 93.",
-        "distractor_why": {
-          "d0": "« 28 » ne convient pas ici.",
-          "d1": "« 47 » ne convient pas ici.",
-          "d2": "« 99 » ne convient pas ici."
-        },
-        "grammar_rule": "Les adresses en français combinent un numéro municipal et un type de voie: rue, boulevard, avenue, chemin, montée.",
-        "vocab_notes": "OF1 introduit les nombres et les adresses.",
-        "common_mistakes": [
-          "confondre le numéro municipal et le numéro d’avenue",
-          "omettre le trait d’union dans les noms de rue"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 40,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 40,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_1",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "3",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "rue Guay"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "rue Guay",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « 3 » à « rue Guay ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_2",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Guèvremont",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "G-U-E accent grave V-R-E-M-O-N-T"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "G-U-E accent grave V-R-E-M-O-N-T",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « Guèvremont » à « G-U-E accent grave V-R-E-M-O-N-T ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_3",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Saint-Jean",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "S-A-I-N-T trait d’union J-E-A-N"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "S-A-I-N-T trait d’union J-E-A-N",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « Saint-Jean » à « S-A-I-N-T trait d’union J-E-A-N ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_4",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "69",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "L’Heureux"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "L’Heureux",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « 69 » à « L’Heureux ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_5",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "77",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "Brind’Amour"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "Brind’Amour",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « 77 » à « Brind’Amour ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_6",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "35",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "rue Tassé"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "rue Tassé",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « 35 » à « rue Tassé ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_7",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "96",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "Côte-des-Neiges"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "Côte-des-Neiges",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « 96 » à « Côte-des-Neiges ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_8",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Gendron",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "G-E-N-D-R-O-N"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "G-E-N-D-R-O-N",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « Gendron » à « G-E-N-D-R-O-N ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_9",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "Fleury-Larose",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "avec un Y et un trait d’union"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "avec un Y et un trait d’union",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « Fleury-Larose » à « avec un Y et un trait d’union ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
-        "grammarConcepts": []
-      }
-    },
-    {
-      "objectiveId": "OF1",
-      "vocabDomains": [
-        "personal_info"
-      ],
-      "theme": "personal_info",
-      "status": "live",
-      "media": {
-        "audioUrl": null,
-        "imageUrl": null
-      },
-      "id": "itm_of1_a41_10",
-      "skill": "listening",
-      "grammarConcepts": [],
-      "difficulty": "medium",
-      "type": "mcq_single",
-      "estTimeSec": 25,
-      "irtB": 0,
-      "prompt": {
-        "fr": "44",
-        "instructions_en": "Choose the matching street name or spelling detail from the address activity."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "Maisonneuve"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "Maisonneuve",
-          "tag": "correct"
-        },
-        {
-          "value": "rue Noël",
-          "tag": "d0"
-        },
-        {
-          "value": "Saint-Honoré",
-          "tag": "d1"
-        },
-        {
-          "value": "G-R-A-V-E-L",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "L’activité 41 associe « 44 » à « Maisonneuve ».",
-        "distractor_why": {
-          "d0": "« rue Noël » ne convient pas ici.",
-          "d1": "« Saint-Honoré » ne convient pas ici.",
-          "d2": "« G-R-A-V-E-L » ne convient pas ici."
-        },
-        "grammar_rule": "Quand on vérifie une adresse, il faut noter les lettres, accents, apostrophes et traits d’union.",
-        "vocab_notes": "Particularités orthographiques: accent aigu, accent grave, accent circonflexe, apostrophe, trait d’union, majuscule.",
-        "common_mistakes": [
-          "oublier l’accent",
-          "omettre le trait d’union ou l’apostrophe"
-        ]
-      },
-      "tip": {
-        "memory_aid": "Repérez la fonction: se présenter, clarifier, épeler, identifier.",
-        "pattern": "contexte -> expression ou forme correcte.",
-        "similar": [
-          "Je m’appelle Nadia.",
-          "Pourriez-vous répéter?"
-        ]
-      },
-      "source": {
-        "authored": true,
-        "sourceActivity": 41,
-        "generator": "human"
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/1-2005F",
-        "trainingObjective": "OF1",
-        "level": "A",
-        "topicFr": "S’identifier et identifier des personnes",
-        "activity": 41,
         "grammarConcepts": []
       }
     }

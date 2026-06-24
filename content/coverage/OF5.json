@@ -62,11 +62,8 @@
       "topicsFr": "Demander d’identifier et identifier un lieu",
       "kind": "function",
       "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of5_src_a5_1",
-        "itm_of5_src_a5_6"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "5.5",
@@ -87,7 +84,7 @@
       "topicsFr": "Demander de répéter · Demander de parler plus fort / plus lentement · Demander d’expliquer le sens d’un mot · Demander l’équivalent français d’un mot · Demander d’épeler un mot",
       "kind": "strategy",
       "covered": true,
-      "itemCount": 5,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -96,11 +93,8 @@
       "topicsFr": "Comprendre des questions et des informations relatives à la localisation",
       "kind": "function",
       "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of5_src_a30_1",
-        "itm_of5_src_a30_8"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "5.8",
@@ -108,12 +102,8 @@
       "topicsFr": "Demander et donner des informations sur la localisation",
       "kind": "function",
       "covered": true,
-      "itemCount": 3,
-      "linkedItems": [
-        "itm_of5_src_a32_1",
-        "itm_of5_src_a39_1",
-        "itm_of5_src_a41_a_1"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "5.9",
@@ -121,7 +111,7 @@
       "topicsFr": "Sons, rythmes et intonations du français",
       "kind": "phonetics",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 0,
       "linkedItems": []
     }
   ],

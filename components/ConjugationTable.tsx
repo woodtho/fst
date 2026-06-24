@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { VERBS, TENSES, PERSONS, GROUPS, conjugate, type Tense, type PersonKey, type Mood } from "@/lib/conjugation";
 
 const DEFAULT_TENSES: Tense[] = ["present", "passe_compose", "imparfait", "futur_simple", "conditionnel", "subjonctif", "imperatif"];
@@ -14,16 +14,24 @@ function toggle<T>(set: Set<T>, key: T): Set<T> {
 
 export default function ConjugationTable() {
   const [groups, setGroups] = useState<Set<string>>(new Set(GROUPS.map((g) => g.key)));
-  const [verbInf, setVerbInf] = useState("parler");
+  const [selected, setSelected] = useState<string[]>(["parler"]);
   const [tenses, setTenses] = useState<Set<Tense>>(new Set(DEFAULT_TENSES));
   const [persons, setPersons] = useState<Set<PersonKey>>(new Set(PERSONS.map((p) => p.key)));
+  const [query, setQuery] = useState("");
+  const [open, setOpen] = useState(false);
+  const blurTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const pool = useMemo(() => VERBS.filter((v) => groups.has(v.group)), [groups]);
-  const verb = useMemo(() => VERBS.find((v) => v.inf === verbInf) ?? VERBS[0], [verbInf]);
 
-  // if the current verb is filtered out, fall back to the first in pool
-  const activeVerb = pool.some((v) => v.inf === verbInf) ? verb : pool[0] ?? verb;
+  const q = query.trim().toLowerCase();
+  const matches = useMemo(
+    () => (q ? pool.filter((v) => v.inf.toLowerCase().includes(q) || v.en.toLowerCase().includes(q)) : pool).slice(0, 60),
+    [pool, q],
+  );
+  const add = (inf: string) => { setSelected((s) => (s.includes(inf) ? s : [...s, inf])); setQuery(""); };
+  const remove = (inf: string) => setSelected((s) => (s.length === 1 ? s : s.filter((x) => x !== inf)));
 
+  const selectedVerbs = selected.map((inf) => VERBS.find((v) => v.inf === inf)!).filter(Boolean);
   const shownTenses = TENSES.filter((t) => tenses.has(t.key));
   const shownPersons = PERSONS.filter((p) => persons.has(p.key));
 
@@ -43,18 +51,44 @@ export default function ConjugationTable() {
           </div>
         </div>
 
-        <div className="control-block">
-          <label className="control-label" htmlFor="verb-select">Verb ({pool.length})</label>
-          <select id="verb-select" className="verb-select" value={activeVerb.inf} onChange={(e) => setVerbInf(e.target.value)}>
-            {GROUPS.filter((g) => groups.has(g.key)).map((g) => (
-              <optgroup key={g.key} label={g.en}>
-                {pool.filter((v) => v.group === g.key).map((v) => (
-                  <option key={v.inf} value={v.inf}>{v.inf} — {v.en}</option>
+        <div className="control-block" style={{ flex: 1, minWidth: 260 }}>
+          <label className="control-label" htmlFor="verb-search">Verbs ({pool.length}) — type to search, click to add</label>
+          <div className="combo">
+            <input
+              id="verb-search" className="verb-select" type="text" autoComplete="off"
+              placeholder="Search a verb to add…"
+              value={open ? query : ""}
+              onFocus={() => { if (blurTimer.current) clearTimeout(blurTimer.current); setOpen(true); }}
+              onBlur={() => { blurTimer.current = setTimeout(() => setOpen(false), 150); }}
+              onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
+              onKeyDown={(e) => { if (e.key === "Enter" && matches[0]) add(matches[0].inf); if (e.key === "Escape") setOpen(false); }}
+            />
+            {open && (
+              <ul className="combo-list">
+                {matches.length === 0 ? (
+                  <li className="combo-empty">No match</li>
+                ) : matches.map((v) => (
+                  <li key={v.inf}>
+                    <button type="button" className={selected.includes(v.inf) ? "sel" : ""} onMouseDown={(e) => e.preventDefault()} onClick={() => add(v.inf)}>
+                      <span className="fr" lang="fr">{v.inf}</span> <span className="muted">— {v.en}</span>{selected.includes(v.inf) ? " ✓" : ""}
+                    </button>
+                  </li>
                 ))}
-              </optgroup>
-            ))}
-          </select>
+              </ul>
+            )}
+          </div>
         </div>
+      </div>
+
+      <div className="chiprow" style={{ marginTop: 10 }}>
+        {selectedVerbs.map((v) => (
+          <span key={v.inf} className="chip active verb-chip">
+            <span className="fr" lang="fr">{v.inf}</span>
+            {selected.length > 1 && (
+              <button type="button" aria-label={`Remove ${v.inf}`} className="chip-x" onClick={() => remove(v.inf)}>×</button>
+            )}
+          </span>
+        ))}
       </div>
 
       <div className="control-block" style={{ marginTop: 14 }}>
@@ -88,34 +122,36 @@ export default function ConjugationTable() {
         </div>
       </div>
 
-      <div className="panel" style={{ marginTop: 16, overflowX: "auto" }}>
-        <h3 style={{ marginTop: 0 }}>
-          <span className="fr" lang="fr">{activeVerb.inf}</span> <span className="muted">— {activeVerb.en}</span>
-        </h3>
-        {shownTenses.length === 0 ? (
-          <p className="muted">Select at least one form above.</p>
-        ) : (
-          <table className="conj-table">
-            <thead>
-              <tr>
-                <th>Tense</th>
-                {shownPersons.map((p) => <th key={p.key} lang="fr">{p.display}</th>)}
-              </tr>
-            </thead>
-            <tbody>
-              {shownTenses.map((t) => (
-                <tr key={t.key}>
-                  <th scope="row"><span>{t.fr}</span><small className="muted">{t.en}</small></th>
-                  {shownPersons.map((p) => {
-                    const na = t.key === "imperatif" && !["tu", "nous", "vous"].includes(p.key);
-                    return <td key={p.key} lang="fr" className={na ? "na" : ""}>{na ? "—" : conjugate(activeVerb, t.key, p.key)}</td>;
-                  })}
+      {shownTenses.length === 0 ? (
+        <div className="panel" style={{ marginTop: 16 }}><p className="muted" style={{ margin: 0 }}>Select at least one form above.</p></div>
+      ) : (
+        selectedVerbs.map((v) => (
+          <div key={v.inf} className="panel" style={{ marginTop: 16, overflowX: "auto" }}>
+            <h3 style={{ marginTop: 0 }}>
+              <span className="fr" lang="fr">{v.inf}</span> <span className="muted">— {v.en}</span>
+            </h3>
+            <table className="conj-table">
+              <thead>
+                <tr>
+                  <th>Tense</th>
+                  {shownPersons.map((p) => <th key={p.key} lang="fr">{p.display}</th>)}
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-      </div>
+              </thead>
+              <tbody>
+                {shownTenses.map((t) => (
+                  <tr key={t.key}>
+                    <th scope="row"><span>{t.fr}</span><small className="muted">{t.en}</small></th>
+                    {shownPersons.map((p) => {
+                      const na = t.key === "imperatif" && !["tu", "nous", "vous"].includes(p.key);
+                      return <td key={p.key} lang="fr" className={na ? "na" : ""}>{na ? "—" : conjugate(v, t.key, p.key)}</td>;
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ))
+      )}
     </div>
   );
 }

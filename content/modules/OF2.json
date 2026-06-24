@@ -133,11 +133,11 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "178 questions, including 76 added items from OF2 activities 6, 8, 18, 19, 24, 26, and 27.",
+      "coverage": "154 useful questions, all answerable from the visible prompt (95 source activity questions + 59 vocabulary questions). Hidden-context worksheet, audio, image, map, list, and correction-key recall items were removed.",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
-          "count": 43
+          "count": 95
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
@@ -212,21 +212,11 @@
             "itm_of2_a26_9",
             "itm_of2_a26_10",
             "itm_of2_a26_11",
-            "itm_of2_a26_12",
-            "itm_of2_a27_a",
-            "itm_of2_a27_b",
-            "itm_of2_a27_c",
-            "itm_of2_a27_d",
-            "itm_of2_a27_e",
-            "itm_of2_a27_f",
-            "itm_of2_a27_g",
-            "itm_of2_a27_h",
-            "itm_of2_a27_i",
-            "itm_of2_a27_j"
+            "itm_of2_a26_12"
           ]
         }
       ],
-      "totalQuestions": 178
+      "totalQuestions": 154
     },
     "consolidation": {
       "sourceBooklet": {

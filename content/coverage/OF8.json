@@ -36,10 +36,8 @@
       "topicsFr": "Mots interrogatifs quand, à quel(le), en quel(le) · Interrogation avec savoir et dire · Verbes en -ir à l’indicatif présent",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of8_src_a17_bverb_1"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "8.3",
@@ -47,10 +45,8 @@
       "topicsFr": "Informations relatives à la date et à l’heure",
       "kind": "writing",
       "covered": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of8_src_a19_4"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "8.4",
@@ -58,10 +54,9 @@
       "topicsFr": "Informations relatives au temps",
       "kind": "writing",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of8_src_a7_1",
-        "itm_of8_src_a8_1"
+        "itm_of8_src_a7_1"
       ]
     },
     {
@@ -70,7 +65,7 @@
       "topicsFr": "Comprendre des questions et des informations relatives au temps",
       "kind": "function",
       "covered": true,
-      "itemCount": 25,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -79,10 +74,8 @@
       "topicsFr": "Demander et fournir des informations relatives au temps",
       "kind": "function",
       "covered": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of8_src_a22_11"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "8.7",
@@ -90,7 +83,7 @@
       "topicsFr": "Faire des arrangements, confirmer et annuler des arrangements (réservations, rendez-vous)",
       "kind": "function",
       "covered": true,
-      "itemCount": 17,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -99,7 +92,7 @@
       "topicsFr": "Sons, rythmes et intonations du français",
       "kind": "phonetics",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 0,
       "linkedItems": []
     }
   ],

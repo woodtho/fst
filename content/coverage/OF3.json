@@ -35,11 +35,9 @@
       "topicsFr": "Articles définis contractés Verbes faire et venir au présent",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 5,
+      "itemCount": 3,
       "linkedItems": [
         "itm_of3_src_a3_1",
-        "itm_of3_src_a5_1",
-        "itm_of3_src_a8_2",
         "itm_of3_src_a11_1",
         "itm_of3_src_a12_1"
       ]
@@ -50,10 +48,9 @@
       "topicsFr": "Comprendre des questions et de l’information sur l’appartenance à une unité administrative, à une association professionnelle ou sociale",
       "kind": "function",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 1,
       "linkedItems": [
-        "itm_of3_src_a12_1",
-        "itm_of3_src_a13_1"
+        "itm_of3_src_a12_1"
       ]
     },
     {
@@ -62,12 +59,8 @@
       "topicsFr": "Demander à quelqu’un son appartenance et indiquer son appartenance à une unité administrative, à une association professionnelle ou sociale",
       "kind": "function",
       "covered": true,
-      "itemCount": 3,
-      "linkedItems": [
-        "itm_of3_src_a8_2",
-        "itm_of3_src_a8_3",
-        "itm_of3_src_a8_4"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "3.5",
@@ -75,11 +68,8 @@
       "topicsFr": "Transcrire en anglais des éléments de messages donnés en français (organismes, associations, unités administratives)",
       "kind": "oral",
       "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of3_src_a18_1",
-        "itm_of3_src_a19_1"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     }
   ],
   "vocabulary": {

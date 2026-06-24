@@ -5,7 +5,7 @@
   "titleEn": "To find out how to apply standards and regulations",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/21-2005F",
     "text": "sources/text/OF21.txt"
@@ -13,31 +13,124 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF21 — To find out how to apply standards and regulations. Source document SC102-2/21-2005F. Grammar taught: subjonctif, present. Vocabulary: the OF21 section of the PFL2 Lexique. 66 questions, all traceable to the PFL2 source (0 verbatim source activities + 66 from the OF21 Lexique).",
-        "fr": "(Se) renseigner sur l’application de normes et de règlements. Document source SC102-2/21-2005F. Grammaire enseignée : subjonctif, present. Vocabulaire : section OF21 du Lexique PFL2."
+        "en": "OF21 teaches how to ask for and give information about standards and regulations: what applies, what is required, what is included or excluded, and what limits are set for quantity, space, weight, volume, distance, speed, temperature, and price.",
+        "fr": "(Se) renseigner sur l’application de normes et de règlements : comprendre et formuler des obligations, des restrictions, des inclusions/exclusions et des limites chiffrées."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Key OF21 vocabulary includes legal/regulatory nouns and verbs, measurement terms, inclusion/exclusion indicators, restriction words, and formulas for obligation.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif, present.",
+        "summary": "OF21 combines regulatory vocabulary with present-tense -re verbs and il faut que + present subjunctive.",
         "charts": [],
-        "points": []
+        "points": [
+          "Regulatory sources: la loi précise, le règlement exige/stipule, le texte s’applique, conformément aux exigences, d’après l’accord.",
+          "Inclusion: inclure, comprendre, renfermer, aussi, de même que, y compris, ainsi que, ci-inclus, ci-joint, en annexe.",
+          "Exclusion/restriction: exclure, à l’exception de, à part, sauf, sans, ne... ni... ni, à l’exclusion de, au moins, au plus, jusqu’à, ne pas dépasser.",
+          "Measurements: x sur y, de long/de large/de haut/de profondeur, kilomètres à l’heure, mètres carrés, mètres cubes, degrés Celsius.",
+          "Present tense -re families: comprendre -> je comprends, nous comprenons; joindre -> je joins, nous joignons; inclure/exclure -> il inclut/exclut, ils incluent/excluent.",
+          "Obligation and prohibition: il faut que / il ne faut pas que + subject + present subjunctive.",
+          "Subjunctive examples: il faut qu’il envoie; il faut que vous employiez; il ne faut pas que vous entriez; il faut que nous respections."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In regulatory statements, keep rhythmic groups short: La loi précise / les quotas / à ne pas dépasser.",
+          "Numbers and units form a group: vingt kilomètres à l’heure; cinq milligrammes; deux mètres de haut."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Application d’un accord commercial",
+          "register": "formal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Les Accords de Lima s’appliquent à tous les pays d’Amérique du Sud avec lesquels le Canada fait du commerce, à l’exception de la Colombie."
+            },
+            {
+              "speaker": "B",
+              "fr": "Donc les accords incluent l’Uruguay et aussi le Pérou?"
+            },
+            {
+              "speaker": "A",
+              "fr": "Oui. La Colombie s’est retirée de ces accords; ce retrait signifie que l’article 16 s’applique aux pays signataires, à part la Colombie."
+            },
+            {
+              "speaker": "B",
+              "fr": "Est-ce que la documentation renferme des précisions sur les modalités?"
+            },
+            {
+              "speaker": "A",
+              "fr": "À l’intérieur de la pochette d’information, vous avez tous les renseignements."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Indicateurs de mesure",
+          "table": {
+            "headers": [
+              "Type",
+              "Expression",
+              "Example"
+            ],
+            "rows": [
+              [
+                "Dimension",
+                "x sur y",
+                "2,4 mètres sur 4,8 mètres"
+              ],
+              [
+                "Longueur",
+                "de long",
+                "quinze mètres de long"
+              ],
+              [
+                "Largeur",
+                "de large",
+                "cinq mètres de large"
+              ],
+              [
+                "Hauteur",
+                "de haut",
+                "dix mètres de haut"
+              ],
+              [
+                "Vitesse",
+                "à l’heure",
+                "cinquante kilomètres à l’heure"
+              ],
+              [
+                "Volume",
+                "mètres cubes / litres",
+                "3,6 m3; 1,5 litre"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Formules de normes et règlements",
+          "fr": "La loi vous oblige à respecter la limite.\nLe règlement stipule que vous ne pouvez pas dépasser cette vitesse.\nLe règlement exige que vous signiez le registre.\nLe texte s’applique aux cas exposés dans votre lettre.\nConformément aux exigences de la loi, certaines dépenses sont exclues."
+        },
+        {
+          "title": "Il faut que + subjonctif",
+          "fr": "Il doit envoyer trois copies. -> Il faut qu’il envoie trois copies.\nEmployez des planches de 10 cm sur 15 cm. -> Il faut que vous employiez des planches de 10 cm sur 15 cm.\nN’entrez pas votre bicyclette à l’intérieur de l’édifice. -> Il ne faut pas que vous entriez votre bicyclette à l’intérieur de l’édifice."
+        }
+      ]
     },
     "practice": {
-      "sourceFidelity": true,
-      "coverage": "66 questions, all traceable to the PFL2 source (0 verbatim source activities + 66 from the OF21 Lexique).",
+      "sourceFidelity": false,
+      "coverage": "171 useful questions (105 source activity questions + 66 vocabulary questions), all answerable from the visible prompt. Hidden audio/image-only activities are covered in the learn tab when useful.",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 105
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 66
         }
       ],
-      "totalQuestions": 66
+      "totalQuestions": 171
     },
     "consolidation": {
       "sourceBooklet": {
@@ -83,25 +176,20 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 6,
+    "coveredElements": 14,
     "totalElements": 83,
     "convertible": {
-      "covered": 6,
+      "covered": 14,
       "total": 46
     },
     "actionableGaps": {
-      "sections": [
-        "21.6 Grammaire (grammar)",
-        "21.7 Grammaire (grammar)"
-      ],
+      "sections": [],
       "activities": [
         4,
         6,
         8,
         9,
-        11,
         13,
-        14,
         16,
         17,
         18,
@@ -111,21 +199,13 @@
         22,
         23,
         24,
-        26,
         27,
         28,
         29,
         31,
         32,
         34,
-        36,
-        37,
-        38,
-        39,
-        40,
         41,
-        42,
-        43,
         44,
         50,
         54,
@@ -133,9 +213,7 @@
         58
       ],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-2 (SC102-2-45-2)"
       ]

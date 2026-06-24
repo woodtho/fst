@@ -191,18 +191,18 @@
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "165 useful questions, all traceable to the PFL2 source (99 source activity questions + 66 from the OF9 Lexique). Low-value worksheet/audio recall items were removed.",
+      "coverage": "114 useful questions, all answerable from the visible prompt (48 source activity questions + 66 vocabulary questions). Hidden-context worksheet, audio, image, map, list, and correction-key recall items were removed.",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 99
+          "count": 48
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 66
         }
       ],
-      "totalQuestions": 165
+      "totalQuestions": 114
     },
     "consolidation": {
       "sourceBooklet": {

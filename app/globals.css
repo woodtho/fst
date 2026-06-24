@@ -228,3 +228,28 @@ h3 { font-size: 1rem; margin: 18px 0 8px; }
 .conj-table tbody th small { display: block; font-weight: 400; font-size: .72rem; }
 .conj-table tbody tr:hover { background: #f7f9fc; }
 .conj-table td.na { color: var(--line); }
+
+/* Searchable verb combobox */
+.combo { position: relative; }
+.combo-list {
+  position: absolute; z-index: 20; top: calc(100% + 4px); left: 0; right: 0;
+  max-height: 280px; overflow-y: auto; margin: 0; padding: 4px; list-style: none;
+  background: #fff; border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow);
+  min-width: 260px;
+}
+.combo-list li { margin: 0; }
+.combo-list button {
+  display: block; width: 100%; text-align: left; background: none; border: 0;
+  padding: 7px 10px; border-radius: 6px; cursor: pointer; font-size: .92rem; color: var(--ink);
+}
+.combo-list button:hover, .combo-list button.sel { background: var(--brand); color: #fff; }
+.combo-list button:hover .muted, .combo-list button.sel .muted { color: #e8eefc; }
+.combo-empty { padding: 8px 10px; color: var(--muted); font-size: .9rem; }
+
+/* Selected-verb chips (multi-select reference) */
+.verb-chip { display: inline-flex; align-items: center; gap: 6px; }
+.chip-x {
+  border: 0; background: rgba(255,255,255,.3); color: #fff; border-radius: 50%;
+  width: 16px; height: 16px; line-height: 1; font-size: 13px; cursor: pointer; padding: 0;
+}
+.chip-x:hover { background: rgba(255,255,255,.55); }

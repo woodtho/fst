@@ -52,19 +52,8 @@
       "topicsFr": "Comprendre une question d’identification d’objets ou de documents",
       "kind": "function",
       "covered": true,
-      "itemCount": 10,
-      "linkedItems": [
-        "itm_of2_a27_a",
-        "itm_of2_a27_b",
-        "itm_of2_a27_c",
-        "itm_of2_a27_d",
-        "itm_of2_a27_e",
-        "itm_of2_a27_f",
-        "itm_of2_a27_g",
-        "itm_of2_a27_h",
-        "itm_of2_a27_i",
-        "itm_of2_a27_j"
-      ]
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "2.4",
