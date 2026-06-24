@@ -7,7 +7,7 @@
     "lexique": "SC102-2/1-2-2005F",
     "counts": {
       "source": 119,
-      "vocab": 12
+      "vocab": 10
     }
   },
   "items": [
@@ -8674,83 +8674,6 @@
       }
     },
     {
-      "id": "itm_of34_voc_ef_4",
-      "objectiveId": "OF34",
-      "skill": "vocabulary",
-      "grammarConcepts": [],
-      "vocabDomains": [
-        "administration",
-        "government"
-      ],
-      "theme": "problem_solving",
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 22,
-      "irtB": -0.4,
-      "prompt": {
-        "fr": "'if-clause'",
-        "instructions_en": "Choose the French term."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "proposition conditionnelle"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "proposition conditionnelle",
-          "tag": "correct"
-        },
-        {
-          "value": "conditionnelle – proposition conditionnelle",
-          "tag": "d0"
-        },
-        {
-          "value": "hypothèse (n. f.)",
-          "tag": "d1"
-        },
-        {
-          "value": "principale – proposition principale",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "'if-clause' is « proposition conditionnelle » in French.",
-        "distractor_why": {
-          "d0": "« conditionnelle – proposition conditionnelle » ne convient pas ici.",
-          "d1": "« hypothèse (n. f.) » ne convient pas ici.",
-          "d2": "« principale – proposition principale » ne convient pas ici."
-        },
-        "grammar_rule": "OF34 lexicon: proposition conditionnelle = if-clause; proposition principale = result clause; hypothèse = hypothesis; supposition = supposition.",
-        "vocab_notes": "Lexique OF34 (SC102-2/1-2-2005F).",
-        "common_mistakes": [
-          "mettre le futur après si",
-          "confondre condition réelle, hypothèse et condition non réalisée"
-        ]
-      },
-      "tip": {
-        "memory_aid": "OF34 lexicon: proposition conditionnelle = if-clause; proposition principale = result clause; hypothèse = hypothesis; supposition = supposition.",
-        "pattern": "OF34 lexicon: proposition conditionnelle = if-clause; proposition principale = result clause; hypothèse = hypothesis; supposition = supposition.",
-        "similar": [
-          "Si vous partez, avertissez-moi.",
-          "Si j’avais su, je serais venu."
-        ]
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/34-2005F",
-        "trainingObjective": "OF34",
-        "level": "B",
-        "page": null,
-        "topicFr": "Proposer des solutions à un problème",
-        "topicEn": "To put forward solutions to a problem",
-        "vocabularySet": "Lexique — OF34",
-        "grammarConcepts": []
-      }
-    },
-    {
       "id": "itm_of34_voc_fe_5",
       "objectiveId": "OF34",
       "skill": "vocabulary",
@@ -8800,83 +8723,6 @@
           "d0": "« if-clause » ne convient pas ici.",
           "d1": "« hypothesis » ne convient pas ici.",
           "d2": "« if-clause » ne convient pas ici."
-        },
-        "grammar_rule": "OF34 lexicon: proposition conditionnelle = if-clause; proposition principale = result clause; hypothèse = hypothesis; supposition = supposition.",
-        "vocab_notes": "Lexique OF34 (SC102-2/1-2-2005F).",
-        "common_mistakes": [
-          "mettre le futur après si",
-          "confondre condition réelle, hypothèse et condition non réalisée"
-        ]
-      },
-      "tip": {
-        "memory_aid": "OF34 lexicon: proposition conditionnelle = if-clause; proposition principale = result clause; hypothèse = hypothesis; supposition = supposition.",
-        "pattern": "OF34 lexicon: proposition conditionnelle = if-clause; proposition principale = result clause; hypothèse = hypothesis; supposition = supposition.",
-        "similar": [
-          "Si vous partez, avertissez-moi.",
-          "Si j’avais su, je serais venu."
-        ]
-      },
-      "trace": {
-        "sourceDocument": "SC102-2/34-2005F",
-        "trainingObjective": "OF34",
-        "level": "B",
-        "page": null,
-        "topicFr": "Proposer des solutions à un problème",
-        "topicEn": "To put forward solutions to a problem",
-        "vocabularySet": "Lexique — OF34",
-        "grammarConcepts": []
-      }
-    },
-    {
-      "id": "itm_of34_voc_ef_5",
-      "objectiveId": "OF34",
-      "skill": "vocabulary",
-      "grammarConcepts": [],
-      "vocabDomains": [
-        "administration",
-        "government"
-      ],
-      "theme": "problem_solving",
-      "difficulty": "easy",
-      "type": "mcq_single",
-      "status": "live",
-      "estTimeSec": 22,
-      "irtB": -0.4,
-      "prompt": {
-        "fr": "'result clause'",
-        "instructions_en": "Choose the French term."
-      },
-      "answer": {
-        "type": "choice",
-        "accepted": [
-          "proposition principale"
-        ],
-        "normalizer": "fr_accent_insensitive_trim_lower"
-      },
-      "distractors": [
-        {
-          "value": "proposition principale",
-          "tag": "correct"
-        },
-        {
-          "value": "conditionnelle – proposition conditionnelle",
-          "tag": "d0"
-        },
-        {
-          "value": "hypothèse (n. f.)",
-          "tag": "d1"
-        },
-        {
-          "value": "principale – proposition principale",
-          "tag": "d2"
-        }
-      ],
-      "explanation": {
-        "correct_why": "'result clause' is « proposition principale » in French.",
-        "distractor_why": {
-          "d0": "« conditionnelle – proposition conditionnelle » ne convient pas ici.",
-          "d1": "« hypothèse (n. f.) » ne convient pas ici.",
-          "d2": "« principale – proposition principale » ne convient pas ici."
         },
         "grammar_rule": "OF34 lexicon: proposition conditionnelle = if-clause; proposition principale = result clause; hypothèse = hypothesis; supposition = supposition.",
         "vocab_notes": "Lexique OF34 (SC102-2/1-2-2005F).",

@@ -97,7 +97,7 @@
     },
     "practice": {
       "sourceFidelity": false,
-      "coverage": "131 questions: 119 concept-focused items derived from SC102-2/34-2005F plus 12 OF34 lexicon items.",
+      "coverage": "129 questions: 119 concept-focused items derived from SC102-2/34-2005F plus 10 OF34 lexicon items.",
       "exerciseSets": [
         {
           "title": "Concordance des temps avec si",
@@ -113,10 +113,10 @@
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
-          "count": 12
+          "count": 10
         }
       ],
-      "totalQuestions": 131
+      "totalQuestions": 129
     },
     "consolidation": {
       "sourceBooklet": {
@@ -164,23 +164,16 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 3,
+    "convertibleComplete": true,
+    "coveredElements": 10,
     "totalElements": 27,
     "convertible": {
-      "covered": 3,
+      "covered": 10,
       "total": 10
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        4,
-        5,
-        10,
-        11,
-        15
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -188,10 +181,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "34.2 Fonctions (function)",
-        "34.3 Fonctions (function)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,
@@ -199,11 +189,6 @@
         7,
         8,
         9,
-        12,
-        13,
-        14,
-        16,
-        17,
         18,
         19,
         20,

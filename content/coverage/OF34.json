@@ -18,7 +18,7 @@
       "topicsFr": "La conjonction si · La concordance des temps dans les phrases conditionnelles",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 119,
+      "itemCount": 81,
       "linkedItems": [
         "itm_of34_src_a3_1a",
         "itm_of34_src_a3_1b",
@@ -27,7 +27,80 @@
         "itm_of34_src_a3_2b",
         "itm_of34_src_a3_2c",
         "itm_of34_src_a3_3a",
-        "itm_of34_src_a3_3b"
+        "itm_of34_src_a3_3b",
+        "itm_of34_src_a3_3c",
+        "itm_of34_src_a3_4a",
+        "itm_of34_src_a3_4b",
+        "itm_of34_src_a3_5a",
+        "itm_of34_src_a3_5b",
+        "itm_of34_src_a3_5c",
+        "itm_of34_src_a4_1",
+        "itm_of34_src_a4_2",
+        "itm_of34_src_a4_3",
+        "itm_of34_src_a4_4",
+        "itm_of34_src_a4_5",
+        "itm_of34_src_a4_6",
+        "itm_of34_src_a4_7",
+        "itm_of34_src_a4_8",
+        "itm_of34_src_a4_9",
+        "itm_of34_src_a4_10",
+        "itm_of34_src_a4_11",
+        "itm_of34_src_a4_12",
+        "itm_of34_src_a4_13",
+        "itm_of34_src_a4_14",
+        "itm_of34_src_a4_15",
+        "itm_of34_src_a4_16",
+        "itm_of34_src_a5_1",
+        "itm_of34_src_a5_2",
+        "itm_of34_src_a5_3",
+        "itm_of34_src_a5_4",
+        "itm_of34_src_a5_5",
+        "itm_of34_src_a5_6",
+        "itm_of34_src_a5_7",
+        "itm_of34_src_a5_8",
+        "itm_of34_src_a5_9",
+        "itm_of34_src_a10_1",
+        "itm_of34_src_a10_2",
+        "itm_of34_src_a10_3",
+        "itm_of34_src_a10_4",
+        "itm_of34_src_a10_5",
+        "itm_of34_src_a10_6",
+        "itm_of34_src_a10_7",
+        "itm_of34_src_a10_8",
+        "itm_of34_src_a10_9",
+        "itm_of34_src_a10_10",
+        "itm_of34_src_a10_11",
+        "itm_of34_src_a10_12",
+        "itm_of34_src_a10_13",
+        "itm_of34_src_a10_14",
+        "itm_of34_src_a10_15",
+        "itm_of34_src_a10_16",
+        "itm_of34_src_a10_17",
+        "itm_of34_src_a10_18",
+        "itm_of34_src_a10_19",
+        "itm_of34_src_a11_1",
+        "itm_of34_src_a11_2",
+        "itm_of34_src_a11_3",
+        "itm_of34_src_a11_4",
+        "itm_of34_src_a11_5",
+        "itm_of34_src_a11_6",
+        "itm_of34_src_a11_7",
+        "itm_of34_src_a11_8",
+        "itm_of34_src_a11_9",
+        "itm_of34_src_a11_10",
+        "itm_of34_src_a11_11",
+        "itm_of34_src_a11_12",
+        "itm_of34_src_a11_13",
+        "itm_of34_src_a11_14",
+        "itm_of34_src_a11_15",
+        "itm_of34_src_a11_16",
+        "itm_of34_src_a11_17",
+        "itm_of34_src_a11_18",
+        "itm_of34_src_a11_19",
+        "itm_of34_src_a11_20",
+        "itm_of34_src_a11_21",
+        "itm_of34_src_a11_22",
+        "itm_of34_src_a11_23"
       ]
     },
     {
@@ -35,24 +108,69 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre et formuler des suppositions, des hypothèses",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 16,
+      "linkedItems": [
+        "itm_of34_src_a12_1",
+        "itm_of34_src_a12_2",
+        "itm_of34_src_a12_3",
+        "itm_of34_src_a12_4",
+        "itm_of34_src_a12_5",
+        "itm_of34_src_a13_1",
+        "itm_of34_src_a13_2",
+        "itm_of34_src_a13_3",
+        "itm_of34_src_a13_4",
+        "itm_of34_src_a13_5",
+        "itm_of34_src_a13_6",
+        "itm_of34_src_a15_1",
+        "itm_of34_src_a15_2",
+        "itm_of34_src_a15_3",
+        "itm_of34_src_a15_4",
+        "itm_of34_src_a15_5"
+      ]
     },
     {
       "id": "34.3",
       "heading": "Fonctions",
       "topicsFr": "Comprendre et poser des conditions",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 27,
+      "linkedItems": [
+        "itm_of34_src_a14_1",
+        "itm_of34_src_a14_2",
+        "itm_of34_src_a14_3",
+        "itm_of34_src_a14_4",
+        "itm_of34_src_a14_5",
+        "itm_of34_src_a14_6",
+        "itm_of34_src_a15_1",
+        "itm_of34_src_a15_2",
+        "itm_of34_src_a15_3",
+        "itm_of34_src_a15_4",
+        "itm_of34_src_a15_5",
+        "itm_of34_src_a16_1",
+        "itm_of34_src_a16_2",
+        "itm_of34_src_a16_3",
+        "itm_of34_src_a16_4",
+        "itm_of34_src_a16_5",
+        "itm_of34_src_a16_6",
+        "itm_of34_src_a16_7",
+        "itm_of34_src_a16_8",
+        "itm_of34_src_a17_1",
+        "itm_of34_src_a17_2",
+        "itm_of34_src_a17_3",
+        "itm_of34_src_a17_4",
+        "itm_of34_src_a17_5",
+        "itm_of34_src_a17_6",
+        "itm_of34_src_a17_7",
+        "itm_of34_src_a17_8"
+      ]
     }
   ],
   "vocabulary": {
     "source": "Lexique OF34 (SC102-2/1-2-2005F)",
     "entries": 6,
-    "questions": 12,
+    "questions": 10,
     "convertible": true,
     "covered": true
   },
@@ -61,7 +179,7 @@
     "derivedItems": 119,
     "convertible": true,
     "covered": true,
-    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+    "note": "Model conditional solution patterns are embedded in self-contained practice items and the learn tab, including a final learning note."
   },
   "selfTest": {
     "selfEvalBooklet": "selfeval-4 (SC102-2-45-4)",
@@ -92,25 +210,67 @@
       "activity": 3,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 14,
+      "linkedItems": [
+        "itm_of34_src_a3_1a",
+        "itm_of34_src_a3_1b",
+        "itm_of34_src_a3_1c",
+        "itm_of34_src_a3_2a",
+        "itm_of34_src_a3_2b",
+        "itm_of34_src_a3_2c",
+        "itm_of34_src_a3_3a",
+        "itm_of34_src_a3_3b",
+        "itm_of34_src_a3_3c",
+        "itm_of34_src_a3_4a",
+        "itm_of34_src_a3_4b",
+        "itm_of34_src_a3_5a",
+        "itm_of34_src_a3_5b",
+        "itm_of34_src_a3_5c"
+      ]
     },
     {
       "activity": 4,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 16,
+      "linkedItems": [
+        "itm_of34_src_a4_1",
+        "itm_of34_src_a4_2",
+        "itm_of34_src_a4_3",
+        "itm_of34_src_a4_4",
+        "itm_of34_src_a4_5",
+        "itm_of34_src_a4_6",
+        "itm_of34_src_a4_7",
+        "itm_of34_src_a4_8",
+        "itm_of34_src_a4_9",
+        "itm_of34_src_a4_10",
+        "itm_of34_src_a4_11",
+        "itm_of34_src_a4_12",
+        "itm_of34_src_a4_13",
+        "itm_of34_src_a4_14",
+        "itm_of34_src_a4_15",
+        "itm_of34_src_a4_16"
+      ]
     },
     {
       "activity": 5,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of34_src_a5_1",
+        "itm_of34_src_a5_2",
+        "itm_of34_src_a5_3",
+        "itm_of34_src_a5_4",
+        "itm_of34_src_a5_5",
+        "itm_of34_src_a5_6",
+        "itm_of34_src_a5_7",
+        "itm_of34_src_a5_8",
+        "itm_of34_src_a5_9"
+      ]
     },
     {
       "activity": 6,
@@ -148,65 +308,153 @@
       "activity": 10,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 19,
+      "linkedItems": [
+        "itm_of34_src_a10_1",
+        "itm_of34_src_a10_2",
+        "itm_of34_src_a10_3",
+        "itm_of34_src_a10_4",
+        "itm_of34_src_a10_5",
+        "itm_of34_src_a10_6",
+        "itm_of34_src_a10_7",
+        "itm_of34_src_a10_8",
+        "itm_of34_src_a10_9",
+        "itm_of34_src_a10_10",
+        "itm_of34_src_a10_11",
+        "itm_of34_src_a10_12",
+        "itm_of34_src_a10_13",
+        "itm_of34_src_a10_14",
+        "itm_of34_src_a10_15",
+        "itm_of34_src_a10_16",
+        "itm_of34_src_a10_17",
+        "itm_of34_src_a10_18",
+        "itm_of34_src_a10_19"
+      ]
     },
     {
       "activity": 11,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 23,
+      "linkedItems": [
+        "itm_of34_src_a11_1",
+        "itm_of34_src_a11_2",
+        "itm_of34_src_a11_3",
+        "itm_of34_src_a11_4",
+        "itm_of34_src_a11_5",
+        "itm_of34_src_a11_6",
+        "itm_of34_src_a11_7",
+        "itm_of34_src_a11_8",
+        "itm_of34_src_a11_9",
+        "itm_of34_src_a11_10",
+        "itm_of34_src_a11_11",
+        "itm_of34_src_a11_12",
+        "itm_of34_src_a11_13",
+        "itm_of34_src_a11_14",
+        "itm_of34_src_a11_15",
+        "itm_of34_src_a11_16",
+        "itm_of34_src_a11_17",
+        "itm_of34_src_a11_18",
+        "itm_of34_src_a11_19",
+        "itm_of34_src_a11_20",
+        "itm_of34_src_a11_21",
+        "itm_of34_src_a11_22",
+        "itm_of34_src_a11_23"
+      ]
     },
     {
       "activity": 12,
       "hasAnswerKey": false,
-      "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of34_src_a12_1",
+        "itm_of34_src_a12_2",
+        "itm_of34_src_a12_3",
+        "itm_of34_src_a12_4",
+        "itm_of34_src_a12_5"
+      ]
     },
     {
       "activity": 13,
       "hasAnswerKey": false,
-      "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of34_src_a13_1",
+        "itm_of34_src_a13_2",
+        "itm_of34_src_a13_3",
+        "itm_of34_src_a13_4",
+        "itm_of34_src_a13_5",
+        "itm_of34_src_a13_6"
+      ]
     },
     {
       "activity": 14,
       "hasAnswerKey": false,
-      "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of34_src_a14_1",
+        "itm_of34_src_a14_2",
+        "itm_of34_src_a14_3",
+        "itm_of34_src_a14_4",
+        "itm_of34_src_a14_5",
+        "itm_of34_src_a14_6"
+      ]
     },
     {
       "activity": 15,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of34_src_a15_1",
+        "itm_of34_src_a15_2",
+        "itm_of34_src_a15_3",
+        "itm_of34_src_a15_4",
+        "itm_of34_src_a15_5"
+      ]
     },
     {
       "activity": 16,
       "hasAnswerKey": false,
-      "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of34_src_a16_1",
+        "itm_of34_src_a16_2",
+        "itm_of34_src_a16_3",
+        "itm_of34_src_a16_4",
+        "itm_of34_src_a16_5",
+        "itm_of34_src_a16_6",
+        "itm_of34_src_a16_7",
+        "itm_of34_src_a16_8"
+      ]
     },
     {
       "activity": 17,
       "hasAnswerKey": false,
-      "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of34_src_a17_1",
+        "itm_of34_src_a17_2",
+        "itm_of34_src_a17_3",
+        "itm_of34_src_a17_4",
+        "itm_of34_src_a17_5",
+        "itm_of34_src_a17_6",
+        "itm_of34_src_a17_7",
+        "itm_of34_src_a17_8"
+      ]
     },
     {
       "activity": 18,
@@ -243,23 +491,16 @@
   ],
   "validation": {
     "strictComplete": false,
-    "convertibleComplete": false,
+    "convertibleComplete": true,
     "totalElements": 27,
-    "coveredElements": 3,
+    "coveredElements": 10,
     "convertible": {
-      "covered": 3,
+      "covered": 10,
       "total": 10
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        4,
-        5,
-        10,
-        11,
-        15
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -267,10 +508,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "34.2 Fonctions (function)",
-        "34.3 Fonctions (function)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,
@@ -278,17 +516,12 @@
         7,
         8,
         9,
-        12,
-        13,
-        14,
-        16,
-        17,
         18,
         19,
         20,
         21
       ]
     },
-    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+    "note": "All answer-keyed OF34 activities and lexicon entries have self-contained, concept-focused items where auto-grading is feasible. Oral/group production activities remain non-auto-gradable."
   }
 }

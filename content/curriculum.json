@@ -1211,8 +1211,9 @@
         "public_service"
       ],
       "grammarConcepts": [
-        "passe_compose",
-        "prepositions"
+        "verb_prepositions",
+        "vocabulary",
+        "functions"
       ],
       "vocabDomains": [
         "administration",
