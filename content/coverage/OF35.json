@@ -7,8 +7,9 @@
   "titleFr": "Faire des prévisions",
   "titleEn": "To make forecasts",
   "grammarConcepts": [
-    "futur_simple",
-    "conditionnel"
+    "subjonctif",
+    "indicative_choice",
+    "vocabulary"
   ],
   "sections": [
     {
@@ -48,9 +49,9 @@
   },
   "examples": {
     "sourceMarkers": 5,
-    "derivedItems": 0,
+    "derivedItems": 24,
     "convertible": true,
-    "covered": false,
+    "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
   },
   "selfTest": {
@@ -211,9 +212,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 24,
-    "coveredElements": 0,
+    "coveredElements": 1,
     "convertible": {
-      "covered": 0,
+      "covered": 1,
       "total": 9
     },
     "actionableGaps": {
@@ -230,9 +231,7 @@
       "vocabulary": [
         "Lexique"
       ],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-4 (SC102-2-45-4)"
       ]

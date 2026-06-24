@@ -1147,8 +1147,9 @@
         "workplace"
       ],
       "grammarConcepts": [
-        "futur_simple",
-        "conditionnel"
+        "subjonctif",
+        "indicative_choice",
+        "vocabulary"
       ],
       "vocabDomains": [
         "government",

@@ -294,16 +294,14 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 2,
+    "coveredElements": 4,
     "totalElements": 32,
     "convertible": {
-      "covered": 2,
+      "covered": 4,
       "total": 12
     },
     "actionableGaps": {
-      "sections": [
-        "33.2 Grammaire (grammar)"
-      ],
+      "sections": [],
       "activities": [
         2,
         4,
@@ -314,9 +312,7 @@
         17
       ],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-4 (SC102-2-45-4)"
       ]

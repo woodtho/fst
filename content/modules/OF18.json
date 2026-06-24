@@ -250,16 +250,18 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": true,
-    "coveredElements": 17,
+    "convertibleComplete": false,
+    "coveredElements": 16,
     "totalElements": 37,
     "convertible": {
-      "covered": 17,
+      "covered": 16,
       "total": 18
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [],
+      "activities": [
+        26
+      ],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -267,7 +269,12 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "18.3 Fonctions (function)",
+        "18.4 Fonctions (function)",
+        "18.5 Phonétique (phonetics)",
+        "18.6 Stratégies de communication (strategy)"
+      ],
       "activities": [
         1,
         2,

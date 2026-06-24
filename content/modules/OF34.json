@@ -5,7 +5,7 @@
   "titleEn": "To put forward solutions to a problem",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/34-2005F",
     "text": "sources/text/OF34.txt"
@@ -13,31 +13,110 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF34 — To put forward solutions to a problem. Source document SC102-2/34-2005F. Grammar taught: si_clauses, conditionnel, imparfait. Vocabulary: the OF34 section of the PFL2 Lexique. 20 questions, all traceable to the PFL2 source (20 verbatim source activities + 0 from the OF34 Lexique).",
-        "fr": "Proposer des solutions à un problème. Document source SC102-2/34-2005F. Grammaire enseignée : si_clauses, conditionnel, imparfait. Vocabulaire : section OF34 du Lexique PFL2."
+        "en": "OF34 teaches how to propose solutions by using conditional thinking: real conditions, possible or unlikely hypotheses, and unreal past conditions. The communicative goal is to frame a problem, imagine causes or options, and propose a solution with a clear condition.",
+        "fr": "L’OF34 sert à proposer des solutions à un problème en utilisant des phrases conditionnelles : conditions réelles, hypothèses peu probables et conditions non réalisées dans le passé. L’objectif communicatif est de formuler le problème, d’émettre une hypothèse et de proposer une solution assortie d’une condition claire."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Lexique clé : proposition conditionnelle, proposition principale, hypothèse, supposition. Expressions utiles : si jamais, dans l’hypothèse où, supposons que, disons que, mettons que, au cas où.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): si_clauses, conditionnel, imparfait.",
-        "charts": [],
-        "points": []
+        "summary": "The tense sequence with si changes according to whether the condition is real, hypothetical, or unreal in the past.",
+        "charts": [
+          {
+            "title": "Conditions avec si",
+            "rows": [
+              [
+                "si + présent",
+                "présent / futur / impératif: Si vous partez, avertissez-moi."
+              ],
+              [
+                "si + imparfait",
+                "conditionnel présent: Si on redistribuait les tâches, ce serait plus facile."
+              ],
+              [
+                "si + plus-que-parfait",
+                "conditionnel passé: Si on avait su, on aurait agi plus tôt."
+              ]
+            ]
+          },
+          {
+            "title": "Proposer une solution",
+            "rows": [
+              [
+                "Problème",
+                "Le rapport est incomplet."
+              ],
+              [
+                "Hypothèse",
+                "Si on redistribuait les tâches, Benoît aurait plus de temps."
+              ],
+              [
+                "Solution",
+                "Il pourrait refaire la dernière partie pendant que quelqu’un d’autre termine le budget."
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Do not put the future directly after si in a real condition.",
+          "Use si + imparfait + conditionnel présent for a possible solution that is uncertain or hypothetical.",
+          "Use si + plus-que-parfait + conditionnel passé for a condition that did not happen.",
+          "When proposing a solution, make the condition explicit: si, à condition que, à moins de, pourvu que."
+        ]
       },
       "pronunciation": {
         "points": []
       },
-      "dialogues": [],
-      "exampleTexts": []
-    },
-    "practice": {
-      "sourceFidelity": true,
-      "coverage": "20 questions, all traceable to the PFL2 source (20 verbatim source activities + 0 from the OF34 Lexique).",
-      "exerciseSets": [
+      "dialogues": [
         {
-          "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 20
+          "title": "Proposer une solution",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Le rapport est incomplet et l’échéance est demain."
+            },
+            {
+              "speaker": "B",
+              "text": "Si on redistribuait les tâches, Benoît pourrait refaire la dernière partie."
+            },
+            {
+              "speaker": "A",
+              "text": "D’accord. Quelqu’un d’autre s’occupera du budget si Benoît révise le rapport."
+            }
+          ]
         }
       ],
-      "totalQuestions": 20
+      "exampleTexts": [
+        {
+          "title": "Hypothèse de travail",
+          "body": "Si les employés avaient reçu les données plus tôt, ils auraient pu terminer l’analyse. Maintenant, si on redistribue les tâches, on pourra respecter l’échéance."
+        },
+        {
+          "title": "Note de fin",
+          "body": "Une bonne proposition de solution nomme le problème, présente une hypothèse avec si, puis précise ce qui changera si la condition est remplie."
+        }
+      ]
+    },
+    "practice": {
+      "sourceFidelity": false,
+      "coverage": "131 questions: 119 concept-focused items derived from SC102-2/34-2005F plus 12 OF34 lexicon items.",
+      "exerciseSets": [
+        {
+          "title": "Concordance des temps avec si",
+          "count": 81
+        },
+        {
+          "title": "Hypothèses, suppositions et solutions",
+          "count": 33
+        },
+        {
+          "title": "Compréhension de conditions dans des textes",
+          "count": 5
+        },
+        {
+          "title": "Vocabulaire du Lexique PFL2",
+          "count": 12
+        }
+      ],
+      "totalQuestions": 131
     },
     "consolidation": {
       "sourceBooklet": {
@@ -77,30 +156,32 @@
       "concepts": [
         "si_clauses",
         "conditionnel",
-        "imparfait"
+        "imparfait",
+        "plus-que-parfait",
+        "hypothèses"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 4,
+    "coveredElements": 3,
     "totalElements": 27,
     "convertible": {
-      "covered": 4,
+      "covered": 3,
       "total": 10
     },
     "actionableGaps": {
       "sections": [],
       "activities": [
         3,
+        4,
         5,
+        10,
         11,
         15
       ],
-      "vocabulary": [
-        "Lexique"
-      ],
+      "vocabulary": [],
       "examples": [],
       "selfTest": [
         "selfeval-4 (SC102-2-45-4)"

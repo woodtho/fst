@@ -19,7 +19,7 @@
       "topicsFr": "Indicateurs du passé, du présent et du futur",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 66,
       "linkedItems": [
         "itm_of9_voc_fe_1",
         "itm_of9_voc_fe_2",
@@ -37,10 +37,16 @@
       "topicsFr": "Formation du passé composé, de l’imparfait, du futur simple, du futur proche",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 58,
       "linkedItems": [
-        "itm_of9_src_a4_1",
-        "itm_of9_src_a11_1"
+        "itm_of9_src_a7_1",
+        "itm_of9_src_a7_2",
+        "itm_of9_src_a7_4",
+        "itm_of9_src_a7_5",
+        "itm_of9_src_a7_7",
+        "itm_of9_src_a7_8",
+        "itm_of9_src_a7_9",
+        "itm_of9_src_a7_10"
       ]
     },
     {
@@ -49,9 +55,16 @@
       "topicsFr": "Usage de l’indicatif présent",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 1,
+      "itemCount": 58,
       "linkedItems": [
-        "itm_of9_src_a21_1"
+        "itm_of9_src_a7_1",
+        "itm_of9_src_a7_2",
+        "itm_of9_src_a7_4",
+        "itm_of9_src_a7_5",
+        "itm_of9_src_a7_7",
+        "itm_of9_src_a7_8",
+        "itm_of9_src_a7_9",
+        "itm_of9_src_a7_10"
       ]
     },
     {
@@ -59,29 +72,25 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre des énoncés qui situent un événement dans le temps : passé, présent, futur",
       "kind": "function",
-      "covered": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of9_src_a5_1"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "9.5",
       "heading": "Fonctions",
       "topicsFr": "Describing situations in the present",
       "kind": "function",
-      "covered": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of9_src_a21_1"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "9.6",
       "heading": "Phonétique",
       "topicsFr": "Sounds, rhythm and intonation in French",
       "kind": "phonetics",
-      "covered": true,
+      "covered": false,
       "itemCount": 0,
       "linkedItems": []
     }
@@ -95,7 +104,7 @@
   },
   "examples": {
     "sourceMarkers": 1,
-    "derivedItems": 134,
+    "derivedItems": 58,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -170,15 +179,9 @@
       "activity": 6,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 5,
-      "linkedItems": [
-        "itm_of9_src_a6_1",
-        "itm_of9_src_a6_2",
-        "itm_of9_src_a6_3",
-        "itm_of9_src_a6_4",
-        "itm_of9_src_a6_5"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 7,
@@ -215,8 +218,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 10,
@@ -259,17 +261,9 @@
       "activity": 13,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 7,
-      "linkedItems": [
-        "itm_of9_src_a13_1",
-        "itm_of9_src_a13_2",
-        "itm_of9_src_a13_3",
-        "itm_of9_src_a13_4",
-        "itm_of9_src_a13_5",
-        "itm_of9_src_a13_6",
-        "itm_of9_src_a13_11"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 14,
@@ -283,67 +277,25 @@
       "activity": 15,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 15,
-      "linkedItems": [
-        "itm_of9_src_a15_1",
-        "itm_of9_src_a15_2",
-        "itm_of9_src_a15_3",
-        "itm_of9_src_a15_4",
-        "itm_of9_src_a15_5",
-        "itm_of9_src_a15_6",
-        "itm_of9_src_a15_7",
-        "itm_of9_src_a15_8",
-        "itm_of9_src_a15_9",
-        "itm_of9_src_a15_10",
-        "itm_of9_src_a15_11",
-        "itm_of9_src_a15_12",
-        "itm_of9_src_a15_13",
-        "itm_of9_src_a15_14",
-        "itm_of9_src_a15_15"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 16,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 12,
-      "linkedItems": [
-        "itm_of9_src_a16_1",
-        "itm_of9_src_a16_2",
-        "itm_of9_src_a16_3",
-        "itm_of9_src_a16_4",
-        "itm_of9_src_a16_5",
-        "itm_of9_src_a16_6",
-        "itm_of9_src_a16_7",
-        "itm_of9_src_a16_8",
-        "itm_of9_src_a16_9",
-        "itm_of9_src_a16_10",
-        "itm_of9_src_a16_11",
-        "itm_of9_src_a16_12"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 17,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 12,
-      "linkedItems": [
-        "itm_of9_src_a17_11",
-        "itm_of9_src_a17_extra_1",
-        "itm_of9_src_a17_extra_2",
-        "itm_of9_src_a17_extra_3",
-        "itm_of9_src_a17_extra_4",
-        "itm_of9_src_a17_extra_5",
-        "itm_of9_src_a17_extra_6",
-        "itm_of9_src_a17_extra_7",
-        "itm_of9_src_a17_extra_8",
-        "itm_of9_src_a17_extra_9",
-        "itm_of9_src_a17_extra_10",
-        "itm_of9_src_a17_extra_11"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 18,
@@ -408,15 +360,20 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 32,
-    "coveredElements": 16,
+    "coveredElements": 10,
     "convertible": {
-      "covered": 16,
+      "covered": 10,
       "total": 17
     },
     "actionableGaps": {
       "sections": [],
       "activities": [
-        9
+        6,
+        9,
+        13,
+        15,
+        16,
+        17
       ],
       "vocabulary": [],
       "examples": [],
@@ -425,7 +382,11 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "9.4 Fonctions (function)",
+        "9.5 Fonctions (function)",
+        "9.6 Phonétique (phonetics)"
+      ],
       "activities": [
         1,
         2,

@@ -365,15 +365,25 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 17,
+    "coveredElements": 8,
     "totalElements": 49,
     "convertible": {
-      "covered": 17,
+      "covered": 8,
       "total": 18
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [],
+      "activities": [
+        7,
+        8,
+        11,
+        16,
+        22,
+        25,
+        27,
+        28,
+        29
+      ],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -381,7 +391,12 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "6.4 Fonctions (function)",
+        "6.5 Langue écrite (writing)",
+        "6.6 Fonctions (function)",
+        "6.7 Phonétique (phonetics)"
+      ],
       "activities": [
         1,
         2,

@@ -16,9 +16,16 @@
       "topicsFr": "Nombres entiers (cardinaux) · Nombres collectifs",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 1,
+      "itemCount": 53,
       "linkedItems": [
-        "itm_of6_src_a10_1"
+        "itm_of6_src_a26_2",
+        "itm_of6_src_a26_3",
+        "itm_of6_src_a26_4",
+        "itm_of6_src_a26_5",
+        "itm_of6_src_a26_6",
+        "itm_of6_src_a26_7",
+        "itm_of6_src_a26_8",
+        "itm_of6_src_a26_9"
       ]
     },
     {
@@ -27,8 +34,17 @@
       "topicsFr": "Nombres ordinaux",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 53,
+      "linkedItems": [
+        "itm_of6_src_a26_2",
+        "itm_of6_src_a26_3",
+        "itm_of6_src_a26_4",
+        "itm_of6_src_a26_5",
+        "itm_of6_src_a26_6",
+        "itm_of6_src_a26_7",
+        "itm_of6_src_a26_8",
+        "itm_of6_src_a26_9"
+      ]
     },
     {
       "id": "6.3",
@@ -36,10 +52,16 @@
       "topicsFr": "Mot interrogatif combien · Adjectifs et pronoms démonstratifs",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 53,
       "linkedItems": [
-        "itm_of6_src_a21_1",
-        "itm_of6_src_a26_2"
+        "itm_of6_src_a26_2",
+        "itm_of6_src_a26_3",
+        "itm_of6_src_a26_4",
+        "itm_of6_src_a26_5",
+        "itm_of6_src_a26_6",
+        "itm_of6_src_a26_7",
+        "itm_of6_src_a26_8",
+        "itm_of6_src_a26_9"
       ]
     },
     {
@@ -47,7 +69,7 @@
       "heading": "Fonctions",
       "topicsFr": "Understanding questions and information involving numbers (quantity, age, address, number)",
       "kind": "function",
-      "covered": true,
+      "covered": false,
       "itemCount": 0,
       "linkedItems": []
     },
@@ -56,7 +78,7 @@
       "heading": "Langue écrite",
       "topicsFr": "Messages containing numbers",
       "kind": "writing",
-      "covered": true,
+      "covered": false,
       "itemCount": 0,
       "linkedItems": []
     },
@@ -65,18 +87,16 @@
       "heading": "Fonctions",
       "topicsFr": "Asking for and providing numerical information",
       "kind": "function",
-      "covered": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of6_src_a26_2"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "6.7",
       "heading": "Phonétique",
       "topicsFr": "Sounds, rhythm and intonation in French",
       "kind": "phonetics",
-      "covered": true,
+      "covered": false,
       "itemCount": 0,
       "linkedItems": []
     }
@@ -90,7 +110,7 @@
   },
   "examples": {
     "sourceMarkers": 17,
-    "derivedItems": 176,
+    "derivedItems": 53,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -158,8 +178,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 8,
@@ -167,8 +186,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 9,
@@ -205,8 +223,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 12,
@@ -244,22 +261,9 @@
       "activity": 16,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 12,
-      "linkedItems": [
-        "itm_of6_src_a16_1",
-        "itm_of6_src_a16_2",
-        "itm_of6_src_a16_3",
-        "itm_of6_src_a16_4",
-        "itm_of6_src_a16_5",
-        "itm_of6_src_a16_6",
-        "itm_of6_src_a16_7",
-        "itm_of6_src_a16_8",
-        "itm_of6_src_a16_9",
-        "itm_of6_src_a16_10",
-        "itm_of6_src_a16_11",
-        "itm_of6_src_a16_12"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 17,
@@ -312,20 +316,9 @@
       "activity": 22,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 10,
-      "linkedItems": [
-        "itm_of6_src_a22_1",
-        "itm_of6_src_a22_2",
-        "itm_of6_src_a22_3",
-        "itm_of6_src_a22_4",
-        "itm_of6_src_a22_5",
-        "itm_of6_src_a22_6",
-        "itm_of6_src_a22_7",
-        "itm_of6_src_a22_8",
-        "itm_of6_src_a22_9",
-        "itm_of6_src_a22_10"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 23,
@@ -347,26 +340,9 @@
       "activity": 25,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 16,
-      "linkedItems": [
-        "itm_of6_src_a25_1",
-        "itm_of6_src_a25_2",
-        "itm_of6_src_a25_3",
-        "itm_of6_src_a25_4",
-        "itm_of6_src_a25_5",
-        "itm_of6_src_a25_6",
-        "itm_of6_src_a25_7",
-        "itm_of6_src_a25_8",
-        "itm_of6_src_a25_9",
-        "itm_of6_src_a25_10",
-        "itm_of6_src_a25_11",
-        "itm_of6_src_a25_12",
-        "itm_of6_src_a25_13",
-        "itm_of6_src_a25_14",
-        "itm_of6_src_a25_15",
-        "itm_of6_src_a25_16"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 26,
@@ -404,90 +380,25 @@
       "activity": 27,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 10,
-      "linkedItems": [
-        "itm_of6_src_a27_1",
-        "itm_of6_src_a27_2",
-        "itm_of6_src_a27_3",
-        "itm_of6_src_a27_4",
-        "itm_of6_src_a27_5",
-        "itm_of6_src_a27_6",
-        "itm_of6_src_a27_7",
-        "itm_of6_src_a27_8",
-        "itm_of6_src_a27_9",
-        "itm_of6_src_a27_10"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 28,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 21,
-      "linkedItems": [
-        "itm_of6_src_a28_1",
-        "itm_of6_src_a28_2",
-        "itm_of6_src_a28_3",
-        "itm_of6_src_a28_4",
-        "itm_of6_src_a28_5",
-        "itm_of6_src_a28_6",
-        "itm_of6_src_a28_7",
-        "itm_of6_src_a28_8",
-        "itm_of6_src_a28_9",
-        "itm_of6_src_a28_10",
-        "itm_of6_src_a28_11",
-        "itm_of6_src_a28_12",
-        "itm_of6_src_a28_13",
-        "itm_of6_src_a28_14",
-        "itm_of6_src_a28_15",
-        "itm_of6_src_a28_16",
-        "itm_of6_src_a28_17",
-        "itm_of6_src_a28_18",
-        "itm_of6_src_a28_19",
-        "itm_of6_src_a28_20",
-        "itm_of6_src_a28_21"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 29,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 31,
-      "linkedItems": [
-        "itm_of6_src_a29_1",
-        "itm_of6_src_a29_2",
-        "itm_of6_src_a29_3",
-        "itm_of6_src_a29_4",
-        "itm_of6_src_a29_5",
-        "itm_of6_src_a29_6",
-        "itm_of6_src_a29_7",
-        "itm_of6_src_a29_8",
-        "itm_of6_src_a29_9",
-        "itm_of6_src_a29_10",
-        "itm_of6_src_a29_11",
-        "itm_of6_src_a29_12",
-        "itm_of6_src_a29_13",
-        "itm_of6_src_a29_14",
-        "itm_of6_src_a29_15",
-        "itm_of6_src_a29_16",
-        "itm_of6_src_a29_17",
-        "itm_of6_src_a29_18",
-        "itm_of6_src_a29_19",
-        "itm_of6_src_a29_20",
-        "itm_of6_src_a29_21",
-        "itm_of6_src_a29_22",
-        "itm_of6_src_a29_23",
-        "itm_of6_src_a29_24",
-        "itm_of6_src_a29_25",
-        "itm_of6_src_a29_26",
-        "itm_of6_src_a29_27",
-        "itm_of6_src_a29_28",
-        "itm_of6_src_a29_29",
-        "itm_of6_src_a29_30",
-        "itm_of6_src_a29_31"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 30,
@@ -574,9 +485,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 49,
-    "coveredElements": 17,
+    "coveredElements": 8,
     "convertible": {
-      "covered": 17,
+      "covered": 8,
       "total": 18
     },
     "actionableGaps": {
@@ -584,7 +495,13 @@
       "activities": [
         7,
         8,
-        11
+        11,
+        16,
+        22,
+        25,
+        27,
+        28,
+        29
       ],
       "vocabulary": [],
       "examples": [],
@@ -593,7 +510,12 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "6.4 Fonctions (function)",
+        "6.5 Langue écrite (writing)",
+        "6.6 Fonctions (function)",
+        "6.7 Phonétique (phonetics)"
+      ],
       "activities": [
         1,
         2,

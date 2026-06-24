@@ -501,15 +501,30 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 31,
+    "coveredElements": 11,
     "totalElements": 59,
     "convertible": {
-      "covered": 25,
+      "covered": 11,
       "total": 26
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [],
+      "activities": [
+        5,
+        8,
+        9,
+        10,
+        12,
+        19,
+        26,
+        28,
+        29,
+        30,
+        31,
+        38,
+        40,
+        41
+      ],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -529,9 +544,30 @@
       "activities": [
         1,
         2,
+        3,
         6,
         7,
-        18
+        11,
+        13,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        27,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        42,
+        43,
+        44,
+        45,
+        46
       ]
     }
   }

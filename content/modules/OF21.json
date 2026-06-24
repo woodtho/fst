@@ -176,10 +176,10 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 14,
+    "coveredElements": 19,
     "totalElements": 83,
     "convertible": {
-      "covered": 14,
+      "covered": 19,
       "total": 46
     },
     "actionableGaps": {

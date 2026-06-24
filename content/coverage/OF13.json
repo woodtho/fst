@@ -18,7 +18,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 24,
+      "itemCount": 57,
       "linkedItems": [
         "itm_of13_voc_fe_1",
         "itm_of13_voc_fe_2",
@@ -27,23 +27,7 @@
         "itm_of13_voc_fe_5",
         "itm_of13_voc_fe_6",
         "itm_of13_voc_fe_7",
-        "itm_of13_voc_fe_8",
-        "itm_of13_src_a1_patch_1",
-        "itm_of13_src_a1_patch_2",
-        "itm_of13_src_a1_patch_3",
-        "itm_of13_src_a1_patch_4",
-        "itm_of13_src_a1_patch_5",
-        "itm_of13_src_a1_patch_6",
-        "itm_of13_src_a1_patch_7",
-        "itm_of13_src_a1_patch_8",
-        "itm_of13_src_a1_patch_9",
-        "itm_of13_src_a1_patch_10",
-        "itm_of13_src_a1_patch_11",
-        "itm_of13_src_a1_patch_12",
-        "itm_of13_src_a1_patch_13",
-        "itm_of13_src_a1_patch_14",
-        "itm_of13_src_a1_patch_15",
-        "itm_of13_src_a1_patch_16"
+        "itm_of13_voc_fe_8"
       ]
     },
     {
@@ -52,11 +36,16 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 3,
+      "itemCount": 29,
       "linkedItems": [
         "itm_of13_src_a27_1",
         "itm_of13_src_a27_6",
-        "itm_of13_src_a27_7"
+        "itm_of13_src_a27_7",
+        "itm_of13_src_a1_patch_1",
+        "itm_of13_src_a1_patch_2",
+        "itm_of13_src_a1_patch_3",
+        "itm_of13_src_a1_patch_4",
+        "itm_of13_src_a1_patch_5"
       ]
     },
     {
@@ -64,8 +53,8 @@
       "heading": "Fonctions",
       "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -73,8 +62,8 @@
       "heading": "Fonctions",
       "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -82,7 +71,7 @@
       "heading": "Phonétique",
       "topicsFr": "Sounds, rhythm and intonation in French",
       "kind": "phonetics",
-      "covered": true,
+      "covered": false,
       "itemCount": 0,
       "linkedItems": []
     },
@@ -91,8 +80,8 @@
       "heading": "Compréhension de l’oral",
       "topicsFr": "Understanding a recorded document in general and in detail",
       "kind": "oral",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     }
   ],
@@ -105,7 +94,7 @@
   },
   "examples": {
     "sourceMarkers": 1,
-    "derivedItems": 6,
+    "derivedItems": 32,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -144,8 +133,7 @@
         "itm_of13_src_a1_patch_16",
         "itm_of13_src_a1_patch_17",
         "itm_of13_src_a1_patch_18"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 2,
@@ -161,8 +149,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 4,
@@ -178,8 +165,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 6,
@@ -195,8 +181,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 8,
@@ -220,8 +205,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 11,
@@ -237,8 +221,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 13,
@@ -262,8 +245,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 16,
@@ -271,8 +253,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 17,
@@ -280,8 +261,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 18,
@@ -297,8 +277,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 20,
@@ -314,8 +293,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 22,
@@ -323,8 +301,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 23,
@@ -340,8 +317,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 25,
@@ -349,8 +325,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 26,
@@ -358,8 +333,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 27,
@@ -371,8 +345,7 @@
         "itm_of13_src_a27_1",
         "itm_of13_src_a27_6",
         "itm_of13_src_a27_7"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 28,
@@ -380,8 +353,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 29,
@@ -389,8 +361,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 30,
@@ -398,8 +369,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 31,
@@ -407,8 +377,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 32,
@@ -416,8 +385,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 33,
@@ -425,8 +393,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 34,
@@ -497,9 +464,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 50,
-    "coveredElements": 26,
+    "coveredElements": 6,
     "convertible": {
-      "covered": 26,
+      "covered": 6,
       "total": 27
     },
     "actionableGaps": {
@@ -533,7 +500,12 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "13.3 Fonctions (function)",
+        "13.4 Fonctions (function)",
+        "13.5 Phonétique (phonetics)",
+        "13.6 Compréhension de l’oral (oral)"
+      ],
       "activities": [
         2,
         4,

@@ -17,7 +17,7 @@
       "topicsFr": "Indicateurs d’occurrence",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 9,
+      "itemCount": 15,
       "linkedItems": [
         "itm_of14_voc_fe_1",
         "itm_of14_voc_fe_2",
@@ -26,8 +26,7 @@
         "itm_of14_voc_fe_5",
         "itm_of14_voc_fe_6",
         "itm_of14_voc_fe_7",
-        "itm_of14_voc_ef_8",
-        "itm_of14_src_a4_9"
+        "itm_of14_voc_ef_8"
       ]
     },
     {
@@ -36,7 +35,7 @@
       "topicsFr": "Verbes impersonnels",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 10,
+      "itemCount": 17,
       "linkedItems": [
         "itm_of14_src_a4_9",
         "itm_of14_src_a6_1",
@@ -45,9 +44,7 @@
         "itm_of14_src_a6_5",
         "itm_of14_src_a6_6",
         "itm_of14_src_a6_7",
-        "itm_of14_src_a6_8",
-        "itm_of14_src_a6_9",
-        "itm_of14_src_a6_10"
+        "itm_of14_src_a6_8"
       ]
     },
     {
@@ -55,41 +52,25 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre quelqu’un qui s’informe ou qui informe d’un événement",
       "kind": "function",
-      "covered": true,
-      "itemCount": 7,
-      "linkedItems": [
-        "itm_of14_src_a8_1",
-        "itm_of14_src_a8_2",
-        "itm_of14_src_a8_5",
-        "itm_of14_src_a8_6",
-        "itm_of14_src_a8_7",
-        "itm_of14_src_a8_8",
-        "itm_of14_src_a10_1"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "14.4",
       "heading": "Fonctions",
       "topicsFr": "S’informer et informer d’un événement",
       "kind": "function",
-      "covered": true,
-      "itemCount": 7,
-      "linkedItems": [
-        "itm_of14_src_a8_1",
-        "itm_of14_src_a8_2",
-        "itm_of14_src_a8_5",
-        "itm_of14_src_a8_6",
-        "itm_of14_src_a8_7",
-        "itm_of14_src_a8_8",
-        "itm_of14_src_a10_1"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "14.5",
       "heading": "Phonétique",
       "topicsFr": "Sons, rythmes et intonations du français",
       "kind": "phonetics",
-      "covered": true,
+      "covered": false,
       "itemCount": 0,
       "linkedItems": []
     }
@@ -131,8 +112,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 3,
@@ -150,8 +130,7 @@
       "itemCount": 1,
       "linkedItems": [
         "itm_of14_src_a4_9"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 5,
@@ -177,8 +156,7 @@
         "itm_of14_src_a6_8",
         "itm_of14_src_a6_9",
         "itm_of14_src_a6_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 7,
@@ -201,8 +179,7 @@
         "itm_of14_src_a8_6",
         "itm_of14_src_a8_7",
         "itm_of14_src_a8_8"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 9,
@@ -220,8 +197,7 @@
       "itemCount": 1,
       "linkedItems": [
         "itm_of14_src_a10_1"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 11,
@@ -276,9 +252,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 24,
-    "coveredElements": 9,
+    "coveredElements": 8,
     "convertible": {
-      "covered": 9,
+      "covered": 8,
       "total": 10
     },
     "actionableGaps": {
@@ -293,7 +269,11 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "14.3 Fonctions (function)",
+        "14.4 Fonctions (function)",
+        "14.5 Phonétique (phonetics)"
+      ],
       "activities": [
         1,
         3,

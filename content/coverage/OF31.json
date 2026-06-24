@@ -7,9 +7,12 @@
   "titleFr": "Exprimer la volonté, le souhait",
   "titleEn": "To express will or desire",
   "grammarConcepts": [
-    "conditionnel",
+    "conditionnel_passe",
     "subjonctif",
-    "reported_speech"
+    "infinitive_construction",
+    "reported_speech",
+    "indirect_question",
+    "register"
   ],
   "sections": [
     {
@@ -18,7 +21,7 @@
       "topicsFr": "Formation et usage du conditionnel passé · Construction subjonctive ou infinitive avec des verbes de volonté",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 20,
+      "itemCount": 49,
       "linkedItems": [
         "itm_of31_src_a10_3",
         "itm_of31_src_a10_4",
@@ -36,7 +39,7 @@
       "topicsFr": "Style indirect · Interrogation indirecte",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 20,
+      "itemCount": 49,
       "linkedItems": [
         "itm_of31_src_a10_3",
         "itm_of31_src_a10_4",
@@ -94,7 +97,7 @@
   },
   "examples": {
     "sourceMarkers": 2,
-    "derivedItems": 40,
+    "derivedItems": 69,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"

@@ -17,7 +17,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 72,
       "linkedItems": [
         "itm_of36_voc_fe_1",
         "itm_of36_voc_fe_2",
@@ -35,7 +35,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 72,
       "linkedItems": [
         "itm_of36_voc_fe_1",
         "itm_of36_voc_fe_2",
@@ -53,7 +53,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 18,
       "linkedItems": [
         "itm_of36_src_a9_1",
         "itm_of36_src_a9_2",
@@ -71,7 +71,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 18,
       "linkedItems": [
         "itm_of36_src_a9_1",
         "itm_of36_src_a9_2",
@@ -89,7 +89,7 @@
       "topicsFr": "Semi-auxiliaire faire",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 18,
       "linkedItems": [
         "itm_of36_src_a9_1",
         "itm_of36_src_a9_2",
@@ -129,7 +129,7 @@
   },
   "examples": {
     "sourceMarkers": 6,
-    "derivedItems": 68,
+    "derivedItems": 36,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -234,8 +234,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 11,
@@ -251,8 +250,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 13,
@@ -442,9 +440,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 44,
-    "coveredElements": 11,
+    "coveredElements": 9,
     "convertible": {
-      "covered": 11,
+      "covered": 9,
       "total": 27
     },
     "actionableGaps": {

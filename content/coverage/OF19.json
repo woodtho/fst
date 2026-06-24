@@ -14,10 +14,10 @@
     {
       "id": "19.1",
       "heading": "Notions",
-      "topicsFr": "Description, évaluation, comparaison et opinion",
+      "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 70,
       "linkedItems": [
         "itm_of19_voc_fe_1",
         "itm_of19_voc_fe_2",
@@ -32,10 +32,10 @@
     {
       "id": "19.2",
       "heading": "Notions",
-      "topicsFr": "Description, évaluation, comparaison et opinion",
+      "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 70,
       "linkedItems": [
         "itm_of19_voc_fe_1",
         "itm_of19_voc_fe_2",
@@ -50,10 +50,10 @@
     {
       "id": "19.3",
       "heading": "Grammaire",
-      "topicsFr": "Comparatifs et superlatifs",
+      "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 7,
+      "itemCount": 35,
       "linkedItems": [
         "itm_of19_src_a30_2",
         "itm_of19_src_a30_3",
@@ -61,43 +61,44 @@
         "itm_of19_src_a30_8",
         "itm_of19_src_a30_9",
         "itm_of19_src_a30_11",
-        "itm_of19_src_a30_13"
+        "itm_of19_src_a30_13",
+        "itm_of19_src_a55_1"
       ]
     },
     {
       "id": "19.4",
       "heading": "Fonctions",
-      "topicsFr": "Demander et donner une description",
+      "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 205,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
       "id": "19.5",
       "heading": "Fonctions",
-      "topicsFr": "Demander et donner une description",
+      "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 205,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
       "id": "19.6",
       "heading": "Phonétique",
-      "topicsFr": "Syllabes et sons dans les mots courts",
+      "topicsFr": "",
       "kind": "phonetics",
-      "covered": true,
-      "itemCount": 28,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
       "id": "19.7",
       "heading": "Notions",
-      "topicsFr": "Description, évaluation, comparaison et opinion",
+      "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 70,
       "linkedItems": [
         "itm_of19_voc_fe_1",
         "itm_of19_voc_fe_2",
@@ -112,10 +113,10 @@
     {
       "id": "19.8",
       "heading": "Grammaire",
-      "topicsFr": "Comparatifs et superlatifs",
+      "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 7,
+      "itemCount": 35,
       "linkedItems": [
         "itm_of19_src_a30_2",
         "itm_of19_src_a30_3",
@@ -123,100 +124,44 @@
         "itm_of19_src_a30_8",
         "itm_of19_src_a30_9",
         "itm_of19_src_a30_11",
-        "itm_of19_src_a30_13"
+        "itm_of19_src_a30_13",
+        "itm_of19_src_a55_1"
       ]
     },
     {
       "id": "19.9",
       "heading": "Fonctions",
-      "topicsFr": "Donner et demander une opinion",
+      "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 18,
-      "linkedItems": [
-        "itm_of19_src_a55_1",
-        "itm_of19_src_a55_2",
-        "itm_of19_src_a55_3",
-        "itm_of19_src_a55_4",
-        "itm_of19_src_a55_5",
-        "itm_of19_src_a55_6",
-        "itm_of19_src_a55_7",
-        "itm_of19_src_a55_8",
-        "itm_of19_src_a55_9",
-        "itm_of19_src_a55_10",
-        "itm_of19_src_a55_11",
-        "itm_of19_src_a55_12",
-        "itm_of19_src_a55_13",
-        "itm_of19_src_a55_14",
-        "itm_of19_src_a55_15",
-        "itm_of19_src_a61_8",
-        "itm_of19_src_a61_9",
-        "itm_of19_src_a61_15"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "19.10",
       "heading": "Fonctions",
-      "topicsFr": "Donner et demander une opinion",
+      "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 18,
-      "linkedItems": [
-        "itm_of19_src_a55_1",
-        "itm_of19_src_a55_2",
-        "itm_of19_src_a55_3",
-        "itm_of19_src_a55_4",
-        "itm_of19_src_a55_5",
-        "itm_of19_src_a55_6",
-        "itm_of19_src_a55_7",
-        "itm_of19_src_a55_8",
-        "itm_of19_src_a55_9",
-        "itm_of19_src_a55_10",
-        "itm_of19_src_a55_11",
-        "itm_of19_src_a55_12",
-        "itm_of19_src_a55_13",
-        "itm_of19_src_a55_14",
-        "itm_of19_src_a55_15",
-        "itm_of19_src_a61_8",
-        "itm_of19_src_a61_9",
-        "itm_of19_src_a61_15"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "19.11",
       "heading": "Stratégies de communication",
-      "topicsFr": "Nuancer et structurer une opinion",
+      "topicsFr": "",
       "kind": "strategy",
-      "covered": true,
-      "itemCount": 18,
-      "linkedItems": [
-        "itm_of19_src_a55_1",
-        "itm_of19_src_a55_2",
-        "itm_of19_src_a55_3",
-        "itm_of19_src_a55_4",
-        "itm_of19_src_a55_5",
-        "itm_of19_src_a55_6",
-        "itm_of19_src_a55_7",
-        "itm_of19_src_a55_8",
-        "itm_of19_src_a55_9",
-        "itm_of19_src_a55_10",
-        "itm_of19_src_a55_11",
-        "itm_of19_src_a55_12",
-        "itm_of19_src_a55_13",
-        "itm_of19_src_a55_14",
-        "itm_of19_src_a55_15",
-        "itm_of19_src_a61_8",
-        "itm_of19_src_a61_9",
-        "itm_of19_src_a61_15"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "19.12",
       "heading": "Lexique",
-      "topicsFr": "Description, évaluation, comparaison et opinion",
+      "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 70,
       "linkedItems": [
         "itm_of19_voc_fe_1",
         "itm_of19_voc_fe_2",
@@ -238,7 +183,7 @@
   },
   "examples": {
     "sourceMarkers": 29,
-    "derivedItems": 50,
+    "derivedItems": 60,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -282,8 +227,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 5,
@@ -291,8 +235,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 6,
@@ -300,8 +243,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 7,
@@ -309,8 +251,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 8,
@@ -326,8 +267,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 10,
@@ -335,8 +275,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 11,
@@ -352,8 +291,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 13,
@@ -369,8 +307,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 15,
@@ -378,8 +315,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 16,
@@ -387,8 +323,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 17,
@@ -428,8 +363,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 22,
@@ -453,8 +387,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 25,
@@ -478,8 +411,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 28,
@@ -487,8 +419,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 29,
@@ -496,8 +427,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 30,
@@ -513,8 +443,7 @@
         "itm_of19_src_a30_9",
         "itm_of19_src_a30_11",
         "itm_of19_src_a30_13"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 31,
@@ -522,8 +451,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 32,
@@ -531,8 +459,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 33,
@@ -540,8 +467,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 34,
@@ -549,8 +475,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 35,
@@ -622,8 +547,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 44,
@@ -631,8 +555,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 45,
@@ -680,8 +603,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 51,
@@ -689,8 +611,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 52,
@@ -698,8 +619,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 53,
@@ -739,8 +659,7 @@
         "itm_of19_src_a55_13",
         "itm_of19_src_a55_14",
         "itm_of19_src_a55_15"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 56,
@@ -748,8 +667,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 57,
@@ -757,8 +675,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 58,
@@ -766,8 +683,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 59,
@@ -775,8 +691,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 60,
@@ -784,8 +699,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 61,
@@ -797,8 +711,7 @@
         "itm_of19_src_a61_8",
         "itm_of19_src_a61_9",
         "itm_of19_src_a61_15"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 62,
@@ -806,8 +719,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 63,
@@ -839,8 +751,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 67,
@@ -864,8 +775,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 70,
@@ -873,8 +783,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 71,
@@ -890,8 +799,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 73,
@@ -899,8 +807,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 74,
@@ -916,8 +823,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 76,
@@ -925,8 +831,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 77,
@@ -949,9 +854,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 93,
-    "coveredElements": 48,
+    "coveredElements": 11,
     "convertible": {
-      "covered": 48,
+      "covered": 11,
       "total": 49
     },
     "actionableGaps": {
@@ -1002,7 +907,14 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "19.4 Fonctions (function)",
+        "19.5 Fonctions (function)",
+        "19.6 Phonétique (phonetics)",
+        "19.9 Fonctions (function)",
+        "19.10 Fonctions (function)",
+        "19.11 Stratégies de communication (strategy)"
+      ],
       "activities": [
         1,
         2,

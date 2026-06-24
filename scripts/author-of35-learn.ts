@@ -1,0 +1,128 @@
+/**
+ * author-of35-learn.ts
+ * Authors the full "Learn" stage for OF35 (Faire des prévisions) from the PFL2 source document
+ * SC102-2/35-2005F: the possibility/probability and impossibility/improbability tables (35.1),
+ * the forecasting expressions (35.2), the indicators of possibility/probability/predictability
+ * (35.3), the crucial subjunctive-vs-indicative rule, and a source dialogue. Idempotent.
+ *
+ * Run: node --experimental-strip-types scripts/author-of35-learn.ts
+ */
+import { readFileSync, writeFileSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+const modPath = join(ROOT, "content", "modules", "OF35.json");
+const mod = JSON.parse(readFileSync(modPath, "utf8"));
+
+const vocabulary = [
+  // possibility / probability (→ subjunctive, except "probable" → indicative)
+  { fr: "il se peut que", en: "it may be that", pos: "possibilité", note: "+ subjonctif" },
+  { fr: "ça se peut / ça se pourrait que", en: "it could be that", pos: "possibilité", note: "+ subjonctif" },
+  { fr: "il y a des chances que", en: "there's a chance that", pos: "possibilité", note: "+ subjonctif" },
+  { fr: "c'est possible que", en: "it's possible that", pos: "possibilité", note: "+ subjonctif" },
+  { fr: "il est probable / c'est probable que", en: "it is probable that", pos: "probabilité", note: "+ INDICATIF (quasi-certitude)" },
+  { fr: "il faudrait peut-être que", en: "perhaps … should", pos: "possibilité", note: "+ subjonctif" },
+  // impossibility / improbability
+  { fr: "il est impossible que / ça ne se peut pas que", en: "it's impossible that", pos: "impossibilité", note: "+ subjonctif" },
+  { fr: "ce n'est pas possible que", en: "it's not possible that", pos: "impossibilité", note: "+ subjonctif" },
+  { fr: "il est peu probable que", en: "it is unlikely that", pos: "improbabilité", note: "+ subjonctif" },
+  { fr: "on n'arrive pas à / on ne peut pas", en: "to be unable to", pos: "impossibilité", note: "+ infinitif" },
+  // forecasting verbs (35.2 / 35.3)
+  { fr: "prévoir (que)", en: "to forecast / foresee", pos: "prévision", note: "prévoir que + INDICATIF (futur)" },
+  { fr: "envisager", en: "to consider / contemplate", pos: "prévision", note: "j'avais envisagé des difficultés" },
+  { fr: "entrevoir", en: "to foresee / glimpse", pos: "prévision", note: "il entrevoit des jours meilleurs" },
+  { fr: "s'attendre à ce que", en: "to expect that", pos: "prévision", note: "+ subjonctif" },
+  { fr: "en prévision de", en: "in anticipation of", pos: "prévision", note: "économiser en prévision de sa retraite" },
+  { fr: "éventuellement", en: "possibly / if need be", pos: "adverbe", note: "faux ami : ≠ « eventually » (= finalement)" },
+];
+
+mod.stages.learn = {
+  conceptExplanation: {
+    en: "Make forecasts. This objective teaches how to say that something is possible, probable, impossible or improbable, and how to make predictions. The key grammar is the choice of mood: expressions of POSSIBILITY or DOUBT (il se peut que, il y a des chances que, c'est possible que, il est impossible que, il est peu probable que, s'attendre à ce que) take the SUBJUNCTIVE, while expressions of PROBABILITY or near-certainty (il est probable que, je prévois que, il paraît que) take the INDICATIVE. You also learn the forecasting verbs prévoir, envisager, entrevoir, s'attendre à, and the false friend « éventuellement » (= possibly). Source: SC102-2/35-2005F.",
+    fr: "Faire des prévisions. On y apprend à indiquer qu'un fait est possible, probable, impossible ou improbable, et à formuler des prévisions. Le point de grammaire central est le choix du mode : les expressions de POSSIBILITÉ ou de DOUTE (il se peut que, il y a des chances que, c'est possible que, il est impossible que, il est peu probable que, s'attendre à ce que) demandent le SUBJONCTIF ; les expressions de PROBABILITÉ ou de quasi-certitude (il est probable que, je prévois que, il paraît que) demandent l'INDICATIF. On étudie aussi les verbes de prévision (prévoir, envisager, entrevoir, s'attendre à) et le faux ami « éventuellement » (= possibly).",
+  },
+  vocabulary,
+  grammarNotes: {
+    summary: "Choix du mode après les expressions de possibilité/probabilité : possibilité ou doute → subjonctif ; probabilité ou quasi-certitude → indicatif. Voir le tableau « subjonctif ou indicatif » ci-dessous.",
+    charts: [],
+    points: [
+      "POSSIBILITÉ / DOUTE → SUBJONCTIF : « Il se peut que la réunion soit remise. », « Il y a des chances que j'obtienne une mutation. », « C'est possible que Léon parte tôt. »",
+      "IMPOSSIBILITÉ / IMPROBABILITÉ → SUBJONCTIF : « Il est impossible que Bruni finisse ce soir. », « Il est peu probable que je rentre tôt. », « Ça ne se peut pas qu'il vienne. »",
+      "PROBABILITÉ / QUASI-CERTITUDE → INDICATIF : « Il est probable qu'elle reviendra. », « Je prévois qu'il retardera les échéances. », « Il paraît qu'il fera froid. »",
+      "« s'attendre à ce que » prend le subjonctif (« on s'attend à ce qu'il y ait des améliorations »), mais « s'attendre à » + nom/infinitif (« il s'attend à recevoir une réponse »).",
+      "Faire une prévision avec « prévoir que » + indicatif futur ; au passé, le futur devient conditionnel : « On avait prévu qu'il retarderait les échéances. »",
+      "Faux ami : « éventuellement » = possibly / if need be (et non « eventually » = finalement).",
+    ],
+  },
+  pronunciation: { points: [] },
+  dialogues: [
+    {
+      title: "Possibilité et probabilité — renseignements (ACTIVITÉ 2, dialogue 3)",
+      register: "service au public",
+      lines: [
+        { speaker: "M. Roux", fr: "Il va probablement y avoir une réunion publique. Est-ce possible d'y assister?", en: "probablement / c'est possible de = probability / possibility" },
+        { speaker: "M. Doyle", fr: "À ce moment-ci, c'est impossible de vous donner la date exacte ; par contre, c'est possible d'y assister.", en: "c'est impossible de / c'est possible de + infinitif" },
+        { speaker: "M. Roux", fr: "Ça se peut que j'aie des questions à poser durant les audiences.", en: "ça se peut que + SUBJONCTIF (que j'aie)" },
+        { speaker: "M. Doyle", fr: "Ça peut très bien arriver qu'il y ait une période de questions après chaque exposé.", en: "ça peut arriver que + subjonctif (qu'il y ait)" },
+      ],
+    },
+  ],
+  exampleTexts: [
+    {
+      title: "Exprimer la possibilité — la probabilité (ACTIVITÉ 1)",
+      table: {
+        headers: ["Expression", "Suite"],
+        rows: [
+          ["Il se peut / Ça se peut / Il y a des chances", "que la réunion soit remise à demain. (subjonctif)"],
+          ["C'est possible / Ce n'est pas impossible", "que Léon parte tôt. / de partir tôt."],
+          ["Il est fort probable / C'est probable", "qu'on travaillera plus tard. (indicatif)"],
+        ],
+      },
+      en: "Possibility/doubt → subjunctive. Probability/near-certainty → indicative.",
+    },
+    {
+      title: "Exprimer l'impossibilité — l'improbabilité (ACTIVITÉ 1)",
+      table: {
+        headers: ["Expression", "Suite"],
+        rows: [
+          ["On ne peut pas / On n'arrive pas à", "déterminer le taux de rendement. (infinitif)"],
+          ["C'est tout à fait impossible / Ça ne se peut pas", "que Bruni finisse le travail ce soir. (subjonctif)"],
+          ["Il est peu probable", "que je rentre tôt ce soir. (subjonctif)"],
+        ],
+      },
+      en: "Impossibility/improbability → subjunctive (or an infinitive after « ne pas arriver à »).",
+    },
+    {
+      title: "Faire part de prévisions (ACTIVITÉ 4)",
+      table: {
+        headers: ["Verbe / expression", "Exemple"],
+        rows: [
+          ["prévoir (que)", "On prévoit un déficit. / On prévoit qu'il retardera les échéances."],
+          ["envisager", "J'avais envisagé des difficultés."],
+          ["entrevoir", "Il entrevoit des jours meilleurs."],
+          ["s'attendre à (ce que)", "On s'attend à ce qu'il y ait des améliorations."],
+          ["en prévision de", "Elle économise en prévision de sa retraite."],
+        ],
+      },
+      en: "Verbs and expressions used to make a forecast.",
+    },
+    {
+      title: "Subjonctif ou indicatif?",
+      table: {
+        headers: ["+ SUBJONCTIF (possibilité, doute)", "+ INDICATIF (probabilité, certitude)"],
+        rows: [
+          ["il se peut que … soit", "il est probable que … sera"],
+          ["c'est possible que … parte", "je prévois que … partira"],
+          ["il y a des chances que … obtienne", "il paraît que … obtient"],
+          ["il est impossible / peu probable que … finisse", "c'est probable que … finira"],
+          ["on s'attend à ce que … ait", "—"],
+        ],
+      },
+      en: "Left: doubt/possibility/impossibility take the subjunctive. Right: probability/certainty take the indicative.",
+    },
+  ],
+};
+
+writeFileSync(modPath, JSON.stringify(mod, null, 2));
+console.log("OF35 Learn stage authored: 1 concept, " + vocabulary.length + " vocab entries, 6 grammar points, 4 tables, 1 dialogue.");

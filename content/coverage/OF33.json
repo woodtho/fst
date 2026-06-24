@@ -7,8 +7,8 @@
   "titleFr": "Exprimer un choix",
   "titleEn": "To express choice",
   "grammarConcepts": [
-    "pronouns",
-    "comparatives"
+    "relative_pronouns",
+    "vocabulary"
   ],
   "sections": [
     {
@@ -34,9 +34,18 @@
       "heading": "Grammaire",
       "topicsFr": "",
       "kind": "grammar",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 28,
+      "linkedItems": [
+        "itm_of33_gen_1",
+        "itm_of33_gen_2",
+        "itm_of33_gen_3",
+        "itm_of33_gen_4",
+        "itm_of33_gen_5",
+        "itm_of33_gen_6",
+        "itm_of33_gen_7",
+        "itm_of33_gen_8"
+      ]
     },
     {
       "id": "33.3",
@@ -75,9 +84,9 @@
   },
   "examples": {
     "sourceMarkers": 4,
-    "derivedItems": 0,
+    "derivedItems": 28,
     "convertible": true,
-    "covered": false,
+    "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
   },
   "selfTest": {
@@ -286,15 +295,13 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 32,
-    "coveredElements": 2,
+    "coveredElements": 4,
     "convertible": {
-      "covered": 2,
+      "covered": 4,
       "total": 12
     },
     "actionableGaps": {
-      "sections": [
-        "33.2 Grammaire (grammar)"
-      ],
+      "sections": [],
       "activities": [
         2,
         4,
@@ -305,9 +312,7 @@
         17
       ],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-4 (SC102-2-45-4)"
       ]

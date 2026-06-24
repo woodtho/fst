@@ -157,16 +157,29 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": true,
-    "coveredElements": 18,
+    "convertibleComplete": false,
+    "coveredElements": 6,
     "totalElements": 33,
     "convertible": {
-      "covered": 18,
-      "total": 18
+      "covered": 6,
+      "total": 19
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [],
+      "activities": [
+        3,
+        4,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15,
+        17,
+        18,
+        19
+      ],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -174,7 +187,10 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "28.5 Fonctions (function)",
+        "28.6 Fonctions (function)"
+      ],
       "activities": [
         1,
         2,

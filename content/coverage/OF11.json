@@ -16,7 +16,7 @@
       "topicsFr": "Indicateurs de moyen : ffGérondif ffPréposition + nom ffAutres indicateurs de moyen",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 64,
       "linkedItems": [
         "itm_of11_src_a5_m0",
         "itm_of11_voc_fe_1",
@@ -34,7 +34,7 @@
       "topicsFr": "Indicateurs d’intensification et d’atténuation : ffAdverbes",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 64,
       "linkedItems": [
         "itm_of11_src_a5_m0",
         "itm_of11_voc_fe_1",
@@ -52,7 +52,7 @@
       "topicsFr": "Adverbes de manière en -ment · Autres adverbes de manière · Autres indicateurs de manière",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 64,
       "linkedItems": [
         "itm_of11_src_a5_m0",
         "itm_of11_voc_fe_1",
@@ -70,7 +70,7 @@
       "topicsFr": "Formation de l’adverbe de manière · Place de l’adverbe",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 20,
+      "itemCount": 88,
       "linkedItems": [
         "itm_of11_src_a13_1",
         "itm_of11_src_a13_2",
@@ -79,19 +79,7 @@
         "itm_of11_src_a13_5",
         "itm_of11_src_a13_6",
         "itm_of11_src_a13_7",
-        "itm_of11_src_a13_8",
-        "itm_of11_src_a13_9",
-        "itm_of11_src_a13_10",
-        "itm_of11_src_a15_patch_1",
-        "itm_of11_src_a15_patch_2",
-        "itm_of11_src_a15_patch_3",
-        "itm_of11_src_a15_patch_4",
-        "itm_of11_src_a15_patch_5",
-        "itm_of11_src_a15_patch_6",
-        "itm_of11_src_a15_patch_7",
-        "itm_of11_src_a15_patch_8",
-        "itm_of11_src_a15_patch_9",
-        "itm_of11_src_a15_patch_10"
+        "itm_of11_src_a13_8"
       ]
     },
     {
@@ -100,7 +88,7 @@
       "topicsFr": "Formation du gérondif",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 20,
+      "itemCount": 88,
       "linkedItems": [
         "itm_of11_src_a13_1",
         "itm_of11_src_a13_2",
@@ -109,19 +97,7 @@
         "itm_of11_src_a13_5",
         "itm_of11_src_a13_6",
         "itm_of11_src_a13_7",
-        "itm_of11_src_a13_8",
-        "itm_of11_src_a13_9",
-        "itm_of11_src_a13_10",
-        "itm_of11_src_a15_patch_1",
-        "itm_of11_src_a15_patch_2",
-        "itm_of11_src_a15_patch_3",
-        "itm_of11_src_a15_patch_4",
-        "itm_of11_src_a15_patch_5",
-        "itm_of11_src_a15_patch_6",
-        "itm_of11_src_a15_patch_7",
-        "itm_of11_src_a15_patch_8",
-        "itm_of11_src_a15_patch_9",
-        "itm_of11_src_a15_patch_10"
+        "itm_of11_src_a13_8"
       ]
     },
     {
@@ -129,8 +105,8 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre une demande et des renseignements relatifs aux moyens pour arriver à une fin",
       "kind": "function",
-      "covered": true,
-      "itemCount": 5,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -138,8 +114,8 @@
       "heading": "Fonctions",
       "topicsFr": "S’informer des moyens pour arriver à une fin, indiquer des moyens pour arriver à une fin",
       "kind": "function",
-      "covered": true,
-      "itemCount": 5,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -147,8 +123,8 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre une demande et des informations relatives à la manière d’exécuter une tâche",
       "kind": "function",
-      "covered": true,
-      "itemCount": 5,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -156,8 +132,8 @@
       "heading": "Fonctions",
       "topicsFr": "Demander et fournir de l’information sur la manière d’exécuter une tâche",
       "kind": "function",
-      "covered": true,
-      "itemCount": 5,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -165,7 +141,7 @@
       "heading": "Phonétique",
       "topicsFr": "Sons, rythmes et intonations du français",
       "kind": "phonetics",
-      "covered": true,
+      "covered": false,
       "itemCount": 0,
       "linkedItems": []
     },
@@ -174,19 +150,9 @@
       "heading": "Stratégies de communication",
       "topicsFr": "Vérifier la compréhension de l’interlocuteur et interrompre pour demander des précisions",
       "kind": "strategy",
-      "covered": true,
-      "itemCount": 9,
-      "linkedItems": [
-        "itm_of11_src_a45_patch_1",
-        "itm_of11_src_a45_patch_2",
-        "itm_of11_src_a45_patch_3",
-        "itm_of11_src_a45_patch_4",
-        "itm_of11_src_a45_patch_5",
-        "itm_of11_src_a45_patch_6",
-        "itm_of11_src_a45_patch_7",
-        "itm_of11_src_a45_patch_8",
-        "itm_of11_src_a45_patch_9"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     }
   ],
   "vocabulary": {
@@ -198,7 +164,7 @@
   },
   "examples": {
     "sourceMarkers": 20,
-    "derivedItems": 28,
+    "derivedItems": 166,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -218,8 +184,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 2,
@@ -235,8 +200,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 4,
@@ -244,8 +208,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 5,
@@ -255,8 +218,7 @@
       "itemCount": 1,
       "linkedItems": [
         "itm_of11_src_a5_m0"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 6,
@@ -264,8 +226,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 7,
@@ -281,8 +242,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 9,
@@ -290,8 +250,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 10,
@@ -315,8 +274,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 13,
@@ -335,8 +293,7 @@
         "itm_of11_src_a13_8",
         "itm_of11_src_a13_9",
         "itm_of11_src_a13_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 14,
@@ -363,8 +320,7 @@
         "itm_of11_src_a15_patch_8",
         "itm_of11_src_a15_patch_9",
         "itm_of11_src_a15_patch_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 16,
@@ -381,8 +337,7 @@
         "itm_of11_src_a16_patch_6",
         "itm_of11_src_a16_patch_7",
         "itm_of11_src_a16_patch_8"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 17,
@@ -401,8 +356,7 @@
         "itm_of11_src_a17_patch_8",
         "itm_of11_src_a17_patch_9",
         "itm_of11_src_a17_patch_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 18,
@@ -418,8 +372,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 20,
@@ -484,8 +437,7 @@
         "itm_of11_src_a22_patch_39",
         "itm_of11_src_a22_patch_20",
         "itm_of11_src_a22_patch_40"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 23,
@@ -493,8 +445,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 24,
@@ -502,8 +453,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 25,
@@ -519,8 +469,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 27,
@@ -528,8 +477,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 28,
@@ -537,8 +485,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 29,
@@ -546,8 +493,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 30,
@@ -563,8 +509,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 32,
@@ -588,8 +533,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 35,
@@ -597,8 +541,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 36,
@@ -654,8 +597,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 43,
@@ -671,8 +613,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 45,
@@ -691,8 +632,7 @@
         "itm_of11_src_a45_patch_8",
         "itm_of11_src_a45_patch_9",
         "itm_of11_src_a45_patch_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 46,
@@ -715,9 +655,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 61,
-    "coveredElements": 33,
+    "coveredElements": 14,
     "convertible": {
-      "covered": 33,
+      "covered": 14,
       "total": 34
     },
     "actionableGaps": {
@@ -750,7 +690,14 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "11.6 Fonctions (function)",
+        "11.7 Fonctions (function)",
+        "11.8 Fonctions (function)",
+        "11.9 Fonctions (function)",
+        "11.10 Phonétique (phonetics)",
+        "11.11 Stratégies de communication (strategy)"
+      ],
       "activities": [
         2,
         7,

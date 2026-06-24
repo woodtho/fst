@@ -182,11 +182,11 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": true,
-    "coveredElements": 35,
+    "convertibleComplete": false,
+    "coveredElements": 16,
     "totalElements": 61,
     "convertible": {
-      "covered": 35,
+      "covered": 16,
       "total": 36
     },
     "actionableGaps": {
@@ -220,6 +220,8 @@
     },
     "nonConvertible": {
       "sections": [
+        "24.3 Fonctions (function)",
+        "24.4 Fonctions (function)",
         "24.5 Phonétique (phonetics)"
       ],
       "activities": [

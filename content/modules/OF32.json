@@ -5,7 +5,7 @@
   "titleEn": "To formulate conditions",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/32-2005F",
     "text": "sources/text/OF32.txt"
@@ -13,35 +13,131 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF32 — To formulate conditions. Source document SC102-2/32-2005F. Grammar taught: subjonctif, si_clauses. Vocabulary: the OF32 section of the PFL2 Lexique. 30 questions, all traceable to the PFL2 source (2 verbatim source activities + 28 from the OF32 Lexique).",
-        "fr": "Formuler des conditions. Document source SC102-2/32-2005F. Grammaire enseignée : subjonctif, si_clauses. Vocabulaire : section OF32 du Lexique PFL2."
+        "en": "OF32 teaches how to formulate conditions and requirements: what is possible, impossible, admissible, required, or only allowed if a condition is met. The main grammar choices are de + infinitive, que + subjunctive, and real conditions with si.",
+        "fr": "L’OF32 sert à formuler des conditions et des exigences : ce qui est possible, impossible, admissible, requis ou permis seulement si une condition est remplie. Les choix grammaticaux principaux sont de + infinitif, que + subjonctif et les conditions réelles avec si."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Indicateurs clés : possible, impossible, il y a moyen, ça se peut, possibilité, impossibilité, empêchement, condition, exigence, critère, à condition de/que, pourvu que, sans/sans que, à moins de/que, si, pour/pour que, dépendre de, falloir, devoir.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif, si_clauses.",
-        "charts": [],
-        "points": []
+        "summary": "Use infinitive when the subject is general or the same; use subjunctive after que when the subject is specified; use si with real-condition tenses.",
+        "charts": [
+          {
+            "title": "Possibilité",
+            "rows": [
+              [
+                "Sujet général",
+                "Il est possible de présenter une demande."
+              ],
+              [
+                "Sujet nommé",
+                "Il est possible que vous présentiez une demande."
+              ],
+              [
+                "Il se peut que",
+                "Il se peut que la demande soit refusée."
+              ]
+            ]
+          },
+          {
+            "title": "Condition",
+            "rows": [
+              [
+                "à condition de / à moins de",
+                "à condition de remplir le formulaire"
+              ],
+              [
+                "à condition que / pourvu que / sans que / à moins que",
+                "pourvu que vous remplissiez le formulaire"
+              ],
+              [
+                "si",
+                "Vous recevrez un remboursement si vous présentez vos reçus."
+              ]
+            ]
+          },
+          {
+            "title": "Lexique",
+            "rows": [
+              [
+                "-able / -ible",
+                "renouvelable, admissible"
+              ],
+              [
+                "préfixes négatifs",
+                "impossible, inadmissible, irréprochable, illisible"
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "After à condition de and à moins de, use an infinitive.",
+          "After à condition que, pourvu que, sans que, à moins que, il se peut que, use the subjunctive.",
+          "After si in real conditions, use present or passé composé, not the future.",
+          "Use condition vocabulary to state requirements clearly: condition préalable, exigence, critère."
+        ]
       },
       "pronunciation": {
         "points": []
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander les conditions",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Quelles sont les conditions pour obtenir une avance?"
+            },
+            {
+              "speaker": "B",
+              "text": "Il faut remplir le formulaire et le soumettre assez longtemps d’avance."
+            },
+            {
+              "speaker": "A",
+              "text": "Est-ce possible d’être remboursé?"
+            },
+            {
+              "speaker": "B",
+              "text": "Oui, à condition de fournir toutes les pièces justificatives."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Demande admissible",
+          "body": "Votre demande sera étudiée à condition que vous présentiez tous les documents requis. Il n’y aura pas moyen de la traiter sans que le dossier soit complet."
+        },
+        {
+          "title": "Note de fin",
+          "body": "Pour formuler une condition utile, indiquez clairement l’action possible, l’exigence à remplir et la conséquence si la condition n’est pas respectée."
+        }
+      ]
     },
     "practice": {
-      "sourceFidelity": true,
-      "coverage": "30 questions, all traceable to the PFL2 source (2 verbatim source activities + 28 from the OF32 Lexique).",
+      "sourceFidelity": false,
+      "coverage": "198 questions: 170 concept-focused items derived from SC102-2/32-2005F plus 28 OF32 lexicon items.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 2
+          "title": "Possibilité, impossibilité et indicateurs de condition",
+          "count": 21
+        },
+        {
+          "title": "Suffixes -able/-ible et préfixes négatifs",
+          "count": 36
+        },
+        {
+          "title": "Subjonctif, infinitif et conditions avec si",
+          "count": 92
+        },
+        {
+          "title": "Fonctions, compréhension orale et exigences",
+          "count": 44
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 28
         }
       ],
-      "totalQuestions": 30
+      "totalQuestions": 198
     },
     "consolidation": {
       "sourceBooklet": {
@@ -79,18 +175,21 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
+        "conditions",
         "subjonctif",
-        "si_clauses"
+        "si_clauses",
+        "possibilité",
+        "exigences"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 10,
+    "coveredElements": 8,
     "totalElements": 52,
     "convertible": {
-      "covered": 10,
+      "covered": 8,
       "total": 27
     },
     "actionableGaps": {
@@ -103,12 +202,14 @@
         9,
         11,
         15,
+        17,
         18,
         19,
         20,
         21,
         22,
         24,
+        25,
         26,
         27,
         29

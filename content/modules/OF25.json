@@ -192,11 +192,11 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": true,
+    "convertibleComplete": false,
     "coveredElements": 11,
     "totalElements": 22,
     "convertible": {
-      "covered": 11,
+      "covered": 10,
       "total": 11
     },
     "actionableGaps": {
@@ -209,7 +209,11 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "25.2 Fonctions (function)",
+        "25.3 Fonctions (function)",
+        "25.4 Compréhension de l’oral (oral)"
+      ],
       "activities": [
         2,
         3,

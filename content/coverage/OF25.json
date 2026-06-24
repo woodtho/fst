@@ -17,7 +17,7 @@
       "topicsFr": "Indicateurs de temps (stades de déroulement)",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 55,
+      "itemCount": 48,
       "linkedItems": [
         "itm_of25_voc_fe_1",
         "itm_of25_voc_fe_2",
@@ -26,54 +26,7 @@
         "itm_of25_voc_fe_5",
         "itm_of25_voc_fe_6",
         "itm_of25_voc_fe_7",
-        "itm_of25_voc_fe_8",
-        "itm_of25_src_a1a_1",
-        "itm_of25_src_a1a_2",
-        "itm_of25_src_a1a_3",
-        "itm_of25_src_a1a_4",
-        "itm_of25_src_a1a_5",
-        "itm_of25_src_a1b_1",
-        "itm_of25_src_a1b_2",
-        "itm_of25_src_a1b_3",
-        "itm_of25_src_a1b_4",
-        "itm_of25_src_a1b_5",
-        "itm_of25_src_a4_1",
-        "itm_of25_src_a4_2",
-        "itm_of25_src_a4_3",
-        "itm_of25_src_a4_4",
-        "itm_of25_src_a4_5",
-        "itm_of25_src_a4_6",
-        "itm_of25_src_a4_7",
-        "itm_of25_src_a4_8",
-        "itm_of25_src_a4_9",
-        "itm_of25_src_a4_10",
-        "itm_of25_src_a4_11",
-        "itm_of25_src_a4_12",
-        "itm_of25_src_a4_13",
-        "itm_of25_src_a4_14",
-        "itm_of25_src_a4_15",
-        "itm_of25_src_a5_1",
-        "itm_of25_src_a5_2",
-        "itm_of25_src_a5_3",
-        "itm_of25_src_a5_4",
-        "itm_of25_src_a5_5",
-        "itm_of25_src_a5_6",
-        "itm_of25_src_a5_7",
-        "itm_of25_src_a5_8",
-        "itm_of25_src_a5_9",
-        "itm_of25_src_a5_10",
-        "itm_of25_src_a5_11",
-        "itm_of25_src_a5_12",
-        "itm_of25_src_a5_13",
-        "itm_of25_src_a5_14",
-        "itm_of25_src_a5_15",
-        "itm_of25_src_a5_16",
-        "itm_of25_src_a5_17",
-        "itm_of25_src_a5_18",
-        "itm_of25_src_a5_19",
-        "itm_of25_src_a5_20",
-        "itm_of25_src_a5_21",
-        "itm_of25_src_a5_22"
+        "itm_of25_voc_fe_8"
       ]
     },
     {
@@ -81,104 +34,27 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre de l’information et des demandes d’information sur les étapes d’un projet ou d’une activité",
       "kind": "function",
-      "covered": true,
-      "itemCount": 38,
-      "linkedItems": [
-        "itm_of25_src_a6_1",
-        "itm_of25_src_a6_2",
-        "itm_of25_src_a6_3",
-        "itm_of25_src_a6_4",
-        "itm_of25_src_a6_5",
-        "itm_of25_src_a6_6",
-        "itm_of25_src_a6_7",
-        "itm_of25_src_a6_8",
-        "itm_of25_src_a6_9",
-        "itm_of25_src_a6_10",
-        "itm_of25_src_a7_1",
-        "itm_of25_src_a7_2",
-        "itm_of25_src_a7_3",
-        "itm_of25_src_a7_4",
-        "itm_of25_src_a7_5",
-        "itm_of25_src_a7_6",
-        "itm_of25_src_a7_7",
-        "itm_of25_src_a7_8",
-        "itm_of25_src_a7_9",
-        "itm_of25_src_a7_10",
-        "itm_of25_src_a7b_1",
-        "itm_of25_src_a7b_2",
-        "itm_of25_src_a7b_3",
-        "itm_of25_src_a7b_4",
-        "itm_of25_src_a7b_5",
-        "itm_of25_src_a7b_6",
-        "itm_of25_src_a8_1",
-        "itm_of25_src_a8_2",
-        "itm_of25_src_a8_3",
-        "itm_of25_src_a8_4",
-        "itm_of25_src_a8_5",
-        "itm_of25_src_a9_1",
-        "itm_of25_src_a9_2",
-        "itm_of25_src_a9_3",
-        "itm_of25_src_a9_4",
-        "itm_of25_src_a9_5",
-        "itm_of25_src_a9_6",
-        "itm_of25_src_a9_order_1"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "25.3",
       "heading": "Fonctions",
       "topicsFr": "Demander et fournir de l’information sur les étapes d’un projet et d’une activité",
       "kind": "function",
-      "covered": true,
-      "itemCount": 26,
-      "linkedItems": [
-        "itm_of25_src_a6_1",
-        "itm_of25_src_a6_2",
-        "itm_of25_src_a6_3",
-        "itm_of25_src_a6_4",
-        "itm_of25_src_a6_5",
-        "itm_of25_src_a6_6",
-        "itm_of25_src_a6_7",
-        "itm_of25_src_a6_8",
-        "itm_of25_src_a6_9",
-        "itm_of25_src_a6_10",
-        "itm_of25_src_a7_1",
-        "itm_of25_src_a7_2",
-        "itm_of25_src_a7_3",
-        "itm_of25_src_a7_4",
-        "itm_of25_src_a7_5",
-        "itm_of25_src_a7_6",
-        "itm_of25_src_a7_7",
-        "itm_of25_src_a7_8",
-        "itm_of25_src_a7_9",
-        "itm_of25_src_a7_10",
-        "itm_of25_src_a7b_1",
-        "itm_of25_src_a7b_2",
-        "itm_of25_src_a7b_3",
-        "itm_of25_src_a7b_4",
-        "itm_of25_src_a7b_5",
-        "itm_of25_src_a7b_6"
-      ],
-      "note": "Activity 11 is covered in learn-tab examples; source-derived auto-graded items practise the same question/answer patterns from activities 6 and 7."
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "25.4",
       "heading": "Compréhension de l’oral",
       "topicsFr": "Comprendre globalement et en détail un document enregistré",
       "kind": "oral",
-      "covered": true,
-      "itemCount": 9,
-      "linkedItems": [
-        "itm_of25_src_a13_1",
-        "itm_of25_src_a13_2",
-        "itm_of25_src_a13_3",
-        "itm_of25_src_a13_4",
-        "itm_of25_src_a13_5",
-        "itm_of25_src_a13_6",
-        "itm_of25_src_a13_7",
-        "itm_of25_src_a13_8",
-        "itm_of25_src_a13_order_1"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     }
   ],
   "vocabulary": {
@@ -190,7 +66,7 @@
   },
   "examples": {
     "sourceMarkers": 3,
-    "derivedItems": 94,
+    "derivedItems": 100,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -221,8 +97,7 @@
         "itm_of25_src_a1b_3",
         "itm_of25_src_a1b_4",
         "itm_of25_src_a1b_5"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 2,
@@ -262,8 +137,7 @@
         "itm_of25_src_a4_13",
         "itm_of25_src_a4_14",
         "itm_of25_src_a4_15"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 5,
@@ -294,8 +168,7 @@
         "itm_of25_src_a5_20",
         "itm_of25_src_a5_21",
         "itm_of25_src_a5_22"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 6,
@@ -314,8 +187,7 @@
         "itm_of25_src_a6_8",
         "itm_of25_src_a6_9",
         "itm_of25_src_a6_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 7,
@@ -340,8 +212,7 @@
         "itm_of25_src_a7b_4",
         "itm_of25_src_a7b_5",
         "itm_of25_src_a7b_6"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 8,
@@ -355,8 +226,7 @@
         "itm_of25_src_a8_3",
         "itm_of25_src_a8_4",
         "itm_of25_src_a8_5"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 9,
@@ -372,8 +242,7 @@
         "itm_of25_src_a9_5",
         "itm_of25_src_a9_6",
         "itm_of25_src_a9_order_1"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 10,
@@ -415,8 +284,7 @@
         "itm_of25_src_a13_7",
         "itm_of25_src_a13_8",
         "itm_of25_src_a13_order_1"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 14,
@@ -437,11 +305,11 @@
   ],
   "validation": {
     "strictComplete": false,
-    "convertibleComplete": true,
+    "convertibleComplete": false,
     "totalElements": 22,
     "coveredElements": 11,
     "convertible": {
-      "covered": 11,
+      "covered": 10,
       "total": 11
     },
     "actionableGaps": {
@@ -454,7 +322,11 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "25.2 Fonctions (function)",
+        "25.3 Fonctions (function)",
+        "25.4 Compréhension de l’oral (oral)"
+      ],
       "activities": [
         2,
         3,

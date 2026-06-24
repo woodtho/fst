@@ -17,7 +17,7 @@
       "topicsFr": "Indicateurs de qualités (personnes)",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 65,
       "linkedItems": [
         "itm_of20_src_a14_m0",
         "itm_of20_src_a14_m1",
@@ -35,7 +35,7 @@
       "topicsFr": "Vocabulaire relié à l’évaluation de personnes",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 65,
       "linkedItems": [
         "itm_of20_src_a14_m0",
         "itm_of20_src_a14_m1",
@@ -52,8 +52,8 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre des descriptions physiques et des demandes de description physique de personnes",
       "kind": "function",
-      "covered": true,
-      "itemCount": 97,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -61,8 +61,8 @@
       "heading": "Fonctions",
       "topicsFr": "Décrire, comparer et demander de décrire physiquement des personnes",
       "kind": "function",
-      "covered": true,
-      "itemCount": 97,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -70,32 +70,26 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre une opinion et des demandes d’opinion au sujet d’une personne",
       "kind": "function",
-      "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of20_src_a37_2",
-        "itm_of20_src_a37_10"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "20.6",
       "heading": "Fonctions",
       "topicsFr": "Asking and expressing opinions about people",
       "kind": "function",
-      "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of20_src_a37_2",
-        "itm_of20_src_a37_10"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "20.7",
       "heading": "Stratégies de communication",
       "topicsFr": "Qualifying an opinion about a person",
       "kind": "strategy",
-      "covered": true,
-      "itemCount": 20,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -103,12 +97,9 @@
       "heading": "Compréhension de l’oral",
       "topicsFr": "Understanding a recorded document in general and in detail",
       "kind": "oral",
-      "covered": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of20_src_a37_2",
-        "itm_of20_src_a37_10"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     }
   ],
   "vocabulary": {
@@ -120,7 +111,7 @@
   },
   "examples": {
     "sourceMarkers": 11,
-    "derivedItems": 4,
+    "derivedItems": 13,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -164,8 +155,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 5,
@@ -181,8 +171,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 7,
@@ -190,8 +179,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 8,
@@ -207,8 +195,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 10,
@@ -216,8 +203,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 11,
@@ -225,8 +211,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 12,
@@ -234,8 +219,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 13,
@@ -243,8 +227,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 14,
@@ -257,8 +240,7 @@
         "itm_of20_src_a14_m1",
         "itm_of20_src_a14_m2",
         "itm_of20_src_a14_m3"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 15,
@@ -266,8 +248,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 16,
@@ -275,8 +256,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 17,
@@ -284,8 +264,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 18,
@@ -293,8 +272,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 19,
@@ -302,8 +280,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 20,
@@ -311,8 +288,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 21,
@@ -320,8 +296,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 22,
@@ -329,8 +304,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 23,
@@ -410,8 +384,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 33,
@@ -419,8 +392,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 34,
@@ -428,8 +400,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 35,
@@ -437,8 +408,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 36,
@@ -446,8 +416,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 37,
@@ -458,8 +427,7 @@
       "linkedItems": [
         "itm_of20_src_a37_2",
         "itm_of20_src_a37_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 38,
@@ -483,8 +451,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 41,
@@ -531,9 +498,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 56,
-    "coveredElements": 28,
+    "coveredElements": 6,
     "convertible": {
-      "covered": 28,
+      "covered": 6,
       "total": 29
     },
     "actionableGaps": {
@@ -569,7 +536,14 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "20.3 Fonctions (function)",
+        "20.4 Fonctions (function)",
+        "20.5 Fonctions (function)",
+        "20.6 Fonctions (function)",
+        "20.7 Stratégies de communication (strategy)",
+        "20.8 Compréhension de l’oral (oral)"
+      ],
       "activities": [
         1,
         2,

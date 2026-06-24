@@ -190,16 +190,47 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": true,
-    "coveredElements": 38,
+    "convertibleComplete": false,
+    "coveredElements": 7,
     "totalElements": 63,
     "convertible": {
-      "covered": 38,
+      "covered": 7,
       "total": 38
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [],
+      "activities": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        20,
+        23,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        38,
+        39,
+        44,
+        45,
+        46
+      ],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -207,7 +238,14 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "30.6 Fonctions (function)",
+        "30.7 Fonctions (function)",
+        "30.8 Fonctions (function)",
+        "30.9 Fonctions (function)",
+        "30.10 Langue écrite (writing)",
+        "30.11 Compréhension de l’oral (oral)"
+      ],
       "activities": [
         1,
         3,

@@ -14,10 +14,10 @@
     {
       "id": "26.1",
       "heading": "Notions",
-      "topicsFr": "Indicateurs de déplacement, de mouvement, d’origine et de destination",
+      "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 61,
+      "itemCount": 63,
       "linkedItems": [
         "itm_of26_voc_fe_1",
         "itm_of26_voc_fe_2",
@@ -26,7 +26,17 @@
         "itm_of26_voc_fe_5",
         "itm_of26_voc_fe_6",
         "itm_of26_voc_fe_7",
-        "itm_of26_voc_fe_8",
+        "itm_of26_voc_fe_8"
+      ]
+    },
+    {
+      "id": "26.2",
+      "heading": "Grammaire",
+      "topicsFr": "",
+      "kind": "grammar",
+      "covered": true,
+      "itemCount": 161,
+      "linkedItems": [
         "itm_of26_src_a4_1",
         "itm_of26_src_a4_2",
         "itm_of26_src_a4_3",
@@ -34,213 +44,26 @@
         "itm_of26_src_a4_5",
         "itm_of26_src_a4_6",
         "itm_of26_src_a4_7",
-        "itm_of26_src_a4_8",
-        "itm_of26_src_a5_1",
-        "itm_of26_src_a5_2",
-        "itm_of26_src_a5_3",
-        "itm_of26_src_a5_4",
-        "itm_of26_src_a5_5",
-        "itm_of26_src_a5_6",
-        "itm_of26_src_a5_7",
-        "itm_of26_src_a5_8",
-        "itm_of26_src_a5_9",
-        "itm_of26_src_a5_10",
-        "itm_of26_src_a7_1",
-        "itm_of26_src_a7_2",
-        "itm_of26_src_a7_3",
-        "itm_of26_src_a7_4",
-        "itm_of26_src_a7_5",
-        "itm_of26_src_a7_6",
-        "itm_of26_src_a7_7",
-        "itm_of26_src_a7_8",
-        "itm_of26_src_a7_9",
-        "itm_of26_src_a7_10",
-        "itm_of26_src_a8_1",
-        "itm_of26_src_a8_2",
-        "itm_of26_src_a8_3",
-        "itm_of26_src_a8_4",
-        "itm_of26_src_a8_5",
-        "itm_of26_src_a8_6",
-        "itm_of26_src_a8_7",
-        "itm_of26_src_a8_8",
-        "itm_of26_src_a8_9",
-        "itm_of26_src_a8_10",
-        "itm_of26_src_a8_11",
-        "itm_of26_src_a8_12",
-        "itm_of26_src_a8_13",
-        "itm_of26_src_a8_14",
-        "itm_of26_src_a8_15",
-        "itm_of26_src_a8_16",
-        "itm_of26_src_a8_17",
-        "itm_of26_src_a8_18",
-        "itm_of26_src_a8_19",
-        "itm_of26_src_a8_20",
-        "itm_of26_src_a8_21",
-        "itm_of26_src_a8_22",
-        "itm_of26_src_a8_23",
-        "itm_of26_src_a8_24",
-        "itm_of26_src_a8_25"
-      ]
-    },
-    {
-      "id": "26.2",
-      "heading": "Grammaire",
-      "topicsFr": "Pronoms relatifs qui, que, dont, où; ce qui, ce que, ce dont",
-      "kind": "grammar",
-      "covered": true,
-      "itemCount": 74,
-      "linkedItems": [
-        "itm_of26_src_a10_1",
-        "itm_of26_src_a10_2",
-        "itm_of26_src_a10_3",
-        "itm_of26_src_a10_4",
-        "itm_of26_src_a10_5",
-        "itm_of26_src_a10_6",
-        "itm_of26_src_a10_7",
-        "itm_of26_src_a10_8",
-        "itm_of26_src_a10_9",
-        "itm_of26_src_a10_10",
-        "itm_of26_src_a11_1",
-        "itm_of26_src_a11_2",
-        "itm_of26_src_a11_3",
-        "itm_of26_src_a11_4",
-        "itm_of26_src_a11_5",
-        "itm_of26_src_a11_6",
-        "itm_of26_src_a11_7",
-        "itm_of26_src_a11_8",
-        "itm_of26_src_a11_9",
-        "itm_of26_src_a11_10",
-        "itm_of26_src_a11_11",
-        "itm_of26_src_a11_12",
-        "itm_of26_src_a12_1",
-        "itm_of26_src_a12_2",
-        "itm_of26_src_a12_3",
-        "itm_of26_src_a12_4",
-        "itm_of26_src_a12_5",
-        "itm_of26_src_a12_6",
-        "itm_of26_src_a12_7",
-        "itm_of26_src_a12_8",
-        "itm_of26_src_a12_9",
-        "itm_of26_src_a12_10",
-        "itm_of26_src_a12_11",
-        "itm_of26_src_a13_1",
-        "itm_of26_src_a13_2",
-        "itm_of26_src_a13_3",
-        "itm_of26_src_a13_4",
-        "itm_of26_src_a13_5",
-        "itm_of26_src_a13_6",
-        "itm_of26_src_a13_7",
-        "itm_of26_src_a13_8",
-        "itm_of26_src_a13_9",
-        "itm_of26_src_a13_10",
-        "itm_of26_src_a13_11",
-        "itm_of26_src_a13_12",
-        "itm_of26_src_a13_13",
-        "itm_of26_src_a13_14",
-        "itm_of26_src_a13_15",
-        "itm_of26_src_a15_2",
-        "itm_of26_src_a15_3",
-        "itm_of26_src_a15_4",
-        "itm_of26_src_a15_5",
-        "itm_of26_src_a15_6",
-        "itm_of26_src_a15_7",
-        "itm_of26_src_a15_8",
-        "itm_of26_src_a15_9",
-        "itm_of26_src_a15_10",
-        "itm_of26_src_a15_11",
-        "itm_of26_src_a15_12",
-        "itm_of26_src_a16_1",
-        "itm_of26_src_a16_2",
-        "itm_of26_src_a16_3",
-        "itm_of26_src_a16_4",
-        "itm_of26_src_a16_5",
-        "itm_of26_src_a16_6",
-        "itm_of26_src_a16_7",
-        "itm_of26_src_a16_8",
-        "itm_of26_src_a16_9",
-        "itm_of26_src_a16_10",
-        "itm_of26_src_a16_11",
-        "itm_of26_src_a16_12",
-        "itm_of26_src_a16_13",
-        "itm_of26_src_a16_14",
-        "itm_of26_src_a16_15"
+        "itm_of26_src_a4_8"
       ]
     },
     {
       "id": "26.3",
       "heading": "Fonctions",
-      "topicsFr": "Comprendre les renseignements sur les déplacements et la diffusion de l’information",
+      "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 34,
-      "linkedItems": [
-        "itm_of26_src_a17_1",
-        "itm_of26_src_a17_2",
-        "itm_of26_src_a17_3",
-        "itm_of26_src_a17_4",
-        "itm_of26_src_a17_5",
-        "itm_of26_src_a17_6",
-        "itm_of26_src_a17_7",
-        "itm_of26_src_a17_8",
-        "itm_of26_src_a17_9",
-        "itm_of26_src_a17_10",
-        "itm_of26_src_a17_11",
-        "itm_of26_src_a17_12",
-        "itm_of26_src_a18_1",
-        "itm_of26_src_a18_2",
-        "itm_of26_src_a18_3",
-        "itm_of26_src_a18_4",
-        "itm_of26_src_a18_5",
-        "itm_of26_src_a18_6",
-        "itm_of26_src_a18_7",
-        "itm_of26_src_a18_8",
-        "itm_of26_src_a18_9",
-        "itm_of26_src_a18_10",
-        "itm_of26_src_a18_11",
-        "itm_of26_src_a18_12",
-        "itm_of26_src_a19_1",
-        "itm_of26_src_a19_2",
-        "itm_of26_src_a19_3",
-        "itm_of26_src_a19_4",
-        "itm_of26_src_a19_5",
-        "itm_of26_src_a19_6",
-        "itm_of26_src_a19_7",
-        "itm_of26_src_a19_8",
-        "itm_of26_src_a19_9",
-        "itm_of26_src_a19_10"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "26.4",
       "heading": "Fonctions",
-      "topicsFr": "Demander et fournir des renseignements sur les déplacements",
+      "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 22,
-      "linkedItems": [
-        "itm_of26_src_a17_1",
-        "itm_of26_src_a17_2",
-        "itm_of26_src_a17_3",
-        "itm_of26_src_a17_4",
-        "itm_of26_src_a17_5",
-        "itm_of26_src_a17_6",
-        "itm_of26_src_a17_7",
-        "itm_of26_src_a17_8",
-        "itm_of26_src_a17_9",
-        "itm_of26_src_a17_10",
-        "itm_of26_src_a17_11",
-        "itm_of26_src_a17_12",
-        "itm_of26_src_a19_1",
-        "itm_of26_src_a19_2",
-        "itm_of26_src_a19_3",
-        "itm_of26_src_a19_4",
-        "itm_of26_src_a19_5",
-        "itm_of26_src_a19_6",
-        "itm_of26_src_a19_7",
-        "itm_of26_src_a19_8",
-        "itm_of26_src_a19_9",
-        "itm_of26_src_a19_10"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     }
   ],
   "vocabulary": {
@@ -305,8 +128,7 @@
         "itm_of26_src_a4_6",
         "itm_of26_src_a4_7",
         "itm_of26_src_a4_8"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 5,
@@ -325,8 +147,7 @@
         "itm_of26_src_a5_8",
         "itm_of26_src_a5_9",
         "itm_of26_src_a5_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 6,
@@ -353,8 +174,7 @@
         "itm_of26_src_a7_8",
         "itm_of26_src_a7_9",
         "itm_of26_src_a7_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 8,
@@ -388,8 +208,7 @@
         "itm_of26_src_a8_23",
         "itm_of26_src_a8_24",
         "itm_of26_src_a8_25"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 9,
@@ -416,8 +235,7 @@
         "itm_of26_src_a10_8",
         "itm_of26_src_a10_9",
         "itm_of26_src_a10_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 11,
@@ -438,8 +256,7 @@
         "itm_of26_src_a11_10",
         "itm_of26_src_a11_11",
         "itm_of26_src_a11_12"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 12,
@@ -459,8 +276,7 @@
         "itm_of26_src_a12_9",
         "itm_of26_src_a12_10",
         "itm_of26_src_a12_11"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 13,
@@ -484,8 +300,7 @@
         "itm_of26_src_a13_13",
         "itm_of26_src_a13_14",
         "itm_of26_src_a13_15"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 14,
@@ -513,8 +328,7 @@
         "itm_of26_src_a15_10",
         "itm_of26_src_a15_11",
         "itm_of26_src_a15_12"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 16,
@@ -538,8 +352,7 @@
         "itm_of26_src_a16_13",
         "itm_of26_src_a16_14",
         "itm_of26_src_a16_15"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 17,
@@ -560,8 +373,7 @@
         "itm_of26_src_a17_10",
         "itm_of26_src_a17_11",
         "itm_of26_src_a17_12"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 18,
@@ -582,8 +394,7 @@
         "itm_of26_src_a18_10",
         "itm_of26_src_a18_11",
         "itm_of26_src_a18_12"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 19,
@@ -602,8 +413,7 @@
         "itm_of26_src_a19_8",
         "itm_of26_src_a19_9",
         "itm_of26_src_a19_10"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 20,
@@ -648,11 +458,11 @@
   ],
   "validation": {
     "strictComplete": false,
-    "convertibleComplete": true,
+    "convertibleComplete": false,
     "totalElements": 31,
-    "coveredElements": 18,
+    "coveredElements": 17,
     "convertible": {
-      "covered": 18,
+      "covered": 17,
       "total": 18
     },
     "actionableGaps": {
@@ -665,7 +475,10 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "26.3 Fonctions (function)",
+        "26.4 Fonctions (function)"
+      ],
       "activities": [
         1,
         2,

@@ -65,8 +65,8 @@ document, **taught vocabulary** (its section of the PFL2 Lexique) and **taught g
 **Traceability:** every item carries a `trace` block — `sourceDocument`, `trainingObjective`,
 `level`, `page` (where available), `topic`, `vocabularySet`, `grammarConcepts`.
 
-**Current coverage:** ~2,740 source-traceable items; **39/40 objectives have questions**
-(only OF35 has none — its source is oral/open-ended with a tiny Lexique).
+**Current coverage:** **all 40 objectives have questions** — source-extracted items plus
+authored concept questions (`generated: true`) where the source was oral/open-ended.
 
 > The standalone **conjugation tool** (`/tools/conjugation`) is a generic practice utility
 > kept by request; it is separate from the per-OF banks, which remain strictly source-bound.

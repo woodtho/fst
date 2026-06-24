@@ -17,7 +17,7 @@
       "topicsFr": "Indicateurs de requête et d’obtention",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 59,
       "linkedItems": [
         "itm_of15_voc_fe_1",
         "itm_of15_voc_fe_2",
@@ -35,7 +35,7 @@
       "topicsFr": "Formation et usage du conditionnel présent · Discours indirect avec de",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 16,
+      "itemCount": 24,
       "linkedItems": [
         "itm_of15_src_a8_patch_1",
         "itm_of15_src_a8_patch_2",
@@ -44,15 +44,7 @@
         "itm_of15_src_a8_patch_5",
         "itm_of15_src_a8_patch_6",
         "itm_of15_src_a8_patch_7",
-        "itm_of15_src_a8_patch_8",
-        "itm_of15_src_a8_patch_9",
-        "itm_of15_src_a8_patch_10",
-        "itm_of15_src_a8_patch_11",
-        "itm_of15_src_a8_patch_12",
-        "itm_of15_src_a8_patch_13",
-        "itm_of15_src_a8_patch_14",
-        "itm_of15_src_a8_patch_15",
-        "itm_of15_src_a8_patch_16"
+        "itm_of15_src_a8_patch_8"
       ]
     },
     {
@@ -60,8 +52,8 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre des requêtes",
       "kind": "function",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -69,8 +61,8 @@
       "heading": "Fonctions",
       "topicsFr": "Formuler des requêtes",
       "kind": "function",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -78,8 +70,8 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre de l’information et des demandes d’information relatives à une requête ou à l’obtention de quelque chose",
       "kind": "function",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -87,8 +79,8 @@
       "heading": "Fonctions",
       "topicsFr": "S’informer et informer d’une requête ou de l’obtention de quelque chose",
       "kind": "function",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -96,7 +88,7 @@
       "heading": "Phonétique",
       "topicsFr": "Sons, rythmes et intonations du français",
       "kind": "phonetics",
-      "covered": true,
+      "covered": false,
       "itemCount": 0,
       "linkedItems": []
     },
@@ -105,8 +97,8 @@
       "heading": "Compréhension de l’oral",
       "topicsFr": "Comprendre globalement et en détail un document enregistré",
       "kind": "oral",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     },
     {
@@ -114,8 +106,8 @@
       "heading": "Stratégies de communication",
       "topicsFr": "Atténuer une requête et faire des requêtes implicites",
       "kind": "strategy",
-      "covered": true,
-      "itemCount": 24,
+      "covered": false,
+      "itemCount": 0,
       "linkedItems": []
     }
   ],
@@ -128,7 +120,7 @@
   },
   "examples": {
     "sourceMarkers": 5,
-    "derivedItems": 5,
+    "derivedItems": 24,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -164,8 +156,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 4,
@@ -173,8 +164,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 5,
@@ -182,8 +172,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 6,
@@ -191,8 +180,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 7,
@@ -225,8 +213,7 @@
         "itm_of15_src_a8_patch_14",
         "itm_of15_src_a8_patch_15",
         "itm_of15_src_a8_patch_16"
-      ],
-      "covered": true
+      ]
     },
     {
       "activity": 9,
@@ -242,8 +229,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 11,
@@ -259,8 +245,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 13,
@@ -276,8 +261,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 15,
@@ -285,8 +269,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 16,
@@ -294,8 +277,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 17,
@@ -311,8 +293,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 19,
@@ -328,8 +309,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 21,
@@ -408,9 +388,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 41,
-    "coveredElements": 16,
+    "coveredElements": 5,
     "convertible": {
-      "covered": 16,
+      "covered": 5,
       "total": 17
     },
     "actionableGaps": {
@@ -435,7 +415,15 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "15.3 Fonctions (function)",
+        "15.4 Fonctions (function)",
+        "15.5 Fonctions (function)",
+        "15.6 Fonctions (function)",
+        "15.7 Phonétique (phonetics)",
+        "15.8 Compréhension de l’oral (oral)",
+        "15.9 Stratégies de communication (strategy)"
+      ],
       "activities": [
         1,
         2,

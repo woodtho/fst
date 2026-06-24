@@ -17,7 +17,7 @@
       "topicsFr": "Indicateurs de connaissance et d’ignorance",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 63,
       "linkedItems": [
         "itm_of39_voc_fe_1",
         "itm_of39_voc_fe_2",
@@ -35,7 +35,7 @@
       "topicsFr": "Indicateurs de certitude et de doute",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 63,
       "linkedItems": [
         "itm_of39_voc_fe_1",
         "itm_of39_voc_fe_2",
@@ -53,7 +53,7 @@
       "topicsFr": "Indicateurs de persistance et d’abandon, de stabilité et de changement",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 63,
       "linkedItems": [
         "itm_of39_voc_fe_1",
         "itm_of39_voc_fe_2",
@@ -71,7 +71,7 @@
       "topicsFr": "Subjonctif ou indicatif après les verbes ou expressions d’opinion",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 31,
       "linkedItems": [
         "itm_of39_src_a16_1",
         "itm_of39_src_a16_3",
@@ -98,7 +98,7 @@
       "topicsFr": "Formation du subjonctif passé et de l’infinitif passé · Subjonctif ou infinitif après des expressions de sentiments, d’attitudes",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 8,
+      "itemCount": 31,
       "linkedItems": [
         "itm_of39_src_a16_1",
         "itm_of39_src_a16_3",
@@ -138,7 +138,7 @@
   },
   "examples": {
     "sourceMarkers": 8,
-    "derivedItems": 66,
+    "derivedItems": 62,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -398,8 +398,7 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": [],
-      "covered": false
+      "linkedItems": []
     },
     {
       "activity": 29,
@@ -633,9 +632,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 66,
-    "coveredElements": 12,
+    "coveredElements": 11,
     "convertible": {
-      "covered": 12,
+      "covered": 11,
       "total": 34
     },
     "actionableGaps": {

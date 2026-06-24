@@ -208,11 +208,11 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": true,
-    "coveredElements": 18,
+    "convertibleComplete": false,
+    "coveredElements": 17,
     "totalElements": 31,
     "convertible": {
-      "covered": 18,
+      "covered": 17,
       "total": 18
     },
     "actionableGaps": {
@@ -225,7 +225,10 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "26.3 Fonctions (function)",
+        "26.4 Fonctions (function)"
+      ],
       "activities": [
         1,
         2,

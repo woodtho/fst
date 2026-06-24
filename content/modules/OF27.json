@@ -182,11 +182,11 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": true,
-    "coveredElements": 19,
+    "convertibleComplete": false,
+    "coveredElements": 18,
     "totalElements": 29,
     "convertible": {
-      "covered": 19,
+      "covered": 18,
       "total": 19
     },
     "actionableGaps": {
@@ -199,7 +199,11 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "27.2 Fonctions (function)",
+        "27.3 Fonctions (function)",
+        "27.4 Stratégies de communication (strategy)"
+      ],
       "activities": [
         2,
         13,

@@ -17,16 +17,16 @@
       "topicsFr": "Indicateurs de possibilité et d’impossibilité",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 28,
+      "itemCount": 85,
       "linkedItems": [
-        "itm_of32_voc_fe_1",
-        "itm_of32_voc_fe_2",
-        "itm_of32_voc_fe_3",
-        "itm_of32_voc_fe_4",
-        "itm_of32_voc_fe_5",
-        "itm_of32_voc_fe_6",
-        "itm_of32_voc_fe_7",
-        "itm_of32_voc_fe_8"
+        "itm_of32_src_a4_1",
+        "itm_of32_src_a4_2",
+        "itm_of32_src_a4_3",
+        "itm_of32_src_a4_4",
+        "itm_of32_src_a4_5",
+        "itm_of32_src_a4_6",
+        "itm_of32_src_a4_7",
+        "itm_of32_src_a6_1"
       ]
     },
     {
@@ -35,16 +35,16 @@
       "topicsFr": "Indicateurs de condition",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 28,
+      "itemCount": 85,
       "linkedItems": [
-        "itm_of32_voc_fe_1",
-        "itm_of32_voc_fe_2",
-        "itm_of32_voc_fe_3",
-        "itm_of32_voc_fe_4",
-        "itm_of32_voc_fe_5",
-        "itm_of32_voc_fe_6",
-        "itm_of32_voc_fe_7",
-        "itm_of32_voc_fe_8"
+        "itm_of32_src_a4_1",
+        "itm_of32_src_a4_2",
+        "itm_of32_src_a4_3",
+        "itm_of32_src_a4_4",
+        "itm_of32_src_a4_5",
+        "itm_of32_src_a4_6",
+        "itm_of32_src_a4_7",
+        "itm_of32_src_a6_1"
       ]
     },
     {
@@ -53,16 +53,16 @@
       "topicsFr": "Suffixes -able et –ible · Préfixes in-, im- et ir-",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 28,
+      "itemCount": 85,
       "linkedItems": [
-        "itm_of32_voc_fe_1",
-        "itm_of32_voc_fe_2",
-        "itm_of32_voc_fe_3",
-        "itm_of32_voc_fe_4",
-        "itm_of32_voc_fe_5",
-        "itm_of32_voc_fe_6",
-        "itm_of32_voc_fe_7",
-        "itm_of32_voc_fe_8"
+        "itm_of32_src_a4_1",
+        "itm_of32_src_a4_2",
+        "itm_of32_src_a4_3",
+        "itm_of32_src_a4_4",
+        "itm_of32_src_a4_5",
+        "itm_of32_src_a4_6",
+        "itm_of32_src_a4_7",
+        "itm_of32_src_a6_1"
       ]
     },
     {
@@ -71,10 +71,16 @@
       "topicsFr": "Subjonctif ou infinitif avec de après des expressions de possibilité ou d’impossibilité",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 82,
       "linkedItems": [
-        "itm_of32_src_a17_7",
-        "itm_of32_src_a25_3"
+        "itm_of32_src_a11_1",
+        "itm_of32_src_a11_2",
+        "itm_of32_src_a11_3",
+        "itm_of32_src_a11_4",
+        "itm_of32_src_a11_5",
+        "itm_of32_src_a11_6",
+        "itm_of32_src_a11_7",
+        "itm_of32_src_a11_8"
       ]
     },
     {
@@ -83,10 +89,16 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 82,
       "linkedItems": [
-        "itm_of32_src_a17_7",
-        "itm_of32_src_a25_3"
+        "itm_of32_src_a11_1",
+        "itm_of32_src_a11_2",
+        "itm_of32_src_a11_3",
+        "itm_of32_src_a11_4",
+        "itm_of32_src_a11_5",
+        "itm_of32_src_a11_6",
+        "itm_of32_src_a11_7",
+        "itm_of32_src_a11_8"
       ]
     },
     {
@@ -95,10 +107,16 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 2,
+      "itemCount": 82,
       "linkedItems": [
-        "itm_of32_src_a17_7",
-        "itm_of32_src_a25_3"
+        "itm_of32_src_a11_1",
+        "itm_of32_src_a11_2",
+        "itm_of32_src_a11_3",
+        "itm_of32_src_a11_4",
+        "itm_of32_src_a11_5",
+        "itm_of32_src_a11_6",
+        "itm_of32_src_a11_7",
+        "itm_of32_src_a11_8"
       ]
     },
     {
@@ -141,13 +159,13 @@
   "vocabulary": {
     "source": "Lexique OF32 (SC102-2/1-2-2005F)",
     "entries": 31,
-    "questions": 28,
+    "questions": 85,
     "convertible": true,
     "covered": true
   },
   "examples": {
     "sourceMarkers": 4,
-    "derivedItems": 4,
+    "derivedItems": 82,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -293,11 +311,9 @@
       "activity": 17,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of32_src_a17_7"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 18,
@@ -359,11 +375,9 @@
       "activity": 25,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of32_src_a25_3"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 26,
@@ -482,9 +496,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 52,
-    "coveredElements": 10,
+    "coveredElements": 8,
     "convertible": {
-      "covered": 10,
+      "covered": 8,
       "total": 27
     },
     "actionableGaps": {
@@ -497,12 +511,14 @@
         9,
         11,
         15,
+        17,
         18,
         19,
         20,
         21,
         22,
         24,
+        25,
         26,
         27,
         29

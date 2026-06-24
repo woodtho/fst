@@ -17,52 +17,8 @@
       "topicsFr": "Indicateurs de temps (durée, fréquence, limite, différence)",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 56,
+      "itemCount": 72,
       "linkedItems": [
-        "itm_of22_src_a6_new_2",
-        "itm_of22_src_a6_new_3",
-        "itm_of22_src_a6_new_4",
-        "itm_of22_src_a6_new_5",
-        "itm_of22_src_a6_new_6",
-        "itm_of22_src_a6_new_7",
-        "itm_of22_src_a6_new_8",
-        "itm_of22_src_a6_new_9",
-        "itm_of22_src_a6_new_10",
-        "itm_of22_src_a17_new_1",
-        "itm_of22_src_a17_new_2",
-        "itm_of22_src_a17_new_3",
-        "itm_of22_src_a17_new_4",
-        "itm_of22_src_a17_new_5",
-        "itm_of22_src_a17_new_6",
-        "itm_of22_src_a17_new_7",
-        "itm_of22_src_a17_new_8",
-        "itm_of22_src_a19_new_1",
-        "itm_of22_src_a19_new_2",
-        "itm_of22_src_a19_new_3",
-        "itm_of22_src_a19_new_4",
-        "itm_of22_src_a19_new_5",
-        "itm_of22_src_a19_new_6",
-        "itm_of22_src_a19_new_7",
-        "itm_of22_src_a19_new_8",
-        "itm_of22_src_a19_new_9",
-        "itm_of22_src_a19_new_10",
-        "itm_of22_src_a33_new_2",
-        "itm_of22_src_a33_new_3",
-        "itm_of22_src_a33_new_4",
-        "itm_of22_src_a33_new_5",
-        "itm_of22_src_a33_new_6",
-        "itm_of22_src_a33_new_7",
-        "itm_of22_src_a33_new_8",
-        "itm_of22_src_a33_new_9",
-        "itm_of22_src_a33_new_10",
-        "itm_of22_src_a59_new_1",
-        "itm_of22_src_a59_new_2",
-        "itm_of22_src_a59_new_3",
-        "itm_of22_src_a59_new_4",
-        "itm_of22_src_a59_new_5",
-        "itm_of22_src_a59_new_6",
-        "itm_of22_src_a59_new_7",
-        "itm_of22_src_a59_new_8",
         "itm_of22_voc_fe_1",
         "itm_of22_voc_fe_2",
         "itm_of22_voc_fe_3",
@@ -70,11 +26,7 @@
         "itm_of22_voc_fe_5",
         "itm_of22_voc_fe_6",
         "itm_of22_voc_fe_7",
-        "itm_of22_voc_fe_8",
-        "itm_of22_voc_fe_9",
-        "itm_of22_voc_fe_10",
-        "itm_of22_voc_fe_11",
-        "itm_of22_voc_fe_12"
+        "itm_of22_voc_fe_8"
       ]
     },
     {
@@ -83,26 +35,16 @@
       "topicsFr": "Indicateurs d’exactitude et d’approximation",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 18,
+      "itemCount": 72,
       "linkedItems": [
-        "itm_of22_src_a17_new_1",
-        "itm_of22_src_a17_new_2",
-        "itm_of22_src_a17_new_3",
-        "itm_of22_src_a17_new_4",
-        "itm_of22_src_a17_new_5",
-        "itm_of22_src_a17_new_6",
-        "itm_of22_src_a17_new_7",
-        "itm_of22_src_a17_new_8",
-        "itm_of22_src_a19_new_1",
-        "itm_of22_src_a19_new_2",
-        "itm_of22_src_a19_new_3",
-        "itm_of22_src_a19_new_4",
-        "itm_of22_src_a19_new_5",
-        "itm_of22_src_a19_new_6",
-        "itm_of22_src_a19_new_7",
-        "itm_of22_src_a19_new_8",
-        "itm_of22_src_a19_new_9",
-        "itm_of22_src_a19_new_10"
+        "itm_of22_voc_fe_1",
+        "itm_of22_voc_fe_2",
+        "itm_of22_voc_fe_3",
+        "itm_of22_voc_fe_4",
+        "itm_of22_voc_fe_5",
+        "itm_of22_voc_fe_6",
+        "itm_of22_voc_fe_7",
+        "itm_of22_voc_fe_8"
       ]
     },
     {
@@ -111,30 +53,16 @@
       "topicsFr": "Indicateurs de tout et de composante",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 22,
+      "itemCount": 72,
       "linkedItems": [
-        "itm_of22_src_a28_1",
-        "itm_of22_src_a28_2",
-        "itm_of22_src_a28_3",
-        "itm_of22_src_a28_5",
-        "itm_of22_src_a28_6",
-        "itm_of22_src_a28_7",
-        "itm_of22_src_a28_8",
-        "itm_of22_src_a28_9",
-        "itm_of22_src_a28_11",
-        "itm_of22_src_a28_12",
-        "itm_of22_src_a28_14",
-        "itm_of22_src_a29_2",
-        "itm_of22_src_a25_new_1",
-        "itm_of22_src_a25_new_2",
-        "itm_of22_src_a25_new_3",
-        "itm_of22_src_a25_new_4",
-        "itm_of22_src_a25_new_5",
-        "itm_of22_src_a25_new_6",
-        "itm_of22_src_a25_new_7",
-        "itm_of22_src_a25_new_8",
-        "itm_of22_src_a25_new_9",
-        "itm_of22_src_a25_new_10"
+        "itm_of22_voc_fe_1",
+        "itm_of22_voc_fe_2",
+        "itm_of22_voc_fe_3",
+        "itm_of22_voc_fe_4",
+        "itm_of22_voc_fe_5",
+        "itm_of22_voc_fe_6",
+        "itm_of22_voc_fe_7",
+        "itm_of22_voc_fe_8"
       ]
     },
     {
@@ -143,7 +71,7 @@
       "topicsFr": "Pronom et adjectif indéfinis tout",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 22,
+      "itemCount": 103,
       "linkedItems": [
         "itm_of22_src_a28_1",
         "itm_of22_src_a28_2",
@@ -152,21 +80,7 @@
         "itm_of22_src_a28_6",
         "itm_of22_src_a28_7",
         "itm_of22_src_a28_8",
-        "itm_of22_src_a28_9",
-        "itm_of22_src_a28_11",
-        "itm_of22_src_a28_12",
-        "itm_of22_src_a28_14",
-        "itm_of22_src_a29_2",
-        "itm_of22_src_a25_new_1",
-        "itm_of22_src_a25_new_2",
-        "itm_of22_src_a25_new_3",
-        "itm_of22_src_a25_new_4",
-        "itm_of22_src_a25_new_5",
-        "itm_of22_src_a25_new_6",
-        "itm_of22_src_a25_new_7",
-        "itm_of22_src_a25_new_8",
-        "itm_of22_src_a25_new_9",
-        "itm_of22_src_a25_new_10"
+        "itm_of22_src_a28_9"
       ]
     },
     {
@@ -175,17 +89,16 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 9,
+      "itemCount": 103,
       "linkedItems": [
-        "itm_of22_src_a33_new_2",
-        "itm_of22_src_a33_new_3",
-        "itm_of22_src_a33_new_4",
-        "itm_of22_src_a33_new_5",
-        "itm_of22_src_a33_new_6",
-        "itm_of22_src_a33_new_7",
-        "itm_of22_src_a33_new_8",
-        "itm_of22_src_a33_new_9",
-        "itm_of22_src_a33_new_10"
+        "itm_of22_src_a28_1",
+        "itm_of22_src_a28_2",
+        "itm_of22_src_a28_3",
+        "itm_of22_src_a28_5",
+        "itm_of22_src_a28_6",
+        "itm_of22_src_a28_7",
+        "itm_of22_src_a28_8",
+        "itm_of22_src_a28_9"
       ]
     },
     {
@@ -194,34 +107,16 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 26,
+      "itemCount": 103,
       "linkedItems": [
-        "itm_of22_src_a39_2",
-        "itm_of22_src_a39_3",
-        "itm_of22_src_a39_4",
-        "itm_of22_src_a39_5",
-        "itm_of22_src_a39_6",
-        "itm_of22_src_a39_7",
-        "itm_of22_src_a39_8",
-        "itm_of22_src_a39_9",
-        "itm_of22_src_a39_10",
-        "itm_of22_src_a38_new_2",
-        "itm_of22_src_a38_new_3",
-        "itm_of22_src_a38_new_4",
-        "itm_of22_src_a38_new_5",
-        "itm_of22_src_a38_new_6",
-        "itm_of22_src_a38_new_7",
-        "itm_of22_src_a38_new_8",
-        "itm_of22_src_a38_new_9",
-        "itm_of22_src_a38_new_10",
-        "itm_of22_src_a40_new_1",
-        "itm_of22_src_a40_new_2",
-        "itm_of22_src_a40_new_3",
-        "itm_of22_src_a40_new_4",
-        "itm_of22_src_a40_new_5",
-        "itm_of22_src_a40_new_6",
-        "itm_of22_src_a40_new_7",
-        "itm_of22_src_a40_new_8"
+        "itm_of22_src_a28_1",
+        "itm_of22_src_a28_2",
+        "itm_of22_src_a28_3",
+        "itm_of22_src_a28_5",
+        "itm_of22_src_a28_6",
+        "itm_of22_src_a28_7",
+        "itm_of22_src_a28_8",
+        "itm_of22_src_a28_9"
       ]
     },
     {
@@ -229,87 +124,27 @@
       "heading": "Fonctions",
       "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 19,
-      "linkedItems": [
-        "itm_of22_src_a52_new_1",
-        "itm_of22_src_a52_new_2",
-        "itm_of22_src_a52_new_3",
-        "itm_of22_src_a52_new_4",
-        "itm_of22_src_a52_new_5",
-        "itm_of22_src_a54_new_1",
-        "itm_of22_src_a54_new_2",
-        "itm_of22_src_a56_new_1",
-        "itm_of22_src_a56_new_2",
-        "itm_of22_src_a56_new_3",
-        "itm_of22_src_a56_new_4",
-        "itm_of22_src_a59_new_1",
-        "itm_of22_src_a59_new_2",
-        "itm_of22_src_a59_new_3",
-        "itm_of22_src_a59_new_4",
-        "itm_of22_src_a59_new_5",
-        "itm_of22_src_a59_new_6",
-        "itm_of22_src_a59_new_7",
-        "itm_of22_src_a59_new_8"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "22.8",
       "heading": "Fonctions",
       "topicsFr": "",
       "kind": "function",
-      "covered": true,
-      "itemCount": 19,
-      "linkedItems": [
-        "itm_of22_src_a52_new_1",
-        "itm_of22_src_a52_new_2",
-        "itm_of22_src_a52_new_3",
-        "itm_of22_src_a52_new_4",
-        "itm_of22_src_a52_new_5",
-        "itm_of22_src_a54_new_1",
-        "itm_of22_src_a54_new_2",
-        "itm_of22_src_a56_new_1",
-        "itm_of22_src_a56_new_2",
-        "itm_of22_src_a56_new_3",
-        "itm_of22_src_a56_new_4",
-        "itm_of22_src_a59_new_1",
-        "itm_of22_src_a59_new_2",
-        "itm_of22_src_a59_new_3",
-        "itm_of22_src_a59_new_4",
-        "itm_of22_src_a59_new_5",
-        "itm_of22_src_a59_new_6",
-        "itm_of22_src_a59_new_7",
-        "itm_of22_src_a59_new_8"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "id": "22.9",
       "heading": "Langue écrite",
       "topicsFr": "",
       "kind": "writing",
-      "covered": true,
-      "itemCount": 19,
-      "linkedItems": [
-        "itm_of22_src_a52_new_1",
-        "itm_of22_src_a52_new_2",
-        "itm_of22_src_a52_new_3",
-        "itm_of22_src_a52_new_4",
-        "itm_of22_src_a52_new_5",
-        "itm_of22_src_a54_new_1",
-        "itm_of22_src_a54_new_2",
-        "itm_of22_src_a56_new_1",
-        "itm_of22_src_a56_new_2",
-        "itm_of22_src_a56_new_3",
-        "itm_of22_src_a56_new_4",
-        "itm_of22_src_a59_new_1",
-        "itm_of22_src_a59_new_2",
-        "itm_of22_src_a59_new_3",
-        "itm_of22_src_a59_new_4",
-        "itm_of22_src_a59_new_5",
-        "itm_of22_src_a59_new_6",
-        "itm_of22_src_a59_new_7",
-        "itm_of22_src_a59_new_8"
-      ]
+      "covered": false,
+      "itemCount": 0,
+      "linkedItems": []
     }
   ],
   "vocabulary": {
@@ -321,7 +156,7 @@
   },
   "examples": {
     "sourceMarkers": 11,
-    "derivedItems": 40,
+    "derivedItems": 131,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -379,9 +214,19 @@
       "activity": 6,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of22_src_a6_new_2",
+        "itm_of22_src_a6_new_3",
+        "itm_of22_src_a6_new_4",
+        "itm_of22_src_a6_new_5",
+        "itm_of22_src_a6_new_6",
+        "itm_of22_src_a6_new_7",
+        "itm_of22_src_a6_new_8",
+        "itm_of22_src_a6_new_9",
+        "itm_of22_src_a6_new_10"
+      ]
     },
     {
       "activity": 7,
@@ -467,9 +312,18 @@
       "activity": 17,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of22_src_a17_new_1",
+        "itm_of22_src_a17_new_2",
+        "itm_of22_src_a17_new_3",
+        "itm_of22_src_a17_new_4",
+        "itm_of22_src_a17_new_5",
+        "itm_of22_src_a17_new_6",
+        "itm_of22_src_a17_new_7",
+        "itm_of22_src_a17_new_8"
+      ]
     },
     {
       "activity": 18,
@@ -483,9 +337,20 @@
       "activity": 19,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of22_src_a19_new_1",
+        "itm_of22_src_a19_new_2",
+        "itm_of22_src_a19_new_3",
+        "itm_of22_src_a19_new_4",
+        "itm_of22_src_a19_new_5",
+        "itm_of22_src_a19_new_6",
+        "itm_of22_src_a19_new_7",
+        "itm_of22_src_a19_new_8",
+        "itm_of22_src_a19_new_9",
+        "itm_of22_src_a19_new_10"
+      ]
     },
     {
       "activity": 20,
@@ -515,14 +380,9 @@
       "activity": 23,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 4,
-      "linkedItems": [
-        "itm_of22_src_a23_1",
-        "itm_of22_src_a23_3",
-        "itm_of22_src_a23_5",
-        "itm_of22_src_a23_9"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": []
     },
     {
       "activity": 24,
@@ -536,9 +396,20 @@
       "activity": 25,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of22_src_a25_new_1",
+        "itm_of22_src_a25_new_2",
+        "itm_of22_src_a25_new_3",
+        "itm_of22_src_a25_new_4",
+        "itm_of22_src_a25_new_5",
+        "itm_of22_src_a25_new_6",
+        "itm_of22_src_a25_new_7",
+        "itm_of22_src_a25_new_8",
+        "itm_of22_src_a25_new_9",
+        "itm_of22_src_a25_new_10"
+      ]
     },
     {
       "activity": 26,
@@ -614,9 +485,19 @@
       "activity": 33,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of22_src_a33_new_2",
+        "itm_of22_src_a33_new_3",
+        "itm_of22_src_a33_new_4",
+        "itm_of22_src_a33_new_5",
+        "itm_of22_src_a33_new_6",
+        "itm_of22_src_a33_new_7",
+        "itm_of22_src_a33_new_8",
+        "itm_of22_src_a33_new_9",
+        "itm_of22_src_a33_new_10"
+      ]
     },
     {
       "activity": 34,
@@ -654,9 +535,19 @@
       "activity": 38,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of22_src_a38_new_2",
+        "itm_of22_src_a38_new_3",
+        "itm_of22_src_a38_new_4",
+        "itm_of22_src_a38_new_5",
+        "itm_of22_src_a38_new_6",
+        "itm_of22_src_a38_new_7",
+        "itm_of22_src_a38_new_8",
+        "itm_of22_src_a38_new_9",
+        "itm_of22_src_a38_new_10"
+      ]
     },
     {
       "activity": 39,
@@ -680,9 +571,18 @@
       "activity": 40,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of22_src_a40_new_1",
+        "itm_of22_src_a40_new_2",
+        "itm_of22_src_a40_new_3",
+        "itm_of22_src_a40_new_4",
+        "itm_of22_src_a40_new_5",
+        "itm_of22_src_a40_new_6",
+        "itm_of22_src_a40_new_7",
+        "itm_of22_src_a40_new_8"
+      ]
     },
     {
       "activity": 41,
@@ -776,9 +676,15 @@
       "activity": 52,
       "hasAnswerKey": false,
       "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of22_src_a52_new_1",
+        "itm_of22_src_a52_new_2",
+        "itm_of22_src_a52_new_3",
+        "itm_of22_src_a52_new_4",
+        "itm_of22_src_a52_new_5"
+      ]
     },
     {
       "activity": 53,
@@ -792,9 +698,12 @@
       "activity": 54,
       "hasAnswerKey": false,
       "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of22_src_a54_new_1",
+        "itm_of22_src_a54_new_2"
+      ]
     },
     {
       "activity": 55,
@@ -808,9 +717,14 @@
       "activity": 56,
       "hasAnswerKey": false,
       "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of22_src_a56_new_1",
+        "itm_of22_src_a56_new_2",
+        "itm_of22_src_a56_new_3",
+        "itm_of22_src_a56_new_4"
+      ]
     },
     {
       "activity": 57,
@@ -832,9 +746,18 @@
       "activity": 59,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of22_src_a59_new_1",
+        "itm_of22_src_a59_new_2",
+        "itm_of22_src_a59_new_3",
+        "itm_of22_src_a59_new_4",
+        "itm_of22_src_a59_new_5",
+        "itm_of22_src_a59_new_6",
+        "itm_of22_src_a59_new_7",
+        "itm_of22_src_a59_new_8"
+      ]
     },
     {
       "activity": 60,
@@ -881,9 +804,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 76,
-    "coveredElements": 12,
+    "coveredElements": 22,
     "convertible": {
-      "covered": 12,
+      "covered": 19,
       "total": 46
     },
     "actionableGaps": {
@@ -893,25 +816,19 @@
         2,
         3,
         4,
-        6,
         12,
         13,
         14,
-        17,
         18,
-        19,
         21,
         22,
-        25,
+        23,
         26,
         30,
         31,
-        33,
         34,
         35,
         36,
-        38,
-        40,
         42,
         43,
         44,
@@ -920,7 +837,6 @@
         49,
         50,
         51,
-        59,
         62
       ],
       "vocabulary": [],

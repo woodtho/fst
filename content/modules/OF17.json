@@ -278,15 +278,17 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 9,
+    "coveredElements": 8,
     "totalElements": 18,
     "convertible": {
-      "covered": 9,
+      "covered": 8,
       "total": 10
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [],
+      "activities": [
+        9
+      ],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -294,7 +296,11 @@
       ]
     },
     "nonConvertible": {
-      "sections": [],
+      "sections": [
+        "17.2 Fonctions (function)",
+        "17.3 Fonctions (function)",
+        "17.4 Phonétique (phonetics)"
+      ],
       "activities": [
         1,
         2,
