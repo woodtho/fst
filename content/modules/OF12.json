@@ -13,35 +13,264 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF12 — To indicate distribution and general quantity. Source document SC102-2/12-2005F. Grammar taught: quantity. Vocabulary: the OF12 section of the PFL2 Lexique. 74 questions, all traceable to the PFL2 source (11 verbatim source activities + 63 from the OF12 Lexique).",
-        "fr": "Indiquer la répartition et une quantité non numérique. Document source SC102-2/12-2005F. Grammaire enseignée : quantity. Vocabulaire : section OF12 du Lexique PFL2."
+        "en": "OF12 teaches how to describe approximate quantity and distribution without relying on exact numbers. It covers expressions such as quelques, plusieurs, beaucoup de, peu de, la plupart de, la majorité de, un grand nombre de, chacun, chaque, par, entre, répartir, partager and diviser.",
+        "fr": "OF12 enseigne comment indiquer une quantité approximative et une répartition sans utiliser seulement des chiffres exacts. Le module couvre quelques, plusieurs, beaucoup de, peu de, la plupart de, la majorité de, un grand nombre de, chacun, chaque, par, entre, répartir, partager et diviser."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Le vocabulaire porte sur les quantités non numériques (quelques, plusieurs, beaucoup de, peu de, bon nombre de, la plupart de, certains, d'autres) et la répartition (chaque, chacun, par, entre, diviser, répartir, partager, sous-groupes, équipes).",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): quantity.",
+        "summary": "OF12 distinguishes small, large and partial quantities, then applies them to workplace distribution of people, documents, furniture, rooms and tasks.",
         "charts": [],
-        "points": []
+        "points": [
+          "Use beaucoup de, peu de, assez de, un grand nombre de and bon nombre de before a noun.",
+          "Use quelques for a small plural quantity and plusieurs for more than a few.",
+          "Use la plupart de or la majorité de for most of a group: la plupart des employés, la majorité des gestionnaires.",
+          "Use certains, certaines, quelques-uns and d'autres to refer to part of a group already mentioned.",
+          "Use pas de after negation: pas de messages, pas de voisins.",
+          "Use chaque before a singular noun: chaque employé. Use chacun alone for each person/everyone.",
+          "Use par for distribution rates: deux cloisons par personne, huit agents par projet.",
+          "Use entre with partager or répartir when work is divided among people: partager le travail entre nous.",
+          "Use en with diviser when something is separated into parts: diviser la salle en deux.",
+          "In workplace instructions, quantity and distribution often appear together: Chaque service aura son ensemble de casiers."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In beaucoup de and peu de, keep de light and attached to the following noun.",
+          "Liaison is common before vowel sounds: plusieurs employés, certains agents, un grand nombre d'employés."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Quantité générale",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Est-ce qu'il y a beaucoup de dossiers à traiter?"
+            },
+            {
+              "speaker": "B",
+              "text": "Oui, plusieurs dossiers sont urgents, mais quelques-uns peuvent attendre."
+            },
+            {
+              "speaker": "A",
+              "text": "La plupart sont complets?"
+            },
+            {
+              "speaker": "B",
+              "text": "Oui, la majorité des dossiers sont prêts."
+            }
+          ]
+        },
+        {
+          "title": "Répartition du travail",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Comment allons-nous répartir le travail?"
+            },
+            {
+              "speaker": "B",
+              "text": "Chaque équipe prendra une section."
+            },
+            {
+              "speaker": "A",
+              "text": "Combien de dossiers par équipe?"
+            },
+            {
+              "speaker": "B",
+              "text": "Plusieurs dossiers par équipe, selon les priorités."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Quantité non numérique",
+          "table": {
+            "headers": [
+              "Expression",
+              "Sens",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "quelques",
+                "petit nombre",
+                "Quelques personnes sont déjà assises."
+              ],
+              [
+                "plusieurs",
+                "nombre supérieur à quelques",
+                "Plusieurs messages sont arrivés."
+              ],
+              [
+                "beaucoup de",
+                "grande quantité",
+                "Il y a beaucoup de travail."
+              ],
+              [
+                "peu de",
+                "petite quantité",
+                "Il y a peu de voitures."
+              ],
+              [
+                "la plupart de",
+                "majorité d'un ensemble",
+                "La plupart des employés sont informés."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Parties d'un groupe",
+          "table": {
+            "headers": [
+              "Expression",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "certains / certaines",
+                "Certaines personnes ont des questions."
+              ],
+              [
+                "quelques-uns",
+                "Quelques-uns sont déjà assis."
+              ],
+              [
+                "d'autres",
+                "D'autres travailleront à Montréal."
+              ],
+              [
+                "la majorité de",
+                "La majorité des gestionnaires viendront."
+              ],
+              [
+                "une minorité de",
+                "Une minorité d'employés seront absents."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Répartition",
+          "table": {
+            "headers": [
+              "Expression",
+              "Usage",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "chaque",
+                "un élément à la fois",
+                "Chaque employé aura un téléphone."
+              ],
+              [
+                "chacun",
+                "chaque personne sans nom répété",
+                "Chacun aura une tâche."
+              ],
+              [
+                "par",
+                "ratio ou distribution",
+                "Deux cloisons par personne."
+              ],
+              [
+                "entre",
+                "partage entre personnes",
+                "Partager le travail entre nous."
+              ],
+              [
+                "en",
+                "division en parties",
+                "Diviser la salle en deux."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Courriel — aménagement des locaux",
+          "table": {
+            "headers": [
+              "Règle",
+              "Détail"
+            ],
+            "rows": [
+              [
+                "Occupation",
+                "maximum de 3 employés par pièce"
+              ],
+              [
+                "Mobilier",
+                "selon la classification du poste"
+              ],
+              [
+                "Téléphone",
+                "un appareil par employé"
+              ],
+              [
+                "Cloisons",
+                "deux cloisons amovibles par personne"
+              ],
+              [
+                "Casiers",
+                "un ensemble de casiers à courrier par service"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Tâches réparties",
+          "table": {
+            "headers": [
+              "Personne",
+              "Tâches"
+            ],
+            "rows": [
+              [
+                "Jean",
+                "préparer le rapport sur les coûts des congés d'études"
+              ],
+              [
+                "Paul",
+                "téléphoner aux régions et compiler les données par régions"
+              ],
+              [
+                "Louise",
+                "communiquer avec les employés de la RCN et prendre note des données"
+              ],
+              [
+                "Antoine",
+                "accueillir les visiteurs et faire le secrétariat"
+              ],
+              [
+                "Valérie",
+                "remplacer l'adjoint, organiser les réunions et compléter les dossiers"
+              ],
+              [
+                "Alexandre",
+                "photocopier les dossiers par catégories et les envoyer à Montréal"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "74 questions, all traceable to the PFL2 source (11 verbatim source activities + 63 from the OF12 Lexique).",
+      "coverage": "133 useful questions, all traceable to the PFL2 source (70 source activity questions + 63 from the OF12 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 11
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 45
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 74
+      "totalQuestions": 108
     },
     "consolidation": {
       "sourceBooklet": {
@@ -86,28 +315,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 5,
+    "coveredElements": 17,
     "totalElements": 34,
     "convertible": {
-      "covered": 5,
+      "covered": 17,
       "total": 18
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        1,
-        2,
-        5,
-        6,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        21,
-        23
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -115,13 +331,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "12.2 Fonctions (function)",
-        "12.3 Fonctions (function)",
-        "12.4 Fonctions (function)",
-        "12.5 Phonétique (phonetics)",
-        "12.6 Langue écrite (writing)"
-      ],
+      "sections": [],
       "activities": [
         3,
         8,

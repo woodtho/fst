@@ -13,27 +13,230 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF19 — To describe things and to express opinions. Source document SC102-2/19-2005F. Grammar taught: comparatives, adjectives. Vocabulary: the OF19 section of the PFL2 Lexique. 95 questions, all traceable to the PFL2 source (25 verbatim source activities + 70 from the OF19 Lexique).",
-        "fr": "Évaluer des choses. Document source SC102-2/19-2005F. Grammaire enseignée : comparatives, adjectives. Vocabulaire : section OF19 du Lexique PFL2."
+        "en": "OF19 teaches how to evaluate things: describe physical qualities, compare two or more things, use superlatives, ask for descriptions, give opinions, and understand weather or quality assessments.",
+        "fr": "OF19 enseigne comment évaluer des choses : décrire des qualités physiques, comparer deux ou plusieurs choses, employer les superlatifs, demander une description, donner une opinion et comprendre des évaluations de météo ou de qualité."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Vocabulaire central : couleur, dimension, forme, état, matière, éclairé, bruyant, lisible, insonorisé, acceptable, adéquat, efficace, satisfaisant, conforme, semblable, différent, supérieur, inférieur, selon moi, à mon avis, je trouve que.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): comparatives, adjectives.",
+        "summary": "OF19 focuses on adjective agreement, descriptive complements, comparatives, superlatives and opinion indicators followed by the indicative.",
         "charts": [],
-        "points": []
+        "points": [
+          "Describe a thing by colour, size, shape, condition and material: un classeur bleu, un bureau rectangulaire, une lampe en métal.",
+          "Many adjective endings change with gender and number: bruyant/bruyante, institutionnel/institutionnelle, personnel/personnelle.",
+          "Compare quality with plus/aussi/moins + adjective/adverb + que: plus pratique que, aussi utile que, moins bien que.",
+          "Compare quantity with plus de, autant de and moins de: plus de dossiers que de formulaires.",
+          "Use meilleur, mieux, pire and moins bon for common irregular comparisons.",
+          "Use superlatives with le/la/les plus or le/la/les moins: le plus urgent, la moins efficace.",
+          "Ask for description with Comment est...? À quoi ressemble...? Pourriez-vous me le décrire?",
+          "Opinion indicators include selon moi, d'après vous, à mon avis, je pense que, je crois que, je trouve que, il me semble que."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "OF19 includes syllable-count practice; pronounce groups such as très, une heure and avenue des Pins as rhythmic chunks.",
+          "Practice oral/final vowel contrasts in short words such as sec, vite and par."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Décrire Un Objet",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Pourriez-vous me décrire l'objet perdu?"
+            },
+            {
+              "speaker": "B",
+              "text": "C'est un sac à main en cuir brun avec bandoulière."
+            },
+            {
+              "speaker": "A",
+              "text": "Dans quel état est-il?"
+            },
+            {
+              "speaker": "B",
+              "text": "Il est en bon état."
+            }
+          ]
+        },
+        {
+          "title": "Donner Une Opinion",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Que penses-tu de l'exercice de feu?"
+            },
+            {
+              "speaker": "B",
+              "text": "Je trouve que c'est une bonne idée."
+            },
+            {
+              "speaker": "A",
+              "text": "À ton avis, la bibliothèque répond-elle aux besoins?"
+            },
+            {
+              "speaker": "B",
+              "text": "Selon moi, vous donnez un excellent service."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Décrire",
+          "table": {
+            "headers": [
+              "Catégorie",
+              "Exemples"
+            ],
+            "rows": [
+              [
+                "Couleur",
+                "blanc, beige, gris, rouge"
+              ],
+              [
+                "Dimension",
+                "grand, long, étroit, volumineux"
+              ],
+              [
+                "Forme",
+                "rectangulaire, plat, ovale"
+              ],
+              [
+                "État",
+                "vieux, brisé, en bon état"
+              ],
+              [
+                "Matière",
+                "en métal, en cuir, en tissu synthétique"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Comparer",
+          "table": {
+            "headers": [
+              "Type",
+              "Formule"
+            ],
+            "rows": [
+              [
+                "Supériorité",
+                "plus pratique que"
+              ],
+              [
+                "Égalité",
+                "aussi utile que"
+              ],
+              [
+                "Infériorité",
+                "moins efficace que"
+              ],
+              [
+                "Quantité",
+                "plus de dossiers que de formulaires"
+              ],
+              [
+                "Irrégulier",
+                "meilleur, mieux, pire"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Superlatifs",
+          "table": {
+            "headers": [
+              "Forme",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "le plus",
+                "le plus urgent"
+              ],
+              [
+                "la plus",
+                "la plus intéressante"
+              ],
+              [
+                "le moins",
+                "le moins clair"
+              ],
+              [
+                "la moins",
+                "la moins efficace"
+              ],
+              [
+                "irrégulier",
+                "le meilleur rendement; le pire film"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Opinions",
+          "table": {
+            "headers": [
+              "Fonction",
+              "Expressions"
+            ],
+            "rows": [
+              [
+                "point de vue",
+                "selon moi; à mon avis; d'après vous"
+              ],
+              [
+                "verbe",
+                "penser que; croire que; trouver que"
+              ],
+              [
+                "impression",
+                "avoir l'impression que; il me semble que"
+              ],
+              [
+                "accord",
+                "être d'accord; être en désaccord"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Météo Et Qualité",
+          "table": {
+            "headers": [
+              "Domaine",
+              "Mots utiles"
+            ],
+            "rows": [
+              [
+                "météo",
+                "ensoleillé, nuageux, brumeux, pluvieux, humide"
+              ],
+              [
+                "température",
+                "chaud, froid, frais, tiède"
+              ],
+              [
+                "qualité",
+                "acceptable, adéquat, conforme, efficace"
+              ],
+              [
+                "problème",
+                "illisible, inadéquat, inacceptable, insatisfaisant"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "95 questions, all traceable to the PFL2 source (25 verbatim source activities + 70 from the OF19 Lexique).",
+      "coverage": "95 useful questions, all traceable to the PFL2 source (25 source activity questions + 70 from the OF19 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
+          "title": "Activités du programme PFL2 (concept-focused)",
           "count": 25
         },
         {
@@ -87,53 +290,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 11,
+    "coveredElements": 48,
     "totalElements": 93,
     "convertible": {
-      "covered": 11,
+      "covered": 48,
       "total": 49
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        4,
-        5,
-        6,
-        7,
-        9,
-        10,
-        12,
-        14,
-        15,
-        16,
-        21,
-        24,
-        27,
-        28,
-        29,
-        31,
-        32,
-        33,
-        34,
-        43,
-        44,
-        50,
-        51,
-        52,
-        56,
-        57,
-        58,
-        59,
-        60,
-        62,
-        66,
-        69,
-        70,
-        72,
-        73,
-        75,
-        76
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -141,14 +306,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "19.4 Fonctions (function)",
-        "19.5 Fonctions (function)",
-        "19.6 Phonétique (phonetics)",
-        "19.9 Fonctions (function)",
-        "19.10 Fonctions (function)",
-        "19.11 Stratégies de communication (strategy)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

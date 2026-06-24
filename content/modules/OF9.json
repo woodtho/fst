@@ -13,35 +13,196 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF9 — To situate an event in time: past, present, future. Source document SC102-2/9-2005F. Grammar taught: passe_compose, imparfait, futur_proche, futur_simple. Vocabulary: the OF9 section of the PFL2 Lexique. 79 questions, all traceable to the PFL2 source (13 verbatim source activities + 66 from the OF9 Lexique).",
-        "fr": "Situer un événement dans le temps : passé, présent, futur. Document source SC102-2/9-2005F. Grammaire enseignée : passe_compose, imparfait, futur_proche, futur_simple. Vocabulaire : section OF9 du Lexique PFL2."
+        "en": "OF9 teaches how to place events in past, present, and future using time indicators and verb tenses: passé composé, imparfait, présent, futur proche, and futur simple.",
+        "fr": "L’OF9 enseigne comment situer des événements au passé, au présent et au futur à l’aide d’indicateurs temporels et des temps verbaux : passé composé, imparfait, présent, futur proche et futur simple."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Les indicateurs essentiels sont : hier, avant-hier, il y a, l’année dernière, autrefois, aujourd’hui, ce matin, maintenant, actuellement, présentement, demain, après-demain, bientôt, dans cinq jours, la semaine prochaine.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): passe_compose, imparfait, futur_proche, futur_simple.",
+        "summary": "Cet objectif combine les indicateurs temporels avec les temps verbaux qui marquent le passé, le présent et le futur.",
         "charts": [],
-        "points": []
+        "points": [
+          "Passé composé : action terminée dans le passé, souvent avec hier, le mois dernier ou il y a.",
+          "Imparfait : situation ou habitude passée, souvent avec autrefois ou l’année dernière.",
+          "Présent : situation actuelle, habitude ou action en cours, avec maintenant, aujourd’hui, actuellement.",
+          "Futur proche : aller + infinitif, souvent pour un futur planifié ou proche.",
+          "Futur simple : forme en -rai/-ras/-ra/-rons/-rez/-ront, souvent avec demain, bientôt, dans cinq jours.",
+          "Être en train de + infinitif insiste sur une action en cours : Je suis en train d’écouter.",
+          "Depuis + durée avec le présent indique une action commencée dans le passé et encore vraie maintenant."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Écoutez les marqueurs courts comme hier, demain, dans et il y a; ils changent complètement la référence temporelle.",
+          "Le futur simple et l’imparfait ont souvent des finales proches à l’oral; fiez-vous aussi aux indicateurs de temps."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Passé, Présent, Futur",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Hier, j’ai lavé ma voiture.",
+              "en": "Yesterday, I washed my car."
+            },
+            {
+              "speaker": "B",
+              "fr": "Aujourd’hui, je termine mon rapport.",
+              "en": "Today, I’m finishing my report."
+            },
+            {
+              "speaker": "A",
+              "fr": "Demain, il pleuvra.",
+              "en": "Tomorrow, it will rain."
+            }
+          ]
+        },
+        {
+          "title": "Action En Cours",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Qu’est-ce que tu fais en ce moment?",
+              "en": "What are you doing right now?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Je suis en train de préparer la salle.",
+              "en": "I’m preparing the room."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Activité 4 — Temps et référence temporelle",
+          "table": {
+            "headers": [
+              "Référence",
+              "Temps"
+            ],
+            "rows": [
+              [
+                "passé",
+                "passé composé, imparfait"
+              ],
+              [
+                "présent",
+                "présent"
+              ],
+              [
+                "futur",
+                "futur simple, futur proche"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 5 — Indicateurs de temps",
+          "table": {
+            "headers": [
+              "Passé",
+              "Présent",
+              "Futur"
+            ],
+            "rows": [
+              [
+                "hier",
+                "aujourd’hui",
+                "demain"
+              ],
+              [
+                "avant-hier",
+                "maintenant",
+                "après-demain"
+              ],
+              [
+                "le mois dernier",
+                "cette semaine",
+                "la semaine prochaine"
+              ],
+              [
+                "il y a dix ans",
+                "actuellement",
+                "dans cinq jours"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 11 — Exemples de temps verbaux",
+          "table": {
+            "headers": [
+              "Temps",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "passé composé",
+                "L’employée a suivi un cours."
+              ],
+              [
+                "imparfait",
+                "Les employés ne payaient pas le stationnement."
+              ],
+              [
+                "présent",
+                "Nous attendons toujours une réponse."
+              ],
+              [
+                "futur proche",
+                "Ils vont présenter les étapes du projet."
+              ],
+              [
+                "futur simple",
+                "Le comité examinera toutes les recommandations."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 13 — Décrire une situation présente",
+          "table": {
+            "headers": [
+              "Fonction",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "action actuelle",
+                "Je suis en train d’écouter."
+              ],
+              [
+                "habitude",
+                "Je travaille au gouvernement."
+              ],
+              [
+                "état actuel",
+                "Je n’aime pas ce bureau; j’aime celui-là."
+              ],
+              [
+                "action qui dure",
+                "Depuis trois ans, je participe au congrès."
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "79 questions, all traceable to the PFL2 source (13 verbatim source activities + 66 from the OF9 Lexique).",
+      "coverage": "165 useful questions, all traceable to the PFL2 source (99 source activity questions + 66 from the OF9 Lexique). Low-value worksheet/audio recall items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 13
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 99
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 66
         }
       ],
-      "totalQuestions": 79
+      "totalQuestions": 165
     },
     "consolidation": {
       "sourceBooklet": {
@@ -89,25 +250,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 7,
+    "coveredElements": 16,
     "totalElements": 32,
     "convertible": {
-      "covered": 7,
+      "covered": 16,
       "total": 17
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        4,
-        5,
-        6,
-        9,
-        11,
-        13,
-        15,
-        16,
-        21
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -115,11 +266,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "9.4 Fonctions (function)",
-        "9.5 Fonctions (function)",
-        "9.6 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

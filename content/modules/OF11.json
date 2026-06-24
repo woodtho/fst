@@ -13,35 +13,258 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF11 — To explain how to perform a task. Source document SC102-2/11-2005F. Grammar taught: adverbs_manner. Vocabulary: the OF11 section of the PFL2 Lexique. 83 questions, all traceable to the PFL2 source (20 verbatim source activities + 63 from the OF11 Lexique).",
-        "fr": "Préciser comment accomplir une tâche. Document source SC102-2/11-2005F. Grammaire enseignée : adverbs_manner. Vocabulaire : section OF11 du Lexique PFL2."
+        "en": "OF11 teaches how to explain how a task should be done: by what means, in what manner, how intensely or carefully, and with which sequence of steps. It focuses on expressions such as avec, par, au moyen de, à l'aide de, grâce à, adverbs in -ment, and the gerund en + present participle.",
+        "fr": "OF11 enseigne comment préciser la façon d'accomplir une tâche : par quel moyen, de quelle manière, avec quel degré d'intensité ou de soin, et selon quelles étapes. Le module porte sur avec, par, au moyen de, à l'aide de, grâce à, les adverbes en -ment et le gérondif en + participe présent."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Le vocabulaire met l'accent sur les moyens et la manière : avec, par, par courriel, par écrit, au moyen de, à l'aide de, grâce à, de façon, d'une manière, attentivement, soigneusement, rapidement, confidentiellement, précisément, sans hâte et avec calme.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): adverbs_manner.",
+        "summary": "OF11 combines expressions of means, manner adverbs, intensifiers and attenuators, and the gerund to explain how work should be carried out.",
         "charts": [],
-        "points": []
+        "points": [
+          "Use avec + noun for an instrument or concrete support: avec un crayon rouge.",
+          "Use par + channel for a route or medium: par courriel, par courrier interne, par avion.",
+          "Use au moyen de or à l'aide de to name the tool or method: au moyen du dictionnaire, à l'aide d'une calculatrice.",
+          "Use grâce à to show the helpful cause or person: grâce à Rémi.",
+          "Use en + participe présent to show how an action is done: en consultant la base de données.",
+          "Most manner adverbs in -ment are built from the feminine adjective: officielle → officiellement, polie → poliment.",
+          "Adjectives in -ent often form -emment, and adjectives in -ant often form -amment: prudent → prudemment, brillant → brillamment.",
+          "Some frequent manner expressions are not regular -ment forms: bien, vite, mal, sans hâte, avec calme, tel quel.",
+          "Intensifiers and attenuators modify degree: très, assez, extrêmement, légèrement, un peu, pas du tout.",
+          "When checking instructions, ask for the missing detail directly: Je fais combien de photocopies? Vous voulez le rencontrer à quel moment?"
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In -ment adverbs, pronounce the final -ment as a nasal sound: rapidement, clairement, confidentiellement.",
+          "In en + participe présent, keep en linked lightly to the action: en entrant, en écrivant, en les comparant."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander le moyen",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Comment je peux obtenir ces renseignements?"
+            },
+            {
+              "speaker": "B",
+              "text": "Tu peux les avoir en consultant la base de données."
+            },
+            {
+              "speaker": "A",
+              "text": "Et s'il manque des informations?"
+            },
+            {
+              "speaker": "B",
+              "text": "Tu les trouveras en téléphonant aux Archives."
+            }
+          ]
+        },
+        {
+          "title": "Préciser la manière",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Comment dois-je faire ce travail?"
+            },
+            {
+              "speaker": "B",
+              "text": "Fais-le soigneusement et vérifie les données attentivement."
+            },
+            {
+              "speaker": "A",
+              "text": "Je l'envoie comment?"
+            },
+            {
+              "speaker": "B",
+              "text": "Par courriel, avec une copie du rapport."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Indiquer le moyen",
+          "table": {
+            "headers": [
+              "Expression",
+              "Usage",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "avec",
+                "outil ou support",
+                "Corrigez-les avec un crayon rouge."
+              ],
+              [
+                "par",
+                "canal ou mode d'envoi",
+                "Envoyez la copie par courriel."
+              ],
+              [
+                "au moyen de",
+                "méthode ou instrument",
+                "Informez le public au moyen de séances d'information."
+              ],
+              [
+                "à l'aide de",
+                "outil concret",
+                "Réparez le projecteur à l'aide d'un tournevis."
+              ],
+              [
+                "grâce à",
+                "aide ou cause positive",
+                "J'ai terminé grâce à Rémi."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Former les adverbes en -ment",
+          "table": {
+            "headers": [
+              "Adjectif",
+              "Adverbe",
+              "Note"
+            ],
+            "rows": [
+              [
+                "officielle",
+                "officiellement",
+                "féminin + -ment"
+              ],
+              [
+                "polie",
+                "poliment",
+                "féminin + -ment"
+              ],
+              [
+                "prudente",
+                "prudemment",
+                "-ent → -emment"
+              ],
+              [
+                "brillante",
+                "brillamment",
+                "-ant → -amment"
+              ],
+              [
+                "bonne",
+                "bien",
+                "forme irrégulière fréquente"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Gérondif",
+          "table": {
+            "headers": [
+              "Présent avec nous",
+              "Gérondif",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "nous consultons",
+                "en consultant",
+                "On obtient les renseignements en consultant la base."
+              ],
+              [
+                "nous écrivons",
+                "en écrivant",
+                "Elle clarifie la demande en écrivant au client."
+              ],
+              [
+                "nous comparons",
+                "en comparant",
+                "Tu révises le document en le comparant à l'original."
+              ],
+              [
+                "nous avons",
+                "en ayant",
+                "On évite les erreurs en ayant les bonnes données."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Intensifier ou atténuer",
+          "table": {
+            "headers": [
+              "Degré",
+              "Expressions",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "fort",
+                "très, extrêmement, absolument",
+                "Il faut absolument régler le problème."
+              ],
+              [
+                "moyen",
+                "assez, pas mal",
+                "Les notes sont assez claires."
+              ],
+              [
+                "faible",
+                "un peu, légèrement",
+                "Modifiez légèrement cette partie."
+              ],
+              [
+                "négation forte",
+                "pas du tout",
+                "Je ne suis pas du tout satisfaite."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Vérifier la compréhension",
+          "table": {
+            "headers": [
+              "Situation",
+              "Formule utile"
+            ],
+            "rows": [
+              [
+                "L'autre personne vient de donner plusieurs consignes",
+                "C'est bien clair? C'est bien compris?"
+              ],
+              [
+                "Vous n'avez pas compris la tâche",
+                "Quoi? Ce que vous devez faire?"
+              ],
+              [
+                "Vous devez interrompre poliment",
+                "Excusez-moi de vous interrompre, mais..."
+              ],
+              [
+                "Vous devez demander un détail",
+                "Je fais combien de photocopies? À quel moment?"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "83 questions, all traceable to the PFL2 source (20 verbatim source activities + 63 from the OF11 Lexique).",
+      "coverage": "198 useful questions, all traceable to the PFL2 source (135 source activity questions + 63 from the OF11 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 20
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 89
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 83
+      "totalQuestions": 152
     },
     "consolidation": {
       "sourceBooklet": {
@@ -86,39 +309,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 10,
+    "coveredElements": 33,
     "totalElements": 61,
     "convertible": {
-      "covered": 10,
+      "covered": 33,
       "total": 34
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        1,
-        3,
-        4,
-        6,
-        8,
-        9,
-        12,
-        15,
-        16,
-        17,
-        22,
-        23,
-        24,
-        26,
-        27,
-        28,
-        29,
-        31,
-        34,
-        35,
-        42,
-        44,
-        45
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -126,14 +325,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "11.6 Fonctions (function)",
-        "11.7 Fonctions (function)",
-        "11.8 Fonctions (function)",
-        "11.9 Fonctions (function)",
-        "11.10 Phonétique (phonetics)",
-        "11.11 Stratégies de communication (strategy)"
-      ],
+      "sections": [],
       "activities": [
         2,
         7,

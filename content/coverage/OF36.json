@@ -17,7 +17,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 72,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of36_voc_fe_1",
         "itm_of36_voc_fe_2",
@@ -35,7 +35,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 72,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of36_voc_fe_1",
         "itm_of36_voc_fe_2",
@@ -53,7 +53,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 34,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of36_src_a9_1",
         "itm_of36_src_a9_2",
@@ -71,7 +71,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 34,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of36_src_a9_1",
         "itm_of36_src_a9_2",
@@ -89,7 +89,7 @@
       "topicsFr": "Semi-auxiliaire faire",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 34,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of36_src_a9_1",
         "itm_of36_src_a9_2",
@@ -232,20 +232,10 @@
       "activity": 10,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 10,
-      "linkedItems": [
-        "itm_of36_src_a10_1",
-        "itm_of36_src_a10_3",
-        "itm_of36_src_a10_4",
-        "itm_of36_src_a10_5",
-        "itm_of36_src_a10_6",
-        "itm_of36_src_a10_8",
-        "itm_of36_src_a10_9",
-        "itm_of36_src_a10_10",
-        "itm_of36_src_a10_11",
-        "itm_of36_src_a10_12"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 11,
@@ -259,16 +249,10 @@
       "activity": 12,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 6,
-      "linkedItems": [
-        "itm_of36_src_a12_2",
-        "itm_of36_src_a12_3",
-        "itm_of36_src_a12_4",
-        "itm_of36_src_a12_5",
-        "itm_of36_src_a12_6",
-        "itm_of36_src_a12_8"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 13,
@@ -472,6 +456,8 @@
         5,
         6,
         7,
+        10,
+        12,
         14,
         15,
         18,

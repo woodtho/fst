@@ -13,27 +13,230 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF20 — To express opinions about people. Source document SC102-2/20-2005F. Grammar taught: adjectives, agreement. Vocabulary: the OF20 section of the PFL2 Lexique. 67 questions, all traceable to the PFL2 source (6 verbatim source activities + 61 from the OF20 Lexique).",
-        "fr": "Évaluer des personnes. Document source SC102-2/20-2005F. Grammaire enseignée : adjectives, agreement. Vocabulaire : section OF20 du Lexique PFL2."
+        "en": "OF20 teaches how to evaluate people: describe physical appearance and clothing, name psychological and intellectual qualities, use idioms about personality, ask for descriptions, and give or ask for opinions about a person.",
+        "fr": "OF20 enseigne comment évaluer des personnes : décrire l'apparence physique et les vêtements, nommer des qualités psychologiques et intellectuelles, employer des expressions idiomatiques, demander une description et donner ou demander une opinion au sujet d'une personne."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Vocabulaire central : grand, petit, mince, gros, chauve, frisé, brun, blond, roux, barbe, moustache, lunettes, cravate, manteau, compétent, polyvalent, motivé, dynamique, autonome, fiable, honnête, souple, ferme, méthodique, intègre.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): adjectives, agreement.",
+        "summary": "OF20 focuses on adjective agreement for people, noun forms of qualities, descriptive structures with avoir/être/porter, and opinion indicators.",
         "charts": [],
-        "points": []
+        "points": [
+          "Physical description often uses être: Elle est grande; il est mince; ils sont jeunes.",
+          "Hair and body details often use avoir: Elle a les cheveux frisés; il a une barbe; il a un tatouage au bras droit.",
+          "Clothing uses porter: Il porte une cravate; elle porte des lunettes; ils portent des gants.",
+          "Adjectives agree with the person described: motivé/motivée/motivés/motivées; travailleur/travailleuse; franc/franche.",
+          "Qualities can become nouns: compétent -> la compétence; motivé -> la motivation; autonome -> l'autonomie.",
+          "Ask for a description with Comment est-il? À quoi ressemble-t-elle? Peux-tu me la décrire?",
+          "Ask for an opinion with Que penses-tu de...? À ton avis...? Trouves-tu que...? Selon toi...?",
+          "Qualify an opinion with je crois que, je pense que, d'après moi, à mon avis, il me semble que."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Practice adjective endings that affect pronunciation: franc/franche, travailleur/travailleuse, sérieux/sérieuse.",
+          "Chunk body-part phrases: au bras droit, à l'oreille gauche, sur la joue droite."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Décrire Une Personne",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Ta nouvelle collègue, peux-tu me la décrire?"
+            },
+            {
+              "speaker": "B",
+              "text": "Elle est grande, brune et elle porte souvent un tailleur vert."
+            },
+            {
+              "speaker": "A",
+              "text": "Est-ce qu'elle a un signe distinctif?"
+            },
+            {
+              "speaker": "B",
+              "text": "Oui, elle a un grain de beauté sur la joue droite."
+            }
+          ]
+        },
+        {
+          "title": "Donner Une Opinion",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Que penses-tu de notre première candidate?"
+            },
+            {
+              "speaker": "B",
+              "text": "À mon avis, elle pourrait faire une bonne employée."
+            },
+            {
+              "speaker": "A",
+              "text": "Trouves-tu qu'elle est assez dynamique?"
+            },
+            {
+              "speaker": "B",
+              "text": "Je ne sais pas. Elle me semble un peu rigide."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Apparence Physique",
+          "table": {
+            "headers": [
+              "Aspect",
+              "Exemples"
+            ],
+            "rows": [
+              [
+                "taille",
+                "grand, petit, assez grand"
+              ],
+              [
+                "poids",
+                "mince, maigre, gros, svelte"
+              ],
+              [
+                "cheveux",
+                "blond, brun, roux, frisé, chauve"
+              ],
+              [
+                "âge",
+                "jeune, vieux, dans la quarantaine"
+              ],
+              [
+                "signes",
+                "une barbe, une moustache, un tatouage, un grain de beauté"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Vêtements Et Accessoires",
+          "table": {
+            "headers": [
+              "Catégorie",
+              "Exemples"
+            ],
+            "rows": [
+              [
+                "vêtements",
+                "un manteau, un pantalon, un veston, un chandail"
+              ],
+              [
+                "accessoires",
+                "une cravate, une ceinture, un foulard"
+              ],
+              [
+                "météo",
+                "des gants, une tuque, un imperméable"
+              ],
+              [
+                "vision",
+                "des lunettes"
+              ],
+              [
+                "chaussures",
+                "des souliers, des bottes"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Qualités",
+          "table": {
+            "headers": [
+              "Type",
+              "Exemples"
+            ],
+            "rows": [
+              [
+                "psychologiques",
+                "autonome, motivé, souple, ferme, honnête"
+              ],
+              [
+                "intellectuelles",
+                "compétent, analytique, bilingue, méthodique"
+              ],
+              [
+                "travail",
+                "fiable, polyvalent, efficace, expérimenté"
+              ],
+              [
+                "sociales",
+                "sympathique, drôle, conciliant, serviable"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Opinions Sur Une Personne",
+          "table": {
+            "headers": [
+              "Fonction",
+              "Formules"
+            ],
+            "rows": [
+              [
+                "demander",
+                "Que penses-tu de...? À ton avis...? Selon toi...?"
+              ],
+              [
+                "répondre",
+                "Je pense que... Je crois que... Il me semble que..."
+              ],
+              [
+                "nuancer",
+                "Je ne sais pas si... peut-être... un peu trop..."
+              ],
+              [
+                "accord",
+                "Je suis du même avis; je suis d'accord."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Expressions Idiomatiques",
+          "table": {
+            "headers": [
+              "Expression",
+              "Sens"
+            ],
+            "rows": [
+              [
+                "être le bras droit",
+                "être la personne de confiance"
+              ],
+              [
+                "avoir le coeur sur la main",
+                "être généreux"
+              ],
+              [
+                "ne pas avoir la langue dans sa poche",
+                "parler franchement"
+              ],
+              [
+                "perdre son sang-froid",
+                "perdre son calme"
+              ],
+              [
+                "se prendre pour le nombril du monde",
+                "se croire très important"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "67 questions, all traceable to the PFL2 source (6 verbatim source activities + 61 from the OF20 Lexique).",
+      "coverage": "67 useful questions, all traceable to the PFL2 source (6 source activity questions + 61 from the OF20 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
+          "title": "Activités du programme PFL2 (concept-focused)",
           "count": 6
         },
         {
@@ -87,38 +290,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 6,
+    "coveredElements": 28,
     "totalElements": 56,
     "convertible": {
-      "covered": 6,
+      "covered": 28,
       "total": 29
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        4,
-        6,
-        7,
-        9,
-        10,
-        11,
-        12,
-        13,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        32,
-        33,
-        34,
-        35,
-        36,
-        40
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -126,14 +306,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "20.3 Fonctions (function)",
-        "20.4 Fonctions (function)",
-        "20.5 Fonctions (function)",
-        "20.6 Fonctions (function)",
-        "20.7 Stratégies de communication (strategy)",
-        "20.8 Compréhension de l’oral (oral)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

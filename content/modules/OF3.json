@@ -13,35 +13,298 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF3 — To express relationships of belonging. Source document SC102-2/3-2005F. Grammar taught: present, prepositions. Vocabulary: the OF3 section of the PFL2 Lexique. 58 questions, all traceable to the PFL2 source (12 verbatim source activities + 46 from the OF3 Lexique).",
-        "fr": "Exprimer des relations d’appartenance. Document source SC102-2/3-2005F. Grammaire enseignée : present, prepositions. Vocabulaire : section OF3 du Lexique PFL2."
+        "en": "OF3 teaches how to say that a person belongs to, works in, works for, or comes from a ministry, administrative unit, professional association, social group, committee, club, or organization.",
+        "fr": "L’OF3 enseigne comment exprimer l’appartenance à un ministère, à une unité administrative, à une association professionnelle ou sociale, à un comité, à un club ou à un organisme."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Les indicateurs principaux sont : travailler à, travailler dans, travailler pour, être à, être de, venir de, être membre de, faire partie de et appartenir à. Portez attention aux articles contractés : au, aux, du, des.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): present, prepositions.",
+        "summary": "Cet objectif combine les indicateurs d’appartenance, les articles définis contractés et les verbes faire et venir au présent.",
         "charts": [],
-        "points": []
+        "points": [
+          "À + le devient au; à + les devient aux. De + le devient du; de + les devient des.",
+          "On utilise travailler à ou être à pour une unité ou un service : Je travaille à la Direction des langues officielles.",
+          "On utilise travailler pour pour l’employeur ou la personne responsable : Je travaille pour madame Roy.",
+          "Être membre de, faire partie de et appartenir à servent à parler d’un groupe, d’une association ou d’un comité.",
+          "Venir de et être de indiquent l’origine administrative : Elle vient du Service des finances; il est du Conseil du Trésor.",
+          "Faire au présent : je fais, tu fais, il/elle/on fait, nous faisons, vous faites, ils/elles font.",
+          "Venir au présent : je viens, tu viens, il/elle/on vient, nous venons, vous venez, ils/elles viennent."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Écoutez la différence entre au, aux, du et des : ces petits mots portent souvent l’information grammaticale.",
+          "Devant une voyelle, de devient d’ : faire partie d’une association, être membre d’un comité."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander l’appartenance",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Où travaillez-vous?",
+              "en": "Where do you work?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Je travaille au ministère de la Santé.",
+              "en": "I work at the Department of Health."
+            },
+            {
+              "speaker": "A",
+              "fr": "De quelle division êtes-vous?",
+              "en": "Which division are you from?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Je suis de la Division des finances.",
+              "en": "I am from the Finance Division."
+            }
+          ]
+        },
+        {
+          "title": "Indiquer une association",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Faites-vous partie d’une association professionnelle?",
+              "en": "Are you part of a professional association?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Oui, je suis membre de l’Association des cadres de direction.",
+              "en": "Yes, I am a member of the Executive Group Association."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Activité 2 — Indicateurs d’appartenance",
+          "table": {
+            "headers": [
+              "Expression",
+              "Exemple",
+              "Sens"
+            ],
+            "rows": [
+              [
+                "travailler à",
+                "Je travaille à la Direction de l’information.",
+                "work in/at"
+              ],
+              [
+                "travailler dans",
+                "Je travaille dans l’équipe de monsieur Simard.",
+                "work in"
+              ],
+              [
+                "travailler pour",
+                "Je travaille pour madame Roy.",
+                "work for"
+              ],
+              [
+                "être à",
+                "Je suis à la Gestion des ressources.",
+                "be at/in"
+              ],
+              [
+                "être de",
+                "Je suis de la Direction des opérations.",
+                "be from"
+              ],
+              [
+                "venir de",
+                "Je viens de la Direction des ressources humaines.",
+                "come from"
+              ],
+              [
+                "être membre de",
+                "Je suis membre de l’Association récréative.",
+                "be a member of"
+              ],
+              [
+                "faire partie de",
+                "Je fais partie de la Commission d’enquête.",
+                "be part of"
+              ],
+              [
+                "appartenir à",
+                "J’appartiens à l’Association des anciens.",
+                "belong to"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 6 — Articles définis contractés",
+          "table": {
+            "headers": [
+              "Base",
+              "Masculin singulier",
+              "Pluriel",
+              "Féminin / voyelle"
+            ],
+            "rows": [
+              [
+                "à",
+                "à + le = au",
+                "à + les = aux",
+                "à la / à l’"
+              ],
+              [
+                "de",
+                "de + le = du",
+                "de + les = des",
+                "de la / de l’"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 9 — Faire et venir au présent",
+          "table": {
+            "headers": [
+              "Sujet",
+              "faire",
+              "venir"
+            ],
+            "rows": [
+              [
+                "je",
+                "fais",
+                "viens"
+              ],
+              [
+                "tu",
+                "fais",
+                "viens"
+              ],
+              [
+                "il / elle / on",
+                "fait",
+                "vient"
+              ],
+              [
+                "nous",
+                "faisons",
+                "venons"
+              ],
+              [
+                "vous",
+                "faites",
+                "venez"
+              ],
+              [
+                "ils / elles",
+                "font",
+                "viennent"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 15 — Demander l’appartenance",
+          "table": {
+            "headers": [
+              "Question",
+              "Usage"
+            ],
+            "rows": [
+              [
+                "Où travaillez-vous?",
+                "demander le lieu de travail"
+              ],
+              [
+                "À quel ministère travaillez-vous?",
+                "demander le ministère"
+              ],
+              [
+                "Pour quel ministère travaillez-vous?",
+                "demander l’employeur"
+              ],
+              [
+                "Dans quel ministère travaillez-vous?",
+                "demander l’unité ou le ministère"
+              ],
+              [
+                "De quel ministère êtes-vous?",
+                "demander l’origine administrative"
+              ],
+              [
+                "De quelle association faites-vous partie?",
+                "demander l’association"
+              ],
+              [
+                "De quelle association êtes-vous membre?",
+                "demander l’association"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 13 — Personnes et appartenances",
+          "table": {
+            "headers": [
+              "Personne",
+              "Organisme / ministère",
+              "Unité / poste"
+            ],
+            "rows": [
+              [
+                "Pierre Laurin",
+                "Citoyenneté et Immigration",
+                "Division du counselling"
+              ],
+              [
+                "Claire Dupuis",
+                "Bibliothèque du Parlement",
+                "Service des coupures de presse"
+              ],
+              [
+                "Michel Côté",
+                "Santé Canada",
+                "agent des programmes du tabagisme"
+              ],
+              [
+                "Lise Tremblay",
+                "Commission de la Fonction publique",
+                "agente de recherches sur la rémunération"
+              ],
+              [
+                "Lucie Pelletier",
+                "Santé Canada",
+                "Direction des langues officielles"
+              ],
+              [
+                "François Bernier",
+                "Office national de l’énergie",
+                "analyste des politiques et procédures"
+              ],
+              [
+                "Jean Roy",
+                "Office national de l’énergie",
+                "Division des Communications"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "58 questions, all traceable to the PFL2 source (12 verbatim source activities + 46 from the OF3 Lexique).",
+      "coverage": "172 questions: 126 source-activity questions and 46 OF3 Lexique questions.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 12
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 116
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 46
         }
       ],
-      "totalQuestions": 58
+      "totalQuestions": 162
     },
     "consolidation": {
       "sourceBooklet": {
@@ -87,27 +350,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 7,
+    "coveredElements": 18,
     "totalElements": 29,
     "convertible": {
-      "covered": 7,
+      "covered": 18,
       "total": 19
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        4,
-        5,
-        8,
-        11,
-        12,
-        13,
-        14,
-        17,
-        18,
-        19
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -115,11 +366,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "3.3 Fonctions (function)",
-        "3.4 Fonctions (function)",
-        "3.5 Compréhension de l’oral (oral)"
-      ],
+      "sections": [],
       "activities": [
         2,
         6,

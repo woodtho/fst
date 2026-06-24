@@ -17,7 +17,7 @@
       "topicsFr": "Indicateurs de connaissance et d’ignorance",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 63,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of39_voc_fe_1",
         "itm_of39_voc_fe_2",
@@ -35,7 +35,7 @@
       "topicsFr": "Indicateurs de certitude et de doute",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 63,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of39_voc_fe_1",
         "itm_of39_voc_fe_2",
@@ -53,7 +53,7 @@
       "topicsFr": "Indicateurs de persistance et d’abandon, de stabilité et de changement",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 63,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of39_voc_fe_1",
         "itm_of39_voc_fe_2",
@@ -71,7 +71,7 @@
       "topicsFr": "Subjonctif ou indicatif après les verbes ou expressions d’opinion",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 33,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of39_src_a16_1",
         "itm_of39_src_a16_3",
@@ -98,7 +98,7 @@
       "topicsFr": "Formation du subjonctif passé et de l’infinitif passé · Subjonctif ou infinitif après des expressions de sentiments, d’attitudes",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 33,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of39_src_a16_1",
         "itm_of39_src_a16_3",
@@ -396,12 +396,10 @@
       "activity": 28,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 2,
-      "linkedItems": [
-        "itm_of39_src_a28_1",
-        "itm_of39_src_a28_2"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 29,
@@ -656,6 +654,7 @@
         18,
         23,
         25,
+        28,
         30,
         32,
         33,

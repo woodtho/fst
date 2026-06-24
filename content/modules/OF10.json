@@ -13,35 +13,292 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF10 — To assign work. Source document SC102-2/10-2005F. Grammar taught: present, pronouns. Vocabulary: the OF10 section of the PFL2 Lexique. 100 questions, all traceable to the PFL2 source (21 verbatim source activities + 79 from the OF10 Lexique).",
-        "fr": "Assigner des tâches. Document source SC102-2/10-2005F. Grammaire enseignée : present, pronouns. Vocabulaire : section OF10 du Lexique PFL2."
+        "en": "OF10 teaches how to assign work, ask what needs to be done, identify who is responsible, and discuss deadlines. It combines workplace task verbs with modal expressions, object pronouns, the near future, the simple future, action nouns, and basic computer/help-desk vocabulary.",
+        "fr": "OF10 enseigne comment assigner des tâches, demander ce qu'il y a à faire, identifier la personne responsable et préciser les délais. Le module combine les verbes de tâches, les expressions de nécessité ou de possibilité, les pronoms objets, le futur proche, le futur simple, les noms d'action et le vocabulaire informatique de base."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Le vocabulaire principal couvre les tâches de bureau (classer, rédiger, vérifier, convoquer, distribuer), les responsabilités, les délais et les outils informatiques (clavier, souris, mot de passe, tableur, base de données, coupe-feu, service de dépannage).",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): present, pronouns.",
+        "summary": "OF10 centres on assigning work with devoir, falloir, pouvoir and vouloir; using direct and indirect object pronouns; and placing tasks in the near or simple future.",
         "charts": [],
-        "points": []
+        "points": [
+          "Use il faut + infinitif for an impersonal requirement: Il faut réviser ces documents.",
+          "Use devoir with a subject when a specific person is responsible: Tu dois préparer l'ordre du jour.",
+          "Use pouvoir and vouloir to make requests less direct: Pouvez-vous préparer une ébauche? Veux-tu rédiger un courriel?",
+          "Use savoir for information or skill, and connaître for people, places, documents or familiar topics.",
+          "Direct object pronouns le, la, l' and les replace what receives the action directly: Je prépare le rapport → Je le prépare.",
+          "Indirect object pronouns lui and leur replace à + person: Je téléphone aux employés → Je leur téléphone.",
+          "Y replaces a place or à + thing: Tu vas assister à la réunion → Tu vas y assister.",
+          "At the affirmative imperative, object pronouns follow the verb: Téléphone-leur. At the negative imperative, they come before the verb: Ne leur téléphone pas.",
+          "Use aller + infinitif for the near future: Nous allons commander le matériel.",
+          "Use the simple future for later tasks, deadlines and plans: Vous rédigerez le rapport demain."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In l' + vowel, link the object pronoun smoothly to the next verb sound: l'envoyer, l'utiliser.",
+          "In future forms, keep the final written consonants silent in most forms: préparera, prépareront."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Assigner une tâche",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Il faut envoyer la note de service aujourd'hui."
+            },
+            {
+              "speaker": "B",
+              "text": "Est-ce que je dois aussi la faire approuver?"
+            },
+            {
+              "speaker": "A",
+              "text": "Oui, et tu peux la transmettre aux gestionnaires ensuite."
+            }
+          ]
+        },
+        {
+          "title": "Confirmer le responsable et le délai",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Qui est responsable de la vérification?"
+            },
+            {
+              "speaker": "B",
+              "text": "C'est Nadia qui va la faire."
+            },
+            {
+              "speaker": "A",
+              "text": "Pour quand est-ce qu'il faut terminer?"
+            },
+            {
+              "speaker": "B",
+              "text": "Il faudra remettre le dossier vendredi matin."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Expressions pour assigner des tâches",
+          "table": {
+            "headers": [
+              "Fonction",
+              "Formule",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Nécessité générale",
+                "il faut + infinitif",
+                "Il faut corriger le rapport."
+              ],
+              [
+                "Responsabilité précise",
+                "devoir + infinitif",
+                "Vous devez envoyer la lettre."
+              ],
+              [
+                "Possibilité",
+                "pouvoir + infinitif",
+                "Peux-tu trouver la circulaire?"
+              ],
+              [
+                "Volonté ou demande",
+                "vouloir + infinitif",
+                "Voulez-vous préparer une ébauche?"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Pronoms objets utiles",
+          "table": {
+            "headers": [
+              "Pronom",
+              "Remplace",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "le, la, l', les",
+                "un objet direct",
+                "Je les envoie."
+              ],
+              [
+                "lui",
+                "à une personne",
+                "Je lui remets le dossier."
+              ],
+              [
+                "leur",
+                "à plusieurs personnes",
+                "Elle leur explique les politiques."
+              ],
+              [
+                "y",
+                "un lieu ou à + chose",
+                "Vous devez y répondre."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Impératif avec pronoms",
+          "table": {
+            "headers": [
+              "Type",
+              "Placement",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Affirmatif",
+                "verbe-pronom",
+                "Téléphone-leur."
+              ],
+              [
+                "Négatif",
+                "ne + pronom + verbe + pas",
+                "Ne leur téléphone pas."
+              ],
+              [
+                "Avec me",
+                "moi après le verbe",
+                "Aide-moi à animer la réunion."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Futur proche et futur simple",
+          "table": {
+            "headers": [
+              "Temps",
+              "Usage",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Futur proche",
+                "tâche prochaine ou déjà prévue",
+                "Nous allons informer le personnel."
+              ],
+              [
+                "Futur simple",
+                "échéance ou plan futur",
+                "Vous préparerez le dossier demain."
+              ],
+              [
+                "Futur de falloir",
+                "obligation future",
+                "Il faudra annuler la réunion."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Délais et responsabilités",
+          "table": {
+            "headers": [
+              "But",
+              "Question"
+            ],
+            "rows": [
+              [
+                "S'informer de la tâche",
+                "Qu'est-ce qu'il y a à faire?"
+              ],
+              [
+                "S'informer du responsable",
+                "Qui est chargé de transmettre les messages?"
+              ],
+              [
+                "S'informer du délai",
+                "Pour quand est-ce qu'il faut faire ça?"
+              ],
+              [
+                "Demander si c'est possible",
+                "C'est possible d'avoir ça aujourd'hui?"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Vocabulaire informatique",
+          "table": {
+            "headers": [
+              "Domaine",
+              "Termes"
+            ],
+            "rows": [
+              [
+                "Poste de travail",
+                "clavier, souris, écran, imprimante, disque dur"
+              ],
+              [
+                "Logiciels",
+                "traitement de texte, tableur, base de données, navigateur"
+              ],
+              [
+                "Réseau",
+                "en ligne, mot de passe, coupe-feu, service de dépannage"
+              ],
+              [
+                "Actions",
+                "cliquer, doublecliquer, télécharger, sauvegarder"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 56 — Tâches et responsables",
+          "table": {
+            "headers": [
+              "Tâche",
+              "Responsable"
+            ],
+            "rows": [
+              [
+                "Organiser la réception pour le départ de monsieur Lapierre",
+                "le comité social dont François fait partie"
+              ],
+              [
+                "Ramasser l'argent et acheter un cadeau",
+                "Denise"
+              ],
+              [
+                "Écrire un discours",
+                "Lorraine"
+              ],
+              [
+                "Préparer la salle",
+                ""
+              ],
+              [
+                "S'occuper de la bouffe",
+                "un traiteur"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "100 questions, all traceable to the PFL2 source (21 verbatim source activities + 79 from the OF10 Lexique).",
+      "coverage": "233 useful questions, all traceable to the PFL2 source (154 source activity questions + 79 from the OF10 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 21
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 140
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 79
         }
       ],
-      "totalQuestions": 100
+      "totalQuestions": 219
     },
     "consolidation": {
       "sourceBooklet": {
@@ -87,50 +344,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 17,
+    "coveredElements": 51,
     "totalElements": 94,
     "convertible": {
-      "covered": 17,
+      "covered": 51,
       "total": 52
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        4,
-        6,
-        10,
-        11,
-        12,
-        14,
-        15,
-        16,
-        17,
-        18,
-        21,
-        22,
-        25,
-        29,
-        30,
-        31,
-        35,
-        37,
-        42,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        64,
-        71,
-        72,
-        74,
-        75
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -138,14 +360,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "10.6 Fonctions (function)",
-        "10.7 Fonctions (function)",
-        "10.9 Fonctions (function)",
-        "10.10 Fonctions (function)",
-        "10.11 Phonétique (phonetics)",
-        "10.12 Langue écrite (writing)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

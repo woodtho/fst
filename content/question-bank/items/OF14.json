@@ -1,1 +1,2254 @@
-{"schema":"items/v2","objectiveId":"OF14","sourceFidelity":true,"source":{"sourceDocument":"SC102-2/14-2005F","lexique":"SC102-2/1-2-2005F","counts":{"source":17,"vocab":15}},"items":[{"id":"itm_of14_src_a4_9","objectiveId":"OF14","skill":"writing","grammarConcepts":["present"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"medium","type":"fill_blank","status":"live","estTimeSec":30,"irtB":0,"prompt":{"fr":"––___ une rencontre entre monsieur Champagne et monsieur Turcotte demain à 9 h","instructions_en":"Complete the blank (verbatim PFL2 source exercise)."},"answer":{"type":"text","accepted":["Il y aura l’annulation"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"La réponse attendue est « Il y aura l’annulation ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).","distractor_why":{},"grammar_rule":"-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 4).","common_mistakes":["se tromper de forme selon le contexte"]},"tip":{"memory_aid":"nous → -ons / -vons for avoir.","pattern":"Each subject has one avoir form.","similar":["Nous avons un dossier.","Vous avez le rapport."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":4,"concept":"present"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["present"]}},{"id":"itm_of14_src_a6_1","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Un accident s’est produit au coin de la rue.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il s’est produit un accident au coin de la rue."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il s’est produit un accident au coin de la rue. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a6_2","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"De nombreux changements sont survenus au bureau.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il est survenu de nombreux changements au bureau."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il est survenu de nombreux changements au bureau. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a6_4","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Une nouvelle employée est arrivée.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il est arrivé une nouvelle employée."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il est arrivé une nouvelle employée. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a6_5","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Plusieurs réunions se tiennent simultanément.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il se tient plusieurs réunions simultanément."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il se tient plusieurs réunions simultanément. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a6_6","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Un spectacle se déroule présentement.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il se déroule un spectacle présentement."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il se déroule un spectacle présentement. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a6_7","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Des choses étonnantes se passent dans ce pays.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il se passe des choses étonnantes dans ce pays."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il se passe des choses étonnantes dans ce pays. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a6_8","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Un congrès se tient près d’ici.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il se tient un congrès près d’ici."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il se tient un congrès près d’ici. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a6_9","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Des incidents se produisent chaque samedi.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il se produit des incidents chaque samedi."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il se produit des incidents chaque samedi. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a6_10","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Des coïncidences curieuses arrivent parfois.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Transformez la phrase selon le modèle.)"},"answer":{"type":"text","accepted":["Il arrive parfois des coïncidences curieuses."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il arrive parfois des coïncidences curieuses. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":6,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a8_1","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Qu’est-ce qui est arrivé hier soir?","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"},"answer":{"type":"text","accepted":["Qu’est-ce qui s’est passé hier soir?"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Qu’est-ce qui s’est passé hier soir? ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":8,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a8_2","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Des entrevues de sélection se déroulent demain matin.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"},"answer":{"type":"text","accepted":["Des entrevues de sélection ont lieu demain matin."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Des entrevues de sélection ont lieu demain matin. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":8,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a8_5","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"On prévoit plusieurs visites de la directrice générale.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"},"answer":{"type":"text","accepted":["Il y a eu plusieurs visites de la directrice générale."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « Il y a eu plusieurs visites de la directrice générale. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":8,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a8_6","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"Il est arrivé de nombreux accidents sur cette route-là.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"},"answer":{"type":"text","accepted":["De nombreux accidents sont arrivés sur cette route-là."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « De nombreux accidents sont arrivés sur cette route-là. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":8,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a8_7","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"L’annulation du spectacle est officielle.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"},"answer":{"type":"text","accepted":["La présentation du spectacle est officielle."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « La présentation du spectacle est officielle. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":8,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a8_8","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"La partie de baseball a été annulée à 8 h.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"},"answer":{"type":"text","accepted":["La partie de baseball a eu lieu à 8 h."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « La partie de baseball a eu lieu à 8 h. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":8,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_src_a10_1","objectiveId":"OF14","skill":"writing","grammarConcepts":["impersonal"],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"advanced","type":"fill_blank","status":"live","estTimeSec":45,"irtB":0.5,"prompt":{"fr":"La réunion s’est déroulée ce matin.","instructions_en":"Rewrite the sentence as the exercise requires. (verbatim PFL2 source exercise — Indiquez si l’énoncé correspond au mini-dialogue entendu.)"},"answer":{"type":"text","accepted":["––Est-ce que la réunion a eu lieu ce matin?","non ––Non, elle a été annulée."],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"Transformation attendue : « ––Est-ce que la réunion a eu lieu ce matin? » (ou « non ––Non, elle a été annulée. »). il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","distractor_why":{},"grammar_rule":"il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.","vocab_notes":"Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 10).","common_mistakes":["ne pas appliquer correctement la transformation demandée"]},"tip":{"memory_aid":"il faut + infinitif = must.","pattern":"Il faut + infinitif.","similar":["Il faut partir.","Il faut signer le formulaire."]},"source":{"verbatim":true,"catalogue":"SC102-2/14-2005F","activity":10,"concept":"impersonal"},"trace":{"sourceDocument":"SC102-2/14-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":null,"grammarConcepts":["impersonal"]}},{"id":"itm_of14_voc_fe_1","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.8,"prompt":{"fr":"« annulation (n. f.) »","instructions_en":"What does this mean in English? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["cancellation"],"normalizer":"trim_lower"},"distractors":[{"value":"cancellation","tag":"correct"},{"value":"event","tag":"d0"},{"value":"to go off","tag":"d1"},{"value":"to happen","tag":"d2"}],"explanation":{"correct_why":"« annulation (n. f.) » signifie 'cancellation'.","distractor_why":{"d0":"'event' est le sens de « événement (n. m.) », pas de « annulation (n. f.) ».","d1":"'to go off' est le sens de « dérouler – se dérouler », pas de « annulation (n. f.) ».","d2":"'to happen' est le sens de « arriver », pas de « annulation (n. f.) »."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « annulation (n. f.) » avec un terme proche"]},"tip":{"memory_aid":"« annulation » ↔ 'cancellation'.","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["se tenir","événement (n. m.)"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_fe_2","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.8,"prompt":{"fr":"« arriver »","instructions_en":"What does this mean in English? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["to happen"],"normalizer":"trim_lower"},"distractors":[{"value":"to happen","tag":"correct"},{"value":"event","tag":"d0"},{"value":"fact","tag":"d1"},{"value":"to go off","tag":"d2"}],"explanation":{"correct_why":"« arriver » signifie 'to happen'.","distractor_why":{"d0":"'event' est le sens de « événement (n. m.) », pas de « arriver ».","d1":"'fact' est le sens de « fait (n. m.) », pas de « arriver ».","d2":"'to go off' est le sens de « dérouler – se dérouler », pas de « arriver »."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « arriver » avec un terme proche"]},"tip":{"memory_aid":"« arriver » ↔ 'to happen'.","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["fait (n. m.)","dérouler – se dérouler"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_fe_3","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.8,"prompt":{"fr":"« avoir lieu »","instructions_en":"What does this mean in English? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["to take place"],"normalizer":"trim_lower"},"distractors":[{"value":"to take place","tag":"correct"},{"value":"to happen","tag":"d0"},{"value":"cancellation","tag":"d1"},{"value":"to go off","tag":"d2"}],"explanation":{"correct_why":"« avoir lieu » signifie 'to take place'.","distractor_why":{"d0":"'to happen' est le sens de « arriver », pas de « avoir lieu ».","d1":"'cancellation' est le sens de « annulation (n. f.) », pas de « avoir lieu ».","d2":"'to go off' est le sens de « dérouler – se dérouler », pas de « avoir lieu »."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « avoir lieu » avec un terme proche"]},"tip":{"memory_aid":"« avoir lieu » ↔ 'to take place'.","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["annulation (n. f.)","événement (n. m.)"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_fe_4","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.8,"prompt":{"fr":"« dérouler – se dérouler »","instructions_en":"What does this mean in English? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["to go off"],"normalizer":"trim_lower"},"distractors":[{"value":"to go off","tag":"correct"},{"value":"cancellation","tag":"d0"},{"value":"to be held","tag":"d1"},{"value":"to happen","tag":"d2"}],"explanation":{"correct_why":"« dérouler – se dérouler » signifie 'to go off'.","distractor_why":{"d0":"'cancellation' est le sens de « annulation (n. f.) », pas de « dérouler – se dérouler ».","d1":"'to be held' est le sens de « se tenir », pas de « dérouler – se dérouler ».","d2":"'to happen' est le sens de « arriver », pas de « dérouler – se dérouler »."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « dérouler – se dérouler » avec un terme proche"]},"tip":{"memory_aid":"« dérouler – se dérouler » ↔ 'to go off'.","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["avoir lieu","événement (n. m.)"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_fe_5","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.8,"prompt":{"fr":"« événement (n. m.) »","instructions_en":"What does this mean in English? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["event"],"normalizer":"trim_lower"},"distractors":[{"value":"event","tag":"correct"},{"value":"to go off","tag":"d0"},{"value":"to happen","tag":"d1"},{"value":"to be held","tag":"d2"}],"explanation":{"correct_why":"« événement (n. m.) » signifie 'event'.","distractor_why":{"d0":"'to go off' est le sens de « dérouler – se dérouler », pas de « événement (n. m.) ».","d1":"'to happen' est le sens de « arriver », pas de « événement (n. m.) ».","d2":"'to be held' est le sens de « se tenir », pas de « événement (n. m.) »."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « événement (n. m.) » avec un terme proche"]},"tip":{"memory_aid":"« événement » ↔ 'event'.","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["fait (n. m.)","se tenir"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_fe_6","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.8,"prompt":{"fr":"« fait (n. m.) »","instructions_en":"What does this mean in English? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["fact"],"normalizer":"trim_lower"},"distractors":[{"value":"fact","tag":"correct"},{"value":"to be held","tag":"d0"},{"value":"event","tag":"d1"},{"value":"to take place","tag":"d2"}],"explanation":{"correct_why":"« fait (n. m.) » signifie 'fact'.","distractor_why":{"d0":"'to be held' est le sens de « se tenir », pas de « fait (n. m.) ».","d1":"'event' est le sens de « événement (n. m.) », pas de « fait (n. m.) ».","d2":"'to take place' est le sens de « avoir lieu », pas de « fait (n. m.) »."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « fait (n. m.) » avec un terme proche"]},"tip":{"memory_aid":"« fait » ↔ 'fact'.","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["se tenir","dérouler – se dérouler"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_fe_7","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.8,"prompt":{"fr":"« se tenir »","instructions_en":"What does this mean in English? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["to be held"],"normalizer":"trim_lower"},"distractors":[{"value":"to be held","tag":"correct"},{"value":"cancellation","tag":"d0"},{"value":"event","tag":"d1"},{"value":"to go off","tag":"d2"}],"explanation":{"correct_why":"« se tenir » signifie 'to be held'.","distractor_why":{"d0":"'cancellation' est le sens de « annulation (n. f.) », pas de « se tenir ».","d1":"'event' est le sens de « événement (n. m.) », pas de « se tenir ».","d2":"'to go off' est le sens de « dérouler – se dérouler », pas de « se tenir »."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « se tenir » avec un terme proche"]},"tip":{"memory_aid":"« se tenir » ↔ 'to be held'.","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["annulation (n. f.)","événement (n. m.)"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_ef_8","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.6,"prompt":{"fr":"'cancellation'","instructions_en":"How do you say this in French? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["annulation (n. f.)"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[{"value":"annulation (n. f.)","tag":"correct"},{"value":"se tenir","tag":"d0"},{"value":"dérouler – se dérouler","tag":"d1"},{"value":"fait (n. m.)","tag":"d2"}],"explanation":{"correct_why":"'cancellation' se dit « annulation (n. f.) » en français.","distractor_why":{"d0":"« se tenir » signifie 'to be held', pas 'cancellation'.","d1":"« dérouler – se dérouler » signifie 'to go off', pas 'cancellation'.","d2":"« fait (n. m.) » signifie 'fact', pas 'cancellation'."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « annulation (n. f.) » avec un synonyme proche"]},"tip":{"memory_aid":"'cancellation' → « annulation ».","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["fait (n. m.)","se tenir"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_ef_9","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.6,"prompt":{"fr":"'to happen'","instructions_en":"How do you say this in French? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["arriver"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[{"value":"arriver","tag":"correct"},{"value":"se tenir","tag":"d0"},{"value":"événement (n. m.)","tag":"d1"},{"value":"dérouler – se dérouler","tag":"d2"}],"explanation":{"correct_why":"'to happen' se dit « arriver » en français.","distractor_why":{"d0":"« se tenir » signifie 'to be held', pas 'to happen'.","d1":"« événement (n. m.) » signifie 'event', pas 'to happen'.","d2":"« dérouler – se dérouler » signifie 'to go off', pas 'to happen'."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « arriver » avec un synonyme proche"]},"tip":{"memory_aid":"'to happen' → « arriver ».","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["événement (n. m.)","avoir lieu"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_ef_10","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.6,"prompt":{"fr":"'to take place'","instructions_en":"How do you say this in French? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["avoir lieu"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[{"value":"avoir lieu","tag":"correct"},{"value":"annulation (n. f.)","tag":"d0"},{"value":"fait (n. m.)","tag":"d1"},{"value":"se tenir","tag":"d2"}],"explanation":{"correct_why":"'to take place' se dit « avoir lieu » en français.","distractor_why":{"d0":"« annulation (n. f.) » signifie 'cancellation', pas 'to take place'.","d1":"« fait (n. m.) » signifie 'fact', pas 'to take place'.","d2":"« se tenir » signifie 'to be held', pas 'to take place'."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « avoir lieu » avec un synonyme proche"]},"tip":{"memory_aid":"'to take place' → « avoir lieu ».","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["événement (n. m.)","annulation (n. f.)"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_ef_11","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.6,"prompt":{"fr":"'to go off'","instructions_en":"How do you say this in French? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["dérouler – se dérouler"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[{"value":"dérouler – se dérouler","tag":"correct"},{"value":"fait (n. m.)","tag":"d0"},{"value":"annulation (n. f.)","tag":"d1"},{"value":"arriver","tag":"d2"}],"explanation":{"correct_why":"'to go off' se dit « dérouler – se dérouler » en français.","distractor_why":{"d0":"« fait (n. m.) » signifie 'fact', pas 'to go off'.","d1":"« annulation (n. f.) » signifie 'cancellation', pas 'to go off'.","d2":"« arriver » signifie 'to happen', pas 'to go off'."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « dérouler – se dérouler » avec un synonyme proche"]},"tip":{"memory_aid":"'to go off' → « dérouler – se dérouler ».","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["annulation (n. f.)","se tenir"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_ef_12","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.6,"prompt":{"fr":"'event'","instructions_en":"How do you say this in French? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["événement (n. m.)"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[{"value":"événement (n. m.)","tag":"correct"},{"value":"arriver","tag":"d0"},{"value":"fait (n. m.)","tag":"d1"},{"value":"annulation (n. f.)","tag":"d2"}],"explanation":{"correct_why":"'event' se dit « événement (n. m.) » en français.","distractor_why":{"d0":"« arriver » signifie 'to happen', pas 'event'.","d1":"« fait (n. m.) » signifie 'fact', pas 'event'.","d2":"« annulation (n. f.) » signifie 'cancellation', pas 'event'."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « événement (n. m.) » avec un synonyme proche"]},"tip":{"memory_aid":"'event' → « événement ».","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["fait (n. m.)","avoir lieu"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_ef_13","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.6,"prompt":{"fr":"'fact'","instructions_en":"How do you say this in French? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["fait (n. m.)"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[{"value":"fait (n. m.)","tag":"correct"},{"value":"dérouler – se dérouler","tag":"d0"},{"value":"avoir lieu","tag":"d1"},{"value":"arriver","tag":"d2"}],"explanation":{"correct_why":"'fact' se dit « fait (n. m.) » en français.","distractor_why":{"d0":"« dérouler – se dérouler » signifie 'to go off', pas 'fact'.","d1":"« avoir lieu » signifie 'to take place', pas 'fact'.","d2":"« arriver » signifie 'to happen', pas 'fact'."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « fait (n. m.) » avec un synonyme proche"]},"tip":{"memory_aid":"'fact' → « fait ».","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["événement (n. m.)","arriver"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_ef_14","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"easy","type":"mcq_single","status":"live","estTimeSec":18,"irtB":-0.6,"prompt":{"fr":"'to be held'","instructions_en":"How do you say this in French? (PFL2 source vocabulary)"},"answer":{"type":"choice","accepted":["se tenir"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[{"value":"se tenir","tag":"correct"},{"value":"avoir lieu","tag":"d0"},{"value":"fait (n. m.)","tag":"d1"},{"value":"événement (n. m.)","tag":"d2"}],"explanation":{"correct_why":"'to be held' se dit « se tenir » en français.","distractor_why":{"d0":"« avoir lieu » signifie 'to take place', pas 'to be held'.","d1":"« fait (n. m.) » signifie 'fact', pas 'to be held'.","d2":"« événement (n. m.) » signifie 'event', pas 'to be held'."},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14 (SC102-2/1-2-2005F).","common_mistakes":["confondre « se tenir » avec un synonyme proche"]},"tip":{"memory_aid":"'to be held' → « se tenir ».","pattern":"Vocabulaire enseigné dans cet objectif.","similar":["arriver","fait (n. m.)"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}},{"id":"itm_of14_voc_match_15","objectiveId":"OF14","skill":"vocabulary","grammarConcepts":[],"vocabDomains":["workplace","scheduling"],"theme":"workplace","difficulty":"medium","type":"matching","status":"live","estTimeSec":55,"irtB":0,"prompt":{"fr":"Associez chaque terme français à son sens anglais.","instructions_en":"Match each French term to its English meaning. (PFL2 source vocabulary)","left":["avoir lieu","dérouler – se dérouler","fait (n. m.)","arriver","événement (n. m.)"],"right":["to take place","to go off","fact","to happen","event"]},"answer":{"type":"sequence","accepted":["to take place to go off fact to happen event"],"normalizer":"fr_accent_insensitive_trim_lower"},"distractors":[],"explanation":{"correct_why":"« avoir lieu » = to take place; « dérouler – se dérouler » = to go off; « fait (n. m.) » = fact; « arriver » = to happen; « événement (n. m.) » = event.","distractor_why":{},"grammar_rule":"Vocabulaire du programme PFL2 (Lexique).","vocab_notes":"Lexique OF14.","common_mistakes":["confondre des termes proches"]},"tip":{"memory_aid":"Révisez le lexique de l'objectif.","pattern":"terme français ↔ sens anglais.","similar":["avoir lieu","dérouler – se dérouler"]},"trace":{"sourceDocument":"SC102-2/1-2-2005F","trainingObjective":"OF14","level":"A","page":null,"topicFr":"S’informer ou informer d’un événement","topicEn":"To give or ask information about events and happenings","vocabularySet":"Lexique — OF14","grammarConcepts":[]}}]}
+{
+  "schema": "items/v2",
+  "objectiveId": "OF14",
+  "sourceFidelity": true,
+  "source": {
+    "sourceDocument": "SC102-2/14-2005F",
+    "lexique": "SC102-2/1-2-2005F",
+    "counts": {
+      "source": 17,
+      "vocab": 15
+    }
+  },
+  "items": [
+    {
+      "id": "itm_of14_src_a4_9",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 30,
+      "irtB": 0,
+      "prompt": {
+        "fr": "––___ une rencontre entre monsieur Champagne et monsieur Turcotte demain à 9 h",
+        "instructions_en": "Complete the blank (verbatim PFL2 source exercise)."
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il y aura l’annulation"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "La réponse attendue est « Il y aura l’annulation ». -er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "distractor_why": {},
+        "grammar_rule": "-er : -e, -es, -e, -ons, -ez, -ent (travailler → je travaille).",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 4).",
+        "common_mistakes": [
+          "se tromper de forme selon le contexte"
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous → -ons / -vons for avoir.",
+        "pattern": "Each subject has one avoir form.",
+        "similar": [
+          "Nous avons un dossier.",
+          "Vous avez le rapport."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 4,
+        "concept": "present"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "present"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_1",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Un accident s’est produit au coin de la rue.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il s’est produit un accident au coin de la rue."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il s’est produit un accident au coin de la rue. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_2",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "De nombreux changements sont survenus au bureau.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est survenu de nombreux changements au bureau."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est survenu de nombreux changements au bureau. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_4",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Une nouvelle employée est arrivée.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il est arrivé une nouvelle employée."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il est arrivé une nouvelle employée. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_5",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Plusieurs réunions se tiennent simultanément.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se tient plusieurs réunions simultanément."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se tient plusieurs réunions simultanément. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_6",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Un spectacle se déroule présentement.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se déroule un spectacle présentement."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se déroule un spectacle présentement. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_7",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Des choses étonnantes se passent dans ce pays.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se passe des choses étonnantes dans ce pays."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se passe des choses étonnantes dans ce pays. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_8",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Un congrès se tient près d’ici.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se tient un congrès près d’ici."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se tient un congrès près d’ici. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_9",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Des incidents se produisent chaque samedi.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il se produit des incidents chaque samedi."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il se produit des incidents chaque samedi. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a6_10",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Des coïncidences curieuses arrivent parfois.",
+        "instructions_en": "Rewrite the sentence using the grammar transformation targeted by this item. (Source task: Transformez la phrase selon le modèle.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il arrive parfois des coïncidences curieuses."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il arrive parfois des coïncidences curieuses. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 6).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 6,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_1",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Qu’est-ce qui est arrivé hier soir?",
+        "instructions_en": "Decide whether the two statements have the same meaning. (Source task: Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Qu’est-ce qui s’est passé hier soir?"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Qu’est-ce qui s’est passé hier soir? ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_2",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Des entrevues de sélection se déroulent demain matin.",
+        "instructions_en": "Decide whether the two statements have the same meaning. (Source task: Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Des entrevues de sélection ont lieu demain matin."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Des entrevues de sélection ont lieu demain matin. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_5",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "On prévoit plusieurs visites de la directrice générale.",
+        "instructions_en": "Decide whether the two statements have the same meaning. (Source task: Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "Il y a eu plusieurs visites de la directrice générale."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « Il y a eu plusieurs visites de la directrice générale. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_6",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "Il est arrivé de nombreux accidents sur cette route-là.",
+        "instructions_en": "Decide whether the two statements have the same meaning. (Source task: Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "De nombreux accidents sont arrivés sur cette route-là."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « De nombreux accidents sont arrivés sur cette route-là. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_7",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "L’annulation du spectacle est officielle.",
+        "instructions_en": "Decide whether the two statements have the same meaning. (Source task: Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La présentation du spectacle est officielle."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La présentation du spectacle est officielle. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a8_8",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La partie de baseball a été annulée à 8 h.",
+        "instructions_en": "Decide whether the two statements have the same meaning. (Source task: Indiquez si la phrase enregistrée a le même sens que la phrase écrite.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "La partie de baseball a eu lieu à 8 h."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « La partie de baseball a eu lieu à 8 h. ». il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 8).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 8,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_src_a10_1",
+      "objectiveId": "OF14",
+      "skill": "writing",
+      "grammarConcepts": [
+        "impersonal"
+      ],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "status": "live",
+      "estTimeSec": 45,
+      "irtB": 0.5,
+      "prompt": {
+        "fr": "La réunion s’est déroulée ce matin.",
+        "instructions_en": "Decide whether the written statement matches the recorded statement or mini-dialogue. (Source task: Indiquez si l’énoncé correspond au mini-dialogue entendu.)"
+      },
+      "answer": {
+        "type": "text",
+        "accepted": [
+          "––Est-ce que la réunion a eu lieu ce matin?",
+          "non ––Non, elle a été annulée."
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Transformation attendue : « ––Est-ce que la réunion a eu lieu ce matin? » (ou « non ––Non, elle a été annulée. »). il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "distractor_why": {},
+        "grammar_rule": "il faut + infinitif (il faut vérifier) ou il faut que + subjonctif.",
+        "vocab_notes": "Exercice authentique du programme PFL2 (SC102-2/14-2005F, activité 10).",
+        "common_mistakes": [
+          "ne pas appliquer correctement la transformation demandée"
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faut + infinitif = must.",
+        "pattern": "Il faut + infinitif.",
+        "similar": [
+          "Il faut partir.",
+          "Il faut signer le formulaire."
+        ]
+      },
+      "source": {
+        "verbatim": true,
+        "catalogue": "SC102-2/14-2005F",
+        "activity": 10,
+        "concept": "impersonal"
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/14-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": null,
+        "grammarConcepts": [
+          "impersonal"
+        ]
+      }
+    },
+    {
+      "id": "itm_of14_voc_fe_1",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.8,
+      "prompt": {
+        "fr": "« annulation (n. f.) »",
+        "instructions_en": "What does this mean in English? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "cancellation"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "cancellation",
+          "tag": "correct"
+        },
+        {
+          "value": "event",
+          "tag": "d0"
+        },
+        {
+          "value": "to go off",
+          "tag": "d1"
+        },
+        {
+          "value": "to happen",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« annulation (n. f.) » signifie 'cancellation'.",
+        "distractor_why": {
+          "d0": "'event' est le sens de « événement (n. m.) », pas de « annulation (n. f.) ».",
+          "d1": "'to go off' est le sens de « dérouler – se dérouler », pas de « annulation (n. f.) ».",
+          "d2": "'to happen' est le sens de « arriver », pas de « annulation (n. f.) »."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « annulation (n. f.) » avec un terme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "« annulation » ↔ 'cancellation'.",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "se tenir",
+          "événement (n. m.)"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_fe_2",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.8,
+      "prompt": {
+        "fr": "« arriver »",
+        "instructions_en": "What does this mean in English? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "to happen"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "to happen",
+          "tag": "correct"
+        },
+        {
+          "value": "event",
+          "tag": "d0"
+        },
+        {
+          "value": "fact",
+          "tag": "d1"
+        },
+        {
+          "value": "to go off",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« arriver » signifie 'to happen'.",
+        "distractor_why": {
+          "d0": "'event' est le sens de « événement (n. m.) », pas de « arriver ».",
+          "d1": "'fact' est le sens de « fait (n. m.) », pas de « arriver ».",
+          "d2": "'to go off' est le sens de « dérouler – se dérouler », pas de « arriver »."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « arriver » avec un terme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "« arriver » ↔ 'to happen'.",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "fait (n. m.)",
+          "dérouler – se dérouler"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_fe_3",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.8,
+      "prompt": {
+        "fr": "« avoir lieu »",
+        "instructions_en": "What does this mean in English? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "to take place"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "to take place",
+          "tag": "correct"
+        },
+        {
+          "value": "to happen",
+          "tag": "d0"
+        },
+        {
+          "value": "cancellation",
+          "tag": "d1"
+        },
+        {
+          "value": "to go off",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« avoir lieu » signifie 'to take place'.",
+        "distractor_why": {
+          "d0": "'to happen' est le sens de « arriver », pas de « avoir lieu ».",
+          "d1": "'cancellation' est le sens de « annulation (n. f.) », pas de « avoir lieu ».",
+          "d2": "'to go off' est le sens de « dérouler – se dérouler », pas de « avoir lieu »."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « avoir lieu » avec un terme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "« avoir lieu » ↔ 'to take place'.",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "annulation (n. f.)",
+          "événement (n. m.)"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_fe_4",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.8,
+      "prompt": {
+        "fr": "« dérouler – se dérouler »",
+        "instructions_en": "What does this mean in English? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "to go off"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "to go off",
+          "tag": "correct"
+        },
+        {
+          "value": "cancellation",
+          "tag": "d0"
+        },
+        {
+          "value": "to be held",
+          "tag": "d1"
+        },
+        {
+          "value": "to happen",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« dérouler – se dérouler » signifie 'to go off'.",
+        "distractor_why": {
+          "d0": "'cancellation' est le sens de « annulation (n. f.) », pas de « dérouler – se dérouler ».",
+          "d1": "'to be held' est le sens de « se tenir », pas de « dérouler – se dérouler ».",
+          "d2": "'to happen' est le sens de « arriver », pas de « dérouler – se dérouler »."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « dérouler – se dérouler » avec un terme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "« dérouler – se dérouler » ↔ 'to go off'.",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "avoir lieu",
+          "événement (n. m.)"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_fe_5",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.8,
+      "prompt": {
+        "fr": "« événement (n. m.) »",
+        "instructions_en": "What does this mean in English? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "event"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "event",
+          "tag": "correct"
+        },
+        {
+          "value": "to go off",
+          "tag": "d0"
+        },
+        {
+          "value": "to happen",
+          "tag": "d1"
+        },
+        {
+          "value": "to be held",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« événement (n. m.) » signifie 'event'.",
+        "distractor_why": {
+          "d0": "'to go off' est le sens de « dérouler – se dérouler », pas de « événement (n. m.) ».",
+          "d1": "'to happen' est le sens de « arriver », pas de « événement (n. m.) ».",
+          "d2": "'to be held' est le sens de « se tenir », pas de « événement (n. m.) »."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « événement (n. m.) » avec un terme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "« événement » ↔ 'event'.",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "fait (n. m.)",
+          "se tenir"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_fe_6",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.8,
+      "prompt": {
+        "fr": "« fait (n. m.) »",
+        "instructions_en": "What does this mean in English? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "fact"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "fact",
+          "tag": "correct"
+        },
+        {
+          "value": "to be held",
+          "tag": "d0"
+        },
+        {
+          "value": "event",
+          "tag": "d1"
+        },
+        {
+          "value": "to take place",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« fait (n. m.) » signifie 'fact'.",
+        "distractor_why": {
+          "d0": "'to be held' est le sens de « se tenir », pas de « fait (n. m.) ».",
+          "d1": "'event' est le sens de « événement (n. m.) », pas de « fait (n. m.) ».",
+          "d2": "'to take place' est le sens de « avoir lieu », pas de « fait (n. m.) »."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « fait (n. m.) » avec un terme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "« fait » ↔ 'fact'.",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "se tenir",
+          "dérouler – se dérouler"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_fe_7",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.8,
+      "prompt": {
+        "fr": "« se tenir »",
+        "instructions_en": "What does this mean in English? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "to be held"
+        ],
+        "normalizer": "trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "to be held",
+          "tag": "correct"
+        },
+        {
+          "value": "cancellation",
+          "tag": "d0"
+        },
+        {
+          "value": "event",
+          "tag": "d1"
+        },
+        {
+          "value": "to go off",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "« se tenir » signifie 'to be held'.",
+        "distractor_why": {
+          "d0": "'cancellation' est le sens de « annulation (n. f.) », pas de « se tenir ».",
+          "d1": "'event' est le sens de « événement (n. m.) », pas de « se tenir ».",
+          "d2": "'to go off' est le sens de « dérouler – se dérouler », pas de « se tenir »."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « se tenir » avec un terme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "« se tenir » ↔ 'to be held'.",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "annulation (n. f.)",
+          "événement (n. m.)"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_ef_8",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "'cancellation'",
+        "instructions_en": "How do you say this in French? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "annulation (n. f.)"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "annulation (n. f.)",
+          "tag": "correct"
+        },
+        {
+          "value": "se tenir",
+          "tag": "d0"
+        },
+        {
+          "value": "dérouler – se dérouler",
+          "tag": "d1"
+        },
+        {
+          "value": "fait (n. m.)",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "'cancellation' se dit « annulation (n. f.) » en français.",
+        "distractor_why": {
+          "d0": "« se tenir » signifie 'to be held', pas 'cancellation'.",
+          "d1": "« dérouler – se dérouler » signifie 'to go off', pas 'cancellation'.",
+          "d2": "« fait (n. m.) » signifie 'fact', pas 'cancellation'."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « annulation (n. f.) » avec un synonyme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "'cancellation' → « annulation ».",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "fait (n. m.)",
+          "se tenir"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_ef_9",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "'to happen'",
+        "instructions_en": "How do you say this in French? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "arriver"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "arriver",
+          "tag": "correct"
+        },
+        {
+          "value": "se tenir",
+          "tag": "d0"
+        },
+        {
+          "value": "événement (n. m.)",
+          "tag": "d1"
+        },
+        {
+          "value": "dérouler – se dérouler",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "'to happen' se dit « arriver » en français.",
+        "distractor_why": {
+          "d0": "« se tenir » signifie 'to be held', pas 'to happen'.",
+          "d1": "« événement (n. m.) » signifie 'event', pas 'to happen'.",
+          "d2": "« dérouler – se dérouler » signifie 'to go off', pas 'to happen'."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « arriver » avec un synonyme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "'to happen' → « arriver ».",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "événement (n. m.)",
+          "avoir lieu"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_ef_10",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "'to take place'",
+        "instructions_en": "How do you say this in French? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "avoir lieu"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "avoir lieu",
+          "tag": "correct"
+        },
+        {
+          "value": "annulation (n. f.)",
+          "tag": "d0"
+        },
+        {
+          "value": "fait (n. m.)",
+          "tag": "d1"
+        },
+        {
+          "value": "se tenir",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "'to take place' se dit « avoir lieu » en français.",
+        "distractor_why": {
+          "d0": "« annulation (n. f.) » signifie 'cancellation', pas 'to take place'.",
+          "d1": "« fait (n. m.) » signifie 'fact', pas 'to take place'.",
+          "d2": "« se tenir » signifie 'to be held', pas 'to take place'."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « avoir lieu » avec un synonyme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "'to take place' → « avoir lieu ».",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "événement (n. m.)",
+          "annulation (n. f.)"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_ef_11",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "'to go off'",
+        "instructions_en": "How do you say this in French? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "dérouler – se dérouler"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "dérouler – se dérouler",
+          "tag": "correct"
+        },
+        {
+          "value": "fait (n. m.)",
+          "tag": "d0"
+        },
+        {
+          "value": "annulation (n. f.)",
+          "tag": "d1"
+        },
+        {
+          "value": "arriver",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "'to go off' se dit « dérouler – se dérouler » en français.",
+        "distractor_why": {
+          "d0": "« fait (n. m.) » signifie 'fact', pas 'to go off'.",
+          "d1": "« annulation (n. f.) » signifie 'cancellation', pas 'to go off'.",
+          "d2": "« arriver » signifie 'to happen', pas 'to go off'."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « dérouler – se dérouler » avec un synonyme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "'to go off' → « dérouler – se dérouler ».",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "annulation (n. f.)",
+          "se tenir"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_ef_12",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "'event'",
+        "instructions_en": "How do you say this in French? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "événement (n. m.)"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "événement (n. m.)",
+          "tag": "correct"
+        },
+        {
+          "value": "arriver",
+          "tag": "d0"
+        },
+        {
+          "value": "fait (n. m.)",
+          "tag": "d1"
+        },
+        {
+          "value": "annulation (n. f.)",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "'event' se dit « événement (n. m.) » en français.",
+        "distractor_why": {
+          "d0": "« arriver » signifie 'to happen', pas 'event'.",
+          "d1": "« fait (n. m.) » signifie 'fact', pas 'event'.",
+          "d2": "« annulation (n. f.) » signifie 'cancellation', pas 'event'."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « événement (n. m.) » avec un synonyme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "'event' → « événement ».",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "fait (n. m.)",
+          "avoir lieu"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_ef_13",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "'fact'",
+        "instructions_en": "How do you say this in French? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "fait (n. m.)"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "fait (n. m.)",
+          "tag": "correct"
+        },
+        {
+          "value": "dérouler – se dérouler",
+          "tag": "d0"
+        },
+        {
+          "value": "avoir lieu",
+          "tag": "d1"
+        },
+        {
+          "value": "arriver",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "'fact' se dit « fait (n. m.) » en français.",
+        "distractor_why": {
+          "d0": "« dérouler – se dérouler » signifie 'to go off', pas 'fact'.",
+          "d1": "« avoir lieu » signifie 'to take place', pas 'fact'.",
+          "d2": "« arriver » signifie 'to happen', pas 'fact'."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « fait (n. m.) » avec un synonyme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "'fact' → « fait ».",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "événement (n. m.)",
+          "arriver"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_ef_14",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "easy",
+      "type": "mcq_single",
+      "status": "live",
+      "estTimeSec": 18,
+      "irtB": -0.6,
+      "prompt": {
+        "fr": "'to be held'",
+        "instructions_en": "How do you say this in French? (PFL2 source vocabulary)"
+      },
+      "answer": {
+        "type": "choice",
+        "accepted": [
+          "se tenir"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [
+        {
+          "value": "se tenir",
+          "tag": "correct"
+        },
+        {
+          "value": "avoir lieu",
+          "tag": "d0"
+        },
+        {
+          "value": "fait (n. m.)",
+          "tag": "d1"
+        },
+        {
+          "value": "événement (n. m.)",
+          "tag": "d2"
+        }
+      ],
+      "explanation": {
+        "correct_why": "'to be held' se dit « se tenir » en français.",
+        "distractor_why": {
+          "d0": "« avoir lieu » signifie 'to take place', pas 'to be held'.",
+          "d1": "« fait (n. m.) » signifie 'fact', pas 'to be held'.",
+          "d2": "« événement (n. m.) » signifie 'event', pas 'to be held'."
+        },
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14 (SC102-2/1-2-2005F).",
+        "common_mistakes": [
+          "confondre « se tenir » avec un synonyme proche"
+        ]
+      },
+      "tip": {
+        "memory_aid": "'to be held' → « se tenir ».",
+        "pattern": "Vocabulaire enseigné dans cet objectif.",
+        "similar": [
+          "arriver",
+          "fait (n. m.)"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    },
+    {
+      "id": "itm_of14_voc_match_15",
+      "objectiveId": "OF14",
+      "skill": "vocabulary",
+      "grammarConcepts": [],
+      "vocabDomains": [
+        "workplace",
+        "scheduling"
+      ],
+      "theme": "workplace",
+      "difficulty": "medium",
+      "type": "matching",
+      "status": "live",
+      "estTimeSec": 55,
+      "irtB": 0,
+      "prompt": {
+        "fr": "Associez chaque terme français à son sens anglais.",
+        "instructions_en": "Match each French term to its English meaning. (PFL2 source vocabulary)",
+        "left": [
+          "avoir lieu",
+          "dérouler – se dérouler",
+          "fait (n. m.)",
+          "arriver",
+          "événement (n. m.)"
+        ],
+        "right": [
+          "to take place",
+          "to go off",
+          "fact",
+          "to happen",
+          "event"
+        ]
+      },
+      "answer": {
+        "type": "sequence",
+        "accepted": [
+          "to take place to go off fact to happen event"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower"
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« avoir lieu » = to take place; « dérouler – se dérouler » = to go off; « fait (n. m.) » = fact; « arriver » = to happen; « événement (n. m.) » = event.",
+        "distractor_why": {},
+        "grammar_rule": "Vocabulaire du programme PFL2 (Lexique).",
+        "vocab_notes": "Lexique OF14.",
+        "common_mistakes": [
+          "confondre des termes proches"
+        ]
+      },
+      "tip": {
+        "memory_aid": "Révisez le lexique de l'objectif.",
+        "pattern": "terme français ↔ sens anglais.",
+        "similar": [
+          "avoir lieu",
+          "dérouler – se dérouler"
+        ]
+      },
+      "trace": {
+        "sourceDocument": "SC102-2/1-2-2005F",
+        "trainingObjective": "OF14",
+        "level": "A",
+        "page": null,
+        "topicFr": "S’informer ou informer d’un événement",
+        "topicEn": "To give or ask information about events and happenings",
+        "vocabularySet": "Lexique — OF14",
+        "grammarConcepts": []
+      }
+    }
+  ]
+}

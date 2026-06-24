@@ -13,35 +13,319 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF7 — To give directions. Source document SC102-2/7-2005F. Grammar taught: prepositions, present, imperative. Vocabulary: the OF7 section of the PFL2 Lexique. 98 questions, all traceable to the PFL2 source (24 verbatim source activities + 74 from the OF7 Lexique).",
-        "fr": "Orienter quelqu’un dans l’espace. Document source SC102-2/7-2005F. Grammaire enseignée : prepositions, present, imperative. Vocabulaire : section OF7 du Lexique PFL2."
+        "en": "OF7 teaches how to ask for directions, give route instructions, understand movement directions, and verify information while orienting someone in space.",
+        "fr": "L’OF7 enseigne comment demander un trajet, donner des directives, comprendre des indications de déplacement et vérifier l’information lorsqu’on oriente quelqu’un dans l’espace."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Les mots clés sont monter, descendre, entrer, sortir, tourner, traverser, continuer, suivre, passer, prendre, aller jusqu’à, passer par, à droite, à gauche, tout droit et au bout.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): prepositions, present, imperative.",
+        "summary": "Cet objectif combine les verbes aller/venir, les verbes de déplacement, l’impératif, les prépositions de trajet, les pronoms y/en et les questions comment, par où et par quel chemin.",
         "charts": [],
-        "points": []
+        "points": [
+          "Aller au présent : je vais, tu vas, il/elle/on va, nous allons, vous allez, ils/elles vont.",
+          "Venir au présent : je viens, tu viens, il/elle/on vient, nous venons, vous venez, ils/elles viennent.",
+          "L’impératif sert à donner une directive : Tournez à droite; Prenez l’ascenseur; Continue tout droit.",
+          "Y remplace une destination introduite par à : Je vais au bureau -> J’y vais.",
+          "En remplace une origine introduite par de : Je sors du bureau -> J’en sors.",
+          "Les prépositions de trajet incluent jusqu’à, par, devant, dans, vers, de et à.",
+          "Pour demander un trajet : Comment est-ce qu’on va...? Par où passe-t-on...? Par quel chemin...?"
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Dans les directives, écoutez les groupes de souffle : Prenez la rue Nicholas, puis le Queensway, vers l’est.",
+          "Les enchaînements autour de y et en sont courts et rapides : j’y vais, j’en sors."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander son chemin",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Pardon, comment est-ce qu’on va à la gare?",
+              "en": "Excuse me, how do we get to the train station?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Prenez la rue Nicholas, puis le Queensway, vers l’est. C’est à droite.",
+              "en": "Take Nicholas Street, then the Queensway east. It is on the right."
+            }
+          ]
+        },
+        {
+          "title": "Dans un édifice",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Excusez-moi. Je cherche le bureau de madame Sauvé.",
+              "en": "Excuse me. I’m looking for Ms. Sauvé’s office."
+            },
+            {
+              "speaker": "B",
+              "fr": "Allez jusqu’au bout du corridor.",
+              "en": "Go to the end of the hallway."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Activité 4 — Verbes de déplacement",
+          "table": {
+            "headers": [
+              "Verbe",
+              "Usage"
+            ],
+            "rows": [
+              [
+                "monter",
+                "aller vers le haut"
+              ],
+              [
+                "descendre",
+                "aller vers le bas"
+              ],
+              [
+                "entrer",
+                "aller à l’intérieur"
+              ],
+              [
+                "sortir",
+                "aller à l’extérieur"
+              ],
+              [
+                "tourner",
+                "changer de direction"
+              ],
+              [
+                "traverser",
+                "passer de l’autre côté"
+              ],
+              [
+                "continuer",
+                "poursuivre le trajet"
+              ],
+              [
+                "suivre",
+                "prendre le même chemin"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 8 — Aller et venir",
+          "table": {
+            "headers": [
+              "Sujet",
+              "aller",
+              "venir"
+            ],
+            "rows": [
+              [
+                "je",
+                "vais",
+                "viens"
+              ],
+              [
+                "tu",
+                "vas",
+                "viens"
+              ],
+              [
+                "il / elle / on",
+                "va",
+                "vient"
+              ],
+              [
+                "nous",
+                "allons",
+                "venons"
+              ],
+              [
+                "vous",
+                "allez",
+                "venez"
+              ],
+              [
+                "ils / elles",
+                "vont",
+                "viennent"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 13 — Impératif de déplacement",
+          "table": {
+            "headers": [
+              "Infinitif",
+              "tu",
+              "vous",
+              "nous"
+            ],
+            "rows": [
+              [
+                "prendre",
+                "prends",
+                "prenez",
+                "prenons"
+              ],
+              [
+                "suivre",
+                "suis",
+                "suivez",
+                "suivons"
+              ],
+              [
+                "sortir",
+                "sors",
+                "sortez",
+                "sortons"
+              ],
+              [
+                "aller",
+                "va",
+                "allez",
+                "allons"
+              ],
+              [
+                "continuer",
+                "continue",
+                "continuez",
+                "continuons"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 21 et 23 — Y et en",
+          "table": {
+            "headers": [
+              "Pronom",
+              "Remplace",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "y",
+                "à + lieu / destination",
+                "Je vais au laboratoire -> J’y vais."
+              ],
+              [
+                "y",
+                "arriver à + lieu",
+                "Elle arrive à l’ascenseur -> Elle y arrive."
+              ],
+              [
+                "en",
+                "de + lieu / origine",
+                "Je sors du bureau -> J’en sors."
+              ],
+              [
+                "en",
+                "venir de + lieu",
+                "On vient du musée -> On en vient."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 29 — Demander un trajet",
+          "table": {
+            "headers": [
+              "Formule",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Comment est-ce que je vais...?",
+                "Comment est-ce que je vais au gymnase?"
+              ],
+              [
+                "Par où est-ce qu’on passe...?",
+                "Par où est-ce qu’on passe pour aller à l’aéroport?"
+              ],
+              [
+                "Par quel chemin...?",
+                "Par quel chemin est-ce qu’on va à l’hôtel Ottawa?"
+              ],
+              [
+                "Pour aller à..., par quelle route...?",
+                "Pour aller à Montréal, par quelle route est-ce que je passe?"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 35 — Formules de courtoisie",
+          "table": {
+            "headers": [
+              "Fonction",
+              "Formules"
+            ],
+            "rows": [
+              [
+                "aborder",
+                "Pardon. / Excusez-moi. / Bonjour."
+              ],
+              [
+                "offrir de l’aide",
+                "Est-ce que je peux vous aider? / Vous cherchez quelque chose?"
+              ],
+              [
+                "remercier",
+                "Merci. / Merci beaucoup. / Je vous remercie."
+              ],
+              [
+                "répondre aux remerciements",
+                "Je vous en prie. / De rien."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 44 — Vérifier l’exactitude",
+          "table": {
+            "headers": [
+              "Situation",
+              "Formule"
+            ],
+            "rows": [
+              [
+                "vérifier un numéro",
+                "992-3606? C’est bien ça?"
+              ],
+              [
+                "corriger un numéro",
+                "Non. 3406."
+              ],
+              [
+                "vérifier une quantité",
+                "C’est bien 1000 chemises vertes que tu veux, aussi?"
+              ],
+              [
+                "vérifier une interprétation",
+                "Si je comprends bien, vous êtes pas mal débordés?"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "98 questions, all traceable to the PFL2 source (24 verbatim source activities + 74 from the OF7 Lexique).",
+      "coverage": "249 useful questions, all traceable to the PFL2 source (175 source activity questions + 74 from the OF7 Lexique). Low-value worksheet/audio recall items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 24
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 174
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 74
         }
       ],
-      "totalQuestions": 98
+      "totalQuestions": 248
     },
     "consolidation": {
       "sourceBooklet": {
@@ -88,35 +372,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 8,
+    "coveredElements": 27,
     "totalElements": 61,
     "convertible": {
-      "covered": 8,
+      "covered": 27,
       "total": 28
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        4,
-        5,
-        6,
-        8,
-        9,
-        11,
-        13,
-        14,
-        15,
-        16,
-        17,
-        24,
-        25,
-        29,
-        30,
-        31,
-        32,
-        33,
-        44
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -124,13 +388,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "7.4 Fonctions (function)",
-        "7.5 Stratégies de communication (strategy)",
-        "7.6 Fonctions (function)",
-        "7.7 Phonétique (phonetics)",
-        "7.8 Stratégies de communication (strategy)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

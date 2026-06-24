@@ -16,7 +16,7 @@
       "topicsFr": "Indicateurs d’obligation, de nécessité et de désirabilité",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 52,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of28_voc_fe_1",
         "itm_of28_voc_fe_2",
@@ -34,7 +34,7 @@
       "topicsFr": "Indicateurs d’importance",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 52,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of28_voc_fe_1",
         "itm_of28_voc_fe_2",
@@ -52,7 +52,7 @@
       "topicsFr": "Indicateurs d’utilité et d’inutilité",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 52,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of28_voc_fe_1",
         "itm_of28_voc_fe_2",
@@ -70,7 +70,7 @@
       "topicsFr": "Subjonctif ou infinitif après des expressions d’obligation, de nécessité et de désirabilité, d’importance, d’utilité et d’inutilité",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 39,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of28_src_a3_1",
         "itm_of28_src_a3_2",
@@ -222,15 +222,9 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 8,
+      "itemCount": 2,
       "linkedItems": [
-        "itm_of28_src_a11_2",
-        "itm_of28_src_a11_3",
-        "itm_of28_src_a11_4",
         "itm_of28_src_a11_5",
-        "itm_of28_src_a11_7",
-        "itm_of28_src_a11_8",
-        "itm_of28_src_a11_9",
         "itm_of28_src_a11_10"
       ]
     },

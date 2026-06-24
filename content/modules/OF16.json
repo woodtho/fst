@@ -13,27 +13,200 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF16 — To make and to respond to offers. Source document SC102-2/16-2005F. Grammar taught: present, passe_compose. Vocabulary: the OF16 section of the PFL2 Lexique. 20 questions, all traceable to the PFL2 source (1 verbatim source activities + 19 from the OF16 Lexique).",
-        "fr": "Faire une offre et réagir à une offre. Document source SC102-2/16-2005F. Grammaire enseignée : present, passe_compose. Vocabulaire : section OF16 du Lexique PFL2."
+        "en": "OF16 teaches how to make an offer and respond to one. It covers direct and elliptical offers, accepting with short formulas, refusing politely or firmly, and recognizing whether an exchange is an offer or a request.",
+        "fr": "OF16 enseigne comment faire une offre et y réagir. Le module couvre les offres directes ou elliptiques, les formules courtes d'acceptation, les refus polis ou fermes, et la distinction entre une offre et une requête."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Le vocabulaire central comprend offrir, offre, offert, accepter, acceptation, refuser, refus, volontiers et ça marche. Les réactions fréquentes incluent bien sûr, avec plaisir, bonne idée, pourquoi pas, merci quand même, pas vraiment et pas question.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): present, passe_compose.",
+        "summary": "OF16 uses offrir in the present and passé composé, plus short spoken forms for offers, acceptances and refusals.",
         "charts": [],
-        "points": []
+        "points": [
+          "Offrir is conjugated like ouvrir: j'offre, tu offres, il offre, nous offrons, vous offrez, ils offrent.",
+          "In the passé composé, use avoir + offert: j'ai offert, elle a offert, ils ont offert.",
+          "An offer often uses a question: Est-ce que je peux vous aider? Je t'apporte le manuel?",
+          "When the context is clear, an offer can be elliptical: Un coup de main? Quelque chose à boire?",
+          "Accept with short formulas: oui, bien sûr, volontiers, avec plaisir, bonne idée, ça marche.",
+          "Refuse politely with merci quand même, non merci, pas vraiment, ça va comme ça.",
+          "Refuse firmly with jamais de la vie, pas question, absolument pas.",
+          "A request asks the other person to do something; an offer proposes help or something to the other person.",
+          "Softened refusals often include regret and a reason: Je regrette, je dois rencontrer la directrice."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In j'offre and il offre, keep the initial vowel clear after the apostrophe.",
+          "Short reactions like volontiers, bien sûr and ça marche should be practiced as complete chunks."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Offrir Et Accepter",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Je t'apporte le manuel?"
+            },
+            {
+              "speaker": "B",
+              "text": "Ah oui! Bonne idée."
+            },
+            {
+              "speaker": "A",
+              "text": "Est-ce que je peux aussi t'aider avec le rapport?"
+            },
+            {
+              "speaker": "B",
+              "text": "Volontiers, merci."
+            }
+          ]
+        },
+        {
+          "title": "Offrir Et Refuser",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Est-ce que je peux vous être utile?"
+            },
+            {
+              "speaker": "B",
+              "text": "Non merci, ça va comme ça."
+            },
+            {
+              "speaker": "A",
+              "text": "Quelque chose à grignoter?"
+            },
+            {
+              "speaker": "B",
+              "text": "Merci quand même, mais je n'ai pas faim."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Offrir Quelque Chose",
+          "table": {
+            "headers": [
+              "Forme",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Question complète",
+                "Est-ce que je peux vous offrir quelque chose?"
+              ],
+              [
+                "Question directe",
+                "Je t'apporte le manuel?"
+              ],
+              [
+                "Conditionnel",
+                "Est-ce que vous aimeriez suivre un stage?"
+              ],
+              [
+                "Forme courte",
+                "Un coup de main?"
+              ],
+              [
+                "Service",
+                "Est-ce que je peux vous être utile?"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Accepter",
+          "table": {
+            "headers": [
+              "Nuance",
+              "Formules"
+            ],
+            "rows": [
+              [
+                "Simple",
+                "O.K.; bon; d'accord"
+              ],
+              [
+                "Claire",
+                "bien sûr; sûrement; certainement"
+              ],
+              [
+                "Polie",
+                "volontiers; avec plaisir"
+              ],
+              [
+                "Enthousiaste",
+                "bonne idée; pourquoi pas; je ne dirais pas non"
+              ],
+              [
+                "Familière",
+                "ça marche; tu parles; et comment"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Refuser",
+          "table": {
+            "headers": [
+              "Nuance",
+              "Formules"
+            ],
+            "rows": [
+              [
+                "Polie",
+                "non merci; merci quand même"
+              ],
+              [
+                "Atténuée",
+                "je regrette; je suis désolé; ça tombe mal"
+              ],
+              [
+                "Neutre",
+                "pas vraiment; ça ne m'intéresse pas"
+              ],
+              [
+                "Forte",
+                "jamais de la vie; pas question; absolument pas"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Offrir Au Présent Et Au Passé",
+          "table": {
+            "headers": [
+              "Temps",
+              "Formes"
+            ],
+            "rows": [
+              [
+                "Présent",
+                "j'offre, tu offres, il offre, nous offrons, vous offrez, ils offrent"
+              ],
+              [
+                "Passé composé",
+                "j'ai offert, tu as offert, elle a offert, nous avons offert, ils ont offert"
+              ],
+              [
+                "Nom",
+                "une offre, une acceptation, un refus"
+              ],
+              [
+                "Verbes",
+                "offrir, accepter, refuser"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "20 questions, all traceable to the PFL2 source (1 verbatim source activities + 19 from the OF16 Lexique).",
+      "coverage": "26 useful questions, all traceable to the PFL2 source (7 source activity questions + 19 from the OF16 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
+          "title": "Activités du programme PFL2 (concept-focused)",
           "count": 1
         },
         {
@@ -87,23 +260,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 5,
+    "coveredElements": 12,
     "totalElements": 30,
     "convertible": {
-      "covered": 5,
+      "covered": 12,
       "total": 13
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        4,
-        7,
-        8,
-        9,
-        10,
-        15,
-        17
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -111,13 +276,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "16.3 Fonctions (function)",
-        "16.4 Fonctions (function)",
-        "16.5 Stratégies de communication (strategy)",
-        "16.6 Fonctions (function)",
-        "16.7 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         3,

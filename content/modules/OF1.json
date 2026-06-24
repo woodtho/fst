@@ -5,7 +5,7 @@
   "titleEn": "To identify yourself and other people",
   "level": "A",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/1-2005F",
     "text": "sources/text/OF01.txt"
@@ -13,35 +13,448 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF1 — To identify yourself and other people. Source document SC102-2/1-2005F. Grammar taught: present, pronouns, question_formation. Vocabulary: the OF1 section of the PFL2 Lexique. 111 questions, all traceable to the PFL2 source (48 verbatim source activities + 63 from the OF1 Lexique).",
-        "fr": "S’identifier et identifier des personnes. Document source SC102-2/1-2005F. Grammaire enseignée : present, pronouns, question_formation. Vocabulaire : section OF1 du Lexique PFL2."
+        "en": "OF1 — To identify yourself and other people. This full lesson covers personal identification, titles and professions, ministries and organizations, communication-repair strategies, subject pronouns, être and regular -er verbs in the present, question forms, tu/vous, third-person identification, spelling, numbers, and addresses.",
+        "fr": "S’identifier et identifier des personnes : nom, titre, profession, ministère ou organisme, stratégies de clarification, pronoms sujets, être et verbes en -er au présent, formes interrogatives, tutoiement/vouvoiement, présentation d’une tierce personne, alphabet, nombres et adresses."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "OF1 vocabulary includes names, job titles, professions, ministries, organizations, spelling terms, street/address terms, and the source lexicon shown below.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): present, pronouns, question_formation.",
+        "summary": "OF1 focuses on subject pronouns, être, regular -er verbs, question formation, tu/vous register choice, identity functions, spelling, and numbers.",
         "charts": [],
-        "points": []
+        "points": [
+          "Subject pronouns with être: je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont.",
+          "Regular -er present: je travaille, tu travailles, il/elle travaille, nous travaillons, vous travaillez, ils/elles travaillent.",
+          "Questions can use rising intonation, est-ce que, inversion with tu/vous, or question words.",
+          "Qui asks for a person; quel/quelle/quels/quelles agree with the noun: quel nom, quelle profession.",
+          "Use tu with friends, children, and familiar colleagues; use vous for strangers, superiors, formal service contexts, and courtesy.",
+          "Communication repair: ask someone to repeat, speak louder/slower, explain a word, translate a word, or spell a word.",
+          "Spelling support: accent aigu, accent grave, accent circonflexe, cédille, tréma, trait d’union, apostrophe, majuscule, minuscule."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In spoken French, je can reduce before a consonant: je travaille -> j(e) travaille.",
+          "Tu may reduce before a vowel: tu es -> t(u) es.",
+          "Il and ils often reduce in casual speech: il travaille -> i(l) travaille; ils travaillent -> i travaillent.",
+          "Practice spelling names aloud with letters and accents: B-L-A-I-S, H-O-U-L-E, accent aigu, trait d’union."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Activité 28 — Une soirée chez Marie",
+          "register": "mixed",
+          "lines": [
+            {
+              "speaker": "Marie",
+              "fr": "Ah! Bonsoir, Lilianne. Bonsoir, Richard. Entrez, entrez. Je suis contente de vous voir."
+            },
+            {
+              "speaker": "Bob",
+              "fr": "Bonsoir. Je m’appelle Bob Jackson. Et toi, comment t’appelles-tu?"
+            },
+            {
+              "speaker": "Julie",
+              "fr": "Julie. Julie Blondin."
+            },
+            {
+              "speaker": "Marie",
+              "fr": "Liliane, Richard, je vous présente monsieur et madame Legrand. Lilianne et Richard Plamondon, des amis."
+            },
+            {
+              "speaker": "Bob",
+              "fr": "Les gens qui arrivent, comment est-ce qu’ils s’appellent?"
+            },
+            {
+              "speaker": "Julie",
+              "fr": "Richard et Lilianne Plamondon. Lui, il est agronome, au ministère de l’Agriculture, et elle, elle est professeure."
+            },
+            {
+              "speaker": "Bob",
+              "fr": "Et la dame, là-bas, c’est qui?"
+            },
+            {
+              "speaker": "Julie",
+              "fr": "C’est madame Legrand. Elle est directrice de l’information à Patrimoine canadien."
+            },
+            {
+              "speaker": "Claude",
+              "fr": "Bonsoir. Vous êtes bien Lilianne Plamondon?"
+            },
+            {
+              "speaker": "Claude",
+              "fr": "Je me présente : Claude Roger. Je suis agent de formation à Transports Canada."
+            },
+            {
+              "speaker": "Lilianne",
+              "fr": "Voici mon mari, Richard."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.1 — Présenter un ami",
+          "register": "informal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Qui c’est, ce gars-là?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Tu ne connais pas Jean-Luc?"
+            },
+            {
+              "speaker": "A",
+              "fr": "Non."
+            },
+            {
+              "speaker": "B",
+              "fr": "Alors, viens... Je te présente Jean-Luc Amyot, un ami de collège."
+            },
+            {
+              "speaker": "A",
+              "fr": "Bonjour. Ça me fait plaisir de te rencontrer."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.2 — Identifier une personne au bureau",
+          "register": "neutral",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Le monsieur, là-bas, c’est l’agent de dotation?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Non, c’est Raymond Olivier, le nouveau comptable."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.3 — Se présenter sans rendez-vous",
+          "register": "formal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Bonjour, Madame. Je suis au bureau de monsieur Morissette?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Oui, Monsieur."
+            },
+            {
+              "speaker": "A",
+              "fr": "Je m’appelle Louis Beaulieu. Je n’ai pas de rendez-vous, mais j’aimerais rencontrer monsieur Morissette. Est-ce que c’est possible?"
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.4 — Vérifier une identité",
+          "register": "formal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Bonjour. Sergent Guy Lalonde, de la GRC."
+            },
+            {
+              "speaker": "B",
+              "fr": "Oui... Vous êtes ici pour quoi?"
+            },
+            {
+              "speaker": "A",
+              "fr": "C’est bien vous, Yvon Poulin?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Oui, c’est moi."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.5 — Présentation professionnelle",
+          "register": "formal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Bonjour. Permettez-moi de me présenter : Jean Cormier. Je suis fonctionnaire au ministère des Finances."
+            },
+            {
+              "speaker": "B",
+              "fr": "Enchanté. Je m’appelle Arthur Pigeon. Je suis ingénieur au ministère des Transports."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.6 — Demander qui appelle",
+          "register": "telephone",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Bureau des passeports. Good afternoon."
+            },
+            {
+              "speaker": "B",
+              "fr": "Oui. Bonjour. J’aimerais parler à madame Desmarais, s’il vous plaît."
+            },
+            {
+              "speaker": "A",
+              "fr": "Oui. C’est de la part de qui?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Ginette Lamontagne."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.7 — Chercher une personne",
+          "register": "neutral",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Je cherche Paul Mubamba. C’est vous?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Non. C’est le monsieur, là-bas."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.8 — Identifier le directeur",
+          "register": "formal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Bureau de la directrice. Good morning."
+            },
+            {
+              "speaker": "B",
+              "fr": "Bonjour, Monsieur. Pouvez-vous me dire qui est présentement directeur du service?"
+            },
+            {
+              "speaker": "A",
+              "fr": "C’est madame Colette Laplaine."
+            },
+            {
+              "speaker": "B",
+              "fr": "Merci."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.9 — Se présenter familièrement",
+          "register": "informal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Je m’appelle François Régimbald. Et toi?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Moi, c’est Lise Dompierre."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.10 — Présenter une nouvelle employée",
+          "register": "formal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Monsieur Richard, j’ai le plaisir de vous présenter madame Marie Pouliot, notre nouvelle employée."
+            },
+            {
+              "speaker": "B",
+              "fr": "Très heureux de vous connaître, Madame."
+            },
+            {
+              "speaker": "C",
+              "fr": "Et moi aussi, monsieur Richard."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.11 — Identifier l’appelant",
+          "register": "telephone informal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "C’est toi, Denis?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Oui, c’est moi. Euh... Qui parle?"
+            },
+            {
+              "speaker": "A",
+              "fr": "C’est moi, Monique. Monique Rouleau."
+            },
+            {
+              "speaker": "B",
+              "fr": "Ah oui! Comment ça va, Monique?"
+            },
+            {
+              "speaker": "A",
+              "fr": "Très bien, merci. Et toi?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Pas mal."
+            }
+          ]
+        },
+        {
+          "title": "Activité 31.12 — Présenter une tierce personne",
+          "register": "informal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Salut, Rolande. Comment vas-tu?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Pas mal du tout."
+            },
+            {
+              "speaker": "A",
+              "fr": "Et qui est avec toi?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Ah! excuse-moi. Je te présente Catherine, ma nièce."
+            },
+            {
+              "speaker": "C",
+              "fr": "Bonjour."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Activité 30 — Grille d’écoute",
+          "table": {
+            "headers": [
+              "",
+              "Nom",
+              "Prénom",
+              "Profession",
+              "Ministère",
+              "Ville"
+            ],
+            "rows": [
+              [
+                "M1",
+                "Lemay",
+                "Jeanne",
+                "médecin",
+                "s/o",
+                "s/o"
+              ],
+              [
+                "M2",
+                "___",
+                "Line",
+                "___",
+                "Santé Canada",
+                "___"
+              ],
+              [
+                "M3",
+                "Pouliot",
+                "___",
+                "___",
+                "___",
+                "Toronto"
+              ],
+              [
+                "M4",
+                "___",
+                "___",
+                "psychologue",
+                "___",
+                "___"
+              ],
+              [
+                "M5",
+                "Voyer",
+                "Pierre",
+                "___",
+                "Service correctionnel Canada",
+                "___"
+              ],
+              [
+                "M6",
+                "Giffard",
+                "___",
+                "___",
+                "___",
+                "Ottawa"
+              ],
+              [
+                "M7",
+                "___",
+                "Marc",
+                "pharmacien",
+                "___",
+                "___"
+              ]
+            ]
+          },
+          "en": "Use this grid as listening/role-play material for first meetings in a work group."
+        },
+        {
+          "fr": "Activité 32 — Demander à quelqu’un de s’identifier\nComment vous appelez-vous? = What is your name?\n(Quel est) votre nom? = What is your name?\nQu’est-ce que c’est, votre nom? = What is your name? (familier)\nVous vous appelez...? = Your name is...?\nVous êtes...? = You are...?\n(C’est) de la part de qui? = Who is calling?\nQui est à l’appareil? = Who is speaking?\n\nS’identifier / se présenter\nJe m’appelle Jeanne Bédard. / Je m’appelle...\n(Mon nom,) c’est... / Moi, c’est...\nJe me présente : Luc Proulx.\n(C’est) de la part de Pierre.\nIci Jean-Jacques Parent.\nHuguette Leroux, à l’appareil.",
+          "en": "Core OF1 formulas for asking a name and identifying yourself."
+        },
+        {
+          "fr": "Activité 32 — Vérifier l’identité d’une personne\nVous êtes bien Paul Olivier? / Vous êtes le technicien?\nC’est Jean? (téléphone)\nC’est bien madame Renaud? (téléphone)\nJacqueline, c’est bien vous?\nLa traductrice, c’est bien vous?",
+          "en": "Use « bien » to confirm that the person is the expected person."
+        },
+        {
+          "fr": "Activité 34 — Demander et vérifier l’identité d’une tierce personne\nComment est-ce qu’il s’appelle? / Comment s’appelle-t-elle?\nQui est-ce? / C’est qui? (familier)\nQui c’est, la nouvelle employée? (familier)\nComment il s’appelle, lui? (familier)\nC’est quoi, son nom? (familier)\nC’est bien Yves Tousignant? / Yves Tousignant, c’est bien son nom?\nC’est bien lui, le nouveau patron?\n\nIdentifier et présenter une tierce personne\nC’est Yves Tousignant.\nElle s’appelle Mélanie Vaillancourt.\nElle travaille à Statistique Canada.\nElle est analyste-programmeuse.\nJe vous présente notre nouveau secrétaire, Denis Blouin.\nJe te présente mon ami, Luc.\nJ’ai le plaisir / l’honneur de vous présenter notre conférencière, madame Paré.",
+          "en": "Third-person identity questions and presentation formulas."
+        },
+        {
+          "fr": "Stratégies de communication\nPourriez-vous répéter, s’il vous plaît?\nPouvez-vous parler plus fort / plus lentement, s’il vous plaît?\nQu’est-ce que ça veut dire? / Qu’est-ce que ça signifie?\nQuel est le mot pour...? / Comment dit-on ... en français?\nPourriez-vous épeler ce mot, s’il vous plaît?",
+          "en": "Communication-repair formulas from activity 11."
+        },
+        {
+          "fr": "Pronoms sujets et être\nJe suis / Tu es / Il est / Elle est / On est / Nous sommes / Vous êtes / Ils sont / Elles sont\nC’est = it is; Ce sont = they are.",
+          "en": "Subject pronouns and être in the present."
+        },
+        {
+          "fr": "Verbes en -er au présent\ntravailler: je travaille, tu travailles, il/elle/on travaille, nous travaillons, vous travaillez, ils/elles travaillent.\nMême modèle: demeurer, habiter, chercher, classer, remplacer, recommander.",
+          "en": "Regular -er present-tense pattern."
+        },
+        {
+          "fr": "Formes interrogatives\nElle est fonctionnaire? / Est-ce qu’elle est fonctionnaire? / Es-tu fonctionnaire?\nQui parle? / Qui est à l’appareil?\nQuel est votre nom? / Quelle est votre profession? / Quels sont vos prénoms? / Quelles sont vos fonctions?",
+          "en": "Yes/no questions and question-word forms."
+        },
+        {
+          "fr": "Tutoiement / vouvoiement\nTu: enfants, amis, collègues familiers.\nVous: personne inconnue, contexte de service, supérieur, personne plus âgée, enseignant, monsieur/madame + nom.",
+          "en": "Register guidance for tu and vous."
+        },
+        {
+          "fr": "Alphabet et orthographe\nSignalez les particularités: accent aigu, accent grave, accent circonflexe, cédille, tréma, trait d’union, apostrophe, majuscule, minuscule.\nExemple: Guèvremont = G-U-E accent grave V-R-E-M-O-N-T.",
+          "en": "Spelling names and street names."
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "111 questions, all traceable to the PFL2 source (48 verbatim source activities + 63 from the OF1 Lexique).",
+      "coverage": "239 useful questions, all traceable to the PFL2 source (176 source activity questions + 63 from the OF1 Lexique). Low-value worksheet/audio recall items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 48
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 175
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 111
+      "totalQuestions": 238
     },
     "consolidation": {
       "sourceBooklet": {
@@ -88,29 +501,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 12,
+    "coveredElements": 31,
     "totalElements": 59,
     "convertible": {
-      "covered": 12,
+      "covered": 25,
       "total": 26
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        5,
-        9,
-        10,
-        12,
-        19,
-        26,
-        28,
-        29,
-        30,
-        31,
-        38,
-        40,
-        41
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -130,30 +529,9 @@
       "activities": [
         1,
         2,
-        3,
         6,
         7,
-        11,
-        13,
-        16,
-        18,
-        20,
-        21,
-        22,
-        24,
-        27,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        39,
-        42,
-        43,
-        44,
-        45,
-        46
+        18
       ]
     }
   }

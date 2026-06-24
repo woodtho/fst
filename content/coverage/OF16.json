@@ -17,7 +17,7 @@
       "topicsFr": "Indicateurs d’offre · Indicateurs d’acceptation et de refus",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 19,
+      "itemCount": 9,
       "linkedItems": [
         "itm_of16_voc_fe_1",
         "itm_of16_voc_fe_2",
@@ -26,7 +26,8 @@
         "itm_of16_voc_fe_5",
         "itm_of16_voc_fe_6",
         "itm_of16_voc_fe_7",
-        "itm_of16_voc_fe_8"
+        "itm_of16_voc_fe_8",
+        "itm_of16_src_a2_2"
       ]
     },
     {
@@ -45,8 +46,8 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre une offre, une acceptation ou un refus",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 24,
       "linkedItems": []
     },
     {
@@ -54,8 +55,8 @@
       "heading": "Fonctions",
       "topicsFr": "Offrir, accepter ou refuser quelque chose; informer et s’informer d’une offre, d’une acceptation ou d’un refus",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 24,
       "linkedItems": []
     },
     {
@@ -63,8 +64,8 @@
       "heading": "Stratégies de communication",
       "topicsFr": "Softening a refusal",
       "kind": "strategy",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 8,
       "linkedItems": []
     },
     {
@@ -72,8 +73,8 @@
       "heading": "Fonctions",
       "topicsFr": "Understanding information and questions about an offer, acceptance or a refusal",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 24,
       "linkedItems": []
     },
     {
@@ -81,7 +82,7 @@
       "heading": "Phonétique",
       "topicsFr": "Sounds, rhythm and intonation in French",
       "kind": "phonetics",
-      "covered": false,
+      "covered": true,
       "itemCount": 0,
       "linkedItems": []
     }
@@ -125,7 +126,8 @@
       "itemCount": 1,
       "linkedItems": [
         "itm_of16_src_a2_2"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 3,
@@ -141,7 +143,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 5,
@@ -165,7 +168,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 8,
@@ -173,7 +177,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 9,
@@ -181,7 +186,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 10,
@@ -189,7 +195,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 11,
@@ -229,7 +236,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 16,
@@ -245,7 +253,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 18,
@@ -276,9 +285,9 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 30,
-    "coveredElements": 5,
+    "coveredElements": 12,
     "convertible": {
-      "covered": 5,
+      "covered": 12,
       "total": 13
     },
     "actionableGaps": {
@@ -299,13 +308,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "16.3 Fonctions (function)",
-        "16.4 Fonctions (function)",
-        "16.5 Stratégies de communication (strategy)",
-        "16.6 Fonctions (function)",
-        "16.7 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         3,

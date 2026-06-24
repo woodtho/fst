@@ -16,7 +16,7 @@
       "topicsFr": "Indicateurs non numériques de la quantité · Indicateurs de répartition",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 63,
+      "itemCount": 14,
       "linkedItems": [
         "itm_of12_voc_fe_1",
         "itm_of12_voc_fe_2",
@@ -25,7 +25,13 @@
         "itm_of12_voc_fe_5",
         "itm_of12_voc_fe_6",
         "itm_of12_voc_fe_7",
-        "itm_of12_voc_fe_8"
+        "itm_of12_voc_fe_8",
+        "itm_of12_src_a2_patch_1",
+        "itm_of12_src_a2_patch_2",
+        "itm_of12_src_a2_patch_3",
+        "itm_of12_src_a2_patch_4",
+        "itm_of12_src_a2_patch_5",
+        "itm_of12_src_a2_patch_6"
       ]
     },
     {
@@ -33,8 +39,8 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre une demande d’information et des informations relatives à la quantité et à la répartition (personnes, objets, documents)",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 24,
       "linkedItems": []
     },
     {
@@ -42,8 +48,8 @@
       "heading": "Fonctions",
       "topicsFr": "Demander et fournir des informations d’ordre quantitatif",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 24,
       "linkedItems": []
     },
     {
@@ -51,8 +57,8 @@
       "heading": "Fonctions",
       "topicsFr": "Demander et fournir des informations relatives à la répartition (personnes, objets, documents)",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 24,
       "linkedItems": []
     },
     {
@@ -60,7 +66,7 @@
       "heading": "Phonétique",
       "topicsFr": "Sons, rythmes et intonations du français",
       "kind": "phonetics",
-      "covered": false,
+      "covered": true,
       "itemCount": 0,
       "linkedItems": []
     },
@@ -69,9 +75,18 @@
       "heading": "Langue écrite",
       "topicsFr": "Comprendre un courriel contenant des informations d’ordre quantitatif (répartition et quantification non numérique)",
       "kind": "writing",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of12_src_a23_patch_1",
+        "itm_of12_src_a23_patch_2",
+        "itm_of12_src_a23_patch_3",
+        "itm_of12_src_a23_patch_4",
+        "itm_of12_src_a23_patch_5",
+        "itm_of12_src_a23_patch_6",
+        "itm_of12_src_a23_patch_7",
+        "itm_of12_src_a23_patch_8"
+      ]
     }
   ],
   "vocabulary": {
@@ -103,15 +118,26 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 2,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of12_src_a2_patch_1",
+        "itm_of12_src_a2_patch_2",
+        "itm_of12_src_a2_patch_3",
+        "itm_of12_src_a2_patch_4",
+        "itm_of12_src_a2_patch_5",
+        "itm_of12_src_a2_patch_6",
+        "itm_of12_src_a2_patch_7",
+        "itm_of12_src_a2_patch_8"
+      ],
+      "covered": true
     },
     {
       "activity": 3,
@@ -132,7 +158,8 @@
         "itm_of12_src_a4_5",
         "itm_of12_src_a4_6",
         "itm_of12_src_a4_9"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 5,
@@ -140,15 +167,36 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 6,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 18,
+      "linkedItems": [
+        "itm_of12_src_a6_patch_1",
+        "itm_of12_src_a6_patch_2",
+        "itm_of12_src_a6_patch_3",
+        "itm_of12_src_a6_patch_4",
+        "itm_of12_src_a6_patch_5",
+        "itm_of12_src_a6_patch_6",
+        "itm_of12_src_a6_patch_7",
+        "itm_of12_src_a6_patch_8",
+        "itm_of12_src_a6_patch_9",
+        "itm_of12_src_a6_patch_10",
+        "itm_of12_src_a6_patch_11",
+        "itm_of12_src_a6_patch_12",
+        "itm_of12_src_a6_patch_13",
+        "itm_of12_src_a6_patch_14",
+        "itm_of12_src_a6_patch_15",
+        "itm_of12_src_a6_patch_16",
+        "itm_of12_src_a6_patch_17",
+        "itm_of12_src_a6_patch_18"
+      ],
+      "covered": true
     },
     {
       "activity": 7,
@@ -164,7 +212,8 @@
         "itm_of12_src_a7_6",
         "itm_of12_src_a7_7",
         "itm_of12_src_a7_8"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 8,
@@ -180,7 +229,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 10,
@@ -188,7 +238,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 11,
@@ -196,7 +247,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 12,
@@ -204,7 +256,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 13,
@@ -212,7 +265,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 14,
@@ -220,7 +274,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 15,
@@ -276,7 +331,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 22,
@@ -290,9 +346,19 @@
       "activity": 23,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 8,
+      "linkedItems": [
+        "itm_of12_src_a23_patch_1",
+        "itm_of12_src_a23_patch_2",
+        "itm_of12_src_a23_patch_3",
+        "itm_of12_src_a23_patch_4",
+        "itm_of12_src_a23_patch_5",
+        "itm_of12_src_a23_patch_6",
+        "itm_of12_src_a23_patch_7",
+        "itm_of12_src_a23_patch_8"
+      ],
+      "covered": true
     },
     {
       "activity": 24,
@@ -315,26 +381,23 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 34,
-    "coveredElements": 5,
+    "coveredElements": 17,
     "convertible": {
-      "covered": 5,
+      "covered": 17,
       "total": 18
     },
     "actionableGaps": {
       "sections": [],
       "activities": [
         1,
-        2,
         5,
-        6,
         9,
         10,
         11,
         12,
         13,
         14,
-        21,
-        23
+        21
       ],
       "vocabulary": [],
       "examples": [],
@@ -343,13 +406,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "12.2 Fonctions (function)",
-        "12.3 Fonctions (function)",
-        "12.4 Fonctions (function)",
-        "12.5 Phonétique (phonetics)",
-        "12.6 Langue écrite (writing)"
-      ],
+      "sections": [],
       "activities": [
         3,
         8,

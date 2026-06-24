@@ -13,35 +13,289 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF5 — To indicate where a person, an object or a place is. Source document SC102-2/5-2005F. Grammar taught: location, negation, pronouns. Vocabulary: the OF5 section of the PFL2 Lexique. 113 questions, all traceable to the PFL2 source (39 verbatim source activities + 74 from the OF5 Lexique).",
-        "fr": "Indiquer où est une personne, un objet, un lieu. Document source SC102-2/5-2005F. Grammaire enseignée : location, negation, pronouns. Vocabulaire : section OF5 du Lexique PFL2."
+        "en": "OF5 teaches how to ask where a person, object, or place is, understand location information, state that something exists somewhere, and use negation and the pronoun en in location contexts.",
+        "fr": "L’OF5 enseigne comment demander où se trouve une personne, un objet ou un lieu, comprendre une localisation, dire qu’il y a quelque chose quelque part, employer la négation et utiliser le pronom en."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Les indicateurs de localisation essentiels sont : sur, sous, devant, derrière, au-dessus, dans, près de, loin de, au milieu de, autour de, en face de, à côté de, au bout de, au fond de, ici, là, à droite et à gauche.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): location, negation, pronouns.",
+        "summary": "Cet objectif combine les questions avec où, il y a, la négation et le pronom en.",
         "charts": [],
-        "points": []
+        "points": [
+          "Où sert à demander un lieu : Où est la sortie? Où demeurez-vous?",
+          "Il y a indique l’existence ou la présence : Il y a une cafétéria au sous-sol.",
+          "À + le devient au : au sous-sol, au bout du corridor.",
+          "La négation encadre généralement le verbe : Il n’y a pas de sortie; elle ne travaille pas ici.",
+          "Après une négation, un/une/des devient souvent de/d’ : pas de garage, pas d’ordinateur.",
+          "Le pronom en remplace un complément introduit par de ou une quantité : Il y en a un; je n’en ai pas.",
+          "Se trouver peut remplacer être pour localiser : La bibliothèque se trouve près de l’entrée."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Dans une question courte, l’intonation monte souvent : C’est où?",
+          "Écoutez les contractions et enchaînements dans il y a, il n’y a pas et est-ce qu’il y a."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander un lieu",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Pardon, Monsieur, où est l’ascenseur?",
+              "en": "Excuse me, sir, where is the elevator?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Il est au bout du corridor, à droite.",
+              "en": "It is at the end of the hallway, on the right."
+            }
+          ]
+        },
+        {
+          "title": "Demander s’il y en a un",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Je ne trouve pas de téléphone. Est-ce qu’il y en a un?",
+              "en": "I can’t find a phone. Is there one?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Oui, il y en a un près de la réception.",
+              "en": "Yes, there is one near reception."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Activité 8 — Indicateurs de localisation",
+          "table": {
+            "headers": [
+              "Indicateur",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "sur",
+                "Il y a une affiche sur le mur."
+              ],
+              [
+                "sous",
+                "Le dossier est sous le livre."
+              ],
+              [
+                "devant",
+                "La chaise est devant le bureau."
+              ],
+              [
+                "derrière",
+                "La chaise est derrière le bureau."
+              ],
+              [
+                "au-dessus",
+                "La photo est au-dessus du tableau."
+              ],
+              [
+                "dans",
+                "Le téléphone est dans le bureau."
+              ],
+              [
+                "près de",
+                "La cafetière est près d’une sortie."
+              ],
+              [
+                "en face de",
+                "Le sofa est en face du fauteuil."
+              ],
+              [
+                "à côté de",
+                "Le fauteuil est à côté de la table."
+              ],
+              [
+                "au bout de",
+                "Le bureau est au bout du couloir."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 19 — Questions avec où",
+          "table": {
+            "headers": [
+              "English",
+              "Français"
+            ],
+            "rows": [
+              [
+                "Where is she?",
+                "Où est-elle?"
+              ],
+              [
+                "Where are you?",
+                "Où êtes-vous? / Où es-tu?"
+              ],
+              [
+                "Where do you live?",
+                "Où demeurez-vous? / Où habitez-vous?"
+              ],
+              [
+                "Where is the exit?",
+                "Où est la sortie?"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 22 — Négation",
+          "table": {
+            "headers": [
+              "Affirmatif",
+              "Négatif"
+            ],
+            "rows": [
+              [
+                "Il y a un ordinateur.",
+                "Il n’y a pas d’ordinateur."
+              ],
+              [
+                "Ils habitent à Fredericton.",
+                "Ils n’habitent pas à Fredericton."
+              ],
+              [
+                "C’est un couloir.",
+                "Ce n’est pas un couloir."
+              ],
+              [
+                "Ce sont des salles de classe.",
+                "Ce ne sont pas des salles de classe."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 25 — Pronom en",
+          "table": {
+            "headers": [
+              "Question",
+              "Réponse affirmative",
+              "Réponse négative"
+            ],
+            "rows": [
+              [
+                "Avez-vous un ordinateur?",
+                "Oui, j’en ai.",
+                "Non, je n’en ai pas."
+              ],
+              [
+                "Achètent-ils du café?",
+                "Oui, ils en achètent.",
+                "Non, ils n’en achètent pas."
+              ],
+              [
+                "Y a-t-il une bibliothèque?",
+                "Il y en a une.",
+                "Il n’y en a pas."
+              ],
+              [
+                "Y a-t-il cinq chaises?",
+                "Il y en a cinq.",
+                "Il n’y en a pas."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 28 — Stratégies de communication",
+          "table": {
+            "headers": [
+              "Besoin",
+              "Formule"
+            ],
+            "rows": [
+              [
+                "faire répéter",
+                "Pouvez-vous répéter, s’il vous plaît?"
+              ],
+              [
+                "parler plus lentement",
+                "Pouvez-vous parler plus lentement?"
+              ],
+              [
+                "expliquer un mot",
+                "Qu’est-ce que ça veut dire?"
+              ],
+              [
+                "demander l’équivalent français",
+                "Comment dit-on ... en français?"
+              ],
+              [
+                "demander d’épeler",
+                "Pouvez-vous épeler ce mot?"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 41 — Plans A et B",
+          "table": {
+            "headers": [
+              "Plan A",
+              "Plan B"
+            ],
+            "rows": [
+              [
+                "Bibliothèque",
+                "Aréna"
+              ],
+              [
+                "Centre commercial",
+                "Bureau de poste"
+              ],
+              [
+                "Clinique",
+                "Cinéma"
+              ],
+              [
+                "Terrain de jeu",
+                "Urgence"
+              ],
+              [
+                "École",
+                "Église"
+              ],
+              [
+                "Hôpital",
+                "Librairie"
+              ],
+              [
+                "Poste de police",
+                "Caserne de pompiers"
+              ],
+              [
+                "Stationnement P2",
+                "Stationnement P1"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "113 questions, all traceable to the PFL2 source (39 verbatim source activities + 74 from the OF5 Lexique).",
+      "coverage": "256 useful questions, all traceable to the PFL2 source (182 source activity questions + 74 from the OF5 Lexique). Low-value worksheet/audio recall items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 39
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 182
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 74
         }
       ],
-      "totalQuestions": 113
+      "totalQuestions": 256
     },
     "consolidation": {
       "sourceBooklet": {
@@ -88,30 +342,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 9,
+    "coveredElements": 23,
     "totalElements": 56,
     "convertible": {
-      "covered": 9,
+      "covered": 23,
       "total": 24
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        5,
-        6,
-        7,
-        8,
-        10,
-        12,
-        19,
-        25,
-        27,
-        30,
-        32,
-        39,
-        41,
-        44
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -119,14 +358,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "5.3 Fonctions (function)",
-        "5.4 Fonctions (function)",
-        "5.6 Stratégies de communication (strategy)",
-        "5.7 Fonctions (function)",
-        "5.8 Fonctions (function)",
-        "5.9 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

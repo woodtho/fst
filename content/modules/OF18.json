@@ -13,31 +13,199 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF18 — To express will (intention), hopes and wishes, taste (liking) and preference. Source document SC102-2/18-2005F. Grammar taught: subjonctif, present. Vocabulary: the OF18 section of the PFL2 Lexique. 50 questions, all traceable to the PFL2 source (0 verbatim source activities + 50 from the OF18 Lexique).",
-        "fr": "Exprimer une volonté, un souhait, des goûts, des préférences. Document source SC102-2/18-2005F. Grammaire enseignée : subjonctif, present. Vocabulaire : section OF18 du Lexique PFL2."
+        "en": "OF18 teaches how to express will, wishes, likes and preferences, then connects those meanings to the present subjunctive after expressions such as vouloir que, souhaiter que, exiger que, tenir à ce que and préférer que.",
+        "fr": "OF18 enseigne comment exprimer la volonté, le souhait, les goûts et les préférences, puis relie ces sens au subjonctif présent après des expressions comme vouloir que, souhaiter que, exiger que, tenir à ce que et préférer que."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Vocabulaire central : vouloir, désirer, souhaiter, tenir à, exiger, compter, avoir l'intention de, se proposer de, aimer, aimer mieux, aimer moins, préférer, pourvu que, s'attendre à ce que.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif, present.",
+        "summary": "Use the infinitive when the subject stays the same; use que + present subjunctive when will, wish, preference or insistence targets another subject.",
         "charts": [],
-        "points": []
+        "points": [
+          "Same subject: Je veux partir. Nous comptons prendre des vacances.",
+          "Different subject: Je veux que tu partes. Elle souhaite que tu acceptes.",
+          "Regular subjunctive endings are -e, -es, -e, -ions, -iez, -ent.",
+          "For many verbs, je/tu/il/ils use the ils present stem: ils parlent -> que je parle; ils viennent -> que je vienne.",
+          "Nous and vous often use the nous present stem: nous venons -> que nous venions, que vous veniez.",
+          "Memorize irregular forms for aller, vouloir, pouvoir, savoir, faire, être and avoir.",
+          "Soften direct will with the conditional: je voudrais, je préférerais, je désirerais, j'aimerais mieux.",
+          "Preference can compare choices: Je préfère le thé; J'aime mieux la salle 354; Je préférerais que tu reviennes."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Practice short subjunctive chunks as units: que tu viennes, que vous soyez, qu'on aille.",
+          "In careful speech, keep the liaison in vous aimez and nous avons before vowel sounds."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Volonté Et Subjonctif",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Où veux-tu que je mette les boîtes?"
+            },
+            {
+              "speaker": "B",
+              "text": "Je veux que tu les mettes ici."
+            },
+            {
+              "speaker": "A",
+              "text": "Quand est-ce que tu veux que je fasse ça?"
+            },
+            {
+              "speaker": "B",
+              "text": "J'aimerais que tu fasses ça tout de suite."
+            }
+          ]
+        },
+        {
+          "title": "Préférences",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Vous préférez le thé ou le café?"
+            },
+            {
+              "speaker": "B",
+              "text": "Je préfère le thé."
+            },
+            {
+              "speaker": "A",
+              "text": "Laquelle des deux salles préférez-vous?"
+            },
+            {
+              "speaker": "B",
+              "text": "J'aime mieux la salle 354."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Même Sujet Ou Sujet Différent",
+          "table": {
+            "headers": [
+              "Structure",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "même sujet + infinitif",
+                "Je veux partir demain."
+              ],
+              [
+                "sujet différent + subjonctif",
+                "Je veux que tu partes demain."
+              ],
+              [
+                "souhait",
+                "Elle souhaite que tu acceptes."
+              ],
+              [
+                "préférence",
+                "Je préférerais que vous soyez présents."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Déclencheurs Du Subjonctif",
+          "table": {
+            "headers": [
+              "Sens",
+              "Expressions"
+            ],
+            "rows": [
+              [
+                "volonté",
+                "vouloir que; désirer que"
+              ],
+              [
+                "souhait",
+                "souhaiter que; pourvu que"
+              ],
+              [
+                "insistance",
+                "tenir à ce que; exiger que"
+              ],
+              [
+                "préférence",
+                "préférer que; aimer mieux que; aimer moins que"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Subjonctif Présent",
+          "table": {
+            "headers": [
+              "Verbe",
+              "Formes utiles"
+            ],
+            "rows": [
+              [
+                "parler",
+                "que je parle; que nous parlions; qu'ils parlent"
+              ],
+              [
+                "finir",
+                "que tu finisses; que vous finissiez"
+              ],
+              [
+                "aller",
+                "que j'aille; que nous allions"
+              ],
+              [
+                "être / avoir",
+                "que je sois; que vous soyez; que j'aie; que nous ayons"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Atténuer",
+          "table": {
+            "headers": [
+              "Direct",
+              "Atténué"
+            ],
+            "rows": [
+              [
+                "Je veux que tu fasses le compte rendu.",
+                "Je voudrais que tu fasses le compte rendu."
+              ],
+              [
+                "Je préfère le fauteuil pivotant.",
+                "Je préférerais le fauteuil pivotant."
+              ],
+              [
+                "Je désire terminer ce projet demain.",
+                "Je désirerais terminer ce projet demain."
+              ],
+              [
+                "Elle veut que tu arrives à l'heure.",
+                "Elle voudrait que tu arrives à l'heure."
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "50 questions, all traceable to the PFL2 source (0 verbatim source activities + 50 from the OF18 Lexique).",
+      "coverage": "220 questions, all traceable to the PFL2 source (170 verbatim/source-derived activities + 50 from the OF18 Lexique).",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 169
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 50
         }
       ],
-      "totalQuestions": 50
+      "totalQuestions": 219
     },
     "consolidation": {
       "sourceBooklet": {
@@ -82,47 +250,24 @@
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 2,
+    "convertibleComplete": true,
+    "coveredElements": 17,
     "totalElements": 37,
     "convertible": {
-      "covered": 2,
+      "covered": 17,
       "total": 18
     },
     "actionableGaps": {
-      "sections": [
-        "18.2 Grammaire (grammar)"
-      ],
-      "activities": [
-        3,
-        4,
-        5,
-        7,
-        8,
-        10,
-        11,
-        13,
-        15,
-        16,
-        17,
-        25,
-        26
-      ],
+      "sections": [],
+      "activities": [],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-2 (SC102-2-45-2)"
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "18.3 Fonctions (function)",
-        "18.4 Fonctions (function)",
-        "18.5 Phonétique (phonetics)",
-        "18.6 Stratégies de communication (strategy)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

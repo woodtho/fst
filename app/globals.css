@@ -201,3 +201,30 @@ h3 { font-size: 1rem; margin: 18px 0 8px; }
 .stage-list { display: grid; gap: 10px; }
 .stage { display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; background: #fff; }
 .stage .meta { color: var(--muted); font-size: .85rem; }
+
+/* Conjugation tool */
+.tabs { display: flex; gap: 4px; border-bottom: 2px solid var(--line); margin: 18px 0 20px; }
+.tab {
+  padding: 9px 16px; font-size: .92rem; color: var(--muted); font-weight: 600;
+  border-bottom: 2px solid transparent; margin-bottom: -2px;
+}
+.tab:hover { text-decoration: none; color: var(--ink); }
+.tab.active { color: var(--brand); border-bottom-color: var(--brand); }
+.chip { font-family: inherit; }
+.chiprow { display: flex; flex-wrap: wrap; gap: 6px; }
+.conj-controls { display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-end; }
+.control-block { display: flex; flex-direction: column; gap: 6px; }
+.control-label { font-size: .78rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); font-weight: 700; }
+.mood-row { display: flex; align-items: center; gap: 10px; margin-top: 6px; flex-wrap: wrap; }
+.mood-label { font-size: .8rem; font-weight: 600; color: var(--ink); min-width: 96px; }
+.verb-select {
+  font-family: inherit; font-size: .95rem; padding: 8px 12px; border: 1px solid var(--line);
+  border-radius: 8px; background: #fff; color: var(--ink); min-width: 240px;
+}
+.conj-table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.conj-table th, .conj-table td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.conj-table thead th { color: var(--muted); font-size: .82rem; font-weight: 700; border-bottom: 2px solid var(--line); }
+.conj-table tbody th { font-weight: 600; }
+.conj-table tbody th small { display: block; font-weight: 400; font-size: .72rem; }
+.conj-table tbody tr:hover { background: #f7f9fc; }
+.conj-table td.na { color: var(--line); }

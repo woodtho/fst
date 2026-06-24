@@ -17,7 +17,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 61,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of30_voc_fe_1",
         "itm_of30_voc_fe_2",
@@ -35,7 +35,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 23,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of30_src_a8_1",
         "itm_of30_src_a8_2",
@@ -53,7 +53,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 23,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of30_src_a8_1",
         "itm_of30_src_a8_2",
@@ -71,7 +71,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 61,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of30_voc_fe_1",
         "itm_of30_voc_fe_2",
@@ -89,7 +89,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 23,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of30_src_a8_1",
         "itm_of30_src_a8_2",
@@ -434,11 +434,10 @@
       "activity": 30,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 1,
-      "linkedItems": [
-        "itm_of30_src_a30_5"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 31,
@@ -629,6 +628,7 @@
         26,
         28,
         29,
+        30,
         31,
         32,
         33,

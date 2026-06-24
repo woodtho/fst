@@ -4,6 +4,18 @@ import { getObjective, getModule, getLexiconByOf } from "@/lib/content";
 
 export const dynamic = "force-dynamic";
 
+function exampleTitle(example: any) {
+  if (example.title) return example.title;
+  const firstLine = typeof example.fr === "string" ? example.fr.split("\n")[0]?.trim() : "";
+  return firstLine?.startsWith("Activité ") ? firstLine : "Example text";
+}
+
+function exampleBody(example: any) {
+  if (example.title || typeof example.fr !== "string") return example.fr;
+  const lines = example.fr.split("\n");
+  return lines[0]?.trim().startsWith("Activité ") ? lines.slice(1).join("\n").trimStart() : example.fr;
+}
+
 export default function LearnPage({ params }: { params: { id: string } }) {
   const objective = getObjective(params.id);
   const mod = getModule(params.id);
@@ -83,8 +95,24 @@ export default function LearnPage({ params }: { params: { id: string } }) {
       {/* Example texts */}
       {learn.exampleTexts?.map((t: any, i: number) => (
         <div className="panel" key={i}>
-          <h2 style={{ marginTop: 0 }}>Example text</h2>
-          <pre style={{ whiteSpace: "pre-wrap", fontFamily: "inherit" }} className="fr">{t.fr}</pre>
+          <h2 style={{ marginTop: 0 }}>{exampleTitle(t)}</h2>
+          {exampleBody(t) && <pre style={{ whiteSpace: "pre-wrap", fontFamily: "inherit" }} className="fr">{exampleBody(t)}</pre>}
+          {t.table && (
+            <table className="vocab-table">
+              <thead>
+                <tr>{t.table.headers.map((h: string) => <th key={h}>{h}</th>)}</tr>
+              </thead>
+              <tbody>
+                {t.table.rows.map((row: string[], rowIndex: number) => (
+                  <tr key={rowIndex}>
+                    {row.map((cell: string, cellIndex: number) => (
+                      <td key={cellIndex} className={cellIndex === 0 ? "muted" : "fr"}>{cell}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
           {t.en && <p className="en">{t.en}</p>}
         </div>
       ))}

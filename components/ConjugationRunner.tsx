@@ -66,7 +66,11 @@ export default function ConjugationRunner({ prompts }: { prompts: Prompt[] }) {
 
       <p className="muted">Conjugate <strong className="fr">{p.inf}</strong> ({p.en}) — {p.tenseFr}</p>
       <p className="stem">
-        <span className="fr" lang="fr">{p.tense === "subjonctif" ? "que " : ""}{p.personDisplay} </span>
+        {p.tense === "imperatif" ? (
+          <span className="fr" lang="fr">(impératif · {p.personDisplay}) </span>
+        ) : (
+          <span className="fr" lang="fr">{p.tense.startsWith("subjonctif") ? "que " : ""}{p.personDisplay} </span>
+        )}
         <span className="blank">_____</span>
       </p>
 

@@ -33,15 +33,15 @@
       "coverage": "96 questions, all traceable to the PFL2 source (33 verbatim source activities + 63 from the OF39 Lexique).",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 33
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 31
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 63
         }
       ],
-      "totalQuestions": 96
+      "totalQuestions": 94
     },
     "consolidation": {
       "sourceBooklet": {

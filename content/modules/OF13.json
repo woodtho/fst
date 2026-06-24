@@ -13,35 +13,269 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF13 — To give information about past events and habits. Source document SC102-2/13-2005F. Grammar taught: passe_compose, imparfait, agreement. Vocabulary: the OF13 section of the PFL2 Lexique. 60 questions, all traceable to the PFL2 source (3 verbatim source activities + 57 from the OF13 Lexique).",
-        "fr": "Fournir de l’information sur un événement ou une habitude passés. Document source SC102-2/13-2005F. Grammaire enseignée : passe_compose, imparfait, agreement. Vocabulaire : section OF13 du Lexique PFL2."
+        "en": "OF13 teaches how to talk about completed past events and past habits. The core contrast is passé composé for events that happened and moved the story forward, and imparfait for background, descriptions, states, routines and repeated actions in the past.",
+        "fr": "OF13 enseigne comment parler d'événements passés terminés et d'habitudes passées. Le contraste principal est le passé composé pour les événements accomplis qui font avancer le récit, et l'imparfait pour le contexte, les descriptions, les états, les routines et les actions répétées dans le passé."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Le vocabulaire porte sur le temps et les délais : hier, récemment, autrefois, par le passé, à cette époque-là, dans ce temps-là, à l'heure, à temps, en retard, de retard, en avance, à l'avance, prendre du retard et prendre de l'avance.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): passe_compose, imparfait, agreement.",
+        "summary": "OF13 combines passé composé, imparfait and past-time markers to describe work history, previous responsibilities, delays, routines and completed events.",
         "charts": [],
-        "points": []
+        "points": [
+          "Use passé composé for completed events: J'ai participé à un concours; j'ai obtenu le poste.",
+          "Most passé composé verbs use avoir + past participle: j'ai travaillé, elle a appris, ils ont pris.",
+          "Use être with many verbs of movement, change of position or state: aller, venir, entrer, sortir, arriver, partir, naître, mourir.",
+          "With être, the past participle agrees with the subject: tu es née, Jacques est allé, elles sont arrivées.",
+          "Use imparfait for past habits or routines: Je travaillais aux ressources humaines; il répondait au téléphone.",
+          "Use imparfait for background, description or state: c'était mon premier emploi; j'avais besoin de nouveaux défis.",
+          "The imparfait stem usually comes from the nous form in the present: nous faisons → je faisais; nous savons → il savait.",
+          "Use markers like hier, récemment, l'année passée and ce matin with completed events when the action is finished.",
+          "Use markers like autrefois, jadis, par le passé, à cette époque-là and dans ce temps-là with past habits or background.",
+          "Some sentences combine both tenses: Autrefois, je buvais cinq cafés par jour, mais mon médecin m'a conseillé de modérer ma consommation."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In imparfait, -ais, -ait and -aient are pronounced alike in many contexts: je travaillais, il travaillait, ils travaillaient.",
+          "In passé composé, keep the auxiliary clear: j'ai travaillé, je suis allé."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Expérience professionnelle",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "En quelle année avez-vous commencé à Santé Canada?"
+            },
+            {
+              "speaker": "B",
+              "text": "J'ai commencé en 1998. Je travaillais aux ressources humaines."
+            },
+            {
+              "speaker": "A",
+              "text": "Qu'est-ce qui est arrivé ensuite?"
+            },
+            {
+              "speaker": "B",
+              "text": "J'ai participé à un concours et j'ai obtenu le poste que je voulais."
+            }
+          ]
+        },
+        {
+          "title": "Habitude et événement",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Autrefois, comment alliez-vous au bureau?"
+            },
+            {
+              "speaker": "B",
+              "text": "Je prenais l'autobus tous les matins."
+            },
+            {
+              "speaker": "A",
+              "text": "Et hier?"
+            },
+            {
+              "speaker": "B",
+              "text": "Hier, j'ai pris le train parce que l'autobus était en retard."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Passé composé ou imparfait",
+          "table": {
+            "headers": [
+              "Usage",
+              "Temps",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Événement terminé",
+                "passé composé",
+                "J'ai participé à un concours."
+              ],
+              [
+                "Suite d'événements",
+                "passé composé",
+                "Il est arrivé, a salué et a rédigé le rapport."
+              ],
+              [
+                "Habitude passée",
+                "imparfait",
+                "Je faisais toujours mes courses le samedi."
+              ],
+              [
+                "Description ou état",
+                "imparfait",
+                "J'étais content et j'avais besoin de défis."
+              ],
+              [
+                "Contexte + événement",
+                "imparfait + passé composé",
+                "Il neigeait quand je suis arrivé."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Former l'imparfait",
+          "table": {
+            "headers": [
+              "Présent avec nous",
+              "Radical",
+              "Imparfait"
+            ],
+            "rows": [
+              [
+                "nous parlons",
+                "parl-",
+                "je parlais"
+              ],
+              [
+                "nous faisons",
+                "fais-",
+                "il faisait"
+              ],
+              [
+                "nous prenons",
+                "pren-",
+                "elle prenait"
+              ],
+              [
+                "nous écrivons",
+                "écriv-",
+                "il écrivait"
+              ],
+              [
+                "nous finissons",
+                "finiss-",
+                "vous finissiez"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Être au passé composé",
+          "table": {
+            "headers": [
+              "Type",
+              "Verbes fréquents",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Mouvement",
+                "aller, venir, entrer, sortir",
+                "Je suis allé au marché."
+              ],
+              [
+                "Changement de position",
+                "monter, descendre, tomber, retourner",
+                "Elle est descendue."
+              ],
+              [
+                "Début ou fin d'état",
+                "naître, mourir, arriver, partir",
+                "Ils sont partis."
+              ],
+              [
+                "Accord",
+                "participe + sujet",
+                "Tu es née à Sherbrooke."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Marqueurs de temps",
+          "table": {
+            "headers": [
+              "Événement terminé",
+              "Habitude ou contexte"
+            ],
+            "rows": [
+              [
+                "hier",
+                "autrefois"
+              ],
+              [
+                "récemment",
+                "par le passé"
+              ],
+              [
+                "ce matin",
+                "dans ce temps-là"
+              ],
+              [
+                "l'année passée",
+                "à cette époque-là"
+              ],
+              [
+                "il y a dix ans",
+                "jadis"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Retard et avance",
+          "table": {
+            "headers": [
+              "Expression",
+              "Sens"
+            ],
+            "rows": [
+              [
+                "à l'heure",
+                "on time"
+              ],
+              [
+                "à temps",
+                "in time"
+              ],
+              [
+                "en retard",
+                "late"
+              ],
+              [
+                "prendre du retard",
+                "fall behind"
+              ],
+              [
+                "en avance",
+                "early"
+              ],
+              [
+                "à l'avance",
+                "in advance"
+              ],
+              [
+                "prendre de l'avance",
+                "get ahead"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "60 questions, all traceable to the PFL2 source (3 verbatim source activities + 57 from the OF13 Lexique).",
+      "coverage": "83 useful questions, all traceable to the PFL2 source (26 source activity questions + 57 from the OF13 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 3
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 21
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 57
         }
       ],
-      "totalQuestions": 60
+      "totalQuestions": 78
     },
     "consolidation": {
       "sourceBooklet": {
@@ -88,37 +322,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 5,
+    "coveredElements": 26,
     "totalElements": 50,
     "convertible": {
-      "covered": 5,
+      "covered": 26,
       "total": 27
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        1,
-        3,
-        5,
-        7,
-        10,
-        12,
-        15,
-        16,
-        17,
-        19,
-        21,
-        22,
-        24,
-        25,
-        26,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -126,12 +338,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "13.3 Fonctions (function)",
-        "13.4 Fonctions (function)",
-        "13.5 Phonétique (phonetics)",
-        "13.6 Compréhension de l’oral (oral)"
-      ],
+      "sections": [],
       "activities": [
         2,
         4,

@@ -13,35 +13,226 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF17 — To give or to ask for information about the presence or availability of people or things. Source document SC102-2/17-2005F. Grammar taught: present, pronouns. Vocabulary: the OF17 section of the PFL2 Lexique. 38 questions, all traceable to the PFL2 source (1 verbatim source activities + 37 from the OF17 Lexique).",
-        "fr": "S’informer ou informer de la présence ou de la disponibilité de personnes ou de choses. Document source SC102-2/17-2005F. Grammaire enseignée : present, pronouns. Vocabulaire : section OF17 du Lexique PFL2."
+        "en": "OF17 teaches how to ask and answer whether people are present, absent, free or busy, and whether things are available, ready, missing, out of stock or at someone's disposal.",
+        "fr": "OF17 enseigne comment demander et dire si une personne est présente, absente, libre ou occupée, et si une chose est disponible, prête, manquante, épuisée ou à la disposition de quelqu'un."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Vocabulaire central : disponible, libre, occupé, absent, sorti, parti, en vacances, en congé, à son bureau, de retour, prêt, épuisé, sous la main, à votre disposition, il reste, il manque, il n'y en a plus.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): present, pronouns.",
+        "summary": "OF17 uses present-tense forms, future/near-future return times, pronouns such as en, and polite questions to discuss presence and availability.",
         "charts": [],
-        "points": []
+        "points": [
+          "For people, use être là, être ici, être à son bureau, être absent, être sorti, être parti, être en vacances, être en congé, être en réunion.",
+          "For availability, use être libre, être disponible, avoir le temps, être occupé or être débordé.",
+          "For objects and documents, use être disponible, être prêt, être sorti, être pris, être épuisé, être sous la main or être à votre disposition.",
+          "Use il reste to ask or say what is left: Il vous reste un numéro? Il reste trois copies.",
+          "Use il manque to identify what is missing: Il manque un téléphone. Il manque trois copies.",
+          "Use en to avoid repeating the noun: Il y en a. Il n'y en a plus. Il y en a pour nous.",
+          "Ask politely with est-ce que, inversion or puis-je: Est-ce que la pièce est disponible? La directrice est-elle là? Puis-je parler au chef du personnel?",
+          "When giving a negative answer, add a useful status or time: Elle est en vacances; il sera de retour vers 2 h; elles ne seront pas prêtes."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Practice the rhythm of short availability chunks: il est libre, elle est là, il n'y en a plus.",
+          "Keep the liaison in expressions such as elles sont occupées and ils seront là when speaking carefully."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander Une Personne",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Pourrais-je parler à madame Latulipe?"
+            },
+            {
+              "speaker": "B",
+              "text": "Je regrette, elle est en vacances cette semaine."
+            },
+            {
+              "speaker": "A",
+              "text": "Est-ce que madame Simard est revenue?"
+            },
+            {
+              "speaker": "B",
+              "text": "Oui, elle est à son bureau."
+            }
+          ]
+        },
+        {
+          "title": "Demander Un Document",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Le dossier sera-t-il disponible demain après-midi?"
+            },
+            {
+              "speaker": "B",
+              "text": "Oui, vous pourrez l'avoir."
+            },
+            {
+              "speaker": "A",
+              "text": "Il vous reste un numéro de la revue Le jour?"
+            },
+            {
+              "speaker": "B",
+              "text": "Malheureusement, il n'y en a plus."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Présence D'une Personne",
+          "table": {
+            "headers": [
+              "Situation",
+              "Formule"
+            ],
+            "rows": [
+              [
+                "présente",
+                "Elle est là; elle est à son bureau."
+              ],
+              [
+                "absente",
+                "Il est absent; il est sorti; il est parti."
+              ],
+              [
+                "temporaire",
+                "Elle est en vacances; il est en congé; il est en réunion."
+              ],
+              [
+                "retour",
+                "Il sera de retour vers 2 h."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Disponibilité D'une Personne",
+          "table": {
+            "headers": [
+              "Nuance",
+              "Formule"
+            ],
+            "rows": [
+              [
+                "libre",
+                "Je suis libre après 4 h."
+              ],
+              [
+                "disponible",
+                "Je suis disponible; elle a le temps de vous aider."
+              ],
+              [
+                "occupée",
+                "Il est occupé; elle est débordée de travail."
+              ],
+              [
+                "question",
+                "À quelle heure seras-tu libre?"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Disponibilité D'une Chose",
+          "table": {
+            "headers": [
+              "État",
+              "Formule"
+            ],
+            "rows": [
+              [
+                "disponible",
+                "Le livre est disponible."
+              ],
+              [
+                "prêt",
+                "Les brochures seront prêtes demain."
+              ],
+              [
+                "épuisé",
+                "Le stock est épuisé."
+              ],
+              [
+                "pas sous la main",
+                "Je ne l'ai pas sous la main."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Reste, Manque Et En",
+          "table": {
+            "headers": [
+              "Fonction",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "ce qui reste",
+                "Il vous reste un numéro?"
+              ],
+              [
+                "ce qui manque",
+                "Il manque un téléphone."
+              ],
+              [
+                "remplacer le nom",
+                "Il y en a; il n'y en a plus."
+              ],
+              [
+                "mise à disposition",
+                "Les livres sont à votre disposition."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Questions Polies",
+          "table": {
+            "headers": [
+              "Forme",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "est-ce que",
+                "Est-ce que la pièce est disponible?"
+              ],
+              [
+                "inversion",
+                "La directrice est-elle là?"
+              ],
+              [
+                "conditionnel",
+                "Gisèle serait-elle là par hasard?"
+              ],
+              [
+                "puis-je",
+                "Puis-je parler au chef du personnel, s'il vous plaît?"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "38 questions, all traceable to the PFL2 source (1 verbatim source activities + 37 from the OF17 Lexique).",
+      "coverage": "91 useful questions, all traceable to the PFL2 source (54 source activity questions + 37 from the OF17 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 1
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 54
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 37
         }
       ],
-      "totalQuestions": 38
+      "totalQuestions": 91
     },
     "consolidation": {
       "sourceBooklet": {
@@ -87,21 +278,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 4,
+    "coveredElements": 9,
     "totalElements": 18,
     "convertible": {
-      "covered": 4,
+      "covered": 9,
       "total": 10
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        4,
-        7,
-        9,
-        10
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -109,11 +294,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "17.2 Fonctions (function)",
-        "17.3 Fonctions (function)",
-        "17.4 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

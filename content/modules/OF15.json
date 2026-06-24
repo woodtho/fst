@@ -13,31 +13,225 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF15 — To give or to ask for information about requests or obtaining something. Source document SC102-2/15-2005F. Grammar taught: conditionnel, reported_speech. Vocabulary: the OF15 section of the PFL2 Lexique. 59 questions, all traceable to the PFL2 source (0 verbatim source activities + 59 from the OF15 Lexique).",
-        "fr": "S’informer ou informer d’une requête ou de l’obtention de quelque chose. Document source SC102-2/15-2005F. Grammaire enseignée : conditionnel, reported_speech. Vocabulaire : section OF15 du Lexique PFL2."
+        "en": "OF15 teaches how to ask for something, report a request, and talk about obtaining, receiving, ordering, claiming or acquiring something. It combines request vocabulary with the present conditional for politeness and indirect speech with de + infinitive.",
+        "fr": "OF15 enseigne comment demander quelque chose, rapporter une requête et parler de l'obtention, de la réception, d'une commande, d'une réclamation ou d'une acquisition. Le module combine le vocabulaire des requêtes, le conditionnel présent pour atténuer une demande et le discours indirect avec de + infinitif."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Le vocabulaire comprend demande, requête, réclamation, commande, acquisition, obtention, réception, se procurer, obtenir, recevoir, réclamer, postuler, prier de, prière de, à la demande de et sur demande.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): conditionnel, reported_speech.",
+        "summary": "OF15 focuses on polite requests with the present conditional and reported requests with demander/dire de + infinitive.",
         "charts": [],
-        "points": []
+        "points": [
+          "Use the conditionnel présent to soften a request: Pourriez-vous me donner un coup de main?",
+          "The conditionnel présent uses the future stem plus imparfait endings: je prendrais, vous travailleriez, il faudrait.",
+          "Common polite request starters include pourriez-vous, est-ce que vous pourriez, voudrais-tu and j'aurais besoin de.",
+          "Imperatives can make direct requests: Fermez la porte. Apportez votre copie.",
+          "Written/formal requests often use prière de or je vous prierais de.",
+          "Report a request with demander à quelqu'un de + infinitive: Je lui ai demandé de rappeler.",
+          "Report an instruction with dire à quelqu'un de + infinitive: Il m'a dit de revenir à 5 h.",
+          "Use obtenir, avoir, recevoir, gagner, décrocher and se procurer to talk about getting something.",
+          "Use faire une réclamation or réclamer when asking for compensation or making a claim.",
+          "Use postuler for applying for a position: Plusieurs candidats postulent l'emploi."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In conditionnel endings, -ais, -ait and -aient often sound alike: je prendrais, il prendrait, ils prendraient.",
+          "In polite questions, keep pourriez-vous and voudrais-tu as smooth request chunks."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Requête polie",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Pourriez-vous me faire une photocopie?"
+            },
+            {
+              "speaker": "B",
+              "text": "Oui, bien sûr."
+            },
+            {
+              "speaker": "A",
+              "text": "Je vous demanderais aussi de remettre le rapport avant jeudi."
+            }
+          ]
+        },
+        {
+          "title": "Informer d'une obtention",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "As-tu reçu ton chèque?"
+            },
+            {
+              "speaker": "B",
+              "text": "Non, je ne l'ai pas eu."
+            },
+            {
+              "speaker": "A",
+              "text": "Combien de jours a-t-on pour faire une réclamation?"
+            },
+            {
+              "speaker": "B",
+              "text": "On a dix jours."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Conditionnel Présent",
+          "table": {
+            "headers": [
+              "Infinitif",
+              "Conditionnel",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "pouvoir",
+                "pourrais / pourriez",
+                "Pourriez-vous répondre?"
+              ],
+              [
+                "vouloir",
+                "voudrais / voudriez",
+                "Je voudrais un formulaire."
+              ],
+              [
+                "avoir",
+                "aurais / auriez",
+                "J'aurais besoin d'aide."
+              ],
+              [
+                "falloir",
+                "faudrait",
+                "Il faudrait plus de temps."
+              ],
+              [
+                "prendre",
+                "prendrais / prendriez",
+                "Je prendrais une salade."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Types De Requêtes",
+          "table": {
+            "headers": [
+              "Type",
+              "Formule",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Directe",
+                "impératif",
+                "Fermez la porte."
+              ],
+              [
+                "Atténuée",
+                "conditionnel",
+                "Pourrais-tu t'en occuper?"
+              ],
+              [
+                "Besoin",
+                "il me faudrait / j'aurais besoin de",
+                "Il me faudrait de l'aide."
+              ],
+              [
+                "Formelle",
+                "je vous prierais de",
+                "Je vous prierais de vous présenter à mon bureau."
+              ],
+              [
+                "Écrite",
+                "prière de",
+                "Prière de ne pas fumer."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Discours Indirect",
+          "table": {
+            "headers": [
+              "Direct",
+              "Rapporté"
+            ],
+            "rows": [
+              [
+                "Revenez à 5 h.",
+                "Il m'a dit de revenir à 5 h."
+              ],
+              [
+                "Rappelle.",
+                "Je lui ai demandé de rappeler."
+              ],
+              [
+                "Ferme la porte.",
+                "Elle m'a dit de fermer la porte."
+              ],
+              [
+                "Finis ton travail.",
+                "Paul va te demander de finir ton travail."
+              ],
+              [
+                "Participez.",
+                "Il nous demande de participer."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Obtenir Quelque Chose",
+          "table": {
+            "headers": [
+              "Action",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "recevoir",
+                "As-tu reçu ton chèque?"
+              ],
+              [
+                "obtenir",
+                "François a des chances d'obtenir le poste."
+              ],
+              [
+                "commander",
+                "J'ai déjà commandé un ordinateur."
+              ],
+              [
+                "décrocher",
+                "La compagnie a décroché le contrat."
+              ],
+              [
+                "faire une réclamation",
+                "On a dix jours pour faire une réclamation."
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "59 questions, all traceable to the PFL2 source (0 verbatim source activities + 59 from the OF15 Lexique).",
+      "coverage": "75 useful questions, all traceable to the PFL2 source (16 source activity questions + 59 from the OF15 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
+        {
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 16
+        },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 59
         }
       ],
-      "totalQuestions": 59
+      "totalQuestions": 75
     },
     "consolidation": {
       "sourceBooklet": {
@@ -83,48 +277,23 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 2,
+    "coveredElements": 16,
     "totalElements": 41,
     "convertible": {
-      "covered": 2,
+      "covered": 16,
       "total": 17
     },
     "actionableGaps": {
-      "sections": [
-        "15.2 Grammaire (grammar)"
-      ],
-      "activities": [
-        3,
-        4,
-        5,
-        6,
-        8,
-        10,
-        12,
-        14,
-        15,
-        16,
-        18,
-        20
-      ],
+      "sections": [],
+      "activities": [],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-2 (SC102-2-45-2)"
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "15.3 Fonctions (function)",
-        "15.4 Fonctions (function)",
-        "15.5 Fonctions (function)",
-        "15.6 Fonctions (function)",
-        "15.7 Phonétique (phonetics)",
-        "15.8 Compréhension de l’oral (oral)",
-        "15.9 Stratégies de communication (strategy)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

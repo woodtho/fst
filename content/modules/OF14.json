@@ -13,27 +13,182 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF14 — To give or ask information about events and happenings. Source document SC102-2/14-2005F. Grammar taught: impersonal, question_formation. Vocabulary: the OF14 section of the PFL2 Lexique. 32 questions, all traceable to the PFL2 source (17 verbatim source activities + 15 from the OF14 Lexique).",
-        "fr": "S’informer ou informer d’un événement. Document source SC102-2/14-2005F. Grammaire enseignée : impersonal, question_formation. Vocabulaire : section OF14 du Lexique PFL2."
+        "en": "OF14 teaches how to ask about and report events: what happened, whether something took place, where it was held, how it unfolded, and whether it was cancelled. It focuses on event verbs and impersonal constructions such as il s’est produit, il est arrivé, il y a eu, il se tient and il se passe.",
+        "fr": "OF14 enseigne comment s'informer d'un événement et en informer quelqu'un : ce qui s'est passé, si quelque chose a eu lieu, où l'événement s'est tenu, comment il s'est déroulé et s'il a été annulé. Le module porte sur les verbes d'événement et les constructions impersonnelles comme il s'est produit, il est arrivé, il y a eu, il se tient et il se passe."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Le vocabulaire principal comprend arriver, avoir lieu, se tenir, se dérouler, se passer, se produire, survenir, événement, fait, incident, annulation et annuler.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): impersonal, question_formation.",
+        "summary": "OF14 uses impersonal event structures and questions with qu'est-ce qui to report or ask about happenings.",
         "charts": [],
-        "points": []
+        "points": [
+          "Use Qu'est-ce qui s'est passé? or Qu'est-ce qui est arrivé? to ask what happened.",
+          "Use avoir lieu for scheduled events: La réunion a eu lieu ce matin.",
+          "Use se tenir for formal meetings, conferences and assemblies: L'assemblée s'est tenue dans l'amphithéâtre.",
+          "Use se dérouler to describe how an event unfolded: La partie s'est déroulée à vive allure.",
+          "Use il y a eu to report that an event occurred: Il y a eu un pique-nique.",
+          "Use impersonal il with event verbs: Il s'est produit un accident; il est survenu des changements.",
+          "Use annuler or être annulé to report cancellations: Le rendez-vous a été annulé.",
+          "For future events, use il y aura or aura lieu: Il y aura une rencontre demain."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "In qu'est-ce qui, keep the question chunk together: qu'est-ce qui s'est passé?",
+          "In il y a eu, pronounce the sequence smoothly as one event marker."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander ce qui s'est passé",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Qu'est-ce qui s'est passé hier soir?"
+            },
+            {
+              "speaker": "B",
+              "text": "Il y a eu un accident au coin de la rue."
+            },
+            {
+              "speaker": "A",
+              "text": "Est-ce qu'il y a eu des blessés?"
+            },
+            {
+              "speaker": "B",
+              "text": "Non, mais il s'est produit beaucoup de dommages."
+            }
+          ]
+        },
+        {
+          "title": "Informer d'une annulation",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Est-ce que la réunion a eu lieu ce matin?"
+            },
+            {
+              "speaker": "B",
+              "text": "Non, elle a été annulée."
+            },
+            {
+              "speaker": "A",
+              "text": "Quand est-ce qu'elle va se tenir?"
+            },
+            {
+              "speaker": "B",
+              "text": "Elle aura lieu demain à 9 h."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Verbes d'événement",
+          "table": {
+            "headers": [
+              "Expression",
+              "Usage",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "arriver",
+                "dire qu'un événement s'est produit",
+                "Qu'est-ce qui est arrivé?"
+              ],
+              [
+                "se passer",
+                "demander ou raconter ce qui a eu lieu",
+                "Ça s'est passé vers 9 h."
+              ],
+              [
+                "avoir lieu",
+                "événement prévu ou officiel",
+                "La réunion a eu lieu hier."
+              ],
+              [
+                "se tenir",
+                "réunion, assemblée, congrès",
+                "L'assemblée s'est tenue dans l'amphithéâtre."
+              ],
+              [
+                "se dérouler",
+                "déroulement d'un événement",
+                "La partie s'est déroulée à vive allure."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Constructions impersonnelles",
+          "table": {
+            "headers": [
+              "Structure",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "il s'est produit + nom",
+                "Il s'est produit un accident."
+              ],
+              [
+                "il est survenu + nom",
+                "Il est survenu de nombreux changements."
+              ],
+              [
+                "il est arrivé + nom",
+                "Il est arrivé une nouvelle employée."
+              ],
+              [
+                "il se tient + nom",
+                "Il se tient plusieurs réunions."
+              ],
+              [
+                "il se passe + nom",
+                "Il se passe des choses étonnantes."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Annulation et tenue",
+          "table": {
+            "headers": [
+              "Situation",
+              "Formule"
+            ],
+            "rows": [
+              [
+                "L'événement se produit",
+                "La rencontre a eu lieu."
+              ],
+              [
+                "L'événement ne se produit pas",
+                "La rencontre a été annulée."
+              ],
+              [
+                "L'événement est prévu",
+                "La rencontre aura lieu demain."
+              ],
+              [
+                "On demande un détail",
+                "Qu'est-ce qui va se passer?"
+              ],
+              [
+                "On rapporte un fait",
+                "Il y a eu une rencontre."
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "32 questions, all traceable to the PFL2 source (17 verbatim source activities + 15 from the OF14 Lexique).",
+      "coverage": "32 useful questions, all traceable to the PFL2 source (17 source activity questions + 15 from the OF14 Lexique). Low-value activity-answer-key items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
+          "title": "Activités du programme PFL2 (concept-focused)",
           "count": 17
         },
         {
@@ -87,17 +242,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 8,
+    "coveredElements": 9,
     "totalElements": 24,
     "convertible": {
-      "covered": 8,
+      "covered": 9,
       "total": 10
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        2
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -105,11 +258,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "14.3 Fonctions (function)",
-        "14.4 Fonctions (function)",
-        "14.5 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         3,

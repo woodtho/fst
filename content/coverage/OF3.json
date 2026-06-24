@@ -17,7 +17,7 @@
       "topicsFr": "Indicateurs d’appartenance",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 46,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of3_voc_fe_1",
         "itm_of3_voc_fe_2",
@@ -35,16 +35,13 @@
       "topicsFr": "Articles définis contractés Verbes faire et venir au présent",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 12,
+      "itemCount": 5,
       "linkedItems": [
-        "itm_of3_src_a1_7",
-        "itm_of3_src_a7_4",
-        "itm_of3_src_a7_9",
-        "itm_of3_src_a7_10",
-        "itm_of3_src_a10_1",
-        "itm_of3_src_a10_3",
-        "itm_of3_src_a10_5",
-        "itm_of3_src_a10_6"
+        "itm_of3_src_a3_1",
+        "itm_of3_src_a5_1",
+        "itm_of3_src_a8_2",
+        "itm_of3_src_a11_1",
+        "itm_of3_src_a12_1"
       ]
     },
     {
@@ -52,27 +49,37 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre des questions et de l’information sur l’appartenance à une unité administrative, à une association professionnelle ou sociale",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of3_src_a12_1",
+        "itm_of3_src_a13_1"
+      ]
     },
     {
       "id": "3.4",
       "heading": "Fonctions",
       "topicsFr": "Demander à quelqu’un son appartenance et indiquer son appartenance à une unité administrative, à une association professionnelle ou sociale",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 3,
+      "linkedItems": [
+        "itm_of3_src_a8_2",
+        "itm_of3_src_a8_3",
+        "itm_of3_src_a8_4"
+      ]
     },
     {
       "id": "3.5",
       "heading": "Compréhension de l’oral",
       "topicsFr": "Transcrire en anglais des éléments de messages donnés en français (organismes, associations, unités administratives)",
       "kind": "oral",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of3_src_a18_1",
+        "itm_of3_src_a19_1"
+      ]
     }
   ],
   "vocabulary": {
@@ -84,7 +91,7 @@
   },
   "examples": {
     "sourceMarkers": 2,
-    "derivedItems": 23,
+    "derivedItems": 126,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -103,9 +110,16 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 1,
+      "itemCount": 8,
       "linkedItems": [
-        "itm_of3_src_a1_7"
+        "itm_of3_src_a1_7",
+        "itm_of3_src_a1_1",
+        "itm_of3_src_a1_2",
+        "itm_of3_src_a1_3",
+        "itm_of3_src_a1_4",
+        "itm_of3_src_a1_5",
+        "itm_of3_src_a1_6",
+        "itm_of3_src_a1_8"
       ]
     },
     {
@@ -120,25 +134,58 @@
       "activity": 3,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 11,
+      "linkedItems": [
+        "itm_of3_src_a3_1",
+        "itm_of3_src_a3_2",
+        "itm_of3_src_a3_3",
+        "itm_of3_src_a3_4",
+        "itm_of3_src_a3_5",
+        "itm_of3_src_a3_6",
+        "itm_of3_src_a3_7",
+        "itm_of3_src_a3_8",
+        "itm_of3_src_a3_9",
+        "itm_of3_src_a3_10",
+        "itm_of3_src_a3_11"
+      ]
     },
     {
       "activity": 4,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of3_src_a4_1",
+        "itm_of3_src_a4_2",
+        "itm_of3_src_a4_3",
+        "itm_of3_src_a4_4",
+        "itm_of3_src_a4_5",
+        "itm_of3_src_a4_6",
+        "itm_of3_src_a4_7",
+        "itm_of3_src_a4_8",
+        "itm_of3_src_a4_9"
+      ]
     },
     {
       "activity": 5,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of3_src_a5_1",
+        "itm_of3_src_a5_2",
+        "itm_of3_src_a5_3",
+        "itm_of3_src_a5_4",
+        "itm_of3_src_a5_5",
+        "itm_of3_src_a5_6",
+        "itm_of3_src_a5_7",
+        "itm_of3_src_a5_8",
+        "itm_of3_src_a5_9",
+        "itm_of3_src_a5_10"
+      ]
     },
     {
       "activity": 6,
@@ -164,9 +211,19 @@
       "activity": 8,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of3_src_a8_2",
+        "itm_of3_src_a8_3",
+        "itm_of3_src_a8_4",
+        "itm_of3_src_a8_5",
+        "itm_of3_src_a8_6",
+        "itm_of3_src_a8_7",
+        "itm_of3_src_a8_8",
+        "itm_of3_src_a8_9",
+        "itm_of3_src_a8_10"
+      ]
     },
     {
       "activity": 9,
@@ -197,25 +254,56 @@
       "activity": 11,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of3_src_a11_1",
+        "itm_of3_src_a11_2",
+        "itm_of3_src_a11_3",
+        "itm_of3_src_a11_4",
+        "itm_of3_src_a11_5",
+        "itm_of3_src_a11_6"
+      ]
     },
     {
       "activity": 12,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of3_src_a12_1",
+        "itm_of3_src_a12_2",
+        "itm_of3_src_a12_3",
+        "itm_of3_src_a12_4",
+        "itm_of3_src_a12_5",
+        "itm_of3_src_a12_6",
+        "itm_of3_src_a12_7",
+        "itm_of3_src_a12_8",
+        "itm_of3_src_a12_9",
+        "itm_of3_src_a12_10",
+        "itm_of3_src_a12_11",
+        "itm_of3_src_a12_12"
+      ]
     },
     {
       "activity": 13,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of3_src_a13_1",
+        "itm_of3_src_a13_2",
+        "itm_of3_src_a13_3",
+        "itm_of3_src_a13_4",
+        "itm_of3_src_a13_5",
+        "itm_of3_src_a13_6",
+        "itm_of3_src_a13_7",
+        "itm_of3_src_a13_8",
+        "itm_of3_src_a13_9",
+        "itm_of3_src_a13_10"
+      ]
     },
     {
       "activity": 14,
@@ -223,7 +311,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 15,
@@ -245,25 +334,58 @@
       "activity": 17,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of3_src_a17_1",
+        "itm_of3_src_a17_2",
+        "itm_of3_src_a17_3",
+        "itm_of3_src_a17_4",
+        "itm_of3_src_a17_5",
+        "itm_of3_src_a17_6",
+        "itm_of3_src_a17_7",
+        "itm_of3_src_a17_8",
+        "itm_of3_src_a17_9",
+        "itm_of3_src_a17_10"
+      ]
     },
     {
       "activity": 18,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of3_src_a18_1",
+        "itm_of3_src_a18_2",
+        "itm_of3_src_a18_3",
+        "itm_of3_src_a18_4",
+        "itm_of3_src_a18_5",
+        "itm_of3_src_a18_6",
+        "itm_of3_src_a18_7",
+        "itm_of3_src_a18_8",
+        "itm_of3_src_a18_9",
+        "itm_of3_src_a18_10"
+      ]
     },
     {
       "activity": 19,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of3_src_a19_1",
+        "itm_of3_src_a19_2",
+        "itm_of3_src_a19_3",
+        "itm_of3_src_a19_4",
+        "itm_of3_src_a19_5",
+        "itm_of3_src_a19_6",
+        "itm_of3_src_a19_7",
+        "itm_of3_src_a19_8",
+        "itm_of3_src_a19_9",
+        "itm_of3_src_a19_10"
+      ]
     },
     {
       "activity": 20,
@@ -286,25 +408,15 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 29,
-    "coveredElements": 7,
+    "coveredElements": 18,
     "convertible": {
-      "covered": 7,
+      "covered": 18,
       "total": 19
     },
     "actionableGaps": {
       "sections": [],
       "activities": [
-        3,
-        4,
-        5,
-        8,
-        11,
-        12,
-        13,
-        14,
-        17,
-        18,
-        19
+        14
       ],
       "vocabulary": [],
       "examples": [],
@@ -313,11 +425,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "3.3 Fonctions (function)",
-        "3.4 Fonctions (function)",
-        "3.5 Compréhension de l’oral (oral)"
-      ],
+      "sections": [],
       "activities": [
         2,
         6,

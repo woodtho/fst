@@ -14,10 +14,10 @@
     {
       "id": "17.1",
       "heading": "Notions",
-      "topicsFr": "",
+      "topicsFr": "Présence, absence, disponibilité, manque et stock",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 37,
+      "itemCount": 28,
       "linkedItems": [
         "itm_of17_voc_fe_1",
         "itm_of17_voc_fe_2",
@@ -26,33 +26,114 @@
         "itm_of17_voc_fe_5",
         "itm_of17_voc_fe_6",
         "itm_of17_voc_fe_7",
-        "itm_of17_voc_fe_8"
+        "itm_of17_voc_fe_8",
+        "itm_of17_src_a3_patch_1",
+        "itm_of17_src_a3_patch_2",
+        "itm_of17_src_a3_patch_3",
+        "itm_of17_src_a3_patch_4",
+        "itm_of17_src_a3_patch_5",
+        "itm_of17_src_a3_patch_6",
+        "itm_of17_src_a3_patch_7",
+        "itm_of17_src_a3_patch_8",
+        "itm_of17_src_a3_patch_9",
+        "itm_of17_src_a3_patch_10",
+        "itm_of17_src_a4_patch_1",
+        "itm_of17_src_a4_patch_2",
+        "itm_of17_src_a4_patch_3",
+        "itm_of17_src_a4_patch_4",
+        "itm_of17_src_a4_patch_5",
+        "itm_of17_src_a4_patch_6",
+        "itm_of17_src_a4_patch_7",
+        "itm_of17_src_a4_patch_8",
+        "itm_of17_src_a4_patch_9",
+        "itm_of17_src_a4_patch_10"
       ]
     },
     {
       "id": "17.2",
       "heading": "Fonctions",
-      "topicsFr": "",
+      "topicsFr": "Informer de la présence ou de la disponibilité de personnes ou de choses",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 34,
+      "linkedItems": [
+        "itm_of17_src_a5_1",
+        "itm_of17_src_a5_patch_1",
+        "itm_of17_src_a5_patch_2",
+        "itm_of17_src_a5_patch_3",
+        "itm_of17_src_a5_patch_4",
+        "itm_of17_src_a5_patch_5",
+        "itm_of17_src_a5_patch_6",
+        "itm_of17_src_a5_patch_7",
+        "itm_of17_src_a5_patch_8",
+        "itm_of17_src_a7_patch_1",
+        "itm_of17_src_a7_patch_2",
+        "itm_of17_src_a7_patch_3",
+        "itm_of17_src_a7_patch_4",
+        "itm_of17_src_a7_patch_5",
+        "itm_of17_src_a7_patch_6",
+        "itm_of17_src_a7_patch_7",
+        "itm_of17_src_a7_patch_8",
+        "itm_of17_src_a7_patch_9",
+        "itm_of17_src_a7_patch_10",
+        "itm_of17_src_a10_patch_1",
+        "itm_of17_src_a10_patch_2",
+        "itm_of17_src_a10_patch_3",
+        "itm_of17_src_a10_patch_4",
+        "itm_of17_src_a10_patch_5",
+        "itm_of17_src_a10_patch_6",
+        "itm_of17_src_a10_patch_7",
+        "itm_of17_src_a10_patch_8",
+        "itm_of17_src_a10_patch_9",
+        "itm_of17_src_a10_patch_10",
+        "itm_of17_src_a10_patch_11",
+        "itm_of17_src_a10_patch_12",
+        "itm_of17_src_a10_patch_13",
+        "itm_of17_src_a10_patch_14",
+        "itm_of17_src_a10_patch_15"
+      ]
     },
     {
       "id": "17.3",
       "heading": "Fonctions",
-      "topicsFr": "",
+      "topicsFr": "S'informer de la présence ou de la disponibilité de personnes ou de choses",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 25,
+      "linkedItems": [
+        "itm_of17_src_a7_patch_1",
+        "itm_of17_src_a7_patch_2",
+        "itm_of17_src_a7_patch_3",
+        "itm_of17_src_a7_patch_4",
+        "itm_of17_src_a7_patch_5",
+        "itm_of17_src_a7_patch_6",
+        "itm_of17_src_a7_patch_7",
+        "itm_of17_src_a7_patch_8",
+        "itm_of17_src_a7_patch_9",
+        "itm_of17_src_a7_patch_10",
+        "itm_of17_src_a10_patch_1",
+        "itm_of17_src_a10_patch_2",
+        "itm_of17_src_a10_patch_3",
+        "itm_of17_src_a10_patch_4",
+        "itm_of17_src_a10_patch_5",
+        "itm_of17_src_a10_patch_6",
+        "itm_of17_src_a10_patch_7",
+        "itm_of17_src_a10_patch_8",
+        "itm_of17_src_a10_patch_9",
+        "itm_of17_src_a10_patch_10",
+        "itm_of17_src_a10_patch_11",
+        "itm_of17_src_a10_patch_12",
+        "itm_of17_src_a10_patch_13",
+        "itm_of17_src_a10_patch_14",
+        "itm_of17_src_a10_patch_15"
+      ]
     },
     {
       "id": "17.4",
       "heading": "Phonétique",
-      "topicsFr": "",
+      "topicsFr": "Intonation des questions et réponses courtes sur la disponibilité",
       "kind": "phonetics",
-      "covered": false,
+      "covered": true,
       "itemCount": 0,
       "linkedItems": []
     }
@@ -100,27 +181,60 @@
       "activity": 3,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of17_src_a3_patch_1",
+        "itm_of17_src_a3_patch_2",
+        "itm_of17_src_a3_patch_3",
+        "itm_of17_src_a3_patch_4",
+        "itm_of17_src_a3_patch_5",
+        "itm_of17_src_a3_patch_6",
+        "itm_of17_src_a3_patch_7",
+        "itm_of17_src_a3_patch_8",
+        "itm_of17_src_a3_patch_9",
+        "itm_of17_src_a3_patch_10"
+      ],
+      "covered": true
     },
     {
       "activity": 4,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of17_src_a4_patch_1",
+        "itm_of17_src_a4_patch_2",
+        "itm_of17_src_a4_patch_3",
+        "itm_of17_src_a4_patch_4",
+        "itm_of17_src_a4_patch_5",
+        "itm_of17_src_a4_patch_6",
+        "itm_of17_src_a4_patch_7",
+        "itm_of17_src_a4_patch_8",
+        "itm_of17_src_a4_patch_9",
+        "itm_of17_src_a4_patch_10"
+      ],
+      "covered": true
     },
     {
       "activity": 5,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 1,
+      "itemCount": 9,
       "linkedItems": [
-        "itm_of17_src_a5_1"
-      ]
+        "itm_of17_src_a5_1",
+        "itm_of17_src_a5_patch_1",
+        "itm_of17_src_a5_patch_2",
+        "itm_of17_src_a5_patch_3",
+        "itm_of17_src_a5_patch_4",
+        "itm_of17_src_a5_patch_5",
+        "itm_of17_src_a5_patch_6",
+        "itm_of17_src_a5_patch_7",
+        "itm_of17_src_a5_patch_8"
+      ],
+      "covered": true
     },
     {
       "activity": 6,
@@ -134,9 +248,21 @@
       "activity": 7,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of17_src_a7_patch_1",
+        "itm_of17_src_a7_patch_2",
+        "itm_of17_src_a7_patch_3",
+        "itm_of17_src_a7_patch_4",
+        "itm_of17_src_a7_patch_5",
+        "itm_of17_src_a7_patch_6",
+        "itm_of17_src_a7_patch_7",
+        "itm_of17_src_a7_patch_8",
+        "itm_of17_src_a7_patch_9",
+        "itm_of17_src_a7_patch_10"
+      ],
+      "covered": true
     },
     {
       "activity": 8,
@@ -152,15 +278,33 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 10,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 15,
+      "linkedItems": [
+        "itm_of17_src_a10_patch_1",
+        "itm_of17_src_a10_patch_2",
+        "itm_of17_src_a10_patch_3",
+        "itm_of17_src_a10_patch_4",
+        "itm_of17_src_a10_patch_5",
+        "itm_of17_src_a10_patch_6",
+        "itm_of17_src_a10_patch_7",
+        "itm_of17_src_a10_patch_8",
+        "itm_of17_src_a10_patch_9",
+        "itm_of17_src_a10_patch_10",
+        "itm_of17_src_a10_patch_11",
+        "itm_of17_src_a10_patch_12",
+        "itm_of17_src_a10_patch_13",
+        "itm_of17_src_a10_patch_14",
+        "itm_of17_src_a10_patch_15"
+      ],
+      "covered": true
     },
     {
       "activity": 11,
@@ -175,19 +319,15 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 18,
-    "coveredElements": 4,
+    "coveredElements": 9,
     "convertible": {
-      "covered": 4,
+      "covered": 9,
       "total": 10
     },
     "actionableGaps": {
       "sections": [],
       "activities": [
-        3,
-        4,
-        7,
-        9,
-        10
+        9
       ],
       "vocabulary": [],
       "examples": [],
@@ -196,11 +336,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "17.2 Fonctions (function)",
-        "17.3 Fonctions (function)",
-        "17.4 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

@@ -19,7 +19,7 @@
       "topicsFr": "Indicateurs du passé, du présent et du futur",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 66,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of9_voc_fe_1",
         "itm_of9_voc_fe_2",
@@ -37,16 +37,11 @@
       "topicsFr": "Formation du passé composé, de l’imparfait, du futur simple, du futur proche",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 13,
+      "itemCount": 3,
       "linkedItems": [
-        "itm_of9_src_a7_1",
-        "itm_of9_src_a7_2",
-        "itm_of9_src_a7_4",
-        "itm_of9_src_a7_5",
-        "itm_of9_src_a7_7",
-        "itm_of9_src_a7_8",
-        "itm_of9_src_a7_9",
-        "itm_of9_src_a7_10"
+        "itm_of9_src_a4_1",
+        "itm_of9_src_a11_1",
+        "itm_of9_src_a15_1"
       ]
     },
     {
@@ -55,16 +50,10 @@
       "topicsFr": "Usage de l’indicatif présent",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 13,
+      "itemCount": 2,
       "linkedItems": [
-        "itm_of9_src_a7_1",
-        "itm_of9_src_a7_2",
-        "itm_of9_src_a7_4",
-        "itm_of9_src_a7_5",
-        "itm_of9_src_a7_7",
-        "itm_of9_src_a7_8",
-        "itm_of9_src_a7_9",
-        "itm_of9_src_a7_10"
+        "itm_of9_src_a13_1",
+        "itm_of9_src_a21_1"
       ]
     },
     {
@@ -72,26 +61,33 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre des énoncés qui situent un événement dans le temps : passé, présent, futur",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 3,
+      "linkedItems": [
+        "itm_of9_src_a5_1",
+        "itm_of9_src_a16_1",
+        "itm_of9_src_a17_extra_1"
+      ]
     },
     {
       "id": "9.5",
       "heading": "Fonctions",
       "topicsFr": "Describing situations in the present",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of9_src_a13_1",
+        "itm_of9_src_a21_1"
+      ]
     },
     {
       "id": "9.6",
       "heading": "Phonétique",
       "topicsFr": "Sounds, rhythm and intonation in French",
       "kind": "phonetics",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 2,
       "linkedItems": []
     }
   ],
@@ -104,7 +100,7 @@
   },
   "examples": {
     "sourceMarkers": 1,
-    "derivedItems": 13,
+    "derivedItems": 134,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -146,25 +142,48 @@
       "activity": 4,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of9_src_a4_1",
+        "itm_of9_src_a4_2",
+        "itm_of9_src_a4_3",
+        "itm_of9_src_a4_4",
+        "itm_of9_src_a4_5"
+      ]
     },
     {
       "activity": 5,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of9_src_a5_1",
+        "itm_of9_src_a5_2",
+        "itm_of9_src_a5_3",
+        "itm_of9_src_a5_4",
+        "itm_of9_src_a5_5",
+        "itm_of9_src_a5_6",
+        "itm_of9_src_a5_7",
+        "itm_of9_src_a5_8",
+        "itm_of9_src_a5_9",
+        "itm_of9_src_a5_10"
+      ]
     },
     {
       "activity": 6,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of9_src_a6_1",
+        "itm_of9_src_a6_2",
+        "itm_of9_src_a6_3",
+        "itm_of9_src_a6_4",
+        "itm_of9_src_a6_5"
+      ]
     },
     {
       "activity": 7,
@@ -201,7 +220,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 10,
@@ -215,9 +235,22 @@
       "activity": 11,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of9_src_a11_1",
+        "itm_of9_src_a11_2",
+        "itm_of9_src_a11_3",
+        "itm_of9_src_a11_4",
+        "itm_of9_src_a11_5",
+        "itm_of9_src_a11_6",
+        "itm_of9_src_a11_7",
+        "itm_of9_src_a11_8",
+        "itm_of9_src_a11_9",
+        "itm_of9_src_a11_10",
+        "itm_of9_src_a11_11",
+        "itm_of9_src_a11_12"
+      ]
     },
     {
       "activity": 12,
@@ -231,9 +264,17 @@
       "activity": 13,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 7,
+      "linkedItems": [
+        "itm_of9_src_a13_1",
+        "itm_of9_src_a13_2",
+        "itm_of9_src_a13_3",
+        "itm_of9_src_a13_4",
+        "itm_of9_src_a13_5",
+        "itm_of9_src_a13_6",
+        "itm_of9_src_a13_11"
+      ]
     },
     {
       "activity": 14,
@@ -247,26 +288,66 @@
       "activity": 15,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 15,
+      "linkedItems": [
+        "itm_of9_src_a15_1",
+        "itm_of9_src_a15_2",
+        "itm_of9_src_a15_3",
+        "itm_of9_src_a15_4",
+        "itm_of9_src_a15_5",
+        "itm_of9_src_a15_6",
+        "itm_of9_src_a15_7",
+        "itm_of9_src_a15_8",
+        "itm_of9_src_a15_9",
+        "itm_of9_src_a15_10",
+        "itm_of9_src_a15_11",
+        "itm_of9_src_a15_12",
+        "itm_of9_src_a15_13",
+        "itm_of9_src_a15_14",
+        "itm_of9_src_a15_15"
+      ]
     },
     {
       "activity": 16,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of9_src_a16_1",
+        "itm_of9_src_a16_2",
+        "itm_of9_src_a16_3",
+        "itm_of9_src_a16_4",
+        "itm_of9_src_a16_5",
+        "itm_of9_src_a16_6",
+        "itm_of9_src_a16_7",
+        "itm_of9_src_a16_8",
+        "itm_of9_src_a16_9",
+        "itm_of9_src_a16_10",
+        "itm_of9_src_a16_11",
+        "itm_of9_src_a16_12"
+      ]
     },
     {
       "activity": 17,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 1,
+      "itemCount": 12,
       "linkedItems": [
-        "itm_of9_src_a17_11"
+        "itm_of9_src_a17_11",
+        "itm_of9_src_a17_extra_1",
+        "itm_of9_src_a17_extra_2",
+        "itm_of9_src_a17_extra_3",
+        "itm_of9_src_a17_extra_4",
+        "itm_of9_src_a17_extra_5",
+        "itm_of9_src_a17_extra_6",
+        "itm_of9_src_a17_extra_7",
+        "itm_of9_src_a17_extra_8",
+        "itm_of9_src_a17_extra_9",
+        "itm_of9_src_a17_extra_10",
+        "itm_of9_src_a17_extra_11"
       ]
     },
     {
@@ -297,9 +378,19 @@
       "activity": 21,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of9_src_a21_1",
+        "itm_of9_src_a21_2",
+        "itm_of9_src_a21_3",
+        "itm_of9_src_a21_5",
+        "itm_of9_src_a21_6",
+        "itm_of9_src_a21_8",
+        "itm_of9_src_a21_9",
+        "itm_of9_src_a21_11",
+        "itm_of9_src_a21_12"
+      ]
     },
     {
       "activity": 22,
@@ -322,23 +413,15 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 32,
-    "coveredElements": 7,
+    "coveredElements": 16,
     "convertible": {
-      "covered": 7,
+      "covered": 16,
       "total": 17
     },
     "actionableGaps": {
       "sections": [],
       "activities": [
-        4,
-        5,
-        6,
-        9,
-        11,
-        13,
-        15,
-        16,
-        21
+        9
       ],
       "vocabulary": [],
       "examples": [],
@@ -347,11 +430,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "9.4 Fonctions (function)",
-        "9.5 Fonctions (function)",
-        "9.6 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

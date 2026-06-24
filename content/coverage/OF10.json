@@ -17,7 +17,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 80,
+      "itemCount": 9,
       "linkedItems": [
         "itm_of10_src_a63_m0",
         "itm_of10_voc_fe_1",
@@ -26,7 +26,8 @@
         "itm_of10_voc_fe_4",
         "itm_of10_voc_fe_5",
         "itm_of10_voc_fe_6",
-        "itm_of10_voc_fe_7"
+        "itm_of10_voc_fe_7",
+        "itm_of10_src_a4_patch_1"
       ]
     },
     {
@@ -35,7 +36,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 20,
+      "itemCount": 12,
       "linkedItems": [
         "itm_of10_src_a5_9",
         "itm_of10_src_a20_9",
@@ -44,7 +45,11 @@
         "itm_of10_src_a24_10",
         "itm_of10_src_a27_1",
         "itm_of10_src_a27_5",
-        "itm_of10_src_a27_6"
+        "itm_of10_src_a27_6",
+        "itm_of10_src_a27_8",
+        "itm_of10_src_a33_2",
+        "itm_of10_src_a33_3",
+        "itm_of10_src_a33_4"
       ]
     },
     {
@@ -53,7 +58,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 20,
+      "itemCount": 12,
       "linkedItems": [
         "itm_of10_src_a5_9",
         "itm_of10_src_a20_9",
@@ -62,7 +67,11 @@
         "itm_of10_src_a24_10",
         "itm_of10_src_a27_1",
         "itm_of10_src_a27_5",
-        "itm_of10_src_a27_6"
+        "itm_of10_src_a27_6",
+        "itm_of10_src_a27_8",
+        "itm_of10_src_a33_2",
+        "itm_of10_src_a33_3",
+        "itm_of10_src_a33_4"
       ]
     },
     {
@@ -71,7 +80,7 @@
       "topicsFr": "",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 20,
+      "itemCount": 12,
       "linkedItems": [
         "itm_of10_src_a5_9",
         "itm_of10_src_a20_9",
@@ -80,7 +89,11 @@
         "itm_of10_src_a24_10",
         "itm_of10_src_a27_1",
         "itm_of10_src_a27_5",
-        "itm_of10_src_a27_6"
+        "itm_of10_src_a27_6",
+        "itm_of10_src_a27_8",
+        "itm_of10_src_a33_2",
+        "itm_of10_src_a33_3",
+        "itm_of10_src_a33_4"
       ]
     },
     {
@@ -88,18 +101,44 @@
       "heading": "Fonctions",
       "topicsFr": "",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of10_src_a51_patch_1",
+        "itm_of10_src_a51_patch_2",
+        "itm_of10_src_a51_patch_3",
+        "itm_of10_src_a51_patch_4",
+        "itm_of10_src_a51_patch_5",
+        "itm_of10_src_a51_patch_6",
+        "itm_of10_src_a51_patch_7",
+        "itm_of10_src_a51_patch_8",
+        "itm_of10_src_a51_patch_9",
+        "itm_of10_src_a51_patch_10",
+        "itm_of10_src_a51_patch_11",
+        "itm_of10_src_a51_patch_12"
+      ]
     },
     {
       "id": "10.7",
       "heading": "Fonctions",
       "topicsFr": "",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of10_src_a51_patch_1",
+        "itm_of10_src_a51_patch_2",
+        "itm_of10_src_a51_patch_3",
+        "itm_of10_src_a51_patch_4",
+        "itm_of10_src_a51_patch_5",
+        "itm_of10_src_a51_patch_6",
+        "itm_of10_src_a51_patch_7",
+        "itm_of10_src_a51_patch_8",
+        "itm_of10_src_a51_patch_9",
+        "itm_of10_src_a51_patch_10",
+        "itm_of10_src_a51_patch_11",
+        "itm_of10_src_a51_patch_12"
+      ]
     },
     {
       "id": "10.8",
@@ -107,7 +146,7 @@
       "topicsFr": "",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 80,
+      "itemCount": 9,
       "linkedItems": [
         "itm_of10_src_a63_m0",
         "itm_of10_voc_fe_1",
@@ -116,7 +155,8 @@
         "itm_of10_voc_fe_4",
         "itm_of10_voc_fe_5",
         "itm_of10_voc_fe_6",
-        "itm_of10_voc_fe_7"
+        "itm_of10_voc_fe_7",
+        "itm_of10_src_a4_patch_1"
       ]
     },
     {
@@ -124,25 +164,51 @@
       "heading": "Fonctions",
       "topicsFr": "",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of10_src_a51_patch_1",
+        "itm_of10_src_a51_patch_2",
+        "itm_of10_src_a51_patch_3",
+        "itm_of10_src_a51_patch_4",
+        "itm_of10_src_a51_patch_5",
+        "itm_of10_src_a51_patch_6",
+        "itm_of10_src_a51_patch_7",
+        "itm_of10_src_a51_patch_8",
+        "itm_of10_src_a51_patch_9",
+        "itm_of10_src_a51_patch_10",
+        "itm_of10_src_a51_patch_11",
+        "itm_of10_src_a51_patch_12"
+      ]
     },
     {
       "id": "10.10",
       "heading": "Fonctions",
       "topicsFr": "",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of10_src_a51_patch_1",
+        "itm_of10_src_a51_patch_2",
+        "itm_of10_src_a51_patch_3",
+        "itm_of10_src_a51_patch_4",
+        "itm_of10_src_a51_patch_5",
+        "itm_of10_src_a51_patch_6",
+        "itm_of10_src_a51_patch_7",
+        "itm_of10_src_a51_patch_8",
+        "itm_of10_src_a51_patch_9",
+        "itm_of10_src_a51_patch_10",
+        "itm_of10_src_a51_patch_11",
+        "itm_of10_src_a51_patch_12"
+      ]
     },
     {
       "id": "10.11",
       "heading": "Phonétique",
       "topicsFr": "",
       "kind": "phonetics",
-      "covered": false,
+      "covered": true,
       "itemCount": 0,
       "linkedItems": []
     },
@@ -151,7 +217,7 @@
       "heading": "Langue écrite",
       "topicsFr": "",
       "kind": "writing",
-      "covered": false,
+      "covered": true,
       "itemCount": 0,
       "linkedItems": []
     },
@@ -161,7 +227,7 @@
       "topicsFr": "Substantifs se terminant par les suffixes -ion et -age décrivant des tâches, des opérations",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 80,
+      "itemCount": 9,
       "linkedItems": [
         "itm_of10_src_a63_m0",
         "itm_of10_voc_fe_1",
@@ -170,7 +236,8 @@
         "itm_of10_voc_fe_4",
         "itm_of10_voc_fe_5",
         "itm_of10_voc_fe_6",
-        "itm_of10_voc_fe_7"
+        "itm_of10_voc_fe_7",
+        "itm_of10_src_a4_patch_1"
       ]
     },
     {
@@ -179,7 +246,7 @@
       "topicsFr": "PRONOMS PERSONNELS OBJETS ME, TE, NOUS, VOUS",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 20,
+      "itemCount": 12,
       "linkedItems": [
         "itm_of10_src_a5_9",
         "itm_of10_src_a20_9",
@@ -188,7 +255,11 @@
         "itm_of10_src_a24_10",
         "itm_of10_src_a27_1",
         "itm_of10_src_a27_5",
-        "itm_of10_src_a27_6"
+        "itm_of10_src_a27_6",
+        "itm_of10_src_a27_8",
+        "itm_of10_src_a33_2",
+        "itm_of10_src_a33_3",
+        "itm_of10_src_a33_4"
       ]
     }
   ],
@@ -237,15 +308,31 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 4,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 13,
+      "linkedItems": [
+        "itm_of10_src_a4_patch_1",
+        "itm_of10_src_a4_patch_2",
+        "itm_of10_src_a4_patch_3",
+        "itm_of10_src_a4_patch_4",
+        "itm_of10_src_a4_patch_5",
+        "itm_of10_src_a4_patch_6",
+        "itm_of10_src_a4_patch_7",
+        "itm_of10_src_a4_patch_8",
+        "itm_of10_src_a4_patch_9",
+        "itm_of10_src_a4_patch_10",
+        "itm_of10_src_a4_patch_11",
+        "itm_of10_src_a4_patch_12",
+        "itm_of10_src_a4_patch_13"
+      ],
+      "covered": true
     },
     {
       "activity": 5,
@@ -255,7 +342,8 @@
       "itemCount": 1,
       "linkedItems": [
         "itm_of10_src_a5_9"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 6,
@@ -263,7 +351,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 7,
@@ -294,8 +383,20 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of10_src_a10_patch_1",
+        "itm_of10_src_a10_patch_2",
+        "itm_of10_src_a10_patch_3",
+        "itm_of10_src_a10_patch_4",
+        "itm_of10_src_a10_patch_5",
+        "itm_of10_src_a10_patch_6",
+        "itm_of10_src_a10_patch_7",
+        "itm_of10_src_a10_patch_8",
+        "itm_of10_src_a10_patch_9",
+        "itm_of10_src_a10_patch_10"
+      ],
+      "covered": true
     },
     {
       "activity": 11,
@@ -303,7 +404,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 12,
@@ -311,7 +413,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 13,
@@ -326,24 +429,44 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of10_src_a14_patch_1",
+        "itm_of10_src_a14_patch_2",
+        "itm_of10_src_a14_patch_3",
+        "itm_of10_src_a14_patch_4",
+        "itm_of10_src_a14_patch_5",
+        "itm_of10_src_a14_patch_6"
+      ],
+      "covered": true
     },
     {
       "activity": 15,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of10_src_a15_patch_1",
+        "itm_of10_src_a15_patch_2",
+        "itm_of10_src_a15_patch_3",
+        "itm_of10_src_a15_patch_4"
+      ],
+      "covered": true
     },
     {
       "activity": 16,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of10_src_a16_patch_1",
+        "itm_of10_src_a16_patch_2",
+        "itm_of10_src_a16_patch_3",
+        "itm_of10_src_a16_patch_4"
+      ],
+      "covered": true
     },
     {
       "activity": 17,
@@ -351,7 +474,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 18,
@@ -359,7 +483,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 19,
@@ -378,7 +503,8 @@
       "linkedItems": [
         "itm_of10_src_a20_9",
         "itm_of10_src_a20_10"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 21,
@@ -386,7 +512,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 22,
@@ -394,7 +521,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 23,
@@ -413,7 +541,8 @@
       "linkedItems": [
         "itm_of10_src_a24_4",
         "itm_of10_src_a24_10"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 25,
@@ -421,7 +550,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 26,
@@ -442,7 +572,8 @@
         "itm_of10_src_a27_5",
         "itm_of10_src_a27_6",
         "itm_of10_src_a27_8"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 28,
@@ -458,7 +589,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 30,
@@ -466,7 +598,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 31,
@@ -474,7 +607,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 32,
@@ -498,7 +632,8 @@
         "itm_of10_src_a33_7",
         "itm_of10_src_a33_8",
         "itm_of10_src_a33_10"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 34,
@@ -508,7 +643,8 @@
       "itemCount": 1,
       "linkedItems": [
         "itm_of10_src_a34_8"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 35,
@@ -516,7 +652,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 36,
@@ -531,8 +668,22 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of10_src_a37_patch_1",
+        "itm_of10_src_a37_patch_2",
+        "itm_of10_src_a37_patch_3",
+        "itm_of10_src_a37_patch_4",
+        "itm_of10_src_a37_patch_5",
+        "itm_of10_src_a37_patch_6",
+        "itm_of10_src_a37_patch_7",
+        "itm_of10_src_a37_patch_8",
+        "itm_of10_src_a37_patch_9",
+        "itm_of10_src_a37_patch_10",
+        "itm_of10_src_a37_patch_11",
+        "itm_of10_src_a37_patch_12"
+      ],
+      "covered": true
     },
     {
       "activity": 38,
@@ -571,8 +722,25 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 15,
+      "linkedItems": [
+        "itm_of10_src_a42_patch_1",
+        "itm_of10_src_a42_patch_2",
+        "itm_of10_src_a42_patch_3",
+        "itm_of10_src_a42_patch_4",
+        "itm_of10_src_a42_patch_5",
+        "itm_of10_src_a42_patch_6",
+        "itm_of10_src_a42_patch_7",
+        "itm_of10_src_a42_patch_8",
+        "itm_of10_src_a42_patch_9",
+        "itm_of10_src_a42_patch_10",
+        "itm_of10_src_a42_patch_11",
+        "itm_of10_src_a42_patch_12",
+        "itm_of10_src_a42_patch_13",
+        "itm_of10_src_a42_patch_14",
+        "itm_of10_src_a42_patch_15"
+      ],
+      "covered": true
     },
     {
       "activity": 43,
@@ -620,31 +788,93 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 49,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 20,
+      "linkedItems": [
+        "itm_of10_src_a49_patch_1",
+        "itm_of10_src_a49_patch_2",
+        "itm_of10_src_a49_patch_3",
+        "itm_of10_src_a49_patch_4",
+        "itm_of10_src_a49_patch_5",
+        "itm_of10_src_a49_patch_6",
+        "itm_of10_src_a49_patch_7",
+        "itm_of10_src_a49_patch_8",
+        "itm_of10_src_a49_patch_9",
+        "itm_of10_src_a49_patch_10",
+        "itm_of10_src_a49_patch_11",
+        "itm_of10_src_a49_patch_12",
+        "itm_of10_src_a49_patch_13",
+        "itm_of10_src_a49_patch_14",
+        "itm_of10_src_a49_patch_15",
+        "itm_of10_src_a49_patch_16",
+        "itm_of10_src_a49_patch_17",
+        "itm_of10_src_a49_patch_18",
+        "itm_of10_src_a49_patch_19",
+        "itm_of10_src_a49_patch_20"
+      ],
+      "covered": true
     },
     {
       "activity": 50,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 20,
+      "linkedItems": [
+        "itm_of10_src_a50_patch_1",
+        "itm_of10_src_a50_patch_2",
+        "itm_of10_src_a50_patch_3",
+        "itm_of10_src_a50_patch_4",
+        "itm_of10_src_a50_patch_5",
+        "itm_of10_src_a50_patch_6",
+        "itm_of10_src_a50_patch_7",
+        "itm_of10_src_a50_patch_8",
+        "itm_of10_src_a50_patch_9",
+        "itm_of10_src_a50_patch_10",
+        "itm_of10_src_a50_patch_11",
+        "itm_of10_src_a50_patch_12",
+        "itm_of10_src_a50_patch_13",
+        "itm_of10_src_a50_patch_14",
+        "itm_of10_src_a50_patch_15",
+        "itm_of10_src_a50_patch_16",
+        "itm_of10_src_a50_patch_17",
+        "itm_of10_src_a50_patch_18",
+        "itm_of10_src_a50_patch_19",
+        "itm_of10_src_a50_patch_20"
+      ],
+      "covered": true
     },
     {
       "activity": 51,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "itemCount": 15,
+      "linkedItems": [
+        "itm_of10_src_a51_patch_1",
+        "itm_of10_src_a51_patch_2",
+        "itm_of10_src_a51_patch_3",
+        "itm_of10_src_a51_patch_4",
+        "itm_of10_src_a51_patch_5",
+        "itm_of10_src_a51_patch_6",
+        "itm_of10_src_a51_patch_7",
+        "itm_of10_src_a51_patch_8",
+        "itm_of10_src_a51_patch_9",
+        "itm_of10_src_a51_patch_10",
+        "itm_of10_src_a51_patch_11",
+        "itm_of10_src_a51_patch_12",
+        "itm_of10_src_a51_patch_13",
+        "itm_of10_src_a51_patch_14",
+        "itm_of10_src_a51_patch_15"
+      ],
+      "covered": true
     },
     {
       "activity": 52,
@@ -652,7 +882,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 53,
@@ -660,7 +891,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 54,
@@ -668,7 +900,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 55,
@@ -676,7 +909,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 56,
@@ -684,7 +918,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 57,
@@ -742,7 +977,8 @@
       "itemCount": 1,
       "linkedItems": [
         "itm_of10_src_a63_m0"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 64,
@@ -750,7 +986,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 65,
@@ -802,7 +1039,8 @@
         "itm_of10_src_a70_1",
         "itm_of10_src_a70_2",
         "itm_of10_src_a70_3"
-      ]
+      ],
+      "covered": true
     },
     {
       "activity": 71,
@@ -810,7 +1048,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 72,
@@ -818,7 +1057,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 73,
@@ -834,7 +1074,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 75,
@@ -842,7 +1083,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": true
     },
     {
       "activity": 76,
@@ -873,49 +1115,14 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 94,
-    "coveredElements": 17,
+    "coveredElements": 51,
     "convertible": {
-      "covered": 17,
+      "covered": 51,
       "total": 52
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        4,
-        6,
-        10,
-        11,
-        12,
-        14,
-        15,
-        16,
-        17,
-        18,
-        21,
-        22,
-        25,
-        29,
-        30,
-        31,
-        35,
-        37,
-        42,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        64,
-        71,
-        72,
-        74,
-        75
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -923,14 +1130,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "10.6 Fonctions (function)",
-        "10.7 Fonctions (function)",
-        "10.9 Fonctions (function)",
-        "10.10 Fonctions (function)",
-        "10.11 Phonétique (phonetics)",
-        "10.12 Langue écrite (writing)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

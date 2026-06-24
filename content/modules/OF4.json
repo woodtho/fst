@@ -13,35 +13,358 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF4 — To express ownership. Source document SC102-2/4-2005F. Grammar taught: present, possessives, adjectives. Vocabulary: the OF4 section of the PFL2 Lexique. 78 questions, all traceable to the PFL2 source (19 verbatim source activities + 59 from the OF4 Lexique).",
-        "fr": "Exprimer des relations de possession. Document source SC102-2/4-2005F. Grammaire enseignée : present, possessives, adjectives. Vocabulaire : section OF4 du Lexique PFL2."
+        "en": "OF4 teaches how to express possession and ownership, identify the owner of an object or document, and describe objects by colour, shape, size, material, and condition.",
+        "fr": "L’OF4 enseigne comment exprimer la possession, identifier le possesseur d’un objet ou d’un document et décrire un objet par sa couleur, sa forme, sa dimension, sa matière et son état."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Les formes centrales sont avoir, posséder, être propriétaire de, être à, appartenir à, de/du/des, les adjectifs possessifs et les pronoms possessifs. Pour les descriptions, retenez les catégories couleur, forme, dimension, matière et état.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): present, possessives, adjectives.",
+        "summary": "Cet objectif combine le verbe avoir, les adjectifs possessifs, les pronoms possessifs et l’accord/place des adjectifs.",
         "charts": [],
-        "points": []
+        "points": [
+          "Avoir au présent : j’ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont.",
+          "L’adjectif possessif s’accorde avec l’objet possédé : mon bureau, ma serviette, mes dossiers.",
+          "Devant une voyelle féminine, on emploie mon/ton/son : mon auto, ton idée, son agrafeuse.",
+          "Le pronom possessif remplace le nom : mon bureau devient le mien; ma copie devient la mienne.",
+          "Être à + pronom indique le possesseur : Le livre est à moi; les dossiers sont à vous.",
+          "De/du/des indique aussi le possesseur : le bureau du chef, les copies des coordonnateurs.",
+          "Les adjectifs de couleur, forme, dimension et état s’accordent généralement avec le nom décrit."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Travaillez la syllabation avec des mots comme en/tre/po/sage, or/di/na/teur et in/ter/gou/ver/ne/men/tal.",
+          "Écoutez l’enchaînement et la liaison dans des suites comme Vous avez de beaux enfants et On arrive au dernier étage."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Identifier le possesseur",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "C’est à qui, ce dossier-là?",
+              "en": "Whose file is this?"
+            },
+            {
+              "speaker": "B",
+              "fr": "C’est à Micheline.",
+              "en": "It belongs to Micheline."
+            },
+            {
+              "speaker": "A",
+              "fr": "Et ces copies?",
+              "en": "And these copies?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Ce sont les siennes.",
+              "en": "They are hers."
+            }
+          ]
+        },
+        {
+          "title": "Décrire un objet",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "C’est ton classeur?",
+              "en": "Is that your filing cabinet?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Non, le mien est gris et rectangulaire.",
+              "en": "No, mine is grey and rectangular."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Activité 2 — Indicateurs de possession",
+          "table": {
+            "headers": [
+              "Forme",
+              "Exemple",
+              "Sens"
+            ],
+            "rows": [
+              [
+                "avoir",
+                "J’ai une auto.",
+                "I have"
+              ],
+              [
+                "posséder",
+                "Je possède une auto.",
+                "I own"
+              ],
+              [
+                "être propriétaire de",
+                "Je suis propriétaire d’une auto.",
+                "I am the owner of"
+              ],
+              [
+                "adjectif possessif",
+                "mon camion, ma clé, mes autos",
+                "my"
+              ],
+              [
+                "pronom possessif",
+                "le mien, la mienne, les miens",
+                "mine"
+              ],
+              [
+                "être à",
+                "Le livre est à moi.",
+                "belongs to me"
+              ],
+              [
+                "appartenir à",
+                "L’auto appartient à Jacques.",
+                "belongs to Jacques"
+              ],
+              [
+                "de / du / des",
+                "le livre de Julie, le livre du professeur",
+                "Julie’s / the teacher’s"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 6 — Qualités physiques",
+          "table": {
+            "headers": [
+              "Catégorie",
+              "Exemples"
+            ],
+            "rows": [
+              [
+                "Couleur",
+                "doré, noir, brun, rouge, vert, bleu, jaune"
+              ],
+              [
+                "Forme",
+                "carré, ovale, long, haut, rectangulaire, rond"
+              ],
+              [
+                "Dimension",
+                "gros, grand, petit, large, étroit"
+              ],
+              [
+                "Matière",
+                "en bois, en métal, en carton, en papier, en plastique, en cuir"
+              ],
+              [
+                "État",
+                "neuf, vieux, propre, sale, d’occasion, en bon état"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 17 — Avoir au présent",
+          "table": {
+            "headers": [
+              "Sujet",
+              "Avoir"
+            ],
+            "rows": [
+              [
+                "je",
+                "ai"
+              ],
+              [
+                "tu",
+                "as"
+              ],
+              [
+                "il / elle / on",
+                "a"
+              ],
+              [
+                "nous",
+                "avons"
+              ],
+              [
+                "vous",
+                "avez"
+              ],
+              [
+                "ils / elles",
+                "ont"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 22 — Adjectifs possessifs",
+          "table": {
+            "headers": [
+              "Possesseur",
+              "Masculin singulier",
+              "Féminin singulier",
+              "Pluriel"
+            ],
+            "rows": [
+              [
+                "je",
+                "mon",
+                "ma",
+                "mes"
+              ],
+              [
+                "tu",
+                "ton",
+                "ta",
+                "tes"
+              ],
+              [
+                "il / elle",
+                "son",
+                "sa",
+                "ses"
+              ],
+              [
+                "nous",
+                "notre",
+                "notre",
+                "nos"
+              ],
+              [
+                "vous",
+                "votre",
+                "votre",
+                "vos"
+              ],
+              [
+                "ils / elles",
+                "leur",
+                "leur",
+                "leurs"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 26 — Pronoms possessifs",
+          "table": {
+            "headers": [
+              "Possesseur",
+              "Masculin singulier",
+              "Féminin singulier",
+              "Pluriel"
+            ],
+            "rows": [
+              [
+                "je",
+                "le mien",
+                "la mienne",
+                "les miens / les miennes"
+              ],
+              [
+                "tu",
+                "le tien",
+                "la tienne",
+                "les tiens / les tiennes"
+              ],
+              [
+                "il / elle",
+                "le sien",
+                "la sienne",
+                "les siens / les siennes"
+              ],
+              [
+                "nous",
+                "le nôtre",
+                "la nôtre",
+                "les nôtres"
+              ],
+              [
+                "vous",
+                "le vôtre",
+                "la vôtre",
+                "les vôtres"
+              ],
+              [
+                "ils / elles",
+                "le leur",
+                "la leur",
+                "les leurs"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 46 — S’informer du possesseur",
+          "table": {
+            "headers": [
+              "Question",
+              "Réponse possible"
+            ],
+            "rows": [
+              [
+                "C’est à qui, le dictionnaire?",
+                "C’est à moi."
+              ],
+              [
+                "À qui c’est, ce dossier?",
+                "C’est à Micheline."
+              ],
+              [
+                "À qui est-ce, cette chemise?",
+                "C’est la mienne."
+              ],
+              [
+                "C’est votre rapport, ça?",
+                "Non, c’est le rapport de Charlotte."
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 51 — Syllabation",
+          "table": {
+            "headers": [
+              "Mot",
+              "Syllabes"
+            ],
+            "rows": [
+              [
+                "entreposage",
+                "en/tre/po/sage"
+              ],
+              [
+                "ordinateur",
+                "or/di/na/teur"
+              ],
+              [
+                "nationalité",
+                "na/tio/na/li/té"
+              ],
+              [
+                "intergouvernemental",
+                "in/ter/gou/ver/ne/men/tal"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "78 questions, all traceable to the PFL2 source (19 verbatim source activities + 59 from the OF4 Lexique).",
+      "coverage": "320 useful questions, all traceable to the PFL2 source (261 source activity questions + 59 from the OF4 Lexique). Low-value worksheet/audio recall items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 19
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 241
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 59
         }
       ],
-      "totalQuestions": 78
+      "totalQuestions": 300
     },
     "consolidation": {
       "sourceBooklet": {
@@ -88,42 +411,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 9,
+    "coveredElements": 35,
     "totalElements": 72,
     "convertible": {
-      "covered": 9,
+      "covered": 35,
       "total": 36
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        10,
-        11,
-        15,
-        17,
-        18,
-        20,
-        23,
-        24,
-        25,
-        28,
-        29,
-        32,
-        33,
-        34,
-        35,
-        43,
-        44,
-        45,
-        51,
-        53
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -131,12 +427,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "4.5 Fonctions (function)",
-        "4.6 Fonctions (function)",
-        "4.7 Fonctions (function)",
-        "4.8 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

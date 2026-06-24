@@ -18,7 +18,7 @@
       "topicsFr": "Indicateurs d'antériorité · Indicateurs de simultanéité · Indicateurs de postériorité",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 61,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of24_voc_fe_1",
         "itm_of24_voc_fe_2",
@@ -37,16 +37,7 @@
       "kind": "grammar",
       "covered": true,
       "itemCount": 35,
-      "linkedItems": [
-        "itm_of24_src_a26_1",
-        "itm_of24_src_a26_2",
-        "itm_of24_src_a26_3",
-        "itm_of24_src_a26_5",
-        "itm_of24_src_a26_6",
-        "itm_of24_src_a26_7",
-        "itm_of24_src_a26_8",
-        "itm_of24_src_a26_9"
-      ]
+      "linkedItems": []
     },
     {
       "id": "24.3",
@@ -303,20 +294,10 @@
       "activity": 26,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": true,
-      "itemCount": 10,
-      "linkedItems": [
-        "itm_of24_src_a26_1",
-        "itm_of24_src_a26_2",
-        "itm_of24_src_a26_3",
-        "itm_of24_src_a26_5",
-        "itm_of24_src_a26_6",
-        "itm_of24_src_a26_7",
-        "itm_of24_src_a26_8",
-        "itm_of24_src_a26_9",
-        "itm_of24_src_a26_10",
-        "itm_of24_src_a26_11"
-      ]
+      "extracted": false,
+      "itemCount": 0,
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 27,
@@ -590,6 +571,7 @@
         22,
         23,
         25,
+        26,
         27,
         30,
         33,

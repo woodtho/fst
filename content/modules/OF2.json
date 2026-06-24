@@ -5,7 +5,7 @@
   "titleEn": "To identify objects or documents",
   "level": "A",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/2-2005F",
     "text": "sources/text/OF02.txt"
@@ -13,24 +13,127 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF2 — To identify objects or documents. Source document SC102-2/2-2005F. Grammar taught: articles. Vocabulary: the OF2 section of the PFL2 Lexique. 102 questions, all traceable to the PFL2 source (43 verbatim source activities + 59 from the OF2 Lexique).",
-        "fr": "Identifier des objets ou des documents. Document source SC102-2/2-2005F. Grammaire enseignée : articles. Vocabulaire : section OF2 du Lexique PFL2."
+        "en": "OF2 — To identify objects or documents. This lesson covers asking what an object/document is, naming office objects and documents, choosing articles by gender and number, using c’est / ce sont, and recognizing the key pronunciation patterns introduced in the source.",
+        "fr": "Identifier des objets ou des documents : demander ce que c’est, nommer des objets et documents de bureau, choisir les articles selon le genre et le nombre, utiliser c’est / ce sont, et reconnaître les principaux sons présentés dans la source."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "OF2 vocabulary includes office objects, computer parts, document types, document classifications, and classroom/workplace objects. The full OF2 lexicon remains in the Lexicon panel.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): articles.",
+        "summary": "OF2 focuses on articles, noun gender, c’est / ce sont, and question forms used to identify objects and documents.",
         "charts": [],
-        "points": []
+        "points": [
+          "Identification questions: « Qu’est-ce que c’est? », « C’est quoi, ça? », « Comment est-ce que ça s’appelle? », « Quel est le titre de ce document? »",
+          "Definite articles: le + masculine singular, la + feminine singular, l’ + vowel/silent h, les + plural.",
+          "Indefinite articles: un + masculine singular, une + feminine singular, des + plural.",
+          "Partitive articles introduced for recognition: du, de la, de l’, des.",
+          "Gender clues: -tion/-sion/-xion, -ure, -tte are often feminine; -ier, -oir, -ent, many -eur concrete nouns are often masculine.",
+          "To identify one object: « C’est un bureau. » To identify several: « C’est des bureaux » or the more formal « Ce sont des bureaux. »",
+          "For verification: « Est-ce que c’est un lexique bilingue? », « C’est bien la nouvelle édition? », « Ce sont bien des formulaires? »"
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Oral vowels: [i] lire, [e] été, [E] pelle, [a] lac, [y] bu, [u] roue, [o] beau, [O] port.",
+          "Nasal vowels: brun, médecin, ton, dans.",
+          "Semi-consonants: [j] bail, [w] oui, [ɥ] suis.",
+          "French [p], [t], and [k] are not aspirated like English p/t/k."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Activité 27.1 — Identifier un objet bizarre",
+          "register": "neutral",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Lise, regarde ça! Devine ce que c’est."
+            },
+            {
+              "speaker": "B",
+              "fr": "Quel objet bizarre! Qu’est-ce que c’est?"
+            },
+            {
+              "speaker": "A",
+              "fr": "C’est un taille-crayon électrique."
+            }
+          ]
+        },
+        {
+          "title": "Activité 27.2 — Vérifier une copie",
+          "register": "neutral",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Tiens, Jacqueline. C’est pour toi."
+            },
+            {
+              "speaker": "B",
+              "fr": "Est-ce que c’est une copie du rapport annuel?"
+            },
+            {
+              "speaker": "A",
+              "fr": "Non, c’est l’original. Tu dois faire des copies."
+            }
+          ]
+        },
+        {
+          "title": "Activité 27.7 — Demander le nom d’un objet",
+          "register": "informal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Michèle, tu me prêtes ton... ton truc, là, pour écrire les dates. C’est quoi, le nom de cet objet-là?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Ça s’appelle un timbre dateur. Tiens, le voilà."
+            }
+          ]
+        },
+        {
+          "title": "Activité 27.9 — Identifier des formulaires",
+          "register": "formal",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Monsieur Derouin, excusez-moi. Qu’est-ce que c’est, ces formulaires-là?"
+            },
+            {
+              "speaker": "B",
+              "fr": "C’est les nouveaux formulaires de demande de congé."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "fr": "Demandes d’identification\nQu’est-ce que c’est? / C’est quoi, ça? / Comment est-ce que ça s’appelle? / Quel est le titre de ce document?\n\nIdentification\nC’est un crayon. / C’est des photocopies. / Ce sont des photocopies. / Ça s’appelle une brochure.",
+          "en": "Core formulas for asking someone to identify an object or document."
+        },
+        {
+          "fr": "Noms de documents semblables en français et en anglais\nl’article, la bibliographie, la brochure, le budget, le bulletin, le contrat, le document, la documentation, la lettre, le manuel, la note, l’original, la photocopie, le plan, le programme, la publication, le rapport, le texte, la version, le volume.",
+          "en": "Document names that are identical or similar in French and English."
+        },
+        {
+          "fr": "Noms de documents différents en français et en anglais\nla chemise = folder; le dossier = file/file folder; le courrier = mail; le courriel = e-mail; la demande = request; le formulaire = form; la facture = bill/invoice; le procès-verbal = minutes; l’ordre du jour = agenda; la carte = map; le tableau = chart.",
+          "en": "Document names whose French term differs from English."
+        },
+        {
+          "fr": "Objets et documents à mémoriser avec l’article\nle crayon, le stylo, l’ordinateur, la règle, la gomme à effacer, le fauteuil, la chaise, la bibliothèque, la clé.\nle rapport, le dossier, le texte, le communiqué, le formulaire, l’article, la brochure, le dépliant, la note de service, la photocopie, la lettre, la facture, l’annexe.",
+          "en": "High-value OF2 nouns for object/document identification."
+        },
+        {
+          "fr": "C’est / Ce sont\nC’est un bureau. C’est des bureaux. Ce sont des bureaux.\nC’est un professeur. C’est des professeurs. Ce sont des professeurs.\nIn colloquial French, c’est is often used with plural nouns.",
+          "en": "Use c’est for singular identification; c’est des or ce sont des for plural identification."
+        },
+        {
+          "fr": "Fonctions — demander et vérifier\nQu’est-ce que c’est, ça? / C’est quoi, ce document? / Comment est-ce que ça s’appelle? / Quel est le nom de cet appareil? / Quel est le titre de cet article?\nEst-ce que c’est un lexique bilingue? / C’est bien la nouvelle édition? / Ce sont bien des formulaires?",
+          "en": "Functional formulas from activities 27-28."
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "102 questions, all traceable to the PFL2 source (43 verbatim source activities + 59 from the OF2 Lexique).",
+      "coverage": "178 questions, including 76 added items from OF2 activities 6, 8, 18, 19, 24, 26, and 27.",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (verbatim)",
@@ -39,9 +142,91 @@
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 59
+        },
+        {
+          "title": "Activités ajoutées — objets, documents, articles et fonctions",
+          "count": 76,
+          "itemRefs": [
+            "itm_of2_a6_1",
+            "itm_of2_a6_2",
+            "itm_of2_a6_3",
+            "itm_of2_a6_4",
+            "itm_of2_a6_5",
+            "itm_of2_a6_6",
+            "itm_of2_a6_7",
+            "itm_of2_a8_1",
+            "itm_of2_a8_2",
+            "itm_of2_a8_3",
+            "itm_of2_a8_4",
+            "itm_of2_a8_5",
+            "itm_of2_a8_6",
+            "itm_of2_a8_7",
+            "itm_of2_a8_8",
+            "itm_of2_a8_9",
+            "itm_of2_a8_10",
+            "itm_of2_a8_11",
+            "itm_of2_a8_12",
+            "itm_of2_a18_1",
+            "itm_of2_a18_2",
+            "itm_of2_a18_3",
+            "itm_of2_a19_1",
+            "itm_of2_a19_2",
+            "itm_of2_a19_3",
+            "itm_of2_a19_4",
+            "itm_of2_a19_5",
+            "itm_of2_a19_6",
+            "itm_of2_a19_7",
+            "itm_of2_a19_8",
+            "itm_of2_a19_9",
+            "itm_of2_a19_10",
+            "itm_of2_a19_11",
+            "itm_of2_a19_12",
+            "itm_of2_a19_13",
+            "itm_of2_a19_14",
+            "itm_of2_a19_15",
+            "itm_of2_a19_16",
+            "itm_of2_a19_17",
+            "itm_of2_a19_18",
+            "itm_of2_a19_19",
+            "itm_of2_a19_20",
+            "itm_of2_a24_1",
+            "itm_of2_a24_2",
+            "itm_of2_a24_3",
+            "itm_of2_a24_4",
+            "itm_of2_a24_5",
+            "itm_of2_a24_6",
+            "itm_of2_a24_7",
+            "itm_of2_a24_8",
+            "itm_of2_a24_9",
+            "itm_of2_a24_10",
+            "itm_of2_a24_11",
+            "itm_of2_a24_12",
+            "itm_of2_a26_1",
+            "itm_of2_a26_2",
+            "itm_of2_a26_3",
+            "itm_of2_a26_4",
+            "itm_of2_a26_5",
+            "itm_of2_a26_6",
+            "itm_of2_a26_7",
+            "itm_of2_a26_8",
+            "itm_of2_a26_9",
+            "itm_of2_a26_10",
+            "itm_of2_a26_11",
+            "itm_of2_a26_12",
+            "itm_of2_a27_a",
+            "itm_of2_a27_b",
+            "itm_of2_a27_c",
+            "itm_of2_a27_d",
+            "itm_of2_a27_e",
+            "itm_of2_a27_f",
+            "itm_of2_a27_g",
+            "itm_of2_a27_h",
+            "itm_of2_a27_i",
+            "itm_of2_a27_j"
+          ]
         }
       ],
-      "totalQuestions": 102
+      "totalQuestions": 178
     },
     "consolidation": {
       "sourceBooklet": {
@@ -86,24 +271,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 10,
+    "coveredElements": 18,
     "totalElements": 49,
     "convertible": {
-      "covered": 10,
+      "covered": 18,
       "total": 19
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        4,
-        6,
-        8,
-        18,
-        19,
-        24,
-        26,
-        27
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -118,30 +294,12 @@
       ],
       "activities": [
         1,
-        2,
         5,
         7,
         9,
-        10,
-        11,
-        12,
-        14,
-        21,
         22,
-        23,
         25,
-        28,
         29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
         40,
         41
       ]

@@ -13,35 +13,314 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF6 — To use numbers. Source document SC102-2/6-2005F. Grammar taught: numbers. Vocabulary: the OF6 section of the PFL2 Lexique. 80 questions, all traceable to the PFL2 source (23 verbatim source activities + 57 from the OF6 Lexique).",
-        "fr": "Indiquer des données chiffrées. Document source SC102-2/6-2005F. Grammaire enseignée : numbers. Vocabulaire : section OF6 du Lexique PFL2."
+        "en": "OF6 teaches how to understand and give numerical information: quantities, prices, ages, addresses, telephone numbers, social insurance numbers, salaries, ranks, and approximate amounts.",
+        "fr": "L’OF6 enseigne comment comprendre et fournir des données chiffrées : quantités, prix, âges, adresses, numéros de téléphone, numéros d’assurance sociale, salaires, rangs et quantités approximatives."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Les données chiffrées les plus fréquentes dans cet objectif sont les prix, les numéros de téléphone, les adresses, les numéros de pièce, les quantités d’articles, les âges et les salaires.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): numbers.",
+        "summary": "Cet objectif porte sur les nombres cardinaux, collectifs et ordinaux, ainsi que sur combien et les démonstratifs.",
         "charts": [],
-        "points": []
+        "points": [
+          "Les nombres cardinaux indiquent une quantité exacte : 25 $, 300 exemplaires, 564-7871.",
+          "Les nombres ordinaux indiquent le rang : premier/première, deuxième, troisième, 18e étage.",
+          "Les collectifs indiquent une quantité approximative : une dizaine, une douzaine, une vingtaine, une centaine, un millier.",
+          "Combien sert à demander une quantité ou un prix : Combien ça coûte? Combien d’exemplaires?",
+          "Avec une préposition, on dit de combien de, avec combien de, pour combien de, à combien de, dans combien de.",
+          "Les démonstratifs ce/cet/cette/ces accompagnent un nom; celui-ci/celle-là/ceux-ci remplacent un nom.",
+          "Les montants en français utilisent souvent la virgule décimale : 27,50 $, 565,75 $."
+        ]
       },
       "pronunciation": {
-        "points": []
+        "points": [
+          "Pour les numéros de téléphone, écoutez les groupes de chiffres et les répétitions : 614-9145, 6...1...4... 9...1...4...5.",
+          "Les grands nombres doivent être segmentés mentalement : 1 300 000, 7 000 647."
+        ]
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Demander un prix",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "Vous demandez combien pour cette radio?",
+              "en": "How much are you asking for this radio?"
+            },
+            {
+              "speaker": "B",
+              "fr": "Soixante-cinq dollars.",
+              "en": "Sixty-five dollars."
+            },
+            {
+              "speaker": "A",
+              "fr": "Quel est votre numéro de téléphone?",
+              "en": "What is your phone number?"
+            },
+            {
+              "speaker": "B",
+              "fr": "C’est le 568-7437.",
+              "en": "It is 568-7437."
+            }
+          ]
+        },
+        {
+          "title": "Commander des fournitures",
+          "lines": [
+            {
+              "speaker": "A",
+              "fr": "J’aimerais commander une douzaine de chemises et trois cartables.",
+              "en": "I would like to order a dozen folders and three binders."
+            },
+            {
+              "speaker": "B",
+              "fr": "Quel est votre numéro de code?",
+              "en": "What is your code number?"
+            },
+            {
+              "speaker": "A",
+              "fr": "DG 101-33.",
+              "en": "DG 101-33."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Activité 2 — Nombres cardinaux",
+          "table": {
+            "headers": [
+              "Type",
+              "Exemples"
+            ],
+            "rows": [
+              [
+                "petits nombres",
+                "un, deux, trois, dix, vingt"
+              ],
+              [
+                "centaines",
+                "cent, deux cents, trois cent six"
+              ],
+              [
+                "milliers",
+                "1 982, 22 069, 98 000"
+              ],
+              [
+                "millions",
+                "1 300 000, 6 000 000"
+              ],
+              [
+                "prix",
+                "27,50 $, 565,75 $, 819,99 $"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 10 — Nombres collectifs",
+          "table": {
+            "headers": [
+              "Approximation",
+              "Valeur habituelle"
+            ],
+            "rows": [
+              [
+                "une dizaine",
+                "environ 10"
+              ],
+              [
+                "une douzaine",
+                "environ 12"
+              ],
+              [
+                "une vingtaine",
+                "environ 20"
+              ],
+              [
+                "une trentaine",
+                "environ 30"
+              ],
+              [
+                "une quarantaine",
+                "environ 40"
+              ],
+              [
+                "une cinquantaine",
+                "environ 50"
+              ],
+              [
+                "une centaine",
+                "environ 100"
+              ],
+              [
+                "un millier",
+                "environ 1000"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 16 — Données chiffrées",
+          "table": {
+            "headers": [
+              "Type",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "âge",
+                "vingt-neuf ans"
+              ],
+              [
+                "adresse",
+                "1 820, rue des Bouleaux"
+              ],
+              [
+                "étage",
+                "18e étage"
+              ],
+              [
+                "téléphone",
+                "992-0687"
+              ],
+              [
+                "prix",
+                "48,99 $"
+              ],
+              [
+                "grand nombre",
+                "3 580 000"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 21 — Démonstratifs",
+          "table": {
+            "headers": [
+              "Genre / nombre",
+              "près",
+              "loin"
+            ],
+            "rows": [
+              [
+                "masculin singulier",
+                "celui-ci",
+                "celui-là"
+              ],
+              [
+                "féminin singulier",
+                "celle-ci",
+                "celle-là"
+              ],
+              [
+                "masculin pluriel",
+                "ceux-ci",
+                "ceux-là"
+              ],
+              [
+                "féminin pluriel",
+                "celles-ci",
+                "celles-là"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 26 — Questions avec combien",
+          "table": {
+            "headers": [
+              "Structure",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "combien de/d’",
+                "Combien d’ordinateurs est-ce qu’il y a ici?"
+              ],
+              [
+                "de combien de/d’",
+                "De combien d’exemplaires a-t-on besoin?"
+              ],
+              [
+                "avec combien de",
+                "Avec combien de collègues travailles-tu?"
+              ],
+              [
+                "pour combien de",
+                "Pour combien de personnes faites-vous des photocopies?"
+              ],
+              [
+                "à combien de",
+                "À combien de gestionnaires régionaux écris-tu?"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "Activité 28 — Marché aux puces",
+          "table": {
+            "headers": [
+              "Appel",
+              "Objet",
+              "Prix",
+              "Téléphone"
+            ],
+            "rows": [
+              [
+                "1",
+                "lampe",
+                "25 $",
+                "854-3251 / 234-0102"
+              ],
+              [
+                "2",
+                "motocyclette PASDA 6000",
+                "2 300 $",
+                "614-9145"
+              ],
+              [
+                "3",
+                "meubles",
+                "800 $",
+                "434-7812"
+              ],
+              [
+                "4",
+                "livres",
+                "2,75 $ ou 4,50 $ chacun",
+                "614-0398"
+              ],
+              [
+                "5",
+                "chalet",
+                "72 450 $ / 470 $ par mois",
+                "831-5644"
+              ],
+              [
+                "6",
+                "radio",
+                "65 $",
+                "568-7437"
+              ]
+            ]
+          }
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "80 questions, all traceable to the PFL2 source (23 verbatim source activities + 57 from the OF6 Lexique).",
+      "coverage": "198 useful questions, all traceable to the PFL2 source (141 source activity questions + 57 from the OF6 Lexique). Low-value worksheet/audio recall items were removed.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (verbatim)",
-          "count": 23
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 141
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
           "count": 57
         }
       ],
-      "totalQuestions": 80
+      "totalQuestions": 198
     },
     "consolidation": {
       "sourceBooklet": {
@@ -86,27 +365,15 @@
   "coverage": {
     "strictComplete": false,
     "convertibleComplete": false,
-    "coveredElements": 6,
+    "coveredElements": 17,
     "totalElements": 49,
     "convertible": {
-      "covered": 6,
+      "covered": 17,
       "total": 18
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        7,
-        8,
-        10,
-        11,
-        16,
-        21,
-        22,
-        25,
-        27,
-        28,
-        29
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -114,12 +381,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "6.4 Fonctions (function)",
-        "6.5 Langue écrite (writing)",
-        "6.6 Fonctions (function)",
-        "6.7 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

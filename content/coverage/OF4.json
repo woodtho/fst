@@ -18,7 +18,7 @@
       "topicsFr": "Indicateurs de possession",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 59,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of4_voc_fe_1",
         "itm_of4_voc_fe_2",
@@ -36,7 +36,7 @@
       "topicsFr": "Indicateurs de qualités physiques : XX couleur XX forme XX dimension XX matière XX état",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 59,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of4_voc_fe_1",
         "itm_of4_voc_fe_2",
@@ -54,16 +54,11 @@
       "topicsFr": "Verbe avoir au présent XX Pronoms personnels XX Adjectifs possessifs XX Pronoms possessifs",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 19,
+      "itemCount": 3,
       "linkedItems": [
-        "itm_of4_src_a21_1",
-        "itm_of4_src_a21_2",
-        "itm_of4_src_a21_3",
-        "itm_of4_src_a21_4",
-        "itm_of4_src_a21_5",
-        "itm_of4_src_a21_7",
-        "itm_of4_src_a21_8",
-        "itm_of4_src_a21_9"
+        "itm_of4_src_a17_1",
+        "itm_of4_src_a23_1",
+        "itm_of4_src_a29_1"
       ]
     },
     {
@@ -72,16 +67,10 @@
       "topicsFr": "Accord des adjectifs XX Place des adjectifs",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 19,
+      "itemCount": 2,
       "linkedItems": [
-        "itm_of4_src_a21_1",
-        "itm_of4_src_a21_2",
-        "itm_of4_src_a21_3",
-        "itm_of4_src_a21_4",
-        "itm_of4_src_a21_5",
-        "itm_of4_src_a21_7",
-        "itm_of4_src_a21_8",
-        "itm_of4_src_a21_9"
+        "itm_of4_src_a41_1",
+        "itm_of4_src_a43_1"
       ]
     },
     {
@@ -89,36 +78,48 @@
       "heading": "Fonctions",
       "topicsFr": "Comprendre des questions et des informations relatives à la possession",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of4_src_a44_1",
+        "itm_of4_src_a45_1"
+      ]
     },
     {
       "id": "4.6",
       "heading": "Fonctions",
       "topicsFr": "S’informer de l’identité du possesseur d’un objet/document",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of4_src_a45_1",
+        "itm_of4_src_a45_5"
+      ]
     },
     {
       "id": "4.7",
       "heading": "Fonctions",
       "topicsFr": "Identifier le possesseur d’un objet ou d’un document et décrire brièvement un objet ou un document pour en identifier le possesseur",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of4_src_a45_3",
+        "itm_of4_src_a45_7"
+      ]
     },
     {
       "id": "4.8",
       "heading": "Phonétique",
       "topicsFr": "Les phénomènes : la syllabation, l’enchaînement, la liaison, l’intonation, l’accentuation, le rythme, la chute du « e » et l’assimilation",
       "kind": "phonetics",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of4_src_a51_1",
+        "itm_of4_src_a53_1"
+      ]
     }
   ],
   "vocabulary": {
@@ -130,7 +131,7 @@
   },
   "examples": {
     "sourceMarkers": 7,
-    "derivedItems": 37,
+    "derivedItems": 310,
     "convertible": true,
     "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
@@ -164,33 +165,70 @@
       "activity": 3,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 3,
+      "linkedItems": [
+        "itm_of4_src_a3_1",
+        "itm_of4_src_a3_2",
+        "itm_of4_src_a3_3"
+      ]
     },
     {
       "activity": 4,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of4_src_a4_1",
+        "itm_of4_src_a4_2",
+        "itm_of4_src_a4_3",
+        "itm_of4_src_a4_4",
+        "itm_of4_src_a4_5",
+        "itm_of4_src_a4_6"
+      ]
     },
     {
       "activity": 5,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of4_src_a5_1",
+        "itm_of4_src_a5_2",
+        "itm_of4_src_a5_3",
+        "itm_of4_src_a5_4",
+        "itm_of4_src_a5_5",
+        "itm_of4_src_a5_6",
+        "itm_of4_src_a5_7",
+        "itm_of4_src_a5_8",
+        "itm_of4_src_a5_9",
+        "itm_of4_src_a5_10",
+        "itm_of4_src_a5_11",
+        "itm_of4_src_a5_12"
+      ]
     },
     {
       "activity": 6,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of4_src_a6_1",
+        "itm_of4_src_a6_2",
+        "itm_of4_src_a6_3",
+        "itm_of4_src_a6_4",
+        "itm_of4_src_a6_5",
+        "itm_of4_src_a6_6",
+        "itm_of4_src_a6_7",
+        "itm_of4_src_a6_8",
+        "itm_of4_src_a6_9",
+        "itm_of4_src_a6_10",
+        "itm_of4_src_a6_11",
+        "itm_of4_src_a6_12"
+      ]
     },
     {
       "activity": 7,
@@ -198,7 +236,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 8,
@@ -206,7 +245,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 9,
@@ -220,17 +260,39 @@
       "activity": 10,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a10_1",
+        "itm_of4_src_a10_2",
+        "itm_of4_src_a10_3",
+        "itm_of4_src_a10_4",
+        "itm_of4_src_a10_5",
+        "itm_of4_src_a10_6",
+        "itm_of4_src_a10_7",
+        "itm_of4_src_a10_8",
+        "itm_of4_src_a10_9",
+        "itm_of4_src_a10_10"
+      ]
     },
     {
       "activity": 11,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a11_1",
+        "itm_of4_src_a11_2",
+        "itm_of4_src_a11_3",
+        "itm_of4_src_a11_4",
+        "itm_of4_src_a11_5",
+        "itm_of4_src_a11_6",
+        "itm_of4_src_a11_7",
+        "itm_of4_src_a11_8",
+        "itm_of4_src_a11_9",
+        "itm_of4_src_a11_10"
+      ]
     },
     {
       "activity": 12,
@@ -260,9 +322,13 @@
       "activity": 15,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 3,
+      "linkedItems": [
+        "itm_of4_src_a15_a",
+        "itm_of4_src_a15_b",
+        "itm_of4_src_a15_f"
+      ]
     },
     {
       "activity": 16,
@@ -276,17 +342,39 @@
       "activity": 17,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a17_1",
+        "itm_of4_src_a17_2",
+        "itm_of4_src_a17_3",
+        "itm_of4_src_a17_4",
+        "itm_of4_src_a17_5",
+        "itm_of4_src_a17_6",
+        "itm_of4_src_a17_7",
+        "itm_of4_src_a17_8",
+        "itm_of4_src_a17_9",
+        "itm_of4_src_a17_10"
+      ]
     },
     {
       "activity": 18,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a18_1",
+        "itm_of4_src_a18_2",
+        "itm_of4_src_a18_3",
+        "itm_of4_src_a18_4",
+        "itm_of4_src_a18_5",
+        "itm_of4_src_a18_6",
+        "itm_of4_src_a18_7",
+        "itm_of4_src_a18_8",
+        "itm_of4_src_a18_9",
+        "itm_of4_src_a18_10"
+      ]
     },
     {
       "activity": 19,
@@ -300,9 +388,20 @@
       "activity": 20,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a20_1",
+        "itm_of4_src_a20_2",
+        "itm_of4_src_a20_3",
+        "itm_of4_src_a20_4",
+        "itm_of4_src_a20_5",
+        "itm_of4_src_a20_6",
+        "itm_of4_src_a20_7",
+        "itm_of4_src_a20_8",
+        "itm_of4_src_a20_9",
+        "itm_of4_src_a20_10"
+      ]
     },
     {
       "activity": 21,
@@ -333,25 +432,73 @@
       "activity": 23,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 20,
+      "linkedItems": [
+        "itm_of4_src_a23_1",
+        "itm_of4_src_a23_2",
+        "itm_of4_src_a23_3",
+        "itm_of4_src_a23_4",
+        "itm_of4_src_a23_5",
+        "itm_of4_src_a23_6",
+        "itm_of4_src_a23_7",
+        "itm_of4_src_a23_8",
+        "itm_of4_src_a23_9",
+        "itm_of4_src_a23_10",
+        "itm_of4_src_a23_11",
+        "itm_of4_src_a23_12",
+        "itm_of4_src_a23_13",
+        "itm_of4_src_a23_14",
+        "itm_of4_src_a23_15",
+        "itm_of4_src_a23_16",
+        "itm_of4_src_a23_17",
+        "itm_of4_src_a23_18",
+        "itm_of4_src_a23_19",
+        "itm_of4_src_a23_20"
+      ]
     },
     {
       "activity": 24,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 15,
+      "linkedItems": [
+        "itm_of4_src_a24_1",
+        "itm_of4_src_a24_2",
+        "itm_of4_src_a24_3",
+        "itm_of4_src_a24_4",
+        "itm_of4_src_a24_5",
+        "itm_of4_src_a24_6",
+        "itm_of4_src_a24_7",
+        "itm_of4_src_a24_8",
+        "itm_of4_src_a24_9",
+        "itm_of4_src_a24_10",
+        "itm_of4_src_a24_11",
+        "itm_of4_src_a24_12",
+        "itm_of4_src_a24_13",
+        "itm_of4_src_a24_14",
+        "itm_of4_src_a24_15"
+      ]
     },
     {
       "activity": 25,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a25_1",
+        "itm_of4_src_a25_2",
+        "itm_of4_src_a25_3",
+        "itm_of4_src_a25_4",
+        "itm_of4_src_a25_5",
+        "itm_of4_src_a25_6",
+        "itm_of4_src_a25_7",
+        "itm_of4_src_a25_8",
+        "itm_of4_src_a25_9",
+        "itm_of4_src_a25_10"
+      ]
     },
     {
       "activity": 26,
@@ -375,17 +522,44 @@
       "activity": 28,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a28_1",
+        "itm_of4_src_a28_2",
+        "itm_of4_src_a28_3",
+        "itm_of4_src_a28_4",
+        "itm_of4_src_a28_5",
+        "itm_of4_src_a28_6",
+        "itm_of4_src_a28_7",
+        "itm_of4_src_a28_8",
+        "itm_of4_src_a28_9",
+        "itm_of4_src_a28_10"
+      ]
     },
     {
       "activity": 29,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 15,
+      "linkedItems": [
+        "itm_of4_src_a29_1",
+        "itm_of4_src_a29_2",
+        "itm_of4_src_a29_3",
+        "itm_of4_src_a29_4",
+        "itm_of4_src_a29_5",
+        "itm_of4_src_a29_6",
+        "itm_of4_src_a29_7",
+        "itm_of4_src_a29_8",
+        "itm_of4_src_a29_9",
+        "itm_of4_src_a29_10",
+        "itm_of4_src_a29_11",
+        "itm_of4_src_a29_12",
+        "itm_of4_src_a29_13",
+        "itm_of4_src_a29_14",
+        "itm_of4_src_a29_15"
+      ]
     },
     {
       "activity": 30,
@@ -409,15 +583,27 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 33,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a33_1",
+        "itm_of4_src_a33_2",
+        "itm_of4_src_a33_3",
+        "itm_of4_src_a33_4",
+        "itm_of4_src_a33_5",
+        "itm_of4_src_a33_6",
+        "itm_of4_src_a33_7",
+        "itm_of4_src_a33_8",
+        "itm_of4_src_a33_9",
+        "itm_of4_src_a33_10"
+      ]
     },
     {
       "activity": 34,
@@ -425,7 +611,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 35,
@@ -433,7 +620,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 36,
@@ -506,25 +694,57 @@
       "activity": 43,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of4_src_a43_1",
+        "itm_of4_src_a43_2",
+        "itm_of4_src_a43_3",
+        "itm_of4_src_a43_4",
+        "itm_of4_src_a43_5",
+        "itm_of4_src_a43_6",
+        "itm_of4_src_a43_7",
+        "itm_of4_src_a43_8",
+        "itm_of4_src_a43_9",
+        "itm_of4_src_a43_10",
+        "itm_of4_src_a43_11",
+        "itm_of4_src_a43_12"
+      ]
     },
     {
       "activity": 44,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of4_src_a44_1",
+        "itm_of4_src_a44_2",
+        "itm_of4_src_a44_3",
+        "itm_of4_src_a44_4",
+        "itm_of4_src_a44_5",
+        "itm_of4_src_a44_6",
+        "itm_of4_src_a44_7",
+        "itm_of4_src_a44_8",
+        "itm_of4_src_a44_9",
+        "itm_of4_src_a44_10"
+      ]
     },
     {
       "activity": 45,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 7,
+      "linkedItems": [
+        "itm_of4_src_a45_1",
+        "itm_of4_src_a45_2",
+        "itm_of4_src_a45_3",
+        "itm_of4_src_a45_4",
+        "itm_of4_src_a45_5",
+        "itm_of4_src_a45_6",
+        "itm_of4_src_a45_7"
+      ]
     },
     {
       "activity": 46,
@@ -570,9 +790,25 @@
       "activity": 51,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 15,
+      "linkedItems": [
+        "itm_of4_src_a51_1",
+        "itm_of4_src_a51_2",
+        "itm_of4_src_a51_3",
+        "itm_of4_src_a51_4",
+        "itm_of4_src_a51_5",
+        "itm_of4_src_a51_6",
+        "itm_of4_src_a51_7",
+        "itm_of4_src_a51_8",
+        "itm_of4_src_a51_9",
+        "itm_of4_src_a51_10",
+        "itm_of4_src_a51_11",
+        "itm_of4_src_a51_12",
+        "itm_of4_src_a51_13",
+        "itm_of4_src_a51_14",
+        "itm_of4_src_a51_15"
+      ]
     },
     {
       "activity": 52,
@@ -586,9 +822,22 @@
       "activity": 53,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of4_src_a53_1",
+        "itm_of4_src_a53_2",
+        "itm_of4_src_a53_3",
+        "itm_of4_src_a53_4",
+        "itm_of4_src_a53_5",
+        "itm_of4_src_a53_6",
+        "itm_of4_src_a53_7",
+        "itm_of4_src_a53_8",
+        "itm_of4_src_a53_9",
+        "itm_of4_src_a53_10",
+        "itm_of4_src_a53_11",
+        "itm_of4_src_a53_12"
+      ]
     },
     {
       "activity": 54,
@@ -659,40 +908,19 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 72,
-    "coveredElements": 9,
+    "coveredElements": 35,
     "convertible": {
-      "covered": 9,
+      "covered": 35,
       "total": 36
     },
     "actionableGaps": {
       "sections": [],
       "activities": [
-        3,
-        4,
-        5,
-        6,
         7,
         8,
-        10,
-        11,
-        15,
-        17,
-        18,
-        20,
-        23,
-        24,
-        25,
-        28,
-        29,
         32,
-        33,
         34,
-        35,
-        43,
-        44,
-        45,
-        51,
-        53
+        35
       ],
       "vocabulary": [],
       "examples": [],
@@ -701,12 +929,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "4.5 Fonctions (function)",
-        "4.6 Fonctions (function)",
-        "4.7 Fonctions (function)",
-        "4.8 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

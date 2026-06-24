@@ -18,7 +18,7 @@
       "topicsFr": "Indicateurs de temps (moment précis et moment approximatif)",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 79,
+      "itemCount": 8,
       "linkedItems": [
         "itm_of8_voc_fe_1",
         "itm_of8_voc_fe_2",
@@ -35,35 +35,42 @@
       "heading": "Grammaire",
       "topicsFr": "Mots interrogatifs quand, à quel(le), en quel(le) · Interrogation avec savoir et dire · Verbes en -ir à l’indicatif présent",
       "kind": "grammar",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of8_src_a17_bverb_1"
+      ]
     },
     {
       "id": "8.3",
       "heading": "Langue écrite",
       "topicsFr": "Informations relatives à la date et à l’heure",
       "kind": "writing",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of8_src_a19_4"
+      ]
     },
     {
       "id": "8.4",
       "heading": "Langue écrite",
       "topicsFr": "Informations relatives au temps",
       "kind": "writing",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 2,
+      "linkedItems": [
+        "itm_of8_src_a7_1",
+        "itm_of8_src_a8_1"
+      ]
     },
     {
       "id": "8.5",
       "heading": "Fonctions",
       "topicsFr": "Comprendre des questions et des informations relatives au temps",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 25,
       "linkedItems": []
     },
     {
@@ -71,17 +78,19 @@
       "heading": "Fonctions",
       "topicsFr": "Demander et fournir des informations relatives au temps",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 1,
+      "linkedItems": [
+        "itm_of8_src_a22_11"
+      ]
     },
     {
       "id": "8.7",
       "heading": "Fonctions",
       "topicsFr": "Faire des arrangements, confirmer et annuler des arrangements (réservations, rendez-vous)",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 17,
       "linkedItems": []
     },
     {
@@ -89,8 +98,8 @@
       "heading": "Phonétique",
       "topicsFr": "Sons, rythmes et intonations du français",
       "kind": "phonetics",
-      "covered": false,
-      "itemCount": 0,
+      "covered": true,
+      "itemCount": 2,
       "linkedItems": []
     }
   ],
@@ -103,9 +112,9 @@
   },
   "examples": {
     "sourceMarkers": 4,
-    "derivedItems": 0,
+    "derivedItems": 106,
     "convertible": true,
-    "covered": false,
+    "covered": true,
     "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
   },
   "selfTest": {
@@ -163,23 +172,42 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 7,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of8_src_a7_1",
+        "itm_of8_src_a7_2",
+        "itm_of8_src_a7_3",
+        "itm_of8_src_a7_7"
+      ]
     },
     {
       "activity": 8,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of8_src_a8_1",
+        "itm_of8_src_a8_2",
+        "itm_of8_src_a8_3",
+        "itm_of8_src_a8_4",
+        "itm_of8_src_a8_5",
+        "itm_of8_src_a8_6",
+        "itm_of8_src_a8_7",
+        "itm_of8_src_a8_8",
+        "itm_of8_src_a8_9",
+        "itm_of8_src_a8_10",
+        "itm_of8_src_a8_11",
+        "itm_of8_src_a8_12"
+      ]
     },
     {
       "activity": 9,
@@ -219,7 +247,8 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 14,
@@ -243,15 +272,26 @@
       "convertible": true,
       "extracted": false,
       "itemCount": 0,
-      "linkedItems": []
+      "linkedItems": [],
+      "covered": false
     },
     {
       "activity": 17,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 9,
+      "linkedItems": [
+        "itm_of8_src_a17_bverb_1",
+        "itm_of8_src_a17_bverb_2",
+        "itm_of8_src_a17_bverb_3",
+        "itm_of8_src_a17_bverb_4",
+        "itm_of8_src_a17_bverb_5",
+        "itm_of8_src_a17_bverb_6",
+        "itm_of8_src_a17_bverb_7",
+        "itm_of8_src_a17_bverb_8",
+        "itm_of8_src_a17_bverb_9"
+      ]
     },
     {
       "activity": 18,
@@ -265,9 +305,14 @@
       "activity": 19,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of8_src_a19_4",
+        "itm_of8_src_a19_6",
+        "itm_of8_src_a19_7",
+        "itm_of8_src_a19_8"
+      ]
     },
     {
       "activity": 20,
@@ -289,9 +334,17 @@
       "activity": 22,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 7,
+      "linkedItems": [
+        "itm_of8_src_a22_4",
+        "itm_of8_src_a22_8",
+        "itm_of8_src_a22_11",
+        "itm_of8_src_a22_12",
+        "itm_of8_src_a22_15",
+        "itm_of8_src_a22_16",
+        "itm_of8_src_a22_17"
+      ]
     },
     {
       "activity": 23,
@@ -402,42 +455,26 @@
     "strictComplete": false,
     "convertibleComplete": false,
     "totalElements": 46,
-    "coveredElements": 2,
+    "coveredElements": 12,
     "convertible": {
-      "covered": 2,
+      "covered": 12,
       "total": 13
     },
     "actionableGaps": {
-      "sections": [
-        "8.2 Grammaire (grammar)"
-      ],
+      "sections": [],
       "activities": [
         6,
-        7,
-        8,
         13,
-        16,
-        17,
-        19,
-        22
+        16
       ],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-1 (SC102-2-45-1)"
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "8.3 Langue écrite (writing)",
-        "8.4 Langue écrite (writing)",
-        "8.5 Fonctions (function)",
-        "8.6 Fonctions (function)",
-        "8.7 Fonctions (function)",
-        "8.8 Phonétique (phonetics)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,
