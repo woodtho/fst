@@ -13,31 +13,95 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF40 — To convince someone of something. Source document SC102-2/40-2005F. Grammar taught: conditionnel, subjonctif. Vocabulary: the OF40 section of the PFL2 Lexique. 28 questions, all traceable to the PFL2 source (0 verbatim source activities + 28 from the OF40 Lexique).",
-        "fr": "Persuader quelqu’un de quelque chose. Document source SC102-2/40-2005F. Grammaire enseignée : conditionnel, subjonctif. Vocabulaire : section OF40 du Lexique PFL2."
+        "en": "OF40 teaches how to persuade someone by clarifying a point of view, giving advice, making suggestions, responding to proposals, promising to act, and defending a conclusion with evidence. The useful language is functional: generalize, restrict, object, insist, advise, suggest, accept, refuse, commit, explain, compare, evaluate, and justify.",
+        "fr": "L'OF40 enseigne comment persuader quelqu'un en clarifiant un point de vue, en donnant un conseil, en faisant une suggestion, en réagissant à une proposition, en promettant d'agir et en défendant une conclusion à l'aide d'arguments. La langue utile est fonctionnelle : généraliser, restreindre, objecter, insister, conseiller, suggérer, accepter, refuser, s'engager, expliquer, comparer, évaluer et justifier."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): conditionnel, subjonctif.",
-        "charts": [],
-        "points": []
+        "summary": "OF40 uses the conditional for polite advice and suggestions, and the subjunctive after proposal expressions such as je suggère/propose que.",
+        "charts": [
+          {
+            "title": "Persuasion Functions",
+            "rows": [
+              [
+                "Generalize",
+                "Généralement... / La plupart du temps..."
+              ],
+              [
+                "Restrict",
+                "C'est possible, mais... / Même si..., ..."
+              ],
+              [
+                "Object",
+                "Je ne suis pas convaincu que... / Je ne vois pas pourquoi..."
+              ],
+              [
+                "Insist",
+                "Je maintiens que... / J'insiste sur le fait que..."
+              ],
+              [
+                "Advise",
+                "Si j'étais toi... / À votre place..."
+              ],
+              [
+                "Suggest",
+                "Si on discutait...? / Je suggère qu'on en discute."
+              ],
+              [
+                "Commit",
+                "Je m'engage à... / Je vous promets de..."
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Use the conditional to soften advice: je commencerais, vous pourriez, tu devrais.",
+          "Use que + subjunctive after proposal expressions: je suggère qu'on en discute.",
+          "A persuasive response should include a reason, comparison, evaluation, explanation, or justification.",
+          "A reaction can accept, refuse, hesitate, or promise to apply the advice."
+        ]
       },
       "pronunciation": {
         "points": []
       },
       "dialogues": [],
-      "exampleTexts": []
+      "exampleTexts": [
+        {
+          "title": "Clarifier un point de vue",
+          "body": "Généralement, cette solution fonctionne. C'est possible, mais il ne faut pas oublier les coûts. Je maintiens que le délai est trop court."
+        },
+        {
+          "title": "Demander et donner un conseil",
+          "body": "Qu'est-ce que tu me conseilles? Si j'étais toi, je lui en parlerais. Vous pourriez commencer par clarifier vos attentes."
+        },
+        {
+          "title": "Faire une suggestion",
+          "body": "Si on discutait de la question? Je propose qu'on se rencontre. Qu'est-ce que vous diriez de préparer un plan?"
+        },
+        {
+          "title": "Réagir à une suggestion",
+          "body": "C'est une excellente idée. Je vous promets de faire ça. Je ne suis pas sûr que ce soit faisable."
+        },
+        {
+          "title": "Persuader avec des arguments",
+          "body": "À votre place, je n'hésiterais pas : la région s'est développée, les emplois sont nombreux et l'économie est forte."
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "28 questions, all traceable to the PFL2 source (0 verbatim source activities + 28 from the OF40 Lexique).",
+      "coverage": "98 questions from OF40: 56 source-derived concept questions and 42 Lexique questions.",
       "exerciseSets": [
         {
+          "title": "Activités du programme PFL2 (concept-focused)",
+          "count": 56
+        },
+        {
           "title": "Vocabulaire du Lexique PFL2",
-          "count": 28
+          "count": 42
         }
       ],
-      "totalQuestions": 28
+      "totalQuestions": 98
     },
     "consolidation": {
       "sourceBooklet": {
@@ -75,40 +139,34 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
+        "persuasion strategies",
+        "advice and suggestions",
         "conditionnel",
-        "subjonctif"
+        "subjonctif",
+        "evidence-based justification"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 1,
+    "convertibleComplete": true,
+    "coveredElements": 6,
     "totalElements": 31,
     "convertible": {
-      "covered": 1,
+      "covered": 6,
       "total": 6
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        8,
-        11,
-        26
-      ],
+      "activities": [],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-4 (SC102-2-45-4)"
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "40.1 Stratégies de communication (strategy)",
-        "40.2 Fonctions (function)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,
@@ -124,16 +182,15 @@
         14,
         15,
         16,
-        17,
         18,
         19,
         20,
         21,
         22,
         23,
-        24,
-        25
-      ]
+        24
+      ],
+      "note": "Open-ended oral role plays and debates are represented through function-focused Learn material and auto-gradable concept questions where possible."
     }
   }
 }

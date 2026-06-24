@@ -5,7 +5,7 @@
   "titleEn": "To explain the reasons for and results of a decision, an action, an event or a situation",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/38-2005F",
     "text": "sources/text/OF38.txt"
@@ -13,35 +13,127 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF38 — To explain the reasons for and results of a decision, an action, an event or a situation. Source document SC102-2/38-2005F. Grammar taught: subjonctif, connectors. Vocabulary: the OF38 section of the PFL2 Lexique. 75 questions, all traceable to the PFL2 source (14 verbatim source activities + 61 from the OF38 Lexique).",
-        "fr": "Exposer le pourquoi et les effets d’une décision, d’une action, d’un événement, d’une situation. Document source SC102-2/38-2005F. Grammaire enseignée : subjonctif, connectors. Vocabulaire : section OF38 du Lexique PFL2."
+        "en": "OF38 teaches how to explain why something happened, what someone is trying to achieve, and what results from a decision, action, event or situation. The core skill is choosing the right connector for purpose, cause, or consequence.",
+        "fr": "L’OF38 sert à exposer le pourquoi et les effets d’une décision, d’une action, d’un événement ou d’une situation. L’habileté centrale consiste à choisir le bon lien logique : but, cause ou conséquence."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Lexique clé : afin de/afin que, dans le but de, en vue de, parce que, puisque, à cause de, vu que, donc, alors, par conséquent, si bien que, ce qui fait que.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif, connectors.",
-        "charts": [],
-        "points": []
+        "summary": "Purpose, cause and consequence connectors control the verb form that follows: infinitive, subjunctive or indicative.",
+        "charts": [
+          {
+            "title": "But",
+            "rows": [
+              [
+                "Même sujet",
+                "Je téléphone pour obtenir des renseignements."
+              ],
+              [
+                "Sujet différent",
+                "Je téléphone pour que vous m’envoyiez les renseignements."
+              ]
+            ]
+          },
+          {
+            "title": "Cause",
+            "rows": [
+              [
+                "Avec un nom",
+                "À cause du retard, la réunion est reportée."
+              ],
+              [
+                "Avec une proposition",
+                "La réunion est reportée parce que le directeur est absent."
+              ]
+            ]
+          },
+          {
+            "title": "Conséquence",
+            "rows": [
+              [
+                "Indicatif",
+                "Il pleut, donc la partie est annulée."
+              ],
+              [
+                "Infinitif",
+                "Il est trop occupé pour vous rencontrer."
+              ],
+              [
+                "Subjonctif",
+                "C’est trop complexe pour que nous le réglions seuls."
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Use pour/afin de + infinitive when the same person performs both actions.",
+          "Use pour que/afin que/de crainte que + subjunctive when the second clause has a different subject.",
+          "Use cause expressions to explain the reason: parce que, puisque, comme, à cause de, vu que.",
+          "Use consequence expressions to explain the effect: donc, alors, par conséquent, si bien que, ce qui fait que."
+        ]
       },
       "pronunciation": {
         "points": []
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Expliquer une décision",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Pourquoi la réunion est-elle reportée?"
+            },
+            {
+              "speaker": "B",
+              "text": "Elle est reportée parce que plusieurs gestionnaires sont absents."
+            },
+            {
+              "speaker": "A",
+              "text": "Quel sera l’effet sur le projet?"
+            },
+            {
+              "speaker": "B",
+              "text": "Par conséquent, nous aurons une semaine de plus pour préparer le dossier."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Décision et effets",
+          "body": "Nous avons modifié l’horaire afin que tous les employés puissent participer. Comme plusieurs personnes étaient absentes, la réunion a été reportée; par conséquent, le rapport sera remis vendredi."
+        },
+        {
+          "title": "Note de fin",
+          "body": "Pour exposer une situation clairement, dites le but recherché, nommez la cause réelle, puis annoncez la conséquence avec un connecteur explicite."
+        }
+      ]
     },
     "practice": {
-      "sourceFidelity": true,
-      "coverage": "75 questions, all traceable to the PFL2 source (14 verbatim source activities + 61 from the OF38 Lexique).",
+      "sourceFidelity": false,
+      "coverage": "234 questions: 171 concept-focused items derived from SC102-2/38-2005F plus 63 OF38 lexicon items.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 14
+          "title": "But et subjonctif/infinitif",
+          "count": 43
+        },
+        {
+          "title": "Cause et indicatif/nom/infinitif",
+          "count": 33
+        },
+        {
+          "title": "Conséquence et formes verbales",
+          "count": 48
+        },
+        {
+          "title": "Compréhension et fonctions",
+          "count": 47
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
-          "count": 61
+          "count": 63
         }
       ],
-      "totalQuestions": 75
+      "totalQuestions": 234
     },
     "consolidation": {
       "sourceBooklet": {
@@ -79,36 +171,26 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
+        "purpose_connectors",
+        "cause_connectors",
+        "result_connectors",
         "subjonctif",
-        "connectors"
+        "discourse_markers"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 14,
+    "convertibleComplete": true,
+    "coveredElements": 27,
     "totalElements": 57,
     "convertible": {
-      "covered": 14,
+      "covered": 27,
       "total": 27
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        7,
-        9,
-        14,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        29,
-        36
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -116,10 +198,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "38.7 Fonctions (function)",
-        "38.8 Stratégies de communication (strategy)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,

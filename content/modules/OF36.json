@@ -5,7 +5,7 @@
   "titleEn": "To ask or give information about projects",
   "level": "B",
   "estMinutes": 40,
-  "sourceFidelity": true,
+  "sourceFidelity": false,
   "source": {
     "catalogue": "SC102-2/36-2005F",
     "text": "sources/text/OF36.txt"
@@ -13,35 +13,132 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF36 — To ask or give information about projects. Source document SC102-2/36-2005F. Grammar taught: causative_passive, present. Vocabulary: the OF36 section of the PFL2 Lexique. 106 questions, all traceable to the PFL2 source (34 verbatim source activities + 72 from the OF36 Lexique).",
-        "fr": "Demander ou donner de l’information sur un projet. Document source SC102-2/36-2005F. Grammaire enseignée : causative_passive, present. Vocabulaire : section OF36 du Lexique PFL2."
+        "en": "OF36 teaches how to ask for and report information about a project, audit, research study, survey, or verification. It combines result-reporting language with passive voice, natural active alternatives, and causative faire.",
+        "fr": "L’OF36 sert à demander et à donner de l’information sur un projet, une vérification, une recherche, une enquête ou un sondage. On y travaille les indicateurs de résultats, la forme passive, les formulations actives plus naturelles et le semi-auxiliaire faire."
       },
-      "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
+      "vocabularyNote": "Lexique clé : enquête, recherche, vérification, résultat, erreur, inexactitude, ajustement, efficacité, échec, réussite, faire part de, rappeler l’objet d’une demande.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): causative_passive, present.",
-        "charts": [],
-        "points": []
+        "summary": "Use passive voice to focus on the result or object of an action, active/on/pronominal forms when French avoids the passive, and faire + infinitive when someone has an action performed by another person.",
+        "charts": [
+          {
+            "title": "Forme passive",
+            "rows": [
+              [
+                "Actif",
+                "Le directeur annoncera les mesures."
+              ],
+              [
+                "Passif",
+                "Les mesures seront annoncées par le directeur."
+              ]
+            ]
+          },
+          {
+            "title": "Éviter une passive anglaise",
+            "rows": [
+              [
+                "English passive",
+                "She was promised a posting."
+              ],
+              [
+                "French",
+                "On lui a promis un poste."
+              ]
+            ]
+          },
+          {
+            "title": "Faire causatif",
+            "rows": [
+              [
+                "Action directe",
+                "Je révise le rapport."
+              ],
+              [
+                "Action déléguée",
+                "Je fais réviser le rapport."
+              ]
+            ]
+          },
+          {
+            "title": "Faire part de résultats",
+            "rows": [
+              [
+                "Question",
+                "Qu’est-ce que l’enquête a révélé?"
+              ],
+              [
+                "Réponse",
+                "L’enquête a démontré que les mesures sont efficaces."
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "The passive uses être in the same tense as the active verb plus the past participle.",
+          "French often prefers on or an active subject where English uses a passive with verbs like demander, conseiller, permettre and interdire.",
+          "Faire + infinitive means the subject causes or arranges the action rather than doing it personally.",
+          "When giving results, state the source of the finding: l’étude, l’enquête, les tests, les chercheurs."
+        ]
       },
       "pronunciation": {
         "points": []
       },
-      "dialogues": [],
-      "exampleTexts": []
+      "dialogues": [
+        {
+          "title": "Rappeler une demande et donner le résultat",
+          "lines": [
+            {
+              "speaker": "A",
+              "text": "Vous m’aviez demandé de vérifier les résultats du sondage."
+            },
+            {
+              "speaker": "B",
+              "text": "Oui. Qu’est-ce que l’analyse a révélé?"
+            },
+            {
+              "speaker": "A",
+              "text": "Les résultats ont démontré que la nouvelle méthode est plus efficace."
+            }
+          ]
+        }
+      ],
+      "exampleTexts": [
+        {
+          "title": "Compte rendu bref",
+          "body": "À la suite de votre demande, nous avons vérifié les données du projet. L’analyse a révélé deux inexactitudes, qui ont été rectifiées par l’équipe responsable."
+        },
+        {
+          "title": "Note de fin",
+          "body": "Pour parler d’un projet, commencez par rappeler la demande, dites quelle vérification ou recherche a été faite, puis annoncez clairement ce que les résultats ont révélé."
+        }
+      ]
     },
     "practice": {
-      "sourceFidelity": true,
-      "coverage": "106 questions, all traceable to the PFL2 source (34 verbatim source activities + 72 from the OF36 Lexique).",
+      "sourceFidelity": false,
+      "coverage": "295 questions: 226 concept-focused items derived from SC102-2/36-2005F plus 69 OF36 lexicon items.",
       "exerciseSets": [
         {
-          "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 18
+          "title": "Indicateurs de recherche et de résultats",
+          "count": 87
+        },
+        {
+          "title": "Forme passive, active et pronominale",
+          "count": 90
+        },
+        {
+          "title": "Semi-auxiliaire faire",
+          "count": 39
+        },
+        {
+          "title": "Rappeler l’objet d’une demande",
+          "count": 10
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
-          "count": 72
+          "count": 69
         }
       ],
-      "totalQuestions": 90
+      "totalQuestions": 295
     },
     "consolidation": {
       "sourceBooklet": {
@@ -79,41 +176,25 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
-        "causative_passive",
-        "present"
+        "passive_voice",
+        "past_participle_agreement",
+        "causative_faire",
+        "project_results"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 9,
+    "convertibleComplete": true,
+    "coveredElements": 27,
     "totalElements": 44,
     "convertible": {
-      "covered": 9,
+      "covered": 27,
       "total": 27
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        10,
-        12,
-        14,
-        15,
-        18,
-        19,
-        21,
-        22,
-        26,
-        27,
-        28
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -121,10 +202,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "36.6 Fonctions (function)",
-        "36.7 Stratégies de communication (strategy)"
-      ],
+      "sections": [],
       "activities": [
         1,
         8,

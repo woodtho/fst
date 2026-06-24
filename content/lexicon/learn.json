@@ -1,0 +1,64 @@
+{
+  "schema": "lexicon-learn/v1",
+  "source": {
+    "catalogue": "SC102-2/1-2-2005F",
+    "text": "sources/text/lexicon-layout.txt",
+    "pdf": "sources/pdf/SC102-2-1-2-2005-fra.pdf"
+  },
+  "title": "PFL2 Source Lexicon",
+  "summary": "The PFL2 Lexique is the source vocabulary reference for Levels A and B. It is organized by training objective and also acts as a searchable French-English / English-French glossary.",
+  "counts": {
+    "objectives": 40,
+    "entries": 1423,
+    "drillEntries": 1338,
+    "questions": 2676,
+    "supplementalEntries": 313,
+    "supplementalQuestions": 608,
+    "totalEntries": 1736,
+    "totalQuestions": 3284,
+    "supplementalDrillEntries": 304
+  },
+  "learningMaterial": [
+    {
+      "title": "How To Use The Lexicon",
+      "points": [
+        "Search by French or English when you need the exact source vocabulary for an objective.",
+        "Filter by OF when studying a module so that practice stays limited to taught vocabulary.",
+        "Study entries in both directions: recognition from French to English and recall from English to French."
+      ]
+    },
+    {
+      "title": "What The Entries Mean",
+      "points": [
+        "Parentheses mark grammatical information, such as noun gender or adjective form.",
+        "Dash entries group expressions under a key word, for example an expression may appear under more than one entry.",
+        "Some English meanings are functional rather than literal; learn the expression as a unit."
+      ]
+    },
+    {
+      "title": "Study Routine",
+      "points": [
+        "Start with the OF filter for the module you are studying.",
+        "Use the drill for quick recognition practice, then search missed terms in the table.",
+        "For expressions, make a short sentence instead of memorizing only the isolated word."
+      ]
+    },
+    {
+      "title": "Supplemental Digital Vocabulary",
+      "points": [
+        "Use these added terms for current workplace topics that are not covered in the 2005 source lexicon.",
+        "The supplemental list covers Government of Canada administration, procurement, project work, analysis, data science, AI, privacy, security, information management, cloud, and digital delivery vocabulary.",
+        "These terms are marked separately from the official PFL2 source entries so source-traceable study and modern workplace practice remain distinct."
+      ]
+    }
+  ],
+  "questionTypes": [
+    "French entry to English meaning",
+    "English meaning to French entry",
+    "Random 20-question drill sessions from the full source lexicon",
+    "Supplemental digital-workplace French to English",
+    "Supplemental digital-workplace English to French",
+    "Supplemental digital-workplace French to English",
+    "Supplemental digital-workplace English to French"
+  ]
+}

@@ -4,7 +4,7 @@
   "sourceText": "sources/text/OF40.txt",
   "objectiveId": "OF40",
   "ofNumber": 40,
-  "titleFr": "Persuader quelqu’un de quelque chose",
+  "titleFr": "Persuader quelqu'un de quelque chose",
   "titleEn": "To convince someone of something",
   "grammarConcepts": [
     "conditionnel",
@@ -14,35 +14,137 @@
     {
       "id": "40.1",
       "heading": "Stratégies de communication",
-      "topicsFr": "",
+      "topicsFr": "Clarifier un point de vue : généralisation, restriction, objection, insistance",
       "kind": "strategy",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 7,
+      "linkedItems": [
+        "itm_of40_a03_1",
+        "itm_of40_a03_2",
+        "itm_of40_a03_3",
+        "itm_of40_a03_4",
+        "itm_of40_a03_5",
+        "itm_of40_a03_6",
+        "itm_of40_a03_7"
+      ]
     },
     {
       "id": "40.2",
       "heading": "Fonctions",
-      "topicsFr": "",
+      "topicsFr": "Demander et donner des conseils, faire des suggestions, réagir, persuader et justifier",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 49,
+      "linkedItems": [
+        "itm_of40_model_1",
+        "itm_of40_model_2",
+        "itm_of40_model_3",
+        "itm_of40_model_4",
+        "itm_of40_model_5",
+        "itm_of40_model_6",
+        "itm_of40_a08_1",
+        "itm_of40_a08_2",
+        "itm_of40_a08_3",
+        "itm_of40_a08_4",
+        "itm_of40_a08_5",
+        "itm_of40_a08_6",
+        "itm_of40_a08_7",
+        "itm_of40_a08_fill_1",
+        "itm_of40_a08_fill_2",
+        "itm_of40_a08_fill_3",
+        "itm_of40_a08_fill_4",
+        "itm_of40_a08_fill_5",
+        "itm_of40_a11_arg_1",
+        "itm_of40_a11_arg_2",
+        "itm_of40_a11_arg_3",
+        "itm_of40_a11_arg_4",
+        "itm_of40_a11_arg_5",
+        "itm_of40_a11_arg_6",
+        "itm_of40_a11_result_1",
+        "itm_of40_a11_result_2",
+        "itm_of40_a11_result_3",
+        "itm_of40_a11_result_4",
+        "itm_of40_a11_result_5",
+        "itm_of40_a11_result_6",
+        "itm_of40_function_fill_1",
+        "itm_of40_function_fill_2",
+        "itm_of40_function_fill_3",
+        "itm_of40_function_fill_4",
+        "itm_of40_function_fill_5",
+        "itm_of40_eval_1",
+        "itm_of40_eval_2",
+        "itm_of40_eval_3",
+        "itm_of40_eval_4",
+        "itm_of40_eval_5",
+        "itm_of40_a25_1",
+        "itm_of40_a25_2",
+        "itm_of40_a25_3",
+        "itm_of40_a25_4",
+        "itm_of40_a26_1",
+        "itm_of40_a26_2",
+        "itm_of40_a26_3",
+        "itm_of40_a26_4",
+        "itm_of40_a26_5"
+      ]
     }
   ],
   "vocabulary": {
     "source": "Lexique OF40 (SC102-2/1-2-2005F)",
     "entries": 21,
-    "questions": 28,
+    "questions": 42,
     "convertible": true,
-    "covered": true
+    "covered": true,
+    "linkedItems": [
+      "itm_of40_voc_fe_1",
+      "itm_of40_voc_ef_1",
+      "itm_of40_voc_fe_2",
+      "itm_of40_voc_ef_2",
+      "itm_of40_voc_fe_3",
+      "itm_of40_voc_ef_3",
+      "itm_of40_voc_fe_4",
+      "itm_of40_voc_ef_4",
+      "itm_of40_voc_fe_5",
+      "itm_of40_voc_ef_5",
+      "itm_of40_voc_fe_6",
+      "itm_of40_voc_ef_6",
+      "itm_of40_voc_fe_7",
+      "itm_of40_voc_ef_7",
+      "itm_of40_voc_fe_8",
+      "itm_of40_voc_ef_8",
+      "itm_of40_voc_fe_9",
+      "itm_of40_voc_ef_9",
+      "itm_of40_voc_fe_10",
+      "itm_of40_voc_ef_10",
+      "itm_of40_voc_fe_11",
+      "itm_of40_voc_ef_11",
+      "itm_of40_voc_fe_12",
+      "itm_of40_voc_ef_12",
+      "itm_of40_voc_fe_13",
+      "itm_of40_voc_ef_13",
+      "itm_of40_voc_fe_14",
+      "itm_of40_voc_ef_14",
+      "itm_of40_voc_fe_15",
+      "itm_of40_voc_ef_15",
+      "itm_of40_voc_fe_16",
+      "itm_of40_voc_ef_16",
+      "itm_of40_voc_fe_17",
+      "itm_of40_voc_ef_17",
+      "itm_of40_voc_fe_18",
+      "itm_of40_voc_ef_18",
+      "itm_of40_voc_fe_19",
+      "itm_of40_voc_ef_19",
+      "itm_of40_voc_fe_20",
+      "itm_of40_voc_ef_20",
+      "itm_of40_voc_fe_21",
+      "itm_of40_voc_ef_21"
+    ]
   },
   "examples": {
     "sourceMarkers": 10,
-    "derivedItems": 0,
+    "derivedItems": 56,
     "convertible": true,
-    "covered": false,
-    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+    "covered": true,
+    "note": "Model sentences are practised through self-contained function questions."
   },
   "selfTest": {
     "selfEvalBooklet": "selfeval-4 (SC102-2-45-4)",
@@ -50,7 +152,7 @@
     "convertible": true,
     "extracted": false,
     "covered": false,
-    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+    "note": "Range booklet self-test is not extracted into this OF40 bank."
   },
   "activities": [
     {
@@ -73,9 +175,17 @@
       "activity": 3,
       "hasAnswerKey": false,
       "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 7,
+      "linkedItems": [
+        "itm_of40_a03_1",
+        "itm_of40_a03_2",
+        "itm_of40_a03_3",
+        "itm_of40_a03_4",
+        "itm_of40_a03_5",
+        "itm_of40_a03_6",
+        "itm_of40_a03_7"
+      ]
     },
     {
       "activity": 4,
@@ -113,9 +223,22 @@
       "activity": 8,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of40_a08_1",
+        "itm_of40_a08_2",
+        "itm_of40_a08_3",
+        "itm_of40_a08_4",
+        "itm_of40_a08_5",
+        "itm_of40_a08_6",
+        "itm_of40_a08_7",
+        "itm_of40_a08_fill_1",
+        "itm_of40_a08_fill_2",
+        "itm_of40_a08_fill_3",
+        "itm_of40_a08_fill_4",
+        "itm_of40_a08_fill_5"
+      ]
     },
     {
       "activity": 9,
@@ -137,17 +260,36 @@
       "activity": 11,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of40_a11_arg_1",
+        "itm_of40_a11_arg_2",
+        "itm_of40_a11_arg_3",
+        "itm_of40_a11_arg_4",
+        "itm_of40_a11_arg_5",
+        "itm_of40_a11_arg_6",
+        "itm_of40_a11_result_1",
+        "itm_of40_a11_result_2",
+        "itm_of40_a11_result_3",
+        "itm_of40_a11_result_4",
+        "itm_of40_a11_result_5",
+        "itm_of40_a11_result_6"
+      ]
     },
     {
       "activity": 12,
       "hasAnswerKey": false,
       "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of40_function_fill_1",
+        "itm_of40_function_fill_2",
+        "itm_of40_function_fill_3",
+        "itm_of40_function_fill_4",
+        "itm_of40_function_fill_5"
+      ]
     },
     {
       "activity": 13,
@@ -183,11 +325,17 @@
     },
     {
       "activity": 17,
-      "hasAnswerKey": false,
-      "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of40_eval_1",
+        "itm_of40_eval_2",
+        "itm_of40_eval_3",
+        "itm_of40_eval_4",
+        "itm_of40_eval_5"
+      ]
     },
     {
       "activity": 18,
@@ -247,76 +395,55 @@
     },
     {
       "activity": 25,
-      "hasAnswerKey": false,
-      "convertible": false,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "hasAnswerKey": true,
+      "convertible": true,
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of40_a25_1",
+        "itm_of40_a25_2",
+        "itm_of40_a25_3",
+        "itm_of40_a25_4"
+      ]
     },
     {
       "activity": 26,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of40_a26_1",
+        "itm_of40_a26_2",
+        "itm_of40_a26_3",
+        "itm_of40_a26_4",
+        "itm_of40_a26_5"
+      ]
     }
   ],
+  "summary": {
+    "sourceQuestions": 56,
+    "vocabularyQuestions": 42,
+    "totalQuestions": 98,
+    "note": "Questions are self-contained and practise OF40 persuasion concepts directly."
+  },
   "validation": {
     "strictComplete": false,
-    "convertibleComplete": false,
+    "convertibleComplete": true,
     "totalElements": 31,
-    "coveredElements": 1,
+    "coveredElements": 6,
     "convertible": {
-      "covered": 1,
+      "covered": 6,
       "total": 6
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        8,
-        11,
-        26
-      ],
+      "activities": [],
       "vocabulary": [],
-      "examples": [
-        "model sentences"
-      ],
+      "examples": [],
       "selfTest": [
         "selfeval-4 (SC102-2-45-4)"
       ]
-    },
-    "nonConvertible": {
-      "sections": [
-        "40.1 Stratégies de communication (strategy)",
-        "40.2 Fonctions (function)"
-      ],
-      "activities": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        9,
-        10,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25
-      ]
-    },
-    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+    }
   }
 }

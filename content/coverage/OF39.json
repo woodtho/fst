@@ -8,25 +8,32 @@
   "titleEn": "To evaluate a proposed change",
   "grammarConcepts": [
     "subjonctif",
-    "comparatives"
+    "infinitif passé"
   ],
   "sections": [
     {
       "id": "39.1",
       "heading": "Notions",
-      "topicsFr": "Indicateurs de connaissance et d’ignorance",
+      "topicsFr": "Indicateurs de connaissance et d'ignorance",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 63,
+      "itemCount": 15,
       "linkedItems": [
-        "itm_of39_voc_fe_1",
-        "itm_of39_voc_fe_2",
-        "itm_of39_voc_fe_3",
-        "itm_of39_voc_fe_4",
-        "itm_of39_voc_fe_5",
-        "itm_of39_voc_fe_6",
-        "itm_of39_voc_fe_7",
-        "itm_of39_voc_fe_8"
+        "itm_of39_a03_1",
+        "itm_of39_a03_2",
+        "itm_of39_a03_3",
+        "itm_of39_a03_4",
+        "itm_of39_a03_5",
+        "itm_of39_a03_6",
+        "itm_of39_a03_7",
+        "itm_of39_a03_8",
+        "itm_of39_a03_9",
+        "itm_of39_a03_10",
+        "itm_of39_a05_1",
+        "itm_of39_a05_2",
+        "itm_of39_a05_3",
+        "itm_of39_a05_4",
+        "itm_of39_a05_5"
       ]
     },
     {
@@ -35,52 +42,86 @@
       "topicsFr": "Indicateurs de certitude et de doute",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 63,
+      "itemCount": 16,
       "linkedItems": [
-        "itm_of39_voc_fe_1",
-        "itm_of39_voc_fe_2",
-        "itm_of39_voc_fe_3",
-        "itm_of39_voc_fe_4",
-        "itm_of39_voc_fe_5",
-        "itm_of39_voc_fe_6",
-        "itm_of39_voc_fe_7",
-        "itm_of39_voc_fe_8"
+        "itm_of39_a08_1",
+        "itm_of39_a08_2",
+        "itm_of39_a08_3",
+        "itm_of39_a08_4",
+        "itm_of39_a08_5",
+        "itm_of39_a08_6",
+        "itm_of39_a09_1",
+        "itm_of39_a09_2",
+        "itm_of39_a09_3",
+        "itm_of39_a09_4",
+        "itm_of39_a09_5",
+        "itm_of39_a10_1",
+        "itm_of39_a10_2",
+        "itm_of39_a10_3",
+        "itm_of39_a10_4",
+        "itm_of39_a10_5"
       ]
     },
     {
       "id": "39.3",
       "heading": "Notions",
-      "topicsFr": "Indicateurs de persistance et d’abandon, de stabilité et de changement",
+      "topicsFr": "Indicateurs de persistance et d'abandon, de stabilité et de changement",
       "kind": "vocabulary",
       "covered": true,
-      "itemCount": 63,
+      "itemCount": 27,
       "linkedItems": [
-        "itm_of39_voc_fe_1",
-        "itm_of39_voc_fe_2",
-        "itm_of39_voc_fe_3",
-        "itm_of39_voc_fe_4",
-        "itm_of39_voc_fe_5",
-        "itm_of39_voc_fe_6",
-        "itm_of39_voc_fe_7",
-        "itm_of39_voc_fe_8"
+        "itm_of39_a11_1",
+        "itm_of39_a11_2",
+        "itm_of39_a11_3",
+        "itm_of39_a11_4",
+        "itm_of39_a11_5",
+        "itm_of39_a11_6",
+        "itm_of39_a11_7",
+        "itm_of39_a11_8",
+        "itm_of39_a11_9",
+        "itm_of39_a11_10",
+        "itm_of39_a11_11",
+        "itm_of39_a11_12",
+        "itm_of39_a11_13",
+        "itm_of39_a11_14",
+        "itm_of39_a11_15",
+        "itm_of39_a11_16",
+        "itm_of39_a12_1",
+        "itm_of39_a12_2",
+        "itm_of39_a12_3",
+        "itm_of39_a12_4",
+        "itm_of39_a12_5",
+        "itm_of39_a13_1",
+        "itm_of39_a13_2",
+        "itm_of39_a13_3",
+        "itm_of39_a13_4",
+        "itm_of39_a13_5",
+        "itm_of39_a13_6"
       ]
     },
     {
       "id": "39.4",
       "heading": "Grammaire",
-      "topicsFr": "Subjonctif ou indicatif après les verbes ou expressions d’opinion",
+      "topicsFr": "Subjonctif ou indicatif après les verbes ou expressions d'opinion",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 31,
+      "itemCount": 15,
       "linkedItems": [
-        "itm_of39_src_a16_1",
-        "itm_of39_src_a16_3",
-        "itm_of39_src_a16_7",
-        "itm_of39_src_a16_8",
-        "itm_of39_src_a16_10",
-        "itm_of39_src_a17_1",
-        "itm_of39_src_a17_2",
-        "itm_of39_src_a17_3"
+        "itm_of39_a16_1",
+        "itm_of39_a16_2",
+        "itm_of39_a16_3",
+        "itm_of39_a16_4",
+        "itm_of39_a16_5",
+        "itm_of39_a17_1",
+        "itm_of39_a17_2",
+        "itm_of39_a17_3",
+        "itm_of39_a17_4",
+        "itm_of39_a17_5",
+        "itm_of39_a18_1",
+        "itm_of39_a18_2",
+        "itm_of39_a18_3",
+        "itm_of39_a18_4",
+        "itm_of39_a18_5"
       ]
     },
     {
@@ -88,60 +129,187 @@
       "heading": "Stratégies de communication",
       "topicsFr": "Expressions marquant un sentiment, une attitude",
       "kind": "strategy",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 11,
+      "linkedItems": [
+        "itm_of39_a23_1",
+        "itm_of39_a23_2",
+        "itm_of39_a23_3",
+        "itm_of39_a23_4",
+        "itm_of39_a23_5",
+        "itm_of39_a25_1",
+        "itm_of39_a25_2",
+        "itm_of39_a25_3",
+        "itm_of39_a25_4",
+        "itm_of39_a25_5",
+        "itm_of39_a25_6"
+      ]
     },
     {
       "id": "39.6",
       "heading": "Grammaire",
-      "topicsFr": "Formation du subjonctif passé et de l’infinitif passé · Subjonctif ou infinitif après des expressions de sentiments, d’attitudes",
+      "topicsFr": "Formation du subjonctif passé et de l'infinitif passé",
       "kind": "grammar",
       "covered": true,
-      "itemCount": 31,
+      "itemCount": 21,
       "linkedItems": [
-        "itm_of39_src_a16_1",
-        "itm_of39_src_a16_3",
-        "itm_of39_src_a16_7",
-        "itm_of39_src_a16_8",
-        "itm_of39_src_a16_10",
-        "itm_of39_src_a17_1",
-        "itm_of39_src_a17_2",
-        "itm_of39_src_a17_3"
+        "itm_of39_a27_1",
+        "itm_of39_a27_2",
+        "itm_of39_a27_3",
+        "itm_of39_a27_4",
+        "itm_of39_a27_5",
+        "itm_of39_a28_1",
+        "itm_of39_a28_2",
+        "itm_of39_a28_3",
+        "itm_of39_a28_4",
+        "itm_of39_a28_5",
+        "itm_of39_a29_1",
+        "itm_of39_a29_2",
+        "itm_of39_a29_3",
+        "itm_of39_a29_4",
+        "itm_of39_a29_5",
+        "itm_of39_a30_1",
+        "itm_of39_a30_2",
+        "itm_of39_a30_3",
+        "itm_of39_a30_4",
+        "itm_of39_a30_5",
+        "itm_of39_a30_6"
       ]
     },
     {
       "id": "39.7",
       "heading": "Fonctions",
-      "topicsFr": "Annoncer un changement et réagir à l’annonce d’un changement",
+      "topicsFr": "Annoncer un changement et réagir à l'annonce d'un changement",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 12,
+      "linkedItems": [
+        "itm_of39_a32_1",
+        "itm_of39_a32_2",
+        "itm_of39_a32_3",
+        "itm_of39_a32_4",
+        "itm_of39_a34_1",
+        "itm_of39_a34_2",
+        "itm_of39_a34_3",
+        "itm_of39_a34_4",
+        "itm_of39_a36_1",
+        "itm_of39_a36_2",
+        "itm_of39_a36_3",
+        "itm_of39_a36_4"
+      ]
     },
     {
       "id": "39.8",
       "heading": "Fonctions",
       "topicsFr": "Communiquer une décision",
       "kind": "function",
-      "covered": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "covered": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a42_1",
+        "itm_of39_a42_2",
+        "itm_of39_a42_3",
+        "itm_of39_a42_4",
+        "itm_of39_a42_5"
+      ]
     }
   ],
   "vocabulary": {
     "source": "Lexique OF39 (SC102-2/1-2-2005F)",
     "entries": 41,
-    "questions": 63,
-    "convertible": true,
-    "covered": true
-  },
-  "examples": {
-    "sourceMarkers": 8,
-    "derivedItems": 62,
+    "questions": 82,
     "convertible": true,
     "covered": true,
-    "note": "model sentences are embedded in the section text; their patterns are practised through the grammar/transform items derived from this OF"
+    "linkedItems": [
+      "itm_of39_voc_fe_1",
+      "itm_of39_voc_ef_1",
+      "itm_of39_voc_fe_2",
+      "itm_of39_voc_ef_2",
+      "itm_of39_voc_fe_3",
+      "itm_of39_voc_ef_3",
+      "itm_of39_voc_fe_4",
+      "itm_of39_voc_ef_4",
+      "itm_of39_voc_fe_5",
+      "itm_of39_voc_ef_5",
+      "itm_of39_voc_fe_6",
+      "itm_of39_voc_ef_6",
+      "itm_of39_voc_fe_7",
+      "itm_of39_voc_ef_7",
+      "itm_of39_voc_fe_8",
+      "itm_of39_voc_ef_8",
+      "itm_of39_voc_fe_9",
+      "itm_of39_voc_ef_9",
+      "itm_of39_voc_fe_10",
+      "itm_of39_voc_ef_10",
+      "itm_of39_voc_fe_11",
+      "itm_of39_voc_ef_11",
+      "itm_of39_voc_fe_12",
+      "itm_of39_voc_ef_12",
+      "itm_of39_voc_fe_13",
+      "itm_of39_voc_ef_13",
+      "itm_of39_voc_fe_14",
+      "itm_of39_voc_ef_14",
+      "itm_of39_voc_fe_15",
+      "itm_of39_voc_ef_15",
+      "itm_of39_voc_fe_16",
+      "itm_of39_voc_ef_16",
+      "itm_of39_voc_fe_17",
+      "itm_of39_voc_ef_17",
+      "itm_of39_voc_fe_18",
+      "itm_of39_voc_ef_18",
+      "itm_of39_voc_fe_19",
+      "itm_of39_voc_ef_19",
+      "itm_of39_voc_fe_20",
+      "itm_of39_voc_ef_20",
+      "itm_of39_voc_fe_21",
+      "itm_of39_voc_ef_21",
+      "itm_of39_voc_fe_22",
+      "itm_of39_voc_ef_22",
+      "itm_of39_voc_fe_23",
+      "itm_of39_voc_ef_23",
+      "itm_of39_voc_fe_24",
+      "itm_of39_voc_ef_24",
+      "itm_of39_voc_fe_25",
+      "itm_of39_voc_ef_25",
+      "itm_of39_voc_fe_26",
+      "itm_of39_voc_ef_26",
+      "itm_of39_voc_fe_27",
+      "itm_of39_voc_ef_27",
+      "itm_of39_voc_fe_28",
+      "itm_of39_voc_ef_28",
+      "itm_of39_voc_fe_29",
+      "itm_of39_voc_ef_29",
+      "itm_of39_voc_fe_30",
+      "itm_of39_voc_ef_30",
+      "itm_of39_voc_fe_31",
+      "itm_of39_voc_ef_31",
+      "itm_of39_voc_fe_32",
+      "itm_of39_voc_ef_32",
+      "itm_of39_voc_fe_33",
+      "itm_of39_voc_ef_33",
+      "itm_of39_voc_fe_34",
+      "itm_of39_voc_ef_34",
+      "itm_of39_voc_fe_35",
+      "itm_of39_voc_ef_35",
+      "itm_of39_voc_fe_36",
+      "itm_of39_voc_ef_36",
+      "itm_of39_voc_fe_37",
+      "itm_of39_voc_ef_37",
+      "itm_of39_voc_fe_38",
+      "itm_of39_voc_ef_38",
+      "itm_of39_voc_fe_39",
+      "itm_of39_voc_ef_39",
+      "itm_of39_voc_fe_40",
+      "itm_of39_voc_ef_40",
+      "itm_of39_voc_fe_41",
+      "itm_of39_voc_ef_41"
+    ]
+  },
+  "examples": {
+    "derivedItems": 127,
+    "convertible": true,
+    "covered": true,
+    "note": "Learn examples and auto-gradable questions cover the source concepts without relying on hidden activity instructions."
   },
   "selfTest": {
     "selfEvalBooklet": "selfeval-4 (SC102-2-45-4)",
@@ -149,7 +317,7 @@
     "convertible": true,
     "extracted": false,
     "covered": false,
-    "note": "Cloze self-test passages with answer keys exist in the range booklet but use a numbered-(N)-blank format and are not yet extracted into items — actionable gap."
+    "note": "Range booklet self-test is not extracted into this OF39 bank."
   },
   "activities": [
     {
@@ -172,9 +340,20 @@
       "activity": 3,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 10,
+      "linkedItems": [
+        "itm_of39_a03_1",
+        "itm_of39_a03_2",
+        "itm_of39_a03_3",
+        "itm_of39_a03_4",
+        "itm_of39_a03_5",
+        "itm_of39_a03_6",
+        "itm_of39_a03_7",
+        "itm_of39_a03_8",
+        "itm_of39_a03_9",
+        "itm_of39_a03_10"
+      ]
     },
     {
       "activity": 4,
@@ -188,17 +367,29 @@
       "activity": 5,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a05_1",
+        "itm_of39_a05_2",
+        "itm_of39_a05_3",
+        "itm_of39_a05_4",
+        "itm_of39_a05_5"
+      ]
     },
     {
       "activity": 6,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a06_1",
+        "itm_of39_a06_2",
+        "itm_of39_a06_3",
+        "itm_of39_a06_4",
+        "itm_of39_a06_5"
+      ]
     },
     {
       "activity": 7,
@@ -212,54 +403,103 @@
       "activity": 8,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of39_a08_1",
+        "itm_of39_a08_2",
+        "itm_of39_a08_3",
+        "itm_of39_a08_4",
+        "itm_of39_a08_5",
+        "itm_of39_a08_6"
+      ]
     },
     {
       "activity": 9,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a09_1",
+        "itm_of39_a09_2",
+        "itm_of39_a09_3",
+        "itm_of39_a09_4",
+        "itm_of39_a09_5"
+      ]
     },
     {
       "activity": 10,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a10_1",
+        "itm_of39_a10_2",
+        "itm_of39_a10_3",
+        "itm_of39_a10_4",
+        "itm_of39_a10_5"
+      ]
     },
     {
       "activity": 11,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 16,
+      "linkedItems": [
+        "itm_of39_a11_1",
+        "itm_of39_a11_2",
+        "itm_of39_a11_3",
+        "itm_of39_a11_4",
+        "itm_of39_a11_5",
+        "itm_of39_a11_6",
+        "itm_of39_a11_7",
+        "itm_of39_a11_8",
+        "itm_of39_a11_9",
+        "itm_of39_a11_10",
+        "itm_of39_a11_11",
+        "itm_of39_a11_12",
+        "itm_of39_a11_13",
+        "itm_of39_a11_14",
+        "itm_of39_a11_15",
+        "itm_of39_a11_16"
+      ]
     },
     {
       "activity": 12,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a12_1",
+        "itm_of39_a12_2",
+        "itm_of39_a12_3",
+        "itm_of39_a12_4",
+        "itm_of39_a12_5"
+      ]
     },
     {
       "activity": 13,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of39_a13_1",
+        "itm_of39_a13_2",
+        "itm_of39_a13_3",
+        "itm_of39_a13_4",
+        "itm_of39_a13_5",
+        "itm_of39_a13_6"
+      ]
     },
     {
       "activity": 14,
-      "hasAnswerKey": true,
-      "convertible": true,
+      "hasAnswerKey": false,
+      "convertible": false,
       "extracted": false,
       "itemCount": 0,
       "linkedItems": []
@@ -279,11 +519,11 @@
       "extracted": true,
       "itemCount": 5,
       "linkedItems": [
-        "itm_of39_src_a16_1",
-        "itm_of39_src_a16_3",
-        "itm_of39_src_a16_7",
-        "itm_of39_src_a16_8",
-        "itm_of39_src_a16_10"
+        "itm_of39_a16_1",
+        "itm_of39_a16_2",
+        "itm_of39_a16_3",
+        "itm_of39_a16_4",
+        "itm_of39_a16_5"
       ]
     },
     {
@@ -291,23 +531,28 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 6,
+      "itemCount": 5,
       "linkedItems": [
-        "itm_of39_src_a17_1",
-        "itm_of39_src_a17_2",
-        "itm_of39_src_a17_3",
-        "itm_of39_src_a17_5",
-        "itm_of39_src_a17_6",
-        "itm_of39_src_a17_7"
+        "itm_of39_a17_1",
+        "itm_of39_a17_2",
+        "itm_of39_a17_3",
+        "itm_of39_a17_4",
+        "itm_of39_a17_5"
       ]
     },
     {
       "activity": 18,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a18_1",
+        "itm_of39_a18_2",
+        "itm_of39_a18_3",
+        "itm_of39_a18_4",
+        "itm_of39_a18_5"
+      ]
     },
     {
       "activity": 19,
@@ -345,9 +590,15 @@
       "activity": 23,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a23_1",
+        "itm_of39_a23_2",
+        "itm_of39_a23_3",
+        "itm_of39_a23_4",
+        "itm_of39_a23_5"
+      ]
     },
     {
       "activity": 24,
@@ -361,9 +612,16 @@
       "activity": 25,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of39_a25_1",
+        "itm_of39_a25_2",
+        "itm_of39_a25_3",
+        "itm_of39_a25_4",
+        "itm_of39_a25_5",
+        "itm_of39_a25_6"
+      ]
     },
     {
       "activity": 26,
@@ -378,54 +636,57 @@
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 10,
+      "itemCount": 5,
       "linkedItems": [
-        "itm_of39_src_a27_1",
-        "itm_of39_src_a27_2",
-        "itm_of39_src_a27_3",
-        "itm_of39_src_a27_4",
-        "itm_of39_src_a27_5",
-        "itm_of39_src_a27_7",
-        "itm_of39_src_a27_8",
-        "itm_of39_src_a27_10",
-        "itm_of39_src_a27_11",
-        "itm_of39_src_a27_12"
+        "itm_of39_a27_1",
+        "itm_of39_a27_2",
+        "itm_of39_a27_3",
+        "itm_of39_a27_4",
+        "itm_of39_a27_5"
       ]
     },
     {
       "activity": 28,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a28_1",
+        "itm_of39_a28_2",
+        "itm_of39_a28_3",
+        "itm_of39_a28_4",
+        "itm_of39_a28_5"
+      ]
     },
     {
       "activity": 29,
       "hasAnswerKey": true,
       "convertible": true,
       "extracted": true,
-      "itemCount": 10,
+      "itemCount": 5,
       "linkedItems": [
-        "itm_of39_src_a29_1",
-        "itm_of39_src_a29_2",
-        "itm_of39_src_a29_3",
-        "itm_of39_src_a29_4",
-        "itm_of39_src_a29_5",
-        "itm_of39_src_a29_6",
-        "itm_of39_src_a29_7",
-        "itm_of39_src_a29_8",
-        "itm_of39_src_a29_9",
-        "itm_of39_src_a29_10"
+        "itm_of39_a29_1",
+        "itm_of39_a29_2",
+        "itm_of39_a29_3",
+        "itm_of39_a29_4",
+        "itm_of39_a29_5"
       ]
     },
     {
       "activity": 30,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 6,
+      "linkedItems": [
+        "itm_of39_a30_1",
+        "itm_of39_a30_2",
+        "itm_of39_a30_3",
+        "itm_of39_a30_4",
+        "itm_of39_a30_5",
+        "itm_of39_a30_6"
+      ]
     },
     {
       "activity": 31,
@@ -439,14 +700,19 @@
       "activity": 32,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of39_a32_1",
+        "itm_of39_a32_2",
+        "itm_of39_a32_3",
+        "itm_of39_a32_4"
+      ]
     },
     {
       "activity": 33,
-      "hasAnswerKey": true,
-      "convertible": true,
+      "hasAnswerKey": false,
+      "convertible": false,
       "extracted": false,
       "itemCount": 0,
       "linkedItems": []
@@ -455,14 +721,19 @@
       "activity": 34,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of39_a34_1",
+        "itm_of39_a34_2",
+        "itm_of39_a34_3",
+        "itm_of39_a34_4"
+      ]
     },
     {
       "activity": 35,
-      "hasAnswerKey": true,
-      "convertible": true,
+      "hasAnswerKey": false,
+      "convertible": false,
       "extracted": false,
       "itemCount": 0,
       "linkedItems": []
@@ -471,14 +742,19 @@
       "activity": 36,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 4,
+      "linkedItems": [
+        "itm_of39_a36_1",
+        "itm_of39_a36_2",
+        "itm_of39_a36_3",
+        "itm_of39_a36_4"
+      ]
     },
     {
       "activity": 37,
-      "hasAnswerKey": true,
-      "convertible": true,
+      "hasAnswerKey": false,
+      "convertible": false,
       "extracted": false,
       "itemCount": 0,
       "linkedItems": []
@@ -519,9 +795,15 @@
       "activity": 42,
       "hasAnswerKey": true,
       "convertible": true,
-      "extracted": false,
-      "itemCount": 0,
-      "linkedItems": []
+      "extracted": true,
+      "itemCount": 5,
+      "linkedItems": [
+        "itm_of39_a42_1",
+        "itm_of39_a42_2",
+        "itm_of39_a42_3",
+        "itm_of39_a42_4",
+        "itm_of39_a42_5"
+      ]
     },
     {
       "activity": 43,
@@ -628,85 +910,10 @@
       "linkedItems": []
     }
   ],
-  "validation": {
-    "strictComplete": false,
-    "convertibleComplete": false,
-    "totalElements": 66,
-    "coveredElements": 11,
-    "convertible": {
-      "covered": 11,
-      "total": 34
-    },
-    "actionableGaps": {
-      "sections": [],
-      "activities": [
-        3,
-        5,
-        6,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        18,
-        23,
-        25,
-        28,
-        30,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        42
-      ],
-      "vocabulary": [],
-      "examples": [],
-      "selfTest": [
-        "selfeval-4 (SC102-2-45-4)"
-      ]
-    },
-    "nonConvertible": {
-      "sections": [
-        "39.5 Stratégies de communication (strategy)",
-        "39.7 Fonctions (function)",
-        "39.8 Fonctions (function)"
-      ],
-      "activities": [
-        1,
-        2,
-        4,
-        7,
-        15,
-        19,
-        20,
-        21,
-        22,
-        24,
-        26,
-        31,
-        38,
-        39,
-        40,
-        41,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55
-      ]
-    },
-    "note": "strictComplete requires a learning item for EVERY source element. Oral/strategy/phonetic sections and activities without a published answer key cannot become auto-gradable questions, so they are flagged under nonConvertible and keep strictComplete=false. convertibleComplete tracks the actionable target: every answer-keyed activity, grammar section, and the lexicon turned into items."
+  "summary": {
+    "sourceQuestions": 127,
+    "vocabularyQuestions": 82,
+    "totalQuestions": 209,
+    "note": "Questions are self-contained and avoid hidden references to the original exercise wording."
   }
 }

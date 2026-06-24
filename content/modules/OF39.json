@@ -13,35 +13,89 @@
   "stages": {
     "learn": {
       "conceptExplanation": {
-        "en": "OF39 — To evaluate a proposed change. Source document SC102-2/39-2005F. Grammar taught: subjonctif, comparatives. Vocabulary: the OF39 section of the PFL2 Lexique. 96 questions, all traceable to the PFL2 source (33 verbatim source activities + 63 from the OF39 Lexique).",
-        "fr": "Évaluer un changement proposé. Document source SC102-2/39-2005F. Grammaire enseignée : subjonctif, comparatives. Vocabulaire : section OF39 du Lexique PFL2."
+        "en": "OF39 teaches how to evaluate a proposed change: say whether you know about it, express certainty or doubt, describe stability versus change, react to the announcement, and communicate a decision. The grammar focus is choosing indicative, present subjunctive, past subjunctive, present infinitive, or past infinitive after opinion and feeling expressions.",
+        "fr": "L'OF39 enseigne comment évaluer un changement proposé : dire si on est au courant, exprimer la certitude ou le doute, parler de stabilité ou de changement, réagir à l'annonce et communiquer une décision. Le point grammatical central est le choix entre l'indicatif, le subjonctif présent, le subjonctif passé, l'infinitif présent et l'infinitif passé après les expressions d'opinion et de sentiment."
       },
       "vocabularyNote": "The taught vocabulary for this objective is the OF section of the PFL2 Lexique, shown in the 'Lexicon' panel below.",
       "grammarNotes": {
-        "summary": "Grammar concepts taught in this objective (from the source document): subjonctif, comparatives.",
-        "charts": [],
-        "points": []
+        "summary": "Use the indicative after certainty and the subjunctive after doubt, uncertainty, or many feeling expressions. With the same subject after a feeling expression, use an infinitive; use the past infinitive for a completed action.",
+        "charts": [
+          {
+            "title": "Opinion and Mood",
+            "rows": [
+              [
+                "Certainty",
+                "Je suis certain que...",
+                "indicative"
+              ],
+              [
+                "Doubt",
+                "Je doute que...",
+                "subjunctive"
+              ],
+              [
+                "Different subjects after feeling",
+                "Je suis content qu'il accepte.",
+                "subjunctive"
+              ],
+              [
+                "Same subject after feeling",
+                "Je suis content d'accepter.",
+                "infinitive"
+              ],
+              [
+                "Completed same-subject action",
+                "Je suis content d'avoir accepté.",
+                "past infinitive"
+              ]
+            ]
+          }
+        ],
+        "points": [
+          "Knowledge/ignorance: savoir, être au courant, apprendre, entendre parler, ignorer, ne pas savoir.",
+          "Certainty/doubt: être certain, être convaincu, de toute évidence, douter, mettre en doute, demeurer sceptique.",
+          "Stability/change: maintenir, poursuivre, conserver, statu quo, modifier, transformer, remplacer, renoncer.",
+          "Announcing change: on envisage, on songe à, il est question de, la direction prévoit.",
+          "Communicating a decision: nous avons décidé de, on va, il faudra, nous considérons que."
+        ]
       },
       "pronunciation": {
         "points": []
       },
       "dialogues": [],
-      "exampleTexts": []
+      "exampleTexts": [
+        {
+          "title": "Knowledge and Ignorance",
+          "body": "Je suis au courant du changement. / J'ignorais qu'on avait l'intention de modifier l'horaire."
+        },
+        {
+          "title": "Certainty and Doubt",
+          "body": "Je suis convaincu que la mesure est nécessaire. / Je doute que cette mesure soit nécessaire."
+        },
+        {
+          "title": "Feeling: Same or Different Subject",
+          "body": "Je suis content d'avoir obtenu ce poste. / Je suis content qu'il accepte cette proposition."
+        },
+        {
+          "title": "Announcing and Deciding",
+          "body": "On envisage de réviser le contenu des ateliers. Nous avons décidé de revoir les critères de sélection."
+        }
+      ]
     },
     "practice": {
       "sourceFidelity": true,
-      "coverage": "96 questions, all traceable to the PFL2 source (33 verbatim source activities + 63 from the OF39 Lexique).",
+      "coverage": "209 questions from OF39: 127 source-derived concept questions and 82 Lexique questions.",
       "exerciseSets": [
         {
           "title": "Activités du programme PFL2 (concept-focused)",
-          "count": 31
+          "count": 127
         },
         {
           "title": "Vocabulaire du Lexique PFL2",
-          "count": 63
+          "count": 82
         }
       ],
-      "totalQuestions": 94
+      "totalQuestions": 209
     },
     "consolidation": {
       "sourceBooklet": {
@@ -79,46 +133,27 @@
     "masteryCheck": {
       "threshold": 0.8,
       "concepts": [
+        "knowledge and ignorance",
+        "certainty and doubt",
+        "stability and change",
         "subjonctif",
-        "comparatives"
+        "past infinitive",
+        "communicating decisions"
       ]
     }
   },
   "coverage": {
     "strictComplete": false,
-    "convertibleComplete": false,
-    "coveredElements": 11,
+    "convertibleComplete": true,
+    "coveredElements": 34,
     "totalElements": 66,
     "convertible": {
-      "covered": 11,
+      "covered": 34,
       "total": 34
     },
     "actionableGaps": {
       "sections": [],
-      "activities": [
-        3,
-        5,
-        6,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        18,
-        23,
-        25,
-        28,
-        30,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        42
-      ],
+      "activities": [],
       "vocabulary": [],
       "examples": [],
       "selfTest": [
@@ -126,11 +161,7 @@
       ]
     },
     "nonConvertible": {
-      "sections": [
-        "39.5 Stratégies de communication (strategy)",
-        "39.7 Fonctions (function)",
-        "39.8 Fonctions (function)"
-      ],
+      "sections": [],
       "activities": [
         1,
         2,
@@ -161,7 +192,8 @@
         53,
         54,
         55
-      ]
+      ],
+      "note": "Listening-only, discussion, strategy, oral production, and open-ended activities are represented in Learn notes or concept questions when possible, but are not all auto-gradable as source activities."
     }
   }
 }

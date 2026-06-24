@@ -71,12 +71,15 @@ export function getItems(objectiveId: string): Item[] {
 
 export function getItem(itemId: string): Item | undefined {
   const dir = join(CONTENT, "question-bank", "items");
-  if (!existsSync(dir)) return undefined;
-  for (const f of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
-    const bank = read(join(dir, f));
-    const hit = (bank.items as Item[]).find((it) => it.id === itemId);
-    if (hit) return hit;
+  if (existsSync(dir)) {
+    for (const f of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+      const bank = read(join(dir, f));
+      const hit = (bank.items as Item[]).find((it) => it.id === itemId);
+      if (hit) return hit;
+    }
   }
+  const lexiconHit = getLexiconQuestions().find((it) => it.id === itemId);
+  if (lexiconHit) return lexiconHit;
   return undefined;
 }
 
@@ -106,14 +109,65 @@ export function getLexiconByOf(id: string): LexiconByOf | null {
   return existsSync(p) ? read(p) : null;
 }
 
-let _allLex: (LexEntry & { of: number; objectiveId: string })[] | null = null;
+export function getLexiconLearn(): any | null {
+  const p = join(CONTENT, "lexicon", "learn.json");
+  return existsSync(p) ? read(p) : null;
+}
+
+export function getLexiconQuestions(): Item[] {
+  const p = join(CONTENT, "lexicon", "questions.json");
+  if (!existsSync(p)) return [];
+  return read(p).items as Item[];
+}
+
+export function getSupplementalLexicon(): any | null {
+  const p = join(CONTENT, "lexicon", "supplemental-digital.json");
+  return existsSync(p) ? read(p) : null;
+}
+
+export type LexiconSearchEntry = LexEntry & {
+  of: number;
+  objectiveId: string;
+  titleFr?: string;
+  level?: "A" | "B" | "Supplemental";
+  sourceKind: "source" | "supplemental";
+  category?: string;
+};
+
+let _allLex: LexiconSearchEntry[] | null = null;
 /** Every lexicon entry across all OFs, tagged with its objective (for the lexicon tool). */
 export function getAllLexicon() {
   if (_allLex) return _allLex;
-  const out: (LexEntry & { of: number; objectiveId: string })[] = [];
+  const out: LexiconSearchEntry[] = [];
   for (const o of getObjectives()) {
     const lx = getLexiconByOf(o.id);
-    if (lx) for (const e of lx.entries) out.push({ ...e, of: o.of, objectiveId: o.id });
+    if (lx) {
+      for (const e of lx.entries) {
+        out.push({
+          ...e,
+          of: o.of,
+          objectiveId: o.id,
+          titleFr: o.titleFr,
+          level: o.of <= 20 ? "A" : "B",
+          sourceKind: "source"
+        });
+      }
+    }
+  }
+  const supplemental = getSupplementalLexicon();
+  if (supplemental) {
+    for (const e of supplemental.entries ?? []) {
+      out.push({
+        fr: e.fr,
+        en: e.en,
+        of: supplemental.of,
+        objectiveId: supplemental.objectiveId,
+        titleFr: supplemental.titleFr,
+        level: "Supplemental",
+        sourceKind: "supplemental",
+        category: e.category
+      });
+    }
   }
   _allLex = out;
   return out;

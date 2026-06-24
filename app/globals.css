@@ -155,7 +155,9 @@ h3 { font-size: 1rem; margin: 18px 0 8px; }
 /* Lexicon tool */
 .lex-controls { display: flex; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
 .lex-controls .text-input { flex: 1 1 260px; }
-.lex-controls .match-select { flex: 0 1 320px; }
+.lex-controls .match-select { flex: 1 1 220px; }
+.lex-controls .btn { flex: 0 0 auto; }
+.lex-pagebar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin: 8px 0 12px; }
 .lex-table { width: 100%; border-collapse: collapse; font-size: .92rem; }
 .lex-table th, .lex-table td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .lex-table th { color: var(--muted); font-weight: 600; font-size: .78rem; text-transform: uppercase; letter-spacing: .03em; position: sticky; top: 0; background: var(--panel); }
@@ -348,4 +350,168 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 /* Respect users who prefer less motion */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* ═══════════════════════════ Mobile layout ═══════════════════════════ */
+@media (max-width: 760px) {
+  .topbar {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 12px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    white-space: nowrap;
+  }
+  .topnav {
+    gap: 6px;
+    overflow-x: auto;
+    padding: 2px 0 6px;
+    width: 100%;
+    scrollbar-width: none;
+  }
+  .topnav::-webkit-scrollbar { display: none; }
+  .topnav a {
+    flex: 0 0 auto;
+    border: 1px solid rgba(255,255,255,.24);
+    border-radius: 999px;
+    padding: 6px 10px;
+    font-size: .88rem;
+  }
+  .topnav a::after { display: none; }
+
+  .container {
+    padding: 18px 12px 48px;
+    max-width: 100%;
+  }
+  .footer { padding: 18px 12px; }
+  h1 { font-size: 1.42rem; line-height: 1.2; }
+  h2 { font-size: 1.08rem; }
+  .lead { font-size: .95rem; margin-bottom: 16px; }
+  .panel {
+    border-radius: 10px;
+    padding: 14px;
+  }
+  .grid { grid-template-columns: 1fr; }
+
+  .btn-row {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .btn {
+    padding: 9px 12px;
+    font-size: .9rem;
+  }
+
+  .lex-controls {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .lex-controls .text-input,
+  .lex-controls .match-select {
+    width: 100%;
+    min-width: 0;
+    flex-basis: auto;
+  }
+  .lex-pagebar {
+    align-items: stretch;
+  }
+  .lex-pagebar .btn-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+  .lex-pagebar .btn { width: 100%; }
+
+  .vocab-table,
+  .gram-table,
+  .lex-table,
+  .conj-table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-size: .86rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .vocab-table thead,
+  .vocab-table tbody,
+  .gram-table thead,
+  .gram-table tbody,
+  .lex-table thead,
+  .lex-table tbody,
+  .conj-table thead,
+  .conj-table tbody {
+    display: table;
+    width: max-content;
+    min-width: 100%;
+  }
+  .vocab-table th,
+  .vocab-table td,
+  .gram-table th,
+  .gram-table td,
+  .lex-table th,
+  .lex-table td,
+  .conj-table th,
+  .conj-table td {
+    padding: 7px 8px;
+  }
+  .lex-table th { position: static; }
+
+  .runner-head,
+  .game-hud,
+  .stage {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .stem { font-size: 1.02rem; }
+  .game-prompt { font-size: 1.45rem; }
+  .opt {
+    padding: 11px 12px;
+    font-size: .95rem;
+  }
+
+  .match-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .match-arrow { display: none; }
+  .match-select { width: 100%; min-width: 0; }
+
+  .tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 2px;
+  }
+  .tab { flex: 0 0 auto; }
+  .conj-controls,
+  .control-block,
+  .verb-select,
+  .combo {
+    width: 100%;
+  }
+  .mood-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .mood-label { min-width: 0; }
+  .combo-list { min-width: 100%; }
+}
+
+@media (max-width: 420px) {
+  .topbar { padding: 8px 10px; }
+  .brand { font-size: 1rem; }
+  .brand-mark { padding: 2px 6px; }
+  .topnav a { font-size: .82rem; padding: 5px 9px; }
+  .container { padding-left: 10px; padding-right: 10px; }
+  .panel { padding: 12px; }
+  .lex-pagebar .btn-row { grid-template-columns: 1fr; }
+  .summary .score { font-size: 2.1rem; }
 }

@@ -1,0 +1,1580 @@
+{
+  "schema": "lexicon-supplement/v1",
+  "source": {
+    "kind": "supplemental",
+    "description": "AI-curated modern workplace vocabulary added to complement the official PFL2 source lexicon.",
+    "createdFor": "AI, data science, analysis, Government of Canada work, and digital technology vocabulary"
+  },
+  "objectiveId": "DIGITAL",
+  "of": 41,
+  "titleFr": "Vocabulaire numérique et analytique",
+  "titleEn": "Digital and analytical vocabulary",
+  "count": 313,
+  "entries": [
+    {
+      "fr": "intelligence artificielle",
+      "en": "artificial intelligence",
+      "category": "AI"
+    },
+    {
+      "fr": "IA générative",
+      "en": "generative AI",
+      "category": "AI"
+    },
+    {
+      "fr": "apprentissage automatique",
+      "en": "machine learning",
+      "category": "AI"
+    },
+    {
+      "fr": "apprentissage profond",
+      "en": "deep learning",
+      "category": "AI"
+    },
+    {
+      "fr": "modèle de langage",
+      "en": "language model",
+      "category": "AI"
+    },
+    {
+      "fr": "grand modèle de langage",
+      "en": "large language model",
+      "category": "AI"
+    },
+    {
+      "fr": "modèle multimodal",
+      "en": "multimodal model",
+      "category": "AI"
+    },
+    {
+      "fr": "assistant conversationnel",
+      "en": "conversational assistant",
+      "category": "AI"
+    },
+    {
+      "fr": "agent conversationnel",
+      "en": "chatbot",
+      "category": "AI"
+    },
+    {
+      "fr": "requête",
+      "en": "prompt",
+      "category": "AI"
+    },
+    {
+      "fr": "ingénierie de requêtes",
+      "en": "prompt engineering",
+      "category": "AI"
+    },
+    {
+      "fr": "réponse générée",
+      "en": "generated response",
+      "category": "AI"
+    },
+    {
+      "fr": "hallucination",
+      "en": "hallucination",
+      "category": "AI"
+    },
+    {
+      "fr": "biais algorithmique",
+      "en": "algorithmic bias",
+      "category": "AI"
+    },
+    {
+      "fr": "atténuation des biais",
+      "en": "bias mitigation",
+      "category": "AI"
+    },
+    {
+      "fr": "explicabilité",
+      "en": "explainability",
+      "category": "AI"
+    },
+    {
+      "fr": "interprétabilité",
+      "en": "interpretability",
+      "category": "AI"
+    },
+    {
+      "fr": "validation du modèle",
+      "en": "model validation",
+      "category": "AI"
+    },
+    {
+      "fr": "évaluation du modèle",
+      "en": "model evaluation",
+      "category": "AI"
+    },
+    {
+      "fr": "données d'entraînement",
+      "en": "training data",
+      "category": "AI"
+    },
+    {
+      "fr": "données de validation",
+      "en": "validation data",
+      "category": "AI"
+    },
+    {
+      "fr": "données d'essai",
+      "en": "test data",
+      "category": "AI"
+    },
+    {
+      "fr": "apprentissage supervisé",
+      "en": "supervised learning",
+      "category": "AI"
+    },
+    {
+      "fr": "apprentissage non supervisé",
+      "en": "unsupervised learning",
+      "category": "AI"
+    },
+    {
+      "fr": "apprentissage par renforcement",
+      "en": "reinforcement learning",
+      "category": "AI"
+    },
+    {
+      "fr": "recherche sémantique",
+      "en": "semantic search",
+      "category": "AI"
+    },
+    {
+      "fr": "génération augmentée par récupération",
+      "en": "retrieval-augmented generation",
+      "category": "AI"
+    },
+    {
+      "fr": "base de connaissances",
+      "en": "knowledge base",
+      "category": "AI"
+    },
+    {
+      "fr": "jeu de données",
+      "en": "dataset",
+      "category": "Data"
+    },
+    {
+      "fr": "données structurées",
+      "en": "structured data",
+      "category": "Data"
+    },
+    {
+      "fr": "données non structurées",
+      "en": "unstructured data",
+      "category": "Data"
+    },
+    {
+      "fr": "métadonnées",
+      "en": "metadata",
+      "category": "Data"
+    },
+    {
+      "fr": "dictionnaire de données",
+      "en": "data dictionary",
+      "category": "Data"
+    },
+    {
+      "fr": "catalogue de données",
+      "en": "data catalogue",
+      "category": "Data"
+    },
+    {
+      "fr": "gouvernance des données",
+      "en": "data governance",
+      "category": "Data"
+    },
+    {
+      "fr": "intendance des données",
+      "en": "data stewardship",
+      "category": "Data"
+    },
+    {
+      "fr": "qualité des données",
+      "en": "data quality",
+      "category": "Data"
+    },
+    {
+      "fr": "profilage des données",
+      "en": "data profiling",
+      "category": "Data"
+    },
+    {
+      "fr": "nettoyage des données",
+      "en": "data cleaning",
+      "category": "Data"
+    },
+    {
+      "fr": "préparation des données",
+      "en": "data preparation",
+      "category": "Data"
+    },
+    {
+      "fr": "transformation des données",
+      "en": "data transformation",
+      "category": "Data"
+    },
+    {
+      "fr": "pipeline de données",
+      "en": "data pipeline",
+      "category": "Data"
+    },
+    {
+      "fr": "flux de données",
+      "en": "data flow",
+      "category": "Data"
+    },
+    {
+      "fr": "entrepôt de données",
+      "en": "data warehouse",
+      "category": "Data"
+    },
+    {
+      "fr": "lac de données",
+      "en": "data lake",
+      "category": "Data"
+    },
+    {
+      "fr": "maillage de données",
+      "en": "data mesh",
+      "category": "Data"
+    },
+    {
+      "fr": "modèle de données",
+      "en": "data model",
+      "category": "Data"
+    },
+    {
+      "fr": "schéma de données",
+      "en": "data schema",
+      "category": "Data"
+    },
+    {
+      "fr": "analyse exploratoire des données",
+      "en": "exploratory data analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse descriptive",
+      "en": "descriptive analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse diagnostique",
+      "en": "diagnostic analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse prédictive",
+      "en": "predictive analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse prescriptive",
+      "en": "prescriptive analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse statistique",
+      "en": "statistical analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse de tendances",
+      "en": "trend analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse comparative",
+      "en": "comparative analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "prévision",
+      "en": "forecast",
+      "category": "Analysis"
+    },
+    {
+      "fr": "indicateur clé de rendement",
+      "en": "key performance indicator",
+      "category": "Analysis"
+    },
+    {
+      "fr": "mesure de rendement",
+      "en": "performance measure",
+      "category": "Analysis"
+    },
+    {
+      "fr": "tableau de bord",
+      "en": "dashboard",
+      "category": "Analysis"
+    },
+    {
+      "fr": "visualisation des données",
+      "en": "data visualization",
+      "category": "Analysis"
+    },
+    {
+      "fr": "rapport automatisé",
+      "en": "automated report",
+      "category": "Analysis"
+    },
+    {
+      "fr": "récit de données",
+      "en": "data story",
+      "category": "Analysis"
+    },
+    {
+      "fr": "constat analytique",
+      "en": "analytical finding",
+      "category": "Analysis"
+    },
+    {
+      "fr": "méthodologie",
+      "en": "methodology",
+      "category": "Analysis"
+    },
+    {
+      "fr": "hypothèse",
+      "en": "hypothesis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "échantillon",
+      "en": "sample",
+      "category": "Analysis"
+    },
+    {
+      "fr": "variable",
+      "en": "variable",
+      "category": "Analysis"
+    },
+    {
+      "fr": "corrélation",
+      "en": "correlation",
+      "category": "Analysis"
+    },
+    {
+      "fr": "causalité",
+      "en": "causality",
+      "category": "Analysis"
+    },
+    {
+      "fr": "marge d'erreur",
+      "en": "margin of error",
+      "category": "Analysis"
+    },
+    {
+      "fr": "seuil de confiance",
+      "en": "confidence threshold",
+      "category": "Analysis"
+    },
+    {
+      "fr": "automatisation",
+      "en": "automation",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "automatisation des processus",
+      "en": "process automation",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "flux de travail",
+      "en": "workflow",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "outil collaboratif",
+      "en": "collaboration tool",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "espace de travail numérique",
+      "en": "digital workspace",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "gestion des tâches",
+      "en": "task management",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "suivi des demandes",
+      "en": "request tracking",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "billet de soutien",
+      "en": "support ticket",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "arriéré de travail",
+      "en": "backlog",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "feuille de route",
+      "en": "roadmap",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "mise en production",
+      "en": "deployment",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "environnement d'essai",
+      "en": "test environment",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "environnement de production",
+      "en": "production environment",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "gestion du changement",
+      "en": "change management",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "adoption par les utilisateurs",
+      "en": "user adoption",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "expérience utilisateur",
+      "en": "user experience",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "interface utilisateur",
+      "en": "user interface",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "accessibilité numérique",
+      "en": "digital accessibility",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "conception centrée sur l'utilisateur",
+      "en": "user-centred design",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "recherche auprès des utilisateurs",
+      "en": "user research",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "essai d'utilisabilité",
+      "en": "usability testing",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "prototypage",
+      "en": "prototyping",
+      "category": "Digital Work"
+    },
+    {
+      "fr": "service numérique",
+      "en": "digital service",
+      "category": "Government"
+    },
+    {
+      "fr": "transformation numérique",
+      "en": "digital transformation",
+      "category": "Government"
+    },
+    {
+      "fr": "norme numérique",
+      "en": "digital standard",
+      "category": "Government"
+    },
+    {
+      "fr": "gouvernement ouvert",
+      "en": "open government",
+      "category": "Government"
+    },
+    {
+      "fr": "données ouvertes",
+      "en": "open data",
+      "category": "Government"
+    },
+    {
+      "fr": "portail de données ouvertes",
+      "en": "open data portal",
+      "category": "Government"
+    },
+    {
+      "fr": "prestation de services",
+      "en": "service delivery",
+      "category": "Government"
+    },
+    {
+      "fr": "amélioration des services",
+      "en": "service improvement",
+      "category": "Government"
+    },
+    {
+      "fr": "gestion de l'information",
+      "en": "information management",
+      "category": "Government"
+    },
+    {
+      "fr": "technologie de l'information",
+      "en": "information technology",
+      "category": "Government"
+    },
+    {
+      "fr": "sécurité de l'information",
+      "en": "information security",
+      "category": "Government"
+    },
+    {
+      "fr": "protection des renseignements personnels",
+      "en": "privacy protection",
+      "category": "Government"
+    },
+    {
+      "fr": "évaluation des facteurs relatifs à la vie privée",
+      "en": "privacy impact assessment",
+      "category": "Government"
+    },
+    {
+      "fr": "accès à l'information",
+      "en": "access to information",
+      "category": "Government"
+    },
+    {
+      "fr": "classification de sécurité",
+      "en": "security classification",
+      "category": "Government"
+    },
+    {
+      "fr": "renseignements protégés",
+      "en": "protected information",
+      "category": "Government"
+    },
+    {
+      "fr": "infonuagique",
+      "en": "cloud computing",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "service infonuagique",
+      "en": "cloud service",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "architecture infonuagique",
+      "en": "cloud architecture",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "interface de programmation d'applications",
+      "en": "application programming interface",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "API",
+      "en": "API",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "cybersécurité",
+      "en": "cybersecurity",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "authentification multifacteur",
+      "en": "multi-factor authentication",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "identité numérique",
+      "en": "digital identity",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "chiffrement",
+      "en": "encryption",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "journalisation",
+      "en": "logging",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "surveillance des systèmes",
+      "en": "system monitoring",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "incident de sécurité",
+      "en": "security incident",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "vulnérabilité",
+      "en": "vulnerability",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "correctif de sécurité",
+      "en": "security patch",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "code source",
+      "en": "source code",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "référentiel de code",
+      "en": "code repository",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "contrôle des versions",
+      "en": "version control",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "intégration continue",
+      "en": "continuous integration",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "livraison continue",
+      "en": "continuous delivery",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "conteneur",
+      "en": "container",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "microservice",
+      "en": "microservice",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "architecture de systèmes",
+      "en": "systems architecture",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "analyse de rentabilisation",
+      "en": "business case",
+      "category": "Government Work"
+    },
+    {
+      "fr": "note d'information",
+      "en": "briefing note",
+      "category": "Government Work"
+    },
+    {
+      "fr": "cartable de breffage",
+      "en": "briefing binder",
+      "category": "Government Work"
+    },
+    {
+      "fr": "breffage",
+      "en": "briefing",
+      "category": "Government Work"
+    },
+    {
+      "fr": "comparution devant un comité",
+      "en": "committee appearance",
+      "category": "Government Work"
+    },
+    {
+      "fr": "période des questions",
+      "en": "Question Period",
+      "category": "Government Work"
+    },
+    {
+      "fr": "décret",
+      "en": "order in council",
+      "category": "Government Work"
+    },
+    {
+      "fr": "présentation au Conseil du Trésor",
+      "en": "Treasury Board submission",
+      "category": "Government Work"
+    },
+    {
+      "fr": "mémoire au Cabinet",
+      "en": "Memorandum to Cabinet",
+      "category": "Government Work"
+    },
+    {
+      "fr": "cadre stratégique",
+      "en": "policy framework",
+      "category": "Government Work"
+    },
+    {
+      "fr": "instrument de politique",
+      "en": "policy instrument",
+      "category": "Government Work"
+    },
+    {
+      "fr": "directive",
+      "en": "directive",
+      "category": "Government Work"
+    },
+    {
+      "fr": "norme",
+      "en": "standard",
+      "category": "Government Work"
+    },
+    {
+      "fr": "ligne directrice",
+      "en": "guideline",
+      "category": "Government Work"
+    },
+    {
+      "fr": "procédure opérationnelle",
+      "en": "operating procedure",
+      "category": "Government Work"
+    },
+    {
+      "fr": "autorité fonctionnelle",
+      "en": "functional authority",
+      "category": "Government Work"
+    },
+    {
+      "fr": "organisme central",
+      "en": "central agency",
+      "category": "Government Work"
+    },
+    {
+      "fr": "ministère responsable",
+      "en": "lead department",
+      "category": "Government Work"
+    },
+    {
+      "fr": "partie prenante",
+      "en": "stakeholder",
+      "category": "Government Work"
+    },
+    {
+      "fr": "mobilisation des intervenants",
+      "en": "stakeholder engagement",
+      "category": "Government Work"
+    },
+    {
+      "fr": "consultation publique",
+      "en": "public consultation",
+      "category": "Government Work"
+    },
+    {
+      "fr": "analyse comparative entre les sexes plus",
+      "en": "gender-based analysis plus",
+      "category": "Government Work"
+    },
+    {
+      "fr": "ACS Plus",
+      "en": "GBA Plus",
+      "category": "Government Work"
+    },
+    {
+      "fr": "langues officielles",
+      "en": "official languages",
+      "category": "Government Work"
+    },
+    {
+      "fr": "équité en matière d'emploi",
+      "en": "employment equity",
+      "category": "Government Work"
+    },
+    {
+      "fr": "obligation de prendre des mesures d'adaptation",
+      "en": "duty to accommodate",
+      "category": "Government Work"
+    },
+    {
+      "fr": "valeurs et éthique",
+      "en": "values and ethics",
+      "category": "Government Work"
+    },
+    {
+      "fr": "conflit d'intérêts",
+      "en": "conflict of interest",
+      "category": "Government Work"
+    },
+    {
+      "fr": "divulgation proactive",
+      "en": "proactive disclosure",
+      "category": "Government Work"
+    },
+    {
+      "fr": "transparence",
+      "en": "transparency",
+      "category": "Government Work"
+    },
+    {
+      "fr": "responsabilisation",
+      "en": "accountability",
+      "category": "Government Work"
+    },
+    {
+      "fr": "cadre de responsabilisation",
+      "en": "accountability framework",
+      "category": "Government Work"
+    },
+    {
+      "fr": "résultats ministériels",
+      "en": "departmental results",
+      "category": "Government Work"
+    },
+    {
+      "fr": "profil d'information sur le rendement",
+      "en": "performance information profile",
+      "category": "Government Work"
+    },
+    {
+      "fr": "rapport sur les résultats ministériels",
+      "en": "departmental results report",
+      "category": "Government Work"
+    },
+    {
+      "fr": "plan ministériel",
+      "en": "departmental plan",
+      "category": "Government Work"
+    },
+    {
+      "fr": "niveau de service",
+      "en": "service level",
+      "category": "Government Work"
+    },
+    {
+      "fr": "norme de service",
+      "en": "service standard",
+      "category": "Government Work"
+    },
+    {
+      "fr": "prestation axée sur le client",
+      "en": "client-centred delivery",
+      "category": "Government Work"
+    },
+    {
+      "fr": "amélioration continue",
+      "en": "continuous improvement",
+      "category": "Government Work"
+    },
+    {
+      "fr": "approvisionnement",
+      "en": "procurement",
+      "category": "Procurement"
+    },
+    {
+      "fr": "marché public",
+      "en": "government contract",
+      "category": "Procurement"
+    },
+    {
+      "fr": "processus concurrentiel",
+      "en": "competitive process",
+      "category": "Procurement"
+    },
+    {
+      "fr": "demande de propositions",
+      "en": "request for proposals",
+      "category": "Procurement"
+    },
+    {
+      "fr": "demande de renseignements",
+      "en": "request for information",
+      "category": "Procurement"
+    },
+    {
+      "fr": "énoncé des travaux",
+      "en": "statement of work",
+      "category": "Procurement"
+    },
+    {
+      "fr": "critères d'évaluation",
+      "en": "evaluation criteria",
+      "category": "Procurement"
+    },
+    {
+      "fr": "soumissionnaire",
+      "en": "bidder",
+      "category": "Procurement"
+    },
+    {
+      "fr": "fournisseur",
+      "en": "supplier",
+      "category": "Procurement"
+    },
+    {
+      "fr": "contrat à fournisseur unique",
+      "en": "sole-source contract",
+      "category": "Procurement"
+    },
+    {
+      "fr": "autorisation de tâche",
+      "en": "task authorization",
+      "category": "Procurement"
+    },
+    {
+      "fr": "offre à commandes",
+      "en": "standing offer",
+      "category": "Procurement"
+    },
+    {
+      "fr": "arrangement en matière d'approvisionnement",
+      "en": "supply arrangement",
+      "category": "Procurement"
+    },
+    {
+      "fr": "gestion du contrat",
+      "en": "contract management",
+      "category": "Procurement"
+    },
+    {
+      "fr": "livrable",
+      "en": "deliverable",
+      "category": "Procurement"
+    },
+    {
+      "fr": "jalon",
+      "en": "milestone",
+      "category": "Project Work"
+    },
+    {
+      "fr": "dépendance",
+      "en": "dependency",
+      "category": "Project Work"
+    },
+    {
+      "fr": "risque du projet",
+      "en": "project risk",
+      "category": "Project Work"
+    },
+    {
+      "fr": "registre des risques",
+      "en": "risk register",
+      "category": "Project Work"
+    },
+    {
+      "fr": "enjeu",
+      "en": "issue",
+      "category": "Project Work"
+    },
+    {
+      "fr": "registre des enjeux",
+      "en": "issue log",
+      "category": "Project Work"
+    },
+    {
+      "fr": "portée",
+      "en": "scope",
+      "category": "Project Work"
+    },
+    {
+      "fr": "glissement de portée",
+      "en": "scope creep",
+      "category": "Project Work"
+    },
+    {
+      "fr": "échéancier",
+      "en": "schedule",
+      "category": "Project Work"
+    },
+    {
+      "fr": "calendrier de projet",
+      "en": "project timeline",
+      "category": "Project Work"
+    },
+    {
+      "fr": "charge de travail",
+      "en": "workload",
+      "category": "Project Work"
+    },
+    {
+      "fr": "capacité",
+      "en": "capacity",
+      "category": "Project Work"
+    },
+    {
+      "fr": "priorisation",
+      "en": "prioritization",
+      "category": "Project Work"
+    },
+    {
+      "fr": "arbitrage",
+      "en": "trade-off",
+      "category": "Project Work"
+    },
+    {
+      "fr": "hypothèse de planification",
+      "en": "planning assumption",
+      "category": "Project Work"
+    },
+    {
+      "fr": "contrainte",
+      "en": "constraint",
+      "category": "Project Work"
+    },
+    {
+      "fr": "décision en suspens",
+      "en": "pending decision",
+      "category": "Project Work"
+    },
+    {
+      "fr": "point de décision",
+      "en": "decision point",
+      "category": "Project Work"
+    },
+    {
+      "fr": "plan d'action",
+      "en": "action plan",
+      "category": "Project Work"
+    },
+    {
+      "fr": "suivi",
+      "en": "follow-up",
+      "category": "Project Work"
+    },
+    {
+      "fr": "compte rendu de décision",
+      "en": "record of decision",
+      "category": "Project Work"
+    },
+    {
+      "fr": "procès-verbal",
+      "en": "minutes",
+      "category": "Project Work"
+    },
+    {
+      "fr": "ordre du jour",
+      "en": "agenda",
+      "category": "Project Work"
+    },
+    {
+      "fr": "séance de travail",
+      "en": "working session",
+      "category": "Project Work"
+    },
+    {
+      "fr": "atelier",
+      "en": "workshop",
+      "category": "Project Work"
+    },
+    {
+      "fr": "analyse documentaire",
+      "en": "document review",
+      "category": "Analysis"
+    },
+    {
+      "fr": "examen des données",
+      "en": "data review",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse de l'environnement",
+      "en": "environmental scan",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse contextuelle",
+      "en": "contextual analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse des lacunes",
+      "en": "gap analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse des risques",
+      "en": "risk analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse coûts-avantages",
+      "en": "cost-benefit analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse de sensibilité",
+      "en": "sensitivity analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse de scénarios",
+      "en": "scenario analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse de cohorte",
+      "en": "cohort analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse longitudinale",
+      "en": "longitudinal analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse transversale",
+      "en": "cross-sectional analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse qualitative",
+      "en": "qualitative analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "analyse quantitative",
+      "en": "quantitative analysis",
+      "category": "Analysis"
+    },
+    {
+      "fr": "codage qualitatif",
+      "en": "qualitative coding",
+      "category": "Analysis"
+    },
+    {
+      "fr": "thème émergent",
+      "en": "emerging theme",
+      "category": "Analysis"
+    },
+    {
+      "fr": "constat clé",
+      "en": "key finding",
+      "category": "Analysis"
+    },
+    {
+      "fr": "recommandation fondée sur des données probantes",
+      "en": "evidence-based recommendation",
+      "category": "Analysis"
+    },
+    {
+      "fr": "données probantes",
+      "en": "evidence",
+      "category": "Analysis"
+    },
+    {
+      "fr": "source de données",
+      "en": "data source",
+      "category": "Data Science"
+    },
+    {
+      "fr": "variable dépendante",
+      "en": "dependent variable",
+      "category": "Data Science"
+    },
+    {
+      "fr": "variable indépendante",
+      "en": "independent variable",
+      "category": "Data Science"
+    },
+    {
+      "fr": "valeur aberrante",
+      "en": "outlier",
+      "category": "Data Science"
+    },
+    {
+      "fr": "valeur manquante",
+      "en": "missing value",
+      "category": "Data Science"
+    },
+    {
+      "fr": "imputation",
+      "en": "imputation",
+      "category": "Data Science"
+    },
+    {
+      "fr": "normalisation",
+      "en": "normalization",
+      "category": "Data Science"
+    },
+    {
+      "fr": "standardisation",
+      "en": "standardization",
+      "category": "Data Science"
+    },
+    {
+      "fr": "agrégation",
+      "en": "aggregation",
+      "category": "Data Science"
+    },
+    {
+      "fr": "désagrégation",
+      "en": "disaggregation",
+      "category": "Data Science"
+    },
+    {
+      "fr": "échantillonnage",
+      "en": "sampling",
+      "category": "Data Science"
+    },
+    {
+      "fr": "biais d'échantillonnage",
+      "en": "sampling bias",
+      "category": "Data Science"
+    },
+    {
+      "fr": "pondération",
+      "en": "weighting",
+      "category": "Data Science"
+    },
+    {
+      "fr": "intervalle de confiance",
+      "en": "confidence interval",
+      "category": "Data Science"
+    },
+    {
+      "fr": "signification statistique",
+      "en": "statistical significance",
+      "category": "Data Science"
+    },
+    {
+      "fr": "valeur p",
+      "en": "p-value",
+      "category": "Data Science"
+    },
+    {
+      "fr": "régression linéaire",
+      "en": "linear regression",
+      "category": "Data Science"
+    },
+    {
+      "fr": "régression logistique",
+      "en": "logistic regression",
+      "category": "Data Science"
+    },
+    {
+      "fr": "classification",
+      "en": "classification",
+      "category": "Data Science"
+    },
+    {
+      "fr": "regroupement",
+      "en": "clustering",
+      "category": "Data Science"
+    },
+    {
+      "fr": "arbre de décision",
+      "en": "decision tree",
+      "category": "Data Science"
+    },
+    {
+      "fr": "forêt aléatoire",
+      "en": "random forest",
+      "category": "Data Science"
+    },
+    {
+      "fr": "surapprentissage",
+      "en": "overfitting",
+      "category": "Data Science"
+    },
+    {
+      "fr": "sous-apprentissage",
+      "en": "underfitting",
+      "category": "Data Science"
+    },
+    {
+      "fr": "précision",
+      "en": "precision",
+      "category": "Data Science"
+    },
+    {
+      "fr": "rappel",
+      "en": "recall",
+      "category": "Data Science"
+    },
+    {
+      "fr": "exactitude",
+      "en": "accuracy",
+      "category": "Data Science"
+    },
+    {
+      "fr": "matrice de confusion",
+      "en": "confusion matrix",
+      "category": "Data Science"
+    },
+    {
+      "fr": "courbe ROC",
+      "en": "ROC curve",
+      "category": "Data Science"
+    },
+    {
+      "fr": "traitement du langage naturel",
+      "en": "natural language processing",
+      "category": "AI"
+    },
+    {
+      "fr": "extraction d'information",
+      "en": "information extraction",
+      "category": "AI"
+    },
+    {
+      "fr": "résumé automatique",
+      "en": "automatic summarization",
+      "category": "AI"
+    },
+    {
+      "fr": "classification de textes",
+      "en": "text classification",
+      "category": "AI"
+    },
+    {
+      "fr": "reconnaissance d'entités nommées",
+      "en": "named entity recognition",
+      "category": "AI"
+    },
+    {
+      "fr": "vectorisation",
+      "en": "vectorization",
+      "category": "AI"
+    },
+    {
+      "fr": "plongement lexical",
+      "en": "word embedding",
+      "category": "AI"
+    },
+    {
+      "fr": "base vectorielle",
+      "en": "vector database",
+      "category": "AI"
+    },
+    {
+      "fr": "fenêtre de contexte",
+      "en": "context window",
+      "category": "AI"
+    },
+    {
+      "fr": "jeton",
+      "en": "token",
+      "category": "AI"
+    },
+    {
+      "fr": "réglage fin",
+      "en": "fine-tuning",
+      "category": "AI"
+    },
+    {
+      "fr": "surveillance humaine",
+      "en": "human oversight",
+      "category": "AI"
+    },
+    {
+      "fr": "facteur humain",
+      "en": "human-in-the-loop",
+      "category": "AI"
+    },
+    {
+      "fr": "utilisation responsable de l'IA",
+      "en": "responsible use of AI",
+      "category": "AI"
+    },
+    {
+      "fr": "gestion des incidents",
+      "en": "incident management",
+      "category": "Security"
+    },
+    {
+      "fr": "plan d'intervention en cas d'incident",
+      "en": "incident response plan",
+      "category": "Security"
+    },
+    {
+      "fr": "menace",
+      "en": "threat",
+      "category": "Security"
+    },
+    {
+      "fr": "risque cybernétique",
+      "en": "cyber risk",
+      "category": "Security"
+    },
+    {
+      "fr": "contrôle de sécurité",
+      "en": "security control",
+      "category": "Security"
+    },
+    {
+      "fr": "gestion des identités et des accès",
+      "en": "identity and access management",
+      "category": "Security"
+    },
+    {
+      "fr": "accès privilégié",
+      "en": "privileged access",
+      "category": "Security"
+    },
+    {
+      "fr": "principe du moindre privilège",
+      "en": "principle of least privilege",
+      "category": "Security"
+    },
+    {
+      "fr": "sauvegarde",
+      "en": "backup",
+      "category": "Security"
+    },
+    {
+      "fr": "reprise après sinistre",
+      "en": "disaster recovery",
+      "category": "Security"
+    },
+    {
+      "fr": "continuité des activités",
+      "en": "business continuity",
+      "category": "Security"
+    },
+    {
+      "fr": "résilience opérationnelle",
+      "en": "operational resilience",
+      "category": "Security"
+    },
+    {
+      "fr": "renseignement personnel",
+      "en": "personal information",
+      "category": "Privacy"
+    },
+    {
+      "fr": "renseignement de nature délicate",
+      "en": "sensitive information",
+      "category": "Privacy"
+    },
+    {
+      "fr": "dépersonnalisation",
+      "en": "de-identification",
+      "category": "Privacy"
+    },
+    {
+      "fr": "anonymisation",
+      "en": "anonymization",
+      "category": "Privacy"
+    },
+    {
+      "fr": "pseudonymisation",
+      "en": "pseudonymization",
+      "category": "Privacy"
+    },
+    {
+      "fr": "minimisation des données",
+      "en": "data minimization",
+      "category": "Privacy"
+    },
+    {
+      "fr": "consentement",
+      "en": "consent",
+      "category": "Privacy"
+    },
+    {
+      "fr": "avis de confidentialité",
+      "en": "privacy notice",
+      "category": "Privacy"
+    },
+    {
+      "fr": "cycle de vie de l'information",
+      "en": "information life cycle",
+      "category": "Information Management"
+    },
+    {
+      "fr": "tenue de documents",
+      "en": "recordkeeping",
+      "category": "Information Management"
+    },
+    {
+      "fr": "document officiel",
+      "en": "official record",
+      "category": "Information Management"
+    },
+    {
+      "fr": "calendrier de conservation",
+      "en": "retention schedule",
+      "category": "Information Management"
+    },
+    {
+      "fr": "disposition des documents",
+      "en": "records disposition",
+      "category": "Information Management"
+    },
+    {
+      "fr": "classification de l'information",
+      "en": "information classification",
+      "category": "Information Management"
+    },
+    {
+      "fr": "contrôle de l'accès",
+      "en": "access control",
+      "category": "Information Management"
+    },
+    {
+      "fr": "interopérabilité",
+      "en": "interoperability",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "modernisation des applications",
+      "en": "application modernization",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "système existant",
+      "en": "legacy system",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "dette technique",
+      "en": "technical debt",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "architecture d'entreprise",
+      "en": "enterprise architecture",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "environnement hybride",
+      "en": "hybrid environment",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "infrastructure en tant que service",
+      "en": "infrastructure as a service",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "plateforme en tant que service",
+      "en": "platform as a service",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "logiciel en tant que service",
+      "en": "software as a service",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "observabilité",
+      "en": "observability",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "télémétrie",
+      "en": "telemetry",
+      "category": "Digital Technology"
+    },
+    {
+      "fr": "interface en langage naturel",
+      "en": "natural language interface",
+      "category": "Digital Technology"
+    }
+  ]
+}
