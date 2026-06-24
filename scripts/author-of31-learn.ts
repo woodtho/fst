@@ -1,0 +1,151 @@
+/**
+ * author-of31-learn.ts
+ * Authors the full "Learn" stage for OF31 (Exprimer la volonté, le souhait) from the PFL2
+ * source document SC102-2/31-2005F: the grammar tables (conditionnel passé, subjonctif vs
+ * infinitif, style indirect, interrogation indirecte, scale of will), the verbs of will and
+ * the set wish-expressions, plus a tu/vous register dialogue. Idempotent.
+ *
+ * Run: node --experimental-strip-types scripts/author-of31-learn.ts
+ */
+import { readFileSync, writeFileSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+const modPath = join(ROOT, "content", "modules", "OF31.json");
+const mod = JSON.parse(readFileSync(modPath, "utf8"));
+
+const verbs = [
+  { fr: "vouloir (que)", en: "to want", pos: "verbe de volonté", note: "+ infinitif (même sujet) / + subjonctif (sujets différents)" },
+  { fr: "souhaiter (que)", en: "to wish", pos: "verbe de souhait", note: "+ infinitif / + subjonctif" },
+  { fr: "désirer (que)", en: "to desire", pos: "verbe de volonté", note: "+ infinitif / + subjonctif" },
+  { fr: "s'attendre à (ce que)", en: "to expect", pos: "verbe de volonté", note: "préposition « à » ; à + infinitif / à ce que + subjonctif" },
+  { fr: "aimer (mieux) (que)", en: "to like / to prefer", pos: "verbe de souhait", note: "+ infinitif / + subjonctif" },
+  { fr: "demander (que / de)", en: "to ask", pos: "verbe de volonté", note: "demander de + infinitif / demander que + subjonctif" },
+  { fr: "insister (pour que)", en: "to insist", pos: "verbe de volonté", note: "préposition « pour » ; insister pour + infinitif / pour que + subjonctif" },
+  { fr: "préférer (que)", en: "to prefer", pos: "verbe de souhait", note: "+ infinitif / + subjonctif" },
+  { fr: "tenir à (ce que)", en: "to be keen on / to insist", pos: "verbe de volonté", note: "préposition « à » ; tenir à + infinitif / à ce que + subjonctif" },
+  { fr: "exiger (que)", en: "to demand", pos: "verbe de volonté", note: "volonté forte ; exiger que + subjonctif" },
+  { fr: "espérer (que)", en: "to hope", pos: "verbe de souhait", note: "+ indicatif (souvent au futur), PAS le subjonctif" },
+  // set wish-expressions (formules de vœux)
+  { fr: "Bonnes vacances!", en: "Enjoy your holidays!", pos: "formule de vœux", note: "départ en congé" },
+  { fr: "Bon anniversaire!", en: "Happy birthday!", pos: "formule de vœux", note: "" },
+  { fr: "Joyeux Noël!", en: "Merry Christmas!", pos: "formule de vœux", note: "" },
+  { fr: "Bonne et heureuse année!", en: "Happy New Year!", pos: "formule de vœux", note: "le 1er janvier" },
+  { fr: "Prompt rétablissement!", en: "Get well soon!", pos: "formule de vœux", note: "à un malade" },
+  { fr: "Félicitations!", en: "Congratulations!", pos: "formule de vœux", note: "pour une réussite" },
+  { fr: "Bonne chance!", en: "Good luck!", pos: "formule de vœux", note: "avant une épreuve" },
+  { fr: "Meilleurs vœux de bonheur!", en: "Best wishes!", pos: "formule de vœux", note: "mariage" },
+  { fr: "Mes sincères condoléances!", en: "My sincere condolences", pos: "formule de vœux", note: "deuil" },
+  { fr: "À vos souhaits!", en: "Bless you!", pos: "formule de vœux", note: "après un éternuement" },
+  { fr: "Soyez le bienvenu!", en: "Welcome!", pos: "formule de vœux", note: "accueil" },
+  { fr: "Bon voyage!", en: "Have a good trip!", pos: "formule de vœux", note: "départ en voyage" },
+];
+
+mod.stages.learn = {
+  conceptExplanation: {
+    en: "Express will and desire — from the strongest forms (exiger, vouloir que) to the most softened (j'aimerais, je souhaiterais que). This objective teaches: (1) the past conditional (conditionnel passé) for an unrealized wish or regret; (2) the choice between the subjunctive and the infinitive after verbs of will/desire (subjunctive when the subjects differ, infinitive when they are the same); (3) reporting what others said — style indirect (tense shifts) and indirect questions (interrogation indirecte); and (4) choosing tu/vous and using the conditional to soften requests at work. Source: SC102-2/31-2005F.",
+    fr: "Exprimer la volonté et le souhait, de la forme la plus forte (exiger, vouloir que) à la plus atténuée (j'aimerais, je souhaiterais que). On y étudie : (1) le conditionnel passé (souhait ou regret non réalisé) ; (2) le choix entre le subjonctif et l'infinitif après les verbes de volonté (subjonctif si les sujets sont différents, infinitif s'ils sont identiques) ; (3) le style indirect (concordance des temps) et l'interrogation indirecte ; (4) le choix de « tu » ou « vous » et l'emploi du conditionnel pour atténuer une demande.",
+  },
+  vocabulary: verbs,
+  grammarNotes: {
+    summary: "Quatre points de grammaire, illustrés par les tableaux ci-dessous : le conditionnel passé ; le subjonctif ou l'infinitif après les verbes de volonté ; le style indirect ; l'interrogation indirecte.",
+    charts: [],
+    points: [
+      "Conditionnel passé = auxiliaire (avoir ou être) au conditionnel présent + participe passé : « j'aurais mangé », « je serais tombé(e) ». Il peut exprimer un souhait ou un regret non réalisé : « J'aurais bien aimé vous parler. »",
+      "Après un verbe de volonté/souhait : SUBJONCTIF quand les sujets sont différents (« Il veut que tu viennes »), INFINITIF quand c'est le même sujet (« Il veut venir »).",
+      "Certains verbes se construisent avec une préposition : s'attendre à (ce que), insister pour (que), tenir à (ce que).",
+      "Style indirect, verbe introducteur au PASSÉ : présent → imparfait ; passé composé → plus-que-parfait ; futur → conditionnel ; impératif → « de » + infinitif. Si le verbe introducteur est au présent, les temps ne changent pas.",
+      "Interrogation indirecte : « est-ce que » → « si » ; « qu'est-ce que » → « ce que » ; « qu'est-ce qui » → « ce qui » ; « quel / pourquoi / quand / comment » restent. Pas de point d'interrogation.",
+      "Registre : on tutoie un collègue ou un supérieur qu'on connaît ; on vouvoie un client, un visiteur ou un inconnu. Le conditionnel atténue la demande : « Pourriez-vous… ? », « J'aimerais… ».",
+    ],
+  },
+  pronunciation: { points: [] },
+  dialogues: [
+    {
+      title: "Registre : tutoiement, vouvoiement et atténuation (31.5)",
+      register: "milieu de travail",
+      lines: [
+        { speaker: "Adjointe → patronne (tu)", fr: "Est-ce que tu accepterais que je prenne un congé sans solde cet été?", en: "With a manager, team leader or colleague you know, « tu » is generally used." },
+        { speaker: "Employé → client (vous)", fr: "Vous voulez travailler à la fonction publique. Quel type d'emploi cherchez-vous exactement?", en: "With a stranger, client or visitor, « vous » is used." },
+        { speaker: "Collègue → collègue (conditionnel)", fr: "Pourrais-tu m'aider à terminer la rédaction de cette note de breffage, s'il te plaît?", en: "The conditional softens the request." },
+      ],
+    },
+  ],
+  exampleTexts: [
+    {
+      title: "Conditionnel passé — formation",
+      table: {
+        headers: ["Avec avoir", "Avec être"],
+        rows: [
+          ["J'aurais mangé", "Je serais tombé(e)"],
+          ["Tu aurais mangé", "Tu serais tombé(e)"],
+          ["Il / Elle aurait mangé", "Il / Elle serait tombé(e)"],
+          ["Nous aurions mangé", "Nous serions tombé(e)s"],
+          ["Vous auriez mangé", "Vous seriez tombé(e)(s)"],
+          ["Ils / Elles auraient mangé", "Ils / Elles seraient tombé(e)s"],
+        ],
+      },
+      en: "The conditionnel passé = auxiliary (avoir / être) in the conditionnel présent + past participle. Like the conditionnel présent, it can express a wish or a regret.",
+    },
+    {
+      title: "Subjonctif ou infinitif après les verbes de volonté et de souhait",
+      table: {
+        headers: ["Infinitif (même sujet)", "Subjonctif (sujets différents)"],
+        rows: [
+          ["vouloir", "vouloir que"],
+          ["souhaiter", "souhaiter que"],
+          ["désirer", "désirer que"],
+          ["s'attendre à", "s'attendre à ce que"],
+          ["aimer (mieux)", "aimer (mieux) que"],
+          ["demander de", "demander que"],
+          ["insister pour", "insister pour que"],
+          ["préférer", "préférer que"],
+          ["tenir à", "tenir à ce que"],
+        ],
+      },
+      en: "Use the infinitive when the main and subordinate clauses share the same subject; use the subjunctive when the subjects are different.",
+    },
+    {
+      title: "Style indirect — concordance des temps (verbe introducteur au passé)",
+      table: {
+        headers: ["Style direct", "Style indirect"],
+        rows: [
+          ["Présent : « Je veux travailler ici. »", "Imparfait : … qu'elle voulait travailler là."],
+          ["Passé composé : « Pierre a voulu étudier. »", "Plus-que-parfait : … que Pierre avait voulu étudier."],
+          ["Futur simple : « Raymond voudra reporter. »", "Conditionnel : … que Raymond voudrait reporter."],
+          ["Impératif : « Remettez-moi le rapport. »", "De + infinitif : … de lui remettre le rapport."],
+        ],
+      },
+      en: "Verbs that introduce reported speech: dire, répondre, affirmer, déclarer, annoncer, lire (+ que). If the introductory verb is in the present, the tenses do not change.",
+    },
+    {
+      title: "Interrogation indirecte",
+      table: {
+        headers: ["Interrogation directe", "Interrogation indirecte"],
+        rows: [
+          ["Est-ce que les étudiants souhaitent… ?", "… s'ils souhaitent…"],
+          ["Qu'est-ce que vous voulez ?", "… ce que vous voulez."],
+          ["Qu'est-ce qui répondrait le mieux ?", "… ce qui répondrait le mieux."],
+          ["Quel / Pourquoi / Quand / Comment… ?", "… quel / pourquoi / quand / comment…"],
+        ],
+      },
+      en: "An indirect question is NOT followed by a question mark. It is often introduced by: demander, vouloir savoir, se demander.",
+    },
+    {
+      title: "Exprimer la volonté : de la plus forte à la plus atténuée",
+      table: {
+        headers: ["Volonté forte", "Volonté atténuée"],
+        rows: [
+          ["exiger que / tenir à ce que / vouloir que", "j'aimerais (que) / je désirerais / je souhaiterais"],
+          ["Faites cinq copies. (impératif)", "Pourriez-vous faire cinq copies ? (conditionnel)"],
+          ["La direction exige que vous soyez à l'heure.", "J'aimerais que vous soyez à l'heure."],
+        ],
+      },
+      en: "A strong will is often softened by presenting it as a wish, or by using the conditional. Set expressions also convey wishes: Bonnes vacances!, Félicitations!, Bonne chance!",
+    },
+  ],
+};
+
+writeFileSync(modPath, JSON.stringify(mod, null, 2));
+console.log("OF31 Learn stage authored: 1 concept, " + verbs.length + " vocab entries, 6 grammar points, 5 tables, 1 dialogue.");

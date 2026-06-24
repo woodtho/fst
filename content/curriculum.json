@@ -1020,9 +1020,12 @@
         "workplace"
       ],
       "grammarConcepts": [
-        "conditionnel",
+        "conditionnel_passe",
         "subjonctif",
-        "reported_speech"
+        "infinitive_construction",
+        "reported_speech",
+        "indirect_question",
+        "register"
       ],
       "vocabDomains": [
         "meetings",
