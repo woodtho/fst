@@ -2,7 +2,7 @@
   "schema": "supplement-source-questions/v1",
   "sourceKind": "consolidation",
   "count": 22,
-  "gradeableCount": 0,
+  "gradeableCount": 44,
   "questions": [
     {
       "id": "CON1-2",
@@ -423,5 +423,2122 @@
       "gradeable": false
     }
   ],
-  "items": []
+  "items": [
+    {
+      "id": "supp-CON1-2-1",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au pluriel : « Je réfléchis » → « Nous ___ ».",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "réfléchissons"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« réfléchir » (2e groupe) à « nous » → réfléchissons.",
+        "distractor_why": {},
+        "grammar_rule": "Verbes en -ir (2e groupe) : nous -issons.",
+        "vocab_notes": "Consolidation booklet 1 (activité 2) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous finissons, nous réfléchissons.",
+        "pattern": "Mettez au pluriel : « Je réfléchis » → « Nous ___ ».",
+        "similar": [
+          "réfléchissons"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-2-2",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au pluriel : « Tu peux » → « Vous ___ ».",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "pouvez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« pouvoir » à « vous » → vous pouvez.",
+        "distractor_why": {},
+        "grammar_rule": "pouvoir : je peux, vous pouvez.",
+        "vocab_notes": "Consolidation booklet 1 (activité 2) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous pouvez, vous voulez.",
+        "pattern": "Mettez au pluriel : « Tu peux » → « Vous ___ ».",
+        "similar": [
+          "pouvez"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-2-3",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au singulier : « Ils comprennent » → « Il ___ ».",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "comprend"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« comprendre » à « il » → il comprend.",
+        "distractor_why": {},
+        "grammar_rule": "prendre/comprendre : il prend, il comprend.",
+        "vocab_notes": "Consolidation booklet 1 (activité 2) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "il prend, il comprend.",
+        "pattern": "Mettez au singulier : « Ils comprennent » → « Il ___ ».",
+        "similar": [
+          "comprend"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-4-4",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "present"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Complétez au présent : « Qu'est-ce que vous ___ (faire) en camping? »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "faites"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« faire » à « vous » → vous faites (irrégulier).",
+        "distractor_why": {},
+        "grammar_rule": "faire : vous faites (pas « faisez »).",
+        "vocab_notes": "Consolidation booklet 1 (activité 4) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous faites, vous dites.",
+        "pattern": "Complétez au présent : « Qu'est-ce que vous ___ (faire) en camping? »",
+        "similar": [
+          "faites"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-4-5",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "gerondif"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Complétez au gérondif : « J'aime marcher dans le bois en ___ (observer) les oiseaux. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "observant"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Le gérondif = en + participe présent : en observant.",
+        "distractor_why": {},
+        "grammar_rule": "Gérondif : en + radical + -ant.",
+        "vocab_notes": "Consolidation booklet 1 (activité 4) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "en observant, en mangeant.",
+        "pattern": "Complétez au gérondif : « J'aime marcher dans le bois en ___ (observer) les oiseaux. »",
+        "similar": [
+          "observant"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-4-6",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "gerondif"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Complétez au gérondif : « …et en ___ (réfléchir) à mes projets. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "réfléchissant"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Gérondif de « réfléchir » : en réfléchissant (radical du « nous »).",
+        "distractor_why": {},
+        "grammar_rule": "Gérondif : on part du radical de « nous » + -ant.",
+        "vocab_notes": "Consolidation booklet 1 (activité 4) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "nous réfléchissons → en réfléchissant.",
+        "pattern": "Complétez au gérondif : « …et en ___ (réfléchir) à mes projets. »",
+        "similar": [
+          "réfléchissant"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-30-7",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Insérez la préposition : « On peut aller de Montréal ___ Québec en trois heures. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "à"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Aller à + ville : de Montréal à Québec.",
+        "distractor_why": {},
+        "grammar_rule": "aller à + ville.",
+        "vocab_notes": "Consolidation booklet 1 (activité 30) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "aller à Québec, à Ottawa.",
+        "pattern": "Insérez la préposition : « On peut aller de Montréal ___ Québec en trois heures. »",
+        "similar": [
+          "à"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-30-8",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Insérez l'expression de lieu : « Il y a un bon restaurant ___ la rue. » (at the corner of)",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "au coin de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« au coin de » = at the corner of.",
+        "distractor_why": {},
+        "grammar_rule": "expressions de localisation : au coin de.",
+        "vocab_notes": "Consolidation booklet 1 (activité 30) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "au coin de la rue.",
+        "pattern": "Insérez l'expression de lieu : « Il y a un bon restaurant ___ la rue. » (at the corner of)",
+        "similar": [
+          "au coin de"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-30-9",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Insérez la préposition : « Sais-tu que Louis va ___ Alberta pour ses vacances? »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "en"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Provinces féminines → en : en Alberta, en Ontario.",
+        "distractor_why": {},
+        "grammar_rule": "en + province/région féminine.",
+        "vocab_notes": "Consolidation booklet 1 (activité 30) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "en Alberta, au Québec (masc.).",
+        "pattern": "Insérez la préposition : « Sais-tu que Louis va ___ Alberta pour ses vacances? »",
+        "similar": [
+          "en"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-30-10",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Insérez la préposition : « ___ les deux maisons, il y a un immense jardin. » (between)",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "entre"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« entre » = between.",
+        "distractor_why": {},
+        "grammar_rule": "entre A et B.",
+        "vocab_notes": "Consolidation booklet 1 (activité 30) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "entre les deux maisons.",
+        "pattern": "Insérez la préposition : « ___ les deux maisons, il y a un immense jardin. » (between)",
+        "similar": [
+          "entre"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-30-11",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "prepositions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Insérez l'expression de lieu : « Je vais m'asseoir ___ la porte. » (near)",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "près de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« près de » = near.",
+        "distractor_why": {},
+        "grammar_rule": "près de + lieu.",
+        "vocab_notes": "Consolidation booklet 1 (activité 30) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "près de la porte.",
+        "pattern": "Insérez l'expression de lieu : « Je vais m'asseoir ___ la porte. » (near)",
+        "similar": [
+          "près de"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON1-12-12",
+      "objectiveId": "OF1",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "ofRange": [
+        1,
+        12
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "futur_proche"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Futur proche + pronom objet : « As-tu rencontré la consultante? – Non, mais je vais ___ en fin de journée. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "la rencontrer"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Le pronom objet précède l'infinitif : je vais la rencontrer.",
+        "distractor_why": {},
+        "grammar_rule": "Futur proche : aller + (pronom) + infinitif.",
+        "vocab_notes": "Consolidation booklet 1 (activité 12) — review across OF 1–12.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "je vais la rencontrer.",
+        "pattern": "Futur proche + pronom objet : « As-tu rencontré la consultante? – Non, mais je vais ___ en fin de journée. »",
+        "similar": [
+          "la rencontrer"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-6-13",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Comparatif d'égalité : « Mon mécanicien est ___ compétent que celui de Jacques. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "aussi"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Égalité avec un adjectif : aussi … que.",
+        "distractor_why": {},
+        "grammar_rule": "aussi + adjectif + que = égalité.",
+        "vocab_notes": "Consolidation booklet 2 (activité 6) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "aussi compétent que.",
+        "pattern": "Comparatif d'égalité : « Mon mécanicien est ___ compétent que celui de Jacques. »",
+        "similar": [
+          "aussi"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-6-14",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Comparatif de supériorité : « Le texte français contient ___ mots que le texte anglais. » (more)",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "plus de"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Devant un nom : plus de … que.",
+        "distractor_why": {},
+        "grammar_rule": "plus de + nom + que.",
+        "vocab_notes": "Consolidation booklet 2 (activité 6) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "plus de mots que.",
+        "pattern": "Comparatif de supériorité : « Le texte français contient ___ mots que le texte anglais. » (more)",
+        "similar": [
+          "plus de"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-6-15",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Comparatif d'infériorité : « J'aime ___ le tofu que le gâteau aux carottes. » (less)",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "moins"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Infériorité avec un verbe : aimer moins … que.",
+        "distractor_why": {},
+        "grammar_rule": "moins … que = infériorité.",
+        "vocab_notes": "Consolidation booklet 2 (activité 6) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "j'aime moins … que.",
+        "pattern": "Comparatif d'infériorité : « J'aime ___ le tofu que le gâteau aux carottes. » (less)",
+        "similar": [
+          "moins"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-18-16",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au conditionnel présent : « Vous ___ (devoir) consulter un médecin. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "devriez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Conseil → conditionnel : vous devriez.",
+        "distractor_why": {},
+        "grammar_rule": "devoir au conditionnel = conseil (should).",
+        "vocab_notes": "Consolidation booklet 2 (activité 18) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "vous devriez = you should.",
+        "pattern": "Mettez au conditionnel présent : « Vous ___ (devoir) consulter un médecin. »",
+        "similar": [
+          "devriez"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-18-17",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au conditionnel présent : « ___-vous (pouvoir) me rendre un service? »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "Pourriez"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Demande polie → conditionnel : Pourriez-vous.",
+        "distractor_why": {},
+        "grammar_rule": "pouvoir au conditionnel = demande polie.",
+        "vocab_notes": "Consolidation booklet 2 (activité 18) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "Pourriez-vous…?",
+        "pattern": "Mettez au conditionnel présent : « ___-vous (pouvoir) me rendre un service? »",
+        "similar": [
+          "Pourriez"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-18-18",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "conditionnel"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au conditionnel présent : « Il ___ (falloir) organiser quelque chose pour le départ de Michel. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "faudrait"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« falloir » au conditionnel → il faudrait.",
+        "distractor_why": {},
+        "grammar_rule": "il faut → il faudrait (conditionnel).",
+        "vocab_notes": "Consolidation booklet 2 (activité 18) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "il faudrait = we should / it would be necessary.",
+        "pattern": "Mettez au conditionnel présent : « Il ___ (falloir) organiser quelque chose pour le départ de Michel. »",
+        "similar": [
+          "faudrait"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-20-19",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Choisissez mieux ou meilleur : « La ___ façon de faire ce travail, c'est de commencer par la fin. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "meilleure"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« façon » est un nom → adjectif « meilleure ».",
+        "distractor_why": {},
+        "grammar_rule": "meilleur(e) = adjectif (modifie un nom).",
+        "vocab_notes": "Consolidation booklet 2 (activité 20) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "la meilleure façon.",
+        "pattern": "Choisissez mieux ou meilleur : « La ___ façon de faire ce travail, c'est de commencer par la fin. »",
+        "similar": [
+          "meilleure"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-20-20",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Choisissez mieux ou meilleur : « Il joue du violon ___ que moi. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "mieux"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« joue » est un verbe → adverbe « mieux ».",
+        "distractor_why": {},
+        "grammar_rule": "mieux = adverbe (modifie un verbe).",
+        "vocab_notes": "Consolidation booklet 2 (activité 20) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "il joue mieux que moi.",
+        "pattern": "Choisissez mieux ou meilleur : « Il joue du violon ___ que moi. »",
+        "similar": [
+          "mieux"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-20-21",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "comparatives"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Choisissez mieux ou meilleur : « Aujourd'hui, ça va beaucoup ___ qu'hier. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "mieux"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« ça va » (verbe) → mieux.",
+        "distractor_why": {},
+        "grammar_rule": "aller mieux = to be/feel better.",
+        "vocab_notes": "Consolidation booklet 2 (activité 20) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "ça va mieux.",
+        "pattern": "Choisissez mieux ou meilleur : « Aujourd'hui, ça va beaucoup ___ qu'hier. »",
+        "similar": [
+          "mieux"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-25-22",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "easy",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "futur_proche"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au futur proche : « Est-ce que tu ___ t'excuser? »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "vas"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Futur proche = aller (présent) + infinitif : tu vas t'excuser.",
+        "distractor_why": {},
+        "grammar_rule": "Futur proche : aller + infinitif.",
+        "vocab_notes": "Consolidation booklet 2 (activité 25) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "tu vas t'excuser.",
+        "pattern": "Mettez au futur proche : « Est-ce que tu ___ t'excuser? »",
+        "similar": [
+          "vas"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-28-23",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "imparfait"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Imparfait ou passé composé : « Dans ce temps-là, je ___ beaucoup pour le travail. » (voyager)",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "voyageais"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Habitude passée (dans ce temps-là) → imparfait : je voyageais.",
+        "distractor_why": {},
+        "grammar_rule": "Habitude/décor passé → imparfait.",
+        "vocab_notes": "Consolidation booklet 2 (activité 28) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "dans ce temps-là → imparfait.",
+        "pattern": "Imparfait ou passé composé : « Dans ce temps-là, je ___ beaucoup pour le travail. » (voyager)",
+        "similar": [
+          "voyageais"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-28-24",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Imparfait ou passé composé : « Un bon jour, je ___ donner une conférence à Calgary. » (aller)",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "suis allée",
+          "suis allé"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Événement ponctuel (un bon jour) → passé composé : je suis allée.",
+        "distractor_why": {},
+        "grammar_rule": "Action ponctuelle datée → passé composé.",
+        "vocab_notes": "Consolidation booklet 2 (activité 28) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "un bon jour → passé composé.",
+        "pattern": "Imparfait ou passé composé : « Un bon jour, je ___ donner une conférence à Calgary. » (aller)",
+        "similar": [
+          "suis allée",
+          "suis allé"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON2-30-25",
+      "objectiveId": "OF13",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "ofRange": [
+        13,
+        22
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "passe_compose"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Passé composé (verbe pronominal) : « En fin de semaine, je ___ une nouvelle voiture. » (s'acheter, je)",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "me suis acheté",
+          "me suis achetée"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Verbe pronominal → être : je me suis acheté une voiture.",
+        "distractor_why": {},
+        "grammar_rule": "Verbes pronominaux → auxiliaire être.",
+        "vocab_notes": "Consolidation booklet 2 (activité 30) — review across OF 13–22.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "je me suis acheté…",
+        "pattern": "Passé composé (verbe pronominal) : « En fin de semaine, je ___ une nouvelle voiture. » (s'acheter, je)",
+        "similar": [
+          "me suis acheté",
+          "me suis achetée"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-12-26",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "time_expressions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Expression de temps : « Je ne travaille plus dans cette division ___ deux ans. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "depuis"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Point de départ d'une situation actuelle → depuis.",
+        "distractor_why": {},
+        "grammar_rule": "depuis + durée (action qui continue).",
+        "vocab_notes": "Consolidation booklet 3 (activité 12) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "depuis deux ans.",
+        "pattern": "Expression de temps : « Je ne travaille plus dans cette division ___ deux ans. »",
+        "similar": [
+          "depuis"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-12-27",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "time_expressions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Expression de temps : « On va partir ___ trois semaines à Cuba. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "pour"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Durée prévue d'un séjour → pour.",
+        "distractor_why": {},
+        "grammar_rule": "pour + durée prévue (futur).",
+        "vocab_notes": "Consolidation booklet 3 (activité 12) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "partir pour trois semaines.",
+        "pattern": "Expression de temps : « On va partir ___ trois semaines à Cuba. »",
+        "similar": [
+          "pour"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-12-28",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "time_expressions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Expression de temps : « Le téléphone a sonné ___ elle regardait la télévision. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "pendant que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Deux actions simultanées (une en cours) → pendant que.",
+        "distractor_why": {},
+        "grammar_rule": "pendant que + proposition (simultanéité).",
+        "vocab_notes": "Consolidation booklet 3 (activité 12) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "pendant qu'elle regardait…",
+        "pattern": "Expression de temps : « Le téléphone a sonné ___ elle regardait la télévision. »",
+        "similar": [
+          "pendant que"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-12-29",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "time_expressions"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Expression de temps : « ___ j'ai rencontré l'agent de dotation, j'ai déjà le nom de quatre candidats. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "depuis que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Point de départ + proposition → depuis que.",
+        "distractor_why": {},
+        "grammar_rule": "depuis que + proposition.",
+        "vocab_notes": "Consolidation booklet 3 (activité 12) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "depuis que + sujet + verbe.",
+        "pattern": "Expression de temps : « ___ j'ai rencontré l'agent de dotation, j'ai déjà le nom de quatre candidats. »",
+        "similar": [
+          "depuis que"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-24-30",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "relative_pronouns"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Pronom relatif : « Le dictionnaire ___ tu veux est sur la table. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "COD du verbe « veux » → que.",
+        "distractor_why": {},
+        "grammar_rule": "que = complément d'objet direct.",
+        "vocab_notes": "Consolidation booklet 3 (activité 24) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "le livre que je lis.",
+        "pattern": "Pronom relatif : « Le dictionnaire ___ tu veux est sur la table. »",
+        "similar": [
+          "que"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-24-31",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "relative_pronouns"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Pronom relatif : « Il s'agit d'une grande salle ___ on peut recevoir une centaine de délégués. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "où"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Complément de lieu → où.",
+        "distractor_why": {},
+        "grammar_rule": "où = lieu (ou temps).",
+        "vocab_notes": "Consolidation booklet 3 (activité 24) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "la salle où on travaille.",
+        "pattern": "Pronom relatif : « Il s'agit d'une grande salle ___ on peut recevoir une centaine de délégués. »",
+        "similar": [
+          "où"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-24-32",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "relative_pronouns"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Pronom relatif : « Je travaille avec une équipe de quatre personnes ___ je suis responsable. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "dont"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« responsable DE » → dont remplace « de + nom ».",
+        "distractor_why": {},
+        "grammar_rule": "dont = de + antécédent.",
+        "vocab_notes": "Consolidation booklet 3 (activité 24) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "responsable de → dont.",
+        "pattern": "Pronom relatif : « Je travaille avec une équipe de quatre personnes ___ je suis responsable. »",
+        "similar": [
+          "dont"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-26-33",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "relative_pronouns"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "ce qui / ce que / ce dont : « Tu as pensé à apporter un dictionnaire. C'est exactement ___ j'avais besoin. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "ce dont"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "« avoir besoin DE » → ce dont.",
+        "distractor_why": {},
+        "grammar_rule": "ce dont = ce + de.",
+        "vocab_notes": "Consolidation booklet 3 (activité 26) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "avoir besoin de → ce dont.",
+        "pattern": "ce qui / ce que / ce dont : « Tu as pensé à apporter un dictionnaire. C'est exactement ___ j'avais besoin. »",
+        "similar": [
+          "ce dont"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-26-34",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "relative_pronouns"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "ce qui / ce que / ce dont : « Moi, ___ je préfère, c'est le gâteau au chocolat. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "ce que"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "COD de « préfère » → ce que.",
+        "distractor_why": {},
+        "grammar_rule": "ce que = ce + COD.",
+        "vocab_notes": "Consolidation booklet 3 (activité 26) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "ce que je préfère.",
+        "pattern": "ce qui / ce que / ce dont : « Moi, ___ je préfère, c'est le gâteau au chocolat. »",
+        "similar": [
+          "ce que"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-26-35",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "relative_pronouns"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "ce qui / ce que / ce dont : « Voilà ___ faisait du bruit : il y avait un dollar dans la laveuse. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "ce qui"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Sujet de « faisait » → ce qui.",
+        "distractor_why": {},
+        "grammar_rule": "ce qui = ce + sujet.",
+        "vocab_notes": "Consolidation booklet 3 (activité 26) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "ce qui se passe.",
+        "pattern": "ce qui / ce que / ce dont : « Voilà ___ faisait du bruit : il y avait un dollar dans la laveuse. »",
+        "similar": [
+          "ce qui"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-35-36",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au subjonctif présent : « Il faut que je ___ (prendre) une décision. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "prenne"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Subjonctif de « prendre » à « je » → que je prenne.",
+        "distractor_why": {},
+        "grammar_rule": "il faut que + subjonctif.",
+        "vocab_notes": "Consolidation booklet 3 (activité 35) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "que je prenne.",
+        "pattern": "Mettez au subjonctif présent : « Il faut que je ___ (prendre) une décision. »",
+        "similar": [
+          "prenne"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-35-37",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au subjonctif présent : « Il faut qu'on ___ (faire) attention. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "fasse"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Subjonctif de « faire » → qu'on fasse.",
+        "distractor_why": {},
+        "grammar_rule": "faire → que je fasse (subjonctif irrégulier).",
+        "vocab_notes": "Consolidation booklet 3 (activité 35) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "qu'on fasse.",
+        "pattern": "Mettez au subjonctif présent : « Il faut qu'on ___ (faire) attention. »",
+        "similar": [
+          "fasse"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-35-38",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "subjonctif"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Mettez au subjonctif présent : « Il faut que tu ___ (être) à l'heure. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "sois"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Subjonctif de « être » à « tu » → que tu sois.",
+        "distractor_why": {},
+        "grammar_rule": "être → que je sois, que tu sois (irrégulier).",
+        "vocab_notes": "Consolidation booklet 3 (activité 35) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "que tu sois.",
+        "pattern": "Mettez au subjonctif présent : « Il faut que tu ___ (être) à l'heure. »",
+        "similar": [
+          "sois"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-42-39",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Style indirect : « J'ai terminé le rapport. » → Il m'a dit qu'il ___ le rapport.",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "avait terminé"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Passé composé → plus-que-parfait au style indirect passé.",
+        "distractor_why": {},
+        "grammar_rule": "Style indirect passé : passé composé → plus-que-parfait.",
+        "vocab_notes": "Consolidation booklet 3 (activité 42) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "il a dit qu'il avait terminé.",
+        "pattern": "Style indirect : « J'ai terminé le rapport. » → Il m'a dit qu'il ___ le rapport.",
+        "similar": [
+          "avait terminé"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON3-42-40",
+      "objectiveId": "OF23",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "ofRange": [
+        23,
+        32
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "reported_speech"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Style indirect (question fermée) : « Peux-tu me rencontrer demain? » → Il nous a demandé ___ on pouvait le rencontrer.",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "si"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "Question fermée rapportée → si.",
+        "distractor_why": {},
+        "grammar_rule": "Question oui/non → si.",
+        "vocab_notes": "Consolidation booklet 3 (activité 42) — review across OF 23–32.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "il a demandé si…",
+        "pattern": "Style indirect (question fermée) : « Peux-tu me rencontrer demain? » → Il nous a demandé ___ on pouvait le rencontrer.",
+        "similar": [
+          "si"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON4-20-41",
+      "objectiveId": "OF33",
+      "sourceKind": "consolidation",
+      "booklet": 4,
+      "ofRange": [
+        33,
+        40
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "causative"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Faire causatif : « Je ne tonds pas le gazon moi-même; je le fais ___ par mon voisin. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "tondre"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire + infinitif = faire faire l'action par quelqu'un : je le fais tondre.",
+        "distractor_why": {},
+        "grammar_rule": "faire causatif : faire + infinitif.",
+        "vocab_notes": "Consolidation booklet 4 (activité 20) — review across OF 33–40.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "je le fais tondre.",
+        "pattern": "Faire causatif : « Je ne tonds pas le gazon moi-même; je le fais ___ par mon voisin. »",
+        "similar": [
+          "tondre"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON4-20-42",
+      "objectiveId": "OF33",
+      "sourceKind": "consolidation",
+      "booklet": 4,
+      "ofRange": [
+        33,
+        40
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "causative"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Faire causatif : « Je ne répare pas ma voiture; je la fais ___ par le garagiste. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "réparer"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire + infinitif : je la fais réparer.",
+        "distractor_why": {},
+        "grammar_rule": "faire causatif : faire + infinitif.",
+        "vocab_notes": "Consolidation booklet 4 (activité 20) — review across OF 33–40.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "je la fais réparer.",
+        "pattern": "Faire causatif : « Je ne répare pas ma voiture; je la fais ___ par le garagiste. »",
+        "similar": [
+          "réparer"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON4-20-43",
+      "objectiveId": "OF33",
+      "sourceKind": "consolidation",
+      "booklet": 4,
+      "ofRange": [
+        33,
+        40
+      ],
+      "skill": "grammar",
+      "difficulty": "medium",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "causative"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Faire causatif : « Je ne tape pas les lettres; je les fais ___ par l'adjointe. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "taper"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire + infinitif : je les fais taper.",
+        "distractor_why": {},
+        "grammar_rule": "faire causatif : faire + infinitif.",
+        "vocab_notes": "Consolidation booklet 4 (activité 20) — review across OF 33–40.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "je les fais taper.",
+        "pattern": "Faire causatif : « Je ne tape pas les lettres; je les fais ___ par l'adjointe. »",
+        "similar": [
+          "taper"
+        ]
+      }
+    },
+    {
+      "id": "supp-CON4-20-44",
+      "objectiveId": "OF33",
+      "sourceKind": "consolidation",
+      "booklet": 4,
+      "ofRange": [
+        33,
+        40
+      ],
+      "skill": "grammar",
+      "difficulty": "advanced",
+      "type": "fill_blank",
+      "theme": "consolidation",
+      "grammarConcepts": [
+        "causative"
+      ],
+      "vocabDomains": [],
+      "estTimeSec": 40,
+      "prompt": {
+        "fr": "Faire causatif : « Je ne me coupe pas les cheveux moi-même; je me les fais ___ par mon coiffeur. »",
+        "instructions_en": "Consolidation review — type the correct French answer."
+      },
+      "answer": {
+        "type": "string",
+        "accepted": [
+          "couper"
+        ],
+        "normalizer": "fr_accent_insensitive_trim_lower",
+        "regex": null
+      },
+      "distractors": [],
+      "explanation": {
+        "correct_why": "faire causatif pronominal : je me les fais couper.",
+        "distractor_why": {},
+        "grammar_rule": "se faire + infinitif.",
+        "vocab_notes": "Consolidation booklet 4 (activité 20) — review across OF 33–40.",
+        "common_mistakes": [
+          "Check verb endings, agreement, prepositions, and word order before submitting."
+        ]
+      },
+      "tip": {
+        "memory_aid": "je me les fais couper.",
+        "pattern": "Faire causatif : « Je ne me coupe pas les cheveux moi-même; je me les fais ___ par mon coiffeur. »",
+        "similar": [
+          "couper"
+        ]
+      }
+    }
+  ]
 }

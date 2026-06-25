@@ -1,10 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getItemsForOfRange, getConsolidationBooklets, getConsolidationQuestionsForRange, getObjectives, getSupplementStudyGuide } from "@/lib/content";
+import { getItemsForOfRange, getConsolidationItemsForRange, getConsolidationBooklets, getConsolidationQuestionsForRange, getObjectives, getSupplementStudyGuide } from "@/lib/content";
 import { buildSession } from "@/lib/session";
 import ExerciseRunner from "@/components/ExerciseRunner";
 
 export const dynamic = "force-dynamic";
+
+function shuffle<T>(a: T[]): T[] {
+  const r = [...a];
+  for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; }
+  return r;
+}
 
 export default function ConsolidationRange({ params, searchParams }: { params: { range: string }; searchParams: { mode?: string } }) {
   const m = params.range.match(/^(\d{1,2})-(\d{1,2})$/);
@@ -12,7 +18,8 @@ export default function ConsolidationRange({ params, searchParams }: { params: {
   const from = parseInt(m[1], 10), to = parseInt(m[2], 10);
 
   const items = getItemsForOfRange(from, to);
-  if (items.length === 0) notFound();
+  const bookletItems = getConsolidationItemsForRange(from, to);
+  if (items.length === 0 && bookletItems.length === 0) notFound();
 
   const booklet = getConsolidationBooklets().find((b) => b.ofRange[0] === from && b.ofRange[1] === to);
   const guide = booklet ? getSupplementStudyGuide(booklet) : null;
@@ -20,14 +27,18 @@ export default function ConsolidationRange({ params, searchParams }: { params: {
   const ofs = getObjectives().filter((o) => o.of >= from && o.of <= to);
   const exam = searchParams.mode === "exam";
 
-  // Mixed review: shuffle across the whole range (no difficulty ramp, like a real consolidation).
-  const session = buildSession(items, 20, "shuffle");
+  // Build the session AROUND the booklet's own integrative questions, then fill the rest with
+  // mixed range practice (no difficulty ramp, like a real consolidation).
+  const SIZE = 20;
+  const featured = buildSession(bookletItems, Math.min(bookletItems.length, 12), "shuffle");
+  const topUp = buildSession(items, SIZE - featured.length, "shuffle");
+  const session = shuffle([...featured, ...topUp]);
 
   return (
     <>
       <p className="muted"><Link href="/consolidation">← Consolidation</Link></p>
       <h1 style={{ marginBottom: 2 }}>Consolidation — OF {from}–{to}</h1>
-      <p className="lead">Mixed review across {ofs.length} objectives{booklet ? ` · source ${booklet.catalogue}` : ""}.</p>
+      <p className="lead">{bookletItems.length} questions from the consolidation booklet plus mixed practice across {ofs.length} objectives{booklet ? ` · source ${booklet.catalogue}` : ""}.</p>
       <div className="filterbar">
         <Link href={`/consolidation/${from}-${to}`} className={`chip ${!exam ? "active" : ""}`}>Study (feedback each)</Link>
         <Link href={`/consolidation/${from}-${to}?mode=exam`} className={`chip ${exam ? "active" : ""}`}>Exam (feedback at end)</Link>
@@ -44,8 +55,8 @@ export default function ConsolidationRange({ params, searchParams }: { params: {
           <p>{guide.intro}</p>
           <div className="stats-grid">
             <div><strong>{sourceQuestions.length}</strong><span>answer-keyed source activities</span></div>
-            <div><strong>{guide.correctedActivityCount || "Keyed"}</strong><span>answer-key activities</span></div>
-            <div><strong>{items.length}</strong><span>in-app questions</span></div>
+            <div><strong>{bookletItems.length}</strong><span>gradeable booklet questions</span></div>
+            <div><strong>{items.length}</strong><span>range practice questions</span></div>
           </div>
           {guide.sections.length > 0 && (
             <>

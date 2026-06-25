@@ -402,6 +402,13 @@ export function getConsolidationQuestionsForRange(from: number, to: number): Sou
   return getConsolidationSourceQuestions().filter((q) => q.ofRange[0] === from && q.ofRange[1] === to);
 }
 
+/** Gradeable items built from the consolidation booklet activities for a given range. */
+export function getConsolidationItemsForRange(from: number, to: number): Item[] {
+  return getSupplementQuestionItems().filter(
+    (it) => it.id.startsWith("supp-CON") && (it as any).ofRange?.[0] === from && (it as any).ofRange?.[1] === to,
+  );
+}
+
 // ---- client-safe shapes (no answers / explanations leak to the browser) ----
 
 export type SanitizedItem = {
