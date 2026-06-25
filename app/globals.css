@@ -100,6 +100,7 @@ h3 { font-size: 1rem; margin: 18px 0 8px; }
 }
 .btn:hover { background: #25406d; text-decoration: none; }
 .btn.secondary { background: #fff; color: var(--brand); border: 1px solid var(--line); }
+.btn.small { padding: 7px 11px; font-size: .82rem; }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
 .btn-row { display: flex; gap: 10px; margin-top: 16px; align-items: center; }
 
@@ -113,6 +114,74 @@ h3 { font-size: 1rem; margin: 18px 0 8px; }
 .gram-table { width: 100%; border-collapse: collapse; font-size: .9rem; margin: 8px 0; }
 .gram-table th, .gram-table td { border: 1px solid var(--line); padding: 6px 9px; }
 .gram-table th { background: #f4f6fa; }
+.supplement-panel h2 { margin-top: 0; }
+.section-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.section-head h2 { margin-bottom: 2px; }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 14px 0;
+}
+.stats-grid > div {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fafbfc;
+}
+.stats-grid strong { display: block; color: var(--brand); font-size: 1.05rem; }
+.stats-grid span { display: block; color: var(--muted); font-size: .82rem; }
+.compact-list {
+  margin: 8px 0 0;
+  padding-left: 20px;
+  color: var(--ink);
+}
+.compact-list li { margin: 4px 0; }
+.compact-list.two-col {
+  columns: 2 260px;
+  column-gap: 28px;
+}
+.compact-list.two-col li { break-inside: avoid; }
+.source-list {
+  margin-top: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.source-list summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--brand);
+}
+.source-question-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+.source-question {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fff;
+}
+.source-question h4 {
+  margin: 0 0 6px;
+  font-size: .9rem;
+  color: var(--ink);
+}
+.source-question p {
+  margin: 0 0 6px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.answer-key {
+  margin-top: 8px;
+  border-top: 1px dashed var(--line);
+  padding-top: 8px;
+}
+.answer-key summary {
+  color: var(--correct);
+  font-weight: 700;
+}
 
 /* Exercise runner */
 .runner-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }

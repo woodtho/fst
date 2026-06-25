@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getConsolidationBooklets, getObjectives, getItemsForOfRange } from "@/lib/content";
+import { getConsolidationBooklets, getConsolidationQuestionsForRange, getObjectives, getItemsForOfRange } from "@/lib/content";
 
 export const dynamic = "force-dynamic";
 
@@ -19,6 +19,7 @@ export default function ConsolidationHub() {
           const [from, to] = b.ofRange;
           const ofs = objectives.filter((o) => o.of >= from && o.of <= to);
           const count = getItemsForOfRange(from, to).length;
+          const sourceCount = getConsolidationQuestionsForRange(from, to).length;
           const level = to <= 20 ? "A" : from >= 21 ? "B" : "A/B";
           return (
             <Link key={b.booklet} href={`/consolidation/${from}-${to}`} className="card">
@@ -27,7 +28,7 @@ export default function ConsolidationHub() {
                 <span className="tag">Level {level}</span>
               </div>
               <div className="card-title">Consolidation {b.booklet}</div>
-              <div className="card-sub">{ofs.length} objectives · {count} questions · source {b.catalogue}</div>
+              <div className="card-sub">{ofs.length} objectives · {count} practice questions · {sourceCount} answer-keyed source activities · source {b.catalogue}</div>
               <div className="tags">{ofs.slice(0, 8).map((o) => <span key={o.id} className="tag">{o.id}</span>)}{ofs.length > 8 && <span className="tag">…</span>}</div>
             </Link>
           );

@@ -1276,7 +1276,10 @@
       ],
       "grammarConcepts": [
         "subjonctif",
-        "comparatives"
+        "subjonctif_passe",
+        "infinitive_construction",
+        "vocabulary",
+        "functions"
       ],
       "vocabDomains": [
         "meetings",

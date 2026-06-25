@@ -128,8 +128,16 @@
         ],
         "catalogue": "SC102-2/47-4-2006F"
       },
-      "note": "Consolidation review (OF 33–40) draws only from the source-traceable banks of the objectives in this range.",
-      "tasks": []
+      "note": "Mixed review across OF 33–40: a balanced session is drawn from the live banks of every objective in this range (8 objectives, 1156 questions).",
+      "tasks": [],
+      "coverage": {
+        "ofRange": [
+          33,
+          40
+        ],
+        "objectives": 8,
+        "items": 1156
+      }
     },
     "selfTest": {
       "sourceBooklet": {
@@ -143,13 +151,15 @@
       },
       "timedSeconds": 560,
       "blueprint": {
-        "easy": 0,
-        "medium": 0,
+        "easy": 6,
+        "medium": 6,
         "advanced": 4
       },
       "drawFrom": [
         "OF34"
-      ]
+      ],
+      "examQuestions": 16,
+      "bankSize": 129
     },
     "masteryCheck": {
       "threshold": 0.8,

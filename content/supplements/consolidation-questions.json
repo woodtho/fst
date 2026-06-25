@@ -1,0 +1,427 @@
+{
+  "schema": "supplement-source-questions/v1",
+  "sourceKind": "consolidation",
+  "count": 22,
+  "gradeableCount": 0,
+  "questions": [
+    {
+      "id": "CON1-2",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "source": {
+        "catalogue": "SC102-2/47-1-2006F",
+        "pdf": "pdf/SC102-2-47-1-2006-fra.pdf",
+        "text": "text/consolidation-1.txt"
+      },
+      "ofRange": [
+        1,
+        12
+      ],
+      "activity": 2,
+      "title": "Consolidation 1 — Activité 2: A. Mettez les verbes suivants au pluriel.",
+      "promptFr": "ACTIVITÉ 2\nA. Mettez les verbes suivants au pluriel.\nPut the following verbs in plural form.\n1. J’assiste 2. Elle réussit 3. Tu peux 4. Il agit 5. Tu rencontres 6. Je réfléchis 7. Tu mets\nNous assistons Elles Vous Ils Vous Nous Vous\n/ On assiste / On\nB. Mettez les verbes suivants au singulier.\nPut the following verbs in singular form.\n1. Nous partageons Je partage\n2. Ils comprennent Il\n3. Vous rougissez Tu\n4. Nous fermons\nJe\n5. Elles vont\nElle\n6. Vous mangez\nTu\n7. Ils ouvrent\nIl\n8. On fournit\nJe",
+      "answer": "A. 1. 2. 3. 4. 5. 6. 7.\n\nassistons / assiste réussissent pouvez agissent rencontrez réfléchissons/ réfléchit mettez\n\nB. 1. 2. 3. 4. 5. 6. 7. 8.\n\npartage comprend rougis ferme va manges ouvre fournis",
+      "gradeable": false
+    },
+    {
+      "id": "CON1-4",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "source": {
+        "catalogue": "SC102-2/47-1-2006F",
+        "pdf": "pdf/SC102-2-47-1-2006-fra.pdf",
+        "text": "text/consolidation-1.txt"
+      },
+      "ofRange": [
+        1,
+        12
+      ],
+      "activity": 4,
+      "title": "Consolidation 1 — Activité 4: Complétez le dialogue suivant en mettant les verbes au présent ou au gérondif.",
+      "promptFr": "ACTIVITÉ 4\nComplétez le dialogue suivant en mettant les verbes au présent ou au gérondif.\nComplete the following dialogue by putting the verbs in either the present or gerund.\nUne fin de semaine de camping\nLouis Tina Louis Tina Louis Tina\nLouis Tina\nLouis Tina Louis Tina\nLouis Tina\n– Bonjour, Tina! As-tu des projets pour la longue fin de semaine? – Oui, je ____________________ (aller) au lac Vert avec mon amie Lucie. – Tu ____________________ (avoir) un chalet là-bas? – Non, c’ ____________________ (être) notre site de camping. – C’est bien! Qu’est-ce que vous ____________________ (faire) en camping? – D’habitude, on ____________________ (relaxer),\non __________________ (lire) et on ____________________ (pêcher) à la mouche. – C’est tout? – Moi, j’aime bien marcher dans le bois, en ____________________ (observer) les oiseaux et en ____________________ (réfléchir) à mes projets. – Est-ce que vous ____________________ (préparer) vos repas sur le feu? – Absolument! C’est ce que je ____________________ (préférer). – Ah! En camping, on dirait que le temps ____________________ (ralentir)! – Tout à fait! En ____________________ (revenir), lundi, on va arrêter chez mes parents. – Je te ____________________ (souhaiter) un bon week-end Tina! – Merci, Louis! À mardi!",
+      "answer": "Louis – Bonjour, Tina! As-tu des projets pour la longue fin de semaine? Tina – Oui, je vais au lac Vert avec mon amie Lucie. Louis – Tu as un chalet là-bas? Tina – Non, c’ est notre site de camping. Louis – C’est bien! Qu’est-ce que vous faites en camping? Tina – D’habitude, on relaxe, on lit et on pêche à la mouche. Louis – C’est tout? Tina – Moi, j’aime bien marcher dans le bois en observant les oiseaux et en réfléchissant à mes projets. Louis – Est-ce que que vous préparez vos repas sur le feu? Tina – Absolument! C’est ce que je préfère. Louis – Ah! En camping, on dirait que le temps ralentit! Tina – Tout à fait! En revenant, lundi, on va arrêter chez mes parents. Louis – Je te souhaite un bon week-end Tina! Tina – Merci, Louis! À mardi!",
+      "gradeable": false
+    },
+    {
+      "id": "CON1-12",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "source": {
+        "catalogue": "SC102-2/47-1-2006F",
+        "pdf": "pdf/SC102-2-47-1-2006-fra.pdf",
+        "text": "text/consolidation-1.txt"
+      },
+      "ofRange": [
+        1,
+        12
+      ],
+      "activity": 12,
+      "title": "Consolidation 1 — Activité 12: Complétez oralement les mini-dialogues suivants en mettant le verbe au futur proche ou au futur simple. Utilisez un pronom objet (le, la, les, l’) dans la réponse.",
+      "promptFr": "ACTIVITÉ 12\nComplétez oralement les mini-dialogues suivants en mettant le verbe au futur proche ou au futur simple. Utilisez un pronom objet (le, la, les, l’) dans la réponse.\nComplete the following mini-dialogues orally by putting the verb in the futur proche or futur simple . Use an object pronoun (le, la, les, l’) in the answer.\nExemple : – Est-ce que tu as terminé ton projet? – Non, mais je vais le terminer / je le terminerai la semaine prochaine.\n1. – As-tu rencontré la consultante ce matin? – Non, mais ... en fin de journée.\n2. – Est-ce que vous avez complété le rapport? – Non, mais demain, ...\n3. – Est-ce qu’on a signé le contrat? – Non, mais ... bientôt.\n4. – Elles sont venues voir Émile? – Non, mais cet après-midi, ...\n5. – Est-ce qu’ils ont pris leurs vacances en juillet? – Non, mais ... au mois d’août.\n6. – Est-ce que tu as averti le commissionnaire? – Non, mais la prochaine fois, ...\n7. – Est-ce que tu as imprimé la pièce jointe de mon courriel? – Non, mais ... après la pause.\n8. – Avez-vous envoyé les fichiers hier? – Non, mais aujourd’hui, ...\n9. – Il a installé le nouveau logiciel? – Non, mais ... après-demain.\n10. – Avez-vous choisi le candidat? – Non, mais dans une semaine, ...",
+      "answer": "Exemples de réponses possibles :\n1. – As-tu rencontré la consultante ce matin? – Non, mais je vais la rencontrer / je la rencontrerai en fin de journée.\n2. – Est-ce que vous avez complété le rapport? – Non, mais demain, je vais le compléter / je le complèterai.\n3. – Est-ce qu’on a signé le contrat? – Non, mais on va le signer / on le signera bientôt.\n4. – Elles sont venues voir Émile? – Non, mais cet après-midi, elles vont venir le voir / elles viendront le voir.\n5. – Est-ce qu’ils ont pris leurs vacances en juillet? – Non, mais ils vont les prendre / ils les prendront au mois d’août.\n6. – Est-ce que tu as averti le commissionnaire? – Non, mais la prochaine fois, je vais l’avertir / je l’avertirai.\n7. – Est-ce que tu as imprimé la pièce jointe de mon courriel? – Non, mais je vais l’imprimer / je l’imprimerai après la pause.\n8. – Avez-vous envoyé les fichiers hier? – Non, mais aujourd’hui, on va les envoyer / on les enverra.\n9. – Il a installé le nouveau logiciel? – Non, mais il va l’installer / il l’installera après-demain.\n10. – Avez-vous choisi le candidat? – Non, mais dans une semaine, on va le choisir / on le choisira.",
+      "gradeable": false
+    },
+    {
+      "id": "CON1-30",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "source": {
+        "catalogue": "SC102-2/47-1-2006F",
+        "pdf": "pdf/SC102-2-47-1-2006-fra.pdf",
+        "text": "text/consolidation-1.txt"
+      },
+      "ofRange": [
+        1,
+        12
+      ],
+      "activity": 30,
+      "title": "Consolidation 1 — Activité 30: Insérez les prépositions et les expressions de localisation appropriées dans les phrases suivantes.",
+      "promptFr": "ACTIVITÉ 30\nInsérez les prépositions et les expressions de localisation appropriées dans les phrases suivantes.\nInsert the appropriate prepositions and expressions of location in the following sentences.\nde sur devant au coin de\nentre à derrière dans\nautour d’ en près de\n1. En voiture, on peut aller de Montréal ____________________ Québec en trois heures.\n2. Il y a un bon restaurant thaïlandais ____________________ la rue. Veux-tu que je réserve une table?\n3. J’ai mis tous les documents ____________________ ton classeur.\n4. Tiens, tu liras l’article sur le Bouclier canadien ____________________ cette revue de sciences.\n5. Sais-tu que Louis va ____________________ Alberta pour ses vacances?\n6. S’il te plaît, sois prudent et regarde ____________________ toi quand tu conduis!\n7. ____________________ les deux maisons, il y a un immense jardin fleuri.\n8. Attention! Il y a un trou ____________________ toi! Tu vas tomber si tu recules d’un pas.\n9. Comme je dois partir avant la fin du spectacle, je vais m’asseoir ____________________ la porte.\n10. Être assis avec des amis ____________________ une table en mangeant une fondue bourguignonne et en discutant de tout et de rien. Ça, c’est une soirée agréable!",
+      "answer": "1. En voiture, on peut aller de Montréal à Québec en trois heures. 2. Il y a un bon restaurant thaïlandais au coin de la rue. Veux-tu que je réserve une\ntable? 3. J’ai mis tous les documents sur ton classeur. 4. Tiens, tu liras l’article sur le Bouclier canadien dans cette revue de sciences. 5. Sais-tu que Louis va en Alberta pour ses vacances? 6. S’il te plaît, sois prudent et regarde devant toi quand tu conduis! 7. Entre les deux maisons, il y a un immense jardin fleuri. 8. Attention! Il y a un trou derrière toi! Tu vas tomber si tu recules d’un pas. 9. Comme je dois partir avant la fin du spectacle, je vais m’asseoir près de la porte. 10. Être assis avec des amis autour d’une table en mangeant une fondue\nbourguignonne et en discutant de tout et de rien. Ça, c’est une soirée agréable!",
+      "gradeable": false
+    },
+    {
+      "id": "CON1-39",
+      "sourceKind": "consolidation",
+      "booklet": 1,
+      "source": {
+        "catalogue": "SC102-2/47-1-2006F",
+        "pdf": "pdf/SC102-2-47-1-2006-fra.pdf",
+        "text": "text/consolidation-1.txt"
+      },
+      "ofRange": [
+        1,
+        12
+      ],
+      "activity": 39,
+      "title": "Consolidation 1 — Activité 39: Complétez le texte lacunaire suivant en choisissant les réponses appropriées. Attention au genre et au nombre!",
+      "promptFr": "ACTIVITÉ 39\nComplétez le texte lacunaire suivant en choisissant les réponses appropriées. Attention au genre et au nombre!\nFill in the blanks in the following text by choosing the correct answers. Pay attention to gender and number!\nFaites la correction et relisez le texte à haute voix.\nCorrect and reread the text aloud.\nMa journée au Centre de formation linguistique\nIl est six heures, je me lève. Je prends (un, une, des) ______ douche et (un, une, des) ______ petit déjeuner. Je mets (mon, ma, mes) ______ vêtements et je quitte (le, la, les) ______ maison avec (mon, ma, mes) ______ garçon et (mon, ma, mes) ______ fille. Je passe par (le, la, l’) ______ école pour y amener (le, la, les) ______ plus vieux et à (le, la, les) ______ garderie pour (le, la, les) ______ plus jeune. Un peu plus tard, je traverse (le, la, les) ______ pont et je continue (mon, ma, mes) ______ route.\nJ’arrive à l’école, la mienne cette fois-ci. Je marche vers (mon, ma, mes) ______ classe et j’enlève (mon, ma, mes) ______ manteau. Deux de (mon, ma, mes) ______ collègues sont déjà arrivés. Je vais me chercher (un, une, des) ______ café à (le, la, les) ______ cantine. Je reviens dans (le, la, les) ______ classe. (Le, La, Les) ______ professeur est arrivé. C’est (le, la, l’) ______ mise en train. On discute (de, du, des) ______ dernières nouvelles. Ensuite, c’est (un, une, des) ______ période de grammaire. On parle de (le, la, les) ______ place (de, du, des) ______ pronoms objets. Je trouve (ce, cet, ces) ______ sujet un peu difficile. Puis, c’est (un, une, des) ______ période d’auto-apprentissage. J’ai (un, une, des) ______ entrevue avec (mon, ma, mes) ______ professeur. On discute de (mon, ma, mes) ______ tâche principale et (de, du, des) ______ mandat de (mon, ma, mes) ______ ministère.\nÀ midi, je me rends (au, à la, à le) ______ cafétéria. Je prends (un, une, des) ______ soupe (au, à la, aux) ______ tomates avec (un, une, des) ______ sandwich (au, à le, aux) ______ poulet. Ensuite, je vais dans (le, la, les) ______ forêt faire (un, une, des) ______ promenade.\nÀ une heure, c’est (le, la, les) ______ retour en classe. On fait (un, une, des) ______ jeu avec (un, une, des) ______ autre groupe. C’est (le, la, l’) ______ jeu (de, du, des) ______ pronoms. On s’amuse beaucoup. (Mon, Ma, Mes) ______ équipe a gagné. Puis, c’est (un, une, des) ______ révision (de, du, des) ______ temps de verbes . Ensuite, (un, une, des) ______ dernière période de classe et c’est (le, la, les) ______ retour à (le, la, les) ______ maison.\nJe refais (le, la, les) ______ chemin à l’envers. Je reviens à (le, la, les) ______ maison avec (le, la, les) ______ enfants. (Ce, Cet, Cette) ______ soir, on va commander (un, une, des) ______ pizza. Ensuite, c’est (le, la, les) ______ devoirs de (mon, ma, mes) ______ fils. Finalement, tout (le, la, les) ______ monde (au, à la, aux) ______ lit pour faire (un, une, des) ______ beau gros dodo!",
+      "answer": "Ma journée au Centre de formation linguistique\nIl est six heures, je me lève. Je prends une douche et un petit déjeuner. Je mets mes vêtements et je quitte la maison avec mon garçon et ma fille. Je passe par l’école pour y amener le plus vieux et à la garderie pour la plus jeune. Un peu plus tard, je traverse le pont et je continue ma route.\nJ’arrive à l’école, la mienne cette fois-ci. Je marche vers ma classe et j’enlève mon manteau. Deux de mes collègues sont déjà arrivés. Je vais me chercher un café à la cantine. Je reviens dans la classe. Le professeur est arrivé. C’est la mise en train. On discute des dernières nouvelles. Ensuite, c’est une période de grammaire. On parle de la place des pronoms objets. Je trouve ce sujet un peu difficile. Puis, c’est une période d’auto-apprentissage. J’ai une entrevue avec mon professeur. On discute de ma tâche principale et du mandat de mon ministère.\nÀ midi, je me rends à la cafétéria. Je prends une soupe aux tomates avec un sandwich au poulet. Ensuite, je vais dans la forêt faire une promenade.\nÀ une heure, c’est le retour en classe. On fait un jeu avec un autre groupe. C’est le jeu des pronoms. On s’amuse beaucoup. Mon équipe a gagné. Puis, c’est une révision des temps de verbes. Ensuite, une dernière période de classe et c’est le retour à la maison.\nJe refais le chemin à l’envers. Je reviens à la maison avec les enfants. Ce soir, on va commander une pizza. Ensuite, c’est les devoirs de mon fils. Finalement, tout le monde au lit pour faire un beau gros dodo.",
+      "gradeable": false
+    },
+    {
+      "id": "CON2-6",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "source": {
+        "catalogue": "SC102-2/47-2-2006F",
+        "pdf": "pdf/SC102-2-47-2-2006-fra.pdf",
+        "text": "text/consolidation-2.txt"
+      },
+      "ofRange": [
+        13,
+        22
+      ],
+      "activity": 6,
+      "title": "Consolidation 2 — Activité 6: Complétez oralement les phrases en tenant compte des indications fournies entre parenthèses. Utilisez un comparatif.",
+      "promptFr": "ACTIVITÉ 6\nComplétez oralement les phrases en tenant compte des indications fournies entre parenthèses. Utilisez un comparatif.\nOrally complete the sentences while taking into account the cues provided in parentheses. Use a comparative.\n1. (+) Tu as eu plus de chance que moi. 2. (=) Mon mécanicien est ... compétent ... celui de Jacques. 3. (–) J’aime ... le tofu ... le gâteau aux carottes. 4. (+) Le texte français contient ... mots ... le texte anglais. 5. (=) Un parc éolien fabrique-t-il ... électricité ... une centrale thermique? 6. (–) La compagnie a fait ... profits cette année ... l’année dernière. 7. (=) Pour la consommation d’essence, ma voiture hybride est ... économique ... une\ntondeuse à gazon!\n8. (+) Ce projet comporte vraiment ... inconvénients ... avantages. 9. (=) J’aime ... aller au cinéma ... au théâtre. 10. (–) Il y a eu ... neige cette année ... l’année dernière. 11. (+) Je communique ... souvent par courriel ... par téléphone. 12. (–) Il y a ... calories dans un biscuit à l’avoine ... dans un biscuit aux pépites de\nchocolat.",
+      "answer": "1. Tu as eu plus de chance que moi. 2. Mon mécanicien est aussi compétent que celui de Jacques. 3. J’aime moins le tofu que le gâteau aux carottes. 4. Le texte français contient plus de mots que le texte anglais. 5. Un parc éolien fabrique-t-il autant d’électricité qu’une centrale thermique? 6. La compagnie a fait moins de profits cette année que l’année dernière. 7. Pour la consommation d’essence, ma voiture hybride est aussi économique qu’une\ntondeuse à gazon! 8. Ce projet comporte vraiment plus d’inconvénients que d’avantages. 9. J’aime autant aller au cinéma qu’au théâtre. 10. Il y a eu moins de neige cette année que l’année dernière. 11. Je communique plus souvent par courriel que par téléphone. 12. Il y a moins de calories dans un biscuit à l’avoine que dans un biscuit aux pépites\nde chocolat.",
+      "gradeable": false
+    },
+    {
+      "id": "CON2-18",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "source": {
+        "catalogue": "SC102-2/47-2-2006F",
+        "pdf": "pdf/SC102-2-47-2-2006-fra.pdf",
+        "text": "text/consolidation-2.txt"
+      },
+      "ofRange": [
+        13,
+        22
+      ],
+      "activity": 18,
+      "title": "Consolidation 2 — Activité 18: Mettez oralement au conditionnel présent les verbes entre parenthèses.",
+      "promptFr": "ACTIVITÉ 18\nMettez oralement au conditionnel présent les verbes entre parenthèses.\nOrally put the verbs in parentheses in the conditional present.\n1. Est-ce que tu accepterais de changer d’emploi? 2. À mon avis, commencer ce projet maintenant ... (être) risqué. 3. Vous ... (devoir) consulter un médecin pour votre problème de dos. 4. Je ... (vouloir) commander une imprimante laser. 5. ... (Pouvoir)-vous me rendre un service? 6. Il ... (falloir) organiser quelque chose pour le départ de Michel. 7. Est-ce que vous ... (venir) souper? 8. ... (Avoir)-tu le temps de m’aider à finir ce projet-là? 9. Est-ce que je ... (pouvoir) vous être utile? 10. Ça ... (valoir) la peine d’essayer. 11. ... (Vouloir)-vous que je vous remplace à la réunion? 12. Tu sembles fatigué. Tu ... (devoir) prendre congé demain.",
+      "answer": "1. Est-ce que tu accepterais de changer d’emploi? 2. À mon avis, commencer ce projet maintenant serait risqué. 3. Vous devriez consulter un médecin pour votre problème de dos. 4. Je voudrais commander une imprimante laser. 5. Pourriez-vous me rendre un service? 6. Il faudrait organiser quelque chose pour le départ de Michel. 7. Est-ce que vous viendriez souper? 8. Aurais-tu le temps de m’aider à finir ce projet-là? 9. Est-ce que je pourrais vous être utile? 10. Ça vaudrait la peine d’essayer. 11. Voudriez-vous que je vous remplace à la réunion? 12. Tu sembles fatigué. Tu devrais prendre congé demain.",
+      "gradeable": false
+    },
+    {
+      "id": "CON2-20",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "source": {
+        "catalogue": "SC102-2/47-2-2006F",
+        "pdf": "pdf/SC102-2-47-2-2006-fra.pdf",
+        "text": "text/consolidation-2.txt"
+      },
+      "ofRange": [
+        13,
+        22
+      ],
+      "activity": 20,
+      "title": "Consolidation 2 — Activité 20: A. Complétez oralement en choisissant mieux ou meilleur (Recueil des tableaux, 19.3).",
+      "promptFr": "ACTIVITÉ 20\nA. Complétez oralement en choisissant mieux ou meilleur (Recueil des tableaux, 19.3).\nOrally complete the exercise by choosing mieux or meilleur (Recueil des tableaux, 19.3).\n1. La meilleure façon de faire ce travail, c’est de commencer par la fin. 2. Il joue du violon ... que moi. 3. Essayez l’essence verte, c’est la ...! 4. Aujourd’hui, ça va beaucoup ... qu’hier. 5. Viens dîner avec moi. Je vais te faire découvrir les ... frites en ville! 6. Quelle heure te conviendrait le ... pour la réunion demain? 7. Cet ordinateur n’est pas ... que les autres mais c’est le seul qui est équipé d’un\nlogiciel de graphisme. 8. Un rabais de 3 %, c’est le ... que je peux faire dans les conditions actuelles. 9. Bravo! C’était la ... affectation que tu pouvais obtenir dans cette division. 10. Cette candidate semble ... que les autres. C’est elle qu’on devrait embaucher.\nB. Complétez oralement en choisissant mal ou mauvais (Recueil des tableaux, 19.3).\nOrally complete the exercise by choosing mal or mauvais (Recueil des tableaux, 19.3).\n1. J’ai ... dormi parce que le lit de l’hôtel était inconfortable. 2. Ton rapport est ..., tu dois le recommencer. 3. Il y a des bons et des ... jours, aujourd’hui c’est un ... jour. 4. Tu as dû ... regarder, j’ai remis ton dossier sur la troisième tablette. 5. Je me sens ...; je vais m’étendre un moment. 6. Ce lait n’est plus bon, il sent ... 7. J’ai ... à la tête à cause de la ... odeur. 8. Le service de cette banque est très ...; on m’a ... conseillé. 9. Vous avez pris de ... décisions parce que je vous ai ... expliqué le problème. 10. L’idée n’est pas ..., mais je vois ... comment on pourrait la mettre en application.\nC. Complétez oralement en choisissant bien ou bon (Recueil des tableaux, 19.3).\nOrally complete the exercise by choosing bien or bon (Recueil des tableaux, 19.3).\n1. Pour obtenir un ... résultat, il faut ... planifier. 2. Tu es ... préparé pour l’examen, alors, je te souhaite ... chance. 3. Mmmh! Ça sent ...! C’est quoi le nom de cette fleur-là? 4. Je suis allé au cinéma hier. Le film était vraiment ... 5. Vous avez de ... arguments, je comprends ... votre point de vue. 6. Je ne me sens pas très ... aujourd’hui, j’aurais dû rester couché. 7. Va voir Gilbert pour ton problème. D’habitude, il donne de ... conseils. 8. – J’aimerais ... qu’on fasse un cinq à sept pour souligner le début des vacances.\n– ... idée! Je vais envoyer un courriel à tout le monde pour déterminer une date.",
+      "answer": "A. 1. La meilleure façon de faire ce travail, c’est de commencer par la fin. 2. Il joue du violon mieux que moi. 3. Essayez l’essence verte, c’est la meilleure! 4. Aujourd’hui, ça va beaucoup mieux qu’hier. 5. Viens dîner avec moi. Je vais te faire découvrir les meilleures frites en ville! 6. Quelle heure te conviendrait le mieux pour la réunion demain? 7. Cet ordinateur n’est pas meilleur que les autres mais c’est le seul qui est équipé\nd’un logiciel de graphisme. 8. Un rabais de 3 %, c’est le mieux que je peux faire dans les conditions actuelles. 9. Bravo! C’était la meilleure affectation que tu pouvais obtenir dans cette division. 10. Cette candidate semble meilleure que les autres. C’est elle qu’on devrait\nembaucher.\n\nB. 1. J’ai mal dormi parce que le lit de l’hôtel était inconfortable. 2. Ton rapport est mauvais, tu dois le recommencer. 3. Il y a des bons et des mauvais jours, aujourd’hui c’est un mauvais jour. 4. Tu as dû mal regarder, j’ai remis ton dossier sur la troisième tablette. 5. Je me sens mal; je vais m’étendre un moment. 6. Ce lait n’est plus bon, il sent mauvais. 7. J’ai mal à la tête à cause de la mauvaise odeur. 8. Le service de cette banque est très mauvais; on m’a mal conseillé.",
+      "gradeable": false
+    },
+    {
+      "id": "CON2-25",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "source": {
+        "catalogue": "SC102-2/47-2-2006F",
+        "pdf": "pdf/SC102-2-47-2-2006-fra.pdf",
+        "text": "text/consolidation-2.txt"
+      },
+      "ofRange": [
+        13,
+        22
+      ],
+      "activity": 25,
+      "title": "Consolidation 2 — Activité 25: A. Mettez les verbes au futur proche.",
+      "promptFr": "ACTIVITÉ 25\nA. Mettez les verbes au futur proche.\nPut the verbs in the futur proche.\nExemple : Nous ... (s’exprimer) en français à la conférence de presse. Nous allons nous exprimer en français à la conférence de presse.\n1. Vous ... (se réunir) cet après-midi? 2. Est-ce que tu ... (s’excuser)? 3. Je ... (se promener) dans le parc. 4. Il ... (s’agir de) le prochain budget. 5. Nous ... (s’informer de) la situation politique dans ce pays. 6. On ... (se souvenir) longtemps de ce voyage au Nunavut.\nB. Mettez les verbes au gérondif.\nPut the verbs in the gerund.\nExemple : C’est en... (se parler) qu’on se comprend. C’est en se parlant qu’on se comprend.\n1. On va finir à temps en ... (se partager) les tâches. 2. Je vais mieux travailler en ... (se procurer) un ordinateur neuf. 3. Tu ne vas pas changer les choses en ... (se taire). 4. J’ai beaucoup appris en ... (se documenter) sur le sujet. 5. Elles seront beaucoup plus efficaces en ... (se fixer) des échéances. 6. En ... (s’inscrire) à ce cours-là, vous obtiendrez un permis temporaire de\nstationnement.",
+      "answer": "A. 1. Vous allez vous réunir cet après-midi? 2. Est-ce que tu vas t’excuser? 3. Je vais me promener dans le parc. 4. Il va s’agir du prochain budget. 5. Nous allons nous informer de la situation politique dans ce pays. 6. On va se souvenir longtemps de ce voyage au Nunavut.\nB. 1. On va finir à temps en se partageant les tâches. 2. Je vais mieux travailler en me procurant un ordinateur neuf. 3. Tu ne vas pas changer les choses en te taisant. 4. J’ai beaucoup appris en me documentant sur le sujet. 5. Elles seront beaucoup plus efficaces en se fixant des échéances. 6. En vous inscrivant à ce cours-là, vous obtiendrez un permis temporaire de\nstationnement.",
+      "gradeable": false
+    },
+    {
+      "id": "CON2-28",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "source": {
+        "catalogue": "SC102-2/47-2-2006F",
+        "pdf": "pdf/SC102-2-47-2-2006-fra.pdf",
+        "text": "text/consolidation-2.txt"
+      },
+      "ofRange": [
+        13,
+        22
+      ],
+      "activity": 28,
+      "title": "Consolidation 2 — Activité 28: Lisez le texte en anglais. Ensuite, complétez la version française du même texte en choisissant les réponses appropriées : le passé composé, l’imparfait ou parfois les deux.",
+      "promptFr": "ACTIVITÉ 28\nLisez le texte en anglais. Ensuite, complétez la version française du même texte en choisissant les réponses appropriées : le passé composé, l’imparfait ou parfois les deux.\nRead the text in English. Then, complete the French version of the same text by choosing the appropriate answers: the passé composé, the imperfect, or, in some cases, both.\nMy Trip to Calgary\nAt that time, I used to travel a lot for my job. Once, I went to Calgary for a conference on stress management in the workplace. I have to say that, at that time, I didn’t know a great deal about stress management. I had just begun a new position. I left on Tuesday morning for Calgary with a lot of good intentions, but I was also a little apprehensive.\nThe trip started rather badly. On the plane, while I was sleeping, the flight attendant spilled some coffee on my dress. When I arrived in Calgary, I learned that my luggage had been lost. The airline had sent it to Vancouver. I had been travelling for the government for more than ten years and this was the first time that something like that had happened.\nThe next day, at the conference, while I was reviewing my notes, I noticed that all the names of the other participants started with Doctor this or Doctor that. That’s when I realised that I had to do my presentation in front of a hundred international experts on stress. I thought of going and hiding in the toilets, but finally, I did my presentation: “Stress Management for Federal Civil Servants.”\nIn retrospect, I am very happy to have done this presentation and, especially, . . . to have got my luggage back.\nMon voyage à Calgary\nDans ce temps-là, ____________________ (j’ai voyagé, je voyageais) beaucoup pour le travail. Un bon jour, ____________________ (je suis allée, j’allais) donner une conférence à Calgary sur la gestion du stress au travail. Je dois dire qu’à cette époque-là, je ____________________ (n’ai pas connu, ne connaissais pas) grand chose à la gestion du stress, j’arrivais tout juste dans un nouveau poste. Je ____________________ (suis partie, partais) un mardi matin pour Calgary avec beaucoup de bonnes intentions, mais aussi avec un peu d’appréhension.\nLe voyage ____________________ (a commencé, commençait) sur une note plutôt négative. Dans l’avion, pendant que ____________________ (j’ai dormi, je dormais), l’agent de bord ____________________ (a renversé, renversait) du café sur ma robe. Quand ____________________ (je suis arrivée, j’arrivais) à Calgary, j’ ____________________ (ai appris, apprenais) qu’on avait perdu ma valise. La compagnie aérienne l’avait envoyée à Vancouver. Je voyageais pour le gouvernement depuis plus de dix ans et c’ ____________________ (a été, était) la première fois qu’une chose comme ça m’arrivait.\nLe lendemain, à la conférence, pendant que ____________________ (j’ai révisé, je révisais) mes notes, ____________________ (j’ai noté, je notais) que les autres participants étaient tous des Docteurs Untel ou Unetelle. C’est à ce moment-là que ____________________ (j’ai compris, je comprenais) que ____________________ (j’ai du, je devais) prononcer ma conférence devant un millier d’experts internationaux du stress. ____________________ (J’ai pensé, Je pensais) aller me cacher dans les toilettes, mais finalement, ____________________ (j’ai fait, je faisais) ma présentation : La gestion du stress chez les fonctionnaires fédéraux.\nAvec le recul, je suis bien contente d’avoir fait cette présentation et surtout... d’avoir récupéré ma valise.",
+      "answer": "Mon voyage à Calgary\nDans ce temps-là, je voyageais beaucoup pour le travail. Un bon jour, je suis allée donner une conférence à Calgary sur la gestion du stress au travail. Je dois dire qu’à cette époque-là, je ne connaissais pas grand chose à la gestion du stress, j’arrivais tout juste dans un nouveau poste. Je suis partie un mardi matin pour Calgary avec beaucoup de bonnes intentions, mais aussi avec aussi un peu d’appréhension.\nLe voyage a commencé sur une note plutôt négative. Dans l’avion, pendant que je dormais, l’agent de bord a renversé du café sur ma robe. Quand je suis arrivée à Calgary, j’ai appris qu’on avait perdu ma valise. La compagnie aérienne l’avait envoyée à Vancouver. Je voyageais pour le gouvernement depuis plus de dix ans et c’était la première fois qu’une chose comme ça m’arrivait.\nLe lendemain, à la conférence, pendant que je révisais mes notes, j’ai noté que les autres participants étaient tous des Docteurs Untel ou Unetelle. C’est à ce moment-là que j’ai compris que je devais prononcer ma conférence devant un millier d’experts internationaux du stress. J’ai pensé aller me cacher dans les toilettes, mais finalement, j’ai fait ma présentation : La gestion du stress chez les fonctionnaires fédéraux.\nAvec le recul, je suis bien contente d’avoir fait cette présentation et surtout... d’avoir récupéré ma valise.",
+      "gradeable": false
+    },
+    {
+      "id": "CON2-30",
+      "sourceKind": "consolidation",
+      "booklet": 2,
+      "source": {
+        "catalogue": "SC102-2/47-2-2006F",
+        "pdf": "pdf/SC102-2-47-2-2006-fra.pdf",
+        "text": "text/consolidation-2.txt"
+      },
+      "ofRange": [
+        13,
+        22
+      ],
+      "activity": 30,
+      "title": "Consolidation 2 — Activité 30: Complétez oralement le texte en mettant les verbes au passé composé.",
+      "promptFr": "ACTIVITÉ 30\nComplétez oralement le texte en mettant les verbes au passé composé.\nOrally complete the text by putting the verbs in the passé composé.\nUNE FIN DE SEMAINE PAS COMME LES AUTRES\nGabriel – Tiens, bonjour Line! Line – Ah, salut Gabriel! Est-ce que tu ... (se reposer) en fin de semaine? Gabriel – Pas vraiment. Je ... (s’acheter) une nouvelle voiture. Line – Ah, pourquoi? Je pensais que tu aimais ton ancienne. Qu’est-ce qui ... (se\npasser) pour te faire changer d’idée? Gabriel – Bien, en fin de semaine, une belle occasion ... (se présenter) et je ... (se\nsouvenir) que j’allais obtenir une augmentation de salaire. Line – Est-ce que tu ... (se servir de) ta nouvelle voiture en fin de semaine? Gabriel – Oui, je ... (se rendre) chez mes parents à Maniwaki et le voyage a été très\nagréable.",
+      "answer": "Gabriel – Tiens, bonjour Line!\n\nLine\n\n– Ah, salut Gabriel! Est-ce que tu t’es reposé en fin de semaine?\n\nGabriel – Pas vraiment, parce que je me suis acheté une nouvelle voiture.\n\nLine\n\n– Ah, pourquoi? Je pensais que tu aimais ton ancienne. Qu’est-ce qui s’est\n\npassé pour te faire changer d’idée?\n\nGabriel – Bien, en fin de semaine, une belle occasion s’est présentée et je me suis\n\nsouvenu que j’allais obtenir une augmentation de salaire bientôt.\n\nLine\n\n– Est-ce que tu t’es servi de ta nouvelle voiture en fin de semaine?\n\nGabriel – Oui, je me suis rendu chez mes parents à Maniwaki et le voyage a été très\n\nagréable.",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-2",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 2,
+      "title": "Consolidation 3 — Activité 2: Placez les indicateurs d’antériorité, de simultanéité et de postériorité (Recueil des tableaux, 24.1) dans la colonne appropriée.",
+      "promptFr": "ACTIVITÉ 2\nPlacez les indicateurs d’antériorité, de simultanéité et de postériorité (Recueil des tableaux, 24.1) dans la colonne appropriée.\naprès après que au moment où aussitôt que avant\navant de avant que comme déjà en même temps\nentre-temps la veille le lendemain pendant pendant que\nplus tard précédent(e) quand suivant(e)\nAntériorité\nSimultanéité\nPostériorité\n____________________ ____________________ ____________________ ____________________ ____________________ ____________________ ____________________\n____________________ ____________________ ____________________ ____________________ ____________________ ____________________ ____________________\n____________________ ____________________ ____________________ ____________________ ____________________ ____________________ ____________________",
+      "answer": "Antériorité avant avant de avant que déjà la veille précédent(e)\n\nSimultanéité\nau moment où comme en même temps entre-temps pendant pendant que quand\n\nPostériorité\naprès après que aussitôt que le lendemain plus tard suivant(e)",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-12",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 12,
+      "title": "Consolidation 3 — Activité 12: Complétez les phrases à l’aide des expressions de temps qui suivent: depuis, depuis que, pendant, pendant que, pour.",
+      "promptFr": "ACTIVITÉ 12\nComplétez les phrases à l’aide des expressions de temps qui suivent: depuis, depuis que, pendant, pendant que, pour.\n1. Je ne travaille plus dans cette division _________________________ deux ans.\n2. Le téléphone a sonné trois fois _________________________ elle regardait la télévision.\n3. On va partir _________________________ trois semaines à Cuba.\n4. _________________________ combien de temps est-ce qu’elle a été traductrice au gouvernement?\n5. _________________________ j’ai rencontré l’agent de dotation, j’ai déjà le nom de quatre candidats potentiels.\n6. Il a suivi des cours de taekwondo _________________________ dix ans.\n7. _________________________ combien de temps est-ce qu’il va travailler ici?\n8. Hélèna a demeuré à Vancouver _________________________ trois ans.\n9. Mon ordinateur ne fonctionne pas très bien _________________________ la panne de courant.\n10. Sais-tu _________________________ combien de temps Simon sera en affection à Pêches et Océans?\n11. Je n’ai plus de problème de logiciel _________________________ que le technicien est venu.\n12. Hier soir, _________________________ Nabila était au cinéma, un voleur s’est introduit dans son appartement.",
+      "answer": "1. Je ne travaille plus dans cette division depuis deux ans. 2. Le téléphone a sonné trois fois pendant qu’elle regardait la télévision. 3. On va partir pour trois semaines à Cuba. 4. Pendant combien de temps est-ce qu’elle a été traductrice au gouvernement? 5. Depuis que j’ai rencontré l’agent de dotation, j’ai déjà le nom de quatre candidats\npotentiels.\n6. Il a suivi des cours de taekwondo pendant dix ans. 7. Pour combien de temps est-ce qu’il va travailler ici?\nPendant combien de temps est-ce qu’il va travailler ici? 8. Hélèna a demeuré à Vancouver pendant trois ans. 9. Mon ordinateur ne fonctionne pas très bien depuis la panne de courant. 10. Sais-tu pour combien de temps Simon sera en affection à Pêches et Océans?\nSais-tu pendant combien de temps Simon sera en affection à Pêches et Océans? 11. Je n’ai plus de problème de logiciel depuis que le technicien est venu. 12. Hier soir, pendant que Nabila était au cinéma, un voleur s’est introduit dans son\nappartement.",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-13",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 13,
+      "title": "Consolidation 3 — Activité 13: Traduisez en français les phrases suivantes.",
+      "promptFr": "ACTIVITÉ 13\nTraduisez en français les phrases suivantes.\n1. She called while I was playing cards. ___________________________________________________________________\n2. They have met three candidates since ten o’clock. ___________________________________________________________________\n3. I’m leaving for a week. ___________________________________________________________________\n4. She had been working for twenty-five years when she retired. ___________________________________________________________________\n5. I worked for the government for five years. ___________________________________________________________________\n6. I have not seen her for three days. ___________________________________________________________________\n7. We are going to be on vacation for two weeks. ___________________________________________________________________\n8. It has been hot for two days. ___________________________________________________________________\n9. She slept while I was playing piano. ___________________________________________________________________\n10. I have been sad since you left. ___________________________________________________________________",
+      "answer": "Exemples de réponses possibles : 1. Elle a téléphoné pendant que je jouais aux cartes. 2. Ils ont rencontré trois candidats depuis dix heures. 3. Je pars pour une semaine. 4. Elle travaillait depuis vingt-cinq ans quand elle a pris sa retraite. 5. J’ai travaillé au gouvernement pendant cinq ans. 6. Je ne l’ai pas vu depuis trois jours. 7. On va être en vacances pour deux semaines. 8. Il fait chaud depuis deux jours. 9. Elle dormait pendant que je jouais du piano. 10. Je suis triste depuis que tu es parti.",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-24",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 24,
+      "title": "Consolidation 3 — Activité 24: A. Réunissez les deux phrases en utilisant le pronom relatif qui convient : qui, que, dont, où. Il y a parfois deux réponses possibles.",
+      "promptFr": "ACTIVITÉ 24\nA. Réunissez les deux phrases en utilisant le pronom relatif qui convient : qui, que, dont, où. Il y a parfois deux réponses possibles.\n1. Le dictionnaire est sur la table. Tu veux ce dictionnaire-là.\nLe dictionnaire que tu veux est sur la table. Tu veux le dictionnaire qui est sur la table.\n2. On a photocopié tous les documents. Ces documents ont été traduits la semaine dernière. _______________________________________________________________ _______________________________________________________________\n3. Il s’agit d’une grande salle. On peut y recevoir une centaine de délégués. _______________________________________________________________ _______________________________________________________________\n4. Je travaille dans le cubicule 17-A. C’est juste à droite au bout du couloir. _______________________________________________________________ _______________________________________________________________\n5. Je travaille avec une équipe de quatre personnes. Je suis responsable de cette équipe-là. _______________________________________________________________ _______________________________________________________________\n6. Je voulais partir tôt. Je te l’ai dit hier. _______________________________________________________________ _______________________________________________________________\n7. J’ai acheté un café ce matin. Il était imbuvable. _______________________________________________________________ _______________________________________________________________\n8. C’est un gros contenant. Ce contenant est d’une capacité de 30 litres. _______________________________________________________________ _______________________________________________________________\n9. Moi, je serai en vacances la troisième semaine de juin. La conférence aura lieu cette semaine-là. _______________________________________________________________ _______________________________________________________________\nB. Ajoutez le pronom relatif qui convient : qui, que, dont, où.\n1. Les résultats dont vous me faites part ne sont pas entièrement exacts. 2. Les conseils __________ vous m’avez donnés m’ont beaucoup aidé. 3. Les pompiers ont éteint le feu __________ des enfants avaient allumé. 4. Pourquoi as-tu jeté les papiers __________ étaient sur la table? 5. C’est la période __________ on remplit sa déclaration de revenus. 6. Mon frère a cassé le vase __________ je lui avais rapporté du Mexique. 7. La dame __________ prend sa retraite aujourd’hui travaille avec nous depuis dix-\nhuit ans. 8. C’est l’armoire __________ on range les fournitures de bureau.\n9. L’équipe a terminé un projet __________ elle est très fière.",
+      "answer": "A. 1. Le dictionnaire que tu veux est sur la table. Tu veux le dictionnaire qui est sur la table.\n2. On a photocopié tous les documents qui ont été traduits la semaine dernière. Tous les documents qu’on a photocopiés ont été traduits la semaine dernière.\n3. Il s’agit d’une grande salle où on peut recevoir une centaine de délégués. 4. Je travaille dans le cubicule 17-A, qui est juste à droite au bout du couloir. 5. Je travaille avec une équipe de quatre personnes dont je suis responsable. 6. Je t’ai dit hier que je voulais partir tôt. 7. Ce matin, j’ai acheté un café qui était imbuvable.\nLe café que j’ai acheté ce matin était imbuvable. 8. C’est un gros contenant dont la capacité est de 30 litres.\nC’est un gros contenant qui a une capacité de 30 litres. 9. Moi, je serai en vacances la semaine où la conférence aura lieu.\nB. 1. Les résultats dont vous me faites part ne sont pas entièrement exacts. 2. Les conseils que vous m’avez donnés m’ont beaucoup aidé. 3. Les pompiers ont éteint le feu que des enfants avaient allumé. 4. Pourquoi as-tu jeté les papiers qui étaient sur la table? 5. C’est la période où on remplit sa déclaration de revenus. 6. Mon frère a cassé le vase que je lui avais rapporté du Mexique. 7. La dame qui prend sa retraite aujourd’hui travaille avec nous depuis dix-huit ans. 8. C’est l’armoire où on range les fournitures de bureau. 9. L’équipe a terminé un projet dont elle est très fière.",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-26",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 26,
+      "title": "Consolidation 3 — Activité 26: Choisir le pronom relatif qui convient : ce qui, ce que, ce dont.",
+      "promptFr": "ACTIVITÉ 26\nChoisir le pronom relatif qui convient : ce qui, ce que, ce dont.\n1. Ah! Tu as pensé à apporter un dictionnaire. C’est exactement ce dont j’avais besoin pour la révision.\n2. Moi, ___________ je préfère, c’est le gâteau au chocolat. 3. Bon. Voilà ___________ faisait du bruit; il y avait un dollar dans la laveuse. 4. François, tu sais ___________ je t’ai proposé ce matin, oublie-ça, tous les billets\nsont déjà vendus. 5. Avez-vous pensé à ___________ vous ferez après la formation linguistique? 6. Sais-tu ___________ ferait plaisir à Marie-Jeanne pour son anniversaire? 7. ___________ me dérange le plus, c’est l’autoroute à proximité de chez moi. C’est\ntrès bruyant. 8. ___________ je m’occupe aujourd’hui, c’est de créer des fichiers de sauvegarde. 9. ___________ me fâche le plus, c’est que j’ai dû annuler ma soirée samedi. 10. Écoute, voici ___________ on va faire : pendant que tu vas faire l’épicerie, je vais\nranger tout le matériel de camping dans l’auto et m’assurer qu’il ne manque rien. 11. J’ai trouvé ___________ ne fonctionnait pas avec l’imprimante : il y avait une feuille\ncoincée à l’intérieur. 12. On va montrer à l’autre équipe ___________ on est capable et on va remporter la\ncoupe du championnat! 13. ___________ m’impressionne le plus chez Noémie, c’est son courage dans\nl’adversité.",
+      "answer": "1. Ah! Tu as pensé à apporter un dictionnaire. C’est exactement ce dont j’avais besoin pour la révision.\n2. Moi, ce que je préfère, c’est le gâteau au chocolat.\n3. Bon. Voilà ce qui faisait du bruit; il y avait un dollar dans la laveuse.\n4. François, tu sais ce que je t’ai proposé ce matin, oublie-ça, tous les billets sont déjà vendus.\n5. Avez-vous pensé à ce que vous ferez après la formation linguistique?\n6. Sais-tu ce qui ferait plaisir à Marie-Jeanne pour son anniversaire?\n7. Ce qui me dérange le plus, c’est l’autoroute à proximité de chez moi. C’est très bruyant.\n8. Ce dont je m’occupe aujourd’hui, c’est créer des fichiers de sauvegarde.\n9. Ce qui me fâche le plus, c’est que j’ai dû annuler ma soirée samedi.\n10. Écoute, voici ce qu’on va faire : pendant que tu vas faire l’épicerie, je vais ranger tout le matériel de camping dans l’auto et m’assurer qu’il ne manque rien.\n11. J’ai trouvé ce qui ne fonctionnait pas avec l’imprimante : il y avait une feuille de papier coincée à l’intérieur.\n12. On va montrer à l’autre équipe ce dont on est capable et on va remporter la coupe du championnat!\n13. Ce qui m’impressionne le plus chez Noémie, c’est son courage dans l’adversité.",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-30",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 30,
+      "title": "Consolidation 3 — Activité 30: Récrivez les phrases suivantes en remplaçant les mots soulignés par les pronoms appropriés.",
+      "promptFr": "ACTIVITÉ 30\nRécrivez les phrases suivantes en remplaçant les mots soulignés par les pronoms appropriés.\n1. Les enfants veulent des biscuits. Ils en veulent\n2. Annie va terminer le rapport dans une demi-heure.\n3. Je suis allé au restaurant La Belle marquise vendredi.\n4. À Tadoussac, j’ai vu beaucoup de baleines à bosse, de bélougas et de rorquals.\n5. On a déjà distribué des stylos aux participants.\n6. As-tu déjà mangé du homard?\n7. Je dois d’abord parler de ce sujet avec mes collègues.\n8. André va emmener ses neveux au parc d’attractions.\n9. Vous n’avez pas lu les dépliants?\n10. Est-ce qu’il y a assez de mayonnaise dans votre sandwich?\n11. J’ai conseillé à mon frère d’acheter une voiture d’occasion.\n12. J’ai conseillé à mon frère d’acheter cette voiture d’occasion.\n13. J’aurais préféré que tu me dises où tu allais.\n14. J’ai demandé à mon fils d’aller chercher du lait.\n15. Je n’ai pas répondu à mon ami.\n16. J’ai répondu à la lettre d’offre que j’ai reçue.\n17. On n’a pas encore payé la facture de téléphone.\n18. J’ai dit à Sylvie de te donner la clé.\n19. Madame Hulot n’a pas encaissé le chèque ce matin.\n20. Le professeur nous a donné du travail.",
+      "answer": "1. Ils en veulent. 2. Elle va le terminer dans une demi-heure. 3. J’y suis allé vendredi. 4. À Tadoussac, j’en ai vu beaucoup. 5. On leur en a déjà distribué. 6. En as-tu déjà mangé? 7. Je dois d’abord leur en parler. / Je dois d’abord en parler avec eux. 8. Il va les emmener au parc d’attractions. 9. Vous ne les avez pas lus? 10. Est-ce qu’il y en a assez? 11. Je lui ai conseillé d’en acheter une. 12. Je lui ai conseillé de l’acheter. 13. J’aurais préféré que tu me le dises. 14. Je lui ai demandé d’aller en chercher. 15. Je ne lui ai pas répondu. 16. J’y ai répondu. 17. On ne l’a pas encore payée. 18. Je lui ai dit de te la donner. 19. Elle ne l’a pas encaissé ce matin. 20. Il nous en a donné.",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-35",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 35,
+      "title": "Consolidation 3 — Activité 35: Mettez les verbes à l’indicatif présent, puis au subjonctif présent.",
+      "promptFr": "ACTIVITÉ 35\nMettez les verbes à l’indicatif présent, puis au subjonctif présent.\n1. Nous (manger) Nous mangeons 2. Je (prendre) 3. On (faire) 4. Nous (mettre) 5. Ça (valoir) 6. Vous (obtenir) 7. Je (s’occuper) 8. Il (joindre) 9. On (attendre) 10. Elles (établir) 11. Tu (être)\nQue nous mangions",
+      "answer": "1. nous mangeons / que nous mangions\n\n2. je prends\n\n/ que je prenne\n\n3. on fait\n\n/ qu’on fasse\n\n4. nous mettons / que nous mettions\n\n5. ça vaut\n\n/ que ça vaille\n\n6. vous obtenez / que vous obteniez\n\n7. je m’occupe / que je m’occupe\n\n8. il joint\n\n/ qu’il joigne\n\n9. on attend\n\n/ qu’on attende\n\n10. elles établissent / qu’elles établissent\n\n11. tu es\n\n/ que tu sois",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-42",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 42,
+      "title": "Consolidation 3 — Activité 42: Complétez les mini-dialogues suivants en utilisant le style indirect.",
+      "promptFr": "ACTIVITÉ 42\nComplétez les mini-dialogues suivants en utilisant le style indirect.\n1. « J’ai terminé le rapport. » – Qu’est-ce que Paul t’a dit? – Il m’a dit qu’il avait terminé le rapport.\n2. « Je dois rédiger un courriel. » – Qu’est-ce qu’elle a dit? –\n3. « Toi et ton collègue, pouvez-vous me rencontrer demain après-midi? » – Qu’est-ce que Raphaël vous a demandé? –\n4. « Attendez-moi ici. » – Qu’est-ce que le vendeur t’a dit? –\n5. « Qui fera le travail la semaine prochaine? » – Qu’est-ce qu’elle t’a demandé? –\n6. « Les heures supplémentaires ne seront plus payées. » – Qu’est-ce que le gestionnaire a dit? –\n7. « As-tu parlé à ton superviseur? » – Qu’est-ce Brigitte t’a demandé? –\n8. « Je préfère aller au cinéma les mardis soirs parce que c’est moins cher. » – Qu’est-ce qu’Émilie vient de dire? –\n9. « Quelle heure est-il? » – Qu’est-ce qu’il t’a demandé? –",
+      "answer": "1. Il m’a dit qu’il avait terminé le rapport. 2. Elle a dit qu’elle devait rédiger un courriel. 3. Il nous a demandé si on pouvait le rencontrer demain après-midi. 4. Il m’a dit de l’attendre ici. 5. Elle m’a demandé qui ferait le travail la semaine prochaine. 6. Il a dit que les heures supplémentaires ne seraient plus payées. 7. Elle m’a demandé si j’avais parlé à mon superviseur. 8. Elle vient de dire qu’elle préférait aller au cinéma les mardis parce que c’est moins\ncher. 9. Il m’a demandé quelle heure il était.",
+      "gradeable": false
+    },
+    {
+      "id": "CON3-48",
+      "sourceKind": "consolidation",
+      "booklet": 3,
+      "source": {
+        "catalogue": "SC102-2/47-3-2006F",
+        "pdf": "pdf/SC102-2-47-3-2006-fra.pdf",
+        "text": "text/consolidation-3.txt"
+      },
+      "ofRange": [
+        23,
+        32
+      ],
+      "activity": 48,
+      "title": "Consolidation 3 — Activité 48: Individuellement, complétez les phrases suivantes en mettant le verbe à la forme appropriée.",
+      "promptFr": "ACTIVITÉ 48\nIndividuellement, complétez les phrases suivantes en mettant le verbe à la forme appropriée.\nA. 1. Dans mon ancien poste, on _____________ (prendre) toujours une pause à neuf heures trente.\n2. Ma patronne m’a dit qu’elle _____________ (être) absente aujourd’hui. 3. Quand on partira en vacances, j’_____________ déjà _____________ (faire)\nles réservations. 4. À moins que ce _____________ (être) une urgence, ne téléphonez pas à la\nsous-ministre. 5. Pendant qu’elle regardait la télévision, le téléphone _____________ (sonner).\n6. Vous _____________ (être) au bureau depuis huit heures ce matin. 7. À l’avenir, quand _____________ (avoir lieu) la réunion générale? 8. Hier, on _____________ (prendre) notre dîner à midi trente. 9. Ce serait vraiment important que Wanda _____________ (faire) le travail\nrapidement. 10. Si _____________ (avoir) des vacances, j’irais deux semaines à Acapulco. 11. – Pour aller à un guichet automatique?\n– _____________ (prendre) la première rue à droite, _____________ (aller) jusqu’au bout, puis _____________ (tourner) à gauche.\n12. Je vous demande pardon, _____________ (avoir)-vous un stylo à me prêter? 13. Mon patron voudrait que nous _____________ (terminer) ce travail pour\nquatre heures. 14. Quand Miguel est arrivé à la division, j’y _____________ (travailler) déjà\ndepuis deux ans.\n15. Il _____________ (habiter) au Portugal pendant trois ans. 16. Habituellement, elle _____________ (aller) au bureau en autobus. 17. Il faut absolument que tu _____________ (aller) à cette rencontre. 18. Ce matin, je _____________ (se lever) à sept heures,\nj’_____________ (manger) puis, je _____________ (arriver) au bureau à huit heures. 19. Je pense que Pierre devrait leur téléphoner avant qu’ils ___________ (choisir) une autre compagnie. 20. Après _____________ (finir) la révision, tu téléphoneras à Maria.\nB. 1. J’espère que Paul ne _____________ (être) pas en retard la prochaine fois. 2. Il y _____________ (avoir) vingt-huit jours en février, sauf dans une année bissextile. 3. Si j’étais toi, je _____________ (faire) une escale à Hong-Kong. 4. On _____________ (recevoir) vingt-deux appels téléphoniques depuis ce matin. 5. Demain, tu _____________ (envoyer) cette lettre au directeur-adjoint. 6. Elle _____________ (habiter) à Vancouver depuis trois ans. 7. Je ne suis pas vraiment surpris que tu _____________ (savoir) cette nouvelle. 8. Hier soir, Henri _____________ (rester) au bureau jusqu’à sept heures. 9. J’_____________ déjà _____________ (recevoir) la convocation quand la réunion a été annulée.\n10. Autrefois, on _____________ (remplir) ces demandes à la main. Maintenant, on le _____________ (faire) à l’ordinateur.\n11. La présentation est annulée! C’est dommage, j’_____________ (aimer) y assister.\n12. Tu obtiendras de meilleurs résultats en _____________ (utiliser) un crayon à mine.\n13. Présentement, je _____________ (travailler) sur le rapport final. 14. Ils s’attendent à ce qu’on _____________ (venir) à leur présentation. 15. Durant toute sa vie, il _____________ (aller) une seule fois en Europe. 16. S’il fait beau, on _____________ (pouvoir) faire du camping pendant\nnos vacances. 17. Autrefois, chez mes parents, la maison _____________ (être) très vieille et\nle chauffage _____________ (ne pas fonctionner) toujours. 18. Il faut _____________ (attendre) deux à trois jours avant d’obtenir le résultat. 19. Ce midi, au restaurant, elle _____________ (commander) de la pizza. 20. Demain, s’il _____________ (pleuvoir), nous ne pourrons pas jouer au golf.",
+      "answer": "A. 1. Dans mon ancien poste, on prenait toujours une pause à neuf heures trente. 2. Ma patronne m’a dit qu’elle serait absente aujourd’hui. 3. Quand on partira en vacances, j’aurai déjà fait les réservations. 4. À moins que ce soit une urgence, ne téléphonez pas à la sous-ministre. 5. Pendant qu’elle regardait la télévision, le téléphone a sonné. 6. Vous êtes au bureau depuis huit heures ce matin. 7. À l’avenir, quand va avoir lieu / aura lieu la réunion générale? 8. Hier, on a pris notre dîner à midi trente. 9. Ce serait vraiment important que Wanda fasse le travail rapidement.\n10. Si j’avais des vacances, j’irais deux semaines à Acapulco. 11. – Pour aller à un guichet automatique?\n– Prenez / prends la première rue à droite, allez / va jusqu’au bout, puis tournez / tourne à gauche.\n12. Je vous demande pardon, auriez-vous un stylo à me prêter? 13. Mon patron voudrait que nous terminions ce travail pour quatre heures. 14. Quand Miguel est arrivé à la division, j’y travaillais déjà depuis deux ans. 15. Il a habité / va habiter / habitera au Portugal pendant trois ans. 16. Habituellement, elle va / allait au bureau en autobus. 17. Il faut absolument que tu ailles à cette rencontre. 18. Ce matin, je me suis levé à sept heures, j’ai mangé puis, je suis arrivé au\nbureau à huit heures. 19. Je pense que Pierre devrait leur téléphoner avant qu’ils choisissent une\nautre compagnie. 20. Après avoir fini la révision, tu téléphoneras à Maria.",
+      "gradeable": false
+    },
+    {
+      "id": "CON4-20",
+      "sourceKind": "consolidation",
+      "booklet": 4,
+      "source": {
+        "catalogue": "SC102-2/47-4-2006F",
+        "pdf": "pdf/SC102-2-47-4-2006-fra.pdf",
+        "text": "text/consolidation-4.txt"
+      },
+      "ofRange": [
+        33,
+        40
+      ],
+      "activity": 20,
+      "title": "Consolidation 4 — Activité 20: A. Répondez oralement aux questions suivantes par la négative en utilisant le semiauxiliaire faire (Recueil des tableaux, 36.5).",
+      "promptFr": "ACTIVITÉ 20\nA. Répondez oralement aux questions suivantes par la négative en utilisant le semiauxiliaire faire (Recueil des tableaux, 36.5).\n1. Pendant l’été, est-ce que vous tondez vous-même votre gazon? — Non, je le fais tondre par mon voisin qui a une tondeuse.\n2. Est-ce que vous remplissez vous-même votre déclaration de revenus? 3. Est-ce que vous pelletez vous-même votre entrée de garage? 4. Si vous avez un problème technique avec l’ordinateur, le réparez-vous vous-même? 5. Est-ce que vous vous coupez vous-même les cheveux?\nB. Répondez oralement aux questions suivantes en utilisant le semi-auxiliaire faire (Recueil des tableaux, 36.5).\n1. Par qui faites-vous réparer votre auto? — Je la fais réparer par mon garagiste. — Je ne la fais pas réparer, je la répare moi-même.\n2. Au travail, par qui faites-vous taper vos documents? 3. Quand vous commandez une pizza, allez-vous la chercher au restaurant? 4. Qui s’occupe de l’entretien ménager au bureau? 5. Au travail, qui s’occupe de changer la bouteille d’eau du distributeur?",
+      "answer": "Exemples de réponses possibles :\nA. 1. – Non, je le fais tondre par mon voisin qui a une tondeuse. 2. – Non, je la fais remplir/faire par mon comptable. 3. – Non, je la fais pelleter/nettoyer par mon voisin qui a une souffleuse. 4. – Non, je le fais réparer par le technicien. 5. – Non, je me les fais couper par mon coiffeur/ma coiffeuse.\nB. 1. – Je la fais réparer par mon garagiste.\n– Je ne la fais pas réparer, je la répare moi-même. 2. – Je les fais taper par l’adjointe.\n– Je ne les fais pas taper, je les tape moi-même. 3. – Non, je préfère la faire livrer. C’est moins fatigant.\n– Oui, comme ça, c’est souvent moins cher que de la faire venir. 4. – On fait faire le ménage par le concierge.\n– On le fait faire par une compagnie privée. 5. – On la fait changer par l’adjoint de l’entretien des installations.\n– On ne fait pas faire ça par quelqu’un en particulier, chacun la change quand c’est nécessaire.",
+      "gradeable": false
+    },
+    {
+      "id": "CON4-25",
+      "sourceKind": "consolidation",
+      "booklet": 4,
+      "source": {
+        "catalogue": "SC102-2/47-4-2006F",
+        "pdf": "pdf/SC102-2-47-4-2006-fra.pdf",
+        "text": "text/consolidation-4.txt"
+      },
+      "ofRange": [
+        33,
+        40
+      ],
+      "activity": 25,
+      "title": "Consolidation 4 — Activité 25: FAITS DIVERS",
+      "promptFr": "ACTIVITÉ 25\nFAITS DIVERS\n― À partir des titres d’articles qui suivent, formulez des hypothèses afin de déterminer quels sont la cause, le but ou les conséquences des faits mentionnés.\n― Utilisez les indicateurs appropriés. Au besoin, référez-vous aux tableaux des indicateurs de but, de cause et de conséquence (Recueil des tableaux, 38.1, 38.3 et 38.5).\n― Comparez ensuite vos hypothèses à la réalité en lisant l’information qui se trouve dans l’article original.\nExemple : Des vacances autour de la Lune ― Le but, c’est de faire un voyage extraordinaire et de voir des paysages que peu de personnes ont la chance de voir. ― Moi, je pense que ça va produire plus de pollution dans l’espace. ― Peut-être, mais vu que les touristes paient, ça permet de financer l’exploration spatiale.\n1. L’homme qui valait 30 000 volts\n2. Un nudiste enterré habillé contre ses dernières volontés\n3. Plus de yoga en prison, ça énerve les détenus\n4. Un douanier mordu au doigt par un piranha\n5. Plein d’essence inopportun\nACTIVITÉ 25\nLe 10 août 2005\nDes vacances autour de la Lune\nPresse Canadienne\nLe tourisme de l’espace étend son offre : après avoir envoyé ses riches clients en orbite dans la Station spatiale internationale, l’entreprise américaine Space Adventures leur proposera d’aller de l’autre côté de la Lune admirer un lever de Terre.\nLe premier voyage, qui sera facturé 100 millions de dollars (plus de 80 millions d’euros) à chacun des deux passagers prévus, pourrait avoir lieu en 2008, a annoncé le PDG de l’entreprise Eric Anderson lors d’une conférence de presse organisée mercredi à New York.\nLe prix du ticket couvrira les frais de préparation de la mission, la transformation d’un vaisseau russe Soyouz, et les vols d’essais préalables.\nReste pour les voyageurs à choisir entre deux options : le séjour long avec 5 jours et demi autour de la Lune et jusqu’à 21 jours à bord de la Station spatiale internationale (ISS), ou le séjour court de neuf jours, dont six autour de la lune.\nCette agence de voyage spatiale bénéficie d’un accord de partenariat avec l’agence spatiale russe. Elle a déjà envoyé en orbite l’homme d’affaire américain Dennis Tito et le Sud-africain Mark Shuttleworth.\nLe prochain départ pour l’espace est prévu pour le 1er octobre. Le scientifique américain Gregory Olsen embarquera avec l’équipage de la fusée russe Soyouz TMA7, qui doit apporter des ravitaillements à l’ISS.",
+      "answer": "1. L’homme qui valait 30 000 volts 2. Un nudiste enterré habillé contre ses dernières volontés 3. Plus de yoga en prison, ça énerve les détenus 4. Un douanier mordu au doigt par un piranha 5. Plein d’essence inopportun\n\nLe 19 septembre 2005\nL’homme qui valait 30 000 volts\nPresse Canadienne\nSYDNEY (AP) - Cet homme fait des étincelles : un Australien avait accumulé tellement d’électricité statique dans sa veste qu’il a laissé des traces de brûlé sur la moquette d’un bureau.\nD’après les pompiers de l’État de Victoria, Frank Clewer avait accumulé au moins 30 000 volts d’électricité statique dans sa veste rien qu’en se baladant dans la ville de Warrnambool, rapporte la radio australienne ABC. Jeudi après-midi, il a reçu une première décharge en entrant dans des bureaux. « Ça a fait le bruit d’un pétard », a-t-il lui-même confié à la radio. Il a même laissé une trace de roussi sur la moquette...\nLes pompiers ont évacué le bâtiment, craignant que l’incident ne provoque des problèmes électriques, mais ils ont laissé notre homme partir. Mais ses ennuis ont continué lorsqu’il est entré dans sa voiture. « J’ai carrément brûlé un morceau de plastique qui se trouvait sur le tapis de la voiture ». Les pompiers ont fini par prendre la veste, qui continuait de dégager de l’électricité.\n\nLe 6 août 2005\nUn nudiste enterré habillé contre ses dernières volontés\nCondamné vingt fois ces quarante dernières années parce qu’il souhaitait vivre nu, Robert Norton sera enterré habillé, contrairement à ses dernières volontés.\nDepuis 1962, Robert Norton avait défendu jusque devant les tribunaux ce qu’il considérait comme son droit constitutionnel à la nudité. Il a été condamné vingt fois, pour avoir jardiné ou s’être promené nu dans son jardin.\nL’ancien combattant décédé à l’âge de 82 ans avait exprimé le souhait d’être enterré nu. Mais sa famille a refusé de se plier à ses dernières volontés, dans l’espoir d’apaiser la controverse qu’il avait déclenchée de son vivant. Il sera donc inhumé jeudi habillé d’un pantalon et d’une chemise grise.\nSes proches disent que Norton était légèrement dérangé par son expérience de la Deuxième guerre mondiale, mais ceux qui l’ont souvent traîné en justice disent qu’il était simplement borné.\nBrenda Loete, qui a été la voisine de Norton pendant plusieurs dizaines d’années avant qu’il ne s’installe dans une maison de retraite, affirme qu’elle ne lui a jamais parlé. « On ne le connaissait pas vraiment. On le faisait seulement arrêter », se souvient-elle. « Normalement, quand on le faisait arrêter au printemps, il restait parti tout l’été et on n’avait plus à s’inquiéter de lui jusqu’au printemps suivant. »\n\nLe 5 août 2005\nPlus de yoga en prison, ça énerve les détenus\nPresse Canadienne\nLa prison de Ringerike en Norvège vient de mettre un terme aux cours de yoga dispensés aux détenus, la méditation augmentant apparemment l’agressivité des prisonniers.\nLes cours de yoga avaient été instaurés à l’essai en début d’année dans cette prison où sont incarcérés certains des criminels les plus dangereux du pays, rapporte mercredi le journal local Ringerikes Blad.\nLes autorités pénitentiaires espéraient que la méditation et les exercices de respiration aideraient les détenus à maîtriser leur agressivité, mais c’est semble-t-il l’inverse qui s’est produit. Certains sont devenus plus agités, d’autres ont commencé à développer des troubles du sommeil, selon un gardien Sigbjoern Hagen. Pour lui, les exercices de respiration profonde risquaient de rendre les détenus plus dangereux en levant leurs inhibitions.\n\nLe 27 septembre 2005\nUn douanier mordu au doigt par un piranha\nPresse Canadienne\nLe métier de douanier requiert du doigté. Mais parfois, il est nécessaire de s’en abstenir : un douanier philippin l’a appris à ses dépens, après s’être fait mordre au doigt par un piranha lors d’un contrôle de routine à l’aéroport de Manille.\n« J’étais en train de vérifier une des boîtes lorsque tout à coup, quelque chose a sauté à l’extérieur et m’a mordu », a déclaré l’inspecteur de quarantaine Mario Trio au quotidien Daily Inquirer paru mardi.\nLa morsure a laissé une blessure en V sur le doigt du douanier, et les 34 piranhas de l’arrivage qu’il examinait, faussement déclarés comme « poissons ornementaux » du Pérou, ont été confisqués pendant le week-end, mais sont morts deux jours plus tard.\n\nLe 24 septembre 2005\nPlein d’essence inopportun\nPresse Canadienne\nDeux hommes qui avaient volé la voiture d’une employée d’une station-service en Floride ont eu la mauvaise idée de retourner sur le lieu de travail de la victime peu après leur forfait pour faire le plein.\nPam Pease, 49 ans, balayait la zone du parking lorsqu’elle a vu un véhicule familier s’arrêter devant une pompe. C’était sa Ford Escort bleue 1994, reconnaissable à son enjoliveur manquant, dont elle avait signalé le vol moins d’une heure plus tôt.\n« J’étais stupéfaite, mais ils étaient là », raconte-t-elle, ajoutant qu’elle était ravie rétrospectivement que le niveau d’essence de sa voiture ait été aussi bas au moment du délit. Des employés de la station-service ont appelé la police, permettant ainsi l’arrestation des deux voleurs.",
+      "gradeable": false
+    }
+  ],
+  "items": []
+}

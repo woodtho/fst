@@ -353,6 +353,20 @@ const SETS: Record<number, (MCQ | FILL)[]> = {
   ],
 };
 
+// Heuristic difficulty so generated items span easy/medium/advanced — this lets the self-test
+// blueprint (which draws by band) and the practice/consolidation ramp use them properly.
+// Recognition/meaning (vocabulary, functions, notions) → easy; grammar MCQ → medium; fill-in
+// (production) → advanced. An explicit q.difficulty always wins.
+const RECOGNITION = new Set([
+  "vocabulary", "functions", "reading", "volition", "register",
+  "knowledge_ignorance", "certainty_doubt", "stability_change", "sentiments",
+]);
+function diffOf(q: MCQ | FILL): "easy" | "medium" | "advanced" {
+  if (q.difficulty) return q.difficulty;
+  if (!("options" in q)) return "advanced"; // fill_blank = production
+  return RECOGNITION.has(q.concept) ? "easy" : "medium";
+}
+
 let total = 0;
 const summary: Record<string, number> = {};
 for (const ofStr of Object.keys(SETS)) {
@@ -369,7 +383,7 @@ for (const ofStr of Object.keys(SETS)) {
     const base = {
       id: `itm_of${of}_gen_${n}`, objectiveId: `OF${of}`, generated: true,
       grammarConcepts: [q.concept], vocabDomains: obj?.vocabDomains ?? [], theme: obj?.themes?.[0] ?? "workplace",
-      difficulty: q.difficulty ?? "medium", status: "live",
+      difficulty: diffOf(q), status: "live",
       tip: { memory_aid: q.tip, pattern: q.pattern, similar: ("options" in q ? q.options.slice(0, 2) : q.answer) },
     };
     if ("options" in q) {

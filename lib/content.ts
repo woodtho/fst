@@ -80,6 +80,8 @@ export function getItem(itemId: string): Item | undefined {
   }
   const lexiconHit = getLexiconQuestions().find((it) => it.id === itemId);
   if (lexiconHit) return lexiconHit;
+  const supplementHit = getSupplementQuestionItems().find((it) => it.id === itemId);
+  if (supplementHit) return supplementHit;
   return undefined;
 }
 
@@ -233,6 +235,34 @@ export type Supplement = {
   text: string;
 };
 
+export type SupplementStudyGuide = {
+  title: string;
+  source: { catalogue: string; pdf: string; text: string };
+  ofRange: [number, number];
+  activityCount: number;
+  correctedActivityCount: number;
+  studyPoints: string[];
+  sections: string[];
+  intro: string;
+};
+
+export type SourceQuestion = {
+  id: string;
+  sourceKind: "self_eval" | "consolidation";
+  booklet: number;
+  source: { catalogue: string; pdf: string; text: string };
+  ofRange: [number, number];
+  objectiveId?: string;
+  capsule?: string;
+  activity?: number;
+  title: string;
+  promptFr: string;
+  promptEn?: string;
+  answer?: string;
+  answerAlternatives?: string[];
+  gradeable: boolean;
+};
+
 export function getConsolidationBooklets(): Supplement[] {
   return (manifest().supplements?.consolidation ?? []) as Supplement[];
 }
@@ -248,6 +278,128 @@ export function getSupplements(of: number): { consolidation?: Supplement; selfEv
     consolidation: (s.consolidation ?? []).find(inRange),
     selfEval: (s.selfEvaluation ?? []).find(inRange),
   };
+}
+
+function sourceFile(rel: string) {
+  return join(process.cwd(), "sources", ...rel.split(/[\\/]/));
+}
+
+function sourceText(supp: Supplement) {
+  const p = sourceFile(supp.text);
+  return existsSync(p) ? readFileSync(p, "utf8") : "";
+}
+
+function cleanSourceLine(line: string) {
+  return line
+    .replace(/\f/g, " ")
+    .replace(/[•]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\s+\d+$/, "")
+    .trim();
+}
+
+function uniqueLimit(values: string[], limit: number) {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const value of values) {
+    const clean = cleanSourceLine(value);
+    const key = clean.toLocaleLowerCase("fr-CA");
+    if (!clean || clean.length < 4 || seen.has(key)) continue;
+    seen.add(key);
+    out.push(clean);
+    if (out.length >= limit) break;
+  }
+  return out;
+}
+
+function countActivities(text: string) {
+  const beforeKeys = text.split(/Corrigé des activités|Consolidation\s+\d+\s+[–-]\s+Corrigé|Autoévaluation\s+-\s+Activités écrites\s+Corrigé/i)[0] ?? text;
+  const nums = [...beforeKeys.matchAll(/Activité\s+(\d+)/g)].map((m) => Number(m[1])).filter(Number.isFinite);
+  return nums.length ? Math.max(...nums) : 0;
+}
+
+function countCorrectedActivities(text: string) {
+  const corrige = text.match(/Corrigé des activités\s+([^.\n]+)/i)?.[1] ?? "";
+  const nums = [...corrige.matchAll(/\d+/g)].map((m) => Number(m[0])).filter(Number.isFinite);
+  return new Set(nums).size;
+}
+
+function selfEvalStudyPoints(text: string) {
+  const start = text.indexOf("Points à l'étude");
+  const end = text.indexOf("Corrigé des activités");
+  const menu = start >= 0 && end > start ? text.slice(start, end) : text.slice(0, 3500);
+  const bulletParts = menu.split(/[•]/g).slice(1);
+  return uniqueLimit(
+    bulletParts
+      .map((part) => part.split(/\r?\n/)[0])
+      .filter((line) => !/^(the|to do|done|grammar|notions|strategy|capsule|page)\b/i.test(cleanSourceLine(line))),
+    32
+  );
+}
+
+function consolidationSections(text: string, booklet: number) {
+  const lines = text.split(/\r?\n/).map(cleanSourceLine);
+  const prefix = new RegExp(`^Consolidation\\s+${booklet}\\s+[–-]\\s+`, "i");
+  return uniqueLimit(
+    lines
+      .filter((line) => prefix.test(line))
+      .map((line) => line.replace(prefix, ""))
+      .filter((line) => !/^(OF|Horaire|Corrigé)\b/i.test(line)),
+    36
+  );
+}
+
+export function getSupplementStudyGuide(supp: Supplement): SupplementStudyGuide {
+  const text = sourceText(supp);
+  const [from, to] = supp.ofRange;
+  const isSelfEval = supp.kind === "self_eval";
+  const title = isSelfEval
+    ? `Autoévaluation ${supp.booklet} — OF ${from}–${to}`
+    : `Consolidation ${supp.booklet} — OF ${from}–${to}`;
+  return {
+    title,
+    source: { catalogue: supp.catalogue, pdf: supp.pdf, text: supp.text },
+    ofRange: supp.ofRange,
+    activityCount: countActivities(text),
+    correctedActivityCount: countCorrectedActivities(text),
+    studyPoints: isSelfEval ? selfEvalStudyPoints(text) : [],
+    sections: isSelfEval ? [] : consolidationSections(text, supp.booklet),
+    intro: isSelfEval
+      ? "Self-evaluation activities review the written grammar, notions, and strategy points from this OF range. The in-app exam draws answerable questions from the same objective banks and gives feedback at the end."
+      : "Consolidation combines grammar, functions, notions, strategies, lexicon, and integration tasks across the booklet range. The in-app session mixes questions across every OF in the range."
+  };
+}
+
+function supplementQuestionFile(name: string) {
+  const p = join(CONTENT, "supplements", name);
+  return existsSync(p) ? read(p) : { questions: [], items: [] };
+}
+
+export function getSelfEvaluationSourceQuestions(): SourceQuestion[] {
+  return supplementQuestionFile("self-evaluation-questions.json").questions as SourceQuestion[];
+}
+
+export function getConsolidationSourceQuestions(): SourceQuestion[] {
+  return supplementQuestionFile("consolidation-questions.json").questions as SourceQuestion[];
+}
+
+export function getSupplementQuestionItems(): Item[] {
+  const selfEval = supplementQuestionFile("self-evaluation-questions.json").items as Item[];
+  const consolidation = supplementQuestionFile("consolidation-questions.json").items as Item[];
+  return [...selfEval, ...consolidation];
+}
+
+export function getSelfEvaluationItemsForObjective(objectiveId: string): Item[] {
+  return getSupplementQuestionItems().filter((it) => it.objectiveId === objectiveId && it.id.startsWith("supp-SE"));
+}
+
+export function getSelfEvaluationQuestionsForObjective(objectiveId: string): SourceQuestion[] {
+  return getSelfEvaluationSourceQuestions().filter((q) => q.objectiveId === objectiveId);
+}
+
+export function getConsolidationQuestionsForRange(from: number, to: number): SourceQuestion[] {
+  return getConsolidationSourceQuestions().filter((q) => q.ofRange[0] === from && q.ofRange[1] === to);
 }
 
 // ---- client-safe shapes (no answers / explanations leak to the browser) ----

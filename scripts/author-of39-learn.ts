@@ -1,0 +1,143 @@
+/**
+ * author-of39-learn.ts
+ * Authors the full "Learn" stage for OF39 (Évaluer un changement proposé) from the PFL2 source
+ * document SC102-2/39-2005F: indicators of knowledge/ignorance (39.1), certainty/doubt (39.2),
+ * persistence/change (39.3), the subjonctif-vs-indicatif rule after opinion verbs (39.4), the
+ * past subjunctive and subjonctif-vs-infinitif after feelings (39.6), and announcing/communicating
+ * a change or decision (39.7/39.8). Idempotent.
+ *
+ * Run: node --experimental-strip-types scripts/author-of39-learn.ts
+ */
+import { readFileSync, writeFileSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
+const modPath = join(ROOT, "content", "modules", "OF39.json");
+const mod = JSON.parse(readFileSync(modPath, "utf8"));
+
+const vocabulary = [
+  // knowledge / ignorance (39.1)
+  { fr: "savoir / être au courant (de)", en: "to know / to be aware of", pos: "connaissance", note: "indicateur de connaissance" },
+  { fr: "apprendre / entendre dire / se laisser dire", en: "to learn / to hear", pos: "connaissance", note: "indicateur de connaissance" },
+  { fr: "ignorer / ne pas savoir / ne pas être au courant", en: "to be unaware / not to know", pos: "ignorance", note: "indicateur d'ignorance" },
+  // certainty / doubt (39.2)
+  { fr: "je suis convaincu / persuadé / certain que", en: "I'm convinced / sure that", pos: "certitude", note: "+ indicatif" },
+  { fr: "c'est évident / de toute évidence / pas de doute", en: "it's obvious / no doubt", pos: "certitude", note: "indicateur de certitude" },
+  { fr: "je doute que / c'est douteux que", en: "I doubt that / it's doubtful that", pos: "doute", note: "+ subjonctif" },
+  { fr: "je mets en doute / je suis sceptique", en: "I question / I'm skeptical", pos: "doute", note: "indicateur de doute" },
+  // persistence/stability vs change/abandonment (39.3)
+  { fr: "maintenir / conserver / poursuivre / le statu quo", en: "to maintain / keep / carry on / status quo", pos: "stabilité", note: "persistance / stabilité" },
+  { fr: "modifier / transformer / bouleverser / remanier", en: "to change / transform / overhaul", pos: "changement", note: "changement" },
+  { fr: "cesser / laisser tomber / renoncer à / abandonner", en: "to stop / drop / give up", pos: "abandon", note: "abandon" },
+  { fr: "améliorer / s'aggraver / augmenter / diminuer", en: "to improve / worsen / increase / decrease", pos: "changement", note: "variation" },
+  // feelings & attitudes (39.5)
+  { fr: "j'espère que… / pourvu que… (espoir)", en: "I hope that… / let's hope (hope)", pos: "sentiment", note: "espoir / souhait" },
+  { fr: "tant mieux! / tant pis! (satisfaction / résignation)", en: "good! / too bad! ", pos: "sentiment", note: "satisfaction / résignation" },
+  { fr: "ça m'étonne / je suis déçu / quel soulagement!", en: "I'm surprised / disappointed / what a relief!", pos: "sentiment", note: "surprise / déception / soulagement" },
+  // announcing a change / communicating a decision (39.7 / 39.8)
+  { fr: "il est question de / on envisage de / on songe à", en: "there's talk of / we're considering", pos: "annonce", note: "annoncer un changement probable" },
+  { fr: "la décision ne m'appartient pas / je vais y réfléchir", en: "it's not my decision / I'll think about it", pos: "décision", note: "reporter une décision / décision d'autrui" },
+];
+
+mod.stages.learn = {
+  conceptExplanation: {
+    en: "Evaluate a proposed change. You learn the indicators of knowledge vs ignorance (savoir / ignorer), certainty vs doubt (je suis convaincu / je doute), and persistence/stability vs change/abandonment (maintenir / modifier, le statu quo / bouleverser). The key grammar: after opinion verbs, DOUBT takes the SUBJUNCTIVE (je doute que ce soit…) while affirmative CERTAINTY takes the INDICATIVE (je suis sûr que c'est…); negative/interrogative opinions usually take the subjunctive. You also form the PAST SUBJUNCTIVE (que j'aie fini) and choose subjunctive vs infinitive after expressions of feeling (same subject → infinitive: contente de faire; different subjects → subjunctive: contente que je fasse). Finally, you announce a probable change and communicate or defer a decision. Source: SC102-2/39-2005F.",
+    fr: "Évaluer un changement proposé. On apprend les indicateurs de connaissance ou d'ignorance (savoir / ignorer), de certitude ou de doute (je suis convaincu / je doute) et de persistance/stabilité ou de changement/abandon (maintenir / modifier, le statu quo / bouleverser). Point de grammaire clé : après les verbes d'opinion, le DOUTE demande le SUBJONCTIF (je doute que ce soit…) et la CERTITUDE affirmative l'INDICATIF (je suis sûr que c'est…) ; à la forme négative ou interrogative, on emploie généralement le subjonctif. On forme aussi le SUBJONCTIF PASSÉ (que j'aie fini) et on choisit subjonctif ou infinitif après une expression de sentiment (même sujet → infinitif : contente de faire ; sujets différents → subjonctif : contente que je fasse). Enfin, on annonce un changement probable et on communique ou reporte une décision.",
+  },
+  vocabulary,
+  grammarNotes: {
+    summary: "Deux points de grammaire : (1) subjonctif ou indicatif après les verbes d'opinion ; (2) le subjonctif passé et le choix subjonctif/infinitif après les expressions de sentiment. Voir les tableaux ci-dessous.",
+    charts: [],
+    points: [
+      "Opinion avec DOUTE ou incertitude → SUBJONCTIF : « Je doute que ce changement soit nécessaire. », « Il est douteux qu'il finisse. »",
+      "Opinion affirmative avec CERTITUDE → INDICATIF : « Je pense que c'est nécessaire. », « Je suis convaincu qu'il reviendra. »",
+      "Forme NÉGATIVE ou INTERROGATIVE d'opinion → souvent le SUBJONCTIF : « Je ne crois pas qu'il soit là. », « Crois-tu qu'il soit nécessaire? »",
+      "Subjonctif passé = auxiliaire (avoir/être) au subjonctif présent + participe passé : « que j'aie fini », « que je sois parti(e) ». Il s'emploie pour une action antérieure : « C'est dommage que vous soyez parti si tôt. »",
+      "Après une expression de sentiment : MÊME sujet → de + infinitif (« elle est contente DE FAIRE ce voyage ») ; sujets DIFFÉRENTS → subjonctif (« elle est contente QUE JE FASSE ce voyage »). Au passé, même sujet → infinitif passé (« content d'avoir obtenu »).",
+      "Annoncer un changement : il est question de, on envisage de, on songe à, il se pourrait que. Communiquer/reporter une décision : « Je vais m'accorder un délai de réflexion. » / « La décision ne m'appartient pas. »",
+    ],
+  },
+  pronunciation: { points: [] },
+  dialogues: [
+    {
+      title: "Indicateurs de certitude et de doute (ACTIVITÉ 8, dialogue A)",
+      register: "milieu de travail",
+      lines: [
+        { speaker: "Gaston", fr: "Es-tu au courant de la dernière? On ne pourra plus accumuler nos congés de maladie.", en: "être au courant = knowledge indicator" },
+        { speaker: "Mireille", fr: "Es-tu sûr de ça?", en: "être sûr = certainty (here, asking)" },
+        { speaker: "Mireille", fr: "Je doute que ça fasse l'affaire de tout le monde.", en: "je doute que + SUBJONCTIF (que ça fasse)" },
+        { speaker: "Gaston", fr: "Je suis convaincu que ça va faire des mécontents. De toute évidence, l'administration ne veut plus ça.", en: "je suis convaincu que / de toute évidence = certainty (+ indicatif)" },
+      ],
+    },
+  ],
+  exampleTexts: [
+    {
+      title: "Subjonctif ou indicatif après les verbes d'opinion (ACTIVITÉ 15)",
+      table: {
+        headers: ["Type d'opinion", "Mode → exemple"],
+        rows: [
+          ["Doute / incertitude", "SUBJONCTIF : Je doute que ce changement soit nécessaire."],
+          ["Certitude (affirmatif)", "INDICATIF : Je pense que ce changement est nécessaire."],
+          ["Certitude (futur)", "INDICATIF : Il est certain que ce changement sera nécessaire."],
+          ["Négatif / interrogatif", "SUBJONCTIF : Je ne pense pas que ce soit utile. / Crois-tu que ce soit utile?"],
+        ],
+      },
+      en: "Doubt → subjunctive; affirmative certainty → indicative; negative/interrogative → usually subjunctive.",
+    },
+    {
+      title: "Formation du subjonctif passé (ACTIVITÉ 24)",
+      table: {
+        headers: ["Verbe", "Subjonctif passé"],
+        rows: [
+          ["avoir", "que j'aie eu"],
+          ["être", "que j'aie été"],
+          ["finir", "que j'aie fini"],
+          ["partir", "que je sois parti(e)"],
+          ["se lever", "que je me sois levé(e)"],
+        ],
+      },
+      en: "Auxiliary (avoir/être) in the present subjunctive + past participle. Ex.: « C'est dommage que vous soyez parti si tôt. »",
+    },
+    {
+      title: "Subjonctif ou infinitif après une expression de sentiment (ACTIVITÉ 26)",
+      table: {
+        headers: ["Sujets", "Construction → exemple"],
+        rows: [
+          ["Même sujet", "de + infinitif : Elle est contente de faire ce voyage."],
+          ["Sujets différents", "que + subjonctif : Elle est contente que je fasse ce voyage."],
+          ["Même sujet, passé", "de + infinitif passé : Il est content d'avoir obtenu ce poste."],
+          ["Sujets différents, passé", "que + subjonctif passé : Je suis désolé que vous soyez parti tôt."],
+        ],
+      },
+      en: "Same subject → infinitive; different subjects → subjunctive. Past action → past infinitive / past subjunctive.",
+    },
+    {
+      title: "Indicateurs de connaissance/ignorance et de certitude/doute (ACTIVITÉS 4 et 7)",
+      table: {
+        headers: ["Connaissance / Certitude", "Ignorance / Doute"],
+        rows: [
+          ["savoir · être au courant (de) · apprendre", "ne pas savoir · ignorer · ne pas être au courant"],
+          ["je suis convaincu / persuadé / certain que", "je doute que · c'est douteux que"],
+          ["c'est évident · de toute évidence · pas de doute", "je mets en doute · je suis sceptique"],
+        ],
+      },
+      en: "Left: knowledge / certainty. Right: ignorance / doubt.",
+    },
+    {
+      title: "Stabilité / persistance vs changement / abandon (ACTIVITÉ 11)",
+      table: {
+        headers: ["Stabilité & persistance", "Changement & abandon"],
+        rows: [
+          ["maintenir · conserver · poursuivre · continuer", "modifier · transformer · bouleverser · remanier"],
+          ["le statu quo · stable · invariable · l'équilibre", "le changement · variable · la refonte · le bouleversement"],
+          ["s'acharner · persévérer · la constance", "cesser · laisser tomber · renoncer à · abandonner"],
+        ],
+      },
+      en: "Left: keep things as they are. Right: change or give up.",
+    },
+  ],
+};
+
+writeFileSync(modPath, JSON.stringify(mod, null, 2));
+console.log("OF39 Learn stage authored: 1 concept, " + vocabulary.length + " vocab entries, 6 grammar points, 5 tables, 1 dialogue.");
