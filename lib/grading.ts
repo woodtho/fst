@@ -9,13 +9,13 @@ function normalize(value: string, normalizer?: string): string {
   let v = value ?? "";
   switch (normalizer) {
     case "fr_accent_insensitive_trim_lower":
-      v = stripAccents(v).trim().toLowerCase();
+      v = stripAccents(v).trim().toLocaleLowerCase("fr-CA");
       break;
     case "trim_lower":
-      v = v.trim().toLowerCase();
+      v = v.trim().toLocaleLowerCase("fr-CA");
       break;
     default:
-      v = v.trim();
+      v = v.trim().toLocaleLowerCase("fr-CA");
   }
   // collapse internal whitespace and drop trailing sentence punctuation
   return v.replace(/\s+/g, " ").replace(/[.!?]+$/g, "").trim();
