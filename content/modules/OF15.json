@@ -243,7 +243,7 @@
         ],
         "catalogue": "SC102-2/47-2-2006F"
       },
-      "note": "Mixed review across OF 13–22: a balanced session is drawn from the live banks of every objective in this range (10 objectives, 1048 questions).",
+      "note": "Mixed review across OF 13–22: a balanced session is drawn from the live banks of every objective in this range (10 objectives, 1018 questions).",
       "tasks": [],
       "coverage": {
         "ofRange": [
@@ -251,7 +251,7 @@
           22
         ],
         "objectives": 10,
-        "items": 1048
+        "items": 1018
       }
     },
     "selfTest": {
@@ -267,14 +267,14 @@
       "timedSeconds": 560,
       "blueprint": {
         "easy": 6,
-        "medium": 9,
-        "advanced": 1
+        "medium": 8,
+        "advanced": 2
       },
       "drawFrom": [
         "OF15"
       ],
       "examQuestions": 16,
-      "bankSize": 67
+      "bankSize": 73
     },
     "masteryCheck": {
       "threshold": 0.8,

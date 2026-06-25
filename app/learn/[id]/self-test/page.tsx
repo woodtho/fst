@@ -37,18 +37,24 @@ export default function SelfTestPage({ params }: { params: { id: string } }) {
   const selfEval = getSupplements(objective.of).selfEval;
   const guide = selfEval ? getSupplementStudyGuide(selfEval) : null;
 
-  // Draw per blueprint from the OF's full bank…
-  const byBand = (b: string) => shuffle(examBank.filter((it) => it.difficulty === b));
+  // Concept-forward: prefer the OF's grammar/function/generated concept questions over isolated
+  // vocabulary recall, so the exam tests the concepts covered in the objective.
+  const isConcept = (it: Item) => (it as any).generated === true || (it as any).skill !== "vocabulary";
+  const conceptFirst = (a: Item[]) => [...a.filter(isConcept), ...a.filter((it) => !isConcept(it))];
+
+  // Draw per blueprint from the OF's full bank, concept questions first within each band…
+  const byBand = (b: string) => conceptFirst(shuffle(examBank.filter((it) => it.difficulty === b)));
   const chosen: Item[] = [
     ...byBand("easy").slice(0, bp.easy ?? 0),
     ...byBand("medium").slice(0, bp.medium ?? 0),
     ...byBand("advanced").slice(0, bp.advanced ?? 0),
   ];
-  // …then top up to the target length from any remaining items, so the exam is always full-length
-  // even when the bank's difficulty mix doesn't match the blueprint.
+  // …then top up to the target length (concept questions first) from any remaining items, so the
+  // exam is always full-length even when the bank's difficulty mix doesn't match the blueprint.
   if (chosen.length < target) {
     const usedIds = new Set(chosen.map((it) => it.id));
-    chosen.push(...shuffle(examBank.filter((it) => !usedIds.has(it.id))).slice(0, target - chosen.length));
+    const rest = conceptFirst(shuffle(examBank.filter((it) => !usedIds.has(it.id))));
+    chosen.push(...rest.slice(0, target - chosen.length));
   }
   const session = shuffle(chosen.length ? chosen : examBank.slice(0, target)).map(sanitize);
 
