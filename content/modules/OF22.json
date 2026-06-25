@@ -44,23 +44,28 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "J’aimerais te demander de vérifier les dernières statistiques sur le chômage."
+              "fr": "J’aimerais te demander de vérifier les dernières statistiques sur le chômage.",
+              "en": "I'd like to ask you to check the latest unemployment statistics."
             },
             {
               "speaker": "B",
-              "fr": "J’ai jusqu’à quand pour faire ça?"
+              "fr": "J’ai jusqu’à quand pour faire ça?",
+              "en": "How long do I have to do that?"
             },
             {
               "speaker": "A",
-              "fr": "Jusqu’à mercredi."
+              "fr": "Jusqu’à mercredi.",
+              "en": "Until Wednesday."
             },
             {
               "speaker": "B",
-              "fr": "C’est un peu court. Je peux prendre une journée de plus?"
+              "fr": "C’est un peu court. Je peux prendre une journée de plus?",
+              "en": "That's a bit short. Can I take one more day?"
             },
             {
               "speaker": "A",
-              "fr": "Je regrette, c’est impossible."
+              "fr": "Je regrette, c’est impossible.",
+              "en": "I'm sorry, that's impossible."
             }
           ]
         }
@@ -101,15 +106,18 @@
                 "Vous avez jusqu’au 25 octobre."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Tout, toute, tous, toutes",
-          "fr": "Tout le matériel sert à l’organisation du stage.\nToutes les données sont prêtes.\nLes gestionnaires se rencontrent tous une fois par mois.\nElle les révise toutes.\nTout va bien."
+          "fr": "Tout le matériel sert à l’organisation du stage.\nToutes les données sont prêtes.\nLes gestionnaires se rencontrent tous une fois par mois.\nElle les révise toutes.\nTout va bien.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
           "title": "Préciser le temps d’exécution",
-          "fr": "En combien de temps est-ce que Judith a lu cette brochure? Elle l’a lue en une heure.\nÀ quelle fréquence est-ce qu’on va se réunir en comité? On va se réunir trois fois par mois.\nC’est pour quelle date? Pour jeudi, au plus tard.\nPouvez-vous nous accorder un délai? Oui, je vous accorde un jour de plus."
+          "fr": "En combien de temps est-ce que Judith a lu cette brochure? Elle l’a lue en une heure.\nÀ quelle fréquence est-ce qu’on va se réunir en comité? On va se réunir trois fois par mois.\nC’est pour quelle date? Pour jeudi, au plus tard.\nPouvez-vous nous accorder un délai? Oui, je vous accorde un jour de plus.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         }
       ]
     },

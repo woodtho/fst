@@ -43,19 +43,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Pourriez-vous me décrire l'objet perdu?"
+              "fr": "Pourriez-vous me décrire l'objet perdu?",
+              "en": "Could you describe the lost item for me?"
             },
             {
               "speaker": "B",
-              "text": "C'est un sac à main en cuir brun avec bandoulière."
+              "fr": "C'est un sac à main en cuir brun avec bandoulière.",
+              "en": "It's a brown leather handbag with a shoulder strap."
             },
             {
               "speaker": "A",
-              "text": "Dans quel état est-il?"
+              "fr": "Dans quel état est-il?",
+              "en": "What condition is it in?"
             },
             {
               "speaker": "B",
-              "text": "Il est en bon état."
+              "fr": "Il est en bon état.",
+              "en": "It's in good condition."
             }
           ]
         },
@@ -64,19 +68,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Que penses-tu de l'exercice de feu?"
+              "fr": "Que penses-tu de l'exercice de feu?",
+              "en": "What do you think of the fire drill?"
             },
             {
               "speaker": "B",
-              "text": "Je trouve que c'est une bonne idée."
+              "fr": "Je trouve que c'est une bonne idée.",
+              "en": "I think it's a good idea."
             },
             {
               "speaker": "A",
-              "text": "À ton avis, la bibliothèque répond-elle aux besoins?"
+              "fr": "À ton avis, la bibliothèque répond-elle aux besoins?",
+              "en": "In your opinion, does the library meet people's needs?"
             },
             {
               "speaker": "B",
-              "text": "Selon moi, vous donnez un excellent service."
+              "fr": "Selon moi, vous donnez un excellent service.",
+              "en": "In my opinion, you provide excellent service."
             }
           ]
         }
@@ -111,7 +119,8 @@
                 "en métal, en cuir, en tissu synthétique"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Comparer",
@@ -142,7 +151,8 @@
                 "meilleur, mieux, pire"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Superlatifs",
@@ -173,7 +183,8 @@
                 "le meilleur rendement; le pire film"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Opinions",
@@ -200,7 +211,8 @@
                 "être d'accord; être en désaccord"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Météo Et Qualité",
@@ -227,7 +239,8 @@
                 "illisible, inadéquat, inacceptable, insatisfaisant"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

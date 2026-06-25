@@ -80,19 +80,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Pourquoi la réunion est-elle reportée?"
+              "fr": "Pourquoi la réunion est-elle reportée?",
+              "en": "Why is the meeting postponed?"
             },
             {
               "speaker": "B",
-              "text": "Elle est reportée parce que plusieurs gestionnaires sont absents."
+              "fr": "Elle est reportée parce que plusieurs gestionnaires sont absents.",
+              "en": "It's postponed because several managers are absent."
             },
             {
               "speaker": "A",
-              "text": "Quel sera l’effet sur le projet?"
+              "fr": "Quel sera l’effet sur le projet?",
+              "en": "What will the effect on the project be?"
             },
             {
               "speaker": "B",
-              "text": "Par conséquent, nous aurons une semaine de plus pour préparer le dossier."
+              "fr": "Par conséquent, nous aurons une semaine de plus pour préparer le dossier.",
+              "en": "Consequently, we'll have one more week to prepare the file."
             }
           ]
         }
@@ -100,11 +104,10 @@
       "exampleTexts": [
         {
           "title": "Décision et effets",
-          "body": "Nous avons modifié l’horaire afin que tous les employés puissent participer. Comme plusieurs personnes étaient absentes, la réunion a été reportée; par conséquent, le rapport sera remis vendredi."
-        },
-        {
-          "title": "Note de fin",
-          "body": "Pour exposer une situation clairement, dites le but recherché, nommez la cause réelle, puis annoncez la conséquence avec un connecteur explicite."
+          "body": "Nous avons modifié l’horaire afin que tous les employés puissent participer. Comme plusieurs personnes étaient absentes, la réunion a été reportée; par conséquent, le rapport sera remis vendredi.",
+          "fr": "La direction a décidé de reporter le lancement. = Management decided to postpone the launch.\nPar conséquent, l'échéance change. = Consequently, the deadline changes.\nCela aura un effet sur le budget. = This will have an effect on the budget.",
+          "en": "Announcing a decision and its consequences.",
+          "help": "Notice the cause/consequence markers « par conséquent », « cela aura un effet »."
         }
       ]
     },

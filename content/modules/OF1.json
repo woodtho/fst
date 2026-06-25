@@ -45,47 +45,58 @@
           "lines": [
             {
               "speaker": "Marie",
-              "fr": "Ah! Bonsoir, Lilianne. Bonsoir, Richard. Entrez, entrez. Je suis contente de vous voir."
+              "fr": "Ah! Bonsoir, Lilianne. Bonsoir, Richard. Entrez, entrez. Je suis contente de vous voir.",
+              "en": "Ah! Good evening, Lilianne. Good evening, Richard. Come in, come in. I'm happy to see you."
             },
             {
               "speaker": "Bob",
-              "fr": "Bonsoir. Je m’appelle Bob Jackson. Et toi, comment t’appelles-tu?"
+              "fr": "Bonsoir. Je m’appelle Bob Jackson. Et toi, comment t’appelles-tu?",
+              "en": "Good evening. My name is Bob Jackson. And you, what's your name?"
             },
             {
               "speaker": "Julie",
-              "fr": "Julie. Julie Blondin."
+              "fr": "Julie. Julie Blondin.",
+              "en": "Julie. Julie Blondin."
             },
             {
               "speaker": "Marie",
-              "fr": "Liliane, Richard, je vous présente monsieur et madame Legrand. Lilianne et Richard Plamondon, des amis."
+              "fr": "Liliane, Richard, je vous présente monsieur et madame Legrand. Lilianne et Richard Plamondon, des amis.",
+              "en": "Liliane, Richard, let me introduce Mr. and Mrs. Legrand. Lilianne and Richard Plamondon, friends."
             },
             {
               "speaker": "Bob",
-              "fr": "Les gens qui arrivent, comment est-ce qu’ils s’appellent?"
+              "fr": "Les gens qui arrivent, comment est-ce qu’ils s’appellent?",
+              "en": "The people arriving — what are their names?"
             },
             {
               "speaker": "Julie",
-              "fr": "Richard et Lilianne Plamondon. Lui, il est agronome, au ministère de l’Agriculture, et elle, elle est professeure."
+              "fr": "Richard et Lilianne Plamondon. Lui, il est agronome, au ministère de l’Agriculture, et elle, elle est professeure.",
+              "en": "Richard and Lilianne Plamondon. He's an agronomist at the Department of Agriculture, and she's a teacher."
             },
             {
               "speaker": "Bob",
-              "fr": "Et la dame, là-bas, c’est qui?"
+              "fr": "Et la dame, là-bas, c’est qui?",
+              "en": "And the lady over there, who is she?"
             },
             {
               "speaker": "Julie",
-              "fr": "C’est madame Legrand. Elle est directrice de l’information à Patrimoine canadien."
+              "fr": "C’est madame Legrand. Elle est directrice de l’information à Patrimoine canadien.",
+              "en": "That's Mrs. Legrand. She's the director of information at Canadian Heritage."
             },
             {
               "speaker": "Claude",
-              "fr": "Bonsoir. Vous êtes bien Lilianne Plamondon?"
+              "fr": "Bonsoir. Vous êtes bien Lilianne Plamondon?",
+              "en": "Good evening. You're Lilianne Plamondon, right?"
             },
             {
               "speaker": "Claude",
-              "fr": "Je me présente : Claude Roger. Je suis agent de formation à Transports Canada."
+              "fr": "Je me présente : Claude Roger. Je suis agent de formation à Transports Canada.",
+              "en": "Let me introduce myself: Claude Roger. I'm a training officer at Transport Canada."
             },
             {
               "speaker": "Lilianne",
-              "fr": "Voici mon mari, Richard."
+              "fr": "Voici mon mari, Richard.",
+              "en": "This is my husband, Richard."
             }
           ]
         },
@@ -95,23 +106,28 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Qui c’est, ce gars-là?"
+              "fr": "Qui c’est, ce gars-là?",
+              "en": "Who's that guy?"
             },
             {
               "speaker": "B",
-              "fr": "Tu ne connais pas Jean-Luc?"
+              "fr": "Tu ne connais pas Jean-Luc?",
+              "en": "You don't know Jean-Luc?"
             },
             {
               "speaker": "A",
-              "fr": "Non."
+              "fr": "Non.",
+              "en": "No."
             },
             {
               "speaker": "B",
-              "fr": "Alors, viens... Je te présente Jean-Luc Amyot, un ami de collège."
+              "fr": "Alors, viens... Je te présente Jean-Luc Amyot, un ami de collège.",
+              "en": "Well, come... Let me introduce Jean-Luc Amyot, a friend from college."
             },
             {
               "speaker": "A",
-              "fr": "Bonjour. Ça me fait plaisir de te rencontrer."
+              "fr": "Bonjour. Ça me fait plaisir de te rencontrer.",
+              "en": "Hello. It's a pleasure to meet you."
             }
           ]
         },
@@ -121,11 +137,13 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Le monsieur, là-bas, c’est l’agent de dotation?"
+              "fr": "Le monsieur, là-bas, c’est l’agent de dotation?",
+              "en": "The man over there, is he the staffing officer?"
             },
             {
               "speaker": "B",
-              "fr": "Non, c’est Raymond Olivier, le nouveau comptable."
+              "fr": "Non, c’est Raymond Olivier, le nouveau comptable.",
+              "en": "No, that's Raymond Olivier, the new accountant."
             }
           ]
         },
@@ -135,15 +153,18 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Bonjour, Madame. Je suis au bureau de monsieur Morissette?"
+              "fr": "Bonjour, Madame. Je suis au bureau de monsieur Morissette?",
+              "en": "Hello, Madam. Is this Mr. Morissette's office?"
             },
             {
               "speaker": "B",
-              "fr": "Oui, Monsieur."
+              "fr": "Oui, Monsieur.",
+              "en": "Yes, sir."
             },
             {
               "speaker": "A",
-              "fr": "Je m’appelle Louis Beaulieu. Je n’ai pas de rendez-vous, mais j’aimerais rencontrer monsieur Morissette. Est-ce que c’est possible?"
+              "fr": "Je m’appelle Louis Beaulieu. Je n’ai pas de rendez-vous, mais j’aimerais rencontrer monsieur Morissette. Est-ce que c’est possible?",
+              "en": "My name is Louis Beaulieu. I don't have an appointment, but I'd like to meet Mr. Morissette. Is that possible?"
             }
           ]
         },
@@ -153,19 +174,23 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Bonjour. Sergent Guy Lalonde, de la GRC."
+              "fr": "Bonjour. Sergent Guy Lalonde, de la GRC.",
+              "en": "Hello. Sergeant Guy Lalonde, from the RCMP."
             },
             {
               "speaker": "B",
-              "fr": "Oui... Vous êtes ici pour quoi?"
+              "fr": "Oui... Vous êtes ici pour quoi?",
+              "en": "Yes... What are you here for?"
             },
             {
               "speaker": "A",
-              "fr": "C’est bien vous, Yvon Poulin?"
+              "fr": "C’est bien vous, Yvon Poulin?",
+              "en": "You're Yvon Poulin, right?"
             },
             {
               "speaker": "B",
-              "fr": "Oui, c’est moi."
+              "fr": "Oui, c’est moi.",
+              "en": "Yes, that's me."
             }
           ]
         },
@@ -175,11 +200,13 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Bonjour. Permettez-moi de me présenter : Jean Cormier. Je suis fonctionnaire au ministère des Finances."
+              "fr": "Bonjour. Permettez-moi de me présenter : Jean Cormier. Je suis fonctionnaire au ministère des Finances.",
+              "en": "Hello. Allow me to introduce myself: Jean Cormier. I'm a public servant at the Department of Finance."
             },
             {
               "speaker": "B",
-              "fr": "Enchanté. Je m’appelle Arthur Pigeon. Je suis ingénieur au ministère des Transports."
+              "fr": "Enchanté. Je m’appelle Arthur Pigeon. Je suis ingénieur au ministère des Transports.",
+              "en": "Pleased to meet you. My name is Arthur Pigeon. I'm an engineer at the Department of Transport."
             }
           ]
         },
@@ -189,19 +216,23 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Bureau des passeports. Good afternoon."
+              "fr": "Bureau des passeports. Good afternoon.",
+              "en": "Passport office. Good afternoon."
             },
             {
               "speaker": "B",
-              "fr": "Oui. Bonjour. J’aimerais parler à madame Desmarais, s’il vous plaît."
+              "fr": "Oui. Bonjour. J’aimerais parler à madame Desmarais, s’il vous plaît.",
+              "en": "Yes. Hello. I'd like to speak to Mrs. Desmarais, please."
             },
             {
               "speaker": "A",
-              "fr": "Oui. C’est de la part de qui?"
+              "fr": "Oui. C’est de la part de qui?",
+              "en": "Yes. Who's calling?"
             },
             {
               "speaker": "B",
-              "fr": "Ginette Lamontagne."
+              "fr": "Ginette Lamontagne.",
+              "en": "Ginette Lamontagne."
             }
           ]
         },
@@ -211,11 +242,13 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Je cherche Paul Mubamba. C’est vous?"
+              "fr": "Je cherche Paul Mubamba. C’est vous?",
+              "en": "I'm looking for Paul Mubamba. Is that you?"
             },
             {
               "speaker": "B",
-              "fr": "Non. C’est le monsieur, là-bas."
+              "fr": "Non. C’est le monsieur, là-bas.",
+              "en": "No. It's the man over there."
             }
           ]
         },
@@ -225,19 +258,23 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Bureau de la directrice. Good morning."
+              "fr": "Bureau de la directrice. Good morning.",
+              "en": "Director's office. Good morning."
             },
             {
               "speaker": "B",
-              "fr": "Bonjour, Monsieur. Pouvez-vous me dire qui est présentement directeur du service?"
+              "fr": "Bonjour, Monsieur. Pouvez-vous me dire qui est présentement directeur du service?",
+              "en": "Hello, sir. Can you tell me who is currently the director of the department?"
             },
             {
               "speaker": "A",
-              "fr": "C’est madame Colette Laplaine."
+              "fr": "C’est madame Colette Laplaine.",
+              "en": "That's Mrs. Colette Laplaine."
             },
             {
               "speaker": "B",
-              "fr": "Merci."
+              "fr": "Merci.",
+              "en": "Thank you."
             }
           ]
         },
@@ -247,11 +284,13 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Je m’appelle François Régimbald. Et toi?"
+              "fr": "Je m’appelle François Régimbald. Et toi?",
+              "en": "My name is François Régimbald. And you?"
             },
             {
               "speaker": "B",
-              "fr": "Moi, c’est Lise Dompierre."
+              "fr": "Moi, c’est Lise Dompierre.",
+              "en": "I'm Lise Dompierre."
             }
           ]
         },
@@ -261,15 +300,18 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Monsieur Richard, j’ai le plaisir de vous présenter madame Marie Pouliot, notre nouvelle employée."
+              "fr": "Monsieur Richard, j’ai le plaisir de vous présenter madame Marie Pouliot, notre nouvelle employée.",
+              "en": "Mr. Richard, I have the pleasure of introducing Mrs. Marie Pouliot, our new employee."
             },
             {
               "speaker": "B",
-              "fr": "Très heureux de vous connaître, Madame."
+              "fr": "Très heureux de vous connaître, Madame.",
+              "en": "Very pleased to meet you, Madam."
             },
             {
               "speaker": "C",
-              "fr": "Et moi aussi, monsieur Richard."
+              "fr": "Et moi aussi, monsieur Richard.",
+              "en": "Likewise, Mr. Richard."
             }
           ]
         },
@@ -279,27 +321,33 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "C’est toi, Denis?"
+              "fr": "C’est toi, Denis?",
+              "en": "Is that you, Denis?"
             },
             {
               "speaker": "B",
-              "fr": "Oui, c’est moi. Euh... Qui parle?"
+              "fr": "Oui, c’est moi. Euh... Qui parle?",
+              "en": "Yes, it's me. Uh... Who's speaking?"
             },
             {
               "speaker": "A",
-              "fr": "C’est moi, Monique. Monique Rouleau."
+              "fr": "C’est moi, Monique. Monique Rouleau.",
+              "en": "It's me, Monique. Monique Rouleau."
             },
             {
               "speaker": "B",
-              "fr": "Ah oui! Comment ça va, Monique?"
+              "fr": "Ah oui! Comment ça va, Monique?",
+              "en": "Oh yes! How are you, Monique?"
             },
             {
               "speaker": "A",
-              "fr": "Très bien, merci. Et toi?"
+              "fr": "Très bien, merci. Et toi?",
+              "en": "Very well, thank you. And you?"
             },
             {
               "speaker": "B",
-              "fr": "Pas mal."
+              "fr": "Pas mal.",
+              "en": "Not bad."
             }
           ]
         },
@@ -309,30 +357,35 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Salut, Rolande. Comment vas-tu?"
+              "fr": "Salut, Rolande. Comment vas-tu?",
+              "en": "Hi, Rolande. How are you?"
             },
             {
               "speaker": "B",
-              "fr": "Pas mal du tout."
+              "fr": "Pas mal du tout.",
+              "en": "Not bad at all."
             },
             {
               "speaker": "A",
-              "fr": "Et qui est avec toi?"
+              "fr": "Et qui est avec toi?",
+              "en": "And who's with you?"
             },
             {
               "speaker": "B",
-              "fr": "Ah! excuse-moi. Je te présente Catherine, ma nièce."
+              "fr": "Ah! excuse-moi. Je te présente Catherine, ma nièce.",
+              "en": "Oh! Excuse me. Let me introduce Catherine, my niece."
             },
             {
               "speaker": "C",
-              "fr": "Bonjour."
+              "fr": "Bonjour.",
+              "en": "Hello."
             }
           ]
         }
       ],
       "exampleTexts": [
         {
-          "title": "Activité 30 — Grille d’écoute",
+          "title": "Grille d’écoute",
           "table": {
             "headers": [
               "",
@@ -401,43 +454,62 @@
               ]
             ]
           },
-          "en": "Use this grid as listening/role-play material for first meetings in a work group."
+          "en": "Use this grid as listening/role-play material for first meetings in a work group.",
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "fr": "Activité 32 — Demander à quelqu’un de s’identifier\nComment vous appelez-vous? = What is your name?\n(Quel est) votre nom? = What is your name?\nQu’est-ce que c’est, votre nom? = What is your name? (familier)\nVous vous appelez...? = Your name is...?\nVous êtes...? = You are...?\n(C’est) de la part de qui? = Who is calling?\nQui est à l’appareil? = Who is speaking?\n\nS’identifier / se présenter\nJe m’appelle Jeanne Bédard. / Je m’appelle...\n(Mon nom,) c’est... / Moi, c’est...\nJe me présente : Luc Proulx.\n(C’est) de la part de Pierre.\nIci Jean-Jacques Parent.\nHuguette Leroux, à l’appareil.",
-          "en": "Core OF1 formulas for asking a name and identifying yourself."
+          "fr": "Comment vous appelez-vous? = What is your name?\n(Quel est) votre nom? = What is your name?\nQu’est-ce que c’est, votre nom? = What is your name? (familier)\nVous vous appelez...? = Your name is...?\nVous êtes...? = You are...?\n(C’est) de la part de qui? = Who is calling?\nQui est à l’appareil? = Who is speaking?\n\nS’identifier / se présenter\nJe m’appelle Jeanne Bédard. / Je m’appelle...\n(Mon nom,) c’est... / Moi, c’est...\nJe me présente : Luc Proulx.\n(C’est) de la part de Pierre.\nIci Jean-Jacques Parent.\nHuguette Leroux, à l’appareil.",
+          "en": "Core OF1 formulas for asking a name and identifying yourself.",
+          "title": "Demander à quelqu’un de s’identifier",
+          "help": "Each line pairs a French expression with its English meaning — tap or hover a line to review it."
         },
         {
-          "fr": "Activité 32 — Vérifier l’identité d’une personne\nVous êtes bien Paul Olivier? / Vous êtes le technicien?\nC’est Jean? (téléphone)\nC’est bien madame Renaud? (téléphone)\nJacqueline, c’est bien vous?\nLa traductrice, c’est bien vous?",
-          "en": "Use « bien » to confirm that the person is the expected person."
+          "fr": "Vous êtes bien Paul Olivier? / Vous êtes le technicien?\nC’est Jean? (téléphone)\nC’est bien madame Renaud? (téléphone)\nJacqueline, c’est bien vous?\nLa traductrice, c’est bien vous?",
+          "en": "Use « bien » to confirm that the person is the expected person.",
+          "title": "Vérifier l’identité d’une personne",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Activité 34 — Demander et vérifier l’identité d’une tierce personne\nComment est-ce qu’il s’appelle? / Comment s’appelle-t-elle?\nQui est-ce? / C’est qui? (familier)\nQui c’est, la nouvelle employée? (familier)\nComment il s’appelle, lui? (familier)\nC’est quoi, son nom? (familier)\nC’est bien Yves Tousignant? / Yves Tousignant, c’est bien son nom?\nC’est bien lui, le nouveau patron?\n\nIdentifier et présenter une tierce personne\nC’est Yves Tousignant.\nElle s’appelle Mélanie Vaillancourt.\nElle travaille à Statistique Canada.\nElle est analyste-programmeuse.\nJe vous présente notre nouveau secrétaire, Denis Blouin.\nJe te présente mon ami, Luc.\nJ’ai le plaisir / l’honneur de vous présenter notre conférencière, madame Paré.",
-          "en": "Third-person identity questions and presentation formulas."
+          "fr": "Comment est-ce qu’il s’appelle? / Comment s’appelle-t-elle?\nQui est-ce? / C’est qui? (familier)\nQui c’est, la nouvelle employée? (familier)\nComment il s’appelle, lui? (familier)\nC’est quoi, son nom? (familier)\nC’est bien Yves Tousignant? / Yves Tousignant, c’est bien son nom?\nC’est bien lui, le nouveau patron?\n\nIdentifier et présenter une tierce personne\nC’est Yves Tousignant.\nElle s’appelle Mélanie Vaillancourt.\nElle travaille à Statistique Canada.\nElle est analyste-programmeuse.\nJe vous présente notre nouveau secrétaire, Denis Blouin.\nJe te présente mon ami, Luc.\nJ’ai le plaisir / l’honneur de vous présenter notre conférencière, madame Paré.",
+          "en": "Third-person identity questions and presentation formulas.",
+          "title": "Demander et vérifier l’identité d’une tierce personne",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Stratégies de communication\nPourriez-vous répéter, s’il vous plaît?\nPouvez-vous parler plus fort / plus lentement, s’il vous plaît?\nQu’est-ce que ça veut dire? / Qu’est-ce que ça signifie?\nQuel est le mot pour...? / Comment dit-on ... en français?\nPourriez-vous épeler ce mot, s’il vous plaît?",
-          "en": "Communication-repair formulas from activity 11."
+          "fr": "Pourriez-vous répéter, s’il vous plaît?\nPouvez-vous parler plus fort / plus lentement, s’il vous plaît?\nQu’est-ce que ça veut dire? / Qu’est-ce que ça signifie?\nQuel est le mot pour...? / Comment dit-on ... en français?\nPourriez-vous épeler ce mot, s’il vous plaît?",
+          "en": "Communication-repair formulas from activity 11.",
+          "title": "Stratégies de communication",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Pronoms sujets et être\nJe suis / Tu es / Il est / Elle est / On est / Nous sommes / Vous êtes / Ils sont / Elles sont\nC’est = it is; Ce sont = they are.",
-          "en": "Subject pronouns and être in the present."
+          "fr": "Je suis / Tu es / Il est / Elle est / On est / Nous sommes / Vous êtes / Ils sont / Elles sont\nC’est = it is; Ce sont = they are.",
+          "en": "Subject pronouns and être in the present.",
+          "title": "Pronoms sujets et être",
+          "help": "Each line pairs a French expression with its English meaning — tap or hover a line to review it."
         },
         {
-          "fr": "Verbes en -er au présent\ntravailler: je travaille, tu travailles, il/elle/on travaille, nous travaillons, vous travaillez, ils/elles travaillent.\nMême modèle: demeurer, habiter, chercher, classer, remplacer, recommander.",
-          "en": "Regular -er present-tense pattern."
+          "fr": "travailler: je travaille, tu travailles, il/elle/on travaille, nous travaillons, vous travaillez, ils/elles travaillent.\nMême modèle: demeurer, habiter, chercher, classer, remplacer, recommander.",
+          "en": "Regular -er present-tense pattern.",
+          "title": "Verbes en -er au présent",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Formes interrogatives\nElle est fonctionnaire? / Est-ce qu’elle est fonctionnaire? / Es-tu fonctionnaire?\nQui parle? / Qui est à l’appareil?\nQuel est votre nom? / Quelle est votre profession? / Quels sont vos prénoms? / Quelles sont vos fonctions?",
-          "en": "Yes/no questions and question-word forms."
+          "fr": "Elle est fonctionnaire? / Est-ce qu’elle est fonctionnaire? / Es-tu fonctionnaire?\nQui parle? / Qui est à l’appareil?\nQuel est votre nom? / Quelle est votre profession? / Quels sont vos prénoms? / Quelles sont vos fonctions?",
+          "en": "Yes/no questions and question-word forms.",
+          "title": "Formes interrogatives",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Tutoiement / vouvoiement\nTu: enfants, amis, collègues familiers.\nVous: personne inconnue, contexte de service, supérieur, personne plus âgée, enseignant, monsieur/madame + nom.",
-          "en": "Register guidance for tu and vous."
+          "fr": "Tu: enfants, amis, collègues familiers.\nVous: personne inconnue, contexte de service, supérieur, personne plus âgée, enseignant, monsieur/madame + nom.",
+          "en": "Register guidance for tu and vous.",
+          "title": "Tutoiement / vouvoiement",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Alphabet et orthographe\nSignalez les particularités: accent aigu, accent grave, accent circonflexe, cédille, tréma, trait d’union, apostrophe, majuscule, minuscule.\nExemple: Guèvremont = G-U-E accent grave V-R-E-M-O-N-T.",
-          "en": "Spelling names and street names."
+          "fr": "Signalez les particularités: accent aigu, accent grave, accent circonflexe, cédille, tréma, trait d’union, apostrophe, majuscule, minuscule.\nExemple: Guèvremont = G-U-E accent grave V-R-E-M-O-N-T.",
+          "en": "Spelling names and street names.",
+          "title": "Alphabet et orthographe",
+          "help": "Each line pairs a French expression with its English meaning — tap or hover a line to review it."
         }
       ]
     },

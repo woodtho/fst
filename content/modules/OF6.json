@@ -85,7 +85,7 @@
       ],
       "exampleTexts": [
         {
-          "title": "Activité 2 — Nombres cardinaux",
+          "title": "Nombres cardinaux",
           "table": {
             "headers": [
               "Type",
@@ -113,10 +113,11 @@
                 "27,50 $, 565,75 $, 819,99 $"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 10 — Nombres collectifs",
+          "title": "Nombres collectifs",
           "table": {
             "headers": [
               "Approximation",
@@ -156,10 +157,11 @@
                 "environ 1000"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 16 — Données chiffrées",
+          "title": "Données chiffrées",
           "table": {
             "headers": [
               "Type",
@@ -191,10 +193,11 @@
                 "3 580 000"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 21 — Démonstratifs",
+          "title": "Démonstratifs",
           "table": {
             "headers": [
               "Genre / nombre",
@@ -223,10 +226,11 @@
                 "celles-là"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 26 — Questions avec combien",
+          "title": "Questions avec combien",
           "table": {
             "headers": [
               "Structure",
@@ -254,10 +258,11 @@
                 "À combien de gestionnaires régionaux écris-tu?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 28 — Marché aux puces",
+          "title": "Marché aux puces",
           "table": {
             "headers": [
               "Appel",
@@ -303,7 +308,8 @@
                 "568-7437"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

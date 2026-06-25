@@ -43,19 +43,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Qu'est-ce qui s'est passé hier soir?"
+              "fr": "Qu'est-ce qui s'est passé hier soir?",
+              "en": "What happened last night?"
             },
             {
               "speaker": "B",
-              "text": "Il y a eu un accident au coin de la rue."
+              "fr": "Il y a eu un accident au coin de la rue.",
+              "en": "There was an accident at the corner of the street."
             },
             {
               "speaker": "A",
-              "text": "Est-ce qu'il y a eu des blessés?"
+              "fr": "Est-ce qu'il y a eu des blessés?",
+              "en": "Were there any injuries?"
             },
             {
               "speaker": "B",
-              "text": "Non, mais il s'est produit beaucoup de dommages."
+              "fr": "Non, mais il s'est produit beaucoup de dommages.",
+              "en": "No, but there was a lot of damage."
             }
           ]
         },
@@ -64,19 +68,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Est-ce que la réunion a eu lieu ce matin?"
+              "fr": "Est-ce que la réunion a eu lieu ce matin?",
+              "en": "Did the meeting take place this morning?"
             },
             {
               "speaker": "B",
-              "text": "Non, elle a été annulée."
+              "fr": "Non, elle a été annulée.",
+              "en": "No, it was cancelled."
             },
             {
               "speaker": "A",
-              "text": "Quand est-ce qu'elle va se tenir?"
+              "fr": "Quand est-ce qu'elle va se tenir?",
+              "en": "When is it going to be held?"
             },
             {
               "speaker": "B",
-              "text": "Elle aura lieu demain à 9 h."
+              "fr": "Elle aura lieu demain à 9 h.",
+              "en": "It will take place tomorrow at 9 a.m."
             }
           ]
         }
@@ -117,7 +125,8 @@
                 "La partie s'est déroulée à vive allure."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Constructions impersonnelles",
@@ -148,7 +157,8 @@
                 "Il se passe des choses étonnantes."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Annulation et tenue",
@@ -179,7 +189,8 @@
                 "Il y a eu une rencontre."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

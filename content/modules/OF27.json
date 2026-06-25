@@ -81,11 +81,13 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Comment est-ce que je remplace la cartouche?"
+              "fr": "Comment est-ce que je remplace la cartouche?",
+              "en": "How do I replace the cartridge?"
             },
             {
               "speaker": "B",
-              "fr": "D’abord, ouvre le couvercle. Ensuite, retire l’ancienne cartouche et insère la nouvelle."
+              "fr": "D’abord, ouvre le couvercle. Ensuite, retire l’ancienne cartouche et insère la nouvelle.",
+              "en": "First, open the lid. Then remove the old cartridge and insert the new one."
             }
           ]
         },
@@ -94,11 +96,13 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "En ce qui concerne la photocopieuse, elle fonctionne bien."
+              "fr": "En ce qui concerne la photocopieuse, elle fonctionne bien.",
+              "en": "As for the photocopier, it works well."
             },
             {
               "speaker": "B",
-              "fr": "À propos, sais-tu comment enlever une feuille coincée?"
+              "fr": "À propos, sais-tu comment enlever une feuille coincée?",
+              "en": "By the way, do you know how to clear a jammed sheet?"
             }
           ]
         }
@@ -106,11 +110,13 @@
       "exampleTexts": [
         {
           "title": "Installer un ordinateur",
-          "fr": "D’abord, déballez l’ordinateur. Ensuite, branchez le moniteur, la souris et le clavier. Enfin, connectez l’appareil à l’imprimante."
+          "fr": "D’abord, déballez l’ordinateur. Ensuite, branchez le moniteur, la souris et le clavier. Enfin, connectez l’appareil à l’imprimante.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
           "title": "Décrire une position",
-          "fr": "Il s’est assis, puis il s’est penché vers l’avant. Après l’exercice, il s’est allongé sur le plancher."
+          "fr": "Il s’est assis, puis il s’est penché vers l’avant. Après l’exercice, il s’est allongé sur le plancher.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         }
       ]
     },

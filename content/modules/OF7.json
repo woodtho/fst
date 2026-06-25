@@ -70,7 +70,7 @@
       ],
       "exampleTexts": [
         {
-          "title": "Activité 4 — Verbes de déplacement",
+          "title": "Verbes de déplacement",
           "table": {
             "headers": [
               "Verbe",
@@ -110,10 +110,11 @@
                 "prendre le même chemin"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 8 — Aller et venir",
+          "title": "Aller et venir",
           "table": {
             "headers": [
               "Sujet",
@@ -152,10 +153,11 @@
                 "viennent"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 13 — Impératif de déplacement",
+          "title": "Impératif de déplacement",
           "table": {
             "headers": [
               "Infinitif",
@@ -195,10 +197,11 @@
                 "continuons"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 21 et 23 — Y et en",
+          "title": "Y et en",
           "table": {
             "headers": [
               "Pronom",
@@ -227,10 +230,11 @@
                 "On vient du musée -> On en vient."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 29 — Demander un trajet",
+          "title": "Demander un trajet",
           "table": {
             "headers": [
               "Formule",
@@ -254,10 +258,11 @@
                 "Pour aller à Montréal, par quelle route est-ce que je passe?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 35 — Formules de courtoisie",
+          "title": "Formules de courtoisie",
           "table": {
             "headers": [
               "Fonction",
@@ -281,10 +286,11 @@
                 "Je vous en prie. / De rien."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 44 — Vérifier l’exactitude",
+          "title": "Vérifier l’exactitude",
           "table": {
             "headers": [
               "Situation",
@@ -308,7 +314,8 @@
                 "Si je comprends bien, vous êtes pas mal débordés?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

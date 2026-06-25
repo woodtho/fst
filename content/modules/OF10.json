@@ -45,15 +45,18 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Il faut envoyer la note de service aujourd'hui."
+              "fr": "Il faut envoyer la note de service aujourd'hui.",
+              "en": "The memo has to be sent today."
             },
             {
               "speaker": "B",
-              "text": "Est-ce que je dois aussi la faire approuver?"
+              "fr": "Est-ce que je dois aussi la faire approuver?",
+              "en": "Do I also have to get it approved?"
             },
             {
               "speaker": "A",
-              "text": "Oui, et tu peux la transmettre aux gestionnaires ensuite."
+              "fr": "Oui, et tu peux la transmettre aux gestionnaires ensuite.",
+              "en": "Yes, and then you can forward it to the managers."
             }
           ]
         },
@@ -62,19 +65,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Qui est responsable de la vérification?"
+              "fr": "Qui est responsable de la vérification?",
+              "en": "Who is responsible for the check?"
             },
             {
               "speaker": "B",
-              "text": "C'est Nadia qui va la faire."
+              "fr": "C'est Nadia qui va la faire.",
+              "en": "Nadia is the one who'll do it."
             },
             {
               "speaker": "A",
-              "text": "Pour quand est-ce qu'il faut terminer?"
+              "fr": "Pour quand est-ce qu'il faut terminer?",
+              "en": "By when does it have to be finished?"
             },
             {
               "speaker": "B",
-              "text": "Il faudra remettre le dossier vendredi matin."
+              "fr": "Il faudra remettre le dossier vendredi matin.",
+              "en": "The file will have to be handed in Friday morning."
             }
           ]
         }
@@ -110,7 +117,8 @@
                 "Voulez-vous préparer une ébauche?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Pronoms objets utiles",
@@ -142,7 +150,8 @@
                 "Vous devez y répondre."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Impératif avec pronoms",
@@ -169,7 +178,8 @@
                 "Aide-moi à animer la réunion."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Futur proche et futur simple",
@@ -196,7 +206,8 @@
                 "Il faudra annuler la réunion."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Délais et responsabilités",
@@ -223,7 +234,8 @@
                 "C'est possible d'avoir ça aujourd'hui?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Vocabulaire informatique",
@@ -250,10 +262,11 @@
                 "cliquer, doublecliquer, télécharger, sauvegarder"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 56 — Tâches et responsables",
+          "title": "Tâches et responsables",
           "table": {
             "headers": [
               "Tâche",
@@ -281,7 +294,8 @@
                 "un traiteur"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

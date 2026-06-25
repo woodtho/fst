@@ -89,15 +89,18 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Vous m’aviez demandé de vérifier les résultats du sondage."
+              "fr": "Vous m’aviez demandé de vérifier les résultats du sondage.",
+              "en": "You had asked me to check the survey results."
             },
             {
               "speaker": "B",
-              "text": "Oui. Qu’est-ce que l’analyse a révélé?"
+              "fr": "Oui. Qu’est-ce que l’analyse a révélé?",
+              "en": "Yes. What did the analysis reveal?"
             },
             {
               "speaker": "A",
-              "text": "Les résultats ont démontré que la nouvelle méthode est plus efficace."
+              "fr": "Les résultats ont démontré que la nouvelle méthode est plus efficace.",
+              "en": "The results showed that the new method is more effective."
             }
           ]
         }
@@ -105,11 +108,10 @@
       "exampleTexts": [
         {
           "title": "Compte rendu bref",
-          "body": "À la suite de votre demande, nous avons vérifié les données du projet. L’analyse a révélé deux inexactitudes, qui ont été rectifiées par l’équipe responsable."
-        },
-        {
-          "title": "Note de fin",
-          "body": "Pour parler d’un projet, commencez par rappeler la demande, dites quelle vérification ou recherche a été faite, puis annoncez clairement ce que les résultats ont révélé."
+          "body": "À la suite de votre demande, nous avons vérifié les données du projet. L’analyse a révélé deux inexactitudes, qui ont été rectifiées par l’équipe responsable.",
+          "fr": "Voici un bref compte rendu de la réunion. = Here is a brief summary of the meeting.\nEn résumé, le projet avance bien. = In short, the project is progressing well.\nLes points principaux sont les suivants. = The main points are as follows.",
+          "en": "Opening lines for a short report.",
+          "help": "Use these to introduce a brief summary or report."
         }
       ]
     },

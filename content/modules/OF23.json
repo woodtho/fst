@@ -43,27 +43,33 @@
           "lines": [
             {
               "speaker": "Chef",
-              "fr": "Le projet s’échelonnera sur une période de trois mois, du 1er mars au 31 mai."
+              "fr": "Le projet s’échelonnera sur une période de trois mois, du 1er mars au 31 mai.",
+              "en": "The project will span three months, from March 1 to May 31."
             },
             {
               "speaker": "Chef",
-              "fr": "Cinq agents seront affectés à l’étude préliminaire."
+              "fr": "Cinq agents seront affectés à l’étude préliminaire.",
+              "en": "Five officers will be assigned to the preliminary study."
             },
             {
               "speaker": "Chef",
-              "fr": "L’étude statistique devrait coûter entre 30 000 $ et 40 000 $."
+              "fr": "L’étude statistique devrait coûter entre 30 000 $ et 40 000 $.",
+              "en": "The statistical study should cost between $30,000 and $40,000."
             },
             {
               "speaker": "Chef",
-              "fr": "Les agents s’installeront au troisième étage et les réunions auront lieu à la pièce 208."
+              "fr": "Les agents s’installeront au troisième étage et les réunions auront lieu à la pièce 208.",
+              "en": "The officers will be set up on the third floor and the meetings will take place in room 208."
             },
             {
               "speaker": "Employé",
-              "fr": "À quelle fréquence auront lieu les réunions?"
+              "fr": "À quelle fréquence auront lieu les réunions?",
+              "en": "How often will the meetings take place?"
             },
             {
               "speaker": "Chef",
-              "fr": "Deux fois par semaine."
+              "fr": "Deux fois par semaine.",
+              "en": "Twice a week."
             }
           ]
         }
@@ -109,11 +115,13 @@
                 "On était à la pièce 214."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Expressions de gestion de projet",
-          "fr": "se fixer une échéance\nrespecter les échéances\nfaire le point sur un projet\nconfier un projet à quelqu’un\nmettre un prototype à l’essai\nfaire le bilan d’un projet\nmettre en oeuvre une décision"
+          "fr": "se fixer une échéance\nrespecter les échéances\nfaire le point sur un projet\nconfier un projet à quelqu’un\nmettre un prototype à l’essai\nfaire le bilan d’un projet\nmettre en oeuvre une décision",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         }
       ]
     },

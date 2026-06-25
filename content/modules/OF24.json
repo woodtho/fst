@@ -75,15 +75,18 @@
           "lines": [
             {
               "speaker": "Paul",
-              "fr": "Après avoir adopté le compte rendu, on abordera les points à l’ordre du jour."
+              "fr": "Après avoir adopté le compte rendu, on abordera les points à l’ordre du jour.",
+              "en": "After adopting the minutes, we'll move on to the items on the agenda."
             },
             {
               "speaker": "Joël",
-              "fr": "Dès qu’on aura terminé la réunion, je rencontrerai la consultante."
+              "fr": "Dès qu’on aura terminé la réunion, je rencontrerai la consultante.",
+              "en": "As soon as we've finished the meeting, I'll meet with the consultant."
             },
             {
               "speaker": "Émilie",
-              "fr": "J’aviserai mon équipe dès notre prochaine rencontre."
+              "fr": "J’aviserai mon équipe dès notre prochaine rencontre.",
+              "en": "I'll inform my team at our next meeting."
             }
           ]
         },
@@ -92,15 +95,18 @@
           "lines": [
             {
               "speaker": "Bertrand",
-              "fr": "Avant de réserver une chambre, je vais vérifier les prix."
+              "fr": "Avant de réserver une chambre, je vais vérifier les prix.",
+              "en": "Before booking a room, I'll check the prices."
             },
             {
               "speaker": "Annie",
-              "fr": "La semaine précédente, j’avais envoyé deux courriels."
+              "fr": "La semaine précédente, j’avais envoyé deux courriels.",
+              "en": "The previous week, I had sent two emails."
             },
             {
               "speaker": "Marie",
-              "fr": "On devrait se revoir plus tard, quand tout sera prêt."
+              "fr": "On devrait se revoir plus tard, quand tout sera prêt.",
+              "en": "We should meet again later, when everything is ready."
             }
           ]
         }
@@ -108,11 +114,13 @@
       "exampleTexts": [
         {
           "title": "Antériorité, simultanéité, postériorité",
-          "fr": "Avant de partir, elle vérifie le rapport. Pendant que son collègue imprime les copies, elle corrige les tableaux. Dès qu’ils auront terminé, ils enverront le dossier."
+          "fr": "Avant de partir, elle vérifie le rapport. Pendant que son collègue imprime les copies, elle corrige les tableaux. Dès qu’ils auront terminé, ils enverront le dossier.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
           "title": "Remplacer une subordonnée par un nom",
-          "fr": "avant que la réunion commence -> avant le début de la réunion; après qu’il sera parti -> après son départ; pendant que sa femme étudiait -> pendant les études de sa femme."
+          "fr": "avant que la réunion commence -> avant le début de la réunion; après qu’il sera parti -> après son départ; pendant que sa femme étudiait -> pendant les études de sa femme.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         }
       ]
     },

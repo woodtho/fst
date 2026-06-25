@@ -45,19 +45,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Est-ce qu'il y a beaucoup de dossiers à traiter?"
+              "fr": "Est-ce qu'il y a beaucoup de dossiers à traiter?",
+              "en": "Are there many files to process?"
             },
             {
               "speaker": "B",
-              "text": "Oui, plusieurs dossiers sont urgents, mais quelques-uns peuvent attendre."
+              "fr": "Oui, plusieurs dossiers sont urgents, mais quelques-uns peuvent attendre.",
+              "en": "Yes, several files are urgent, but a few can wait."
             },
             {
               "speaker": "A",
-              "text": "La plupart sont complets?"
+              "fr": "La plupart sont complets?",
+              "en": "Are most of them complete?"
             },
             {
               "speaker": "B",
-              "text": "Oui, la majorité des dossiers sont prêts."
+              "fr": "Oui, la majorité des dossiers sont prêts.",
+              "en": "Yes, the majority of the files are ready."
             }
           ]
         },
@@ -66,19 +70,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Comment allons-nous répartir le travail?"
+              "fr": "Comment allons-nous répartir le travail?",
+              "en": "How are we going to divide up the work?"
             },
             {
               "speaker": "B",
-              "text": "Chaque équipe prendra une section."
+              "fr": "Chaque équipe prendra une section.",
+              "en": "Each team will take one section."
             },
             {
               "speaker": "A",
-              "text": "Combien de dossiers par équipe?"
+              "fr": "Combien de dossiers par équipe?",
+              "en": "How many files per team?"
             },
             {
               "speaker": "B",
-              "text": "Plusieurs dossiers par équipe, selon les priorités."
+              "fr": "Plusieurs dossiers par équipe, selon les priorités.",
+              "en": "Several files per team, depending on the priorities."
             }
           ]
         }
@@ -119,7 +127,8 @@
                 "La plupart des employés sont informés."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Parties d'un groupe",
@@ -150,7 +159,8 @@
                 "Une minorité d'employés seront absents."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Répartition",
@@ -187,7 +197,8 @@
                 "Diviser la salle en deux."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Courriel — aménagement des locaux",
@@ -218,7 +229,8 @@
                 "un ensemble de casiers à courrier par service"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Tâches réparties",
@@ -253,7 +265,8 @@
                 "photocopier les dossiers par catégories et les envoyer à Montréal"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

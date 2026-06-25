@@ -180,7 +180,8 @@
               ]
             ]
           },
-          "en": "Possibility/doubt → subjunctive. Probability/near-certainty → indicative."
+          "en": "Possibility/doubt → subjunctive. Probability/near-certainty → indicative.",
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Exprimer l'impossibilité — l'improbabilité (ACTIVITÉ 1)",
@@ -204,7 +205,8 @@
               ]
             ]
           },
-          "en": "Impossibility/improbability → subjunctive (or an infinitive after « ne pas arriver à »)."
+          "en": "Impossibility/improbability → subjunctive (or an infinitive after « ne pas arriver à »).",
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Faire part de prévisions (ACTIVITÉ 4)",
@@ -236,7 +238,8 @@
               ]
             ]
           },
-          "en": "Verbs and expressions used to make a forecast."
+          "en": "Verbs and expressions used to make a forecast.",
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Subjonctif ou indicatif?",
@@ -268,7 +271,8 @@
               ]
             ]
           },
-          "en": "Left: doubt/possibility/impossibility take the subjunctive. Right: probability/certainty take the indicative."
+          "en": "Left: doubt/possibility/impossibility take the subjunctive. Right: probability/certainty take the indicative.",
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

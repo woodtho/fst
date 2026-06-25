@@ -68,23 +68,38 @@
       "exampleTexts": [
         {
           "title": "Clarifier un point de vue",
-          "body": "Généralement, cette solution fonctionne. C'est possible, mais il ne faut pas oublier les coûts. Je maintiens que le délai est trop court."
+          "body": "Généralement, cette solution fonctionne. C'est possible, mais il ne faut pas oublier les coûts. Je maintiens que le délai est trop court.",
+          "fr": "Ce que je veux dire, c'est que le délai est trop court. = What I mean is that the deadline is too short.\nAutrement dit, il faut plus de temps. = In other words, we need more time.\nLaisse-moi préciser ma pensée. = Let me clarify what I mean.\nEn fait, je parlais du deuxième rapport. = Actually, I was talking about the second report.",
+          "en": "Reformulating to make a point of view clear.",
+          "help": "Use these openers to restate an idea more clearly."
         },
         {
           "title": "Demander et donner un conseil",
-          "body": "Qu'est-ce que tu me conseilles? Si j'étais toi, je lui en parlerais. Vous pourriez commencer par clarifier vos attentes."
+          "body": "Qu'est-ce que tu me conseilles? Si j'étais toi, je lui en parlerais. Vous pourriez commencer par clarifier vos attentes.",
+          "fr": "Qu'est-ce que tu me conseilles? = What do you advise me to do?\nÀ ta place, je parlerais au gestionnaire. = If I were you, I'd talk to the manager.\nTu devrais vérifier auprès des RH. = You should check with HR.\nJe te conseille d'attendre. = I advise you to wait.",
+          "en": "Asking for and giving advice.",
+          "help": "Notice « à ta place + conditionnel » and « tu devrais »."
         },
         {
           "title": "Faire une suggestion",
-          "body": "Si on discutait de la question? Je propose qu'on se rencontre. Qu'est-ce que vous diriez de préparer un plan?"
+          "body": "Si on discutait de la question? Je propose qu'on se rencontre. Qu'est-ce que vous diriez de préparer un plan?",
+          "fr": "Je suggère qu'on reporte la réunion. = I suggest we postpone the meeting.\nEt si on essayait une autre méthode? = What if we tried another method?\nOn pourrait diviser le travail. = We could split up the work.\nPourquoi ne pas demander l'avis de Marie? = Why not ask Marie's opinion?",
+          "en": "Formulas for making a suggestion.",
+          "help": "Use these to propose an idea politely."
         },
         {
           "title": "Réagir à une suggestion",
-          "body": "C'est une excellente idée. Je vous promets de faire ça. Je ne suis pas sûr que ce soit faisable."
+          "body": "C'est une excellente idée. Je vous promets de faire ça. Je ne suis pas sûr que ce soit faisable.",
+          "fr": "C'est une bonne idée! = That's a good idea!\nJe suis d'accord avec toi. = I agree with you.\nJe ne suis pas sûr que ce soit possible. = I'm not sure that's possible.\nÇa pourrait marcher, mais... = That could work, but...",
+          "en": "Accepting, hesitating about, or rejecting a suggestion.",
+          "help": "Use these to react to someone else's idea."
         },
         {
           "title": "Persuader avec des arguments",
-          "body": "À votre place, je n'hésiterais pas : la région s'est développée, les emplois sont nombreux et l'économie est forte."
+          "body": "À votre place, je n'hésiterais pas : la région s'est développée, les emplois sont nombreux et l'économie est forte.",
+          "fr": "D'une part…, d'autre part… = On one hand…, on the other hand…\nDe plus, cette solution coûte moins cher. = Moreover, this solution costs less.\nL'avantage principal, c'est le gain de temps. = The main advantage is the time saved.\nC'est pourquoi je recommande cette option. = That's why I recommend this option.",
+          "en": "Linking words and arguments to persuade.",
+          "help": "Chain arguments with « d'une part / d'autre part / de plus »."
         }
       ]
     },

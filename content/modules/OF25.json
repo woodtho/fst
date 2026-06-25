@@ -83,19 +83,23 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Qu’est-ce qu’on fait d’abord?"
+              "fr": "Qu’est-ce qu’on fait d’abord?",
+              "en": "What do we do first?"
             },
             {
               "speaker": "B",
-              "fr": "D’abord, on établit l’ordre du jour. Ensuite, on contacte les participants."
+              "fr": "D’abord, on établit l’ordre du jour. Ensuite, on contacte les participants.",
+              "en": "First, we set the agenda. Then we contact the participants."
             },
             {
               "speaker": "A",
-              "fr": "Et la prochaine étape?"
+              "fr": "Et la prochaine étape?",
+              "en": "And the next step?"
             },
             {
               "speaker": "B",
-              "fr": "On réserve la salle et le matériel audiovisuel."
+              "fr": "On réserve la salle et le matériel audiovisuel.",
+              "en": "We book the room and the audiovisual equipment."
             }
           ]
         },
@@ -104,15 +108,18 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Pour commencer, entre ton code d’identification."
+              "fr": "Pour commencer, entre ton code d’identification.",
+              "en": "To start, enter your identification code."
             },
             {
               "speaker": "A",
-              "fr": "Après ça, choisis le type de demande."
+              "fr": "Après ça, choisis le type de demande.",
+              "en": "After that, choose the type of request."
             },
             {
               "speaker": "A",
-              "fr": "Finalement, envoie la demande à ton superviseur."
+              "fr": "Finalement, envoie la demande à ton superviseur.",
+              "en": "Finally, send the request to your supervisor."
             }
           ]
         }
@@ -120,11 +127,13 @@
       "exampleTexts": [
         {
           "title": "Processus de dotation",
-          "fr": "D’abord, on détermine les besoins. Ensuite, on rédige l’énoncé de qualités. L’étape suivante est l’évaluation des candidats. Finalement, on procède à la sélection."
+          "fr": "D’abord, on détermine les besoins. Ensuite, on rédige l’énoncé de qualités. L’étape suivante est l’évaluation des candidats. Finalement, on procède à la sélection.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
           "title": "Organisation d’une réunion",
-          "fr": "En premier lieu, on établit l’ordre du jour. Puis, on réserve la salle. Après ça, on distribue les documents. La réunion se termine par le compte rendu."
+          "fr": "En premier lieu, on établit l’ordre du jour. Puis, on réserve la salle. Après ça, on distribue les documents. La réunion se termine par le compte rendu.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         }
       ]
     },

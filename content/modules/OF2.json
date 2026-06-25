@@ -45,15 +45,18 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Lise, regarde ça! Devine ce que c’est."
+              "fr": "Lise, regarde ça! Devine ce que c’est.",
+              "en": "Lise, look at this! Guess what it is."
             },
             {
               "speaker": "B",
-              "fr": "Quel objet bizarre! Qu’est-ce que c’est?"
+              "fr": "Quel objet bizarre! Qu’est-ce que c’est?",
+              "en": "What a strange object! What is it?"
             },
             {
               "speaker": "A",
-              "fr": "C’est un taille-crayon électrique."
+              "fr": "C’est un taille-crayon électrique.",
+              "en": "It's an electric pencil sharpener."
             }
           ]
         },
@@ -63,15 +66,18 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Tiens, Jacqueline. C’est pour toi."
+              "fr": "Tiens, Jacqueline. C’est pour toi.",
+              "en": "Here, Jacqueline. This is for you."
             },
             {
               "speaker": "B",
-              "fr": "Est-ce que c’est une copie du rapport annuel?"
+              "fr": "Est-ce que c’est une copie du rapport annuel?",
+              "en": "Is this a copy of the annual report?"
             },
             {
               "speaker": "A",
-              "fr": "Non, c’est l’original. Tu dois faire des copies."
+              "fr": "Non, c’est l’original. Tu dois faire des copies.",
+              "en": "No, it's the original. You need to make copies."
             }
           ]
         },
@@ -81,11 +87,13 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Michèle, tu me prêtes ton... ton truc, là, pour écrire les dates. C’est quoi, le nom de cet objet-là?"
+              "fr": "Michèle, tu me prêtes ton... ton truc, là, pour écrire les dates. C’est quoi, le nom de cet objet-là?",
+              "en": "Michèle, can you lend me your... your thing, you know, for writing dates. What's the name of that object?"
             },
             {
               "speaker": "B",
-              "fr": "Ça s’appelle un timbre dateur. Tiens, le voilà."
+              "fr": "Ça s’appelle un timbre dateur. Tiens, le voilà.",
+              "en": "It's called a date stamp. Here it is."
             }
           ]
         },
@@ -95,39 +103,53 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Monsieur Derouin, excusez-moi. Qu’est-ce que c’est, ces formulaires-là?"
+              "fr": "Monsieur Derouin, excusez-moi. Qu’est-ce que c’est, ces formulaires-là?",
+              "en": "Mr. Derouin, excuse me. What are these forms?"
             },
             {
               "speaker": "B",
-              "fr": "C’est les nouveaux formulaires de demande de congé."
+              "fr": "C’est les nouveaux formulaires de demande de congé.",
+              "en": "Those are the new leave-request forms."
             }
           ]
         }
       ],
       "exampleTexts": [
         {
-          "fr": "Demandes d’identification\nQu’est-ce que c’est? / C’est quoi, ça? / Comment est-ce que ça s’appelle? / Quel est le titre de ce document?\n\nIdentification\nC’est un crayon. / C’est des photocopies. / Ce sont des photocopies. / Ça s’appelle une brochure.",
-          "en": "Core formulas for asking someone to identify an object or document."
+          "fr": "Qu’est-ce que c’est? / C’est quoi, ça? / Comment est-ce que ça s’appelle? / Quel est le titre de ce document?\n\nIdentification\nC’est un crayon. / C’est des photocopies. / Ce sont des photocopies. / Ça s’appelle une brochure.",
+          "en": "Core formulas for asking someone to identify an object or document.",
+          "title": "Demandes d’identification",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Noms de documents semblables en français et en anglais\nl’article, la bibliographie, la brochure, le budget, le bulletin, le contrat, le document, la documentation, la lettre, le manuel, la note, l’original, la photocopie, le plan, le programme, la publication, le rapport, le texte, la version, le volume.",
-          "en": "Document names that are identical or similar in French and English."
+          "fr": "l’article, la bibliographie, la brochure, le budget, le bulletin, le contrat, le document, la documentation, la lettre, le manuel, la note, l’original, la photocopie, le plan, le programme, la publication, le rapport, le texte, la version, le volume.",
+          "en": "Document names that are identical or similar in French and English.",
+          "title": "Noms de documents semblables en français et en anglais",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Noms de documents différents en français et en anglais\nla chemise = folder; le dossier = file/file folder; le courrier = mail; le courriel = e-mail; la demande = request; le formulaire = form; la facture = bill/invoice; le procès-verbal = minutes; l’ordre du jour = agenda; la carte = map; le tableau = chart.",
-          "en": "Document names whose French term differs from English."
+          "fr": "la chemise = folder; le dossier = file/file folder; le courrier = mail; le courriel = e-mail; la demande = request; le formulaire = form; la facture = bill/invoice; le procès-verbal = minutes; l’ordre du jour = agenda; la carte = map; le tableau = chart.",
+          "en": "Document names whose French term differs from English.",
+          "title": "Noms de documents différents en français et en anglais",
+          "help": "Each line pairs a French expression with its English meaning — tap or hover a line to review it."
         },
         {
-          "fr": "Objets et documents à mémoriser avec l’article\nle crayon, le stylo, l’ordinateur, la règle, la gomme à effacer, le fauteuil, la chaise, la bibliothèque, la clé.\nle rapport, le dossier, le texte, le communiqué, le formulaire, l’article, la brochure, le dépliant, la note de service, la photocopie, la lettre, la facture, l’annexe.",
-          "en": "High-value OF2 nouns for object/document identification."
+          "fr": "le crayon, le stylo, l’ordinateur, la règle, la gomme à effacer, le fauteuil, la chaise, la bibliothèque, la clé.\nle rapport, le dossier, le texte, le communiqué, le formulaire, l’article, la brochure, le dépliant, la note de service, la photocopie, la lettre, la facture, l’annexe.",
+          "en": "High-value OF2 nouns for object/document identification.",
+          "title": "Objets et documents à mémoriser avec l’article",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "C’est / Ce sont\nC’est un bureau. C’est des bureaux. Ce sont des bureaux.\nC’est un professeur. C’est des professeurs. Ce sont des professeurs.\nIn colloquial French, c’est is often used with plural nouns.",
-          "en": "Use c’est for singular identification; c’est des or ce sont des for plural identification."
+          "fr": "C’est un bureau. C’est des bureaux. Ce sont des bureaux.\nC’est un professeur. C’est des professeurs. Ce sont des professeurs.\nIn colloquial French, c’est is often used with plural nouns.",
+          "en": "Use c’est for singular identification; c’est des or ce sont des for plural identification.",
+          "title": "C’est / Ce sont",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
-          "fr": "Fonctions — demander et vérifier\nQu’est-ce que c’est, ça? / C’est quoi, ce document? / Comment est-ce que ça s’appelle? / Quel est le nom de cet appareil? / Quel est le titre de cet article?\nEst-ce que c’est un lexique bilingue? / C’est bien la nouvelle édition? / Ce sont bien des formulaires?",
-          "en": "Functional formulas from activities 27-28."
+          "fr": "Qu’est-ce que c’est, ça? / C’est quoi, ce document? / Comment est-ce que ça s’appelle? / Quel est le nom de cet appareil? / Quel est le titre de cet article?\nEst-ce que c’est un lexique bilingue? / C’est bien la nouvelle édition? / Ce sont bien des formulaires?",
+          "en": "Functional formulas from activities 27-28.",
+          "title": "Fonctions — demander et vérifier",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         }
       ]
     },

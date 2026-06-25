@@ -584,3 +584,71 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   .lex-pagebar .btn-row { grid-template-columns: 1fr; }
   .summary .score { font-size: 2.1rem; }
 }
+
+/* ── Translation reveal (hover on desktop, tap on mobile) ───────────────── */
+.ttip {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted var(--brand-2, #3b6bb5);
+  outline: none;
+}
+.ttip:focus-visible { box-shadow: 0 0 0 2px var(--ring, rgba(59,107,181,.5)); border-radius: 3px; }
+.ttip-mark {
+  font-size: .7em;
+  opacity: .35;
+  margin-left: .25em;
+  vertical-align: super;
+  transition: opacity .15s var(--ease, ease);
+}
+.ttip:hover .ttip-mark, .ttip:focus-within .ttip-mark { opacity: .8; }
+.ttip-pop {
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  z-index: 30;
+  margin-bottom: 6px;
+  max-width: min(34rem, 88vw);
+  width: max-content;
+  padding: .5rem .7rem;
+  background: #1f2937;
+  color: #f8fafc;
+  font-size: .9rem;
+  line-height: 1.35;
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg, 0 8px 24px rgba(0,0,0,.18));
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(3px);
+  transition: opacity .14s var(--ease, ease), transform .14s var(--ease, ease);
+  pointer-events: none;
+  white-space: normal;
+}
+.ttip-pop::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 14px;
+  border: 6px solid transparent;
+  border-top-color: #1f2937;
+}
+.ttip:hover .ttip-pop, .ttip:focus-within .ttip-pop, .ttip-pop.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* ── Activity help text ─────────────────────────────────────────────────── */
+.activity-help {
+  margin: 0 0 .75rem;
+  padding: .5rem .75rem;
+  background: var(--surface-2, #f1f5f9);
+  border-left: 3px solid var(--brand-2, #3b6bb5);
+  border-radius: 0 6px 6px 0;
+  font-size: .9rem;
+  color: var(--muted, #475569);
+}
+.activity-help::before { content: "💡 "; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ttip-pop, .ttip-mark { transition: none; }
+}

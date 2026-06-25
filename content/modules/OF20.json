@@ -43,19 +43,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Ta nouvelle collègue, peux-tu me la décrire?"
+              "fr": "Ta nouvelle collègue, peux-tu me la décrire?",
+              "en": "Your new colleague — can you describe her for me?"
             },
             {
               "speaker": "B",
-              "text": "Elle est grande, brune et elle porte souvent un tailleur vert."
+              "fr": "Elle est grande, brune et elle porte souvent un tailleur vert.",
+              "en": "She's tall, brunette, and often wears a green suit."
             },
             {
               "speaker": "A",
-              "text": "Est-ce qu'elle a un signe distinctif?"
+              "fr": "Est-ce qu'elle a un signe distinctif?",
+              "en": "Does she have any distinguishing feature?"
             },
             {
               "speaker": "B",
-              "text": "Oui, elle a un grain de beauté sur la joue droite."
+              "fr": "Oui, elle a un grain de beauté sur la joue droite.",
+              "en": "Yes, she has a beauty mark on her right cheek."
             }
           ]
         },
@@ -64,19 +68,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Que penses-tu de notre première candidate?"
+              "fr": "Que penses-tu de notre première candidate?",
+              "en": "What do you think of our first candidate?"
             },
             {
               "speaker": "B",
-              "text": "À mon avis, elle pourrait faire une bonne employée."
+              "fr": "À mon avis, elle pourrait faire une bonne employée.",
+              "en": "In my opinion, she could make a good employee."
             },
             {
               "speaker": "A",
-              "text": "Trouves-tu qu'elle est assez dynamique?"
+              "fr": "Trouves-tu qu'elle est assez dynamique?",
+              "en": "Do you find her dynamic enough?"
             },
             {
               "speaker": "B",
-              "text": "Je ne sais pas. Elle me semble un peu rigide."
+              "fr": "Je ne sais pas. Elle me semble un peu rigide.",
+              "en": "I don't know. She seems a bit rigid to me."
             }
           ]
         }
@@ -111,7 +119,8 @@
                 "une barbe, une moustache, un tatouage, un grain de beauté"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Vêtements Et Accessoires",
@@ -142,7 +151,8 @@
                 "des souliers, des bottes"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Qualités",
@@ -169,7 +179,8 @@
                 "sympathique, drôle, conciliant, serviable"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Opinions Sur Une Personne",
@@ -196,7 +207,8 @@
                 "Je suis du même avis; je suis d'accord."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Expressions Idiomatiques",
@@ -227,7 +239,8 @@
                 "se croire très important"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

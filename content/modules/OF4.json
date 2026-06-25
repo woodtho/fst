@@ -80,7 +80,7 @@
       ],
       "exampleTexts": [
         {
-          "title": "Activité 2 — Indicateurs de possession",
+          "title": "Indicateurs de possession",
           "table": {
             "headers": [
               "Forme",
@@ -129,10 +129,11 @@
                 "Julie’s / the teacher’s"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 6 — Qualités physiques",
+          "title": "Qualités physiques",
           "table": {
             "headers": [
               "Catégorie",
@@ -160,10 +161,11 @@
                 "neuf, vieux, propre, sale, d’occasion, en bon état"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 17 — Avoir au présent",
+          "title": "Avoir au présent",
           "table": {
             "headers": [
               "Sujet",
@@ -195,10 +197,11 @@
                 "ont"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 22 — Adjectifs possessifs",
+          "title": "Adjectifs possessifs",
           "table": {
             "headers": [
               "Possesseur",
@@ -244,10 +247,11 @@
                 "leurs"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 26 — Pronoms possessifs",
+          "title": "Pronoms possessifs",
           "table": {
             "headers": [
               "Possesseur",
@@ -293,10 +297,11 @@
                 "les leurs"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 46 — S’informer du possesseur",
+          "title": "S’informer du possesseur",
           "table": {
             "headers": [
               "Question",
@@ -320,10 +325,11 @@
                 "Non, c’est le rapport de Charlotte."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 51 — Syllabation",
+          "title": "Syllabation",
           "table": {
             "headers": [
               "Mot",
@@ -347,7 +353,8 @@
                 "in/ter/gou/ver/ne/men/tal"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

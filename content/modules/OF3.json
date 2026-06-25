@@ -80,7 +80,7 @@
       ],
       "exampleTexts": [
         {
-          "title": "Activité 2 — Indicateurs d’appartenance",
+          "title": "Indicateurs d’appartenance",
           "table": {
             "headers": [
               "Expression",
@@ -134,10 +134,11 @@
                 "belong to"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 6 — Articles définis contractés",
+          "title": "Articles définis contractés",
           "table": {
             "headers": [
               "Base",
@@ -159,10 +160,11 @@
                 "de la / de l’"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 9 — Faire et venir au présent",
+          "title": "Faire et venir au présent",
           "table": {
             "headers": [
               "Sujet",
@@ -201,10 +203,11 @@
                 "viennent"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 15 — Demander l’appartenance",
+          "title": "Demander l’appartenance",
           "table": {
             "headers": [
               "Question",
@@ -240,10 +243,11 @@
                 "demander l’association"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 13 — Personnes et appartenances",
+          "title": "Personnes et appartenances",
           "table": {
             "headers": [
               "Personne",
@@ -287,7 +291,8 @@
                 "Division des Communications"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

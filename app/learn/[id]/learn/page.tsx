@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getObjective, getModule, getLexiconByOf } from "@/lib/content";
+import Translatable from "@/components/Translatable";
 
 export const dynamic = "force-dynamic";
 
@@ -81,12 +82,11 @@ export default function LearnPage({ params }: { params: { id: string } }) {
       {learn.dialogues?.map((d: any, i: number) => (
         <div className="panel" key={i}>
           <h2 style={{ marginTop: 0 }}>Dialogue — {d.title}</h2>
-          <p className="muted" style={{ marginTop: 0 }}>Register: {d.register}</p>
+          <p className="muted" style={{ marginTop: 0 }}>Register: {d.register} · tap or hover a line for its English translation</p>
           {d.lines.map((l: any, j: number) => (
             <div className="dialogue-line" key={j}>
               <span className="spk">{l.speaker}</span>
-              <span className="fr">{l.fr}</span>
-              {l.en && <div className="en">{l.en}</div>}
+              <Translatable fr={l.fr ?? l.text} en={l.en} />
             </div>
           ))}
         </div>
@@ -96,6 +96,7 @@ export default function LearnPage({ params }: { params: { id: string } }) {
       {learn.exampleTexts?.map((t: any, i: number) => (
         <div className="panel" key={i}>
           <h2 style={{ marginTop: 0 }}>{exampleTitle(t)}</h2>
+          {t.help && <p className="activity-help">{t.help}</p>}
           {exampleBody(t) && <pre style={{ whiteSpace: "pre-wrap", fontFamily: "inherit" }} className="fr">{exampleBody(t)}</pre>}
           {t.table && (
             <table className="vocab-table">

@@ -90,19 +90,23 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Où est-ce que Monique s’en va?"
+              "fr": "Où est-ce que Monique s’en va?",
+              "en": "Where is Monique going?"
             },
             {
               "speaker": "B",
-              "fr": "Elle se rend chez la directrice."
+              "fr": "Elle se rend chez la directrice.",
+              "en": "She's going to the director's office."
             },
             {
               "speaker": "A",
-              "fr": "Est-ce qu’elle revient aujourd’hui?"
+              "fr": "Est-ce qu’elle revient aujourd’hui?",
+              "en": "Is she coming back today?"
             },
             {
               "speaker": "B",
-              "fr": "Oui, elle sera de retour à 13 h."
+              "fr": "Oui, elle sera de retour à 13 h.",
+              "en": "Yes, she'll be back at 1 p.m."
             }
           ]
         },
@@ -111,19 +115,23 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "À qui s’adresse cette directive?"
+              "fr": "À qui s’adresse cette directive?",
+              "en": "Who is this directive intended for?"
             },
             {
               "speaker": "B",
-              "fr": "Elle est écrite à l’intention des nouveaux agents."
+              "fr": "Elle est écrite à l’intention des nouveaux agents.",
+              "en": "It's written for the new officers."
             },
             {
               "speaker": "A",
-              "fr": "Qui est le destinataire de la lettre?"
+              "fr": "Qui est le destinataire de la lettre?",
+              "en": "Who is the recipient of the letter?"
             },
             {
               "speaker": "B",
-              "fr": "Madame Latrémouille doit l’ouvrir elle-même."
+              "fr": "Madame Latrémouille doit l’ouvrir elle-même.",
+              "en": "Mrs. Latrémouille must open it herself."
             }
           ]
         }
@@ -131,11 +139,13 @@
       "exampleTexts": [
         {
           "title": "Déplacement",
-          "fr": "Eugène se présente au Bureau des passeports. Il vient chercher un formulaire, puis il ira chercher ses photos. Le 12 juin, il se rendra au Honduras."
+          "fr": "Eugène se présente au Bureau des passeports. Il vient chercher un formulaire, puis il ira chercher ses photos. Le 12 juin, il se rendra au Honduras.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
           "title": "Pronoms relatifs",
-          "fr": "Je cherche le document qui est sur la table. Les dossiers que tu dois classer sont prêts. Le rapport dont je suis fier sera diffusé demain. La salle où la réunion a lieu est au deuxième étage."
+          "fr": "Je cherche le document qui est sur la table. Les dossiers que tu dois classer sont prêts. Le rapport dont je suis fier sera diffusé demain. La salle où la réunion a lieu est au deuxième étage.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         }
       ]
     },

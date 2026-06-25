@@ -58,19 +58,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Est-ce qu’on est vraiment obligés de faire ça?"
+              "fr": "Est-ce qu’on est vraiment obligés de faire ça?",
+              "en": "Do we really have to do that?"
             },
             {
               "speaker": "B",
-              "text": "Oui, c’est essentiel que ce soit fait aujourd’hui."
+              "fr": "Oui, c’est essentiel que ce soit fait aujourd’hui.",
+              "en": "Yes, it's essential that it be done today."
             },
             {
               "speaker": "A",
-              "text": "À quoi ça sert d’appliquer le règlement à la lettre?"
+              "fr": "À quoi ça sert d’appliquer le règlement à la lettre?",
+              "en": "What's the point of applying the rule to the letter?"
             },
             {
               "speaker": "B",
-              "text": "Ça nous évite de refaire le travail pour rien."
+              "fr": "Ça nous évite de refaire le travail pour rien.",
+              "en": "It saves us from redoing the work for nothing."
             }
           ]
         }
@@ -78,7 +82,10 @@
       "exampleTexts": [
         {
           "title": "Prioriser pendant une absence",
-          "body": "J’ai deux dossiers très importants qu’il faudrait traiter pendant mon absence. Il faut faire une recherche et répondre le plus tôt possible. Pour l’autre dossier, c’est essentiel que ça soit fait maintenant; plus on attend, plus ce sera long pour la bénéficiaire."
+          "body": "J’ai deux dossiers très importants qu’il faudrait traiter pendant mon absence. Il faut faire une recherche et répondre le plus tôt possible. Pour l’autre dossier, c’est essentiel que ça soit fait maintenant; plus on attend, plus ce sera long pour la bénéficiaire.",
+          "fr": "En cas d'absence, traitez d'abord les dossiers urgents. = In case of absence, deal with the urgent files first.\nLe reste peut attendre mon retour. = The rest can wait until I'm back.\nSi c'est urgent, adressez-vous à ma collègue. = If it's urgent, go to my colleague.",
+          "en": "Formulas for setting priorities while you are away.",
+          "help": "Use these phrases to say what must be done first and what can wait."
         }
       ]
     },

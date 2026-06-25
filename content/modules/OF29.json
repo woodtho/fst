@@ -86,19 +86,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Qui serait capable de faire les invitations?"
+              "fr": "Qui serait capable de faire les invitations?",
+              "en": "Who would be able to do the invitations?"
             },
             {
               "speaker": "B",
-              "text": "Louise serait bonne là-dedans. Elle peut faire ça."
+              "fr": "Louise serait bonne là-dedans. Elle peut faire ça.",
+              "en": "Louise would be good at that. She can do it."
             },
             {
               "speaker": "A",
-              "text": "Et qui est capable de parler en public?"
+              "fr": "Et qui est capable de parler en public?",
+              "en": "And who is able to speak in public?"
             },
             {
               "speaker": "B",
-              "text": "Pierre pourrait très bien s’occuper du discours."
+              "fr": "Pierre pourrait très bien s’occuper du discours.",
+              "en": "Pierre could handle the speech very well."
             }
           ]
         }
@@ -106,7 +110,10 @@
       "exampleTexts": [
         {
           "title": "Concours AS-04",
-          "body": "Le poste demande des compétences en rédaction, en planification et en coordination. Simon a de l’expérience dans plusieurs domaines, Catherine se débrouille bien mais ne veut plus travailler sous pression, et Alain dit qu’il n’a pas toutes les compétences voulues."
+          "body": "Le poste demande des compétences en rédaction, en planification et en coordination. Simon a de l’expérience dans plusieurs domaines, Catherine se débrouille bien mais ne veut plus travailler sous pression, et Alain dit qu’il n’a pas toutes les compétences voulues.",
+          "fr": "Le concours AS-04 est ouvert aux candidats internes. = The AS-04 competition is open to internal candidates.\nLa date limite pour postuler est le 15 mars. = The deadline to apply is March 15.\nLes candidats retenus seront convoqués en entrevue. = Selected candidates will be invited to an interview.",
+          "en": "Vocabulary for a staffing competition (concours).",
+          "help": "Read these notice sentences; tap a line for the English."
         }
       ]
     },

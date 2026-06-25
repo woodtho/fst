@@ -84,19 +84,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Quelles sont les conditions pour obtenir une avance?"
+              "fr": "Quelles sont les conditions pour obtenir une avance?",
+              "en": "What are the conditions for getting an advance?"
             },
             {
               "speaker": "B",
-              "text": "Il faut remplir le formulaire et le soumettre assez longtemps d’avance."
+              "fr": "Il faut remplir le formulaire et le soumettre assez longtemps d’avance.",
+              "en": "You have to fill out the form and submit it well in advance."
             },
             {
               "speaker": "A",
-              "text": "Est-ce possible d’être remboursé?"
+              "fr": "Est-ce possible d’être remboursé?",
+              "en": "Is it possible to be reimbursed?"
             },
             {
               "speaker": "B",
-              "text": "Oui, à condition de fournir toutes les pièces justificatives."
+              "fr": "Oui, à condition de fournir toutes les pièces justificatives.",
+              "en": "Yes, provided you supply all the supporting documents."
             }
           ]
         }
@@ -104,11 +108,10 @@
       "exampleTexts": [
         {
           "title": "Demande admissible",
-          "body": "Votre demande sera étudiée à condition que vous présentiez tous les documents requis. Il n’y aura pas moyen de la traiter sans que le dossier soit complet."
-        },
-        {
-          "title": "Note de fin",
-          "body": "Pour formuler une condition utile, indiquez clairement l’action possible, l’exigence à remplir et la conséquence si la condition n’est pas respectée."
+          "body": "Votre demande sera étudiée à condition que vous présentiez tous les documents requis. Il n’y aura pas moyen de la traiter sans que le dossier soit complet.",
+          "fr": "Votre demande est admissible. = Your request is eligible.\nElle remplit toutes les conditions. = It meets all the conditions.\nMalheureusement, cette dépense n'est pas admissible. = Unfortunately, this expense is not eligible.",
+          "en": "Saying whether a request meets the conditions.",
+          "help": "Use « admissible / non admissible » to judge a request."
         }
       ]
     },

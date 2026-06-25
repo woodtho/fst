@@ -45,19 +45,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Comment je peux obtenir ces renseignements?"
+              "fr": "Comment je peux obtenir ces renseignements?",
+              "en": "How can I get this information?"
             },
             {
               "speaker": "B",
-              "text": "Tu peux les avoir en consultant la base de données."
+              "fr": "Tu peux les avoir en consultant la base de données.",
+              "en": "You can get it by checking the database."
             },
             {
               "speaker": "A",
-              "text": "Et s'il manque des informations?"
+              "fr": "Et s'il manque des informations?",
+              "en": "And if some information is missing?"
             },
             {
               "speaker": "B",
-              "text": "Tu les trouveras en téléphonant aux Archives."
+              "fr": "Tu les trouveras en téléphonant aux Archives.",
+              "en": "You'll find it by calling the Archives."
             }
           ]
         },
@@ -66,19 +70,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Comment dois-je faire ce travail?"
+              "fr": "Comment dois-je faire ce travail?",
+              "en": "How should I do this work?"
             },
             {
               "speaker": "B",
-              "text": "Fais-le soigneusement et vérifie les données attentivement."
+              "fr": "Fais-le soigneusement et vérifie les données attentivement.",
+              "en": "Do it carefully and check the data closely."
             },
             {
               "speaker": "A",
-              "text": "Je l'envoie comment?"
+              "fr": "Je l'envoie comment?",
+              "en": "How do I send it?"
             },
             {
               "speaker": "B",
-              "text": "Par courriel, avec une copie du rapport."
+              "fr": "Par courriel, avec une copie du rapport.",
+              "en": "By email, with a copy of the report."
             }
           ]
         }
@@ -119,7 +127,8 @@
                 "J'ai terminé grâce à Rémi."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Former les adverbes en -ment",
@@ -156,7 +165,8 @@
                 "forme irrégulière fréquente"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Gérondif",
@@ -188,7 +198,8 @@
                 "On évite les erreurs en ayant les bonnes données."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Intensifier ou atténuer",
@@ -220,7 +231,8 @@
                 "Je ne suis pas du tout satisfaite."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Vérifier la compréhension",
@@ -247,7 +259,8 @@
                 "Je fais combien de photocopies? À quel moment?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

@@ -43,19 +43,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Où veux-tu que je mette les boîtes?"
+              "fr": "Où veux-tu que je mette les boîtes?",
+              "en": "Where do you want me to put the boxes?"
             },
             {
               "speaker": "B",
-              "text": "Je veux que tu les mettes ici."
+              "fr": "Je veux que tu les mettes ici.",
+              "en": "I want you to put them here."
             },
             {
               "speaker": "A",
-              "text": "Quand est-ce que tu veux que je fasse ça?"
+              "fr": "Quand est-ce que tu veux que je fasse ça?",
+              "en": "When do you want me to do that?"
             },
             {
               "speaker": "B",
-              "text": "J'aimerais que tu fasses ça tout de suite."
+              "fr": "J'aimerais que tu fasses ça tout de suite.",
+              "en": "I'd like you to do that right away."
             }
           ]
         },
@@ -64,19 +68,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Vous préférez le thé ou le café?"
+              "fr": "Vous préférez le thé ou le café?",
+              "en": "Do you prefer tea or coffee?"
             },
             {
               "speaker": "B",
-              "text": "Je préfère le thé."
+              "fr": "Je préfère le thé.",
+              "en": "I prefer tea."
             },
             {
               "speaker": "A",
-              "text": "Laquelle des deux salles préférez-vous?"
+              "fr": "Laquelle des deux salles préférez-vous?",
+              "en": "Which of the two rooms do you prefer?"
             },
             {
               "speaker": "B",
-              "text": "J'aime mieux la salle 354."
+              "fr": "J'aime mieux la salle 354.",
+              "en": "I prefer room 354."
             }
           ]
         }
@@ -107,7 +115,8 @@
                 "Je préférerais que vous soyez présents."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Déclencheurs Du Subjonctif",
@@ -134,7 +143,8 @@
                 "préférer que; aimer mieux que; aimer moins que"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Subjonctif Présent",
@@ -161,7 +171,8 @@
                 "que je sois; que vous soyez; que j'aie; que nous ayons"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Atténuer",
@@ -188,7 +199,8 @@
                 "Elle voudrait que tu arrives à l'heure."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

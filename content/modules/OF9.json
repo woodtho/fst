@@ -75,7 +75,7 @@
       ],
       "exampleTexts": [
         {
-          "title": "Activité 4 — Temps et référence temporelle",
+          "title": "Temps et référence temporelle",
           "table": {
             "headers": [
               "Référence",
@@ -95,10 +95,11 @@
                 "futur simple, futur proche"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 5 — Indicateurs de temps",
+          "title": "Indicateurs de temps",
           "table": {
             "headers": [
               "Passé",
@@ -127,10 +128,11 @@
                 "dans cinq jours"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 11 — Exemples de temps verbaux",
+          "title": "Exemples de temps verbaux",
           "table": {
             "headers": [
               "Temps",
@@ -158,10 +160,11 @@
                 "Le comité examinera toutes les recommandations."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 13 — Décrire une situation présente",
+          "title": "Décrire une situation présente",
           "table": {
             "headers": [
               "Fonction",
@@ -185,7 +188,8 @@
                 "Depuis trois ans, je participe au congrès."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

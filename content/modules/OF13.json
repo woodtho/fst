@@ -45,19 +45,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "En quelle année avez-vous commencé à Santé Canada?"
+              "fr": "En quelle année avez-vous commencé à Santé Canada?",
+              "en": "What year did you start at Health Canada?"
             },
             {
               "speaker": "B",
-              "text": "J'ai commencé en 1998. Je travaillais aux ressources humaines."
+              "fr": "J'ai commencé en 1998. Je travaillais aux ressources humaines.",
+              "en": "I started in 1998. I was working in human resources."
             },
             {
               "speaker": "A",
-              "text": "Qu'est-ce qui est arrivé ensuite?"
+              "fr": "Qu'est-ce qui est arrivé ensuite?",
+              "en": "What happened next?"
             },
             {
               "speaker": "B",
-              "text": "J'ai participé à un concours et j'ai obtenu le poste que je voulais."
+              "fr": "J'ai participé à un concours et j'ai obtenu le poste que je voulais.",
+              "en": "I entered a competition and got the position I wanted."
             }
           ]
         },
@@ -66,19 +70,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Autrefois, comment alliez-vous au bureau?"
+              "fr": "Autrefois, comment alliez-vous au bureau?",
+              "en": "In the past, how did you get to the office?"
             },
             {
               "speaker": "B",
-              "text": "Je prenais l'autobus tous les matins."
+              "fr": "Je prenais l'autobus tous les matins.",
+              "en": "I took the bus every morning."
             },
             {
               "speaker": "A",
-              "text": "Et hier?"
+              "fr": "Et hier?",
+              "en": "And yesterday?"
             },
             {
               "speaker": "B",
-              "text": "Hier, j'ai pris le train parce que l'autobus était en retard."
+              "fr": "Hier, j'ai pris le train parce que l'autobus était en retard.",
+              "en": "Yesterday I took the train because the bus was late."
             }
           ]
         }
@@ -119,7 +127,8 @@
                 "Il neigeait quand je suis arrivé."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Former l'imparfait",
@@ -156,7 +165,8 @@
                 "vous finissiez"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Être au passé composé",
@@ -188,7 +198,8 @@
                 "Tu es née à Sherbrooke."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Marqueurs de temps",
@@ -219,7 +230,8 @@
                 "jadis"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Retard et avance",
@@ -258,7 +270,8 @@
                 "get ahead"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

@@ -44,19 +44,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Je t'apporte le manuel?"
+              "fr": "Je t'apporte le manuel?",
+              "en": "Shall I bring you the manual?"
             },
             {
               "speaker": "B",
-              "text": "Ah oui! Bonne idée."
+              "fr": "Ah oui! Bonne idée.",
+              "en": "Oh yes! Good idea."
             },
             {
               "speaker": "A",
-              "text": "Est-ce que je peux aussi t'aider avec le rapport?"
+              "fr": "Est-ce que je peux aussi t'aider avec le rapport?",
+              "en": "Can I also help you with the report?"
             },
             {
               "speaker": "B",
-              "text": "Volontiers, merci."
+              "fr": "Volontiers, merci.",
+              "en": "Gladly, thank you."
             }
           ]
         },
@@ -65,19 +69,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Est-ce que je peux vous être utile?"
+              "fr": "Est-ce que je peux vous être utile?",
+              "en": "Can I be of help to you?"
             },
             {
               "speaker": "B",
-              "text": "Non merci, ça va comme ça."
+              "fr": "Non merci, ça va comme ça.",
+              "en": "No thanks, I'm fine."
             },
             {
               "speaker": "A",
-              "text": "Quelque chose à grignoter?"
+              "fr": "Quelque chose à grignoter?",
+              "en": "Something to nibble on?"
             },
             {
               "speaker": "B",
-              "text": "Merci quand même, mais je n'ai pas faim."
+              "fr": "Merci quand même, mais je n'ai pas faim.",
+              "en": "Thanks anyway, but I'm not hungry."
             }
           ]
         }
@@ -112,7 +120,8 @@
                 "Est-ce que je peux vous être utile?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Accepter",
@@ -143,7 +152,8 @@
                 "ça marche; tu parles; et comment"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Refuser",
@@ -170,7 +180,8 @@
                 "jamais de la vie; pas question; absolument pas"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Offrir Au Présent Et Au Passé",
@@ -197,7 +208,8 @@
                 "offrir, accepter, refuser"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

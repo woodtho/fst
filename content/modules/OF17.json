@@ -43,19 +43,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Pourrais-je parler à madame Latulipe?"
+              "fr": "Pourrais-je parler à madame Latulipe?",
+              "en": "Could I speak to Mrs. Latulipe?"
             },
             {
               "speaker": "B",
-              "text": "Je regrette, elle est en vacances cette semaine."
+              "fr": "Je regrette, elle est en vacances cette semaine.",
+              "en": "I'm sorry, she's on vacation this week."
             },
             {
               "speaker": "A",
-              "text": "Est-ce que madame Simard est revenue?"
+              "fr": "Est-ce que madame Simard est revenue?",
+              "en": "Has Mrs. Simard come back?"
             },
             {
               "speaker": "B",
-              "text": "Oui, elle est à son bureau."
+              "fr": "Oui, elle est à son bureau.",
+              "en": "Yes, she's at her desk."
             }
           ]
         },
@@ -64,19 +68,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Le dossier sera-t-il disponible demain après-midi?"
+              "fr": "Le dossier sera-t-il disponible demain après-midi?",
+              "en": "Will the file be available tomorrow afternoon?"
             },
             {
               "speaker": "B",
-              "text": "Oui, vous pourrez l'avoir."
+              "fr": "Oui, vous pourrez l'avoir.",
+              "en": "Yes, you'll be able to have it."
             },
             {
               "speaker": "A",
-              "text": "Il vous reste un numéro de la revue Le jour?"
+              "fr": "Il vous reste un numéro de la revue Le jour?",
+              "en": "Do you have any copies of the magazine Le jour left?"
             },
             {
               "speaker": "B",
-              "text": "Malheureusement, il n'y en a plus."
+              "fr": "Malheureusement, il n'y en a plus.",
+              "en": "Unfortunately, there are none left."
             }
           ]
         }
@@ -107,7 +115,8 @@
                 "Il sera de retour vers 2 h."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Disponibilité D'une Personne",
@@ -134,7 +143,8 @@
                 "À quelle heure seras-tu libre?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Disponibilité D'une Chose",
@@ -161,7 +171,8 @@
                 "Je ne l'ai pas sous la main."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Reste, Manque Et En",
@@ -188,7 +199,8 @@
                 "Les livres sont à votre disposition."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Questions Polies",
@@ -215,7 +227,8 @@
                 "Puis-je parler au chef du personnel, s'il vous plaît?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

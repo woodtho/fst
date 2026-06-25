@@ -70,7 +70,7 @@
       ],
       "exampleTexts": [
         {
-          "title": "Activité 8 — Indicateurs de localisation",
+          "title": "Indicateurs de localisation",
           "table": {
             "headers": [
               "Indicateur",
@@ -118,10 +118,11 @@
                 "Le bureau est au bout du couloir."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 19 — Questions avec où",
+          "title": "Questions avec où",
           "table": {
             "headers": [
               "English",
@@ -145,10 +146,11 @@
                 "Où est la sortie?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 22 — Négation",
+          "title": "Négation",
           "table": {
             "headers": [
               "Affirmatif",
@@ -172,10 +174,11 @@
                 "Ce ne sont pas des salles de classe."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 25 — Pronom en",
+          "title": "Pronom en",
           "table": {
             "headers": [
               "Question",
@@ -204,10 +207,11 @@
                 "Il n’y en a pas."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 28 — Stratégies de communication",
+          "title": "Stratégies de communication",
           "table": {
             "headers": [
               "Besoin",
@@ -235,10 +239,11 @@
                 "Pouvez-vous épeler ce mot?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 41 — Plans A et B",
+          "title": "Plans A et B",
           "table": {
             "headers": [
               "Plan A",
@@ -278,7 +283,8 @@
                 "Stationnement P1"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

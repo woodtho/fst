@@ -71,15 +71,18 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Le rapport est incomplet et l’échéance est demain."
+              "fr": "Le rapport est incomplet et l’échéance est demain.",
+              "en": "The report is incomplete and the deadline is tomorrow."
             },
             {
               "speaker": "B",
-              "text": "Si on redistribuait les tâches, Benoît pourrait refaire la dernière partie."
+              "fr": "Si on redistribuait les tâches, Benoît pourrait refaire la dernière partie.",
+              "en": "If we redistributed the tasks, Benoît could redo the last part."
             },
             {
               "speaker": "A",
-              "text": "D’accord. Quelqu’un d’autre s’occupera du budget si Benoît révise le rapport."
+              "fr": "D’accord. Quelqu’un d’autre s’occupera du budget si Benoît révise le rapport.",
+              "en": "All right. Someone else will handle the budget if Benoît revises the report."
             }
           ]
         }
@@ -87,11 +90,10 @@
       "exampleTexts": [
         {
           "title": "Hypothèse de travail",
-          "body": "Si les employés avaient reçu les données plus tôt, ils auraient pu terminer l’analyse. Maintenant, si on redistribue les tâches, on pourra respecter l’échéance."
-        },
-        {
-          "title": "Note de fin",
-          "body": "Une bonne proposition de solution nomme le problème, présente une hypothèse avec si, puis précise ce qui changera si la condition est remplie."
+          "body": "Si les employés avaient reçu les données plus tôt, ils auraient pu terminer l’analyse. Maintenant, si on redistribue les tâches, on pourra respecter l’échéance.",
+          "fr": "Partons de l'hypothèse que le budget sera approuvé. = Let's start from the assumption that the budget will be approved.\nSi c'était le cas, on commencerait en avril. = If that were the case, we'd start in April.\nSupposons que l'équipe soit au complet. = Suppose the team is complete.",
+          "en": "Stating a working hypothesis to reason about a plan.",
+          "help": "Notice the conditional and « supposons que » + subjunctive."
         }
       ]
     },

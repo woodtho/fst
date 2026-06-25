@@ -88,19 +88,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Est-ce que je pourrais partir un peu plus tôt aujourd’hui?"
+              "fr": "Est-ce que je pourrais partir un peu plus tôt aujourd’hui?",
+              "en": "Could I leave a little earlier today?"
             },
             {
               "speaker": "B",
-              "text": "Oui, je te le permets, mais assure-toi d’aviser ton équipe."
+              "fr": "Oui, je te le permets, mais assure-toi d’aviser ton équipe.",
+              "en": "Yes, I'll allow it, but make sure you inform your team."
             },
             {
               "speaker": "A",
-              "text": "Est-ce qu’on peut sortir les périodiques de la bibliothèque?"
+              "fr": "Est-ce qu’on peut sortir les périodiques de la bibliothèque?",
+              "en": "Can periodicals be taken out of the library?"
             },
             {
               "speaker": "B",
-              "text": "Non, c’est formellement interdit."
+              "fr": "Non, c’est formellement interdit.",
+              "en": "No, it's strictly forbidden."
             }
           ]
         }
@@ -108,7 +112,10 @@
       "exampleTexts": [
         {
           "title": "Autorisation conditionnelle",
-          "body": "Le comité approuve le sondage, mais il se réserve le droit de retirer son autorisation si la préparation dépasse le budget prévu."
+          "body": "Le comité approuve le sondage, mais il se réserve le droit de retirer son autorisation si la préparation dépasse le budget prévu.",
+          "fr": "J'autorise la dépense à condition que vous gardiez les reçus. = I authorize the expense, provided you keep the receipts.\nVous pouvez partir plus tôt, à condition de finir le rapport. = You may leave early, provided you finish the report.\nC'est accordé, mais seulement si le budget le permet. = It's granted, but only if the budget allows.",
+          "en": "Granting permission with a condition attached.",
+          "help": "Notice « à condition que » + subjunctive and « à condition de » + infinitive."
         }
       ]
     },

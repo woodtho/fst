@@ -45,15 +45,18 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "Pourriez-vous me faire une photocopie?"
+              "fr": "Pourriez-vous me faire une photocopie?",
+              "en": "Could you make me a photocopy?"
             },
             {
               "speaker": "B",
-              "text": "Oui, bien sûr."
+              "fr": "Oui, bien sûr.",
+              "en": "Yes, of course."
             },
             {
               "speaker": "A",
-              "text": "Je vous demanderais aussi de remettre le rapport avant jeudi."
+              "fr": "Je vous demanderais aussi de remettre le rapport avant jeudi.",
+              "en": "I'd also ask you to hand in the report before Thursday."
             }
           ]
         },
@@ -62,19 +65,23 @@
           "lines": [
             {
               "speaker": "A",
-              "text": "As-tu reçu ton chèque?"
+              "fr": "As-tu reçu ton chèque?",
+              "en": "Did you receive your cheque?"
             },
             {
               "speaker": "B",
-              "text": "Non, je ne l'ai pas eu."
+              "fr": "Non, je ne l'ai pas eu.",
+              "en": "No, I didn't get it."
             },
             {
               "speaker": "A",
-              "text": "Combien de jours a-t-on pour faire une réclamation?"
+              "fr": "Combien de jours a-t-on pour faire une réclamation?",
+              "en": "How many days do we have to file a claim?"
             },
             {
               "speaker": "B",
-              "text": "On a dix jours."
+              "fr": "On a dix jours.",
+              "en": "We have ten days."
             }
           ]
         }
@@ -115,7 +122,8 @@
                 "Je prendrais une salade."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Types De Requêtes",
@@ -152,7 +160,8 @@
                 "Prière de ne pas fumer."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Discours Indirect",
@@ -183,7 +192,8 @@
                 "Il nous demande de participer."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Obtenir Quelque Chose",
@@ -214,7 +224,8 @@
                 "On a dix jours pour faire une réclamation."
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },

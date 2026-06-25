@@ -43,23 +43,28 @@
           "lines": [
             {
               "speaker": "A",
-              "fr": "Les Accords de Lima s’appliquent à tous les pays d’Amérique du Sud avec lesquels le Canada fait du commerce, à l’exception de la Colombie."
+              "fr": "Les Accords de Lima s’appliquent à tous les pays d’Amérique du Sud avec lesquels le Canada fait du commerce, à l’exception de la Colombie.",
+              "en": "The Lima Accords apply to all South American countries Canada trades with, except Colombia."
             },
             {
               "speaker": "B",
-              "fr": "Donc les accords incluent l’Uruguay et aussi le Pérou?"
+              "fr": "Donc les accords incluent l’Uruguay et aussi le Pérou?",
+              "en": "So the accords include Uruguay and also Peru?"
             },
             {
               "speaker": "A",
-              "fr": "Oui. La Colombie s’est retirée de ces accords; ce retrait signifie que l’article 16 s’applique aux pays signataires, à part la Colombie."
+              "fr": "Oui. La Colombie s’est retirée de ces accords; ce retrait signifie que l’article 16 s’applique aux pays signataires, à part la Colombie.",
+              "en": "Yes. Colombia withdrew from these accords; that withdrawal means article 16 applies to the signatory countries, apart from Colombia."
             },
             {
               "speaker": "B",
-              "fr": "Est-ce que la documentation renferme des précisions sur les modalités?"
+              "fr": "Est-ce que la documentation renferme des précisions sur les modalités?",
+              "en": "Does the documentation contain details about the terms?"
             },
             {
               "speaker": "A",
-              "fr": "À l’intérieur de la pochette d’information, vous avez tous les renseignements."
+              "fr": "À l’intérieur de la pochette d’information, vous avez tous les renseignements.",
+              "en": "Inside the information folder, you have all the details."
             }
           ]
         }
@@ -105,15 +110,18 @@
                 "3,6 m3; 1,5 litre"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
           "title": "Formules de normes et règlements",
-          "fr": "La loi vous oblige à respecter la limite.\nLe règlement stipule que vous ne pouvez pas dépasser cette vitesse.\nLe règlement exige que vous signiez le registre.\nLe texte s’applique aux cas exposés dans votre lettre.\nConformément aux exigences de la loi, certaines dépenses sont exclues."
+          "fr": "La loi vous oblige à respecter la limite.\nLe règlement stipule que vous ne pouvez pas dépasser cette vitesse.\nLe règlement exige que vous signiez le registre.\nLe texte s’applique aux cas exposés dans votre lettre.\nConformément aux exigences de la loi, certaines dépenses sont exclues.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         },
         {
           "title": "Il faut que + subjonctif",
-          "fr": "Il doit envoyer trois copies. -> Il faut qu’il envoie trois copies.\nEmployez des planches de 10 cm sur 15 cm. -> Il faut que vous employiez des planches de 10 cm sur 15 cm.\nN’entrez pas votre bicyclette à l’intérieur de l’édifice. -> Il ne faut pas que vous entriez votre bicyclette à l’intérieur de l’édifice."
+          "fr": "Il doit envoyer trois copies. -> Il faut qu’il envoie trois copies.\nEmployez des planches de 10 cm sur 15 cm. -> Il faut que vous employiez des planches de 10 cm sur 15 cm.\nN’entrez pas votre bicyclette à l’intérieur de l’édifice. -> Il ne faut pas que vous entriez votre bicyclette à l’intérieur de l’édifice.",
+          "help": "Worked example — tap or hover any French sentence to reveal its English translation."
         }
       ]
     },

@@ -75,7 +75,7 @@
       ],
       "exampleTexts": [
         {
-          "title": "Activité 2 — Indicateurs de temps",
+          "title": "Indicateurs de temps",
           "table": {
             "headers": [
               "Type",
@@ -107,10 +107,11 @@
                 "en 2004, en 1970"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 13 — Questions temporelles",
+          "title": "Questions temporelles",
           "table": {
             "headers": [
               "Question",
@@ -146,10 +147,11 @@
                 "demander le temps de façon générale"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 16 — Finir au présent",
+          "title": "Finir au présent",
           "table": {
             "headers": [
               "Sujet",
@@ -181,10 +183,11 @@
                 "finissent"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 19 — Messages avec dates et heures",
+          "title": "Messages avec dates et heures",
           "table": {
             "headers": [
               "Événement",
@@ -212,10 +215,11 @@
                 "le 8 juin à 9 h 40"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         },
         {
-          "title": "Activité 22 — Arrangements",
+          "title": "Arrangements",
           "table": {
             "headers": [
               "Fonction",
@@ -243,7 +247,8 @@
                 "Ça vous convient? / Ça vous va?"
               ]
             ]
-          }
+          },
+          "help": "Reference table — review each row: the left column names the category and the right gives the form, meaning or example."
         }
       ]
     },
