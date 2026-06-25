@@ -29,6 +29,17 @@ const EXPLANATION_FIELDS = [
 ];
 const TIP_FIELDS = ["memory_aid", "pattern", "similar"];
 
+function hasUnanswerablePlaceholderPrompt(it: any) {
+  const fr = String(it.prompt?.fr ?? "");
+  const instructions = String(it.prompt?.instructions_en ?? "");
+  return (
+    /^[A-ZÀ-Ÿa-zà-ÿ\s]+[—-]\s*item\s*\d+$/i.test(fr) ||
+    /[—-]\s*item\s*\d+/i.test(fr) ||
+    /^item\s*\d+$/i.test(fr) ||
+    (/^Give the .* form\.?$/i.test(instructions) && !/[()_:?«»]/.test(fr))
+  );
+}
+
 // ---- load curriculum (objective registry) -------------------------------
 const curriculum = readJson(join(ROOT, "curriculum.json"));
 const objectiveIds = new Set<string>(curriculum.objectives.map((o: any) => o.id));
@@ -47,6 +58,9 @@ for (const file of readdirSync(itemsDir).filter((f) => f.endsWith(".json"))) {
 
     if (!objectiveIds.has(it.objectiveId))
       err(`[${file}] item ${id}: unknown objectiveId "${it.objectiveId}"`);
+
+    if (hasUnanswerablePlaceholderPrompt(it))
+      err(`[${file}] item ${id}: prompt is not self-contained or answerable ("${it.prompt?.fr ?? ""}")`);
 
     // explanation contract
     if (!it.explanation) err(`[${file}] item ${id}: missing explanation block`);
