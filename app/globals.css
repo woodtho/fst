@@ -652,3 +652,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 @media (prefers-reduced-motion: reduce) {
   .ttip-pop, .ttip-mark { transition: none; }
 }
+
+/* ── Example activity lines + word lists ────────────────────────────────── */
+.example-body { margin: 0; }
+.example-line { padding: .12rem 0; line-height: 1.5; }
+.vocab-table td > div { padding: .05rem 0; }

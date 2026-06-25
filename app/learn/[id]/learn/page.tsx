@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getObjective, getModule, getLexiconByOf } from "@/lib/content";
 import Translatable from "@/components/Translatable";
+import { EXAMPLE_TRANS, normFr } from "@/lib/exampleTranslations";
 
 export const dynamic = "force-dynamic";
 
@@ -15,6 +16,38 @@ function exampleBody(example: any) {
   if (example.title || typeof example.fr !== "string") return example.fr;
   const lines = example.fr.split("\n");
   return lines[0]?.trim().startsWith("Activité ") ? lines.slice(1).join("\n").trimStart() : example.fr;
+}
+
+/**
+ * Break an example body into individual lines so each can carry its own translation:
+ *  - "fr = en" lines pair the French with its English;
+ *  - alternative formulas split on " / " go on their own line;
+ *  - comma word-lists (no full sentences) split onto one item per line;
+ *  - other French lines look up a translation in EXAMPLE_TRANS.
+ */
+function exampleItems(body: string): { fr: string; en?: string }[] {
+  const out: { fr: string; en?: string }[] = [];
+  for (let raw of String(body).split("\n")) {
+    raw = raw.trim();
+    if (!raw) continue;
+    for (let part of raw.split(/ \/ /)) {
+      part = part.trim();
+      if (!part) continue;
+      const eq = part.indexOf(" = ");
+      if (eq > -1) { out.push({ fr: part.slice(0, eq).trim(), en: part.slice(eq + 3).trim() }); continue; }
+      const isWordList = (part.match(/, /g) ?? []).length >= 2 && !/\.\s+\S/.test(part) && !part.includes(" -> ");
+      if (isWordList) {
+        for (let w of part.split(/,\s*/)) { w = w.trim().replace(/\.$/, ""); if (w) out.push({ fr: w, en: EXAMPLE_TRANS[normFr(w)] }); }
+        continue;
+      }
+      out.push({ fr: part, en: EXAMPLE_TRANS[normFr(part)] });
+    }
+  }
+  return out;
+}
+
+function splitList(s?: string): string[] {
+  return String(s ?? "").split(" / ").map((x) => x.trim()).filter(Boolean);
 }
 
 export default function LearnPage({ params }: { params: { id: string } }) {
@@ -48,8 +81,8 @@ export default function LearnPage({ params }: { params: { id: string } }) {
             <tbody>
               {learn.vocabulary.map((v: any, i: number) => (
                 <tr key={i}>
-                  <td className="fr">{v.fr}</td>
-                  <td>{v.en}</td>
+                  <td className="fr" lang="fr">{splitList(v.fr).map((x, k) => <div key={k}>{x}</div>)}</td>
+                  <td>{splitList(v.en).map((x, k) => <div key={k}>{x}</div>)}</td>
                   <td className="muted">{v.pos ?? (v.aux ? `aux: ${v.aux}` : "")}</td>
                   <td className="muted">{v.register ?? ""}{v.note ? ` — ${v.note}` : ""}{v.pp ? `pp: ${v.pp}` : ""}</td>
                 </tr>
@@ -97,7 +130,13 @@ export default function LearnPage({ params }: { params: { id: string } }) {
         <div className="panel" key={i}>
           <h2 style={{ marginTop: 0 }}>{exampleTitle(t)}</h2>
           {t.help && <p className="activity-help">{t.help}</p>}
-          {exampleBody(t) && <pre style={{ whiteSpace: "pre-wrap", fontFamily: "inherit" }} className="fr">{exampleBody(t)}</pre>}
+          {exampleBody(t) && (
+            <div className="example-body">
+              {exampleItems(exampleBody(t)).map((it, k) => (
+                <div className="example-line" key={k}><Translatable fr={it.fr} en={it.en} /></div>
+              ))}
+            </div>
+          )}
           {t.table && (
             <table className="vocab-table">
               <thead>
