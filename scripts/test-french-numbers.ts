@@ -1,6 +1,9 @@
 import assert from "node:assert/strict";
 import {
   MAX_FRENCH_INTEGER,
+  buildFormatLabQuestion,
+  buildNumberCompareQuestion,
+  buildNumberSequenceQuestion,
   formatFrenchValue,
   generateNumberQuestions,
   isNumberAnswerCorrect,
@@ -75,5 +78,19 @@ assert.equal(isNumberAnswerCorrect(strictQuestion, "Deux cents"), true);
 assert.equal(isNumberAnswerCorrect(strictQuestion, "deux cent"), false);
 const codeQuestion = { ...session[0], answer: "six un trois · zéro cinq", answerKind: "words" as const };
 assert.equal(isNumberAnswerCorrect(codeQuestion, "six un trois zéro cinq"), true);
+
+for (const build of [buildFormatLabQuestion, buildNumberCompareQuestion, buildNumberSequenceQuestion]) {
+  const questions = Array.from({ length: 20 }, (_, index) => build(index, "mixed", 2468));
+  assert.deepEqual(questions, Array.from({ length: 20 }, (_, index) => build(index, "mixed", 2468)));
+  assert.equal(new Set(questions.map((question) => question.id)).size, 20);
+  assert.equal(new Set(questions.map((question) => `${question.prompt}|${question.options?.join("|") ?? ""}`)).size, 20);
+  for (const question of questions) {
+    assert.equal(isNumberAnswerCorrect(question, question.answer), true, question.id);
+    if (question.options) {
+      assert.equal(new Set(question.options).size, question.options.length, question.id);
+      assert.ok(question.options.includes(question.answer), question.id);
+    }
+  }
+}
 
 console.log(`French number tests passed (${cardinals.length} cardinal boundaries + formatter and generator coverage).`);

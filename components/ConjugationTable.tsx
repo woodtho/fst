@@ -2,6 +2,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import { VERBS, TENSES, PERSONS, GROUPS, conjugate, type Tense, type PersonKey, type Mood } from "@/lib/conjugation";
+import { getVerbConstructions, summarizeVerbConstructions } from "@/lib/verbConstructions";
 
 const DEFAULT_TENSES: Tense[] = ["present", "passe_compose", "imparfait", "futur_simple", "conditionnel", "subjonctif", "imperatif"];
 const MOODS: Mood[] = ["Indicatif", "Conditionnel", "Subjonctif", "Impératif"];
@@ -25,7 +26,7 @@ export default function ConjugationTable() {
 
   const q = query.trim().toLowerCase();
   const matches = useMemo(
-    () => (q ? pool.filter((v) => v.inf.toLowerCase().includes(q) || v.en.toLowerCase().includes(q)) : pool).slice(0, 60),
+    () => (q ? pool.filter((v) => v.inf.toLowerCase().includes(q) || v.en.toLowerCase().includes(q) || summarizeVerbConstructions(v.inf).toLowerCase().includes(q)) : pool).slice(0, 60),
     [pool, q],
   );
   // clicking a verb in the dropdown toggles it; selection may be empty
@@ -71,7 +72,7 @@ export default function ConjugationTable() {
                 ) : matches.map((v) => (
                   <li key={v.inf}>
                     <button type="button" className={selected.includes(v.inf) ? "sel" : ""} onMouseDown={(e) => e.preventDefault()} onClick={() => toggleVerb(v.inf)}>
-                      <span className="fr" lang="fr">{v.inf}</span> <span className="muted">— {v.en}</span>{selected.includes(v.inf) ? " ✓ (click to remove)" : ""}
+                      <span className="fr" lang="fr">{v.inf}</span> <span className="muted">— {v.en}</span>{getVerbConstructions(v.inf).length > 0 && <small className="verb-construction-preview">{summarizeVerbConstructions(v.inf)}</small>}{selected.includes(v.inf) ? " ✓ (click to remove)" : ""}
                     </button>
                   </li>
                 ))}
@@ -134,6 +135,7 @@ export default function ConjugationTable() {
             <h3 style={{ marginTop: 0 }}>
               <span className="fr" lang="fr">{v.inf}</span> <span className="muted">— {v.en}</span>
             </h3>
+            {getVerbConstructions(v.inf).length > 0 && <div className="verb-construction-summary">{getVerbConstructions(v.inf).map((construction) => <div key={construction.id}><strong className="fr">{construction.pattern}</strong><span>{construction.exampleFr}</span>{construction.replacement && <small>Replacement: {construction.replacement}</small>}</div>)}</div>}
             <table className="conj-table">
               <thead>
                 <tr>

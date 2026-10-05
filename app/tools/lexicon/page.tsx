@@ -26,6 +26,7 @@ export default function LexiconTool() {
       <div className="btn-row" style={{ marginBottom: 18 }}>
         <Link className="btn" href="/tools/lexicon/practice">Practice lexicon questions</Link>
         <Link className="btn secondary" href="/tools/lexicon/game">Play the lexicon game</Link>
+        <Link className="btn secondary" href="/games?scope=lexicon&key=all">More lexicon games</Link>
       </div>
       {learn && (
         <section className="panel" style={{ marginBottom: 18 }}>

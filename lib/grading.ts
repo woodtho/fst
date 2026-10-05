@@ -8,6 +8,9 @@ function stripAccents(s: string) {
 function normalize(value: string, normalizer?: string): string {
   let v = value ?? "";
   switch (normalizer) {
+    case "fr_typography_strict":
+      v = v.normalize("NFC").replace(/[’‘]/g, "'").replace(/[‐‑‒–—]/g, "-").replace(/\s*'\s*/g, "'").replace(/\s*-\s*/g, "-").trim().toLocaleLowerCase("fr-CA");
+      break;
     case "fr_accent_insensitive_trim_lower":
       v = stripAccents(v).trim().toLocaleLowerCase("fr-CA");
       break;
@@ -18,7 +21,7 @@ function normalize(value: string, normalizer?: string): string {
       v = v.trim().toLocaleLowerCase("fr-CA");
   }
   // collapse internal whitespace and drop trailing sentence punctuation
-  return v.replace(/\s+/g, " ").replace(/[.!?]+$/g, "").trim();
+  return v.replace(/\s+/g, " ").replace(/\s+([.!?])/g, "$1").replace(/[.!?]+$/g, "").trim();
 }
 
 export type GradeResult = {

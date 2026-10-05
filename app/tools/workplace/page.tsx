@@ -33,6 +33,9 @@ export default function WorkplaceTool({ searchParams }: { searchParams: { focus?
         ))}
       </div>
       <p className="muted">{focus.blurb} · {items.length} questions in this pool.</p>
+      <div className="btn-row" style={{ marginBottom: 18 }}>
+        <Link className="btn secondary" href="/games?scope=workplace&key=all">Play a workplace game</Link>
+      </div>
 
       {session.length > 0 ? (
         <ExerciseRunner items={session} backHref="/tools" backLabel="Back to tools" />

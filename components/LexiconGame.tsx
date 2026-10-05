@@ -1,6 +1,9 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import LocalScoreboard from "@/components/LocalScoreboard";
+import type { GameScope } from "@/lib/gameTypes";
+import { useGameScores } from "@/lib/useGameScores";
 
 type Entry = { fr: string; en: string; of: number; objectiveId: string };
 
@@ -29,6 +32,7 @@ const QUESTION_TIME = 9; // seconds
 type Question = { prompt: string; answer: string; options: string[]; promptOf: string };
 
 export default function LexiconGame({ entries }: { entries: Entry[] }) {
+  const { record } = useGameScores();
   const [direction, setDirection] = useState<"fe" | "ef">("fe");
   const [scope, setScope] = useState<"all" | "A" | "B">("all");
   const [phase, setPhase] = useState<"start" | "play" | "over">("start");
@@ -45,6 +49,8 @@ export default function LexiconGame({ entries }: { entries: Entry[] }) {
 
   const poolRef = useRef<Entry[]>([]);
   const advanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const recordedRef = useRef(false);
+  const scoreScope: GameScope = { type: "lexicon", id: scope, label: scope === "all" ? "Lexicon · all levels" : `Lexicon · Level ${scope}` };
 
   const pool = useMemo(() => {
     const scoped = entries.filter((e) => (scope === "all" ? true : scope === "A" ? e.of <= 20 : e.of >= 21));
@@ -70,6 +76,7 @@ export default function LexiconGame({ entries }: { entries: Entry[] }) {
 
   const start = () => {
     poolRef.current = pool;
+    recordedRef.current = false;
     setLives(3); setScore(0); setStreak(0); setBest(0); setAnswered(0);
     setPhase("play");
     setPicked(null); setLocked(false); setTimeLeft(QUESTION_TIME);
@@ -118,8 +125,15 @@ export default function LexiconGame({ entries }: { entries: Entry[] }) {
 
   useEffect(() => () => { if (advanceRef.current) clearTimeout(advanceRef.current); }, []);
 
+  useEffect(() => {
+    if (phase !== "over" || recordedRef.current) return;
+    record({ scope: scoreScope, mode: "lexicon", modeLabel: "Lexicon sprint", score, bestStreak: best });
+    recordedRef.current = true;
+  }, [best, phase, record, score, scoreScope.id, scoreScope.label]);
+
   if (phase === "start") {
     return (
+      <>
       <div className="panel game-start">
         <h2 style={{ marginTop: 0 }}>Lexicon game 🎯</h2>
         <p className="muted">Pick the right translation before the timer runs out. 3 lives, build a streak for bonus points.</p>
@@ -142,11 +156,14 @@ export default function LexiconGame({ entries }: { entries: Entry[] }) {
           <span className="kbd-hint">{pool.length} words · keys 1–4 to answer</span>
         </div>
       </div>
+      <LocalScoreboard scope={scoreScope} compact />
+      </>
     );
   }
 
   if (phase === "over") {
     return (
+      <>
       <div className="panel summary">
         <div className="score">{score}</div>
         <p className="lead">Game over · {answered} answered · best streak {best}</p>
@@ -155,6 +172,8 @@ export default function LexiconGame({ entries }: { entries: Entry[] }) {
           <button className="btn secondary" onClick={() => setPhase("start")}>Change settings</button>
         </div>
       </div>
+      <LocalScoreboard scope={scoreScope} compact />
+      </>
     );
   }
 

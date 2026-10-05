@@ -1,7 +1,10 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
+  buildFormatLabQuestion,
+  buildNumberCompareQuestion,
+  buildNumberSequenceQuestion,
   buildSpecialCaseQuestion,
   formatFrenchValue,
   generateNumberQuestions,
@@ -13,6 +16,10 @@ import {
   type NumberDifficulty,
   type NumberQuestion,
 } from "@/lib/frenchNumbers";
+import LocalScoreboard from "@/components/LocalScoreboard";
+import { gameScoreKey } from "@/lib/gameScores";
+import type { ArcadeMode, GameScope } from "@/lib/gameTypes";
+import { useGameScores } from "@/lib/useGameScores";
 
 export type NumbersView = "learn" | "converter" | "games" | "tests";
 
@@ -208,17 +215,29 @@ function ConverterView() {
   );
 }
 
-type GameMode = "write" | "read" | "special" | "math";
+type GameMode = "write" | "read" | "special" | "math" | "formats" | "compare" | "sequence";
 
 const GAME_INFO: Record<GameMode, { label: string; description: string }> = {
   write: { label: "Write it", description: "Turn digits into exact French spelling." },
   read: { label: "Read it", description: "Turn French number words back into digits." },
   special: { label: "Rule picker", description: "Choose the form with the right et, hyphens, and plurals." },
   math: { label: "Math sprint", description: "Solve French arithmetic before the timer expires." },
+  formats: { label: "Format Lab", description: "Master decimals, money, percentages, dates, times, and codes." },
+  compare: { label: "Number Compare", description: "Choose the larger or smaller number written in French." },
+  sequence: { label: "Sequence Solver", description: "Find the pattern and complete a French number sequence." },
+};
+
+const NUMBER_SCOPE: GameScope = { type: "numbers", id: "all", label: "Numbers & math" };
+const NUMBER_SCORE_MODE: Record<GameMode, ArcadeMode> = {
+  write: "numbers-write", read: "numbers-read", special: "numbers-special", math: "numbers-math",
+  formats: "numbers-formats", compare: "numbers-compare", sequence: "numbers-sequence",
 };
 
 function createGameQuestions(mode: GameMode, difficulty: NumberDifficulty, seed: number): NumberQuestion[] {
   if (mode === "special") return Array.from({ length: 8 }, (_, index) => buildSpecialCaseQuestion(index + seed));
+  if (mode === "formats") return Array.from({ length: 16 }, (_, index) => buildFormatLabQuestion(index, difficulty, seed));
+  if (mode === "compare") return Array.from({ length: 16 }, (_, index) => buildNumberCompareQuestion(index, difficulty, seed));
+  if (mode === "sequence") return Array.from({ length: 16 }, (_, index) => buildNumberSequenceQuestion(index, difficulty, seed));
   const category: NumberCategory = mode === "math" ? "math" : "cardinals";
   const pool = generateNumberQuestions({ count: 100, difficulty, categories: [category], seed });
   if (mode === "write") return pool.filter((question) => question.answerKind === "words").slice(0, 16);
@@ -261,6 +280,7 @@ function QuestionInput({ question, response, setResponse, locked }: { question: 
 }
 
 function GamesView() {
+  const { store, record } = useGameScores();
   const [mode, setMode] = useState<GameMode>("write");
   const [difficulty, setDifficulty] = useState<NumberDifficulty>("beginner");
   const [questions, setQuestions] = useState<NumberQuestion[]>([]);
@@ -269,15 +289,18 @@ function GamesView() {
   const [feedback, setFeedback] = useState<boolean | null>(null);
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
+  const [bestStreak, setBestStreak] = useState(0);
   const [lives, setLives] = useState(3);
   const [phase, setPhase] = useState<"setup" | "play" | "over">("setup");
   const [timeLeft, setTimeLeft] = useState(12);
+  const recorded = useRef(false);
 
   const question = questions[index];
   const start = () => {
     const seed = Date.now() % 1_000_000;
     setQuestions(createGameQuestions(mode, difficulty, seed));
-    setIndex(0); setResponse(""); setFeedback(null); setScore(0); setStreak(0); setLives(3); setTimeLeft(12); setPhase("play");
+    recorded.current = false;
+    setIndex(0); setResponse(""); setFeedback(null); setScore(0); setStreak(0); setBestStreak(0); setLives(3); setTimeLeft(12); setPhase("play");
   };
 
   const resolve = useCallback((answer = response) => {
@@ -286,12 +309,18 @@ function GamesView() {
     setFeedback(correct);
     if (correct) {
       setScore((value) => value + 10 + Math.min(streak, 5) * 2);
-      setStreak((value) => value + 1);
+      setStreak((value) => { const nextValue = value + 1; setBestStreak((best) => Math.max(best, nextValue)); return nextValue; });
     } else {
       setStreak(0);
       setLives((value) => Math.max(0, value - 1));
     }
   }, [feedback, question, response, streak]);
+
+  useEffect(() => {
+    if (phase !== "over" || recorded.current) return;
+    record({ scope: NUMBER_SCOPE, mode: NUMBER_SCORE_MODE[mode], modeLabel: GAME_INFO[mode].label, score, bestStreak });
+    recorded.current = true;
+  }, [bestStreak, mode, phase, record, score]);
 
   const next = () => {
     if (lives <= 0 || index + 1 >= questions.length) { setPhase("over"); return; }
@@ -345,20 +374,26 @@ function GamesView() {
             <span className="kbd-hint">3 lives · instant feedback · Enter to continue</span>
           </div>
         </section>
+        <LocalScoreboard scope={NUMBER_SCOPE} compact />
       </div>
     );
   }
 
   if (phase === "over") {
+    const personalBest = store.scores[gameScoreKey(NUMBER_SCOPE, NUMBER_SCORE_MODE[mode])]?.highScore ?? score;
     return (
-      <section className="panel summary">
-        <div className="score">{score}</div>
-        <p className="lead">{GAME_INFO[mode].label} complete · {index + 1} question{index ? "s" : ""}</p>
-        <div className="btn-row" style={{ justifyContent: "center" }}>
-          <button className="btn" type="button" onClick={start}>Play again</button>
-          <button className="btn secondary" type="button" onClick={() => setPhase("setup")}>Change game</button>
-        </div>
-      </section>
+      <>
+        <section className="panel summary">
+          <div className="score">{score}</div>
+          <p className="lead">{GAME_INFO[mode].label} complete · {index + 1} question{index ? "s" : ""} · best streak {bestStreak}</p>
+          <p className="muted">Local high score: {personalBest}</p>
+          <div className="btn-row" style={{ justifyContent: "center" }}>
+            <button className="btn" type="button" onClick={start}>Play again</button>
+            <button className="btn secondary" type="button" onClick={() => setPhase("setup")}>Change game</button>
+          </div>
+        </section>
+        <LocalScoreboard scope={NUMBER_SCOPE} compact />
+      </>
     );
   }
 

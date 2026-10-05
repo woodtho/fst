@@ -20,6 +20,10 @@ export default function ConceptPractice({ params }: { params: { concept: string 
       <h1 className="fr" style={{ marginBottom: 2 }}>{info.nameFr}</h1>
       <p className="lead">{info.nameEn}</p>
 
+      <div className="btn-row" style={{ marginBottom: 18 }}>
+        <Link className="btn secondary" href={`/games?scope=grammar&key=${params.concept}`}>Play a game with this concept</Link>
+      </div>
+
       <div className="panel">
         <h2 style={{ marginTop: 0 }}>Rules</h2>
         <p>{info.summaryEn}</p>

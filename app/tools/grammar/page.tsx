@@ -32,7 +32,10 @@ export default function GrammarTool() {
                   {ofsByConcept[c].slice(0, 6).map((id) => <span key={id} className="tag">{id}</span>)}
                 </div>
               </div>
-              <Link className="btn" href={`/tools/grammar/${c}`}>Practice</Link>
+              <div className="btn-row">
+                <Link className="btn" href={`/tools/grammar/${c}`}>Practice</Link>
+                <Link className="btn secondary" href={`/games?scope=grammar&key=${c}`}>Play</Link>
+              </div>
             </div>
           );
         })}

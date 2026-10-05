@@ -3,6 +3,7 @@
 // this slice swaps the data source, not the shapes.)
 import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { getVerbGameItems } from "./verbGameItems.ts";
 
 const CONTENT = join(process.cwd(), "content");
 const read = (p: string) => JSON.parse(readFileSync(p, "utf8"));
@@ -82,8 +83,12 @@ export function getItem(itemId: string): Item | undefined {
   if (lexiconHit) return lexiconHit;
   const supplementHit = getSupplementQuestionItems().find((it) => it.id === itemId);
   if (supplementHit) return supplementHit;
+  const verbGameHit = getVerbGameItems().find((it) => it.id === itemId);
+  if (verbGameHit) return verbGameHit;
   return undefined;
 }
+
+export { getVerbGameItems };
 
 /** Which objectives actually have authored learn/practice content available in this slice. */
 export function getAvailability(id: string) {

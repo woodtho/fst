@@ -43,6 +43,9 @@ export default function ConsolidationRange({ params, searchParams }: { params: {
         <Link href={`/consolidation/${from}-${to}`} className={`chip ${!exam ? "active" : ""}`}>Study (feedback each)</Link>
         <Link href={`/consolidation/${from}-${to}?mode=exam`} className={`chip ${exam ? "active" : ""}`}>Exam (feedback at end)</Link>
       </div>
+      <div className="btn-row" style={{ marginBottom: 18 }}>
+        <Link className="btn secondary" href={`/games?scope=consolidation&key=${from}-${to}`}>Play a consolidation game</Link>
+      </div>
       {guide && (
         <section className="panel supplement-panel" aria-labelledby="consolidation-source">
           <div className="section-head">

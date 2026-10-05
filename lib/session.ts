@@ -1,4 +1,4 @@
-import { type Item, type SanitizedItem, sanitize } from "./content";
+import { type Item, type SanitizedItem, sanitize } from "./content.ts";
 
 const ORDER: Record<string, number> = { easy: 0, medium: 1, advanced: 2 };
 

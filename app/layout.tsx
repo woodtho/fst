@@ -17,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </Link>
           <nav className="topnav">
             <Link href="/">Modules</Link>
+            <Link href="/games">Games</Link>
             <Link href="/tools/grammar">Grammar</Link>
             <Link href="/tools/conjugation">Conjugation</Link>
             <Link href="/tools/numbers">Numbers</Link>

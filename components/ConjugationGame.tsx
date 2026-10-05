@@ -3,8 +3,10 @@
 import { useMemo, useState } from "react";
 import { VERBS, TENSES, PERSONS, GROUPS, type Tense, type PersonKey, type Mood } from "@/lib/conjugation";
 import ConjugationRunner from "@/components/ConjugationRunner";
+import LocalScoreboard from "@/components/LocalScoreboard";
+import { summarizeVerbConstructions } from "@/lib/verbConstructions";
 
-type Prompt = { inf: string; en: string; tense: string; tenseFr: string; person: string; personDisplay: string };
+type Prompt = { inf: string; en: string; tense: string; tenseFr: string; person: string; personDisplay: string; constructionSummary?: string };
 const MOODS: Mood[] = ["Indicatif", "Conditionnel", "Subjonctif", "Impératif"];
 const IMP_PERSONS = ["tu", "nous", "vous"];
 
@@ -38,7 +40,7 @@ export default function ConjugationGame() {
         if (!choices.length) choices = IMP_PERSONS;
       }
       const pk = rand(choices) as PersonKey;
-      out.push({ inf: v.inf, en: v.en, tense: t, tenseFr: TENSES.find((x) => x.key === t)!.fr, person: pk, personDisplay: PERSONS.find((x) => x.key === pk)!.display });
+      out.push({ inf: v.inf, en: v.en, tense: t, tenseFr: TENSES.find((x) => x.key === t)!.fr, person: pk, personDisplay: PERSONS.find((x) => x.key === pk)!.display, constructionSummary: summarizeVerbConstructions(v.inf) || undefined });
     }
     setPrompts(out);
   };
@@ -55,6 +57,7 @@ export default function ConjugationGame() {
   }
 
   return (
+    <>
     <div className="panel">
       <p className="muted" style={{ marginTop: 0 }}>Pick any mix of tenses, verb types and persons, then start. You type the verb form; answers are graded server-side (pronoun and « que » optional).</p>
 
@@ -114,5 +117,7 @@ export default function ConjugationGame() {
         {!canStart && <span className="muted">Select at least one tense, verb type and person.</span>}
       </div>
     </div>
+    <LocalScoreboard scope={{ type: "conjugation", id: "all", label: "Conjugation" }} compact />
+    </>
   );
 }

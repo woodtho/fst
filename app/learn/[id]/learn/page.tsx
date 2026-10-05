@@ -178,6 +178,7 @@ export default function LearnPage({ params }: { params: { id: string } }) {
 
       <div className="btn-row">
         <Link className="btn" href={`/learn/${objective.id}/practice`}>I&apos;ve reviewed this → Start Practice</Link>
+        <Link className="btn secondary" href={`/games?scope=objective&key=${objective.id}`}>Play a game</Link>
       </div>
     </>
   );

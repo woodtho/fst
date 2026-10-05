@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const TOOLS = [
+  { href: "/games", title: "Games arcade", desc: "Survival, speed, typed, and matching games across every learning topic." },
   { href: "/tools/grammar", title: "Grammar tool", desc: "The 16 grammar concepts with rules and cross-OF practice." },
   { href: "/tools/conjugation", title: "Conjugation tool", desc: "Drill verb conjugations across six tenses, regular and irregular." },
   { href: "/tools/numbers", title: "French numbers & math", desc: "Learn number rules, convert everyday formats, play games and build custom tests." },

@@ -404,8 +404,19 @@ function ordinalQuestion(random: () => number, difficulty: Exclude<NumberDifficu
   };
 }
 
-function formatQuestion(random: () => number, difficulty: Exclude<NumberDifficulty, "mixed">, id: string): NumberQuestion {
-  const kind = choose(random, ["percent", "currency", "date", "time", "digits"] as const);
+const FORMAT_KINDS = ["decimal", "percent", "currency", "date", "time", "digits"] as const;
+type FormatQuestionKind = typeof FORMAT_KINDS[number];
+
+function formatQuestion(random: () => number, difficulty: Exclude<NumberDifficulty, "mixed">, id: string, forcedKind?: FormatQuestionKind): NumberQuestion {
+  const kind = forcedKind ?? choose(random, FORMAT_KINDS);
+  if (kind === "decimal") {
+    const whole = difficulty === "beginner" ? randomInt(random, 0, 99) : randomInt(random, 0, 99_999);
+    const fractionLength = difficulty === "advanced" ? randomInt(random, 2, 5) : randomInt(random, 1, 3);
+    const fraction = Array.from({ length: fractionLength }, (_, position) => position === 0 && random() < .35 ? "0" : String(randomInt(random, 0, 9))).join("");
+    const input = `${whole},${fraction}`;
+    const result = formatFrenchValue(input, { mode: "cardinal" });
+    return { id, category: "formats", prompt: input, instruction: "Écrivez ce nombre décimal en lettres.", answer: result.ok ? result.text : "", answerKind: "words", rule: "La partie après la virgule se lit comme un nombre, en conservant les zéros initiaux." };
+  }
   if (kind === "percent") {
     const whole = difficulty === "beginner" ? randomInt(random, 1, 100) : randomInt(random, 1, 999);
     const input = difficulty === "beginner" ? `${whole} %` : `${whole},${randomInt(random, 1, 9)} %`;
@@ -547,5 +558,60 @@ export function buildSpecialCaseQuestion(index: number): NumberQuestion {
     answerKind: "choice",
     options: shuffle(mulberry32(index + 41), [...item[2]]),
     rule: item[3],
+  };
+}
+
+/** Build one deterministic everyday-format question for the Numbers arcade. */
+export function buildFormatLabQuestion(index: number, difficulty: NumberDifficulty = "mixed", seed = 1): NumberQuestion {
+  const random = mulberry32(seed + index * 104_729);
+  const resolved = resolvedDifficulty(random, difficulty);
+  return formatQuestion(random, resolved, `format-lab-${seed}-${index}`, FORMAT_KINDS[index % FORMAT_KINDS.length]);
+}
+
+/** Build one deterministic comparison question with unique French-number choices. */
+export function buildNumberCompareQuestion(index: number, difficulty: NumberDifficulty = "mixed", seed = 1): NumberQuestion {
+  const random = mulberry32(seed + index * 130_363);
+  const resolved = resolvedDifficulty(random, difficulty);
+  const max = resolved === "beginner" ? 99 : resolved === "intermediate" ? 9_999 : 999_999;
+  const values = new Set<number>();
+  while (values.size < 4) values.add(randomInt(random, 0, max));
+  const ordered = [...values];
+  const chooseLargest = index % 2 === 0;
+  const answerValue = chooseLargest ? Math.max(...ordered) : Math.min(...ordered);
+  return {
+    id: `number-compare-${seed}-${index}`,
+    category: "cardinals",
+    prompt: chooseLargest ? "Quel nombre est le plus grand ?" : "Quel nombre est le plus petit ?",
+    instruction: "Comparez les nombres écrits en lettres.",
+    answer: spellFrenchCardinal(BigInt(answerValue)),
+    answerKind: "choice",
+    options: shuffle(random, ordered.map((value) => spellFrenchCardinal(BigInt(value)))),
+    rule: "Repérez d’abord les milliers et les centaines, puis comparez les dizaines et les unités.",
+  };
+}
+
+/** Build one deterministic arithmetic sequence question expressed entirely in French. */
+export function buildNumberSequenceQuestion(index: number, difficulty: NumberDifficulty = "mixed", seed = 1): NumberQuestion {
+  const random = mulberry32(seed + index * 154_858_63);
+  const resolved = resolvedDifficulty(random, difficulty);
+  const maxStart = resolved === "beginner" ? 40 : resolved === "intermediate" ? 500 : 20_000;
+  const maxStep = resolved === "beginner" ? 10 : resolved === "intermediate" ? 50 : 500;
+  const step = randomInt(random, 2, maxStep) * (index % 4 === 3 ? -1 : 1);
+  let start = randomInt(random, Math.abs(step) * 4, maxStart);
+  if (step > 0) start = randomInt(random, 0, maxStart);
+  const values = [start, start + step, start + step * 2, start + step * 3];
+  const answerValue = start + step * 4;
+  const distractors = new Set([answerValue, answerValue + step, Math.max(0, answerValue - step), Math.max(0, answerValue + (step > 0 ? 1 : -1))]);
+  let bump = 2;
+  while (distractors.size < 4) distractors.add(Math.max(0, answerValue + bump++));
+  return {
+    id: `number-sequence-${seed}-${index}`,
+    category: "math",
+    prompt: `${values.map((value) => spellFrenchCardinal(BigInt(value))).join(" · ")} · …`,
+    instruction: "Quel nombre vient ensuite ?",
+    answer: spellFrenchCardinal(BigInt(answerValue)),
+    answerKind: "choice",
+    options: shuffle(random, [...distractors].slice(0, 4).map((value) => spellFrenchCardinal(BigInt(value)))),
+    rule: `La suite change de ${spellFrenchCardinal(BigInt(Math.abs(step)))} à chaque étape.`,
   };
 }

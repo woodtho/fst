@@ -41,6 +41,16 @@ export default function ModuleHub({ params }: { params: { id: string } }) {
 
         <div className="stage">
           <div>
+            <strong>Play a game</strong>
+            <div className="meta">Survival, speed, typing, and matching modes using this module&apos;s questions.</div>
+          </div>
+          {items.length > 0
+            ? <Link className="btn secondary" href={`/games?scope=objective&key=${objective.id}`}>Choose a game</Link>
+            : <span className="meta">No items yet</span>}
+        </div>
+
+        <div className="stage">
+          <div>
             <strong>Practice</strong>
             <div className="meta">{items.length > 0 ? `${items.length} questions with full explanations` : "No items yet"}</div>
           </div>
