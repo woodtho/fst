@@ -19,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/">Modules</Link>
             <Link href="/tools/grammar">Grammar</Link>
             <Link href="/tools/conjugation">Conjugation</Link>
+            <Link href="/tools/numbers">Numbers</Link>
             <Link href="/tools/lexicon">Lexicon</Link>
             <Link href="/tools/workplace">Workplace</Link>
             <Link href="/consolidation">Consolidation</Link>

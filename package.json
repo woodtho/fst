@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "validate": "node --experimental-strip-types scripts/validate-content.ts",
+    "test:numbers": "node --experimental-strip-types scripts/test-french-numbers.ts",
     "lexicon:parse": "node --experimental-strip-types scripts/parse-lexicon.ts",
     "extract:source": "node --experimental-strip-types scripts/extract-source-activities.ts",
     "build:modules": "node --experimental-strip-types scripts/build-modules.ts",

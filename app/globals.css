@@ -325,6 +325,82 @@ h3 { font-size: 1rem; margin: 18px 0 8px; }
 }
 .chip-x:hover { background: rgba(255,255,255,.55); }
 
+/* Numbers & math tool */
+.number-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, .85fr);
+  gap: 22px;
+  align-items: center;
+  background: linear-gradient(135deg, #fff 0%, #f1f6ff 100%);
+}
+.number-hero h2 { margin: 8px 0 6px; }
+.number-hero p { margin: 0; }
+.number-example {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid #cfdbef;
+  border-radius: 12px;
+  padding: 18px;
+  background: rgba(255,255,255,.8);
+}
+.number-example strong { color: var(--brand); font-size: 1.45rem; font-variant-numeric: tabular-nums; }
+.number-example span { font-weight: 600; }
+.number-rule-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.number-rule-grid .card:hover { border-color: var(--line); }
+.number-rule-grid h3 { margin-top: 0; color: var(--brand); }
+.number-rule-grid p { margin: 7px 0; }
+.math-vocab { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.math-vocab span {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 74px; padding: 9px; text-align: center;
+  border: 1px solid var(--line); border-radius: 10px; background: #f8fafc;
+}
+.math-vocab small { color: var(--brand); font-size: 1.2rem; font-weight: 800; }
+.number-equation { margin: 16px 0 0; text-align: center; font-size: 1.1rem; font-weight: 600; }
+.converter-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.converter-heading p { margin: 0 0 16px; }
+.number-form-grid { display: flex; align-items: flex-end; gap: 12px; }
+.number-form-grid > :first-child { flex: 1 1 420px; }
+.number-form-grid .match-select { min-width: 200px; }
+.converter-output {
+  margin-top: 18px; padding: 18px; border: 1px solid #b7dac8; border-radius: 12px;
+  background: var(--correct-bg);
+}
+.converter-output p { margin: 6px 0 0; font-size: clamp(1.35rem, 4vw, 2rem); font-weight: 750; color: #0f5f39; overflow-wrap: anywhere; }
+.converter-output .btn-row { margin-top: 12px; }
+.converter-error {
+  display: flex; flex-direction: column; gap: 3px; margin-top: 18px; padding: 14px 16px;
+  border: 1px solid #efb7b3; border-radius: 10px; background: var(--incorrect-bg); color: var(--incorrect);
+}
+.converter-error span, .converter-error small { color: var(--ink); }
+.number-game-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-bottom: 16px; }
+.number-choice-card { width: 100%; text-align: left; cursor: pointer; font: inherit; }
+.number-choice-card .card-title, .number-choice-card .card-sub { display: block; }
+.number-choice-card.selected { border-color: var(--brand); background: #eef3fb; box-shadow: var(--ring); }
+.test-options-grid { display: grid; grid-template-columns: 1.4fr .8fr .9fr; gap: 20px; margin-top: 20px; }
+
+@media (max-width: 760px) {
+  .number-hero, .number-rule-grid { grid-template-columns: 1fr; }
+  .math-vocab { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .number-form-grid { align-items: stretch; flex-direction: column; }
+  .number-form-grid > :first-child { flex-basis: auto; }
+  .number-form-grid .match-select { width: 100%; min-width: 0; }
+  .converter-heading { flex-direction: column; gap: 4px; }
+  .number-game-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .test-options-grid { grid-template-columns: 1fr; gap: 14px; }
+}
+
+@media (max-width: 420px) {
+  .number-game-grid, .math-vocab { grid-template-columns: 1fr; }
+  .converter-output .btn-row { align-items: flex-start; flex-direction: column; }
+}
+
 /* ═══════════════════════════ Stylistic polish ═══════════════════════════ */
 :root {
   --brand-2: #3b6bb5;
